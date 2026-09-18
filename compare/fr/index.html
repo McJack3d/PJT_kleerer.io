@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<meta name="description" content="Comparateur indépendant de compléments alimentaires : un Health & Compo Score fondé sur les preuves (A–E), le prix au gramme d'actif réel et un contrôle de dosage personnalisé pour 239 produits UE/France dans 23 catégories — vitamines, minéraux, protéines, plantes et « boosters » de testostérone notés à part. Sans sponsors, sans liens affiliés.">
+<meta name="description" content="Comparateur indépendant de compléments alimentaires : un Health & Compo Score fondé sur les preuves (A–E), le prix au gramme d'actif réel et un contrôle de dosage personnalisé pour 257 produits UE/France dans 25 catégories — vitamines, minéraux, protéines, plantes et « boosters » de testostérone notés à part. Sans sponsors, sans liens affiliés.">
 <meta name="robots" content="index,follow">
 <meta name="keywords" content="compléments alimentaires, supplements, health score, whey, créatine, magnésium, oméga-3, comparateur, additifs, édulcorants">
 <link rel="alternate" hreflang="fr" href="https://kleerer.com/compare/fr/">
@@ -15,7 +15,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="kleerer.">
 <meta property="og:title" content="kleerer. — les compléments, au clair">
-<meta property="og:description" content="Comparateur indépendant de compléments alimentaires : un Health & Compo Score fondé sur les preuves (A–E), le prix au gramme d'actif réel et un contrôle de dosage personnalisé pour 239 produits UE/France dans 23 catégories — vitamines, minéraux, protéines, plantes et « boosters » de testostérone notés à part. Sans sponsors, sans liens affiliés.">
+<meta property="og:description" content="Comparateur indépendant de compléments alimentaires : un Health & Compo Score fondé sur les preuves (A–E), le prix au gramme d'actif réel et un contrôle de dosage personnalisé pour 257 produits UE/France dans 25 catégories — vitamines, minéraux, protéines, plantes et « boosters » de testostérone notés à part. Sans sponsors, sans liens affiliés.">
 <meta property="og:url" content="https://kleerer.com/compare/fr/">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="kleerer. — supplements, made clear">
@@ -374,8 +374,12 @@ const BOTANICAL = new Set(META.botanical_categories || []);      // data-driven,
 const BOOSTER = new Set(META.booster_categories || []);         // data-driven, see build_scores.BOOSTERS
 const CAT_KEYS = ["all","whey","creatine","vitamin_d3","magnesium","omega3","multivitamin",
   "zinc","vitamin_c","collagen","probiotics","melatonin",
-  "vitamin_b12","vitamin_k2","b_complex","biotin","folate",
-  ...(META.botanical_categories || []), ...(META.booster_categories || [])];
+  "vitamin_b12","vitamin_k2","b_complex","biotin","folate","vitamin_e",
+  "iron","calcium","iodine","selenium","chromium","potassium",
+  ...(META.botanical_categories || []), ...(META.booster_categories || [])]
+  // A category is a pill only once it has products: new categories are wired
+  // in the code before their labels are transcribed, and an empty pill is a dead end.
+  .filter(k => k === "all" || P.some(p => p.category === k));
 const CATS = CAT_KEYS.map(k => [k, k]);                 // shape kept; labels resolved live
 const catLabel = k => T("cats")[k] || k;
 const GCOLOR = {A:"var(--gA)", B:"var(--gB)", C:"var(--gC)", D:"var(--gD)", E:"var(--gE)"};

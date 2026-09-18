@@ -434,6 +434,40 @@ def infer_form_tier(cat, form, entry=None):
             return 10, "Zinc oxide/sulfate — the cheapest and least absorbed form."
         return 8, "Zinc form not declared."
 
+    # ---------------------------------------------------------------------
+    # Minerals (v1.6). Ladders from the verified dossiers in METHODOLOGY §5c.
+    # ---------------------------------------------------------------------
+    if cat == "iron":
+        # Scored on the iron SALT. A wrapper ("liposomal", "microencapsulated")
+        # earns nothing by itself: no adult head-to-head absorption data exist
+        # for it. A liposome around bisglycinate is still bisglycinate.
+        if any(k in f for k in ["ultimine", "koji", "aspergillus"]):
+            return 12, "Iron-enriched koji (Ultimine) — small, manufacturer-funded absorption data only."
+        if "sucrosom" in f:
+            return 12, "Sucrosomial ferric pyrophosphate — trials mostly in clinical groups; no absorption comparison with ferrous sulfate."
+        if any(k in f for k in ["bisglycinate", "ferrochel", "lomachelate"]):
+            return 20, "Ferrous bisglycinate — the best head-to-head evidence among supplement forms (haemoglobin and gut tolerance)."
+        if any(k in f for k in ["sulfate ferreux", "sulfate de fer", "ferrous sulfate", "ferrous sulphate"]):
+            return 20, "Ferrous sulfate — the reference form of the fatigue and dosing trials; more gut side effects."
+        if any(k in f for k in ["fumarate"]):
+            return 18, "Ferrous fumarate — absorbed like ferrous sulfate in stable-isotope work."
+        if any(k in f for k in ["gluconate", "floradix"]):
+            return 16, "Ferrous gluconate — a standard ferrous salt with no modern absorption comparison."
+        if "liposom" in f or "micro-encaps" in f or "microencaps" in f:
+            return 12, "'Liposomal' iron (usually ferric pyrophosphate) — no adult head-to-head absorption data."
+        if any(k in f for k in ["pyrophosphate", "diphosphate"]):
+            return 10, "Ferric pyrophosphate — poorly soluble; a food-fortification form."
+        return 8, "Iron compound not declared."
+
+    if cat == "potassium":
+        if any(k in f for k in ["chlorure de potassium", "potassium chloride"]):
+            return 20, "Potassium chloride — the form behind most of the blood-pressure trials (solid tablets can irritate the gut)."
+        if "citrate" in f:
+            return 18, "Potassium citrate — lowered blood pressure as well as the chloride in a head-to-head RCT."
+        if any(k in f for k in ["bicarbonate", "hydrogenocarbonate", "gluconate"]):
+            return 16, "Potassium bicarbonate/gluconate — well absorbed; few blood-pressure trials."
+        return 8, "Potassium salt not declared."
+
     return 14, "Form not scored for this category."
 
 
@@ -554,4 +588,29 @@ def infer_dose_tier(cat, entry):
         if mg >= 10: return 20, f"{mg:g} mg zinc/day — covers the reference intake and stays under the 25 mg limit."
         if mg >= 5:  return 12, f"{mg:g} mg zinc/day — half the reference intake."
         return 8, f"{mg:g} mg zinc/day — token dose."
+    # Minerals (v1.6)
+    if cat == "iron":
+        # EFSA (2024) set no UL, only a 40 mg/day "safe level" for TOTAL intake,
+        # derived from trials where 20–25 mg of supplemental iron on top of food
+        # caused no black stools. Treatment doses (60–100 mg) work in proven
+        # deficiency, but belong with a blood test — so they score lower here.
+        mg = daily()
+        if mg > 65:  return 6,  f"{mg:g} mg iron/day — a treatment dose; needs a blood test and medical follow-up."
+        if mg > 40:  return 10, f"{mg:g} mg iron/day — above EFSA's 40 mg/day safe level on its own."
+        if mg > 25:  return 14, f"{mg:g} mg iron/day — with food, total intake passes EFSA's 40 mg/day safe level."
+        if mg >= 14: return 20, f"{mg:g} mg iron/day — at or above the NRV, within the supplemental amount behind EFSA's safe level."
+        if mg >= 5:  return 14, f"{mg:g} mg iron/day — a maintenance top-up below the 14 mg NRV."
+        return 8, f"{mg:g} mg iron/day — too little to correct a deficiency."
+    if cat == "potassium":
+        # No EFSA UL. Band = the dose range of the pooled blood-pressure trials
+        # (from 30 mmol ≈ 1,170 mg/day), capped where the benefit reversed and at
+        # the 3,000 mg adult maximum of the 2024 ANSES-approved draft. The French
+        # cap in force (80 mg/day, arrêté du 9 mai 2006) is regulatory, not a
+        # toxicity threshold — so, as for melatonin above its 1.9 mg ceiling, it
+        # caps the tier at 14 instead of zeroing it, and each product says why.
+        mg = daily()
+        if mg > 3000:  return 8,  f"{mg:g} mg potassium/day — above the 3,000 mg adult maximum of the 2024 draft; the blood-pressure benefit reverses."
+        if mg >= 1170: return 14, f"{mg:g} mg potassium/day — the range of the blood-pressure trials, but above the 80 mg French maximum for supplements still in force."
+        if mg >= 300:  return 12, f"{mg:g} mg potassium/day — below the lowest dose of the pooled blood-pressure trials."
+        return 6, f"{mg:g} mg potassium/day — under 15 % of the 2,000 mg NRV."
     return None

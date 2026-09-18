@@ -94,7 +94,17 @@
   "confidence": "high",
   "url": "https://www.argalys.com/products/vitamine-b12-iode-selenium",
   "ean": null,
-  "notes": "Posologie de la marque : 2 gélules par semaine en entretien (≈ 0,09 €/j selon la marque) ; 1 gélule/j en cure d'attaque — chiffré ici à 1/j, ce qui surestime le coût en entretien."
+  "notes": "Posologie de la marque : 2 gélules par semaine en entretien (≈ 0,09 €/j selon la marque) ; 1 gélule/j en cure d'attaque — chiffré ici à 1/j, ce qui surestime le coût en entretien.",
+  "secondary_actives": [
+   {
+    "category": "iodine",
+    "per_day": 150
+   },
+   {
+    "category": "selenium",
+    "per_day": 100
+   }
+  ]
  },
  {
   "category": "vitamin_b12",

@@ -18,9 +18,9 @@ const KLEERER_DATA = {
   "snapshot": "2026-07",
   "region": "EU/FR",
   "currency": "EUR",
-  "generated": "2026-09-06",
-  "n_products": 239,
-  "n_categories": 23,
+  "generated": "2026-09-18",
+  "n_products": 257,
+  "n_categories": 25,
   "n_red_cards": 1,
   "n_withheld_for_review": 0,
   "botanical_categories": [
@@ -7939,6 +7939,1580 @@ const KLEERER_DATA = {
    "rank_in_category": 17
   },
   {
+   "category": "iron",
+   "brand": "Arkopharma",
+   "name": "Arkogélules® Fer Liposomal",
+   "variant": "gélules · 60",
+   "price_eur": 13.4,
+   "price_note": "fr.arkopharma.com live 13/09/2026",
+   "units_pack": 60,
+   "unit_name": "gélule",
+   "units_per_day": 2,
+   "active_per_unit": 7,
+   "active_unit": "mg elemental Fe",
+   "form": "fer micro-encapsulé « liposomal » (diphosphate ferrique), avec vitamine C (44 mg/gélule, 88 mg/j)",
+   "vegan": false,
+   "additives": [
+    "amidon de maïs",
+    "amidon (fer micro-encapsulé)",
+    "lécithine (fer micro-encapsulé)",
+    "anti-agglomérant : sels de magnésium d'acides gras",
+    "gélule 100% végétale (dérivé de cellulose)"
+   ],
+   "certifications": [
+    "Fabriqué en France"
+   ],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "flags": [
+    "Femmes enceintes ou allaitantes : avis d'un professionnel de santé ; déconseillé en cas de maladie entraînant une accumulation anormale de fer (hémochromatose, polyglobulie) (étiquette).",
+    "Fer : sans pertes menstruelles (homme, femme ménopausée), le fer s'accumule — ne se prend qu'après une prise de sang (EFSA 2024). Tenir hors de portée des enfants : le fer est une cause majeure d'intoxication accidentelle grave du jeune enfant."
+   ],
+   "confidence": "high",
+   "url": "https://fr.arkopharma.com/products/arkogelules®-fer-liposomal",
+   "ean": "3578835506624",
+   "notes": "Adulte : 2 gélules/j = 14 mg de fer (100 % VNR) + 88 mg de vitamine C (110 %) ; 1 gélule/j de 6 à 17 ans. Boîte de 60 = 30 jours. Végan non revendiqué : sels de magnésium d'acides gras d'origine non précisée. EAN issu du JSON-LD de la fiche.",
+   "secondary_actives": [
+    {
+     "category": "vitamin_c",
+     "per_day": 88
+    }
+   ],
+   "id": "arkopharma-arkogelules-fer-liposomal-gelules-60",
+   "form_tier": 12,
+   "form_note": "'Liposomal' iron (usually ferric pyrophosphate) — no adult head-to-head absorption data.",
+   "dose_tier": 20,
+   "dose_note": "14 mg iron/day — at or above the NRV, within the supplemental amount behind EFSA's safe level.",
+   "purity_tags": [
+    "bulking_filler",
+    "anticaking"
+   ],
+   "additives_detail": [
+    "amidon de maïs",
+    "amidon (fer micro-encapsulé)",
+    "lécithine (fer micro-encapsulé)",
+    "anti-agglomérant : sels de magnésium d'acides gras",
+    "gélule 100% végétale (dérivé de cellulose)"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0
+   },
+   "scores": {
+    "form": 12,
+    "dose": 20,
+    "purity": 26,
+    "transparency": 4,
+    "total": 62,
+    "grade": "C",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.447,
+    "std": 0.447,
+    "std_label": "€ / 14 mg iron (NRV)",
+    "days_per_pack": 30,
+    "price_tier": 3
+   },
+   "label_hash": "f4a6df366d4b",
+   "rank_in_category": 11
+  },
+  {
+   "category": "iron",
+   "brand": "Biocyte",
+   "name": "Fer Liposomal",
+   "variant": "gélules · 30",
+   "price_eur": 19.5,
+   "price_note": "biocyte.com live 13/09/2026",
+   "units_pack": 30,
+   "unit_name": "gélule",
+   "units_per_day": 1,
+   "active_per_unit": 14,
+   "active_unit": "mg elemental Fe",
+   "form": "bisglycinate de fer en complexe microencapsulé (gomme arabique, lécithines) ; vitamine C, acide L-ascorbique (80 mg) ; vitamine B12, cyanocobalamine (1,25 µg)",
+   "vegan": true,
+   "additives": [
+    "agent de charge : gomme arabique",
+    "émulsifiant : lécithines",
+    "enveloppe de la gélule d’origine végétale (agent d’enrobage : hydroxypropylméthylcellulose, colorant : caramel)",
+    "poudre de cosse de pois (Pisum sativum)",
+    "agent de charge : cellulose microcristalline",
+    "anti-agglomérant : sels de magnésium d’acides gras"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "flags": [
+    "Réservé aux adultes ; déconseillé en cas de maladie entraînant une accumulation anormale de fer (hémochromatose, polyglobulie) et chez la femme enceinte ou allaitante sans avis d'un professionnel de santé (étiquette).",
+    "Fer : sans pertes menstruelles (homme, femme ménopausée), le fer s'accumule — ne se prend qu'après une prise de sang (EFSA 2024). Tenir hors de portée des enfants : le fer est une cause majeure d'intoxication accidentelle grave du jeune enfant."
+   ],
+   "confidence": "high",
+   "url": "https://www.biocyte.com/products/fer-liposomal",
+   "ean": "3770008244290",
+   "notes": "14 mg de fer (100 % VNR), 80 mg de vitamine C et 1,25 µg de B12 par gélule. Vendu « liposomal » ; la liste décrit un complexe de fer microencapsulé à la gomme arabique et aux lécithines. Contient un colorant (caramel).",
+   "secondary_actives": [
+    {
+     "category": "vitamin_c",
+     "per_day": 80
+    },
+    {
+     "category": "vitamin_b12",
+     "per_day": 1.25
+    }
+   ],
+   "id": "biocyte-fer-liposomal-gelules-30",
+   "form_tier": 20,
+   "form_note": "Ferrous bisglycinate — the best head-to-head evidence among supplement forms (haemoglobin and gut tolerance).",
+   "dose_tier": 20,
+   "dose_note": "14 mg iron/day — at or above the NRV, within the supplemental amount behind EFSA's safe level.",
+   "purity_tags": [
+    "bulking_filler",
+    "lecithin",
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "agent de charge : gomme arabique",
+    "émulsifiant : lécithines",
+    "enveloppe de la gélule d’origine végétale (agent d’enrobage : hydroxypropylméthylcellulose, colorant : caramel)",
+    "poudre de cosse de pois (Pisum sativum)",
+    "agent de charge : cellulose microcristalline",
+    "anti-agglomérant : sels de magnésium d’acides gras"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [
+    {
+     "string": "poudre de cosse de pois (Pisum sativum)",
+     "verdict": "neutral",
+     "note": "Pea hull powder used as a filler — a food fibre; same ruling as « fibre de pois ».",
+     "reviewed_on": "2026-09-18"
+    }
+   ],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 24,
+    "transparency": 4,
+    "total": 68,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.65,
+    "std": 0.65,
+    "std_label": "€ / 14 mg iron (NRV)",
+    "days_per_pack": 30,
+    "price_tier": 3
+   },
+   "label_hash": "53db033e6f5f",
+   "rank_in_category": 10
+  },
+  {
+   "category": "iron",
+   "brand": "Cuure",
+   "name": "Fer Bisglycinate LomaChelateX®",
+   "variant": "gélules · 90",
+   "price_eur": 17.9,
+   "price_note": "cuure.com live 13/09/2026 — achat unique ; abonnement −10 % (16,11 €), −10 % dès 3 unités",
+   "units_pack": 90,
+   "unit_name": "gélule",
+   "units_per_day": 1,
+   "active_per_unit": 14,
+   "active_unit": "mg elemental Fe",
+   "form": "bisglycinate de fer LomaChelateX® (70 mg, dont 14 mg de fer), produit en Allemagne",
+   "vegan": true,
+   "additives": [
+    "agent de charge : fécule de pomme de terre (Solanum Tuberosum spp.)",
+    "agent d'enrobage : gélule d'origine végétale (hydroxypropylméthylcellulose)",
+    "colorant : spiruline (Arthrospira platensis)"
+   ],
+   "certifications": [
+    "Vegan",
+    "Formulé et conditionné en France"
+   ],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "LomaChelateX®",
+   "full_label": true,
+   "flags": [
+    "Réservé à l'adulte ; ne pas utiliser en cas de maladie entraînant une accumulation anormale de fer (hémochromatose, polyglobulie) ; avis médical avant supplémentation, notamment chez la femme enceinte ou allaitante (fiche).",
+    "Fer : sans pertes menstruelles (homme, femme ménopausée), le fer s'accumule — ne se prend qu'après une prise de sang (EFSA 2024). Tenir hors de portée des enfants : le fer est une cause majeure d'intoxication accidentelle grave du jeune enfant."
+   ],
+   "confidence": "medium",
+   "url": "https://cuure.com/produits/fer",
+   "ean": "3760353422894",
+   "notes": "14 mg de fer (100 % VNR) par gélule ; flacon « 90 jours » à 1 gélule/j. Liste complète lue dans les données de composition de la fiche (fécule de pomme de terre 130 mg, bisglycinate de fer 70 mg, gélule HPMC 65 mg, spiruline 10 mg en colorant) ; l'onglet visible « Ingrédients » ne nomme que bisglycinate, spiruline et fécule. Existe en box personnalisée de 30 gélules (6,21 € au lieu de 6,90 €).",
+   "id": "cuure-fer-bisglycinate-lomachelatex-gelules-90",
+   "form_tier": 20,
+   "form_note": "Ferrous bisglycinate — the best head-to-head evidence among supplement forms (haemoglobin and gut tolerance).",
+   "dose_tier": 20,
+   "dose_note": "14 mg iron/day — at or above the NRV, within the supplemental amount behind EFSA's safe level.",
+   "purity_tags": [
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "agent de charge : fécule de pomme de terre (Solanum Tuberosum spp.)",
+    "agent d'enrobage : gélule d'origine végétale (hydroxypropylméthylcellulose)",
+    "colorant : spiruline (Arthrospira platensis)"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "LomaChelateX®",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [
+    {
+     "string": "agent de charge : fécule de pomme de terre (Solanum Tuberosum spp.)",
+     "verdict": "penalty:bulking_filler",
+     "note": "Potato starch as a bulking agent — same class and tag as « amidon de riz / de maïs ».",
+     "reviewed_on": "2026-09-18"
+    }
+   ],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 28,
+    "transparency": 8,
+    "total": 76,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.199,
+    "std": 0.199,
+    "std_label": "€ / 14 mg iron (NRV)",
+    "days_per_pack": 90,
+    "price_tier": 2
+   },
+   "label_hash": "480ff6aab684",
+   "rank_in_category": 5
+  },
+  {
+   "category": "iron",
+   "brand": "Dynveo",
+   "name": "Bisglycinate de Fer",
+   "variant": "gélules · 60",
+   "price_eur": 12.9,
+   "price_note": "dynveo.fr live 13/09/2026",
+   "units_pack": 60,
+   "unit_name": "gélule",
+   "units_per_day": 1,
+   "active_per_unit": 14,
+   "active_unit": "mg elemental Fe",
+   "form": "fer bisglycinate Ferrochel® de qualité TRAACS® (70 mg, dont 14 mg de fer élémentaire)",
+   "vegan": true,
+   "additives": [
+    "fibres d’acacia",
+    "tunique d’origine végétale (pullulan)"
+   ],
+   "certifications": [
+    "Clean Label Dynveo"
+   ],
+   "coa_published": true,
+   "third_party_cert": false,
+   "branded_ingredient": "Ferrochel®",
+   "full_label": true,
+   "flags": [
+    "Déconseillé en cas de maladie entraînant une accumulation anormale de fer et déconseillé aux enfants (étiquette).",
+    "Fer : sans pertes menstruelles (homme, femme ménopausée), le fer s'accumule — ne se prend qu'après une prise de sang (EFSA 2024). Tenir hors de portée des enfants : le fer est une cause majeure d'intoxication accidentelle grave du jeune enfant."
+   ],
+   "confidence": "high",
+   "url": "https://www.dynveo.fr/products/bisglycinate-de-fer",
+   "ean": "3770000228182",
+   "notes": "14 mg de fer (100 % VNR) par gélule ; formule 3 ingrédients, déclarée vegan.",
+   "id": "dynveo-bisglycinate-de-fer-gelules-60",
+   "form_tier": 20,
+   "form_note": "Ferrous bisglycinate — the best head-to-head evidence among supplement forms (haemoglobin and gut tolerance).",
+   "dose_tier": 20,
+   "dose_note": "14 mg iron/day — at or above the NRV, within the supplemental amount behind EFSA's safe level.",
+   "purity_tags": [
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "fibres d’acacia",
+    "tunique d’origine végétale (pullulan)"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": true,
+    "third_party_cert": false,
+    "branded_ingredient": "Ferrochel®",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 28,
+    "transparency": 20,
+    "total": 88,
+    "grade": "A",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.215,
+    "std": 0.215,
+    "std_label": "€ / 14 mg iron (NRV)",
+    "days_per_pack": 60,
+    "price_tier": 2
+   },
+   "label_hash": "a32667898add",
+   "rank_in_category": 1
+  },
+  {
+   "category": "iron",
+   "brand": "Dynveo",
+   "name": "Complexe Fer et Vitamine C : Fer3",
+   "variant": "gélules · 60",
+   "price_eur": 26.9,
+   "price_note": "dynveo.fr live 13/09/2026",
+   "units_pack": 60,
+   "unit_name": "gélule",
+   "units_per_day": 2,
+   "active_per_unit": 7,
+   "active_unit": "mg elemental Fe",
+   "form": "fer bisglycinate Ferrochel® de qualité TRAACS® (7 mg de fer/gélule) ; lactoferrine issue de lait de vache (100 mg/gélule) ; vitamine C Quali®-C, acide L-ascorbique (90 mg/gélule)",
+   "vegan": false,
+   "additives": [
+    "fibres d'acacia biologique",
+    "tunique d'origine végétale DRcaps™ (hypromellose cellulose)"
+   ],
+   "certifications": [
+    "Clean Label Dynveo"
+   ],
+   "coa_published": true,
+   "third_party_cert": false,
+   "branded_ingredient": "Ferrochel®",
+   "full_label": true,
+   "flags": [
+    "Ne pas consommer en cas d'allergie au lait (lactoferrine bovine) ; déconseillé en cas de maladie entraînant une accumulation anormale de fer et aux moins de 18 ans (étiquette).",
+    "Fer : sans pertes menstruelles (homme, femme ménopausée), le fer s'accumule — ne se prend qu'après une prise de sang (EFSA 2024). Tenir hors de portée des enfants : le fer est une cause majeure d'intoxication accidentelle grave du jeune enfant."
+   ],
+   "confidence": "medium",
+   "url": "https://www.dynveo.fr/products/complexe-fer",
+   "ean": "3760331482377",
+   "notes": "Tableau étiquette pour 2 gélules : 14 mg de fer (100 % VNR), 200 mg de lactoferrine, 180 mg de vitamine C. La marque indique 1 gélule/j (fatigue), 1 à 2 (immunité) ou 2 (globules rouges/statut en fer) — chiffré à 2/j, la portion du tableau. Analyses indépendantes revendiquées (Clean Label), comme les autres fiches Dynveo.",
+   "secondary_actives": [
+    {
+     "category": "vitamin_c",
+     "per_day": 180
+    }
+   ],
+   "id": "dynveo-complexe-fer-et-vitamine-c-fer3-gelules-60",
+   "form_tier": 20,
+   "form_note": "Ferrous bisglycinate — the best head-to-head evidence among supplement forms (haemoglobin and gut tolerance).",
+   "dose_tier": 20,
+   "dose_note": "14 mg iron/day — at or above the NRV, within the supplemental amount behind EFSA's safe level.",
+   "purity_tags": [
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "fibres d'acacia biologique",
+    "tunique d'origine végétale DRcaps™ (hypromellose cellulose)"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": true,
+    "third_party_cert": false,
+    "branded_ingredient": "Ferrochel®",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 28,
+    "transparency": 20,
+    "total": 88,
+    "grade": "A",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.897,
+    "std": 0.897,
+    "std_label": "€ / 14 mg iron (NRV)",
+    "days_per_pack": 30,
+    "price_tier": 4
+   },
+   "label_hash": "3238c29ea9e5",
+   "rank_in_category": 3
+  },
+  {
+   "category": "iron",
+   "brand": "Nat&Form",
+   "name": "Bisglycinate de fer",
+   "variant": "gélules · 30",
+   "price_eur": 9.5,
+   "price_note": "nat-form.com live 13/09/2026",
+   "units_pack": 30,
+   "unit_name": "gélule",
+   "units_per_day": 1,
+   "active_per_unit": 14,
+   "active_unit": "mg elemental Fe",
+   "form": "bisglycinate de fer (70 mg, dont 14 mg de fer élément)",
+   "vegan": true,
+   "additives": [
+    "gomme d’acacia (agent de charge)",
+    "gélule d’origine végétale"
+   ],
+   "certifications": [
+    "Fabriqué en France",
+    "Produit Vegan"
+   ],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "flags": [
+    "Réservé à l'adulte ; déconseillé en cas de maladie entraînant une accumulation anormale de fer (hémochromatose, polyglobulie) ; respecter 2 heures entre le fer et un traitement médicamenteux (étiquette).",
+    "Fer : sans pertes menstruelles (homme, femme ménopausée), le fer s'accumule — ne se prend qu'après une prise de sang (EFSA 2024). Tenir hors de portée des enfants : le fer est une cause majeure d'intoxication accidentelle grave du jeune enfant."
+   ],
+   "confidence": "high",
+   "url": "https://www.nat-form.com/products/bisglycinate-de-fer",
+   "ean": null,
+   "notes": "14 mg de fer (100 % VNR) par gélule ; 30 gélules = cure de 30 jours.",
+   "id": "nat-form-bisglycinate-de-fer-gelules-30",
+   "form_tier": 20,
+   "form_note": "Ferrous bisglycinate — the best head-to-head evidence among supplement forms (haemoglobin and gut tolerance).",
+   "dose_tier": 20,
+   "dose_note": "14 mg iron/day — at or above the NRV, within the supplemental amount behind EFSA's safe level.",
+   "purity_tags": [
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "gomme d’acacia (agent de charge)",
+    "gélule d’origine végétale"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 28,
+    "transparency": 4,
+    "total": 72,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.317,
+    "std": 0.317,
+    "std_label": "€ / 14 mg iron (NRV)",
+    "days_per_pack": 30,
+    "price_tier": 2
+   },
+   "label_hash": "bc57fb375119",
+   "rank_in_category": 9
+  },
+  {
+   "category": "iron",
+   "brand": "Novoma",
+   "name": "Fer Bisglycinate Ferrochel®",
+   "variant": "gélules · 90",
+   "price_eur": 19.9,
+   "price_note": "novoma.com live 13/09/2026 — prix affiché 19,90 € (la remise −20 % « Offre de rentrée » était annoncée jusqu'au 06/09/2026 inclus ; 37,81 € les 2, 53,73 € les 3)",
+   "units_pack": 90,
+   "unit_name": "gélule",
+   "units_per_day": 1,
+   "active_per_unit": 14,
+   "active_unit": "mg elemental Fe",
+   "form": "fer bisglycinate Ferrochel® (Albion) ; vitamine C Quali®-C (acide L-ascorbique, 100 mg)",
+   "vegan": true,
+   "additives": [
+    "amidon de riz",
+    "capsule végétale (agent d’enrobage : hydroxypropylméthylcellulose)"
+   ],
+   "certifications": [
+    "Fabriqué en France"
+   ],
+   "coa_published": true,
+   "third_party_cert": false,
+   "branded_ingredient": "Ferrochel®",
+   "full_label": true,
+   "flags": [
+    "Déconseillé aux personnes souffrant de maladies entraînant une accumulation anormale de fer (hémochromatose, polyglobulie) ; avis d'un professionnel de santé sous 14 ans et chez la femme enceinte ou allaitante (étiquette).",
+    "Fer : sans pertes menstruelles (homme, femme ménopausée), le fer s'accumule — ne se prend qu'après une prise de sang (EFSA 2024). Tenir hors de portée des enfants : le fer est une cause majeure d'intoxication accidentelle grave du jeune enfant."
+   ],
+   "confidence": "high",
+   "url": "https://novoma.com/products/fer-bisglycinate",
+   "ean": null,
+   "notes": "14 mg de fer (100 % VNR) + 100 mg de vitamine C (125 % VNR) par gélule ; 90 gélules = 3 mois. Certificat d'analyse et étiquette téléchargeables. Le flux Shopify en cache indiquait encore 15,92 € (prix barré 19,90 €), vestige de la remise terminée le 06/09 ; la fiche et le JSON-LD affichent 19,90 €.",
+   "secondary_actives": [
+    {
+     "category": "vitamin_c",
+     "per_day": 100
+    }
+   ],
+   "id": "novoma-fer-bisglycinate-ferrochel-gelules-90",
+   "form_tier": 20,
+   "form_note": "Ferrous bisglycinate — the best head-to-head evidence among supplement forms (haemoglobin and gut tolerance).",
+   "dose_tier": 20,
+   "dose_note": "14 mg iron/day — at or above the NRV, within the supplemental amount behind EFSA's safe level.",
+   "purity_tags": [
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "amidon de riz",
+    "capsule végétale (agent d’enrobage : hydroxypropylméthylcellulose)"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": true,
+    "third_party_cert": false,
+    "branded_ingredient": "Ferrochel®",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 28,
+    "transparency": 20,
+    "total": 88,
+    "grade": "A",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.221,
+    "std": 0.221,
+    "std_label": "€ / 14 mg iron (NRV)",
+    "days_per_pack": 90,
+    "price_tier": 2
+   },
+   "label_hash": "388238fd7f74",
+   "rank_in_category": 2
+  },
+  {
+   "category": "iron",
+   "brand": "Nutrimuscle",
+   "name": "Fer Ultimine™",
+   "variant": "gélules · 30",
+   "price_eur": 7.95,
+   "price_note": "nutrimuscle.com live 13/09/2026 — pas de remise sur le prix unitaire ; offre de rentrée −15 % dès 3 produits achetés",
+   "units_pack": 30,
+   "unit_name": "gélule",
+   "units_per_day": 1,
+   "active_per_unit": 13.7,
+   "active_unit": "mg elemental Fe",
+   "form": "fer intégré par fermentation dans du koji (Aspergillus oryzae) Ultimine™ : 171 mg de koji fermenté dont 13,7 mg de fer",
+   "vegan": true,
+   "additives": [
+    "inuline (70%)",
+    "gélule végétalienne (agent d’enrobage : pullulan)"
+   ],
+   "certifications": [
+    "Sport Protect",
+    "certificat WADA",
+    "Halal"
+   ],
+   "coa_published": true,
+   "third_party_cert": true,
+   "branded_ingredient": "Ultimine™",
+   "full_label": true,
+   "flags": [
+    "Déconseillé aux enfants et adolescents et en cas de maladie entraînant une accumulation anormale de fer (hémochromatose, polyglobulie) ; fabriqué dans un atelier utilisant des allergènes (lait, œufs, céréales, soja, poisson, mollusques, crustacés).",
+    "Fer : sans pertes menstruelles (homme, femme ménopausée), le fer s'accumule — ne se prend qu'après une prise de sang (EFSA 2024). Tenir hors de portée des enfants : le fer est une cause majeure d'intoxication accidentelle grave du jeune enfant."
+   ],
+   "confidence": "high",
+   "url": "https://www.nutrimuscle.com/products/fer-ultimine",
+   "ean": null,
+   "notes": "13,7 mg de fer (98 % VNR) par gélule. Analyse de l'ingrédient, étiquette et certificats Sport Protect/WADA publiés. Ne pas cumuler avec les multiminéraux de la marque.",
+   "id": "nutrimuscle-fer-ultimine-gelules-30",
+   "form_tier": 12,
+   "form_note": "Iron-enriched koji (Ultimine) — small, manufacturer-funded absorption data only.",
+   "dose_tier": 14,
+   "dose_note": "13.7 mg iron/day — a maintenance top-up below the 14 mg NRV.",
+   "purity_tags": [],
+   "additives_detail": [
+    "inuline (70%)",
+    "gélule végétalienne (agent d’enrobage : pullulan)"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": true,
+    "third_party_cert": true,
+    "branded_ingredient": "Ultimine™",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "Belgium",
+    "zone": "EU",
+    "malus": 1
+   },
+   "scores": {
+    "form": 12,
+    "dose": 14,
+    "purity": 30,
+    "transparency": 30,
+    "total": 86,
+    "grade": "A",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.265,
+    "std": 0.271,
+    "std_label": "€ / 14 mg iron (NRV)",
+    "days_per_pack": 30,
+    "price_tier": 2
+   },
+   "label_hash": "4fefaaa4aac3",
+   "rank_in_category": 4
+  },
+  {
+   "category": "iron",
+   "brand": "Onatera",
+   "name": "Fer Bisglycinate doux non constipant",
+   "variant": "gélules · 90",
+   "price_eur": 11.9,
+   "price_note": "onatera.com live 13/09/2026",
+   "units_pack": 90,
+   "unit_name": "gélule",
+   "units_per_day": 1,
+   "active_per_unit": 14,
+   "active_unit": "mg elemental Fe",
+   "form": "bisglycinate de fer Ferrochel® (70 mg, dont 14 mg de fer), avec vitamine C (acide L-ascorbique, 80 mg)",
+   "vegan": true,
+   "additives": [
+    "gélule d'origine végétale",
+    "agent de charge : fibre d'acacia",
+    "agent de charge : amidon de riz"
+   ],
+   "certifications": [
+    "Made in France",
+    "Vegan"
+   ],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "Ferrochel®",
+   "full_label": true,
+   "flags": [
+    "Déconseillé aux enfants et aux adolescents et en cas de maladie entraînant une accumulation anormale de fer (hémochromatose, polyglobulie) ; femmes enceintes ou allaitantes : avis d'un professionnel de santé (étiquette).",
+    "Fer : sans pertes menstruelles (homme, femme ménopausée), le fer s'accumule — ne se prend qu'après une prise de sang (EFSA 2024). Tenir hors de portée des enfants : le fer est une cause majeure d'intoxication accidentelle grave du jeune enfant."
+   ],
+   "confidence": "high",
+   "url": "https://www.onatera.com/FR/fr/produit-fer-doux-non-constipant-brevete-90-gelules-onatera",
+   "ean": "3701407713315",
+   "notes": "1 gélule/j au déjeuner = 14 mg de fer (100 % AR) + 80 mg de vitamine C (100 % AR). Fiche : « Convient aux végétaliens ». Existe en 180 gélules (17,90 €).",
+   "secondary_actives": [
+    {
+     "category": "vitamin_c",
+     "per_day": 80
+    }
+   ],
+   "id": "onatera-fer-bisglycinate-doux-non-constipant-gelules-90",
+   "form_tier": 20,
+   "form_note": "Ferrous bisglycinate — the best head-to-head evidence among supplement forms (haemoglobin and gut tolerance).",
+   "dose_tier": 20,
+   "dose_note": "14 mg iron/day — at or above the NRV, within the supplemental amount behind EFSA's safe level.",
+   "purity_tags": [
+    "bulking_filler",
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "gélule d'origine végétale",
+    "agent de charge : fibre d'acacia",
+    "agent de charge : amidon de riz"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Ferrochel®",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 26,
+    "transparency": 8,
+    "total": 74,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.132,
+    "std": 0.132,
+    "std_label": "€ / 14 mg iron (NRV)",
+    "days_per_pack": 90,
+    "price_tier": 2
+   },
+   "label_hash": "502721a58cfe",
+   "rank_in_category": 8
+  },
+  {
+   "category": "iron",
+   "brand": "Onatera",
+   "name": "Fer bisglycinate",
+   "variant": "gélules · 90",
+   "price_eur": 9.9,
+   "price_note": "onatera.com live 13/09/2026 (épuisé ce jour)",
+   "units_pack": 90,
+   "unit_name": "gélule",
+   "units_per_day": 1,
+   "active_per_unit": 14,
+   "active_unit": "mg elemental Fe",
+   "form": "bisglycinate de fer LomaChelateX® (Dr. Paul Lohmann®), 70 mg dont 14 mg de fer",
+   "vegan": true,
+   "additives": [
+    "agent de charge : gomme d'acacia",
+    "agent de charge : amidon de riz",
+    "gélule d'origine végétale"
+   ],
+   "certifications": [
+    "Made in France",
+    "Vegan"
+   ],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "LomaChelateX®",
+   "full_label": true,
+   "flags": [
+    "Déconseillé aux enfants et aux adolescents et en cas de maladie entraînant une accumulation anormale de fer (hémochromatose, polyglobulie) ; femmes enceintes ou allaitantes : avis d'un professionnel de santé (étiquette).",
+    "Fer : sans pertes menstruelles (homme, femme ménopausée), le fer s'accumule — ne se prend qu'après une prise de sang (EFSA 2024). Tenir hors de portée des enfants : le fer est une cause majeure d'intoxication accidentelle grave du jeune enfant."
+   ],
+   "confidence": "high",
+   "url": "https://www.onatera.com/FR/fr/produit-fer-bisglycinate-90-gelules-orfito",
+   "ean": "3701407713261",
+   "notes": "1 gélule/j = 14 mg de fer (100 % AR). La table indique 70 mg de bisglycinate, le texte marketing 75 mg ; la teneur en fer (14 mg) est la même. La fiche dit aussi « Convient aux adultes, sportifs, femmes enceintes » alors que les précautions demandent un avis médical. Format 180 gélules listé sans prix affiché.",
+   "id": "onatera-fer-bisglycinate-gelules-90",
+   "form_tier": 20,
+   "form_note": "Ferrous bisglycinate — the best head-to-head evidence among supplement forms (haemoglobin and gut tolerance).",
+   "dose_tier": 20,
+   "dose_note": "14 mg iron/day — at or above the NRV, within the supplemental amount behind EFSA's safe level.",
+   "purity_tags": [
+    "bulking_filler",
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "agent de charge : gomme d'acacia",
+    "agent de charge : amidon de riz",
+    "gélule d'origine végétale"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "LomaChelateX®",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 26,
+    "transparency": 8,
+    "total": 74,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.11,
+    "std": 0.11,
+    "std_label": "€ / 14 mg iron (NRV)",
+    "days_per_pack": 90,
+    "price_tier": 2
+   },
+   "label_hash": "0c63715869c7",
+   "rank_in_category": 7
+  },
+  {
+   "category": "iron",
+   "brand": "PiLeJe",
+   "name": "Forferal Fer",
+   "variant": "gélules · 30",
+   "price_eur": 31.8,
+   "price_note": "solutions.pileje.fr live 13/09/2026",
+   "units_pack": 30,
+   "unit_name": "gélule",
+   "units_per_day": 1,
+   "active_per_unit": 14,
+   "active_unit": "mg elemental Fe",
+   "form": "fer Sucrosomial® SiderAL® (pyrophosphate de fer), avec vitamine C (80 mg)",
+   "vegan": false,
+   "additives": [
+    "amidon de riz (matrice Sucrosomial®)",
+    "émulsifiant : sucroesters d'acides gras (matrice Sucrosomial®)",
+    "émulsifiant : lécithine de tournesol (matrice Sucrosomial®)",
+    "anti-agglomérant : phosphate tricalcique (matrice Sucrosomial®)",
+    "farine de riz (matrice Sucrosomial®)",
+    "agent d'enrobage : hydroxypropylméthylcellulose",
+    "agent de charge : cellulose microcristalline",
+    "amidon de maïs",
+    "anti-agglomérant : sels de magnésium d'acides gras",
+    "colorant : carbonate de calcium"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "Sucrosomial® SiderAL®",
+   "full_label": true,
+   "flags": [
+    "Réservé aux adultes ; déconseillé en cas de maladie entraînant une accumulation anormale de fer (hémochromatose, polyglobulie) ; femmes enceintes ou allaitantes : avis d'un professionnel de santé (étiquette).",
+    "Fer : sans pertes menstruelles (homme, femme ménopausée), le fer s'accumule — ne se prend qu'après une prise de sang (EFSA 2024). Tenir hors de portée des enfants : le fer est une cause majeure d'intoxication accidentelle grave du jeune enfant."
+   ],
+   "confidence": "high",
+   "url": "https://solutions.pileje.fr/fr/produit/forferal-fer",
+   "ean": null,
+   "notes": "1 gélule/j = 14 mg de fer + 80 mg de vitamine C (100 % VNR chacun). Boîte de 30 = 30 jours. Végan non revendiqué (la fiche le classe seulement « en cas de régime végétarien / vegan ») : sucroesters et sels de magnésium d'acides gras d'origine non précisée.",
+   "secondary_actives": [
+    {
+     "category": "vitamin_c",
+     "per_day": 80
+    }
+   ],
+   "id": "pileje-forferal-fer-gelules-30",
+   "form_tier": 12,
+   "form_note": "Sucrosomial ferric pyrophosphate — trials mostly in clinical groups; no absorption comparison with ferrous sulfate.",
+   "dose_tier": 20,
+   "dose_note": "14 mg iron/day — at or above the NRV, within the supplemental amount behind EFSA's safe level.",
+   "purity_tags": [
+    "bulking_filler",
+    "lecithin",
+    "bulking_filler",
+    "bulking_filler",
+    "bulking_filler",
+    "bulking_filler",
+    "anticaking",
+    "coating"
+   ],
+   "additives_detail": [
+    "amidon de riz (matrice Sucrosomial®)",
+    "émulsifiant : sucroesters d'acides gras (matrice Sucrosomial®)",
+    "émulsifiant : lécithine de tournesol (matrice Sucrosomial®)",
+    "anti-agglomérant : phosphate tricalcique (matrice Sucrosomial®)",
+    "farine de riz (matrice Sucrosomial®)",
+    "agent d'enrobage : hydroxypropylméthylcellulose",
+    "agent de charge : cellulose microcristalline",
+    "amidon de maïs",
+    "anti-agglomérant : sels de magnésium d'acides gras",
+    "colorant : carbonate de calcium"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Sucrosomial® SiderAL®",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0
+   },
+   "scores": {
+    "form": 12,
+    "dose": 20,
+    "purity": 14,
+    "transparency": 8,
+    "total": 54,
+    "grade": "C",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 1.06,
+    "std": 1.06,
+    "std_label": "€ / 14 mg iron (NRV)",
+    "days_per_pack": 30,
+    "price_tier": 5
+   },
+   "label_hash": "80d5df98e3a5",
+   "rank_in_category": 12
+  },
+  {
+   "category": "iron",
+   "brand": "Superdiet",
+   "name": "Fer Acérola",
+   "variant": "unidoses · 20",
+   "price_eur": 20.6,
+   "price_note": "superdiet.com live 13/09/2026",
+   "units_pack": 20,
+   "unit_name": "unidose de 15 ml",
+   "units_per_day": 1,
+   "active_per_unit": 7,
+   "active_unit": "mg elemental Fe",
+   "form": "fer d'origine végétale issu d'un extrait sec de feuille de caloupilé (arbre à curry) titré en fer (210 mg, dont 7 mg de fer) ; poudre de jus d'acérola (428 mg, teneur en vitamine C non déclarée)",
+   "vegan": true,
+   "additives": [
+    "sirop d'agave",
+    "jus de poire concentré",
+    "jus de citron concentré"
+   ],
+   "certifications": [
+    "Fabriqué en France"
+   ],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "flags": [
+    "Pour adultes ; déconseillé en cas de maladie entraînant une accumulation anormale de fer (hémochromatose, polyglobulie) ; avis médical pendant la grossesse ou l'allaitement (étiquette).",
+    "Fer : sans pertes menstruelles (homme, femme ménopausée), le fer s'accumule — ne se prend qu'après une prise de sang (EFSA 2024). Tenir hors de portée des enfants : le fer est une cause majeure d'intoxication accidentelle grave du jeune enfant."
+   ],
+   "confidence": "high",
+   "url": "https://www.superdiet.com/fr/p14221_fer_acerola_20_unidoses.php",
+   "ean": null,
+   "notes": "7 mg de fer (50 % VNR, « quantité moyenne ») par unidose de 15 ml ; boîte de 20 unidoses. Vitamine C de l'acérola non chiffrée. Base eau purifiée, sucrée au sirop d'agave et aux jus de fruits ; fabriqué dans les Hauts-de-France.",
+   "id": "superdiet-fer-acerola-unidoses-20",
+   "form_tier": 8,
+   "form_note": "Iron compound not declared.",
+   "dose_tier": 14,
+   "dose_note": "7 mg iron/day — a maintenance top-up below the 14 mg NRV.",
+   "purity_tags": [
+    "added_sugar"
+   ],
+   "additives_detail": [
+    "sirop d'agave",
+    "jus de poire concentré",
+    "jus de citron concentré"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [
+    {
+     "string": "sirop d'agave",
+     "verdict": "penalty:added_sugar",
+     "note": "Agave syrup is an added sugar (mostly fructose) — same tag as « sirop de glucose ».",
+     "reviewed_on": "2026-09-18"
+    }
+   ],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0
+   },
+   "scores": {
+    "form": 8,
+    "dose": 14,
+    "purity": 22,
+    "transparency": 4,
+    "total": 48,
+    "grade": "D",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 1.03,
+    "std": 2.06,
+    "std_label": "€ / 14 mg iron (NRV)",
+    "days_per_pack": 20,
+    "price_tier": 5
+   },
+   "label_hash": "4d6fdefb21e3",
+   "rank_in_category": 13
+  },
+  {
+   "category": "iron",
+   "brand": "SuperPhysique Nutrition",
+   "name": "Elite Fer",
+   "variant": "gélules · 90",
+   "price_eur": 18.9,
+   "price_note": "superphysique-nutrition.fr live 13/09/2026",
+   "units_pack": 90,
+   "unit_name": "gélule",
+   "units_per_day": 1,
+   "active_per_unit": 14,
+   "active_unit": "mg elemental Fe",
+   "form": "bisglycinate de fer Ferrochel®, avec vitamine C (acide L-ascorbique, 140 mg) et vitamine B12 (méthylcobalamine, 10 µg)",
+   "vegan": true,
+   "additives": [
+    "agent de charge : gomme d'acacia Fibregum™",
+    "pullulane (gélule végétale)"
+   ],
+   "certifications": [
+    "Fabriqué en France"
+   ],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "Ferrochel®",
+   "full_label": true,
+   "flags": [
+    "Réservé à l'adulte ; déconseillé aux femmes enceintes ou allaitantes et en cas de maladie entraînant une accumulation anormale de fer (étiquette).",
+    "Supplémentation en fer déconseillée aux hommes et aux femmes ménopausées sans avis médical préalable (étiquette).",
+    "Fer : sans pertes menstruelles (homme, femme ménopausée), le fer s'accumule — ne se prend qu'après une prise de sang (EFSA 2024). Tenir hors de portée des enfants : le fer est une cause majeure d'intoxication accidentelle grave du jeune enfant."
+   ],
+   "confidence": "high",
+   "url": "https://www.superphysique-nutrition.fr/679-elite-fer.html",
+   "ean": null,
+   "notes": "1 gélule/j = 14 mg de fer (100 % VNR), 140 mg de vitamine C (175 %) et 10 µg de B12 (400 %). Gélule pullulan « convient à une alimentation végane ». Étiquette téléchargeable sur la fiche (pas un certificat d'analyse).",
+   "secondary_actives": [
+    {
+     "category": "vitamin_c",
+     "per_day": 140
+    },
+    {
+     "category": "vitamin_b12",
+     "per_day": 10
+    }
+   ],
+   "id": "superphysique-nutrition-elite-fer-gelules-90",
+   "form_tier": 20,
+   "form_note": "Ferrous bisglycinate — the best head-to-head evidence among supplement forms (haemoglobin and gut tolerance).",
+   "dose_tier": 20,
+   "dose_note": "14 mg iron/day — at or above the NRV, within the supplemental amount behind EFSA's safe level.",
+   "purity_tags": [
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "agent de charge : gomme d'acacia Fibregum™",
+    "pullulane (gélule végétale)"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Ferrochel®",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 28,
+    "transparency": 8,
+    "total": 76,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.21,
+    "std": 0.21,
+    "std_label": "€ / 14 mg iron (NRV)",
+    "days_per_pack": 90,
+    "price_tier": 2
+   },
+   "label_hash": "9aa5887c9486",
+   "rank_in_category": 6
+  },
+  {
+   "category": "potassium",
+   "brand": "Dynveo",
+   "name": "Citrate de potassium",
+   "variant": "gélules · 60",
+   "price_eur": 19.9,
+   "price_note": "dynveo.fr live 13/09/2026 — code REPRISE10 (−10 % dès 2 produits) non appliqué",
+   "units_pack": 60,
+   "unit_name": "gélule",
+   "units_per_day": 2,
+   "active_per_unit": 350,
+   "active_unit": "mg elemental K",
+   "form": "citrate de tripotassium (35 % de potassium, pureté ≥ 99 % revendiquée)",
+   "vegan": true,
+   "additives": [
+    "tunique d'origine végétale (hypromellose cellulose)"
+   ],
+   "certifications": [
+    "Clean Label Dynveo",
+    "Fabriqué en France",
+    "normes ISO 22000 revendiquées"
+   ],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "flags": [
+    "Déconseillé aux personnes âgées ou atteintes de néphropathie (fiche).",
+    "Enfants de moins de 10 ans : 1 gélule par jour seulement selon la marque.",
+    "Grossesse et allaitement : avis d'un professionnel de santé recommandé avant supplémentation.",
+    "Potassium : risque d'hyperkaliémie en cas de maladie rénale ou de traitement par IEC, sartan, spironolactone ou diurétique épargneur de potassium — avis médical avant toute prise.",
+    "Dose au-dessus du maximum de 80 mg/j de potassium fixé pour les compléments alimentaires par l'arrêté du 9 mai 2006, toujours en vigueur (un projet validé par l'Anses en 2024 le porterait à 3 000 mg/j pour l'adulte)."
+   ],
+   "confidence": "high",
+   "url": "https://www.dynveo.fr/products/citrate-de-potassium",
+   "ean": null,
+   "notes": "2 gélules/j = 2 000 mg de citrate de tripotassium dont 700 mg de potassium (35 % VNR). Existe aussi en poudre 250 g (17,90 €, 2 cuillères = 875 mg de K). La description parle de gélules en pullulan, la liste d'ingrédients d'hypromellose : liste retenue. L'EAN du JSON-LD (3760331480373) correspond au format poudre, non repris. Analyses « systématiques » revendiquées mais aucun certificat lié sur la fiche.",
+   "id": "dynveo-citrate-de-potassium-gelules-60",
+   "form_tier": 18,
+   "form_note": "Potassium citrate — lowered blood pressure as well as the chloride in a head-to-head RCT.",
+   "dose_tier": 12,
+   "dose_note": "700 mg potassium/day — below the lowest dose of the pooled blood-pressure trials.",
+   "purity_tags": [],
+   "additives_detail": [
+    "tunique d'origine végétale (hypromellose cellulose)"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0
+   },
+   "scores": {
+    "form": 18,
+    "dose": 12,
+    "purity": 30,
+    "transparency": 4,
+    "total": 64,
+    "grade": "C",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.663,
+    "std": 1.895,
+    "std_label": "€ / 2000 mg potassium (NRV)",
+    "days_per_pack": 30,
+    "price_tier": 2
+   },
+   "label_hash": "6fe62a269aa8",
+   "rank_in_category": 2
+  },
+  {
+   "category": "potassium",
+   "brand": "Granions",
+   "name": "Citrate de Potassium",
+   "variant": "ampoules · 30 × 2 ml",
+   "price_eur": 13.5,
+   "price_note": "granions.fr live 13/09/2026 — code RYTHME (−30 % dès 60 €, hors produits stars) non appliqué",
+   "units_pack": 30,
+   "unit_name": "ampoule",
+   "units_per_day": 1,
+   "active_per_unit": 80,
+   "active_unit": "mg elemental K",
+   "form": "citrate de potassium monohydraté en solution buvable colloïdale",
+   "vegan": true,
+   "additives": [
+    "eau purifiée",
+    "stabilisant : glycérine végétale",
+    "agent colloïdal : amylose",
+    "édulcorant : sucralose"
+   ],
+   "certifications": [
+    "conformité AFNOR NF EN 17444 (autodéclarée)"
+   ],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "flags": [
+    "Non adapté à la prise en charge des hypokaliémies avérées (étiquette).",
+    "Potassium : risque d'hyperkaliémie en cas de maladie rénale ou de traitement par IEC, sartan, spironolactone ou diurétique épargneur de potassium — avis médical avant toute prise."
+   ],
+   "confidence": "high",
+   "url": "https://www.granions.fr/granions-de-potassium.html",
+   "ean": "3760155210255",
+   "notes": "80 mg de potassium/j (4 % VNR) en 1 ampoule de 2 ml — dose faible ; boîte de 30 ampoules (60 ml), programme d'un mois. Vegan non revendiqué mais tous les ingrédients sont minéraux, végétaux ou de synthèse.",
+   "id": "granions-citrate-de-potassium-ampoules-30-2-ml",
+   "form_tier": 18,
+   "form_note": "Potassium citrate — lowered blood pressure as well as the chloride in a head-to-head RCT.",
+   "dose_tier": 6,
+   "dose_note": "80 mg potassium/day — under 15 % of the 2,000 mg NRV.",
+   "purity_tags": [
+    "sweetener_d",
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "eau purifiée",
+    "stabilisant : glycérine végétale",
+    "agent colloïdal : amylose",
+    "édulcorant : sucralose"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [
+    {
+     "string": "agent colloïdal : amylose",
+     "verdict": "penalty:bulking_filler",
+     "note": "Amylose is the linear fraction of starch, used here as a carrier — same tag as starch fillers.",
+     "reviewed_on": "2026-09-18"
+    }
+   ],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0
+   },
+   "scores": {
+    "form": 18,
+    "dose": 6,
+    "purity": 22,
+    "transparency": 4,
+    "total": 50,
+    "grade": "C",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.45,
+    "std": 11.25,
+    "std_label": "€ / 2000 mg potassium (NRV)",
+    "days_per_pack": 30,
+    "price_tier": 5
+   },
+   "label_hash": "4dc68cb71529",
+   "rank_in_category": 5
+  },
+  {
+   "category": "potassium",
+   "brand": "Nutrimuscle",
+   "name": "Citrate de Potassium en gélules",
+   "variant": "gélules · 120",
+   "price_eur": 19.95,
+   "price_note": "nutrimuscle.com live 13/09/2026 — achat unique ; abonnement −10 % (17,96 €) et offre −15 % dès 3 produits non appliqués",
+   "units_pack": 120,
+   "unit_name": "gélule",
+   "units_per_day": 8,
+   "active_per_unit": 354.75,
+   "active_unit": "mg elemental K",
+   "form": "citrate de potassium (fournisseur Jungbunzlauer, Allemagne)",
+   "vegan": true,
+   "additives": [
+    "gélule végétalienne (agent d'enrobage : pullulan)"
+   ],
+   "certifications": [
+    "Sport Protect",
+    "certificat WADA",
+    "Halal"
+   ],
+   "coa_published": true,
+   "third_party_cert": true,
+   "branded_ingredient": null,
+   "full_label": true,
+   "flags": [
+    "Ne convient pas aux personnes âgées ou atteintes d'affections rénales, de diabète avec insulinorésistance, ou traitées pour une hypertension artérielle (fiche).",
+    "Déconseillé aux enfants ; femmes enceintes et allaitantes : avis d'un professionnel de santé avant complémentation.",
+    "Dose élevée : 2 838 mg de potassium/j (142 % VNR) ; la marque conseille de commencer par 3 gélules/j.",
+    "Potassium : risque d'hyperkaliémie en cas de maladie rénale ou de traitement par IEC, sartan, spironolactone ou diurétique épargneur de potassium — avis médical avant toute prise.",
+    "Dose au-dessus du maximum de 80 mg/j de potassium fixé pour les compléments alimentaires par l'arrêté du 9 mai 2006, toujours en vigueur (un projet validé par l'Anses en 2024 le porterait à 3 000 mg/j pour l'adulte)."
+   ],
+   "confidence": "high",
+   "url": "https://www.nutrimuscle.com/products/citrate-de-potassium-en-gelules",
+   "ean": null,
+   "notes": "Portion recommandée 8 gélules/j = 4 663 mg de citrate et 2 838 mg de potassium (142 % VNR), soit ≈ 354,75 mg de K par gélule ; paquet de 120 = 15 jours. Certificat d'analyse du citrate tripotassique téléchargeable.",
+   "id": "nutrimuscle-citrate-de-potassium-en-gelules-gelules-120",
+   "form_tier": 18,
+   "form_note": "Potassium citrate — lowered blood pressure as well as the chloride in a head-to-head RCT.",
+   "dose_tier": 14,
+   "dose_note": "2838 mg potassium/day — the range of the blood-pressure trials, but above the 80 mg French maximum for supplements still in force.",
+   "purity_tags": [],
+   "additives_detail": [
+    "gélule végétalienne (agent d'enrobage : pullulan)"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": true,
+    "third_party_cert": true,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "Belgium",
+    "zone": "EU",
+    "malus": 1
+   },
+   "scores": {
+    "form": 18,
+    "dose": 14,
+    "purity": 30,
+    "transparency": 26,
+    "total": 88,
+    "grade": "A",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 1.33,
+    "std": 0.937,
+    "std_label": "€ / 2000 mg potassium (NRV)",
+    "days_per_pack": 15,
+    "price_tier": 2
+   },
+   "label_hash": "cb52735cf1aa",
+   "rank_in_category": 1
+  },
+  {
+   "category": "potassium",
+   "brand": "Onatera",
+   "name": "Citrate de Potassium",
+   "variant": "gélules · 120",
+   "price_eur": 12.9,
+   "price_note": "onatera.com live 13/09/2026",
+   "units_pack": 120,
+   "unit_name": "gélule",
+   "units_per_day": 2,
+   "active_per_unit": 150,
+   "active_unit": "mg elemental K",
+   "form": "citrate de potassium anhydre",
+   "vegan": true,
+   "additives": [
+    "agent de charge : fibre d'acacia",
+    "gélule d'origine végétale (HPMC)"
+   ],
+   "certifications": [
+    "Made in France",
+    "Vegan"
+   ],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "flags": [
+    "Déconseillé aux personnes âgées ou atteintes de néphropathie, et aux enfants de moins de 6 ans (étiquette).",
+    "Femmes enceintes et allaitantes : avis d'un professionnel de santé avant toute complémentation.",
+    "Potassium : risque d'hyperkaliémie en cas de maladie rénale ou de traitement par IEC, sartan, spironolactone ou diurétique épargneur de potassium — avis médical avant toute prise.",
+    "Dose au-dessus du maximum de 80 mg/j de potassium fixé pour les compléments alimentaires par l'arrêté du 9 mai 2006, toujours en vigueur (un projet validé par l'Anses en 2024 le porterait à 3 000 mg/j pour l'adulte)."
+   ],
+   "confidence": "high",
+   "url": "https://www.onatera.com/FR/fr/produit-citrate-potassium-120-gelules-onatera",
+   "ean": "3701407714176",
+   "notes": "Étiquette : 2 à 4 gélules/j = 300 à 600 mg de potassium élément (15–30 % AR) ; tableau donné pour 4 gélules (600 mg, dose maximale) ; chiffré à 2/j (dose basse), soit 150 mg par gélule. Gélule HPMC d'après la description.",
+   "id": "onatera-citrate-de-potassium-gelules-120",
+   "form_tier": 18,
+   "form_note": "Potassium citrate — lowered blood pressure as well as the chloride in a head-to-head RCT.",
+   "dose_tier": 12,
+   "dose_note": "300 mg potassium/day — below the lowest dose of the pooled blood-pressure trials.",
+   "purity_tags": [
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "agent de charge : fibre d'acacia",
+    "gélule d'origine végétale (HPMC)"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0
+   },
+   "scores": {
+    "form": 18,
+    "dose": 12,
+    "purity": 28,
+    "transparency": 4,
+    "total": 62,
+    "grade": "C",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.215,
+    "std": 1.433,
+    "std_label": "€ / 2000 mg potassium (NRV)",
+    "days_per_pack": 60,
+    "price_tier": 2
+   },
+   "label_hash": "2f242bd4e1b0",
+   "rank_in_category": 3
+  },
+  {
+   "category": "potassium",
+   "brand": "PiLeJe",
+   "name": "Unibiane Potassium",
+   "variant": "comprimés sécables · 120",
+   "price_eur": 15.7,
+   "price_note": "solutions.pileje.fr live 13/09/2026",
+   "units_pack": 120,
+   "unit_name": "comprimé",
+   "units_per_day": 4,
+   "active_per_unit": 186,
+   "active_unit": "mg elemental K",
+   "form": "bicarbonate de potassium",
+   "vegan": false,
+   "additives": [
+    "agent de charge : cellulose microcristalline",
+    "anti-agglomérants : oxyde de magnésium",
+    "anti-agglomérants : phosphate tricalcique",
+    "anti-agglomérants : sels de magnésium d'acides gras"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "flags": [
+    "Ne convient pas aux insuffisants rénaux et aux enfants de moins de 3 ans (étiquette).",
+    "Potassium : risque d'hyperkaliémie en cas de maladie rénale ou de traitement par IEC, sartan, spironolactone ou diurétique épargneur de potassium — avis médical avant toute prise.",
+    "Dose au-dessus du maximum de 80 mg/j de potassium fixé pour les compléments alimentaires par l'arrêté du 9 mai 2006, toujours en vigueur (un projet validé par l'Anses en 2024 le porterait à 3 000 mg/j pour l'adulte)."
+   ],
+   "confidence": "high",
+   "url": "https://solutions.pileje.fr/fr/produit/unibiane-potassium",
+   "ean": null,
+   "notes": "4 comprimés/j = 744 mg de potassium (37 % VNR), soit 186 mg par comprimé ; pilulier de 120 = 1 mois (poids net 147 g). Non marqué vegan : origine des sels de magnésium d'acides gras non précisée.",
+   "id": "pileje-unibiane-potassium-comprimes-secables-120",
+   "form_tier": 16,
+   "form_note": "Potassium bicarbonate/gluconate — well absorbed; few blood-pressure trials.",
+   "dose_tier": 12,
+   "dose_note": "744 mg potassium/day — below the lowest dose of the pooled blood-pressure trials.",
+   "purity_tags": [
+    "bulking_filler",
+    "bulking_filler",
+    "anticaking",
+    "anticaking"
+   ],
+   "additives_detail": [
+    "agent de charge : cellulose microcristalline",
+    "anti-agglomérants : oxyde de magnésium",
+    "anti-agglomérants : phosphate tricalcique",
+    "anti-agglomérants : sels de magnésium d'acides gras"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [
+    {
+     "string": "anti-agglomérants : oxyde de magnésium",
+     "verdict": "penalty:anticaking",
+     "note": "Magnesium oxide (E530) used as an anti-caking agent, not as an active — same tag as « anti-agglomérant : carbonate de magnésium ».",
+     "reviewed_on": "2026-09-18"
+    }
+   ],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0
+   },
+   "scores": {
+    "form": 16,
+    "dose": 12,
+    "purity": 22,
+    "transparency": 4,
+    "total": 54,
+    "grade": "C",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.523,
+    "std": 1.407,
+    "std_label": "€ / 2000 mg potassium (NRV)",
+    "days_per_pack": 30,
+    "price_tier": 2
+   },
+   "label_hash": "86ff487c51fd",
+   "rank_in_category": 4
+  },
+  {
    "category": "omega3",
    "brand": "Nat & Form",
    "name": "Oméga-3 EPAX®",
@@ -14465,6 +16039,16 @@ const KLEERER_DATA = {
    "url": "https://www.argalys.com/products/vitamine-b12-iode-selenium",
    "ean": null,
    "notes": "Posologie de la marque : 2 gélules par semaine en entretien (≈ 0,09 €/j selon la marque) ; 1 gélule/j en cure d'attaque — chiffré ici à 1/j, ce qui surestime le coût en entretien.",
+   "secondary_actives": [
+    {
+     "category": "iodine",
+     "per_day": 150
+    },
+    {
+     "category": "selenium",
+     "per_day": 100
+    }
+   ],
    "id": "argalys-vitamine-b12-vegan-1000-g-iode-et-selenium-gelules-60",
    "form_tier": 18,
    "form_note": "Cyanocobalamin — the stable, best-studied form; the one the trials used.",

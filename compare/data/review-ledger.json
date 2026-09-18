@@ -7,6 +7,13 @@
    "seen_as": "acétate de DL-alpha-tocophéryle",
    "verdict": "neutral"
   },
+  "agent colloidal : amylose": {
+   "note": "Amylose is the linear fraction of starch, used here as a carrier — same tag as starch fillers.",
+   "reviewed_by": "Alexandre Bredillot",
+   "reviewed_on": "2026-09-18",
+   "seen_as": "agent colloïdal : amylose",
+   "verdict": "penalty:bulking_filler"
+  },
   "agent de charge (phosphates de calcium)": {
    "note": "calcium phosphates (E341), bulking agent",
    "reviewed_by": "Alexandre Bredillot",
@@ -21,12 +28,26 @@
    "seen_as": "agent de charge : farine de coco",
    "verdict": "neutral"
   },
+  "agent de charge : fecule de pomme de terre (solanum tuberosum spp.)": {
+   "note": "Potato starch as a bulking agent — same class and tag as « amidon de riz / de maïs ».",
+   "reviewed_by": "Alexandre Bredillot",
+   "reviewed_on": "2026-09-18",
+   "seen_as": "agent de charge : fécule de pomme de terre (Solanum Tuberosum spp.)",
+   "verdict": "penalty:bulking_filler"
+  },
   "agent de charge : phosphates de calcium": {
    "note": "Calcium phosphates (E341) used as a bulking agent — same ruling as « agent de charge (phosphates de calcium) ».",
    "reviewed_by": "Alexandre Bredillot",
    "reviewed_on": "2026-09-06",
    "seen_as": "agent de charge : phosphates de calcium",
    "verdict": "penalty:bulking_filler"
+  },
+  "anti-agglomerants : oxyde de magnesium": {
+   "note": "Magnesium oxide (E530) used as an anti-caking agent, not as an active — same tag as « anti-agglomérant : carbonate de magnésium ».",
+   "reviewed_by": "Alexandre Bredillot",
+   "reviewed_on": "2026-09-18",
+   "seen_as": "anti-agglomérants : oxyde de magnésium",
+   "verdict": "penalty:anticaking"
   },
   "antiagglomerant : oxyde de magnesium": {
    "note": "magnesium oxide used as an anti-caking agent, not as the active",
@@ -343,6 +364,13 @@
    "seen_as": "poudre à lever : carbonate de soude",
    "verdict": "penalty:acidity_regulator"
   },
+  "poudre de cosse de pois (pisum sativum)": {
+   "note": "Pea hull powder used as a filler — a food fibre; same ruling as « fibre de pois ».",
+   "reviewed_by": "Alexandre Bredillot",
+   "reviewed_on": "2026-09-18",
+   "seen_as": "poudre de cosse de pois (Pisum sativum)",
+   "verdict": "neutral"
+  },
   "poudre de fleurs d'hibiscus": {
    "note": "Hibiscus flower powder used as the capsule filler — a food botanical, not an additive.",
    "reviewed_by": "Alexandre Bredillot",
@@ -363,6 +391,13 @@
    "reviewed_on": "2026-09-06",
    "seen_as": "régulateur d'acidité : hydroxyde d'ammonium",
    "verdict": "penalty:acidity_regulator"
+  },
+  "sirop d'agave": {
+   "note": "Agave syrup is an added sugar (mostly fructose) — same tag as « sirop de glucose ».",
+   "reviewed_by": "Alexandre Bredillot",
+   "reviewed_on": "2026-09-18",
+   "seen_as": "sirop d'agave",
+   "verdict": "penalty:added_sugar"
   },
   "support comprime multicouche": {
    "note": "multilayer tablet excipients not itemised on the label",

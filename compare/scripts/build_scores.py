@@ -159,6 +159,17 @@ STD = {
     # ZMA is scored on its zinc (the only component with a testosterone claim,
     # and only in deficiency); magnesium and B6 ride along as secondary actives.
     "zma":         {"amount": None, "label": "€ / day"},
+    # Minerals + vitamin E (v1.6). The standard dose is the EU nutrient reference
+    # value (Reg. 1169/2011, Annex XIII) — for these there is no single "trial
+    # dose" that applies to everyone, and the NRV is the figure printed on the
+    # label as 100 %, so a shopper can check the maths against the pack.
+    "iron":        {"amount": 14,   "label": "€ / 14 mg iron (NRV)"},
+    "calcium":     {"amount": 800,  "label": "€ / 800 mg calcium (NRV)"},
+    "iodine":      {"amount": 150,  "label": "€ / 150 µg iodine (NRV)"},
+    "selenium":    {"amount": 55,   "label": "€ / 55 µg selenium (NRV)"},
+    "chromium":    {"amount": 40,   "label": "€ / 40 µg chromium (NRV)"},
+    "potassium":   {"amount": 2000, "label": "€ / 2000 mg potassium (NRV)"},
+    "vitamin_e":   {"amount": 12,   "label": "€ / 12 mg vitamin E (NRV)"},
 }
 
 # Categories shown apart on the site: plant extracts with pharmacological
@@ -277,7 +288,8 @@ def normalize(entry):
     # dose tier for override categories
     if c in ("zinc","vitamin_c","collagen","probiotics","melatonin",
              "ashwagandha","maca","rhodiola","curcumin",
-             "vitamin_b12","vitamin_k2","biotin","folate","tribulus","fenugreek","zma"):
+             "vitamin_b12","vitamin_k2","biotin","folate","tribulus","fenugreek","zma",
+             "iron","calcium","iodine","selenium","chromium","potassium"):
         p["dose_tier"], p["dose_note"] = autotag.infer_dose_tier(c, p)
     # purity (v1.2: also returns red-card substances + unrecognised items to review)
     p["purity_tags"], p["additives_detail"], p["banned"], p["review_flags"] = \
