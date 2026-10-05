@@ -5,3 +5,12 @@ compare/pipeline/snapshots/
 compare/pipeline/reports/
 __pycache__/
 *.pyc
+
+# Private credentials and TLS material must never be published.
+*.key
+*.pem
+*.p12
+*.pfx
+.env
+.env.*
+!.env.example
