@@ -23,7 +23,7 @@ en: {
   navEvidence: "evidence", navMethodology: "methodology",
   navAbout: "about",
 
-  heroSub: `The independent supplement comparator — <b>score the label, price the active</b>. Every product gets an evidence-based Health &amp; Compo Score, a price per gram of <i>actual</i> active, and a dosage check against <i>your</i> needs — and <b>my stack</b> sums whatever you combine, catching doses that quietly cross an EU limit. Behind it: a proprietary price-and-label archive, <b>recorded daily and growing</b> — history no one can recreate after the fact. No sponsors, no affiliate links.`,
+  heroSub: `Compare ingredients, scores and price per active. No sponsors or affiliate links.`,
 
   statProducts: "products scored",
   statCategories: "categories",
@@ -31,6 +31,7 @@ en: {
   statSnapshot: "price snapshot",
   statOpen: "open data &amp; method",
 
+  profileTitle: "individual profile", profileOptional: "optional", profileActive: "active", stackOptional: "optional",
   pWeight: "weight (kg)", pHeight: "height (cm)", pHeightPlaceholder: "optional",
   pSex: "sex", pMale: "male", pFemale: "female",
   pAge: "age", pActivity: "activity",
@@ -171,6 +172,7 @@ en: {
   barNoLimit: "no EU limit set",
 
   stack: {
+    remove: "Remove",
     title: "my stack",
     empty: profile => `Empty. Add products with the <b>+ stack</b> button on any card — mix categories freely. The stack sums what you would actually swallow per day, nutrient by nutrient, checks every total against the EU upper limits${profile ? " and your personal bands" : ""}, and catches overlaps: an omega-3 with built-in vitamin D counts toward your vitamin-D total.`,
     emptyNoProfile: "The limit checks work without a profile; fill one in (top of the page) to also see your personal target bands here.",
@@ -227,7 +229,7 @@ en: {
   btnDetails: "details", btnCompare: "+ compare", btnCompared: "✓ added",
   btnStack: "+ stack", btnStacked: "✓ stacked",
   btnStackTitle: "add to your daily stack — combined doses are checked against the EU limits",
-  btnBuy: "buy ↗", btnBuyTitle: "direct product page — kleerer has no affiliation and earns nothing",
+  btnBuy: "buy ↗", btnBuyTitle: "direct product page — n3gh has no affiliation and earns nothing",
   perDayShort: (c,d) => `${c}/day · ~${d} days`,
   confTitle: c => `data confidence: ${c}`,
   redCardBanner: subs => `🟥 red card · banned: ${subs}`,
@@ -282,7 +284,7 @@ en: {
     guidance: " Guidance for healthy adults — not medical advice.",
     builtIn: (amt,unit) => `+ built-in: ${amt} ${unit} / day — counted in your stack totals`,
     btnInStack: "✓ in your stack", btnAddStack: "+ add to my stack",
-    btnBuyLong: "buy — direct product page ↗", noAffiliation: "no affiliation, kleerer earns nothing",
+    btnBuyLong: "buy — direct product page ↗", noAffiliation: "no affiliation, n3gh earns nothing",
     reviewFlag: r => `✓ “${r.string}” — ${T("detail").verdictLabel(r.verdict)}${r.note?` · ${r.note}`:""}${r.reviewed_on?` · reviewed ${r.reviewed_on}`:""}`,
     redCardLong: subs => `🟥 red card — contains a substance banned or restricted by EU / FDA / WHO: ${subs}. Score forced to 0.`,
     footnote: v => `Scored with methodology v${v} from the public label and brand documents — not from independent lab testing. Not medical advice.`
@@ -291,13 +293,13 @@ en: {
   footDisclaimer: `<b>Not medical advice.</b> Scores reflect label composition and public transparency only — not whether a supplement is right for you, and not independent lab verification of batch content. Dietary supplements are not a substitute for a varied diet. Talk to a healthcare professional before supplementing, especially if you are pregnant, on medication, or have a medical condition.`,
   footPrices: `Prices are EU list prices, snapshot <b>July 2026</b> — several brands (Myprotein, Bulk, Prozis) run structural promotions, so effective prices can be 30–45% lower. Data confidence is flagged per product. Found an error? The dataset and scoring script are open — please fix us.`,
   footSummary: `<b>Not medical advice.</b> Prices, licence and data rights — open the detail`,
-  footRights: `© 2026 kleerer. Code <b>AGPL-3.0</b> · methodology <b>CC BY-NC-ND 4.0</b> · catalogue <b>CC BY-NC-SA 4.0</b>. This catalogue is a protected database (Dir. 96/9/EC; CPI art. L.341-1 ff.): individual facts are free to quote, extraction of a <b>substantial part</b> is reserved. Text-and-data-mining rights reserved (Dir. (EU) 2019/790 art. 4(3); CPI art. L.122-5-3) — see <a href="/.well-known/tdmrep.json">tdmrep.json</a> and <a href="/terms/">terms</a>.`,
+  footRights: `© 2026 n3gh. Code <b>AGPL-3.0</b> · methodology <b>CC BY-NC-ND 4.0</b> · catalogue <b>CC BY-NC-SA 4.0</b>. This catalogue is a protected database (Dir. 96/9/EC; CPI art. L.341-1 ff.): individual facts are free to quote, extraction of a <b>substantial part</b> is reserved. Text-and-data-mining rights reserved (Dir. (EU) 2019/790 art. 4(3); CPI art. L.122-5-3) — see <a href="/.well-known/tdmrep.json">tdmrep.json</a> and <a href="/terms/">terms</a>.`,
   footMeta: "p1 · compare + p2 · stack (beta) — open method, private data · AGPL-3.0 · v1.5",
   footVersions: "methodology v1.2 · dosing model v2",
 
   methodology: () => `
     <h2>How the Health &amp; Compo Score works</h2>
-    <p>Every product is scored 0–100 by an <b>open</b> script using only the label and public proofs, never marketing claims. The <b>method is open</b> so it can be audited; the <b>dataset and its price/label history are not published</b> — that accumulating archive is kleerer's moat. <b>Price is never part of the health score.</b></p>
+    <p>Every product is scored 0–100 by an <b>open</b> script using only the label and public proofs, never marketing claims. The <b>method is open</b> so it can be audited; the <b>dataset and its price/label history are not published</b> — that accumulating archive is n3gh's moat. <b>Price is never part of the health score.</b></p>
     <h4>🟥 Red card</h4>
     <p>A product containing a substance banned, withdrawn or restricted by <b>any</b> of EU-EFSA, US-FDA or WHO (titanium dioxide E171, industrial trans fat, BVO, potassium bromate, Red 3, propylparaben…) is forced to <b>0 / grade E</b> — a banned additive is a disqualification, not a deduction. Strictest-guideline-wins: if one body flags it, we flag it.</p>
     <h4>Composition &amp; efficacy — 40 pts</h4>
@@ -327,7 +329,7 @@ en: {
     <p>Add any products to a stack and we sum what you would actually swallow per day, nutrient by nutrient — including <b>declared built-in actives</b> (an omega-3 carrying 800 IU of vitamin D counts toward your vitamin-D total). Every total is checked against the EU upper limits — that works <b>without</b> a profile — and against your personal bands with one. Two 300 mg magnesiums quietly total 600 mg against a 250 mg supplemental limit; nothing on the label warns you, the stack does.</p>
     <p><b>Honest boundary:</b> multivitamin labels aren't per-nutrient coded in our data yet, so a stack containing one shows its totals as <i>lower bounds</i> and says so, rather than guessing. Products whose name declares an extra active we haven't coded are flagged, not silently ignored — the same instinct as the unrecognised-ingredient rule, which withholds the product outright.</p>
     <h4>Provenance (separate axis, not in the health score)</h4>
-    <p>We flag country of manufacture (🇫🇷 France · 🇪🇺 EU · 🌍 outside EU) and a small proximity malus (0/1/3) reflecting kleerer's French focus. It is shown <b>separately</b>: a clean German product is not "less healthy" than a French one.</p>
+    <p>We flag country of manufacture (🇫🇷 France · 🇪🇺 EU · 🌍 outside EU) and a small proximity malus (0/1/3) reflecting n3gh's French focus. It is shown <b>separately</b>: a clean German product is not "less healthy" than a French one.</p>
     <h4>Language</h4>
     <p>The interface follows your browser's language preference (French or English) and you can switch it any time with the toggle in the header — your choice is remembered. We never look up your IP to guess: that would mean sending your address to a third party, and it would answer the wrong question anyway. Note that product-level editorial notes come from the label in the language they were published in.</p>
     <h3>Botanicals, in purple</h3>
@@ -336,12 +338,12 @@ en: {
     <p>Full details, penalty tables, sources and limitations: <b>METHODOLOGY.md</b> in the repository.</p>`,
 
   about: META => `
-    <h2>About kleerer.</h2>
-    <p><b>kleerer.</b> makes health data available to individuals seeking advice or recommendations. The project open-sources science-based resources and technologies to help people enhance their well-being — this comparator (p1) is the first product of that roadmap.</p>
+    <h2>About n3gh.</h2>
+    <p><b>n3gh.</b> makes health data available to individuals seeking advice or recommendations. The project open-sources science-based resources and technologies to help people enhance their well-being — this comparator (p1) is the first product of that roadmap.</p>
     <h4>Why it exists</h4>
-    <p>Supplement marketing sells stories; labels tell the truth. kleerer. reads the label for you: what form the active is in, whether the dose is effective, what else is in the capsule, and what the brand actually proves with third-party tests — then prices the product per gram of active, not per kilo of powder.</p>
+    <p>Supplement marketing sells stories; labels tell the truth. n3gh. reads the label for you: what form the active is in, whether the dose is effective, what else is in the capsule, and what the brand actually proves with third-party tests — then prices the product per gram of active, not per kilo of powder.</p>
     <h4>Independence</h4>
-    <p>No sponsors, no affiliate links, no paid placements. Covers ${META.n_products} EU/FR products across ${META.n_categories} categories (snapshot ${META.snapshot}). The <b>scoring method</b> — script and rules — is open-source (MIT) so it can be audited and challenged; the <b>dataset and its daily price/label history</b> stay private, because that accumulating archive is what makes kleerer hard to replicate. If a brand disagrees with a score, the fix is the same for everyone: publish better proof.</p>
+    <p>No sponsors, no affiliate links, no paid placements. Covers ${META.n_products} EU/FR products across ${META.n_categories} categories (snapshot ${META.snapshot}). The <b>scoring method</b> — script and rules — is open-source (MIT) so it can be audited and challenged; the <b>dataset and its daily price/label history</b> stay private, because that accumulating archive is what makes n3gh hard to replicate. If a brand disagrees with a score, the fix is the same for everyone: publish better proof.</p>
     <h4>Roadmap</h4>
     <p>p1: this comparator, with a personalised dosing check on every product. p2, <b>stack</b>, ships inside it (beta): build a basket across categories and it sums the combined daily doses — built-in actives included — warning when two products quietly push a nutrient over its EU limit, and showing what your profile's targets leave uncovered. Next: per-nutrient coding of multivitamin labels (so stack totals stop being lower bounds), the automated price &amp; label pipeline (source audit is Phase 1), and broader categories.</p>
     <p>The daily price-and-label archive stays <b>private</b>, and deliberately so — it is the asset, and publishing it would hand a scraper the one thing that took years to accumulate. What the site shows is today's catalogue; the history stays behind the wall.</p>
@@ -350,6 +352,7 @@ en: {
 
 /* ===================== FRANÇAIS ===================== */
 fr: {
+  profileTitle: "profil individuel", profileOptional: "facultatif", profileActive: "actif", stackOptional: "facultatif",
   htmlLang: "fr",
   langName: "FR",
   langSwitchTitle: "Switch to English",
@@ -359,7 +362,7 @@ fr: {
   navEvidence: "preuves", navMethodology: "méthodologie",
   navAbout: "à propos",
 
-  heroSub: `Le comparateur indépendant de compléments alimentaires — <b>on note l'étiquette, on chiffre l'actif</b>. Chaque produit reçoit un Health &amp; Compo Score fondé sur les preuves, un prix par gramme d'actif <i>réel</i>, et un contrôle du dosage face à <i>vos</i> besoins — et <b>ma routine</b> additionne tout ce que vous combinez, en repérant les doses qui franchissent discrètement une limite européenne. Derrière : une archive propriétaire des prix et des étiquettes, <b>enregistrée chaque jour et qui s'étoffe</b> — un historique que personne ne peut recréer après coup. Sans sponsors, sans liens affiliés.`,
+  heroSub: `Comparez les ingrédients, les scores et le prix par actif. Sans sponsors ni liens affiliés.`,
 
   statProducts: "produits notés",
   statCategories: "catégories",
@@ -507,6 +510,7 @@ fr: {
   barNoLimit: "aucune limite UE fixée",
 
   stack: {
+    remove: "Retirer",
     title: "ma routine",
     empty: profile => `Vide. Ajoutez des produits avec le bouton <b>+ routine</b> sur n'importe quelle fiche — mélangez les catégories librement. La routine additionne ce que vous avaleriez réellement chaque jour, nutriment par nutriment, confronte chaque total aux limites hautes européennes${profile ? " et à vos fourchettes personnelles" : ""}, et repère les recoupements : un oméga-3 contenant de la vitamine D compte dans votre total de vitamine D.`,
     emptyNoProfile: "Les contrôles de limites fonctionnent sans profil ; renseignez-en un (en haut de la page) pour voir aussi vos fourchettes cibles personnelles ici.",
@@ -564,7 +568,7 @@ fr: {
   btnDetails: "détails", btnCompare: "+ comparer", btnCompared: "✓ ajouté",
   btnStack: "+ routine", btnStacked: "✓ ajouté",
   btnStackTitle: "ajouter à votre routine quotidienne — les doses cumulées sont confrontées aux limites européennes",
-  btnBuy: "acheter ↗", btnBuyTitle: "page produit directe — kleerer n'a aucune affiliation et ne gagne rien",
+  btnBuy: "acheter ↗", btnBuyTitle: "page produit directe — n3gh n'a aucune affiliation et ne gagne rien",
   perDayShort: (c,d) => `${c}/jour · ~${d} jours`,
   confTitle: c => `fiabilité des données : ${c}`,
   redCardBanner: subs => `🟥 carton rouge · interdit : ${subs}`,
@@ -619,7 +623,7 @@ fr: {
     guidance: " Recommandations pour adultes en bonne santé — ne constitue pas un avis médical.",
     builtIn: (amt,unit) => `+ intégré : ${amt} ${unit} / jour — comptabilisé dans les totaux de votre routine`,
     btnInStack: "✓ dans votre routine", btnAddStack: "+ ajouter à ma routine",
-    btnBuyLong: "acheter — page produit directe ↗", noAffiliation: "aucune affiliation, kleerer ne gagne rien",
+    btnBuyLong: "acheter — page produit directe ↗", noAffiliation: "aucune affiliation, n3gh ne gagne rien",
     reviewFlag: r => `✓ « ${r.string} » — ${T("detail").verdictLabel(r.verdict)}${r.note?` · ${r.note}`:""}${r.reviewed_on?` · vérifié le ${r.reviewed_on}`:""}`,
     redCardLong: subs => `🟥 carton rouge — contient une substance interdite ou restreinte par l'UE / la FDA / l'OMS : ${subs}. Score ramené à 0.`,
     footnote: v => `Noté avec la méthodologie v${v} à partir de l'étiquette publique et des documents de la marque — pas d'analyses en laboratoire indépendant. Ne constitue pas un avis médical.`
@@ -628,13 +632,13 @@ fr: {
   footDisclaimer: `<b>Ne constitue pas un avis médical.</b> Les scores reflètent uniquement la composition de l'étiquette et la transparence publique — ni l'adéquation d'un complément à votre cas, ni une vérification indépendante du contenu des lots. Les compléments alimentaires ne remplacent pas une alimentation variée. Parlez-en à un professionnel de santé avant toute supplémentation, en particulier en cas de grossesse, de traitement en cours ou de pathologie.`,
   footPrices: `Les prix sont des prix publics UE, relevé de <b>juillet 2026</b> — plusieurs marques (Myprotein, Bulk, Prozis) pratiquent des promotions structurelles, les prix effectifs peuvent donc être inférieurs de 30 à 45 %. La fiabilité des données est signalée produit par produit. Vous avez repéré une erreur ? Le jeu de données et le script de notation sont ouverts — corrigez-nous.`,
   footSummary: `<b>Ne constitue pas un avis médical.</b> Prix, licence et droits sur les données — ouvrir le détail`,
-  footRights: `© 2026 kleerer. Code <b>AGPL-3.0</b> · méthodologie <b>CC BY-NC-ND 4.0</b> · catalogue <b>CC BY-NC-SA 4.0</b>. Ce catalogue est une base de données protégée (dir. 96/9/CE ; CPI art. L.341-1 et s.) : un fait isolé reste librement citable, l'extraction d'une <b>partie substantielle</b> est réservée. Droits de fouille de textes et de données réservés (dir. (UE) 2019/790 art. 4(3) ; CPI art. L.122-5-3) — voir <a href="/.well-known/tdmrep.json">tdmrep.json</a> et les <a href="/terms/">conditions</a>.`,
+  footRights: `© 2026 n3gh. Code <b>AGPL-3.0</b> · méthodologie <b>CC BY-NC-ND 4.0</b> · catalogue <b>CC BY-NC-SA 4.0</b>. Ce catalogue est une base de données protégée (dir. 96/9/CE ; CPI art. L.341-1 et s.) : un fait isolé reste librement citable, l'extraction d'une <b>partie substantielle</b> est réservée. Droits de fouille de textes et de données réservés (dir. (UE) 2019/790 art. 4(3) ; CPI art. L.122-5-3) — voir <a href="/.well-known/tdmrep.json">tdmrep.json</a> et les <a href="/terms/">conditions</a>.`,
   footMeta: "p1 · comparer + p2 · routine (bêta) — méthode ouverte, données privées · AGPL-3.0 · v1.5",
   footVersions: "méthodologie v1.2 · modèle de dosage v2",
 
   methodology: () => `
     <h2>Comment fonctionne le Health &amp; Compo Score</h2>
-    <p>Chaque produit est noté de 0 à 100 par un script <b>ouvert</b>, à partir de la seule étiquette et des preuves publiques, jamais des allégations marketing. La <b>méthode est ouverte</b> pour pouvoir être auditée ; le <b>jeu de données et son historique de prix et d'étiquettes ne sont pas publiés</b> — cette archive qui s'accumule est la barrière à l'entrée de kleerer. <b>Le prix n'entre jamais dans le score santé.</b></p>
+    <p>Chaque produit est noté de 0 à 100 par un script <b>ouvert</b>, à partir de la seule étiquette et des preuves publiques, jamais des allégations marketing. La <b>méthode est ouverte</b> pour pouvoir être auditée ; le <b>jeu de données et son historique de prix et d'étiquettes ne sont pas publiés</b> — cette archive qui s'accumule est la barrière à l'entrée de n3gh. <b>Le prix n'entre jamais dans le score santé.</b></p>
     <h4>🟥 Carton rouge</h4>
     <p>Un produit contenant une substance interdite, retirée ou restreinte par <b>l'une quelconque</b> des autorités UE-EFSA, US-FDA ou OMS (dioxyde de titane E171, graisses trans industrielles, BVO, bromate de potassium, Rouge 3, propylparabène…) est ramené à <b>0 / note E</b> — un additif interdit est une disqualification, pas une déduction. La règle la plus stricte l'emporte : si une seule autorité le signale, nous le signalons.</p>
     <h4>Composition &amp; efficacité — 40 pts</h4>
@@ -664,7 +668,7 @@ fr: {
     <p>Ajoutez des produits à une routine et nous additionnons ce que vous avaleriez réellement chaque jour, nutriment par nutriment — y compris les <b>actifs intégrés déclarés</b> (un oméga-3 apportant 800 UI de vitamine D compte dans votre total de vitamine D). Chaque total est confronté aux limites hautes européennes — cela fonctionne <b>sans</b> profil — et à vos fourchettes personnelles si vous en avez un. Deux magnésiums à 300 mg totalisent discrètement 600 mg face à une limite de 250 mg pour les compléments ; rien sur l'étiquette ne vous prévient, la routine si.</p>
     <p><b>Limite assumée :</b> les étiquettes de multivitamines ne sont pas encore codées nutriment par nutriment dans nos données ; une routine qui en contient affiche donc ses totaux comme des <i>minorants</i>, et le dit, plutôt que de deviner. Les produits dont le nom déclare un actif supplémentaire non codé sont signalés, pas ignorés silencieusement — le même réflexe que la règle sur les ingrédients non reconnus, qui retire purement et simplement le produit.</p>
     <h4>Provenance (axe distinct, hors score santé)</h4>
-    <p>Nous signalons le pays de fabrication (🇫🇷 France · 🇪🇺 UE · 🌍 hors UE) et un léger malus de proximité (0/1/3) reflétant l'ancrage français de kleerer. Il est affiché <b>séparément</b> : un produit allemand irréprochable n'est pas « moins sain » qu'un produit français.</p>
+    <p>Nous signalons le pays de fabrication (🇫🇷 France · 🇪🇺 UE · 🌍 hors UE) et un léger malus de proximité (0/1/3) reflétant l'ancrage français de n3gh. Il est affiché <b>séparément</b> : un produit allemand irréprochable n'est pas « moins sain » qu'un produit français.</p>
     <h4>Langue</h4>
     <p>L'interface suit la préférence linguistique de votre navigateur (français ou anglais) et vous pouvez en changer à tout moment avec le sélecteur dans l'en-tête — votre choix est mémorisé. Nous ne consultons jamais votre adresse IP pour deviner : cela reviendrait à transmettre votre adresse à un tiers, et répondrait de toute façon à la mauvaise question. À noter : les remarques éditoriales propres à chaque produit reprennent l'étiquette dans la langue où elle a été publiée.</p>
     <h3>Les plantes, en violet</h3>
@@ -673,12 +677,12 @@ fr: {
     <p>Détails complets, tables de pénalités, sources et limites : <b>METHODOLOGY.md</b> dans le dépôt.</p>`,
 
   about: META => `
-    <h2>À propos de kleerer.</h2>
-    <p><b>kleerer.</b> rend les données de santé accessibles aux personnes en quête de conseils ou de recommandations. Le projet ouvre le code de ressources et de technologies fondées sur la science pour aider chacun à améliorer son bien-être — ce comparateur (p1) est le premier produit de cette feuille de route.</p>
+    <h2>À propos de n3gh.</h2>
+    <p><b>n3gh.</b> rend les données de santé accessibles aux personnes en quête de conseils ou de recommandations. Le projet ouvre le code de ressources et de technologies fondées sur la science pour aider chacun à améliorer son bien-être — ce comparateur (p1) est le premier produit de cette feuille de route.</p>
     <h4>Pourquoi il existe</h4>
-    <p>Le marketing des compléments vend des histoires ; les étiquettes disent la vérité. kleerer. lit l'étiquette pour vous : sous quelle forme se présente l'actif, si la dose est efficace, ce que contient d'autre la gélule, et ce que la marque prouve réellement par des tests tiers — puis chiffre le produit au gramme d'actif, et non au kilo de poudre.</p>
+    <p>Le marketing des compléments vend des histoires ; les étiquettes disent la vérité. n3gh. lit l'étiquette pour vous : sous quelle forme se présente l'actif, si la dose est efficace, ce que contient d'autre la gélule, et ce que la marque prouve réellement par des tests tiers — puis chiffre le produit au gramme d'actif, et non au kilo de poudre.</p>
     <h4>Indépendance</h4>
-    <p>Sans sponsors, sans liens affiliés, sans placements payants. Couvre ${META.n_products} produits UE/FR dans ${META.n_categories} catégories (relevé ${META.snapshot}). La <b>méthode de notation</b> — script et règles — est open source (MIT) pour pouvoir être auditée et contestée ; le <b>jeu de données et son historique quotidien de prix et d'étiquettes</b> restent privés, parce que cette archive qui s'accumule est ce qui rend kleerer difficile à répliquer. Si une marque conteste un score, le remède est le même pour tous : publier de meilleures preuves.</p>
+    <p>Sans sponsors, sans liens affiliés, sans placements payants. Couvre ${META.n_products} produits UE/FR dans ${META.n_categories} catégories (relevé ${META.snapshot}). La <b>méthode de notation</b> — script et règles — est open source (MIT) pour pouvoir être auditée et contestée ; le <b>jeu de données et son historique quotidien de prix et d'étiquettes</b> restent privés, parce que cette archive qui s'accumule est ce qui rend n3gh difficile à répliquer. Si une marque conteste un score, le remède est le même pour tous : publier de meilleures preuves.</p>
     <h4>Feuille de route</h4>
     <p>p1 : ce comparateur, avec un contrôle de dosage personnalisé sur chaque produit. p2, <b>routine</b>, y est intégré (bêta) : composez un panier toutes catégories confondues et il additionne les doses journalières cumulées — actifs intégrés compris — en alertant lorsque deux produits poussent discrètement un nutriment au-delà de sa limite européenne, et en montrant ce que les cibles de votre profil laissent découvert. Ensuite : le codage nutriment par nutriment des étiquettes de multivitamines (pour que les totaux cessent d'être des minorants), le pipeline automatisé de prix et d'étiquettes (l'audit des sources constitue la phase 1) et l'élargissement des catégories.</p>
     <p>L'archive quotidienne des prix et des étiquettes reste <b>privée</b>, et c'est délibéré — c'est l'actif, et la publier reviendrait à offrir à un aspirateur de données la seule chose qui a demandé des années d'accumulation. Le site montre le catalogue du jour ; l'historique reste derrière le mur.</p>

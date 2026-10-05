@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: AGPL-3.0-only
-# Copyright (C) 2026 kleerer.
+# Copyright (C) 2026 n3gh.
 #
-# This file is part of the kleerer scoring engine and collection pipeline.
+# This file is part of the n3gh scoring engine and collection pipeline.
 # Licensed under the GNU Affero General Public License v3.0 ONLY; see LICENSE.
 # A separate commercial licence is available for parties who cannot accept the
-# AGPL's obligations: hello@kleerer.com. The commercial licence covers this code
+# AGPL's obligations: hello@n3gh.com. The commercial licence covers this code
 # only -- it conveys NO right in the collected archive, which is unpublished and
 # all rights reserved. See NOTICE.md.
 
@@ -45,7 +45,7 @@ def fetch_source(s, meta, use_cache=True):
     res = fetch.fetch(s["url"], meta, use_cache=use_cache)
     return res, "static"
 
-REPORTS = os.environ.get("KLEERER_REPORTS_DIR", os.path.join(HERE, "reports"))
+REPORTS = os.environ.get("N3GH_REPORTS_DIR", os.path.join(HERE, "reports"))
 DATA_JS = os.path.join(HERE, "..", "data.js")
 
 

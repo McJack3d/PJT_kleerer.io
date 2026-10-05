@@ -1,4 +1,4 @@
-# kleerer. — tracked product sources.
+# n3gh. — tracked product sources.
 # THE GENERATED BLOCK BELOW is produced by gen_sources.py from data.js — do not
 # hand-edit it; rerun `python3 gen_sources.py` instead. Add manual sources
 # (e.g. marketplace URLs) under the "# --- manual sources ---" marker at the end.
@@ -8,7 +8,7 @@
 # render: "static" (HTML has the data) or "js" (needs headless renderer, Phase 1)
 
 meta:
-  user_agent: "kleerer-bot/0.1 (+https://kleerer.com/bot; supplement price & label transparency; contact: hello@kleerer.com)"
+  user_agent: "n3gh-bot/0.1 (+https://n3gh.com/bot; supplement price & label transparency; contact: hello@n3gh.com)"
   min_delay_seconds_per_domain: 8
   respect_robots: true
   timeout_seconds: 20

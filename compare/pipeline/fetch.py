@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: AGPL-3.0-only
-# Copyright (C) 2026 kleerer.
+# Copyright (C) 2026 n3gh.
 #
-# This file is part of the kleerer scoring engine and collection pipeline.
+# This file is part of the n3gh scoring engine and collection pipeline.
 # Licensed under the GNU Affero General Public License v3.0 ONLY; see LICENSE.
 # A separate commercial licence is available for parties who cannot accept the
-# AGPL's obligations: hello@kleerer.com. The commercial licence covers this code
+# AGPL's obligations: hello@n3gh.com. The commercial licence covers this code
 # only -- it conveys NO right in the collected archive, which is unpublished and
 # all rights reserved. See NOTICE.md.
 
 """
-Polite HTTP fetcher for the kleerer. pipeline.
+Polite HTTP fetcher for the n3gh. pipeline.
 
 Rules baked in:
   - honour robots.txt (per domain, cached)
@@ -71,7 +71,7 @@ def _throttle(url, min_delay):
 
 def fetch(url, meta, use_cache=True, max_age_hours=20):
     """Return a FetchResult. Uses cache when fresh; never bypasses robots."""
-    ua = meta.get("user_agent", "kleerer-bot/0.1")
+    ua = meta.get("user_agent", "n3gh-bot/0.1")
     cache = _cache_path(url)
     if use_cache and os.path.exists(cache):
         age_h = (time.time() - os.path.getmtime(cache)) / 3600.0

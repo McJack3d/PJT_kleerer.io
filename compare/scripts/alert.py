@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: AGPL-3.0-only
-# Copyright (C) 2026 kleerer.
+# Copyright (C) 2026 n3gh.
 #
-# This file is part of the kleerer scoring engine and collection pipeline.
+# This file is part of the n3gh scoring engine and collection pipeline.
 # Licensed under the GNU Affero General Public License v3.0 ONLY; see LICENSE.
 # A separate commercial licence is available for parties who cannot accept the
-# AGPL's obligations: hello@kleerer.com. The commercial licence covers this code
+# AGPL's obligations: hello@n3gh.com. The commercial licence covers this code
 # only -- it conveys NO right in the collected archive, which is unpublished and
 # all rights reserved. See NOTICE.md.
 
 """
-kleerer. — owner alerts (guidelines §5.2, the "alert to the product owner" leg).
+n3gh. — owner alerts (guidelines §5.2, the "alert to the product owner" leg).
 
 The loop is: flagged product -> ALERT -> manual review -> publish or withhold.
 Withholding already happens without anyone being told, which is the safe
@@ -21,9 +21,9 @@ Channels, all best-effort — a dead channel must never fail a build or a
 collection run:
 
   stdout       always. A banner that survives being read in a scrollback.
-  log file     always. ~/Library/Logs/kleerer-review.log (override: KLEERER_LOG_DIR)
+  log file     always. ~/Library/Logs/n3gh-review.log (override: N3GH_LOG_DIR)
   desktop      macOS notification, when running on a Mac with a session.
-  webhook      only if KLEERER_ALERT_WEBHOOK is set. OFF by default and
+  webhook      only if N3GH_ALERT_WEBHOOK is set. OFF by default and
                deliberately so: it posts product names to a third party, and
                nothing here should start talking to the network because a
                default was left on.
@@ -34,9 +34,9 @@ The desktop notification does that job without the secret.
 """
 import json, os, subprocess, sys, datetime, urllib.request
 
-LOG_DIR = os.environ.get("KLEERER_LOG_DIR",
+LOG_DIR = os.environ.get("N3GH_LOG_DIR",
                          os.path.expanduser("~/Library/Logs"))
-LOG_FILE = os.path.join(LOG_DIR, "kleerer-review.log")
+LOG_FILE = os.path.join(LOG_DIR, "n3gh-review.log")
 OWNER = "Alexandre Bredillot"
 
 
@@ -67,14 +67,14 @@ def _notify_macos(title, message):
 
 
 def _webhook(payload):
-    url = os.environ.get("KLEERER_ALERT_WEBHOOK")
+    url = os.environ.get("N3GH_ALERT_WEBHOOK")
     if not url:
         return
     try:
         req = urllib.request.Request(
             url, data=json.dumps(payload).encode("utf-8"),
             headers={"Content-Type": "application/json",
-                     "User-Agent": "kleerer-alert/1.0"},
+                     "User-Agent": "n3gh-alert/1.0"},
         )
         urllib.request.urlopen(req, timeout=10).close()
     except Exception:                                   # noqa: BLE001 — never fail a build
@@ -109,7 +109,7 @@ def review_needed(queue):
 
     _log(f"REVIEW REQUIRED: {n_p} product(s) withheld, {n_s} pending string(s) — {detail}")
     _notify_macos(
-        f"kleerer — {n_p} product(s) withheld",
+        f"n3gh — {n_p} product(s) withheld",
         f"{n_s} unrecognised ingredient(s) need review: {detail}",
     )
     _webhook({
@@ -129,7 +129,7 @@ def cleared(n_released):
         msg = f"review queue cleared — {n_released} product(s) released to the site"
         print(f"\n✅ {msg}\n")
         _log(msg)
-        _notify_macos("kleerer — review queue clear", msg)
+        _notify_macos("n3gh — review queue clear", msg)
 
 
 if __name__ == "__main__":

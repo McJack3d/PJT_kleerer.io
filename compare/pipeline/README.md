@@ -1,4 +1,4 @@
-# kleerer. data pipeline (v0)
+# n3gh. data pipeline (v0)
 
 > **Why this exists.** The web app is replicable in an evening. This pipeline is not — because what it produces (a *versioned time-series* of prices and label compositions across the EU supplement market) can only be accumulated day by day. A better LLM tomorrow can copy today's snapshot; it can never regenerate three years of price history, reformulation diffs and delistings it never observed. **The moat is the archive, not the code.**
 
@@ -38,13 +38,13 @@ python3 -m pytest tests/ -q       # offline tests (no network)
 
 ## Archive privacy — where the history actually lives
 
-**The historical archive is private by design.** The public repo contains code and today's catalogue only; the accumulating time-series — the asset — is committed daily to the **private** repository `kleerer/kleerer-data` by the workflow, via the env vars `KLEERER_SNAPSHOT_DIR` / `KLEERER_REPORTS_DIR`.
+**The historical archive is private by design.** The public repo contains code and today's catalogue only; the accumulating time-series — the asset — is committed daily to the **private** repository `n3gh/n3gh-data` by the workflow, via the env vars `N3GH_SNAPSHOT_DIR` / `N3GH_REPORTS_DIR`.
 
 One-time setup:
-1. Create the private repo `kleerer-data` on GitHub (empty is fine).
+1. Create the private repo `n3gh-data` on GitHub (empty is fine).
 2. Create a fine-grained personal access token scoped to **only** that repo, permission *Contents: Read and write* (GitHub → Settings → Developer settings → Fine-grained tokens).
-3. In `kleerer.io` → Settings → Secrets and variables → Actions → new secret **`DATA_REPO_TOKEN`** = that token.
-4. Re-run the workflow. Each day now lands as one commit in `kleerer-data`.
+3. In `n3gh.io` → Settings → Secrets and variables → Actions → new secret **`DATA_REPO_TOKEN`** = that token.
+4. Re-run the workflow. Each day now lands as one commit in `n3gh-data`.
 
 **Offline backup** (external drive): run [`backup.sh`](backup.sh) — first run creates full `git clone --mirror` copies of both repos (every commit, every day ever recorded); later runs are fast incremental updates. Suggested cadence: weekly. A mirror alone is enough to restore everything even if GitHub vanished.
 
@@ -54,4 +54,4 @@ One-time setup:
 
 **Does:** polite fetch, **headless rendering for JS-only shops** (Playwright Chromium, free on GitHub Actions — `render.py`), JSON-LD/meta extraction, **live ingredient-label extraction** feeding the shared auto-tagger (observed reformulation detection), dated content-hashed snapshots, price-move + reformulation diffing, OpenFoodFacts enrichment by EAN, auto-generated source list from the catalogue (`gen_sources.py`, 110 tracked sources incl. Amazon.fr and French online pharmacies), dry-run planning, 16 offline tests.
 
-**Does not yet:** per-merchant HTML adapters, captcha/anti-bot evasion (we don't evade — if a site blocks us, we record the failure and move on), a proper database. Bot transparency page: [/bot/](../../bot/) — site owners can request exclusion at hello@kleerer.com.
+**Does not yet:** per-merchant HTML adapters, captcha/anti-bot evasion (we don't evade — if a site blocks us, we record the failure and move on), a proper database. Bot transparency page: [/bot/](../../bot/) — site owners can request exclusion at hello@n3gh.com.

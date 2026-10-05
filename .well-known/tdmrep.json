@@ -6,21 +6,21 @@
   {
     "location": "/compare/METHODOLOGY.md",
     "tdm-reservation": 1,
-    "tdm-policy": "https://kleerer.com/.well-known/tdm-policy.json"
+    "tdm-policy": "https://n3gh.com/.well-known/tdm-policy.json"
   },
   {
     "location": "/compare/data.js",
     "tdm-reservation": 1,
-    "tdm-policy": "https://kleerer.com/.well-known/tdm-policy.json"
+    "tdm-policy": "https://n3gh.com/.well-known/tdm-policy.json"
   },
   {
     "location": "/compare/data/",
     "tdm-reservation": 1,
-    "tdm-policy": "https://kleerer.com/.well-known/tdm-policy.json"
+    "tdm-policy": "https://n3gh.com/.well-known/tdm-policy.json"
   },
   {
     "location": "/compare/pipeline/",
     "tdm-reservation": 1,
-    "tdm-policy": "https://kleerer.com/.well-known/tdm-policy.json"
+    "tdm-policy": "https://n3gh.com/.well-known/tdm-policy.json"
   }
 ]

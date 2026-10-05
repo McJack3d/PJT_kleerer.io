@@ -6,7 +6,7 @@
 - Deed: https://creativecommons.org/licenses/by-nc-nd/4.0/
 - Legal code: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
 
-Copyright © 2026 kleerer. All rights not expressly granted are reserved.
+Copyright © 2026 n3gh. All rights not expressly granted are reserved.
 
 This licence applies to [`METHODOLOGY.md`](METHODOLOGY.md) only. It does **not**
 apply to the code that implements the methodology — `scripts/` and `pipeline/`
@@ -16,7 +16,7 @@ are under AGPL-3.0-only — nor to the catalogue, which has its own terms in
 ## What you may do
 
 Read it, quote it, cite it, link to it, and redistribute it verbatim, with
-attribution to kleerer and a link to this licence.
+attribution to n3gh and a link to this licence.
 
 ## What you may not do
 
@@ -38,4 +38,4 @@ propriété intellectuelle*. See [`../NOTICE.md`](../NOTICE.md) and
 
 ## Requests
 
-Commercial or derivative use: `hello@kleerer.com`.
+Commercial or derivative use: `hello@n3gh.com`.

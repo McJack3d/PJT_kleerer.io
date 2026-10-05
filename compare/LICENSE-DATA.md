@@ -9,12 +9,12 @@ catalogue and the curated source records behind it.
 - Deed: https://creativecommons.org/licenses/by-nc-sa/4.0/
 - Legal code: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 
-Copyright © 2026 kleerer. All rights not expressly granted are reserved.
+Copyright © 2026 n3gh. All rights not expressly granted are reserved.
 
 ## What you may do
 
 Use, copy, and build on the catalogue for non-commercial purposes, with
-attribution to kleerer and a link to this licence. If you distribute an adapted
+attribution to n3gh and a link to this licence. If you distribute an adapted
 version, it must carry this same licence.
 
 ## What you may not do
@@ -62,4 +62,4 @@ compatible with the grant made above for non-commercial use. See
 
 ## Requests
 
-Commercial licensing: `hello@kleerer.com`.
+Commercial licensing: `hello@n3gh.com`.

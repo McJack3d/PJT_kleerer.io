@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: AGPL-3.0-only
- * Copyright (C) 2026 kleerer.
+ * Copyright (C) 2026 n3gh.
  *
  * Cookieless audience measurement — guidelines §7.2, decided together with §6.2.
  *
@@ -25,7 +25,7 @@
  * no network request at all — it is deliberately inert rather than pointing at
  * a placeholder endpoint and 404-ing on every page view.
  *
- *   plausible   SITE_ID = "kleerer.com"     EU-hosted (plausible.io) or self-hosted.
+ *   plausible   SITE_ID = "n3gh.com"     EU-hosted (plausible.io) or self-hosted.
  *   umami       SITE_ID = "<uuid>"          EU cloud or self-hosted.
  *   goatcounter SITE_ID = "<code>"          "<code>.goatcounter.com", free for
  *                                           non-commercial use, EU (NL) hosted.
@@ -37,7 +37,7 @@
 
   var PROVIDER = "";        // "plausible" | "umami" | "goatcounter" | "" (off)
   var SITE_ID  = "";        // see the table above
-  var HOST     = "";        // optional self-hosted origin, e.g. "https://stats.kleerer.com"
+  var HOST     = "";        // optional self-hosted origin, e.g. "https://stats.n3gh.com"
 
   // ---------------------------------------------------------------- guards --
   if (!PROVIDER || !SITE_ID) return;                       // not configured yet

@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: AGPL-3.0-only
-# Copyright (C) 2026 kleerer.
+# Copyright (C) 2026 n3gh.
 #
-# This file is part of the kleerer scoring engine and collection pipeline.
+# This file is part of the n3gh scoring engine and collection pipeline.
 # Licensed under the GNU Affero General Public License v3.0 ONLY; see LICENSE.
 # A separate commercial licence is available for parties who cannot accept the
-# AGPL's obligations: hello@kleerer.com. The commercial licence covers this code
+# AGPL's obligations: hello@n3gh.com. The commercial licence covers this code
 # only -- it conveys NO right in the collected archive, which is unpublished and
 # all rights reserved. See NOTICE.md.
 
 """
-kleerer. — unrecognised-ingredient review ledger.
+n3gh. — unrecognised-ingredient review ledger.
 
 THE RULE THIS ENFORCES (guidelines §5.2):
 
@@ -269,7 +269,7 @@ def cmd_suggest_rules():
 
 
 def main():
-    ap = argparse.ArgumentParser(description="kleerer unrecognised-ingredient review ledger")
+    ap = argparse.ArgumentParser(description="n3gh unrecognised-ingredient review ledger")
     ap.add_argument("--list", action="store_true", help="show what is pending and what it blocks")
     ap.add_argument("--decide", metavar="STRING", help="ingredient string to rule on")
     ap.add_argument("--as", dest="verdict", metavar="VERDICT",

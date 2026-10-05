@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: CC-BY-NC-SA-4.0
-// Copyright (C) 2026 kleerer. Licence: ../LICENSE-DATA.md
+// Copyright (C) 2026 n3gh. Licence: ../LICENSE-DATA.md
 //
-// kleerer. — evidence dataset. What the trials actually show, by need.
+// n3gh. — evidence dataset. What the trials actually show, by need.
 //
 // EVERY NUMBER HERE POINTS AT A SOURCE. If a figure has no citation it does not
 // go in. Grades are for the OUTCOME on this row, not for the supplement — the
@@ -681,8 +681,8 @@ const EVIDENCE = {
   safety: {
     ashwagandha: {
       title: t("Two European agencies have moved against ashwagandha", "Deux agences européennes ont agi contre l'ashwagandha"),
-      body: t("Denmark banned it in food and supplements in 2023, citing possible effects on thyroid and sex hormones and a possible abortifacient effect. In April 2024 ANSES (France) advised people with thyroid, liver or heart conditions or hyperandrogenism, pregnant or breastfeeding women, people on sedatives, and anyone under 18 not to take it. Case reports of liver injury exist, including one requiring transplant, and an EU food-safety working group has recommended a formal Article 8 safety review. kleerer does not red-card it — Denmark and ANSES are not among the three bodies in the red-card rule — but this is the strongest safety signal of any product on the site.",
-               "Le Danemark l'a interdit dans les aliments et compléments en 2023, citant de possibles effets sur la thyroïde et les hormones sexuelles et un possible effet abortif. En avril 2024, l'ANSES a déconseillé sa consommation aux personnes atteintes de pathologies thyroïdiennes, hépatiques ou cardiaques ou d'hyperandrogénie, aux femmes enceintes ou allaitantes, aux personnes sous sédatifs et aux moins de 18 ans. Des cas d'atteinte hépatique existent, dont un ayant nécessité une greffe, et un groupe de travail européen a recommandé une procédure formelle de l'article 8. kleerer ne lui met pas de carton rouge — le Danemark et l'ANSES ne font pas partie des trois instances de la règle — mais c'est le signal de sécurité le plus fort de tout le site."),
+      body: t("Denmark banned it in food and supplements in 2023, citing possible effects on thyroid and sex hormones and a possible abortifacient effect. In April 2024 ANSES (France) advised people with thyroid, liver or heart conditions or hyperandrogenism, pregnant or breastfeeding women, people on sedatives, and anyone under 18 not to take it. Case reports of liver injury exist, including one requiring transplant, and an EU food-safety working group has recommended a formal Article 8 safety review. n3gh does not red-card it — Denmark and ANSES are not among the three bodies in the red-card rule — but this is the strongest safety signal of any product on the site.",
+               "Le Danemark l'a interdit dans les aliments et compléments en 2023, citant de possibles effets sur la thyroïde et les hormones sexuelles et un possible effet abortif. En avril 2024, l'ANSES a déconseillé sa consommation aux personnes atteintes de pathologies thyroïdiennes, hépatiques ou cardiaques ou d'hyperandrogénie, aux femmes enceintes ou allaitantes, aux personnes sous sédatifs et aux moins de 18 ans. Des cas d'atteinte hépatique existent, dont un ayant nécessité une greffe, et un groupe de travail européen a recommandé une procédure formelle de l'article 8. n3gh ne lui met pas de carton rouge — le Danemark et l'ANSES ne font pas partie des trois instances de la règle — mais c'est le signal de sécurité le plus fort de tout le site."),
       urls: [
         { label: "ANSES, avis 2021-SA-0077 du 19 avril 2024 (PDF)", url: "https://www.anses.fr/fr/system/files/NUT2021SA0077.pdf" },
         { label: "Regulatory roundup — Denmark, ANSES, EU Article 8", url: "https://www.nutritioninsight.com/news/regulatory-update-spotlight-on-international-authorities-response-to-ashwagandha-safety-concerns.html" },

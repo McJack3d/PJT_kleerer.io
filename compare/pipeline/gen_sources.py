@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: AGPL-3.0-only
-# Copyright (C) 2026 kleerer.
+# Copyright (C) 2026 n3gh.
 #
-# This file is part of the kleerer scoring engine and collection pipeline.
+# This file is part of the n3gh scoring engine and collection pipeline.
 # Licensed under the GNU Affero General Public License v3.0 ONLY; see LICENSE.
 # A separate commercial licence is available for parties who cannot accept the
-# AGPL's obligations: hello@kleerer.com. The commercial licence covers this code
+# AGPL's obligations: hello@n3gh.com. The commercial licence covers this code
 # only -- it conveys NO right in the collected archive, which is unpublished and
 # all rights reserved. See NOTICE.md.
 
@@ -37,7 +37,7 @@ STATIC_DOMAINS = {
     "farma2go.com", "vitavea.com", "www.onatera.com",
 }
 
-HEADER = '''# kleerer. — tracked product sources.
+HEADER = '''# n3gh. — tracked product sources.
 # THE GENERATED BLOCK BELOW is produced by gen_sources.py from data.js — do not
 # hand-edit it; rerun `python3 gen_sources.py` instead. Add manual sources
 # (e.g. marketplace URLs) under the "# --- manual sources ---" marker at the end.
@@ -47,7 +47,7 @@ HEADER = '''# kleerer. — tracked product sources.
 # render: "static" (HTML has the data) or "js" (needs headless renderer, Phase 1)
 
 meta:
-  user_agent: "kleerer-bot/0.1 (+https://kleerer.com/bot; supplement price & label transparency; contact: hello@kleerer.com)"
+  user_agent: "n3gh-bot/0.1 (+https://n3gh.com/bot; supplement price & label transparency; contact: hello@n3gh.com)"
   min_delay_seconds_per_domain: 8
   respect_robots: true
   timeout_seconds: 20

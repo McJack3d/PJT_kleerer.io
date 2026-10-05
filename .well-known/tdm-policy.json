@@ -1,37 +1,37 @@
 {
   "@context": "http://www.w3.org/ns/odrl.jsonld",
   "@type": "Policy",
-  "uid": "https://kleerer.com/.well-known/tdm-policy.json",
+  "uid": "https://n3gh.com/.well-known/tdm-policy.json",
   "profile": "https://www.w3.org/community/tdmrep/",
   "permission": [
     {
-      "target": "https://kleerer.com/",
+      "target": "https://n3gh.com/",
       "action": "http://www.w3.org/ns/odrl/2/index",
-      "assigner": "https://kleerer.com/"
+      "assigner": "https://n3gh.com/"
     }
   ],
   "prohibition": [
     {
-      "target": "https://kleerer.com/compare/METHODOLOGY.md",
+      "target": "https://n3gh.com/compare/METHODOLOGY.md",
       "action": "http://www.w3.org/ns/odrl/2/extract",
-      "assigner": "https://kleerer.com/"
+      "assigner": "https://n3gh.com/"
     },
     {
-      "target": "https://kleerer.com/compare/data.js",
+      "target": "https://n3gh.com/compare/data.js",
       "action": "http://www.w3.org/ns/odrl/2/extract",
-      "assigner": "https://kleerer.com/"
+      "assigner": "https://n3gh.com/"
     },
     {
-      "target": "https://kleerer.com/compare/data/",
+      "target": "https://n3gh.com/compare/data/",
       "action": "http://www.w3.org/ns/odrl/2/extract",
-      "assigner": "https://kleerer.com/"
+      "assigner": "https://n3gh.com/"
     }
   ],
   "obligation": [
     {
       "action": "http://www.w3.org/ns/odrl/2/obtainConsent",
-      "target": "https://kleerer.com/compare/data.js",
-      "assignee": "mailto:hello@kleerer.com"
+      "target": "https://n3gh.com/compare/data.js",
+      "assignee": "mailto:hello@n3gh.com"
     }
   ]
 }

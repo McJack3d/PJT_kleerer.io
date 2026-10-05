@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: AGPL-3.0-only
-# Copyright (C) 2026 kleerer.
+# Copyright (C) 2026 n3gh.
 #
-# This file is part of the kleerer scoring engine and collection pipeline.
+# This file is part of the n3gh scoring engine and collection pipeline.
 # Licensed under the GNU Affero General Public License v3.0 ONLY; see LICENSE.
 # A separate commercial licence is available for parties who cannot accept the
-# AGPL's obligations: hello@kleerer.com. The commercial licence covers this code
+# AGPL's obligations: hello@n3gh.com. The commercial licence covers this code
 # only -- it conveys NO right in the collected archive, which is unpublished and
 # all rights reserved. See NOTICE.md.
 
 """
-kleerer. — brick-and-mortar product entry (guidelines §5.1, item 3).
+n3gh. — brick-and-mortar product entry (guidelines §5.1, item 3).
 
     "Brick-and-mortar-only products — these must be ranked too, even without
      an online listing."
@@ -204,7 +204,7 @@ def cmd_stale(days):
 
 
 def main():
-    ap = argparse.ArgumentParser(description="kleerer brick-and-mortar product entry (§5.1)")
+    ap = argparse.ArgumentParser(description="n3gh brick-and-mortar product entry (§5.1)")
     ap.add_argument("--new", action="store_true", help="guided entry for one product")
     ap.add_argument("--list", action="store_true", help="list everything recorded")
     ap.add_argument("--stale", nargs="?", type=int, const=STALE_DEFAULT_DAYS,

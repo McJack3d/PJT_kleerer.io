@@ -1,21 +1,22 @@
-# kleerer.io
+# n3gh
 
-Source for **[kleerer.com](https://kleerer.com)** — an independent, evidence-based health-data project. The site is static (no build step, no backend, no runtime dependencies) and is published via GitHub Pages directly from this repository.
+Source for **[n3gh.com](https://n3gh.com)** — an independent, evidence-based health-data project. The site is static (no build step, no backend, no runtime dependencies) and is published via GitHub Pages directly from this repository.
 
 ## What this is
 
-kleerer. makes supplement science available to people looking for advice or recommendations, without sponsors, affiliate links, or paid placement. It's built in numbered "p" steps (products); the first one is live.
+n3gh. makes supplement science available to people looking for advice or recommendations, without sponsors, affiliate links, or paid placement. It's built in numbered "p" steps (products); the first one is live.
 
 - **`index.html` / `style.css` / `script.js`** — the root landing page: the project's mission statement, bilingual (EN/FR, detected from the browser's language, never from IP), linking through to each product.
-- **`compare/`** — **p1 · compare**, the first product: an independent supplement comparator. Open `compare/index.html` in a browser or visit [kleerer.com/compare](https://kleerer.com/compare/). See [compare/README.md](compare/README.md) for how it works and [compare/METHODOLOGY.md](compare/METHODOLOGY.md) for the full scoring rules.
-- **`bot/`** — a transparency page describing `kleerer-bot`, the crawler used to collect price/label data (identifies itself honestly, respects `robots.txt`, rate-limited, no login walls bypassed). Site owners can request exclusion via `hello@kleerer.com`.
+- **`compare/`** — **p1 · compare**, the first product: an independent supplement comparator. Open `compare/index.html` in a browser or visit [n3gh.com/compare](https://n3gh.com/compare/). See [compare/README.md](compare/README.md) for how it works and [compare/METHODOLOGY.md](compare/METHODOLOGY.md) for the full scoring rules.
+- **`bot/`** — a transparency page describing `n3gh-bot`, the crawler used to collect price/label data (identifies itself honestly, respects `robots.txt`, rate-limited, no login walls bypassed). Site owners can request exclusion via `hello@n3gh.com`.
 - **`compare/evidence/`** — **what supplements actually do, by need.** Sleep, stress, muscle, bone, heart, immunity, memory, joints, skin, gut, energy, libido — each supplement graded A–D on the trials behind that specific pairing, participants counted, every figure cited. The EFSA authorised claim is shown separately from the trial evidence, because a regulator approving a sentence about a nutrient's role is not a trial showing an outcome improved. The dataset is one readable file (`evidence.js`) so any grade can be challenged with a better study.
 - **`terms/`** — terms of use, including the database-right and text-and-data-mining clauses (EN/FR).
 - **`NOTICE.md`** — which licence applies to which layer, and exactly what the database right does and does not claim. Read this before reusing anything.
 - **`robots.txt` / `.well-known/tdmrep.json`** — the TDM reservation in human- and machine-readable form.
 - **`analytics.js`** — cookieless audience measurement: no cookies, no identifiers, no personal data, DNT/GPC honoured, so no consent banner and no self-selected baseline. Inert until a provider is configured.
 - **`manifest.webmanifest` / `sw.js` / `pwa.js` / `icons/`** — the installable app. `compare/` is a PWA: add it to a home screen and **the whole catalogue works offline**, which is the point — the moment you most want a score is standing at the shelf, which is exactly where the signal dies. The ~390 KB catalogue is precached, so it runs with the radio off. The service worker touches our own origin only, stores nothing about the visitor, and sends nothing anywhere.
-- **`CNAME`** — GitHub Pages custom-domain config, points the repo at `kleerer.com`.
+- **`assets/molecules/`** — locally served molecular illustrations from PubChem (melatonin CID 896, glycine CID 750) and RCSB PDB (human growth hormone, 1HGU). The original images are retained; the homepage applies a monochrome CSS treatment. Source attribution is recorded in `assets/molecules/README.md`; the homepage uses the images as decorative backgrounds, and the service worker caches all three for offline viewing.
+- **`CNAME`** — GitHub Pages custom-domain config, points the repo at `n3gh.com`.
 
 ## What it's used for
 
@@ -35,12 +36,12 @@ kleerer. makes supplement science available to people looking for advice or reco
 - **`compare/data/products_raw.json`**: 37 curated EU products in a coded schema (id, category, brand, price, form, dosing, additives, certifications, transparency flags, source URL, confidence level).
 - **`compare/data/fr/*.json`**: ~220 French-market products as free-text labels (`botanicals.json` holds the 30 ashwagandha, maca, rhodiola and curcumin products, `vitamins.json` the 33 B12, K2, B-complex, biotin and folate products, `boosters.json` the 13 tribulus, fenugreek and ZMA products — all transcribed from the brands' own pages on 6 September 2026; `minerals.json` the 13 iron and 5 potassium products, transcribed from cached brand pages of 13 September 2026 and each checked field by field by a second, independent pass); `compare/scripts/autotag.py` auto-tags these into the same coded schema (form quality tiers, additive classification) used for the curated set.
 - **`compare/data.js`**: the generated, scored dataset the app actually reads — built from the two sources above by `compare/scripts/build_scores.py`. Generated; not edited by hand.
-- **`compare/pipeline/`**: the data-collection pipeline — a polite crawler (honours `robots.txt`, rate-limited, honest User-Agent) that snapshots price + label per product daily, diffs each snapshot against the previous day to catch price moves and silent reformulations, and enriches by EAN via OpenFoodFacts open data where possible. The *code* is public; the accumulating **historical archive** (the actual time-series asset) is kept in a separate private repository (`kleerer-data`) — see [compare/pipeline/README.md](compare/pipeline/README.md).
+- **`compare/pipeline/`**: the data-collection pipeline — a polite crawler (honours `robots.txt`, rate-limited, honest User-Agent) that snapshots price + label per product daily, diffs each snapshot against the previous day to catch price moves and silent reformulations, and enriches by EAN via OpenFoodFacts open data where possible. The *code* is public; the accumulating **historical archive** (the actual time-series asset) is kept in a separate private repository (`n3gh-data`) — see [compare/pipeline/README.md](compare/pipeline/README.md).
 - **Data honesty**: prices are EU/FR list prices as snapshotted in July 2026 (promo-heavy brands are flagged per product since they routinely sell well below list); each product carries a confidence level (high/medium/low); scores come from labels and public documents, not independent lab testing.
 
 ## Disclaimer
 
-kleerer. does not provide medical advice. Consult a healthcare professional before supplementing, especially if pregnant, on medication, or managing a condition.
+n3gh. does not provide medical advice. Consult a healthcare professional before supplementing, especially if pregnant, on medication, or managing a condition.
 
 ## Licence
 
@@ -53,7 +54,7 @@ kleerer. does not provide medical advice. Consult a healthcare professional befo
 | `compare/data.js`, `compare/data/` | **CC BY-NC-SA 4.0** + database right ([details](compare/LICENSE-DATA.md)) |
 | Historical price/composition archive | **Not published. All rights reserved.** |
 
-The AGPL's network clause applies: run a modified version as a service and you owe its users your source. If that does not work for your product, the commercial licence is the paid exemption — `hello@kleerer.com`. It covers the engine only and **never** the archive.
+The AGPL's network clause applies: run a modified version as a service and you owe its users your source. If that does not work for your product, the commercial licence is the paid exemption — `hello@n3gh.com`. It covers the engine only and **never** the archive.
 
 ### Database right and TDM
 
@@ -62,3 +63,26 @@ The catalogue and the archive are protected databases (Directive 96/9/EC; CPI ar
 **The limit, stated plainly:** the database right protects the *database*, not the facts in it. A single price is a fact and is not protected — quote or republish any individual price or label freely. What is reserved is extraction of a **substantial part**. The public pages stay deliberately crawlable and citable, including by AI assistants; the reservation targets bulk mining of the archive, the methodology, and the catalogue-as-a-database.
 
 Corrections and pull requests are welcome. Contributions are accepted under the licence of the layer they touch.
+
+## Brand configuration
+
+The project uses `n3gh` for page content, crawler identification, browser storage and pipeline settings. Pipeline automation should use the `N3GH_*` environment variables documented in its scripts. Domain, mailbox and remote repository provisioning are managed separately from these source files.
+
+## Custom domain deployment
+
+GitHub Pages publishes `main` from `/`; `CNAME` sets the custom domain to `n3gh.com`.
+At the DNS provider, replace the existing apex A record with these four A records:
+
+| Type | Host | Value |
+| --- | --- | --- |
+| A | @ | 185.199.108.153 |
+| A | @ | 185.199.109.153 |
+| A | @ | 185.199.110.153 |
+| A | @ | 185.199.111.153 |
+| CNAME | www | mcjack3d.github.io |
+
+Remove the old apex AAAA record pointing to the previous host, or replace it with GitHub Pages IPv6 records as documented below. Preserve unrelated mail and verification records. Once DNS is valid and GitHub provisions its certificate, enable **Enforce HTTPS** in the repository's Pages settings.
+
+[GitHub Pages custom-domain documentation](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
+
+The GitHub repository URLs retain their actual existing names; changing the public brand does not rename remote repositories.

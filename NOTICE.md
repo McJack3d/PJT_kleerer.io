@@ -1,6 +1,6 @@
 # NOTICE — rights, licences, and reservations
 
-`kleerer.io` is not under a single licence. Different layers carry different
+`n3gh.io` is not under a single licence. Different layers carry different
 rights, because a software licence and a dataset are not the same kind of thing.
 Read the layer you intend to use.
 
@@ -68,8 +68,8 @@ under one.
 ## Trademark
 
 Licences granted here cover copyright and database rights only. They grant no
-right to use the name, look, or marks of kleerer.
+right to use the name, look, or marks of n3gh.
 
 ## Contact
 
-`hello@kleerer.com`
+`hello@n3gh.com`

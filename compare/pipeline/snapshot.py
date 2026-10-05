@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: AGPL-3.0-only
-# Copyright (C) 2026 kleerer.
+# Copyright (C) 2026 n3gh.
 #
-# This file is part of the kleerer scoring engine and collection pipeline.
+# This file is part of the n3gh scoring engine and collection pipeline.
 # Licensed under the GNU Affero General Public License v3.0 ONLY; see LICENSE.
 # A separate commercial licence is available for parties who cannot accept the
-# AGPL's obligations: hello@kleerer.com. The commercial licence covers this code
+# AGPL's obligations: hello@n3gh.com. The commercial licence covers this code
 # only -- it conveys NO right in the collected archive, which is unpublished and
 # all rights reserved. See NOTICE.md.
 
@@ -31,9 +31,9 @@ import os, json, hashlib, datetime
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 # The archive location. By default a local folder (dev runs); in production the
-# daily workflow points this at a checkout of the PRIVATE kleerer-data repo so
+# daily workflow points this at a checkout of the PRIVATE n3gh-data repo so
 # the accumulating history never lands in the public repository.
-SNAP_ROOT = os.environ.get("KLEERER_SNAPSHOT_DIR", os.path.join(HERE, "snapshots"))
+SNAP_ROOT = os.environ.get("N3GH_SNAPSHOT_DIR", os.path.join(HERE, "snapshots"))
 
 
 def today():

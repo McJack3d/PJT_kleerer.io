@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: AGPL-3.0-only
-# Copyright (C) 2026 kleerer.
+# Copyright (C) 2026 n3gh.
 #
-# This file is part of the kleerer scoring engine and collection pipeline.
+# This file is part of the n3gh scoring engine and collection pipeline.
 # Licensed under the GNU Affero General Public License v3.0 ONLY; see LICENSE.
 # A separate commercial licence is available for parties who cannot accept the
-# AGPL's obligations: hello@kleerer.com. The commercial licence covers this code
+# AGPL's obligations: hello@n3gh.com. The commercial licence covers this code
 # only -- it conveys NO right in the collected archive, which is unpublished and
 # all rights reserved. See NOTICE.md.
 
@@ -21,7 +21,7 @@ the parts a crawler reads before any JavaScript runs.
 
 The pages are the SAME app. We do not fork the markup: each route loads the same
 i18n.js/data.js and simply starts pinned to its language via <html lang> and a
-KLEERER_FORCE_LANG global. Behaviour, scores and the toggle are identical; only
+N3GH_FORCE_LANG global. Behaviour, scores and the toggle are identical; only
 the crawler-visible head differs, and a visitor who switches language is sent to
 the sibling route so the URL keeps matching the content.
 
@@ -34,7 +34,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 COMPARE = os.path.abspath(os.path.join(HERE, ".."))
 SRC = os.path.join(COMPARE, "index.html")
 I18N = os.path.join(COMPARE, "i18n.js")
-BASE_URL = "https://kleerer.com/compare/"
+BASE_URL = "https://n3gh.com/compare/"
 
 LANGS = ("en", "fr")
 
@@ -61,12 +61,12 @@ def i18n_strings():
 
 
 TITLES = {
-    "en": "kleerer. — p1 · compare · independent supplement comparator",
-    "fr": "kleerer. — p1 · comparer · comparateur indépendant de compléments",
+    "en": "n3gh. — p1 · compare · independent supplement comparator",
+    "fr": "n3gh. — p1 · comparer · comparateur indépendant de compléments",
 }
 OG_TITLES = {
-    "en": "kleerer. — supplements, made clear",
-    "fr": "kleerer. — les compléments, au clair",
+    "en": "n3gh. — supplements, made clear",
+    "fr": "n3gh. — les compléments, au clair",
 }
 
 
@@ -105,8 +105,8 @@ def build(lang, strings):
     html = html.replace('<link rel="canonical"', hreflang + '<link rel="canonical"', 1)
 
     # pin the language before i18n.js runs, and make the toggle navigate between routes
-    pin = (f'<script>window.KLEERER_FORCE_LANG="{lang}";'
-           f'window.KLEERER_LANG_ROUTES={json.dumps({l: f"../{l}/" for l in LANGS})};</script>\n')
+    pin = (f'<script>window.N3GH_FORCE_LANG="{lang}";'
+           f'window.N3GH_LANG_ROUTES={json.dumps({l: f"../{l}/" for l in LANGS})};</script>\n')
     html = html.replace('<script src="../i18n.js', pin + '<script src="../i18n.js', 1)
     return html
 
