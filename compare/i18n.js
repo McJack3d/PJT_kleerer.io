@@ -28,7 +28,7 @@ en: {
   statProducts: "products scored",
   statCategories: "categories",
   statRegion: "market scope",
-  statSnapshot: "price snapshot",
+  statSnapshot: "catalogue edition",
   statOpen: "open data &amp; method",
 
   profileTitle: "individual profile", profileOptional: "optional", profileActive: "active", stackOptional: "optional",
@@ -55,6 +55,7 @@ en: {
     omega3:"omega-3", multivitamin:"multivitamin", zinc:"zinc", vitamin_c:"vitamin c",
     collagen:"collagen", probiotics:"probiotics", melatonin:"melatonin",
     ashwagandha:"ashwagandha", maca:"maca", rhodiola:"rhodiola", curcumin:"curcumin",
+    vitamin_d2:"vitamin D2", vitamin_b1:"vitamin B1", vitamin_b2:"vitamin B2", vitamin_b3:"vitamin B3", vitamin_b5:"vitamin B5", vitamin_b6:"vitamin B6",
     vitamin_b12:"vitamin B12", vitamin_k2:"vitamin K2", b_complex:"B complex", biotin:"biotin", folate:"folate (B9)",
     tribulus:"tribulus", fenugreek:"fenugreek", zma:"ZMA",
     vitamin_e:"vitamin E", iron:"iron", calcium:"calcium", iodine:"iodine", selenium:"selenium", chromium:"chromium", potassium:"potassium"},
@@ -65,7 +66,8 @@ en: {
     ashwagandha:"mg root extract", maca:"mg maca", rhodiola:"mg extract", curcumin:"mg curcuminoids",
     vitamin_b12:"µg B12", vitamin_k2:"µg MK-7", biotin:"µg biotin", folate:"µg folate", tribulus:"mg extract", fenugreek:"mg extract", zma:"mg zinc",
     vitamin_e:"mg vitamin E", iron:"mg iron", calcium:"mg calcium", iodine:"µg iodine", selenium:"µg selenium", chromium:"µg chromium", potassium:"mg potassium"},
-  stackUnits: {whey:"g protein (per serving)", creatine:"g creatine", vitamin_d3:"IU vitamin D3",
+  nutrientUnits: {vitamin_d2:"IU D2", vitamin_d3:"IU D3", vitamin_b1:"mg", vitamin_b2:"mg", vitamin_b3:"mg", vitamin_b5:"mg", vitamin_b6:"mg", vitamin_b12:"µg", biotin:"µg", folate:"µg"},
+  stackUnits: {whey:"g protein (per serving)", creatine:"g creatine", vitamin_d3:"IU vitamin D (D2 + D3)",
     magnesium:"mg elemental Mg", omega3:"mg EPA+DHA", zinc:"mg zinc", vitamin_c:"mg vitamin C",
     collagen:"g collagen peptides", probiotics:"billion CFU", melatonin:"mg melatonin",
     ashwagandha:"mg ashwagandha extract", maca:"mg maca", rhodiola:"mg rhodiola extract", curcumin:"mg curcuminoids",
@@ -174,7 +176,7 @@ en: {
   stack: {
     remove: "Remove",
     title: "my stack",
-    empty: profile => `Empty. Add products with the <b>+ stack</b> button on any card — mix categories freely. The stack sums what you would actually swallow per day, nutrient by nutrient, checks every total against the EU upper limits${profile ? " and your personal bands" : ""}, and catches overlaps: an omega-3 with built-in vitamin D counts toward your vitamin-D total.`,
+    empty: profile => `Empty. Add products with the <b>+ stack</b> button on any card — mix categories freely. The stack sums what you would actually swallow per day, nutrient by nutrient, checks the recorded amounts against available limits${profile ? " and your personal bands" : ""}, and catches overlaps: an omega-3 with built-in vitamin D counts toward your vitamin-D total.`,
     emptyNoProfile: "The limit checks work without a profile; fill one in (top of the page) to also see your personal target bands here.",
     products: n => `${n} product${n>1?"s":""}`,
     perDay: "per day, all together", perMonth: "per month (~30 days)",
@@ -186,15 +188,15 @@ en: {
     inBand: "✓ in your band", belowBand: "↓ below your band", aboveBand: "↑ more than you need",
     withinLimit: ul => `within the ${ul} limit`,
     wheyNote: (pct,lo) => `≈ ${pct}% of your ${lo} g/day minimum — one serving of each shake, food does the rest.`,
-    from: "from:", builtIn: "(built-in)", fromMulti: "(from multivitamin)",
-    multiWarn: names => `⚑ Still uncoded, so <b>not counted above</b>: ${names}. Every other nutrient in this stack — including what your multivitamin contributes — is counted in full. Treat the listed nutrients as potentially higher than shown.`,
+    from: "from:", builtIn: "(built-in)", fromMulti: "(multi / B complex)", vitaminDTotal: "vitamin D · D2 + D3",
+    multiWarn: names => `⚑ Missing amounts, <b>not counted above</b>: ${names}. Totals cover only the nutrients shown and coded label amounts. Other nutrients and unrecorded amounts may be missing.`,
     mentionWarn: list => `⚑ declared but not yet coded: ${list} — not counted in the totals above.`,
     mentions: (brand,name,cat) => `${brand} ${name} mentions <b>${cat}</b>`,
     notCovered: "not covered by this stack",
     notCoveredIntro: hasMulti => `A varied diet may already cover these — nothing here is a prompt to buy more.${hasMulti ? " Your multivitamin likely covers part of them too." : ""} If you do want to cover one:`,
     bestForYou: "best for you:", cheapestFit: "cheapest fit:",
     profileHint: "Fill in your profile (top of the page) to see the totals against your personal bands and what this stack doesn't cover.",
-    footnote: "The stack counts supplements only — food intake is on top of everything shown here. Built-in secondary actives are included only where the manufacturer declares them. Guidance for healthy adults, not medical advice.",
+    footnote: "Only recorded supplement amounts are included; food intake is additional. Multi/B-complex totals cover vitamin D, magnesium, zinc, vitamin C and folate when coded. Checks apply only to the limits implemented here and do not establish overall safety or suitability.",
     alertMax: "Stack up to 12 products."
   },
 
@@ -206,7 +208,7 @@ en: {
     promoChip: "⚠ captured on promo",
     promoTitle: "this price was captured during a promotion — it is lower than the usual price, so the value ranking flatters this product",
     promoLong: (pct, normal) => `This price was captured during a promotion${pct?` (−${pct}%)`:""}${normal?`, against a normal price of ${normal}`:""}. The € / active and price-level figures above are therefore better than this product usually offers.`,
-    stableLong: "This brand does not run promotions — the price above is what you actually pay."
+    stableLong: "No recurring promotion pattern recorded. Check the current price on the merchant’s page."
   },
   contribute: {
     line: url => `Spotted something wrong — a price, a dose, an ingredient? <a href="${url}" target="_blank" rel="noopener">Open a correction</a>. The dataset and the scoring script are public; corrections arrive as auditable changes, and the fix applies to every product equally.`,
@@ -215,14 +217,14 @@ en: {
     titleFix: (b,n) => `[data] correction — ${b} ${n}`,
     body: (p, flags) => `Product: ${p.brand} — ${p.name} (${p.variant})\nProduct id: ${p.id}\nCategory: ${p.category}\n${flags?`Unrecognised ingredient(s): ${flags}\n`:""}\n**What is wrong / what should it be?**\n\n\n**Source** (label photo, brand page, COA):\n\n`
   },
-  zones: {FR:"made in France", EU:"made in EU", EXTRA_EU:"made outside EU", UNKNOWN:"origin unknown"},
+  zones: {FR:"brand origin estimate: France", EU:"brand origin estimate: EU", EXTRA_EU:"brand origin estimate: outside EU", UNKNOWN:"brand origin unconfirmed"},
   confidence: {high:"high", medium:"medium", low:"low"},
   priceLevelTitle: tier => `price level ${tier}/5 (1=cheapest per dose, 5=priciest)`,
 
   chipCoa: "COA published", chipThirdParty: "3rd-party tested", chipVegan: "vegan",
   chipBooster: "\"booster\"", chipBoosterTitle: "sold to raise testosterone — scored on the same method, which is why it lands where it does: the evidence page grades most of this group D",
   chipBotanical: "botanical", chipBotanicalTitle: "a plant extract, not a nutrient — no reference intake, no EFSA limit, no authorised health claim. Scored on the same method; its evidence is graded separately on the evidence page",
-  chipReview: "✓ manually reviewed", chipReviewTitle: "an ingredient here was unreadable by the auto-tagger and was ruled on by a human before this product was published",
+  chipReview: "ingredient reviewed", chipReviewTitle: "an ingredient here was unreadable by the auto-tagger and was ruled on by a human before this product was published",
   chipFlags: n => `⚠ ${n} flag${n>1?"s":""}`,
 
   barComposition: "composition", barPurity: "purity", barTransparency: "transparency",
@@ -253,7 +255,19 @@ en: {
     costDay: "cost / day", daysPack: "days per pack", form: "form", actives: "daily actives",
     doseVsNeeds: "dose vs your needs", additives: "additives", certifications: "certifications",
     watchouts: "watch-outs", none: "None",
-    footnote: snap => `Green = best of the selection. Price snapshot ${snap}; promo-heavy brands can be much cheaper in practice.`
+    footnote: snap => `Green = best of the selection. Prices were recorded on different dates; see each product’s source & verification section. Promotions can change the comparison.`
+  },
+
+  verification: {
+    title: "source & verification", source: "source link", label: "label fields", price: "price / variant",
+    openSource: "product source", openLabel: "label source", openPrice: "price source",
+    checkedOn: date => `reviewed ${date}`, notRechecked: "not rechecked",
+    accessNote: "An accessible link does not validate its label or price. A field review applies only to the scope listed below, not to the full formula, additives or certificates.",
+    availability: "availability at check", availabilityStates: {InStock:"in stock at source check", OutOfStock:"out of stock at source check"},
+    priceScope: "Price review scope:", scope: "Label review scope:", pending: "Still to review:", origin: "Brand location estimate:",
+    originNote: "Inferred from the brand; manufacturing location for this product or batch is unconfirmed.",
+    statuses: {identity_verified:"structured product identity matched", reachable_unverified:"link accessible · product details unverified", blocked:"automated access blocked", broken_source:"source page missing", unavailable:"source unavailable at check", missing_source:"no source link", unchecked:"source not checked"},
+    fields: {price:"price", label:"label", additives:"additives", certifications:"certifications", coa:"batch analysis", variant:"exact variant", nutrients:"nutrient amounts"}
   },
 
   detail: {
@@ -264,21 +278,22 @@ en: {
     scoreLine: (total,conf) => `Health &amp; Compo Score <b>${total}</b> / 100 · data confidence: <b>${conf}</b>`,
     secBreakdown: "score breakdown", secPrice: "price &amp; value", secProvenance: "provenance",
     secDosage: "dosage vs your needs", secGet: "what you actually get",
-    secReview: "manually reviewed", secWatchouts: "watch-outs",
-    inStore: pv => `In-store price — observed at ${pv.store}${pv.city?`, ${pv.city}`:""} on ${pv.observed_on}. One shop, one day: not a national price, and not re-checked daily like an online listing.`,
+    secReview: "ingredient decisions", secWatchouts: "watch-outs",
+    inStore: pv => `In-store price — observed at ${pv.store}${pv.city?`, ${pv.city}`:""} on ${pv.observed_on}. One shop, one day: not a national price. Check the date before comparing.`,
     verdictLabel: v => v === "neutral" ? "benign — no penalty"
       : v.startsWith("banned:") ? "banned substance — score forced to 0"
       : `scored as ${v.split(":")[1].replace(/_/g, " ")}`,
-    listPrice: "list price", priceLevelCell: tier => `price level ${tier}/5 in category`,
+    listPrice: "recorded price", priceLevelCell: tier => `price level ${tier}/5 in category`,
     provMalus: m => `(−${m} proximity, shown separately — not in the health score)`,
     unknown: "unknown",
     noDose: "This product's label does not state a daily dose we can check against your profile.",
     fillProfile: "Fill in your profile (top of the page) to see how this dose compares to your personal target.",
-    multiLead: "A multivitamin has no single dose to check — it carries 20+ nutrients, each with its own target. Here is what it contributes to the limit-bearing ones:",
+    secNutrients: "recorded nutrients",
+    multiLead: "Recorded label amounts per daily serving. This table can be partial; an omitted nutrient is not a confirmed zero.",
     absent: "not in this formula", perDayWord: "day",
-    multiCoded: "Counted in full in your stack totals",
+    multiCoded: "The stack uses the recorded amounts of vitamin D (D2 + D3), magnesium, zinc, vitamin C and folate. Other nutrients below are shown for information.",
     multiMissing: list => `Not yet coded from this label, so not counted in stack totals: ${list}.`,
-    multiNote: d => `Its “effective dosing” score (${d}/20) already grades whether the label lands near 100% NRV across the board rather than megadosing the cheap B vitamins. Compare individual nutrients in the single-nutrient categories instead.`,
+    multiNote: d => `The dose score (${d}/20) is a methodological summary, not a complete assessment of each nutrient or of this product’s suitability for you.`,
     personalisedTo: s => `Personalised to your ${s}.`,
     notPersonalised: "This band is <b>not</b> personalised: no body-weight, sex or age scaling is established for this nutrient, so it is the same for everyone.",
     guidance: " Guidance for healthy adults — not medical advice.",
@@ -291,7 +306,7 @@ en: {
   },
 
   footDisclaimer: `<b>Not medical advice.</b> Scores reflect label composition and public transparency only — not whether a supplement is right for you, and not independent lab verification of batch content. Dietary supplements are not a substitute for a varied diet. Talk to a healthcare professional before supplementing, especially if you are pregnant, on medication, or have a medical condition.`,
-  footPrices: `Prices are EU list prices, snapshot <b>July 2026</b> — several brands (Myprotein, Bulk, Prozis) run structural promotions, so effective prices can be 30–45% lower. Data confidence is flagged per product. Found an error? The dataset and scoring script are open — please fix us.`,
+  footPrices: `Prices are historical catalogue observations; per-product checks appear under <b>source &amp; verification</b> — several brands (Myprotein, Bulk, Prozis) run structural promotions, so effective prices can be 30–45% lower. Data confidence is flagged per product. Found an error? The dataset and scoring script are open — please fix us.`,
   footSummary: `<b>Not medical advice.</b> Prices, licence and data rights — open the detail`,
   footRights: `© 2026 n3gh. Code <b>AGPL-3.0</b> · methodology <b>CC BY-NC-ND 4.0</b> · catalogue <b>CC BY-NC-SA 4.0</b>. This catalogue is a protected database (Dir. 96/9/EC; CPI art. L.341-1 ff.): individual facts are free to quote, extraction of a <b>substantial part</b> is reserved. Text-and-data-mining rights reserved (Dir. (EU) 2019/790 art. 4(3); CPI art. L.122-5-3) — see <a href="/.well-known/tdmrep.json">tdmrep.json</a> and <a href="/terms/">terms</a>.`,
   footMeta: "p1 · compare + p2 · stack (beta) — open method, private data · AGPL-3.0 · v1.5",
@@ -325,11 +340,11 @@ en: {
     <tr><th>⚠ over the EU limit</th><td>breaches a statutory upper limit (vitamin D 4000 IU, zinc 25 mg, supplemental magnesium 250 mg, melatonin 1.9 mg…)</td></tr></table>
     <p><b>We only personalise what the evidence lets us.</b> Protein scales with body weight and activity (ISSN / Morton 2018, ESPEN past 65); magnesium with weight and sex (~6 mg/kg, capped at the ANSES PRI); vitamin D with age and BMI; zinc with sex and activity (EFSA PRI). But collagen trials dose in absolute grams, and probiotics are strain-specific and not dose-linear — so those bands are <b>the same for everyone, and the product says so</b> instead of inventing a personalised number. Multivitamins get no single target at all: 20+ nutrients each have their own, so we point you to the per-nutrient categories rather than pretend one number exists.</p>
     <p>Personalised dosing never touches the Health &amp; Compo Score — two people looking at the same product see the same grade. It is guidance for healthy adults and <b>not medical advice</b>.</p>
-    <h4>My stack (beta) — combined doses, checked</h4>
-    <p>Add any products to a stack and we sum what you would actually swallow per day, nutrient by nutrient — including <b>declared built-in actives</b> (an omega-3 carrying 800 IU of vitamin D counts toward your vitamin-D total). Every total is checked against the EU upper limits — that works <b>without</b> a profile — and against your personal bands with one. Two 300 mg magnesiums quietly total 600 mg against a 250 mg supplemental limit; nothing on the label warns you, the stack does.</p>
+    <h4>My stack (beta) — recorded amounts, combined</h4>
+    <p>Add any products to a stack and we sum what you would actually swallow per day, nutrient by nutrient — including <b>declared built-in actives</b> (an omega-3 carrying 800 IU of vitamin D counts toward your vitamin-D total). Recorded totals are compared with the limits implemented here — that works <b>without</b> a profile — and with your personal bands when available. This is not a complete review of every nutrient or interaction. Two 300 mg magnesiums quietly total 600 mg against a 250 mg supplemental limit; nothing on the label warns you, the stack does.</p>
     <p><b>Honest boundary:</b> multivitamin labels aren't per-nutrient coded in our data yet, so a stack containing one shows its totals as <i>lower bounds</i> and says so, rather than guessing. Products whose name declares an extra active we haven't coded are flagged, not silently ignored — the same instinct as the unrecognised-ingredient rule, which withholds the product outright.</p>
     <h4>Provenance (separate axis, not in the health score)</h4>
-    <p>We flag country of manufacture (🇫🇷 France · 🇪🇺 EU · 🌍 outside EU) and a small proximity malus (0/1/3) reflecting n3gh's French focus. It is shown <b>separately</b>: a clean German product is not "less healthy" than a French one.</p>
+    <p>The location flag is an <b>estimate associated with the brand</b> (France / EU / outside EU). It does not verify where an individual product or batch was made. This estimate is separate from the composition score.</p>
     <h4>Language</h4>
     <p>The interface follows your browser's language preference (French or English) and you can switch it any time with the toggle in the header — your choice is remembered. We never look up your IP to guess: that would mean sending your address to a third party, and it would answer the wrong question anyway. Note that product-level editorial notes come from the label in the language they were published in.</p>
     <h3>Botanicals, in purple</h3>
@@ -367,7 +382,7 @@ fr: {
   statProducts: "produits notés",
   statCategories: "catégories",
   statRegion: "marché couvert",
-  statSnapshot: "relevé des prix",
+  statSnapshot: "édition du catalogue",
   statOpen: "méthode &amp; données ouvertes",
 
   pWeight: "poids (kg)", pHeight: "taille (cm)", pHeightPlaceholder: "facultatif",
@@ -393,6 +408,7 @@ fr: {
     omega3:"oméga-3", multivitamin:"multivitamines", zinc:"zinc", vitamin_c:"vitamine c",
     collagen:"collagène", probiotics:"probiotiques", melatonin:"mélatonine",
     ashwagandha:"ashwagandha", maca:"maca", rhodiola:"rhodiola", curcumin:"curcumine",
+    vitamin_d2:"vitamine D2", vitamin_b1:"vitamine B1", vitamin_b2:"vitamine B2", vitamin_b3:"vitamine B3", vitamin_b5:"vitamine B5", vitamin_b6:"vitamine B6",
     vitamin_b12:"vitamine B12", vitamin_k2:"vitamine K2", b_complex:"complexe B", biotin:"biotine", folate:"folate (B9)",
     tribulus:"tribulus", fenugreek:"fenugrec", zma:"ZMA",
     vitamin_e:"vitamine E", iron:"fer", calcium:"calcium", iodine:"iode", selenium:"sélénium", chromium:"chrome", potassium:"potassium"},
@@ -403,7 +419,8 @@ fr: {
     ashwagandha:"mg d'extrait de racine", maca:"mg de maca", rhodiola:"mg d'extrait", curcumin:"mg de curcuminoïdes",
     vitamin_b12:"µg de B12", vitamin_k2:"µg de MK-7", biotin:"µg de biotine", folate:"µg de folate", tribulus:"mg d'extrait", fenugreek:"mg d'extrait", zma:"mg de zinc",
     vitamin_e:"mg de vitamine E", iron:"mg de fer", calcium:"mg de calcium", iodine:"µg d'iode", selenium:"µg de sélénium", chromium:"µg de chrome", potassium:"mg de potassium"},
-  stackUnits: {whey:"g de protéines (par portion)", creatine:"g de créatine", vitamin_d3:"UI de vitamine D3",
+  nutrientUnits: {vitamin_d2:"UI D2", vitamin_d3:"UI D3", vitamin_b1:"mg", vitamin_b2:"mg", vitamin_b3:"mg", vitamin_b5:"mg", vitamin_b6:"mg", vitamin_b12:"µg", biotin:"µg", folate:"µg"},
+  stackUnits: {whey:"g de protéines (par portion)", creatine:"g de créatine", vitamin_d3:"UI de vitamine D (D2 + D3)",
     magnesium:"mg de Mg élémentaire", omega3:"mg d'EPA+DHA", zinc:"mg de zinc", vitamin_c:"mg de vitamine C",
     collagen:"g de peptides de collagène", probiotics:"milliards d'UFC", melatonin:"mg de mélatonine",
     ashwagandha:"mg d'extrait d'ashwagandha", maca:"mg de maca", rhodiola:"mg d'extrait de rhodiola", curcumin:"mg de curcuminoïdes",
@@ -512,7 +529,7 @@ fr: {
   stack: {
     remove: "Retirer",
     title: "ma routine",
-    empty: profile => `Vide. Ajoutez des produits avec le bouton <b>+ routine</b> sur n'importe quelle fiche — mélangez les catégories librement. La routine additionne ce que vous avaleriez réellement chaque jour, nutriment par nutriment, confronte chaque total aux limites hautes européennes${profile ? " et à vos fourchettes personnelles" : ""}, et repère les recoupements : un oméga-3 contenant de la vitamine D compte dans votre total de vitamine D.`,
+    empty: profile => `Vide. Ajoutez des produits avec le bouton <b>+ routine</b> sur n'importe quelle fiche — mélangez les catégories librement. La routine additionne ce que vous avaleriez réellement chaque jour, nutriment par nutriment, confronte les quantités renseignées aux limites disponibles${profile ? " et à vos fourchettes personnelles" : ""}, et repère les recoupements : un oméga-3 contenant de la vitamine D compte dans votre total de vitamine D.`,
     emptyNoProfile: "Les contrôles de limites fonctionnent sans profil ; renseignez-en un (en haut de la page) pour voir aussi vos fourchettes cibles personnelles ici.",
     products: n => `${n} produit${n>1?"s":""}`,
     perDay: "par jour, tout compris", perMonth: "par mois (~30 jours)",
@@ -524,15 +541,15 @@ fr: {
     inBand: "✓ dans votre fourchette", belowBand: "↓ sous votre fourchette", aboveBand: "↑ plus que nécessaire",
     withinLimit: ul => `dans la limite de ${ul}`,
     wheyNote: (pct,lo) => `≈ ${pct} % de votre minimum de ${lo} g/jour — une portion de chaque shake, l'alimentation fait le reste.`,
-    from: "provenance :", builtIn: "(intégré)", fromMulti: "(via multivitamines)",
-    multiWarn: names => `⚑ Pas encore codé, donc <b>non comptabilisé ci-dessus</b> : ${names}. Tout le reste de cette routine — y compris ce qu'apporte votre multivitamines — est compté intégralement. Considérez les nutriments listés comme potentiellement plus élevés qu'affiché.`,
+    from: "provenance :", builtIn: "(intégré)", fromMulti: "(multi / complexe B)", vitaminDTotal: "vitamine D · D2 + D3",
+    multiWarn: names => `⚑ Quantités manquantes, <b>non comptabilisées ci-dessus</b> : ${names}. Les totaux couvrent uniquement les nutriments affichés et les quantités codées. D’autres nutriments ou quantités peuvent manquer.`,
     mentionWarn: list => `⚑ déclaré mais pas encore codé : ${list} — non comptabilisé dans les totaux ci-dessus.`,
     mentions: (brand,name,cat) => `${brand} ${name} mentionne <b>${cat}</b>`,
     notCovered: "non couvert par cette routine",
     notCoveredIntro: hasMulti => `Une alimentation variée peut déjà les couvrir — rien ici n'est une incitation à acheter davantage.${hasMulti ? " Votre multivitamines en couvre probablement une partie." : ""} Si vous souhaitez tout de même en couvrir un :`,
     bestForYou: "le meilleur pour vous :", cheapestFit: "le moins cher qui convient :",
     profileHint: "Renseignez votre profil (en haut de la page) pour voir les totaux face à vos fourchettes personnelles et ce que cette routine ne couvre pas.",
-    footnote: "La routine ne compte que les compléments — les apports alimentaires s'ajoutent à tout ce qui est affiché ici. Les actifs secondaires intégrés ne sont inclus que lorsque le fabricant les déclare. Recommandations pour adultes en bonne santé, ne constitue pas un avis médical.",
+    footnote: "Seules les quantités renseignées des compléments sont comptées ; l’alimentation s’y ajoute. Les totaux multi/complexe B couvrent D, magnésium, zinc, C et folates lorsqu’ils sont codés. Les contrôles portent sur les limites intégrées ici et ne garantissent pas la sécurité ou l’adéquation de la routine.",
     alertMax: "Jusqu'à 12 produits dans la routine."
   },
 
@@ -544,7 +561,7 @@ fr: {
     promoChip: "⚠ relevé en promotion",
     promoTitle: "ce prix a été relevé pendant une promotion — il est inférieur au prix habituel, le classement au rapport qualité-prix avantage donc ce produit",
     promoLong: (pct, normal) => `Ce prix a été relevé pendant une promotion${pct?` (−${pct} %)`:""}${normal?`, pour un prix habituel de ${normal}`:""}. Le € / actif et le niveau de prix ci-dessus sont donc meilleurs que ce que ce produit propose habituellement.`,
-    stableLong: "Cette marque ne pratique pas de promotions — le prix ci-dessus est celui que vous payez réellement."
+    stableLong: "Aucun schéma de promotions récurrentes renseigné. Vérifiez le prix actuel sur la fiche du vendeur."
   },
   contribute: {
     line: url => `Vous avez repéré une erreur — un prix, un dosage, un ingrédient ? <a href="${url}" target="_blank" rel="noopener">Proposez une correction</a>. Le jeu de données et le script de notation sont publics ; les corrections arrivent sous forme de modifications auditables, et le correctif s'applique à tous les produits de la même façon.`,
@@ -553,14 +570,14 @@ fr: {
     titleFix: (b,n) => `[data] correction — ${b} ${n}`,
     body: (p, flags) => `Produit : ${p.brand} — ${p.name} (${p.variant})\nIdentifiant : ${p.id}\nCatégorie : ${p.category}\n${flags?`Ingrédient(s) non reconnu(s) : ${flags}\n`:""}\n**Qu'est-ce qui est incorrect, et que faudrait-il ?**\n\n\n**Source** (photo d'étiquette, page de la marque, certificat d'analyse) :\n\n`
   },
-  zones: {FR:"fabriqué en France", EU:"fabriqué dans l'UE", EXTRA_EU:"fabriqué hors UE", UNKNOWN:"origine inconnue"},
+  zones: {FR:"origine estimée de la marque : France", EU:"origine estimée de la marque : UE", EXTRA_EU:"origine estimée de la marque : hors UE", UNKNOWN:"origine de la marque non confirmée"},
   confidence: {high:"élevée", medium:"moyenne", low:"faible"},
   priceLevelTitle: tier => `niveau de prix ${tier}/5 (1 = le moins cher par dose, 5 = le plus cher)`,
 
   chipCoa: "analyses publiées", chipThirdParty: "testé par un tiers", chipVegan: "végan",
   chipBooster: "« booster »", chipBoosterTitle: "vendu pour augmenter la testostérone — noté selon la même méthode, ce qui explique où il atterrit : la page preuves note la plupart de ce groupe D",
   chipBotanical: "plante", chipBotanicalTitle: "un extrait végétal, pas un nutriment — aucun apport de référence, aucune limite EFSA, aucune allégation santé autorisée. Noté selon la même méthode ; ses preuves sont évaluées à part sur la page preuves",
-  chipReview: "✓ vérifié manuellement", chipReviewTitle: "un ingrédient illisible pour l'auto-tagger a été tranché par un humain avant la publication de ce produit",
+  chipReview: "ingrédient revu", chipReviewTitle: "un ingrédient illisible pour l'auto-tagger a été tranché par un humain avant la publication de ce produit",
 
   chipFlags: n => `⚠ ${n} alerte${n>1?"s":""}`,
 
@@ -592,7 +609,19 @@ fr: {
     costDay: "coût / jour", daysPack: "jours par pack", form: "forme", actives: "actifs journaliers",
     doseVsNeeds: "dose vs vos besoins", additives: "additifs", certifications: "certifications",
     watchouts: "points de vigilance", none: "Aucun",
-    footnote: snap => `Vert = le meilleur de la sélection. Relevé des prix ${snap} ; les marques très promotionnelles peuvent être bien moins chères en pratique.`
+    footnote: snap => `Vert = le meilleur de la sélection. Les prix ont des dates de relevé différentes : consultez « source & vérification » sur chaque fiche. Les promotions peuvent modifier la comparaison.`
+  },
+
+  verification: {
+    title: "source & vérification", source: "lien source", label: "champs d’étiquette", price: "prix / variante",
+    openSource: "fiche source", openLabel: "source étiquette", openPrice: "source prix",
+    checkedOn: date => `revu le ${date}`, notRechecked: "non revérifié",
+    accessNote: "Un lien accessible ne valide ni l’étiquette ni le prix. Une revue de champs porte uniquement sur le périmètre indiqué ci-dessous, pas sur la formule entière, les additifs ou les certificats.",
+    availability: "disponibilité au contrôle", availabilityStates: {InStock:"en stock lors du contrôle source", OutOfStock:"rupture de stock lors du contrôle source"},
+    priceScope: "Périmètre du prix revu :", scope: "Périmètre de l’étiquette revue :", pending: "À revoir :", origin: "Repère géographique de la marque :",
+    originNote: "Déduit de la marque ; le lieu de fabrication de ce produit ou de ce lot n’est pas confirmé.",
+    statuses: {identity_verified:"identité structurée du produit concordante", reachable_unverified:"lien accessible · fiche non validée", blocked:"accès automatisé bloqué", broken_source:"page source introuvable", unavailable:"source indisponible au contrôle", missing_source:"aucun lien source", unchecked:"source non contrôlée"},
+    fields: {price:"prix", label:"étiquette", additives:"additifs", certifications:"certifications", coa:"analyse de lot", variant:"variante exacte", nutrients:"quantités de nutriments"}
   },
 
   detail: {
@@ -603,21 +632,22 @@ fr: {
     scoreLine: (total,conf) => `Health &amp; Compo Score <b>${total}</b> / 100 · fiabilité des données : <b>${conf}</b>`,
     secBreakdown: "détail du score", secPrice: "prix &amp; valeur", secProvenance: "provenance",
     secDosage: "dosage vs vos besoins", secGet: "ce que vous obtenez vraiment",
-    secReview: "vérifié manuellement", secWatchouts: "points de vigilance",
-    inStore: pv => `Prix relevé en magasin — ${pv.store}${pv.city?`, ${pv.city}`:""}, le ${pv.observed_on}. Un magasin, un jour : ce n'est pas un prix national, et il n'est pas revérifié quotidiennement comme une annonce en ligne.`,
+    secReview: "décisions sur les ingrédients", secWatchouts: "points de vigilance",
+    inStore: pv => `Prix relevé en magasin — ${pv.store}${pv.city?`, ${pv.city}`:""}, le ${pv.observed_on}. Un magasin, un jour : ce n'est pas un prix national. Vérifiez la date avant de comparer.`,
     verdictLabel: v => v === "neutral" ? "bénin — aucune pénalité"
       : v.startsWith("banned:") ? "substance interdite — score ramené à 0"
       : `compté comme ${v.split(":")[1].replace(/_/g, " ")}`,
-    listPrice: "prix public", priceLevelCell: tier => `niveau de prix ${tier}/5 dans la catégorie`,
+    listPrice: "prix relevé", priceLevelCell: tier => `niveau de prix ${tier}/5 dans la catégorie`,
     provMalus: m => `(−${m} de proximité, affiché séparément — hors score santé)`,
     unknown: "inconnue",
     noDose: "L'étiquette de ce produit n'indique pas de dose journalière que nous puissions confronter à votre profil.",
     fillProfile: "Renseignez votre profil (en haut de la page) pour voir comment cette dose se compare à votre cible personnelle.",
-    multiLead: "Un multivitamines n'a pas de dose unique à vérifier — il apporte plus de 20 nutriments, chacun avec sa propre cible. Voici ce qu'il apporte pour ceux qui ont une limite réglementaire :",
+    secNutrients: "nutriments renseignés",
+    multiLead: "Quantités relevées sur l’étiquette pour la portion journalière. Ce tableau peut être partiel : un nutriment absent du tableau n’est pas un zéro confirmé.",
     absent: "absent de cette formule", perDayWord: "jour",
-    multiCoded: "Comptabilisé intégralement dans les totaux de votre routine",
+    multiCoded: "La routine utilise les quantités renseignées de vitamine D (D2 + D3), magnésium, zinc, vitamine C et folates. Les autres nutriments ci-dessus sont affichés à titre informatif.",
     multiMissing: list => `Pas encore codé depuis cette étiquette, donc non comptabilisé dans les totaux : ${list}.`,
-    multiNote: d => `Son score de « dosage efficace » (${d}/20) évalue déjà si l'étiquette se situe près de 100 % des VNR sur l'ensemble, plutôt que de surdoser les vitamines B bon marché. Comparez plutôt les nutriments un par un dans les catégories mono-nutriment.`,
+    multiNote: d => `Le score de dosage (${d}/20) est une synthèse de la méthode, pas une évaluation complète de chaque nutriment ni de l’adéquation du produit à votre situation.`,
     personalisedTo: s => `Personnalisé selon votre ${s}.`,
     notPersonalised: "Cette fourchette n'est <b>pas</b> personnalisée : aucun ajustement au poids, au sexe ou à l'âge n'est établi pour ce nutriment, elle est donc la même pour tout le monde.",
     guidance: " Recommandations pour adultes en bonne santé — ne constitue pas un avis médical.",
@@ -630,7 +660,7 @@ fr: {
   },
 
   footDisclaimer: `<b>Ne constitue pas un avis médical.</b> Les scores reflètent uniquement la composition de l'étiquette et la transparence publique — ni l'adéquation d'un complément à votre cas, ni une vérification indépendante du contenu des lots. Les compléments alimentaires ne remplacent pas une alimentation variée. Parlez-en à un professionnel de santé avant toute supplémentation, en particulier en cas de grossesse, de traitement en cours ou de pathologie.`,
-  footPrices: `Les prix sont des prix publics UE, relevé de <b>juillet 2026</b> — plusieurs marques (Myprotein, Bulk, Prozis) pratiquent des promotions structurelles, les prix effectifs peuvent donc être inférieurs de 30 à 45 %. La fiabilité des données est signalée produit par produit. Vous avez repéré une erreur ? Le jeu de données et le script de notation sont ouverts — corrigez-nous.`,
+  footPrices: `Les prix proviennent des relevés historiques du catalogue ; les contrôles par fiche figurent dans <b>source &amp; vérification</b> — plusieurs marques (Myprotein, Bulk, Prozis) pratiquent des promotions structurelles, les prix effectifs peuvent donc être inférieurs de 30 à 45 %. La fiabilité des données est signalée produit par produit. Vous avez repéré une erreur ? Le jeu de données et le script de notation sont ouverts — corrigez-nous.`,
   footSummary: `<b>Ne constitue pas un avis médical.</b> Prix, licence et droits sur les données — ouvrir le détail`,
   footRights: `© 2026 n3gh. Code <b>AGPL-3.0</b> · méthodologie <b>CC BY-NC-ND 4.0</b> · catalogue <b>CC BY-NC-SA 4.0</b>. Ce catalogue est une base de données protégée (dir. 96/9/CE ; CPI art. L.341-1 et s.) : un fait isolé reste librement citable, l'extraction d'une <b>partie substantielle</b> est réservée. Droits de fouille de textes et de données réservés (dir. (UE) 2019/790 art. 4(3) ; CPI art. L.122-5-3) — voir <a href="/.well-known/tdmrep.json">tdmrep.json</a> et les <a href="/terms/">conditions</a>.`,
   footMeta: "p1 · comparer + p2 · routine (bêta) — méthode ouverte, données privées · AGPL-3.0 · v1.5",
@@ -664,11 +694,11 @@ fr: {
     <tr><th>⚠ au-delà de la limite UE</th><td>franchit une limite haute réglementaire (vitamine D 4000 UI, zinc 25 mg, magnésium des compléments 250 mg, mélatonine 1,9 mg…)</td></tr></table>
     <p><b>Nous ne personnalisons que ce que les preuves permettent.</b> Les protéines s'ajustent au poids et à l'activité (ISSN / Morton 2018, ESPEN au-delà de 65 ans) ; le magnésium au poids et au sexe (~6 mg/kg, plafonné à la RNP ANSES) ; la vitamine D à l'âge et à l'IMC ; le zinc au sexe et à l'activité (RNP EFSA). Mais les essais sur le collagène dosent en grammes absolus, et les probiotiques dépendent de la souche sans linéarité de dose — ces fourchettes sont donc <b>les mêmes pour tout le monde, et le produit le dit</b> plutôt que d'inventer un chiffre personnalisé. Les multivitamines n'ont aucune cible unique : plus de 20 nutriments ont chacun la leur, nous vous renvoyons donc aux catégories par nutriment au lieu de faire croire qu'un seul chiffre existe.</p>
     <p>Le dosage personnalisé ne touche jamais au Health &amp; Compo Score — deux personnes regardant le même produit voient la même note. Il s'agit de recommandations pour adultes en bonne santé et <b>non d'un avis médical</b>.</p>
-    <h4>Ma routine (bêta) — les doses cumulées, vérifiées</h4>
-    <p>Ajoutez des produits à une routine et nous additionnons ce que vous avaleriez réellement chaque jour, nutriment par nutriment — y compris les <b>actifs intégrés déclarés</b> (un oméga-3 apportant 800 UI de vitamine D compte dans votre total de vitamine D). Chaque total est confronté aux limites hautes européennes — cela fonctionne <b>sans</b> profil — et à vos fourchettes personnelles si vous en avez un. Deux magnésiums à 300 mg totalisent discrètement 600 mg face à une limite de 250 mg pour les compléments ; rien sur l'étiquette ne vous prévient, la routine si.</p>
-    <p><b>Limite assumée :</b> les étiquettes de multivitamines ne sont pas encore codées nutriment par nutriment dans nos données ; une routine qui en contient affiche donc ses totaux comme des <i>minorants</i>, et le dit, plutôt que de deviner. Les produits dont le nom déclare un actif supplémentaire non codé sont signalés, pas ignorés silencieusement — le même réflexe que la règle sur les ingrédients non reconnus, qui retire purement et simplement le produit.</p>
+    <h4>Ma routine (bêta) — les quantités renseignées, cumulées</h4>
+    <p>Ajoutez des produits à une routine et nous additionnons ce que vous avaleriez réellement chaque jour, nutriment par nutriment — y compris les <b>actifs intégrés déclarés</b> (un oméga-3 apportant 800 UI de vitamine D compte dans votre total de vitamine D). Les totaux renseignés sont confrontés aux limites intégrées ici — cela fonctionne <b>sans</b> profil — et aux fourchettes personnelles disponibles. Ce contrôle ne couvre pas tous les nutriments ou interactions. Deux magnésiums à 300 mg totalisent discrètement 600 mg face à une limite de 250 mg pour les compléments ; rien sur l'étiquette ne vous prévient, la routine si.</p>
+    <p><b>Couverture partielle :</b> les multivitamines et complexes B contribuent uniquement aux quantités codées de vitamine D (D2 + D3), magnésium, zinc, vitamine C et folates. Les autres nutriments renseignés restent visibles dans le détail produit. Les quantités manquantes sont signalées et ne valent pas zéro.</p>
     <h4>Provenance (axe distinct, hors score santé)</h4>
-    <p>Nous signalons le pays de fabrication (🇫🇷 France · 🇪🇺 UE · 🌍 hors UE) et un léger malus de proximité (0/1/3) reflétant l'ancrage français de n3gh. Il est affiché <b>séparément</b> : un produit allemand irréprochable n'est pas « moins sain » qu'un produit français.</p>
+    <p>Le repère géographique est une <b>estimation associée à la marque</b> (France / UE / hors UE). Il ne confirme pas le pays de fabrication d’un produit ou d’un lot particulier. Cette estimation reste distincte du score de composition.</p>
     <h4>Langue</h4>
     <p>L'interface suit la préférence linguistique de votre navigateur (français ou anglais) et vous pouvez en changer à tout moment avec le sélecteur dans l'en-tête — votre choix est mémorisé. Nous ne consultons jamais votre adresse IP pour deviner : cela reviendrait à transmettre votre adresse à un tiers, et répondrait de toute façon à la mauvaise question. À noter : les remarques éditoriales propres à chaque produit reprennent l'étiquette dans la langue où elle a été publiée.</p>
     <h3>Les plantes, en violet</h3>

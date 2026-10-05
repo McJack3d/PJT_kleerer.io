@@ -18,10 +18,13 @@ const N3GH_DATA = {
   "snapshot": "2026-07",
   "region": "EU/FR",
   "currency": "EUR",
-  "generated": "2026-09-18",
+  "generated": "2026-10-05",
   "n_products": 257,
   "n_categories": 25,
   "n_red_cards": 1,
+  "n_source_checks": 257,
+  "n_label_checks": 17,
+  "n_price_checks": 74,
   "n_withheld_for_review": 0,
   "botanical_categories": [
    "ashwagandha",
@@ -85,7 +88,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "United Kingdom",
     "zone": "EXTRA_EU",
-    "malus": 3
+    "malus": 3,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 14,
@@ -155,7 +168,18 @@ const N3GH_DATA = {
    "provenance": {
     "country": "USA/UK",
     "zone": "EXTRA_EU",
-    "malus": 3
+    "malus": 3,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Le conditionnement de la source semble différent de cette fiche.",
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 18,
@@ -172,7 +196,7 @@ const N3GH_DATA = {
     "std": 1.317,
     "std_label": "€ / 25 g protein",
     "days_per_pack": 30,
-    "price_tier": 3
+    "price_tier": 2
    },
    "label_hash": "cbf178202879",
    "rank_in_category": 9
@@ -224,7 +248,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Germany",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 15,
@@ -241,7 +275,7 @@ const N3GH_DATA = {
     "std": 1.526,
     "std_label": "€ / 25 g protein",
     "days_per_pack": 30,
-    "price_tier": 4
+    "price_tier": 3
    },
    "label_hash": "b7e3e7b0a064",
    "rank_in_category": 12
@@ -289,7 +323,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "United Kingdom",
     "zone": "EXTRA_EU",
-    "malus": 3
+    "malus": 3,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 14,
@@ -318,7 +360,7 @@ const N3GH_DATA = {
    "name": "Whey Native",
    "variant": "Nature (unflavoured) · 1 kg",
    "price_eur": 37.95,
-   "price_note": "eu.nutrimuscle.com live price Jul 2026. Stable pricing, no promo culture.",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion. Indisponible lors du contrôle.",
    "pack_g": 1000,
    "serving_g": 30,
    "active_per_100g": 78,
@@ -345,7 +387,9 @@ const N3GH_DATA = {
    "notes": "Ingredient list of the Nature flavour: native WPC — nothing else. No lecithin, no sweetener.",
    "url": "https://www.nutrimuscle.com/products/whey-native",
    "price_context": {
-    "kind": "stable"
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.nutrimuscle.com/products/whey-native?variant=50084507287881"
    },
    "banned": [],
    "review_pending": [],
@@ -353,7 +397,21 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Belgium",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.nutrimuscle.com/products/whey-native?variant=50084507287881",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "OutOfStock"
    },
    "scores": {
     "form": 20,
@@ -425,7 +483,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Portugal",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "broken_source",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 14,
@@ -453,8 +519,8 @@ const N3GH_DATA = {
    "brand": "Myprotein",
    "name": "Creatine Monohydrate",
    "variant": "Unflavoured · 500 g",
-   "price_eur": 19.99,
-   "price_note": "List price (not re-verified Jul 2026); promo codes usually land it at €13–17.",
+   "price_eur": 14.99,
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "pack_g": 500,
    "serving_g": 3.4,
    "active_per_100g": 88,
@@ -479,11 +545,9 @@ const N3GH_DATA = {
    "notes": "100% creatine monohydrate, no excipients.",
    "url": "https://fr.myprotein.com/p/nutrition-sportive/creatine-monohydrate-en-poudre/10530050/",
    "price_context": {
-    "kind": "list_price",
-    "typical_off_pct": [
-     15,
-     35
-    ]
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://fr.myprotein.com/p/nutrition-sportive/creatine-monohydrate-en-poudre/10530050/?variation=10530054"
    },
    "banned": [],
    "review_pending": [],
@@ -491,7 +555,21 @@ const N3GH_DATA = {
    "provenance": {
     "country": "United Kingdom",
     "zone": "EXTRA_EU",
-    "malus": 3
+    "malus": 3,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://fr.myprotein.com/p/nutrition-sportive/creatine-monohydrate-en-poudre/10530050/?variation=10530054",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 16,
@@ -504,8 +582,8 @@ const N3GH_DATA = {
     "banned_substances": []
    },
    "value": {
-    "cost_per_day": 0.136,
-    "std": 0.136,
+    "cost_per_day": 0.102,
+    "std": 0.102,
     "std_label": "€ / 3 g creatine",
     "days_per_pack": 147,
     "price_tier": 1
@@ -519,8 +597,8 @@ const N3GH_DATA = {
    "brand": "ESN",
    "name": "Ultrapure Creatine Monohydrate",
    "variant": "Neutral · 500 g",
-   "price_eur": 21.27,
-   "price_note": "Amazon.de Prime, Jul 2026; ESN list ~€27.90.",
+   "price_eur": 17.0,
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "pack_g": 500,
    "serving_g": 3.5,
    "active_per_100g": 88,
@@ -544,13 +622,32 @@ const N3GH_DATA = {
    "confidence": "high",
    "notes": "500 g ≈ 142 servings.",
    "url": "https://www.amazon.fr/dp/B0057ED9AM",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.amazon.fr/ESN-Creatine-Ultrapure-Naturelle-1x500g/dp/B0057ED9AM"
+   },
    "banned": [],
    "review_pending": [],
    "reviewed": [],
    "provenance": {
     "country": "Germany",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.amazon.fr/ESN-Creatine-Ultrapure-Naturelle-1x500g/dp/B0057ED9AM",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 16,
@@ -563,8 +660,8 @@ const N3GH_DATA = {
     "banned_substances": []
    },
    "value": {
-    "cost_per_day": 0.149,
-    "std": 0.145,
+    "cost_per_day": 0.119,
+    "std": 0.116,
     "std_label": "€ / 3 g creatine",
     "days_per_pack": 143,
     "price_tier": 1
@@ -607,7 +704,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "United Kingdom",
     "zone": "EXTRA_EU",
-    "malus": 3
+    "malus": 3,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 16,
@@ -667,7 +772,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "USA/UK",
     "zone": "EXTRA_EU",
-    "malus": 3
+    "malus": 3,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 18,
@@ -700,7 +815,7 @@ const N3GH_DATA = {
    "pack_g": 350,
    "serving_g": 3,
    "active_per_100g": 88,
-   "active_per_serving_g": 3,
+   "active_per_serving_g": 2.638,
    "form": "Creapure® monohydrate (AlzChem, Germany)",
    "form_tier": 20,
    "form_note": "Documented-purity branded monohydrate.",
@@ -728,14 +843,29 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Belgium",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [
+     "La masse de monohydrate et la masse de créatine active sont distinctes."
+    ],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ],
+    "label_checked_on": "2026-10-05",
+    "label_scope": "Créatine active par portion de 3 g : 2,638 g ; le monohydrate pèse 3 g. Concentration 88 % arrondie.",
+    "label_source_url": "https://www.nutrimuscle.com/products/creatine-creapure-r-en-poudre?variant=48752695509321"
    },
    "scores": {
     "form": 20,
-    "dose": 20,
+    "dose": 12,
     "purity": 30,
     "transparency": 30,
-    "total": 100,
+    "total": 92,
     "grade": "A",
     "red_card": false,
     "banned_substances": []
@@ -747,7 +877,7 @@ const N3GH_DATA = {
     "days_per_pack": 117,
     "price_tier": 5
    },
-   "label_hash": "3832d1c9f3b4",
+   "label_hash": "1a73ce409c8e",
    "rank_in_category": 4
   },
   {
@@ -788,7 +918,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "blocked",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -851,7 +991,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -914,7 +1064,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "USA",
     "zone": "EXTRA_EU",
-    "malus": 3
+    "malus": 3,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 16,
@@ -975,7 +1133,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Germany",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "blocked",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -1043,7 +1211,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "blocked",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -1109,7 +1287,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "USA",
     "zone": "EXTRA_EU",
-    "malus": 3
+    "malus": 3,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "blocked",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 16,
@@ -1170,7 +1356,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Germany",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 14,
@@ -1239,7 +1433,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 10,
@@ -1301,7 +1503,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "blocked",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -1364,7 +1576,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -1437,7 +1657,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "USA",
     "zone": "EXTRA_EU",
-    "malus": 3
+    "malus": 3,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 16,
@@ -1500,7 +1728,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Germany",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "blocked",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -1577,7 +1815,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Germany",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 4,
@@ -1642,7 +1888,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "blocked",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -1670,8 +1926,8 @@ const N3GH_DATA = {
    "brand": "Norsan",
    "name": "Omega-3 Total (liquid)",
    "variant": "200 ml, lemon",
-   "price_eur": 27.0,
-   "price_note": "norsan.de verified Jul 2026 (3-pack = €24/bottle).",
+   "price_eur": 26.9,
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 25,
    "unit_name": "8 ml dose",
    "units_per_day": 1,
@@ -1708,13 +1964,32 @@ const N3GH_DATA = {
      "source": "manufacturer: 800 IU vitamin D3 per 8 ml daily dose"
     }
    ],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.amazon.fr/NORSAN-Omega-citron-qualit%C3%A9-sup%C3%A9rieure/dp/B08X4XVPFM"
+   },
    "banned": [],
    "review_pending": [],
    "reviewed": [],
    "provenance": {
     "country": "Norway",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.amazon.fr/NORSAN-Omega-citron-qualit%C3%A9-sup%C3%A9rieure/dp/B08X4XVPFM",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 16,
@@ -1727,8 +2002,8 @@ const N3GH_DATA = {
     "banned_substances": []
    },
    "value": {
-    "cost_per_day": 1.08,
-    "std": 0.326,
+    "cost_per_day": 1.076,
+    "std": 0.325,
     "std_label": "€ / 500 mg EPA+DHA",
     "days_per_pack": 25,
     "price_tier": 2
@@ -1780,7 +2055,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -1851,7 +2136,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Belgium",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "broken_source",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -1918,7 +2213,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "USA",
     "zone": "EXTRA_EU",
-    "malus": 3
+    "malus": 3,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "broken_source",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 10,
@@ -1988,7 +2291,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "United Kingdom",
     "zone": "EXTRA_EU",
-    "malus": 3
+    "malus": 3,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 16,
@@ -2060,7 +2371,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Norway",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 18,
@@ -2133,13 +2454,36 @@ const N3GH_DATA = {
      45
     ]
    },
+   "nutrients": {
+    "vitamin_d3": 200,
+    "vitamin_c": 80,
+    "magnesium": 56,
+    "zinc": 15,
+    "folate": 400,
+    "vitamin_b6": 4.2,
+    "vitamin_b12": 7.5
+   },
+   "nutrients_source": "Tableau fabricant consulté le 2026-10-05 ; quantités pour 2 unité(s) par jour. Sous-ensemble des nutriments, pas validation intégrale du produit.",
    "banned": [],
    "review_pending": [],
    "reviewed": [],
    "provenance": {
     "country": "United Kingdom",
     "zone": "EXTRA_EU",
-    "malus": 3
+    "malus": 3,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Prix du format 120 comprimés : la page affiche aussi 60 comprimés."
+    ],
+    "label_checked_on": "2026-10-05",
+    "label_scope": "Quantités journalières des nutriments affichés et nombre d’unités par jour. Additifs, certifications et autres nutriments non revérifiés.",
+    "label_source_url": "https://fr.myprotein.com/p/nutrition-sportive/alpha-men-comprimes-multivitamines/10530421/"
    },
    "scores": {
     "form": 8,
@@ -2168,7 +2512,7 @@ const N3GH_DATA = {
    "name": "Le Multi (25 bioactive nutrients)",
    "variant": "90 capsules",
    "price_eur": 27.9,
-   "price_note": "Redcare Pharmacie FR verified Jul 2026 (€27.79).",
+   "price_note": "Prix affiché sur le site fabricant pour ce format, consulté le 2026-10-05, hors livraison.",
    "units_pack": 90,
    "unit_name": "capsule",
    "units_per_day": 3,
@@ -2206,16 +2550,36 @@ const N3GH_DATA = {
    "notes": "30 days per pack at 3 caps/day.",
    "url": "https://nutriandco.com/fr/produits/multivitamines",
    "nutrients": {
-    "vitamin_d3": 1000
+    "vitamin_d3": 1000,
+    "vitamin_c": 80,
+    "magnesium": 150,
+    "zinc": 10,
+    "folate": 200,
+    "vitamin_b6": 2,
+    "vitamin_b12": 2.7
    },
-   "nutrients_source": "label: lichen D3 1000 IU per 3-capsule dose",
+   "nutrients_source": "Tableau fabricant consulté le 2026-10-05 ; quantités pour 3 unité(s) par jour. Sous-ensemble des nutriments, pas validation intégrale du produit.",
    "banned": [],
    "review_pending": [],
    "reviewed": [],
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-05",
+    "label_scope": "Quantités journalières des nutriments affichés et nombre d’unités par jour. Additifs, certifications et autres nutriments non revérifiés.",
+    "label_source_url": "https://nutriandco.com/fr/produits/multivitamines",
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://nutriandco.com/fr/produits/multivitamines",
+    "price_scope": "Prix fabricant, achat à l’unité, hors livraison."
    },
    "scores": {
     "form": 20,
@@ -2289,7 +2653,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "USA",
     "zone": "EXTRA_EU",
-    "malus": 3
+    "malus": 3,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [
+     "La fiche fabricant américaine VM-75 comporte une formulation distincte selon les marchés. Ne pas transposer automatiquement ses quantités ou excipients à la référence européenne."
+    ],
+    "pending_fields": [
+     "Étiquette européenne exacte et tableau nutritionnel."
+    ]
    },
    "scores": {
     "form": 12,
@@ -2324,7 +2700,7 @@ const N3GH_DATA = {
    "units_per_day": 3,
    "active_per_unit": null,
    "active_unit": null,
-   "form": "Quality chelated minerals (TRAACS® zinc bisglycinate, methylcobalamin) BUT vitamin D as D2 in veg-cap version",
+   "form": "Minerals including zinc picolinate and TRAACS® copper/manganese; methylcobalamin; vitamin D2 (ergocalciferol) in veg capsules",
    "form_tier": 14,
    "form_note": "D2 instead of D3 caps the form score.",
    "dose_tier": 12,
@@ -2352,13 +2728,36 @@ const N3GH_DATA = {
    "confidence": "medium",
    "notes": "30 servings per bottle; includes saw palmetto, lycopene, CoQ10.",
    "url": "https://www.nowfoods.com/products/supplements/adam-mens-multiple-vitamin-veg-capsules",
+   "nutrients": {
+    "vitamin_d2": 1000,
+    "vitamin_c": 250,
+    "magnesium": 25,
+    "zinc": 15,
+    "folate": 400,
+    "vitamin_b6": 25,
+    "vitamin_b12": 250
+   },
+   "nutrients_source": "Tableau fabricant consulté le 2026-10-05 ; quantités pour 3 unité(s) par jour. Sous-ensemble des nutriments, pas validation intégrale du produit.",
    "banned": [],
    "review_pending": [],
    "reviewed": [],
    "provenance": {
     "country": "USA",
     "zone": "EXTRA_EU",
-    "malus": 3
+    "malus": 3,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "blocked",
+    "source_reachable": false,
+    "review_notes": [
+     "Folate : 400 µg d’acide folique (680 µg DFE sur l’étiquette). Vitamine D sous forme D2, pas D3. Formule fabricant US ; vérifier la concordance avec le flacon vendu en Europe."
+    ],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-05",
+    "label_scope": "Quantités journalières des nutriments affichés et nombre d’unités par jour. Additifs, certifications et autres nutriments non revérifiés.",
+    "label_source_url": "https://www.nowfoods.com/products/supplements/adam-mens-multiple-vitamin-veg-capsules"
    },
    "scores": {
     "form": 14,
@@ -2377,7 +2776,7 @@ const N3GH_DATA = {
     "days_per_pack": 30,
     "price_tier": 5
    },
-   "label_hash": "7a5356e0c15c",
+   "label_hash": "b8cae5d8e75c",
    "rank_in_category": 11
   },
   {
@@ -2438,7 +2837,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Germany",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "missing_source",
+    "source_reachable": false,
+    "review_notes": [
+     "Fiche historique déjà signalée comme retirée de la vente ; aucune URL active dans le catalogue."
+    ],
+    "pending_fields": [
+     "Disponibilité et source de la formule historique."
+    ]
    },
    "scores": {
     "form": 8,
@@ -2499,9 +2910,15 @@ const N3GH_DATA = {
    "notes": "30 days at full dose (4 caps) or 60 days at half dose.",
    "url": "https://www.sunday.de/en/multivitamin-essentials-all-in-one-premium.html",
    "nutrients": {
-    "vitamin_d3": 1000
+    "vitamin_d3": 1000,
+    "vitamin_c": 125,
+    "magnesium": 150,
+    "zinc": 8,
+    "folate": 400,
+    "vitamin_b6": 15,
+    "vitamin_b12": 200
    },
-   "nutrients_source": "label: vegan D3 1000 IU per 4-capsule dose",
+   "nutrients_source": "Tableau fabricant consulté le 2026-10-05 ; quantités pour 4 unité(s) par jour. Sous-ensemble des nutriments, pas validation intégrale du produit.",
    "banned": [],
    "review_pending": [],
    "reviewed": [
@@ -2515,7 +2932,23 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Germany",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "blocked",
+    "source_reachable": false,
+    "review_notes": [
+     "Les excipients du site fabricant sont plus détaillés que la fiche historique ; score de composition à revoir séparément."
+    ],
+    "pending_fields": [
+     "Liste complète des excipients et score associé.",
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ],
+    "label_checked_on": "2026-10-05",
+    "label_scope": "Quantités journalières des nutriments affichés et nombre d’unités par jour. Additifs, certifications et autres nutriments non revérifiés.",
+    "label_source_url": "https://www.sunday.de/en/multivitamin-essentials-all-in-one-premium.html"
    },
    "scores": {
     "form": 20,
@@ -2588,7 +3021,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 14,
@@ -2616,7 +3059,7 @@ const N3GH_DATA = {
    "name": "Tribulus Terrestris",
    "variant": "gélules · 120",
    "price_eur": 14.95,
-   "price_note": "nutrimuscle.com live 06/09/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 120,
    "unit_name": "gélule",
    "units_per_day": 4,
@@ -2643,6 +3086,11 @@ const N3GH_DATA = {
    "url": "https://www.nutrimuscle.com/products/tribulus-terrestris",
    "ean": null,
    "notes": "1 800 mg d'extrait/j (720 mg de saponines) en 4 gélules.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.nutrimuscle.com/products/tribulus-terrestris?variant=32404576075913"
+   },
    "id": "nutrimuscle-tribulus-terrestris-gelules-120",
    "form_tier": 14,
    "form_note": "Standardised saponin/protodioscin content declared — no dose has raised testosterone in men.",
@@ -2664,7 +3112,21 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Belgium",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.nutrimuscle.com/products/tribulus-terrestris?variant=32404576075913",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 14,
@@ -2736,7 +3198,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 14,
@@ -2764,7 +3236,7 @@ const N3GH_DATA = {
    "name": "Tribulus",
    "variant": "gélules · 60",
    "price_eur": 18.9,
-   "price_note": "cuure.com live 06/09/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 60,
    "unit_name": "gélule",
    "units_per_day": 2,
@@ -2791,6 +3263,11 @@ const N3GH_DATA = {
    "url": "https://cuure.com/produits/tribulus",
    "ean": null,
    "notes": "Liste d'ingrédients lue sur les fiches « Ingrédients » (extrait de fruit, fibres d'avoine, gélule végétale). 2 gélules/j = 2 000 mg d'extrait, 800 mg de saponines.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://cuure.com/produits/tribulus"
+   },
    "id": "cuure-tribulus-gelules-60",
    "form_tier": 14,
    "form_note": "Standardised saponin/protodioscin content declared — no dose has raised testosterone in men.",
@@ -2820,7 +3297,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://cuure.com/produits/tribulus",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 14,
@@ -2848,7 +3337,7 @@ const N3GH_DATA = {
    "name": "Tribulus terrestris titré 650 mg",
    "variant": "gélules · 120",
    "price_eur": 16.9,
-   "price_note": "onatera.com live 06/09/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 120,
    "unit_name": "gélule",
    "units_per_day": 2,
@@ -2873,6 +3362,11 @@ const N3GH_DATA = {
    "url": "https://www.onatera.com/FR/fr/produit-tribulus-terrestris-titre-650-mg-120-gelules-orfito",
    "ean": null,
    "notes": "650 mg d'extrait/j (260 mg de saponines) en 2 gélules.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.onatera.com/FR/fr/produit-tribulus-terrestris-titre-650-mg-120-gelules-orfito"
+   },
    "id": "onatera-tribulus-terrestris-titre-650-mg-gelules-120",
    "form_tier": 14,
    "form_note": "Standardised saponin/protodioscin content declared — no dose has raised testosterone in men.",
@@ -2897,7 +3391,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.onatera.com/FR/fr/produit-tribulus-terrestris-titre-650-mg-120-gelules-orfito",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 14,
@@ -2925,7 +3431,7 @@ const N3GH_DATA = {
    "name": "Tribulus Bio 300 mg",
    "variant": "gélules · 90",
    "price_eur": 9.9,
-   "price_note": "onatera.com live 06/09/2026 (en rupture ce jour)",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion. Indisponible lors du contrôle.",
    "units_pack": 90,
    "unit_name": "gélule",
    "units_per_day": 3,
@@ -2951,6 +3457,11 @@ const N3GH_DATA = {
    "url": "https://www.onatera.com/FR/fr/produit-tribulus-bio-300-mg-90-gelules-vegetales-orfito",
    "ean": null,
    "notes": "900 mg de poudre/j en 3 gélules ; pas de teneur en saponines déclarée.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.onatera.com/FR/fr/produit-tribulus-bio-300-mg-90-gelules-vegetales-orfito"
+   },
    "id": "orfito-tribulus-bio-300-mg-gelules-90",
    "form_tier": 8,
    "form_note": "Fruit/plant powder, unstandardised.",
@@ -2975,7 +3486,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.onatera.com/FR/fr/produit-tribulus-bio-300-mg-90-gelules-vegetales-orfito",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "OutOfStock"
    },
    "scores": {
     "form": 8,
@@ -3085,7 +3608,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Hungary",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 12,
@@ -3159,7 +3690,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 8,
@@ -3238,7 +3777,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "blocked",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 16,
@@ -3320,7 +3869,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 8,
@@ -3348,7 +3907,7 @@ const N3GH_DATA = {
    "name": "Fenugrec Bio",
    "variant": "gélules · 60",
    "price_eur": 10.9,
-   "price_note": "onatera.com live 06/09/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 60,
    "unit_name": "gélule",
    "units_per_day": 3,
@@ -3371,6 +3930,11 @@ const N3GH_DATA = {
    "url": "https://www.onatera.com/FR/fr/produit-fenugrec-bio-60-gelules-nutrivie",
    "ean": null,
    "notes": "3 à 6 gélules/j — chiffré à 3/j (1 005 mg).",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.onatera.com/FR/fr/produit-fenugrec-bio-60-gelules-nutrivie"
+   },
    "id": "nutrivie-fenugrec-bio-gelules-60",
    "form_tier": 8,
    "form_note": "Seed powder — a spice, not the trial material.",
@@ -3392,7 +3956,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.onatera.com/FR/fr/produit-fenugrec-bio-60-gelules-nutrivie",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 8,
@@ -3419,8 +3995,8 @@ const N3GH_DATA = {
    "brand": "Olimp Sport Nutrition",
    "name": "ZMA",
    "variant": "capsules · 120",
-   "price_eur": 31.0,
-   "price_note": "olimpstore.fr live 06/09/2026 (prix régulier 37,99 €)",
+   "price_eur": 31.5,
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion. Indisponible lors du contrôle.",
    "units_pack": 120,
    "unit_name": "capsule",
    "units_per_day": 1,
@@ -3448,6 +4024,11 @@ const N3GH_DATA = {
      "per_day": 150
     }
    ],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://olimpstore.fr/olimp-zma-120-gelules-545"
+   },
    "id": "olimp-sport-nutrition-zma-capsules-120",
    "form_tier": 16,
    "form_note": "Chelated zinc (monomethionine / bisglycinate) — the ZMA trial material or an equivalent chelate.",
@@ -3472,7 +4053,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://olimpstore.fr/olimp-zma-120-gelules-545",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "OutOfStock"
    },
    "scores": {
     "form": 16,
@@ -3485,8 +4078,8 @@ const N3GH_DATA = {
     "banned_substances": []
    },
    "value": {
-    "cost_per_day": 0.258,
-    "std": 0.258,
+    "cost_per_day": 0.263,
+    "std": 0.263,
     "std_label": "€ / day",
     "days_per_pack": 120,
     "price_tier": 1
@@ -3572,7 +4165,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 16,
@@ -3647,7 +4248,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -3723,7 +4332,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -3812,7 +4431,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -3857,7 +4484,7 @@ const N3GH_DATA = {
    "name": "Ashwagandha Shoden®",
    "variant": "gélules · 30",
    "price_eur": 19.95,
-   "price_note": "nutrimuscle.com live 06/09/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 30,
    "units_per_day": 1,
    "active_per_unit": 215,
@@ -3867,6 +4494,11 @@ const N3GH_DATA = {
     "gélule végétalienne (agent d'enrobage : hydroxypropylméthylcellulose)"
    ],
    "url": "https://www.nutrimuscle.com/products/ashwagandha-shoden-r",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.nutrimuscle.com/products/ashwagandha-shoden-r?variant=49016792940873"
+   },
    "id": "nutrimuscle-ashwagandha-shoden-gelules-30",
    "form_tier": 12,
    "form_note": "Branded and studied, but a root-and-leaf extract — regulators retain the root alone (withaferin A).",
@@ -3889,7 +4521,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Belgium",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.nutrimuscle.com/products/ashwagandha-shoden-r?variant=49016792940873",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 12,
@@ -3933,7 +4577,7 @@ const N3GH_DATA = {
    "name": "Ashwagandha KSM-66®",
    "variant": "gélules · 60",
    "price_eur": 19.9,
-   "price_note": "shop.biotechusa.fr live 06/09/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 60,
    "units_per_day": 1,
    "active_per_unit": 250,
@@ -3944,6 +4588,11 @@ const N3GH_DATA = {
     "agents anti-agglomérants (sels de magnésium d'acides gras, dioxyde de silicium)"
    ],
    "url": "https://shop.biotechusa.fr/products/ashwagandha-ksm-66%C2%AE-60-gelules",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://shop.biotechusa.fr/products/ashwagandha-ksm-66%C2%AE-60-gelules"
+   },
    "id": "biotechusa-ashwagandha-ksm-66-gelules-60",
    "form_tier": 20,
    "form_note": "Clinically studied branded root extract with standardised withanolides.",
@@ -3970,7 +4619,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Hungary",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://shop.biotechusa.fr/products/ashwagandha-ksm-66%C2%AE-60-gelules",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 20,
@@ -4012,7 +4673,7 @@ const N3GH_DATA = {
    "name": "Ashwagandha",
    "variant": "gélules · 60",
    "price_eur": 13.9,
-   "price_note": "shop.biotechusa.fr live 06/09/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 60,
    "units_per_day": 1,
    "active_per_unit": 245,
@@ -4028,6 +4689,11 @@ const N3GH_DATA = {
     "agents anti-agglomérants (sels de magnésium d'acides gras)"
    ],
    "url": "https://shop.biotechusa.fr/products/ashwagandha-60-gelules",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://shop.biotechusa.fr/products/ashwagandha-60-gelules"
+   },
    "id": "biotechusa-ashwagandha-gelules-60",
    "form_tier": 12,
    "form_note": "Standardised, but only to 1.5% withanolides — well below the 5% the trials used.",
@@ -4082,7 +4748,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Hungary",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://shop.biotechusa.fr/products/ashwagandha-60-gelules",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 12,
@@ -4167,7 +4845,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -4246,7 +4932,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -4321,7 +5015,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -4405,7 +5109,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "blocked",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -4480,7 +5192,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 18,
@@ -4522,7 +5244,7 @@ const N3GH_DATA = {
    "name": "Maca bio",
    "variant": "gélules · 60",
    "price_eur": 9.95,
-   "price_note": "nutrimuscle.com live 06/09/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 60,
    "units_per_day": 2,
    "active_per_unit": 600,
@@ -4532,6 +5254,11 @@ const N3GH_DATA = {
     "gélule végétalienne (agent d'enrobage : hydroxypropylméthylcellulose)"
    ],
    "url": "https://www.nutrimuscle.com/products/maca-bio-en-gelules",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.nutrimuscle.com/products/maca-bio-en-gelules?variant=48751561769289"
+   },
    "id": "nutrimuscle-maca-bio-gelules-60",
    "form_tier": 14,
    "form_note": "Raw maca powder.",
@@ -4553,7 +5280,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Belgium",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.nutrimuscle.com/products/maca-bio-en-gelules?variant=48751561769289",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 14,
@@ -4664,7 +5403,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Hungary",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 18,
@@ -4737,7 +5484,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 14,
@@ -4813,7 +5568,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 18,
@@ -4887,7 +5652,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -4931,7 +5706,7 @@ const N3GH_DATA = {
    "name": "Rhodiola Rhodiolife®",
    "variant": "gélules · 30",
    "price_eur": 19.95,
-   "price_note": "nutrimuscle.com live 06/09/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 30,
    "units_per_day": 2,
    "active_per_unit": 530,
@@ -4940,6 +5715,11 @@ const N3GH_DATA = {
     "gélule végétalienne (agent d'enrobage : hydroxypropylméthylcellulose)"
    ],
    "url": "https://www.nutrimuscle.com/products/rhodiola-rhodiolife-r",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.nutrimuscle.com/products/rhodiola-rhodiolife-r?variant=50633047179593"
+   },
    "id": "nutrimuscle-rhodiola-rhodiolife-gelules-30",
    "form_tier": 16,
    "form_note": "Single-marker standardisation.",
@@ -4961,7 +5741,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Belgium",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.nutrimuscle.com/products/rhodiola-rhodiolife-r?variant=50633047179593",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 16,
@@ -5004,7 +5796,7 @@ const N3GH_DATA = {
    "name": "Rhodiola",
    "variant": "gélules · 60",
    "price_eur": 29.9,
-   "price_note": "shop.biotechusa.fr live 06/09/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 60,
    "units_per_day": 2,
    "active_per_unit": 500,
@@ -5018,6 +5810,11 @@ const N3GH_DATA = {
     "antiagglomérants (sels de magnésium d'acides gras)"
    ],
    "url": "https://shop.biotechusa.fr/products/rhodiola-60-gelules",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://shop.biotechusa.fr/products/rhodiola-60-gelules"
+   },
    "id": "biotechusa-rhodiola-gelules-60",
    "form_tier": 16,
    "form_note": "Single-marker standardisation.",
@@ -5056,7 +5853,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Hungary",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://shop.biotechusa.fr/products/rhodiola-60-gelules",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 16,
@@ -5128,7 +5937,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 16,
@@ -5208,7 +6025,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -5293,7 +6120,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -5339,7 +6174,7 @@ const N3GH_DATA = {
    "name": "Curcumine BIO Optimisée",
    "variant": "gélules 300 mg · 30",
    "price_eur": 19.9,
-   "price_note": "dynveo.fr live 06/09/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 30,
    "units_per_day": 1,
    "active_per_unit": 90,
@@ -5350,6 +6185,11 @@ const N3GH_DATA = {
     "extrait d'écorce de quillaja bio"
    ],
    "url": "https://www.dynveo.fr/products/curcumine-optimisee",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.dynveo.fr/products/curcumine-optimisee?variant=52062933778759"
+   },
    "id": "dynveo-curcumine-bio-optimisee-gelules-300-mg-30",
    "form_tier": 20,
    "form_note": "Enhanced-absorption formulation with its own clinical trials.",
@@ -5383,7 +6223,21 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.dynveo.fr/products/curcumine-optimisee?variant=52062933778759",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 20,
@@ -5468,7 +6322,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -5510,7 +6372,7 @@ const N3GH_DATA = {
    "name": "Curcumine",
    "variant": "capsules molles · 60",
    "price_eur": 24.95,
-   "price_note": "nutrimuscle.com live 06/09/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 60,
    "units_per_day": 2,
    "active_per_unit": 50,
@@ -5522,6 +6384,11 @@ const N3GH_DATA = {
     "vitamine E (d-α-tocophérol)"
    ],
    "url": "https://www.nutrimuscle.com/products/curcumine",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.nutrimuscle.com/products/curcumine?variant=48373141373257"
+   },
    "id": "nutrimuscle-curcumine-capsules-molles-60",
    "form_tier": 6,
    "form_note": "Turmeric powder (~3% curcumin) — not the material the trials used.",
@@ -5555,7 +6422,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Belgium",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.nutrimuscle.com/products/curcumine?variant=48373141373257",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 6,
@@ -5599,7 +6478,7 @@ const N3GH_DATA = {
    "name": "Liquid Curcuma",
    "variant": "capsules · 30",
    "price_eur": 22.9,
-   "price_note": "shop.biotechusa.fr live 06/09/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 30,
    "units_per_day": 1,
    "active_per_unit": 48,
@@ -5610,6 +6489,11 @@ const N3GH_DATA = {
     "antioxydant (acide ascorbique)"
    ],
    "url": "https://shop.biotechusa.fr/products/liquid-curcruma-30-capsules",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://shop.biotechusa.fr/products/liquid-curcruma-30-capsules"
+   },
    "id": "biotechusa-liquid-curcuma-capsules-30",
    "form_tier": 20,
    "form_note": "Enhanced-absorption formulation with its own clinical trials.",
@@ -5648,7 +6532,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Hungary",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://shop.biotechusa.fr/products/liquid-curcruma-30-capsules",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 20,
@@ -5747,7 +6643,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 14,
@@ -5819,7 +6723,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 6,
@@ -5891,7 +6803,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 6,
@@ -5984,7 +6904,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -6066,7 +6996,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "blocked",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -6133,7 +7071,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "blocked",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -6213,7 +7161,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -6280,7 +7236,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Belgium",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -6360,7 +7326,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -6388,8 +7362,8 @@ const N3GH_DATA = {
    "brand": "Biocyte",
    "name": "Collagen Max",
    "variant": "cacao · 260 g",
-   "price_eur": 27.99,
-   "price_note": "Redcare Pharmacie 07/2026 (-30% du PPC 39,90 €)",
+   "price_eur": 28.49,
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "pack_g": 260,
    "serving_g": 13.0,
    "active_per_serving_g": 7.0,
@@ -6419,9 +7393,9 @@ const N3GH_DATA = {
    "ean": "3401560047585",
    "notes": "Actifs : AH 110 mg, vit C + 12 vitamines à 50% VNR.",
    "price_context": {
-    "kind": "promo_price",
-    "off_pct": 30,
-    "normal_eur": 39.9
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.redcare-pharmacie.fr/beaute/BE03414935/biocyte-collagen-max-anti-age-collagene-poudre.htm"
    },
    "id": "biocyte-collagen-max-cacao-260-g",
    "form_tier": 16,
@@ -6466,7 +7440,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.redcare-pharmacie.fr/beaute/BE03414935/biocyte-collagen-max-anti-age-collagene-poudre.htm",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 16,
@@ -6479,8 +7465,8 @@ const N3GH_DATA = {
     "banned_substances": []
    },
    "value": {
-    "cost_per_day": 1.399,
-    "std": 2.001,
+    "cost_per_day": 1.424,
+    "std": 2.037,
     "std_label": "€ / 10 g collagen",
     "days_per_pack": 20,
     "price_tier": 3
@@ -6553,7 +7539,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "blocked",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -6620,7 +7614,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -6688,7 +7692,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "blocked",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -6763,7 +7775,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -6832,7 +7852,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Spain",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "blocked",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 16,
@@ -6907,7 +7935,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "blocked",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 12,
@@ -6935,7 +7971,7 @@ const N3GH_DATA = {
    "name": "Vitamine D3 végétale 1000 UI",
    "variant": "gélules · 60",
    "price_eur": 12.9,
-   "price_note": "dynveo.fr live 11/07/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 60,
    "unit_name": "capsule",
    "units_per_day": 1,
@@ -6960,6 +7996,11 @@ const N3GH_DATA = {
    "url": "https://www.dynveo.fr/products/vitamine-d3",
    "ean": "3770000228434",
    "notes": "Existe en 2000 UI ; sans excipient chimique.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.dynveo.fr/products/vitamine-d3?variant=52063040340295"
+   },
    "id": "dynveo-vitamine-d3-vegetale-1000-ui-gelules-60",
    "form_tier": 20,
    "form_note": "Documented D3 source (lichen or lanolin).",
@@ -6982,7 +8023,21 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.dynveo.fr/products/vitamine-d3?variant=52063040340295",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 20,
@@ -7050,7 +8105,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -7127,7 +8190,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "broken_source",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -7217,7 +8290,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -7305,7 +8386,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -7381,7 +8470,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 16,
@@ -7409,7 +8506,7 @@ const N3GH_DATA = {
    "name": "Magnésium bisglycinate chélaté TRAACS",
    "variant": "gélules 750 mg · 60",
    "price_eur": 11.9,
-   "price_note": "dynveo.fr live 11/07/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 60,
    "unit_name": "capsule",
    "units_per_day": 2,
@@ -7432,6 +8529,11 @@ const N3GH_DATA = {
    "url": "https://www.dynveo.fr/products/magnesium-bisglycinate",
    "ean": null,
    "notes": "Sans additif ni anti-agglomérant.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.dynveo.fr/products/magnesium-bisglycinate?variant=52063042076999"
+   },
    "id": "dynveo-magnesium-bisglycinate-chelate-traacs-gelules-750-mg-60",
    "form_tier": 20,
    "form_note": "Chelated magnesium — high bioavailability.",
@@ -7451,7 +8553,21 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.dynveo.fr/products/magnesium-bisglycinate?variant=52063042076999",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 20,
@@ -7479,7 +8595,7 @@ const N3GH_DATA = {
    "name": "Complexe Magnésium",
    "variant": "gélules · 60",
    "price_eur": 19.95,
-   "price_note": "nutrimuscle.com live 11/07/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 60,
    "unit_name": "capsule",
    "units_per_day": 2,
@@ -7506,6 +8622,11 @@ const N3GH_DATA = {
    "url": "https://www.nutrimuscle.com/products/complexe-magnesium-gelules",
    "ean": null,
    "notes": "Certificats d'analyse publiés.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.nutrimuscle.com/products/complexe-magnesium-gelules?variant=52691116753225"
+   },
    "id": "nutrimuscle-complexe-magnesium-gelules-60",
    "form_tier": 20,
    "form_note": "Chelated magnesium — high bioavailability.",
@@ -7525,7 +8646,21 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Belgium",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.nutrimuscle.com/products/complexe-magnesium-gelules?variant=52691116753225",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 20,
@@ -7553,7 +8688,7 @@ const N3GH_DATA = {
    "name": "Magnésium Bisglycinate 300 mg",
    "variant": "gélules · 90",
    "price_eur": 9.95,
-   "price_note": "onatera.com live 11/07/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 90,
    "unit_name": "capsule",
    "units_per_day": 3,
@@ -7576,6 +8711,11 @@ const N3GH_DATA = {
    "url": "https://www.onatera.com/FR/fr/produit-magnesium-bisglycinate-300-mg-90-gelules-onatera",
    "ean": null,
    "notes": "B6 sous forme active P5P ; zéro excipient revendiqué.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.onatera.com/FR/fr/produit-magnesium-bisglycinate-300-mg-90-gelules-onatera"
+   },
    "id": "onatera-magnesium-bisglycinate-300-mg-gelules-90",
    "form_tier": 20,
    "form_note": "Chelated magnesium — high bioavailability.",
@@ -7595,7 +8735,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.onatera.com/FR/fr/produit-magnesium-bisglycinate-300-mg-90-gelules-onatera",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 20,
@@ -7672,7 +8824,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "blocked",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 10,
@@ -7751,7 +8911,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 4,
@@ -7842,7 +9010,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 4,
@@ -7869,8 +9045,8 @@ const N3GH_DATA = {
    "brand": "Juvamine",
    "name": "Magnésium Marin + Vitamine B6",
    "variant": "comprimés · 120",
-   "price_eur": 12.19,
-   "price_note": "fourchette pharmacies en ligne 11/07/2026 (non vérifié live)",
+   "price_eur": 11.29,
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 120,
    "unit_name": "tablet",
    "units_per_day": 1,
@@ -7895,6 +9071,11 @@ const N3GH_DATA = {
    "url": "https://www.newpharma.fr/juvamine/643387/juvamine-magnesium-marin-vitamine-b6-maxi-format-120-comprimes.html",
    "ean": null,
    "notes": "Étiquette complète introuvable en ligne.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.newpharma.fr/juvamine/643387/juvamine-magnesium-marin-vitamine-b6-maxi-format-120-comprimes.html"
+   },
    "id": "juvamine-magnesium-marin-vitamine-b6-comprimes-120",
    "form_tier": 4,
    "form_note": "Oxide (incl. seawater 'marine') — lowest bioavailability.",
@@ -7916,7 +9097,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.newpharma.fr/juvamine/643387/juvamine-magnesium-marin-vitamine-b6-maxi-format-120-comprimes.html",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 4,
@@ -7929,8 +9122,8 @@ const N3GH_DATA = {
     "banned_substances": []
    },
    "value": {
-    "cost_per_day": 0.102,
-    "std": 0.102,
+    "cost_per_day": 0.094,
+    "std": 0.094,
     "std_label": "€ / 300 mg Mg",
     "days_per_pack": 120,
     "price_tier": 1
@@ -7944,7 +9137,7 @@ const N3GH_DATA = {
    "name": "Arkogélules® Fer Liposomal",
    "variant": "gélules · 60",
    "price_eur": 13.4,
-   "price_note": "fr.arkopharma.com live 13/09/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 60,
    "unit_name": "gélule",
    "units_per_day": 2,
@@ -7980,6 +9173,11 @@ const N3GH_DATA = {
      "per_day": 88
     }
    ],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://fr.arkopharma.com/products/arkogelules%C2%AE-fer-liposomal?variant=57053394403652"
+   },
    "id": "arkopharma-arkogelules-fer-liposomal-gelules-60",
    "form_tier": 12,
    "form_note": "'Liposomal' iron (usually ferric pyrophosphate) — no adult head-to-head absorption data.",
@@ -8008,7 +9206,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://fr.arkopharma.com/products/arkogelules%C2%AE-fer-liposomal?variant=57053394403652",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 12,
@@ -8035,8 +9245,8 @@ const N3GH_DATA = {
    "brand": "Biocyte",
    "name": "Fer Liposomal",
    "variant": "gélules · 30",
-   "price_eur": 19.5,
-   "price_note": "biocyte.com live 13/09/2026",
+   "price_eur": 19.51,
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 30,
    "unit_name": "gélule",
    "units_per_day": 1,
@@ -8075,6 +9285,11 @@ const N3GH_DATA = {
      "per_day": 1.25
     }
    ],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.biocyte.com/products/fer-liposomal?variant=54965059748175"
+   },
    "id": "biocyte-fer-liposomal-gelules-30",
    "form_tier": 20,
    "form_note": "Ferrous bisglycinate — the best head-to-head evidence among supplement forms (haemoglobin and gut tolerance).",
@@ -8112,7 +9327,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.biocyte.com/products/fer-liposomal?variant=54965059748175",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 20,
@@ -8140,7 +9367,7 @@ const N3GH_DATA = {
    "name": "Fer Bisglycinate LomaChelateX®",
    "variant": "gélules · 90",
    "price_eur": 17.9,
-   "price_note": "cuure.com live 13/09/2026 — achat unique ; abonnement −10 % (16,11 €), −10 % dès 3 unités",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 90,
    "unit_name": "gélule",
    "units_per_day": 1,
@@ -8169,6 +9396,11 @@ const N3GH_DATA = {
    "url": "https://cuure.com/produits/fer",
    "ean": "3760353422894",
    "notes": "14 mg de fer (100 % VNR) par gélule ; flacon « 90 jours » à 1 gélule/j. Liste complète lue dans les données de composition de la fiche (fécule de pomme de terre 130 mg, bisglycinate de fer 70 mg, gélule HPMC 65 mg, spiruline 10 mg en colorant) ; l'onglet visible « Ingrédients » ne nomme que bisglycinate, spiruline et fécule. Existe en box personnalisée de 30 gélules (6,21 € au lieu de 6,90 €).",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://cuure.com/produits/fer"
+   },
    "id": "cuure-fer-bisglycinate-lomachelatex-gelules-90",
    "form_tier": 20,
    "form_note": "Ferrous bisglycinate — the best head-to-head evidence among supplement forms (haemoglobin and gut tolerance).",
@@ -8201,7 +9433,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://cuure.com/produits/fer",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 20,
@@ -8229,7 +9473,7 @@ const N3GH_DATA = {
    "name": "Bisglycinate de Fer",
    "variant": "gélules · 60",
    "price_eur": 12.9,
-   "price_note": "dynveo.fr live 13/09/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 60,
    "unit_name": "gélule",
    "units_per_day": 1,
@@ -8256,6 +9500,11 @@ const N3GH_DATA = {
    "url": "https://www.dynveo.fr/products/bisglycinate-de-fer",
    "ean": "3770000228182",
    "notes": "14 mg de fer (100 % VNR) par gélule ; formule 3 ingrédients, déclarée vegan.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.dynveo.fr/products/bisglycinate-de-fer"
+   },
    "id": "dynveo-bisglycinate-de-fer-gelules-60",
    "form_tier": 20,
    "form_note": "Ferrous bisglycinate — the best head-to-head evidence among supplement forms (haemoglobin and gut tolerance).",
@@ -8280,7 +9529,21 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.dynveo.fr/products/bisglycinate-de-fer",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 20,
@@ -8308,7 +9571,7 @@ const N3GH_DATA = {
    "name": "Complexe Fer et Vitamine C : Fer3",
    "variant": "gélules · 60",
    "price_eur": 26.9,
-   "price_note": "dynveo.fr live 13/09/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 60,
    "unit_name": "gélule",
    "units_per_day": 2,
@@ -8341,6 +9604,11 @@ const N3GH_DATA = {
      "per_day": 180
     }
    ],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.dynveo.fr/products/complexe-fer"
+   },
    "id": "dynveo-complexe-fer-et-vitamine-c-fer3-gelules-60",
    "form_tier": 20,
    "form_note": "Ferrous bisglycinate — the best head-to-head evidence among supplement forms (haemoglobin and gut tolerance).",
@@ -8365,7 +9633,21 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.dynveo.fr/products/complexe-fer",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 20,
@@ -8445,7 +9727,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -8530,7 +9820,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -8558,7 +9858,7 @@ const N3GH_DATA = {
    "name": "Fer Ultimine™",
    "variant": "gélules · 30",
    "price_eur": 7.95,
-   "price_note": "nutrimuscle.com live 13/09/2026 — pas de remise sur le prix unitaire ; offre de rentrée −15 % dès 3 produits achetés",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 30,
    "unit_name": "gélule",
    "units_per_day": 1,
@@ -8587,6 +9887,11 @@ const N3GH_DATA = {
    "url": "https://www.nutrimuscle.com/products/fer-ultimine",
    "ean": null,
    "notes": "13,7 mg de fer (98 % VNR) par gélule. Analyse de l'ingrédient, étiquette et certificats Sport Protect/WADA publiés. Ne pas cumuler avec les multiminéraux de la marque.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.nutrimuscle.com/products/fer-ultimine?variant=54076227944777"
+   },
    "id": "nutrimuscle-fer-ultimine-gelules-30",
    "form_tier": 12,
    "form_note": "Iron-enriched koji (Ultimine) — small, manufacturer-funded absorption data only.",
@@ -8609,7 +9914,21 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Belgium",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.nutrimuscle.com/products/fer-ultimine?variant=54076227944777",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 12,
@@ -8637,7 +9956,7 @@ const N3GH_DATA = {
    "name": "Fer Bisglycinate doux non constipant",
    "variant": "gélules · 90",
    "price_eur": 11.9,
-   "price_note": "onatera.com live 13/09/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 90,
    "unit_name": "gélule",
    "units_per_day": 1,
@@ -8672,6 +9991,11 @@ const N3GH_DATA = {
      "per_day": 80
     }
    ],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.onatera.com/FR/fr/produit-fer-doux-non-constipant-brevete-90-gelules-onatera"
+   },
    "id": "onatera-fer-bisglycinate-doux-non-constipant-gelules-90",
    "form_tier": 20,
    "form_note": "Ferrous bisglycinate — the best head-to-head evidence among supplement forms (haemoglobin and gut tolerance).",
@@ -8698,7 +10022,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.onatera.com/FR/fr/produit-fer-doux-non-constipant-brevete-90-gelules-onatera",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 20,
@@ -8726,7 +10062,7 @@ const N3GH_DATA = {
    "name": "Fer bisglycinate",
    "variant": "gélules · 90",
    "price_eur": 9.9,
-   "price_note": "onatera.com live 13/09/2026 (épuisé ce jour)",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 90,
    "unit_name": "gélule",
    "units_per_day": 1,
@@ -8755,6 +10091,11 @@ const N3GH_DATA = {
    "url": "https://www.onatera.com/FR/fr/produit-fer-bisglycinate-90-gelules-orfito",
    "ean": "3701407713261",
    "notes": "1 gélule/j = 14 mg de fer (100 % AR). La table indique 70 mg de bisglycinate, le texte marketing 75 mg ; la teneur en fer (14 mg) est la même. La fiche dit aussi « Convient aux adultes, sportifs, femmes enceintes » alors que les précautions demandent un avis médical. Format 180 gélules listé sans prix affiché.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.onatera.com/FR/fr/produit-fer-bisglycinate-90-gelules-orfito"
+   },
    "id": "onatera-fer-bisglycinate-gelules-90",
    "form_tier": 20,
    "form_note": "Ferrous bisglycinate — the best head-to-head evidence among supplement forms (haemoglobin and gut tolerance).",
@@ -8781,7 +10122,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.onatera.com/FR/fr/produit-fer-bisglycinate-90-gelules-orfito",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 20,
@@ -8887,7 +10240,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 12,
@@ -8975,7 +10336,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 8,
@@ -9065,7 +10434,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -9093,7 +10470,7 @@ const N3GH_DATA = {
    "name": "Citrate de potassium",
    "variant": "gélules · 60",
    "price_eur": 19.9,
-   "price_note": "dynveo.fr live 13/09/2026 — code REPRISE10 (−10 % dès 2 produits) non appliqué",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 60,
    "unit_name": "gélule",
    "units_per_day": 2,
@@ -9124,6 +10501,11 @@ const N3GH_DATA = {
    "url": "https://www.dynveo.fr/products/citrate-de-potassium",
    "ean": null,
    "notes": "2 gélules/j = 2 000 mg de citrate de tripotassium dont 700 mg de potassium (35 % VNR). Existe aussi en poudre 250 g (17,90 €, 2 cuillères = 875 mg de K). La description parle de gélules en pullulan, la liste d'ingrédients d'hypromellose : liste retenue. L'EAN du JSON-LD (3760331480373) correspond au format poudre, non repris. Analyses « systématiques » revendiquées mais aucun certificat lié sur la fiche.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.dynveo.fr/products/citrate-de-potassium?variant=52063266406727"
+   },
    "id": "dynveo-citrate-de-potassium-gelules-60",
    "form_tier": 18,
    "form_note": "Potassium citrate — lowered blood pressure as well as the chloride in a head-to-head RCT.",
@@ -9145,7 +10527,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.dynveo.fr/products/citrate-de-potassium?variant=52063266406727",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 18,
@@ -9173,7 +10567,7 @@ const N3GH_DATA = {
    "name": "Citrate de Potassium",
    "variant": "ampoules · 30 × 2 ml",
    "price_eur": 13.5,
-   "price_note": "granions.fr live 13/09/2026 — code RYTHME (−30 % dès 60 €, hors produits stars) non appliqué",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 30,
    "unit_name": "ampoule",
    "units_per_day": 1,
@@ -9202,6 +10596,11 @@ const N3GH_DATA = {
    "url": "https://www.granions.fr/granions-de-potassium.html",
    "ean": "3760155210255",
    "notes": "80 mg de potassium/j (4 % VNR) en 1 ampoule de 2 ml — dose faible ; boîte de 30 ampoules (60 ml), programme d'un mois. Vegan non revendiqué mais tous les ingrédients sont minéraux, végétaux ou de synthèse.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.granions.fr/granions-de-potassium.html"
+   },
    "id": "granions-citrate-de-potassium-ampoules-30-2-ml",
    "form_tier": 18,
    "form_note": "Potassium citrate — lowered blood pressure as well as the chloride in a head-to-head RCT.",
@@ -9236,7 +10635,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.granions.fr/granions-de-potassium.html",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 18,
@@ -9264,7 +10675,7 @@ const N3GH_DATA = {
    "name": "Citrate de Potassium en gélules",
    "variant": "gélules · 120",
    "price_eur": 19.95,
-   "price_note": "nutrimuscle.com live 13/09/2026 — achat unique ; abonnement −10 % (17,96 €) et offre −15 % dès 3 produits non appliqués",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 120,
    "unit_name": "gélule",
    "units_per_day": 8,
@@ -9295,6 +10706,11 @@ const N3GH_DATA = {
    "url": "https://www.nutrimuscle.com/products/citrate-de-potassium-en-gelules",
    "ean": null,
    "notes": "Portion recommandée 8 gélules/j = 4 663 mg de citrate et 2 838 mg de potassium (142 % VNR), soit ≈ 354,75 mg de K par gélule ; paquet de 120 = 15 jours. Certificat d'analyse du citrate tripotassique téléchargeable.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.nutrimuscle.com/products/citrate-de-potassium-en-gelules?variant=48752770416969"
+   },
    "id": "nutrimuscle-citrate-de-potassium-en-gelules-gelules-120",
    "form_tier": 18,
    "form_note": "Potassium citrate — lowered blood pressure as well as the chloride in a head-to-head RCT.",
@@ -9316,7 +10732,21 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Belgium",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.nutrimuscle.com/products/citrate-de-potassium-en-gelules?variant=48752770416969",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 18,
@@ -9344,7 +10774,7 @@ const N3GH_DATA = {
    "name": "Citrate de Potassium",
    "variant": "gélules · 120",
    "price_eur": 12.9,
-   "price_note": "onatera.com live 13/09/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 120,
    "unit_name": "gélule",
    "units_per_day": 2,
@@ -9374,6 +10804,11 @@ const N3GH_DATA = {
    "url": "https://www.onatera.com/FR/fr/produit-citrate-potassium-120-gelules-onatera",
    "ean": "3701407714176",
    "notes": "Étiquette : 2 à 4 gélules/j = 300 à 600 mg de potassium élément (15–30 % AR) ; tableau donné pour 4 gélules (600 mg, dose maximale) ; chiffré à 2/j (dose basse), soit 150 mg par gélule. Gélule HPMC d'après la description.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.onatera.com/FR/fr/produit-citrate-potassium-120-gelules-onatera"
+   },
    "id": "onatera-citrate-de-potassium-gelules-120",
    "form_tier": 18,
    "form_note": "Potassium citrate — lowered blood pressure as well as the chloride in a head-to-head RCT.",
@@ -9398,7 +10833,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.onatera.com/FR/fr/produit-citrate-potassium-120-gelules-onatera",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 18,
@@ -9490,7 +10937,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 16,
@@ -9573,7 +11028,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -9648,7 +11113,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 16,
@@ -9727,7 +11200,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 16,
@@ -9804,7 +11287,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "blocked",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 16,
@@ -9877,7 +11368,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 16,
@@ -9938,9 +11437,14 @@ const N3GH_DATA = {
    "ean": "3578835502800",
    "notes": "2 gélules/j = 100% VNR.",
    "nutrients": {
-    "vitamin_d3": 200
+    "vitamin_d3": 200,
+    "vitamin_c": 120,
+    "zinc": 15,
+    "folate": 200,
+    "vitamin_b6": 2,
+    "vitamin_b12": 1
    },
-   "nutrients_source": "étiquette : vit D 5 µg/jour",
+   "nutrients_source": "Tableau fabricant consulté le 2026-10-05 ; quantités pour 2 unité(s) par jour. Sous-ensemble des nutriments, pas validation intégrale du produit.",
    "id": "arkopharma-azinc-vitalite-adulte-120-gelules",
    "form_tier": 8,
    "form_note": "Cheap forms (oxides, cyanocobalamin, retinol).",
@@ -9973,7 +11477,21 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Magnésium élémentaire non quantifié dans le tableau.",
+     "Prix du conditionnement 120 gélules."
+    ],
+    "label_checked_on": "2026-10-05",
+    "label_scope": "Quantités journalières des nutriments affichés et nombre d’unités par jour. Additifs, certifications et autres nutriments non revérifiés.",
+    "label_source_url": "https://fr.arkopharma.com/products/azinc-vitalite-gelules"
    },
    "scores": {
     "form": 8,
@@ -10028,9 +11546,15 @@ const N3GH_DATA = {
    "ean": "3664492022864",
    "notes": "1 comprimé/j = 100% VNR.",
    "nutrients": {
-    "vitamin_d3": 200
+    "vitamin_d3": 200,
+    "vitamin_c": 80,
+    "magnesium": 57,
+    "zinc": 10,
+    "folate": 200,
+    "vitamin_b6": 1.4,
+    "vitamin_b12": 2.5
    },
-   "nutrients_source": "étiquette : vit D 5 µg/jour",
+   "nutrients_source": "Tableau fabricant consulté le 2026-10-05 ; quantités pour 1 unité(s) par jour. Sous-ensemble des nutriments, pas validation intégrale du produit.",
    "id": "alvityl-vitalite-a-avaler-40-comprimes",
    "form_tier": 12,
    "form_note": "Standard vitamin/mineral forms.",
@@ -10054,7 +11578,18 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-05",
+    "label_scope": "Quantités journalières des nutriments affichés et nombre d’unités par jour. Additifs, certifications et autres nutriments non revérifiés.",
+    "label_source_url": "https://alvityl.fr/alvityl-produits/alvityl-vitalite-a-avaler/"
    },
    "scores": {
     "form": 12,
@@ -10107,9 +11642,15 @@ const N3GH_DATA = {
    "ean": "3401377618190",
    "notes": "D 10 µg, C 120 mg, Zn 10 mg.",
    "nutrients": {
-    "vitamin_d3": 400
+    "vitamin_d3": 400,
+    "vitamin_c": 120,
+    "magnesium": 56.3,
+    "zinc": 10,
+    "folate": 300,
+    "vitamin_b6": 2,
+    "vitamin_b12": 3
    },
-   "nutrients_source": "étiquette : vit D 10 µg/jour",
+   "nutrients_source": "Tableau fabricant consulté le 2026-10-05 ; quantités pour 1 unité(s) par jour. Sous-ensemble des nutriments, pas validation intégrale du produit.",
    "id": "bion3-p-g-bion3-defense-adultes-30-comprimes",
    "form_tier": 12,
    "form_note": "Standard vitamin/mineral forms.",
@@ -10140,7 +11681,18 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-05",
+    "label_scope": "Quantités journalières des nutriments affichés et nombre d’unités par jour. Additifs, certifications et autres nutriments non revérifiés.",
+    "label_source_url": "https://www.bion3.com/fr-fr/produits/bion3-defense-comprimes"
    },
    "scores": {
     "form": 12,
@@ -10167,8 +11719,8 @@ const N3GH_DATA = {
    "brand": "Bayer",
    "name": "Berocca Energie",
    "variant": "30 comprimés",
-   "price_eur": 14.25,
-   "price_note": "pharmacies FR 07/2026",
+   "price_eur": 10.78,
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 30,
    "unit_name": "tablet",
    "units_per_day": 1,
@@ -10196,9 +11748,20 @@ const N3GH_DATA = {
    "ean": "3534510000665",
    "notes": "Complément (≠ Berocca médicament historique).",
    "nutrients": {
-    "vitamin_d3": 0
+    "vitamin_d3": 0,
+    "vitamin_c": 500,
+    "magnesium": 100,
+    "zinc": 10,
+    "folate": 400,
+    "vitamin_b6": 8.22,
+    "vitamin_b12": 10
    },
-   "nutrients_source": "formule sans vitamine D",
+   "nutrients_source": "Tableau fabricant consulté le 2026-10-05 ; quantités pour 1 unité(s) par jour. Sous-ensemble des nutriments, pas validation intégrale du produit.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.pharma-gdd.com/fr/berocca-energie-comprimes"
+   },
    "id": "bayer-berocca-energie-30-comprimes",
    "form_tier": 12,
    "form_note": "Standard vitamin/mineral forms.",
@@ -10229,7 +11792,22 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-05",
+    "label_scope": "Quantités journalières des nutriments affichés et nombre d’unités par jour. Additifs, certifications et autres nutriments non revérifiés.",
+    "label_source_url": "https://www.beroccagamme.fr/nos-produits/beroccaenergie-comprime",
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.pharma-gdd.com/fr/berocca-energie-comprimes",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 12,
@@ -10242,11 +11820,11 @@ const N3GH_DATA = {
     "banned_substances": []
    },
    "value": {
-    "cost_per_day": 0.475,
-    "std": 0.475,
+    "cost_per_day": 0.359,
+    "std": 0.359,
     "std_label": "€ / day",
     "days_per_pack": 30,
-    "price_tier": 2
+    "price_tier": 1
    },
    "label_hash": "4a7f331c3cc2",
    "rank_in_category": 12
@@ -10283,9 +11861,15 @@ const N3GH_DATA = {
    "ean": "3401554166858",
    "notes": "Positionné anti-fatigue.",
    "nutrients": {
-    "vitamin_d3": 0
+    "vitamin_d3": 0,
+    "vitamin_c": 80,
+    "magnesium": 100,
+    "zinc": 5,
+    "folate": 200,
+    "vitamin_b6": 2,
+    "vitamin_b12": 1.5
    },
-   "nutrients_source": "formule sans vitamine D",
+   "nutrients_source": "Tableau fabricant consulté le 2026-10-05 ; quantités pour 1 unité(s) par jour. Sous-ensemble des nutriments, pas validation intégrale du produit.",
    "id": "isoxan-isoxan-adulte-20-comprimes",
    "form_tier": 12,
    "form_note": "Standard vitamin/mineral forms.",
@@ -10316,7 +11900,20 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [
+     "Tableau des comprimés à avaler ; ne pas utiliser celui de la version effervescente."
+    ],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-05",
+    "label_scope": "Quantités journalières des nutriments affichés et nombre d’unités par jour. Additifs, certifications et autres nutriments non revérifiés.",
+    "label_source_url": "https://isoxan.com/produits/isoxan-adulte/"
    },
    "scores": {
     "form": 12,
@@ -10400,7 +11997,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -10417,7 +12024,7 @@ const N3GH_DATA = {
     "std": 1.06,
     "std_label": "€ / day",
     "days_per_pack": 15,
-    "price_tier": 5
+    "price_tier": 4
    },
    "label_hash": "69e4eb64b69d",
    "rank_in_category": 1
@@ -10482,7 +12089,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 17,
@@ -10499,7 +12114,7 @@ const N3GH_DATA = {
     "std": 1.06,
     "std_label": "€ / day",
     "days_per_pack": 30,
-    "price_tier": 5
+    "price_tier": 4
    },
    "label_hash": "d475c29d2f99",
    "rank_in_category": 6
@@ -10571,7 +12186,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 17,
@@ -10658,7 +12281,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "broken_source",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -10741,7 +12372,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 16,
@@ -10837,7 +12476,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 16,
@@ -10960,7 +12607,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "blocked",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -10988,7 +12643,7 @@ const N3GH_DATA = {
    "name": "Oméga 3 Epax®",
    "variant": "60 capsules",
    "price_eur": 17.95,
-   "price_note": "nutrimuscle.com live 11/07/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 60,
    "unit_name": "capsule",
    "units_per_day": 4,
@@ -11020,6 +12675,11 @@ const N3GH_DATA = {
    "url": "https://www.nutrimuscle.com/products/omega-3-epax",
    "ean": null,
    "notes": "Certificats d'analyse publiés. Huile anchois/sardines/maquereaux Norvège.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.nutrimuscle.com/products/omega-3-epax-r?variant=51451094040905"
+   },
    "id": "nutrimuscle-omega-3-epax-60-capsules",
    "form_tier": 20,
    "form_note": "Re-esterified triglycerides (rTG) — best absorbed.",
@@ -11042,7 +12702,21 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Belgium",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.nutrimuscle.com/products/omega-3-epax-r?variant=51451094040905",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 20,
@@ -11126,7 +12800,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -11204,7 +12888,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -11283,7 +12977,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 16,
@@ -11359,7 +13063,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 16,
@@ -11438,7 +13150,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -11492,9 +13214,15 @@ const N3GH_DATA = {
    "ean": null,
    "notes": "Méthylcobalamine, 5-MTHF, sélénométhionine, D3 25 µg. Sans fer/cuivre.",
    "nutrients": {
-    "vitamin_d3": 1000
+    "vitamin_d3": 1000,
+    "vitamin_c": 216,
+    "magnesium": 120,
+    "zinc": 10,
+    "folate": 200,
+    "vitamin_b6": 2,
+    "vitamin_b12": 5
    },
-   "nutrients_source": "étiquette : vit D 25 µg/jour",
+   "nutrients_source": "Tableau fabricant consulté le 2026-10-05 ; quantités pour 2 unité(s) par jour. Sous-ensemble des nutriments, pas validation intégrale du produit.",
    "id": "nutripure-multivitamines-60-gelules",
    "form_tier": 20,
    "form_note": "Bioactive / chelated forms.",
@@ -11516,7 +13244,21 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "blocked",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": [
+     "Prix à vérifier sur le format 60 gélules seul.",
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ],
+    "label_checked_on": "2026-10-05",
+    "label_scope": "Quantités journalières des nutriments affichés et nombre d’unités par jour. Additifs, certifications et autres nutriments non revérifiés.",
+    "label_source_url": "https://www.nutripure.fr/fr/sante/1-multi-vitamines-mineraux.html"
    },
    "scores": {
     "form": 20,
@@ -11594,7 +13336,20 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Belgium",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [
+     "La page actuelle annonce une nouvelle formule à 12 vitamines et 60 µg de D3 par dose de 670 mg, contre 13 vitamines et 6 µg dans cette fiche historique. Le format et l’étiquette doivent être rapprochés avant remplacement."
+    ],
+    "pending_fields": [
+     "Formule actuelle, étiquette du conditionnement et score de composition.",
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 12,
@@ -11622,7 +13377,7 @@ const N3GH_DATA = {
    "name": "Multivitamines Multi27",
    "variant": "60 gélules",
    "price_eur": 27.9,
-   "price_note": "dynveo.fr live 11/07/2026",
+   "price_note": "Prix affiché sur le site fabricant pour ce format, consulté le 2026-10-05, hors livraison.",
    "units_pack": 60,
    "unit_name": "capsule",
    "units_per_day": 2,
@@ -11648,11 +13403,14 @@ const N3GH_DATA = {
    "notes": "K2 MK-7, D3 lichen, zinc bisglycinate. Gélules végétales sans additifs.",
    "nutrients": {
     "vitamin_d3": 200,
-    "zinc": 10,
     "vitamin_c": 80,
-    "magnesium": 0
+    "magnesium": 0,
+    "zinc": 10,
+    "folate": 200,
+    "vitamin_b6": 1.4,
+    "vitamin_b12": 5
    },
-   "nutrients_source": "table de composition dynveo.fr, pour 2 gélules (vérifié 08/2026)",
+   "nutrients_source": "Tableau fabricant consulté le 2026-10-05 ; quantités pour 2 unité(s) par jour. Sous-ensemble des nutriments, pas validation intégrale du produit.",
    "id": "dynveo-multivitamines-multi27-60-gelules",
    "form_tier": 20,
    "form_note": "Bioactive / chelated forms.",
@@ -11672,7 +13430,23 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ],
+    "label_checked_on": "2026-10-05",
+    "label_scope": "Quantités journalières des nutriments affichés et nombre d’unités par jour. Additifs, certifications et autres nutriments non revérifiés.",
+    "label_source_url": "https://www.dynveo.fr/products/multivitamines",
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.dynveo.fr/products/multivitamines",
+    "price_scope": "Prix fabricant, achat à l’unité, hors livraison."
    },
    "scores": {
     "form": 20,
@@ -11700,7 +13474,7 @@ const N3GH_DATA = {
    "name": "Multivitamines",
    "variant": "60 gélules",
    "price_eur": 24.9,
-   "price_note": "cuure.com live 11/07/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 60,
    "unit_name": "capsule",
    "units_per_day": 2,
@@ -11731,6 +13505,11 @@ const N3GH_DATA = {
     "vitamin_c": 80
    },
    "nutrients_source": "données ingrédients cuure.com, par gélule x2/jour (vérifié 08/2026) ; magnésium déclaré en poids de bisglycinate, teneur élémentaire non déductible",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://cuure.com/produits/multivitamines"
+   },
    "id": "cuure-multivitamines-60-gelules",
    "form_tier": 20,
    "form_note": "Bioactive / chelated forms.",
@@ -11750,7 +13529,23 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [
+     "La page accessible ne permet pas de confirmer l’ensemble des quantités journalières de la fiche."
+    ],
+    "pending_fields": [
+     "Tableau par dose quotidienne et magnésium élémentaire."
+    ],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://cuure.com/produits/multivitamines",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 20,
@@ -11777,8 +13572,8 @@ const N3GH_DATA = {
    "brand": "Epycure",
    "name": "Cure multivitamines+",
    "variant": "60 gélules",
-   "price_eur": 27.0,
-   "price_note": "epycure.com live 11/07/2026",
+   "price_eur": 27,
+   "price_note": "Prix affiché sur le site fabricant pour ce format, consulté le 2026-10-05, hors livraison.",
    "units_pack": 60,
    "unit_name": "capsule",
    "units_per_day": 2,
@@ -11803,6 +13598,11 @@ const N3GH_DATA = {
    "url": "https://epycure.com/products/essentiel-anti-fatigue",
    "ean": "3770017754186",
    "notes": "Positionné anti-fatigue. Fabriqué en France.",
+   "nutrients": {
+    "vitamin_d3": 400,
+    "vitamin_c": 80
+   },
+   "nutrients_source": "Tableau fabricant consulté le 2026-10-05 ; quantités pour 2 unité(s) par jour. Sous-ensemble des nutriments, pas validation intégrale du produit.",
    "id": "epycure-cure-multivitamines-60-gelules",
    "form_tier": 12,
    "form_note": "Standard vitamin/mineral forms.",
@@ -11822,7 +13622,25 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "blocked",
+    "source_reachable": false,
+    "review_notes": [
+     "D3 et C confirmées dans la FAQ de la formule actuelle ; ce contrôle ne valide pas le reste de l’étiquette."
+    ],
+    "pending_fields": [
+     "Tableau intégral des minéraux et folates."
+    ],
+    "label_checked_on": "2026-10-05",
+    "label_scope": "Vitamine C et D3 uniquement, d’après la FAQ fabricant, pour 2 gélules par jour.",
+    "label_source_url": "https://epycure.com/products/essentiel-anti-fatigue",
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://epycure.com/products/essentiel-anti-fatigue",
+    "price_scope": "Prix fabricant, achat à l’unité, hors livraison."
    },
    "scores": {
     "form": 12,
@@ -11849,8 +13667,8 @@ const N3GH_DATA = {
    "brand": "Argalys",
    "name": "Multivitamines et minéraux",
    "variant": "60 gélules",
-   "price_eur": 23.9,
-   "price_note": "argalys.com live 11/07/2026 (soldes 20,32 €)",
+   "price_eur": 24.9,
+   "price_note": "Prix affiché sur le site fabricant pour ce format, consulté le 2026-10-05, hors livraison.",
    "units_pack": 60,
    "unit_name": "capsule",
    "units_per_day": 1,
@@ -11882,11 +13700,13 @@ const N3GH_DATA = {
    "notes": "B12 renforcée 10 µg, D3 végétale. Adapté grossesse et dès 8 ans.",
    "nutrients": {
     "vitamin_d3": 400,
+    "vitamin_c": 40,
     "zinc": 10,
-    "magnesium": 19,
-    "vitamin_c": 40
+    "folate": 200,
+    "vitamin_b6": 1.4,
+    "vitamin_b12": 10
    },
-   "nutrients_source": "table de composition argalys.com, 1 gélule/jour (vérifié 08/2026) ; Mg élémentaire dérivé de 5 % VNR x 375 mg",
+   "nutrients_source": "Tableau fabricant consulté le 2026-10-05 ; quantités pour 1 unité(s) par jour. Sous-ensemble des nutriments, pas validation intégrale du produit.",
    "id": "argalys-multivitamines-et-mineraux-60-gelules",
    "form_tier": 12,
    "form_note": "Standard vitamin/mineral forms.",
@@ -11909,7 +13729,26 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [
+     "Retrait de l’ancienne estimation de 19 mg de magnésium ; une quantité inconnue ne vaut pas zéro."
+    ],
+    "pending_fields": [
+     "Magnésium élémentaire : la page indique 100 mg de bisglycinate et 5 % VNR, sans quantité élémentaire explicite.",
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ],
+    "label_checked_on": "2026-10-05",
+    "label_scope": "Quantités journalières des nutriments affichés et nombre d’unités par jour. Additifs, certifications et autres nutriments non revérifiés.",
+    "label_source_url": "https://www.argalys.com/products/multivitamines",
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.argalys.com/products/multivitamines",
+    "price_scope": "Prix fabricant, achat à l’unité, hors livraison."
    },
    "scores": {
     "form": 12,
@@ -11922,8 +13761,8 @@ const N3GH_DATA = {
     "banned_substances": []
    },
    "value": {
-    "cost_per_day": 0.398,
-    "std": 0.398,
+    "cost_per_day": 0.415,
+    "std": 0.415,
     "std_label": "€ / day",
     "days_per_pack": 60,
     "price_tier": 2
@@ -11971,9 +13810,15 @@ const N3GH_DATA = {
    "ean": null,
    "notes": "Comprimé enrobé classique, dès 6 ans.",
    "nutrients": {
-    "vitamin_d3": 200
+    "vitamin_d3": 200,
+    "vitamin_c": 80,
+    "magnesium": 56.25,
+    "zinc": 10,
+    "folate": 200,
+    "vitamin_b6": 2,
+    "vitamin_b12": 2.5
    },
-   "nutrients_source": "étiquette : vit D 5 µg/jour",
+   "nutrients_source": "Tableau fabricant consulté le 2026-10-05 ; quantités pour 1 unité(s) par jour. Sous-ensemble des nutriments, pas validation intégrale du produit.",
    "price_context": {
     "kind": "promo_price",
     "normal_eur": 9.9
@@ -12013,7 +13858,18 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-05",
+    "label_scope": "Quantités journalières des nutriments affichés et nombre d’unités par jour. Additifs, certifications et autres nutriments non revérifiés.",
+    "label_source_url": "https://www.ericfavre.com/fr_fr/tonus-immunite/vitamino-immunite-fatigue-multivitamines-et-mineraux-p-160.htm"
    },
    "scores": {
     "form": 8,
@@ -12040,8 +13896,8 @@ const N3GH_DATA = {
    "brand": "Nutergia",
    "name": "Ergy D",
    "variant": "flacon 15 ml · 340 gouttes",
-   "price_eur": 9.49,
-   "price_note": "Pharma GDD live 07/2026",
+   "price_eur": 9.59,
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion. Indisponible lors du contrôle.",
    "units_pack": 340,
    "unit_name": "drop",
    "units_per_day": 5,
@@ -12062,6 +13918,11 @@ const N3GH_DATA = {
    "url": "https://www.pharma-gdd.com/fr/ergy-d-15-ml",
    "ean": "3664524001850",
    "notes": "Adulte 3-5 gouttes/j (600-1000 UI).",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.pharma-gdd.com/fr/ergy-d-15-ml"
+   },
    "id": "nutergia-ergy-d-flacon-15-ml-340-gouttes",
    "form_tier": 20,
    "form_note": "Documented D3 source (lichen or lanolin).",
@@ -12079,7 +13940,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.pharma-gdd.com/fr/ergy-d-15-ml",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "OutOfStock"
    },
    "scores": {
     "form": 20,
@@ -12092,8 +13965,8 @@ const N3GH_DATA = {
     "banned_substances": []
    },
    "value": {
-    "cost_per_day": 0.14,
-    "std": 0.14,
+    "cost_per_day": 0.141,
+    "std": 0.141,
     "std_label": "€ / 1000 IU",
     "days_per_pack": 68,
     "price_tier": 3
@@ -12151,7 +14024,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -12223,7 +14104,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -12299,7 +14188,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -12381,7 +14278,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -12408,8 +14313,8 @@ const N3GH_DATA = {
    "brand": "Nutergia",
    "name": "Ergymag",
    "variant": "45 gélules",
-   "price_eur": 10.38,
-   "price_note": "Pharma GDD live 07/2026",
+   "price_eur": 10.49,
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 45,
    "unit_name": "capsule",
    "units_per_day": 3,
@@ -12437,6 +14342,11 @@ const N3GH_DATA = {
    "url": "https://www.pharma-gdd.com/fr/nutergia-ergymag-magnesium",
    "ean": "3664524000112",
    "notes": "3 gélules = 300 mg élémentaire.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.pharma-gdd.com/fr/nutergia-ergymag-magnesium"
+   },
    "id": "nutergia-ergymag-45-gelules",
    "form_tier": 20,
    "form_note": "Chelated magnesium — high bioavailability.",
@@ -12467,7 +14377,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.pharma-gdd.com/fr/nutergia-ergymag-magnesium",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 20,
@@ -12480,8 +14402,8 @@ const N3GH_DATA = {
     "banned_substances": []
    },
    "value": {
-    "cost_per_day": 0.692,
-    "std": 0.692,
+    "cost_per_day": 0.699,
+    "std": 0.699,
     "std_label": "€ / 300 mg Mg",
     "days_per_pack": 15,
     "price_tier": 4
@@ -12549,7 +14471,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 4,
@@ -12577,7 +14507,7 @@ const N3GH_DATA = {
    "name": "Magnésium marin + Vitamine B6",
    "variant": "80 gélules",
    "price_eur": 6.19,
-   "price_note": "Redcare live 07/2026 (-42% vs PPC)",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 80,
    "unit_name": "capsule",
    "units_per_day": 1,
@@ -12603,8 +14533,9 @@ const N3GH_DATA = {
    "ean": "3535400007474",
    "notes": "177 mg élémentaire/gélule.",
    "price_context": {
-    "kind": "promo_price",
-    "off_pct": 42
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.redcare-pharmacie.fr/hygiene-et-sante/F00134466/nat-form-magnesium-marin-vitamine-b6.htm"
    },
    "id": "nat-form-magnesium-marin-vitamine-b6-80-gelules",
    "form_tier": 4,
@@ -12627,7 +14558,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.redcare-pharmacie.fr/hygiene-et-sante/F00134466/nat-form-magnesium-marin-vitamine-b6.htm",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 4,
@@ -12708,7 +14651,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 4,
@@ -12736,7 +14687,7 @@ const N3GH_DATA = {
    "name": "Magnésium Amino-chélaté",
    "variant": "84 gélules",
    "price_eur": 21.89,
-   "price_note": "Newpharma live 07/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 84,
    "unit_name": "capsule",
    "units_per_day": 2,
@@ -12761,6 +14712,11 @@ const N3GH_DATA = {
    "url": "https://www.newpharma.fr/nhco/860001/nhco-nutrition-magnesium-amino-chelate-84-gelules.html",
    "ean": null,
    "notes": "2 gélules = 250 mg (67% VNR).",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.newpharma.fr/nhco/860001/nhco-nutrition-magnesium-amino-chelate-84-gelules.html"
+   },
    "id": "nhco-magnesium-amino-chelate-84-gelules",
    "form_tier": 20,
    "form_note": "Chelated magnesium — high bioavailability.",
@@ -12782,7 +14738,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.newpharma.fr/nhco/860001/nhco-nutrition-magnesium-amino-chelate-84-gelules.html",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 20,
@@ -12855,7 +14823,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -12883,7 +14859,7 @@ const N3GH_DATA = {
    "name": "Oligomax Zinc",
    "variant": "flacon 150 ml · 30 doses",
    "price_eur": 10.89,
-   "price_note": "Pharma GDD live 07/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 30,
    "unit_name": "ampoule",
    "units_per_day": 1,
@@ -12910,6 +14886,11 @@ const N3GH_DATA = {
    "url": "https://www.pharma-gdd.com/fr/nutergia-oligomax-zinc-150-ml",
    "ean": "3401560008678",
    "notes": "Multi-oligoéléments avec Mn/Cu/Se.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.pharma-gdd.com/fr/nutergia-oligomax-zinc-150-ml"
+   },
    "id": "nutergia-oligomax-zinc-flacon-150-ml-30-doses",
    "form_tier": 14,
    "form_note": "Gluconate — modest bioavailability.",
@@ -12943,7 +14924,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.pharma-gdd.com/fr/nutergia-oligomax-zinc-150-ml",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 14,
@@ -13020,7 +15013,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "blocked",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -13097,7 +15098,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -13175,7 +15184,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 14,
@@ -13272,7 +15289,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 18,
@@ -13300,7 +15327,7 @@ const N3GH_DATA = {
    "name": "Acérola 1000 Bio",
    "variant": "100 comprimés à croquer",
    "price_eur": 12.69,
-   "price_note": "Pharma GDD live 07/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 100,
    "unit_name": "tablet",
    "units_per_day": 1,
@@ -13328,6 +15355,11 @@ const N3GH_DATA = {
    "url": "https://www.pharma-gdd.com/fr/nat-form-acerola-1000-bio",
    "ean": "3535400023139",
    "notes": "Fabriqué en France (Atlantic Nature).",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.pharma-gdd.com/fr/nat-form-acerola-1000-bio"
+   },
    "id": "nat-form-acerola-1000-bio-100-comprimes-a-croquer",
    "form_tier": 18,
    "form_note": "Buffered/whole-food vitamin C, gentle on the stomach.",
@@ -13356,7 +15388,21 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.pharma-gdd.com/fr/nat-form-acerola-1000-bio",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 18,
@@ -13440,7 +15486,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 18,
@@ -13532,7 +15588,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 18,
@@ -13559,8 +15623,8 @@ const N3GH_DATA = {
    "brand": "Pure Encapsulations",
    "name": "Vitamine C 1000 Tamponnée",
    "variant": "90 capsules",
-   "price_eur": 27.65,
-   "price_note": "Newpharma live 07/2026 (promo)",
+   "price_eur": 27.69,
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 90,
    "unit_name": "capsule",
    "units_per_day": 1,
@@ -13582,7 +15646,9 @@ const N3GH_DATA = {
    "ean": null,
    "notes": "Douce pour l'estomac.",
    "price_context": {
-    "kind": "promo_price"
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.newpharma.fr/pure-encapsulations/600745/pure-encapsulations-vitamine-c-1000-tamponnee-90-capsules.html"
    },
    "id": "pure-encapsulations-vitamine-c-1000-tamponnee-90-capsules",
    "form_tier": 16,
@@ -13603,7 +15669,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.newpharma.fr/pure-encapsulations/600745/pure-encapsulations-vitamine-c-1000-tamponnee-90-capsules.html",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 16,
@@ -13616,8 +15694,8 @@ const N3GH_DATA = {
     "banned_substances": []
    },
    "value": {
-    "cost_per_day": 0.307,
-    "std": 0.307,
+    "cost_per_day": 0.308,
+    "std": 0.308,
     "std_label": "€ / 1000 mg C",
     "days_per_pack": 90,
     "price_tier": 2
@@ -13684,7 +15762,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "blocked",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -13766,7 +15852,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -13783,7 +15877,7 @@ const N3GH_DATA = {
     "std": 0.93,
     "std_label": "€ / day",
     "days_per_pack": 30,
-    "price_tier": 4
+    "price_tier": 3
    },
    "label_hash": "329ef5c7bca8",
    "rank_in_category": 3
@@ -13846,7 +15940,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 14,
@@ -13929,7 +16031,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 17,
@@ -14009,7 +16119,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 14,
@@ -14026,7 +16144,7 @@ const N3GH_DATA = {
     "std": 0.933,
     "std_label": "€ / day",
     "days_per_pack": 30,
-    "price_tier": 4
+    "price_tier": 3
    },
    "label_hash": "e2cd75d4657f",
    "rank_in_category": 8
@@ -14089,7 +16207,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -14106,7 +16232,7 @@ const N3GH_DATA = {
     "std": 0.897,
     "std_label": "€ / day",
     "days_per_pack": 30,
-    "price_tier": 4
+    "price_tier": 3
    },
    "label_hash": "9a5313cb37c5",
    "rank_in_category": 2
@@ -14116,8 +16242,8 @@ const N3GH_DATA = {
    "brand": "Biocyte",
    "name": "Microbiote ATB Probiotiques",
    "variant": "10 gélules",
-   "price_eur": 9.35,
-   "price_note": "parapharmacie 07/2026",
+   "price_eur": 14.0,
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 10,
    "unit_name": "capsule",
    "units_per_day": 1,
@@ -14145,6 +16271,11 @@ const N3GH_DATA = {
    "url": "https://www.biocyte.com/products/microbiote-atb",
    "ean": "3760289222155",
    "notes": "5 souches + levure S. boulardii, 1 gélule/jour.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.biocyte.com/products/microbiote-atb?variant=54969407209807"
+   },
    "id": "biocyte-microbiote-atb-probiotiques-10-gelules",
    "form_tier": 10,
    "form_note": "Strains not coded, no gastro-resistant delivery.",
@@ -14167,7 +16298,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.biocyte.com/products/microbiote-atb?variant=54969407209807",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 10,
@@ -14180,11 +16323,11 @@ const N3GH_DATA = {
     "banned_substances": []
    },
    "value": {
-    "cost_per_day": 0.935,
-    "std": 0.935,
+    "cost_per_day": 1.4,
+    "std": 1.4,
     "std_label": "€ / day",
     "days_per_pack": 10,
-    "price_tier": 4
+    "price_tier": 5
    },
    "label_hash": "141a2c451718",
    "rank_in_category": 10
@@ -14241,7 +16384,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 16,
@@ -14326,7 +16477,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Le conditionnement de la source semble différent de cette fiche."
+    ]
    },
    "scores": {
     "form": 20,
@@ -14353,8 +16514,8 @@ const N3GH_DATA = {
    "brand": "ZzzQuil",
    "name": "Sommeil gummies (Natura)",
    "variant": "30 gommes Fruits des bois",
-   "price_eur": 10.69,
-   "price_note": "pharma-gdd.com live 07/2026",
+   "price_eur": 10.99,
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 30,
    "unit_name": "gummy",
    "units_per_day": 1,
@@ -14387,6 +16548,11 @@ const N3GH_DATA = {
    "url": "https://www.pharma-gdd.com/fr/zzzquil-sommeil-gommes",
    "ean": "8001841491110",
    "notes": "Mélatonine 1 mg = allégation EFSA. Fabricant P&G.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.pharma-gdd.com/fr/zzzquil-sommeil-gommes"
+   },
    "id": "zzzquil-sommeil-gummies-natura-30-gommes-fruits-des-bois",
    "form_tier": 16,
    "form_note": "Immediate release — supports sleep onset.",
@@ -14420,7 +16586,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "EU",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.pharma-gdd.com/fr/zzzquil-sommeil-gommes",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 16,
@@ -14433,8 +16611,8 @@ const N3GH_DATA = {
     "banned_substances": []
    },
    "value": {
-    "cost_per_day": 0.356,
-    "std": 0.356,
+    "cost_per_day": 0.366,
+    "std": 0.366,
     "std_label": "€ / day",
     "days_per_pack": 30,
     "price_tier": 2
@@ -14524,7 +16702,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 16,
@@ -14617,7 +16803,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 16,
@@ -14697,7 +16891,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "broken_source",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 16,
@@ -14778,7 +16980,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 14,
@@ -14857,7 +17067,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "blocked",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 14,
@@ -14951,7 +17169,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 18,
@@ -14979,8 +17205,8 @@ const N3GH_DATA = {
    "brand": "Nutrimuscle",
    "name": "Native Whey Isolate",
    "variant": "chocolat · 1 kg",
-   "price_eur": 58.95,
-   "price_note": "toutelanutrition.com live 07/2026",
+   "price_eur": 70.95,
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "pack_g": 1000,
    "serving_g": 30,
    "active_per_100g": 81.3,
@@ -15007,6 +17233,11 @@ const N3GH_DATA = {
    "url": "https://www.nutrimuscle.com/products/whey-native-isolate",
    "ean": null,
    "notes": "Variante isolate de la whey native.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.nutrimuscle.com/products/whey-native-isolate?variant=50085573624137"
+   },
    "id": "nutrimuscle-native-whey-isolate-chocolat-1-kg",
    "form_tier": 20,
    "form_note": "Native isolate — the top milk-protein form.",
@@ -15047,7 +17278,21 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Belgium",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.nutrimuscle.com/products/whey-native-isolate?variant=50085573624137",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 20,
@@ -15060,8 +17305,8 @@ const N3GH_DATA = {
     "banned_substances": []
    },
    "value": {
-    "cost_per_day": 1.768,
-    "std": 1.813,
+    "cost_per_day": 2.128,
+    "std": 2.182,
     "std_label": "€ / 25 g protein",
     "days_per_pack": 33,
     "price_tier": 5
@@ -15113,7 +17358,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -15181,7 +17434,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "blocked",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -15247,7 +17510,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -15313,7 +17586,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Hungary",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -15381,7 +17662,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -15448,7 +17739,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 16,
@@ -15476,8 +17775,8 @@ const N3GH_DATA = {
    "brand": "Colpropur",
    "name": "Colpropur Care",
    "variant": "neutre · 300 g",
-   "price_eur": 32.0,
-   "price_note": "PVC officiel (29,90-35,90 en pharmacie, non vérifié live)",
+   "price_eur": 23.29,
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "pack_g": 300,
    "serving_g": 10,
    "active_per_100g": 100,
@@ -15497,6 +17796,11 @@ const N3GH_DATA = {
    "url": "https://www.atida.fr/colpropur-care-neutre-collagene-hydrolyse-30-doses-300g.html",
    "ean": null,
    "notes": "Distribué dans 2000+ pharmacies FR.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.atida.fr/colpropur-care-neutre-collagene-hydrolyse-30-doses-300g.html"
+   },
    "id": "colpropur-colpropur-care-neutre-300-g",
    "form_tier": 16,
    "form_note": "Generic hydrolysed peptides.",
@@ -15517,7 +17821,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.atida.fr/colpropur-care-neutre-collagene-hydrolyse-30-doses-300g.html",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 16,
@@ -15530,8 +17846,8 @@ const N3GH_DATA = {
     "banned_substances": []
    },
    "value": {
-    "cost_per_day": 1.067,
-    "std": 1.067,
+    "cost_per_day": 0.776,
+    "std": 0.776,
     "std_label": "€ / 10 g collagen",
     "days_per_pack": 30,
     "price_tier": 2
@@ -15546,7 +17862,7 @@ const N3GH_DATA = {
    "name": "Collagen Peptides",
    "variant": "neutre · 567 g",
    "price_eur": 33.99,
-   "price_note": "Redcare live 07/2026 (-24% vs PPC 44,90)",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "pack_g": 567,
    "serving_g": 20,
    "active_per_100g": 100,
@@ -15567,9 +17883,9 @@ const N3GH_DATA = {
    "ean": "0850008654305",
    "notes": "Nestlé Health Science, ~28 portions.",
    "price_context": {
-    "kind": "promo_price",
-    "off_pct": 24,
-    "normal_eur": 44.9
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.redcare-pharmacie.fr/beaute/F00374775/vital-proteins-collagen-peptides.htm"
    },
    "id": "vital-proteins-collagen-peptides-neutre-567-g",
    "form_tier": 16,
@@ -15591,7 +17907,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.redcare-pharmacie.fr/beaute/F00374775/vital-proteins-collagen-peptides.htm",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 16,
@@ -15619,8 +17947,8 @@ const N3GH_DATA = {
    "brand": "Olimp Sport Nutrition",
    "name": "Collaregen",
    "variant": "400 g",
-   "price_eur": 32.99,
-   "price_note": "olimpstore.fr live 07/2026",
+   "price_eur": 27.5,
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "pack_g": 400,
    "serving_g": 5.5,
    "active_per_100g": 90.9,
@@ -15649,6 +17977,11 @@ const N3GH_DATA = {
    "url": "https://olimpstore.fr/olimp-collaregen-400-g-90",
    "ean": null,
    "notes": "5 g collagène/dose de 5,5 g.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://olimpstore.fr/olimp-collaregen-400-g-90"
+   },
    "id": "olimp-sport-nutrition-collaregen-400-g",
    "form_tier": 16,
    "form_note": "Generic hydrolysed peptides.",
@@ -15691,7 +18024,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://olimpstore.fr/olimp-collaregen-400-g-90",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 16,
@@ -15704,8 +18049,8 @@ const N3GH_DATA = {
     "banned_substances": []
    },
    "value": {
-    "cost_per_day": 0.454,
-    "std": 0.907,
+    "cost_per_day": 0.378,
+    "std": 0.756,
     "std_label": "€ / 10 g collagen",
     "days_per_pack": 73,
     "price_tier": 2
@@ -15829,7 +18174,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Hungary",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 16,
@@ -15907,7 +18260,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 18,
@@ -15983,7 +18346,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 18,
@@ -16074,7 +18447,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 18,
@@ -16171,7 +18552,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 18,
@@ -16247,7 +18636,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 18,
@@ -16326,7 +18723,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 18,
@@ -16354,7 +18761,7 @@ const N3GH_DATA = {
    "name": "Vitamine B12 Méthylcobalamine",
    "variant": "gélules · 120",
    "price_eur": 27.9,
-   "price_note": "cuure.com live 06/09/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 120,
    "unit_name": "gélule",
    "units_per_day": 1,
@@ -16379,6 +18786,11 @@ const N3GH_DATA = {
    "url": "https://cuure.com/produits/vitamine-b12",
    "ean": null,
    "notes": "Liste d'ingrédients lue sur les fiches « Ingrédients » de la page (méthylcobalamine, poudre de fleurs d'hibiscus, gélule végétale), pas de ligne d'étiquette formelle. 1 mg = 1 000 µg ; flacon « 120 jours ».",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://cuure.com/produits/vitamine-b12"
+   },
    "id": "cuure-vitamine-b12-methylcobalamine-gelules-120",
    "form_tier": 18,
    "form_note": "Active cobalamin form — works; no proven edge over cyanocobalamin.",
@@ -16408,7 +18820,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://cuure.com/produits/vitamine-b12",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 18,
@@ -16436,7 +18860,7 @@ const N3GH_DATA = {
    "name": "Vitamine B12 vegan",
    "variant": "gélules · 60",
    "price_eur": 10.9,
-   "price_note": "onatera.com live 06/09/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 60,
    "unit_name": "gélule",
    "units_per_day": 1,
@@ -16461,6 +18885,11 @@ const N3GH_DATA = {
    "url": "https://www.onatera.com/FR/fr/produit-vitamine-b12-vegan-60-gelules-vegetales-orfito",
    "ean": null,
    "notes": "1 000 µg/j. Existe en 120 gélules (19,95 €).",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.onatera.com/FR/fr/produit-vitamine-b12-vegan-60-gelules-vegetales-orfito"
+   },
    "id": "onatera-vitamine-b12-vegan-gelules-60",
    "form_tier": 18,
    "form_note": "Active cobalamin form — works; no proven edge over cyanocobalamin.",
@@ -16485,7 +18914,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.onatera.com/FR/fr/produit-vitamine-b12-vegan-60-gelules-vegetales-orfito",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 18,
@@ -16513,7 +18954,7 @@ const N3GH_DATA = {
    "name": "Vitamine B12 liposomale LipoCellTech™",
    "variant": "gélules · 60",
    "price_eur": 15.95,
-   "price_note": "onatera.com live 06/09/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 60,
    "unit_name": "gélule",
    "units_per_day": 1,
@@ -16539,6 +18980,11 @@ const N3GH_DATA = {
    "url": "https://www.onatera.com/FR/fr/produit-vitamine-b12-liposomale-60-gelules-vegetales-enefis",
    "ean": null,
    "notes": "1 000 µg/j.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.onatera.com/FR/fr/produit-vitamine-b12-liposomale-60-gelules-vegetales-enefis"
+   },
    "id": "onatera-vitamine-b12-liposomale-lipocelltech-gelules-60",
    "form_tier": 18,
    "form_note": "Active cobalamin form — works; no proven edge over cyanocobalamin.",
@@ -16579,7 +19025,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.onatera.com/FR/fr/produit-vitamine-b12-liposomale-60-gelules-vegetales-enefis",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 18,
@@ -16607,7 +19065,7 @@ const N3GH_DATA = {
    "name": "Vitamine B9 & B12 formes actives",
    "variant": "gélules · 60",
    "price_eur": 16.9,
-   "price_note": "onatera.com live 06/09/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 60,
    "unit_name": "gélule",
    "units_per_day": 1,
@@ -16638,6 +19096,11 @@ const N3GH_DATA = {
      "per_day": 200
     }
    ],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.onatera.com/FR/fr/produit-vitamine-b9-b12-formes-actives-60-gelules-orfito"
+   },
    "id": "onatera-vitamine-b9-b12-formes-actives-gelules-60",
    "form_tier": 18,
    "form_note": "Active cobalamin form — works; no proven edge over cyanocobalamin.",
@@ -16662,7 +19125,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.onatera.com/FR/fr/produit-vitamine-b9-b12-formes-actives-60-gelules-orfito",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 18,
@@ -16745,7 +19220,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 18,
@@ -16821,7 +19306,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -16849,7 +19344,7 @@ const N3GH_DATA = {
    "name": "Vitamines D3 + K2-MK7",
    "variant": "gélules · 30",
    "price_eur": 11.95,
-   "price_note": "nutrimuscle.com live 06/09/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 30,
    "unit_name": "gélule",
    "units_per_day": 1,
@@ -16881,6 +19376,11 @@ const N3GH_DATA = {
      "per_day": 1240
     }
    ],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.nutrimuscle.com/products/vitamines-d3-k2-mk7?variant=50638352351561"
+   },
    "id": "nutrimuscle-vitamines-d3-k2-mk7-gelules-30",
    "form_tier": 18,
    "form_note": "MK-7 — long half-life; isomer purity not declared.",
@@ -16903,7 +19403,21 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Belgium",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.nutrimuscle.com/products/vitamines-d3-k2-mk7?variant=50638352351561",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 18,
@@ -16931,7 +19445,7 @@ const N3GH_DATA = {
    "name": "K2+D3 Drops",
    "variant": "flacon 30 ml · 87 doses",
    "price_eur": 29.9,
-   "price_note": "shop.biotechusa.fr live 06/09/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 87,
    "unit_name": "dose de 10 gouttes",
    "units_per_day": 1,
@@ -16961,6 +19475,11 @@ const N3GH_DATA = {
      "per_day": 2000
     }
    ],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://shop.biotechusa.fr/products/k2-d3-drops-30-ml"
+   },
    "id": "biotechusa-k2-d3-drops-flacon-30-ml-87-doses",
    "form_tier": 18,
    "form_note": "MK-7 — long half-life; isomer purity not declared.",
@@ -16985,7 +19504,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "Hungary",
     "zone": "EU",
-    "malus": 1
+    "malus": 1,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://shop.biotechusa.fr/products/k2-d3-drops-30-ml",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 18,
@@ -17065,7 +19596,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 18,
@@ -17145,7 +19684,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -17172,8 +19719,8 @@ const N3GH_DATA = {
    "brand": "Olimp Sport Nutrition",
    "name": "Gold-Vit® D3+K2 2000 IU Sport Edition",
    "variant": "capsules · 60",
-   "price_eur": 11.0,
-   "price_note": "olimpstore.fr live 06/09/2026",
+   "price_eur": 10.99,
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 60,
    "unit_name": "capsule",
    "units_per_day": 1,
@@ -17202,6 +19749,11 @@ const N3GH_DATA = {
      "per_day": 2000
     }
    ],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://olimpstore.fr/olimp-gold-vit-d3-k2-2000-iu-sport-edition-60-gelules-2191"
+   },
    "id": "olimp-sport-nutrition-gold-vit-d3-k2-2000-iu-sport-edition-capsules-60",
    "form_tier": 18,
    "form_note": "MK-7 — long half-life; isomer purity not declared.",
@@ -17225,7 +19777,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://olimpstore.fr/olimp-gold-vit-d3-k2-2000-iu-sport-edition-60-gelules-2191",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 18,
@@ -17307,7 +19871,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -17335,7 +19907,7 @@ const N3GH_DATA = {
    "name": "Vitamines K2 MK7 & D3",
    "variant": "comprimés · 90",
    "price_eur": 11.5,
-   "price_note": "onatera.com live 06/09/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 90,
    "unit_name": "comprimé",
    "units_per_day": 1,
@@ -17367,6 +19939,11 @@ const N3GH_DATA = {
      "per_day": 1000
     }
    ],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.onatera.com/FR/fr/produit-vitamines-k2-mk7-d3-90-comprimes-onatera"
+   },
    "id": "onatera-vitamines-k2-mk7-d3-comprimes-90",
    "form_tier": 18,
    "form_note": "MK-7 — long half-life; isomer purity not declared.",
@@ -17396,7 +19973,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.onatera.com/FR/fr/produit-vitamines-k2-mk7-d3-90-comprimes-onatera",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 18,
@@ -17424,7 +20013,7 @@ const N3GH_DATA = {
    "name": "Vitamines K2 MK7 & D3 Ultra",
    "variant": "gélules · 90",
    "price_eur": 19.9,
-   "price_note": "onatera.com live 06/09/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 90,
    "unit_name": "gélule",
    "units_per_day": 1,
@@ -17454,6 +20043,11 @@ const N3GH_DATA = {
      "per_day": 3000
     }
    ],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.onatera.com/FR/fr/produit-vitamines-k2-mk7-d3-ultra-90-gelules-onatera"
+   },
    "id": "onatera-vitamines-k2-mk7-d3-ultra-gelules-90",
    "form_tier": 20,
    "form_note": "MK-7, all-trans (branded) — the long-half-life form the MK-7 trials used.",
@@ -17478,7 +20072,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.onatera.com/FR/fr/produit-vitamines-k2-mk7-d3-ultra-90-gelules-onatera",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 20,
@@ -17558,7 +20164,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": null,
     "zone": "UNKNOWN",
-    "malus": 0
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 18,
@@ -17586,7 +20200,7 @@ const N3GH_DATA = {
    "name": "Complexe vitamines B",
    "variant": "gélules · 60",
    "price_eur": 18.9,
-   "price_note": "dynveo.fr live 06/09/2026",
+   "price_note": "Prix affiché sur le site fabricant pour ce format, consulté le 2026-10-05, hors livraison.",
    "units_pack": 60,
    "unit_name": "gélule",
    "units_per_day": 1,
@@ -17610,6 +20224,21 @@ const N3GH_DATA = {
    "notes": "≈ 100 % des VNR par gélule (B6 1,4 mg, B8 50 µg, B9 200 µg, B12 2,5 µg) ; 20 mg d'inositol et 20 mg de PABA.",
    "form_quality": "bioactive",
    "dose_style": "physiological",
+   "nutrients": {
+    "vitamin_d3": 0,
+    "vitamin_c": 0,
+    "magnesium": 0,
+    "zinc": 0,
+    "folate": 200,
+    "vitamin_b1": 1.1,
+    "vitamin_b2": 1.4,
+    "vitamin_b3": 16,
+    "vitamin_b5": 6,
+    "vitamin_b6": 1.4,
+    "biotin": 50,
+    "vitamin_b12": 2.5
+   },
+   "nutrients_source": "Tableau fabricant consulté le 2026-10-05 ; quantités pour 1 unité(s) par jour. Sous-ensemble des nutriments, pas validation intégrale du produit.",
    "id": "dynveo-complexe-vitamines-b-gelules-60",
    "form_tier": 20,
    "form_note": "Bioactive / chelated forms.",
@@ -17634,7 +20263,23 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ],
+    "label_checked_on": "2026-10-05",
+    "label_scope": "Quantités journalières des nutriments affichés et nombre d’unités par jour. Additifs, certifications et autres nutriments non revérifiés.",
+    "label_source_url": "https://www.dynveo.fr/products/complexe-vitamines-b",
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.dynveo.fr/products/complexe-vitamines-b",
+    "price_scope": "Prix fabricant, achat à l’unité, hors livraison."
    },
    "scores": {
     "form": 20,
@@ -17662,7 +20307,7 @@ const N3GH_DATA = {
    "name": "Complexe vitamines B en gélules",
    "variant": "gélules · 30",
    "price_eur": 14.9,
-   "price_note": "nat-form.com live 06/09/2026",
+   "price_note": "Prix affiché sur le site fabricant pour ce format, consulté le 2026-10-05, hors livraison.",
    "units_pack": 30,
    "unit_name": "gélule",
    "units_per_day": 1,
@@ -17688,6 +20333,21 @@ const N3GH_DATA = {
    "notes": "B1 6,6 mg (600 % VNR), B2 7,7 mg (550 %), B3 80 mg (500 %), B5 29 mg (483 %), B6 3,2 mg (228 %) ; 80 mg de PABA, 80 mg d'inositol, 33 mg de choline.",
    "form_quality": "standard",
    "dose_style": "megadose_b",
+   "nutrients": {
+    "vitamin_d3": 0,
+    "vitamin_c": 0,
+    "magnesium": 0,
+    "zinc": 0,
+    "folate": 300,
+    "vitamin_b1": 6.6,
+    "vitamin_b2": 7.7,
+    "vitamin_b3": 80,
+    "vitamin_b5": 29,
+    "vitamin_b6": 3.2,
+    "biotin": 700,
+    "vitamin_b12": 4.8
+   },
+   "nutrients_source": "Tableau fabricant consulté le 2026-10-05 ; quantités pour 1 unité(s) par jour. Sous-ensemble des nutriments, pas validation intégrale du produit.",
    "id": "nat-form-complexe-vitamines-b-en-gelules-gelules-30",
    "form_tier": 12,
    "form_note": "Standard vitamin/mineral forms.",
@@ -17719,7 +20379,23 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [
+     "Prix affiché pour 30 gélules ; la page indique une rupture de stock. Forme de B3 non précisée."
+    ],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-05",
+    "label_scope": "Quantités journalières des nutriments affichés et nombre d’unités par jour. Additifs, certifications et autres nutriments non revérifiés.",
+    "label_source_url": "https://www.nat-form.com/products/complexe-vitamines-b-en-gelules",
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.nat-form.com/products/complexe-vitamines-b-en-gelules",
+    "price_scope": "Prix fabricant, achat à l’unité, hors livraison."
    },
    "scores": {
     "form": 12,
@@ -17798,7 +20474,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 18,
@@ -17880,7 +20564,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 18,
@@ -17908,7 +20600,7 @@ const N3GH_DATA = {
    "name": "Biotine",
    "variant": "gélules · 60",
    "price_eur": 12.9,
-   "price_note": "cuure.com live 06/09/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 60,
    "unit_name": "gélule",
    "units_per_day": 1,
@@ -17933,6 +20625,11 @@ const N3GH_DATA = {
    "url": "https://cuure.com/produits/biotine",
    "ean": null,
    "notes": "450 µg/j. Liste d'ingrédients lue sur les fiches « Ingrédients » de la page.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://cuure.com/produits/biotine"
+   },
    "id": "cuure-biotine-gelules-60",
    "form_tier": 18,
    "form_note": "D-biotin — one form, no meaningful differences between products.",
@@ -17957,7 +20654,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://cuure.com/produits/biotine",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 18,
@@ -17985,7 +20694,7 @@ const N3GH_DATA = {
    "name": "Vitamine B8 (Biotine) 1000 µg",
    "variant": "gélules · 60",
    "price_eur": 9.95,
-   "price_note": "onatera.com live 06/09/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 60,
    "unit_name": "gélule",
    "units_per_day": 1,
@@ -18012,6 +20721,11 @@ const N3GH_DATA = {
    "url": "https://www.onatera.com/FR/fr/produit-vitamine-b8-biotine-1000-mg-50-gelules-orfito",
    "ean": null,
    "notes": "1 000 µg/j — 25 × l'apport de référence.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.onatera.com/FR/fr/produit-vitamine-b8-biotine-1000-mg-50-gelules-orfito"
+   },
    "id": "onatera-vitamine-b8-biotine-1000-g-gelules-60",
    "form_tier": 18,
    "form_note": "D-biotin — one form, no meaningful differences between products.",
@@ -18036,7 +20750,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.onatera.com/FR/fr/produit-vitamine-b8-biotine-1000-mg-50-gelules-orfito",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 18,
@@ -18115,7 +20841,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 18,
@@ -18191,7 +20925,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 18,
@@ -18267,7 +21011,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 18,
@@ -18343,7 +21097,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 18,
@@ -18428,7 +21192,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "blocked",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 18,
@@ -18456,7 +21230,7 @@ const N3GH_DATA = {
    "name": "Vitamine B9 (acide folique)",
    "variant": "gélules · 90",
    "price_eur": 7.95,
-   "price_note": "onatera.com live 06/09/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 90,
    "unit_name": "gélule",
    "units_per_day": 1,
@@ -18484,6 +21258,11 @@ const N3GH_DATA = {
    "url": "https://www.onatera.com/FR/fr/produit-vitamine-b9-acide-folique-100-gelules-orfito",
    "ean": null,
    "notes": "Titre actuel « 90 gélules » ; la fiche mentionne encore une cure de 100 jours (ancien format 100). Excipients déclarés à part : maltodextrine, stéarate de magnésium, talc.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.onatera.com/FR/fr/produit-vitamine-b9-acide-folique-100-gelules-orfito"
+   },
    "id": "onatera-vitamine-b9-acide-folique-gelules-90",
    "form_tier": 20,
    "form_note": "Folic acid — the form with the neural-tube-defect evidence.",
@@ -18514,7 +21293,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.onatera.com/FR/fr/produit-vitamine-b9-acide-folique-100-gelules-orfito",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 20,
@@ -18588,7 +21379,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -18605,7 +21404,7 @@ const N3GH_DATA = {
     "std": 1.557,
     "std_label": "€ / 25 g protein",
     "days_per_pack": 25,
-    "price_tier": 4
+    "price_tier": 3
    },
    "label_hash": "da04357a43e4",
    "rank_in_category": 11
@@ -18676,7 +21475,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 18,
@@ -18693,7 +21500,7 @@ const N3GH_DATA = {
     "std": 1.567,
     "std_label": "€ / 25 g protein",
     "days_per_pack": 50,
-    "price_tier": 4
+    "price_tier": 3
    },
    "label_hash": "c6389af1863b",
    "rank_in_category": 13
@@ -18744,7 +21551,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "blocked",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 18,
@@ -18813,7 +21630,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "blocked",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -18884,7 +21709,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -18949,7 +21784,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 14,
@@ -18976,8 +21821,8 @@ const N3GH_DATA = {
    "brand": "AM Nutrition",
    "name": "PURE Whey Isolate",
    "variant": "framboise · 700 g",
-   "price_eur": 37.9,
-   "price_note": "amnutrition.fr live 11/07/2026 (neutre 34,90 €)",
+   "price_eur": 42.9,
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "pack_g": 700,
    "serving_g": 30.0,
    "active_per_100g": 86.0,
@@ -19006,6 +21851,11 @@ const N3GH_DATA = {
    "url": "https://www.amnutrition.fr/products/whey-isolate",
    "ean": null,
    "notes": "La marque publie compositions détaillées et certificats d'analyse.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.amnutrition.fr/products/whey-isolate?variant=39365430477005"
+   },
    "id": "am-nutrition-pure-whey-isolate-framboise-700-g",
    "form_tier": 18,
    "form_note": "Isolate-led.",
@@ -19046,7 +21896,21 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.amnutrition.fr/products/whey-isolate?variant=39365430477005",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 18,
@@ -19059,8 +21923,8 @@ const N3GH_DATA = {
     "banned_substances": []
    },
    "value": {
-    "cost_per_day": 1.624,
-    "std": 1.574,
+    "cost_per_day": 1.839,
+    "std": 1.782,
     "std_label": "€ / 25 g protein",
     "days_per_pack": 23,
     "price_tier": 4
@@ -19114,7 +21978,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "blocked",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -19180,7 +22054,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -19245,7 +22129,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -19311,7 +22205,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -19378,7 +22282,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -19406,7 +22320,7 @@ const N3GH_DATA = {
    "name": "Zinc Bisglycinate",
    "variant": "60 gélules · 10 mg TRAACS®",
    "price_eur": 10.9,
-   "price_note": "dynveo.fr live 11/07/2026",
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 60,
    "unit_name": "capsule",
    "units_per_day": 1,
@@ -19428,6 +22342,11 @@ const N3GH_DATA = {
    "url": "https://www.dynveo.fr/products/zinc-bisglycinate-chelate",
    "ean": "3770000228892",
    "notes": "10 mg = 100% VNR, formule 3 ingrédients.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.dynveo.fr/products/zinc-bisglycinate-chelate"
+   },
    "id": "dynveo-zinc-bisglycinate-60-gelules-10-mg-traacs",
    "form_tier": 20,
    "form_note": "Bisglycinate — well-absorbed chelate.",
@@ -19452,7 +22371,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.dynveo.fr/products/zinc-bisglycinate-chelate",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 20,
@@ -19528,7 +22459,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -19605,7 +22546,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "blocked",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -19688,7 +22639,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "USA",
     "zone": "EXTRA_EU",
-    "malus": 3
+    "malus": 3,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "blocked",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -19769,7 +22728,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -19846,7 +22813,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 12,
@@ -19921,7 +22896,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "blocked",
+    "source_reachable": false,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 20,
@@ -19998,7 +22981,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 20,
@@ -20025,8 +23018,8 @@ const N3GH_DATA = {
    "brand": "Dynveo",
    "name": "Vitamine C Liposomale Quali-C",
    "variant": "60 gélules · 500 mg",
-   "price_eur": 28.34,
-   "price_note": "dynveo.fr 07/2026",
+   "price_eur": 29.9,
+   "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
    "units_pack": 60,
    "unit_name": "capsule",
    "units_per_day": 1,
@@ -20047,6 +23040,11 @@ const N3GH_DATA = {
    "url": "https://www.dynveo.fr/products/vitamine-c-liposomale",
    "ean": null,
    "notes": "Formule 3 ingrédients sans additif controversé.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-05",
+    "source_url": "https://www.dynveo.fr/products/vitamine-c-liposomale?variant=52063122030919"
+   },
    "id": "dynveo-vitamine-c-liposomale-quali-c-60-gelules-500-mg",
    "form_tier": 20,
    "form_note": "Liposomal — enhanced absorption evidence.",
@@ -20068,7 +23066,19 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "identity_verified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "price_checked_on": "2026-10-05",
+    "price_source_url": "https://www.dynveo.fr/products/vitamine-c-liposomale?variant=52063122030919",
+    "price_scope": "Offre en EUR pour la référence identifiée, hors livraison.",
+    "availability": "InStock"
    },
    "scores": {
     "form": 20,
@@ -20081,8 +23091,8 @@ const N3GH_DATA = {
     "banned_substances": []
    },
    "value": {
-    "cost_per_day": 0.472,
-    "std": 0.945,
+    "cost_per_day": 0.498,
+    "std": 0.997,
     "std_label": "€ / 1000 mg C",
     "days_per_pack": 60,
     "price_tier": 2
@@ -20144,7 +23154,17 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [
+     "Certificats et analyses : documents de lot non revérifiés lors de cet audit."
+    ]
    },
    "scores": {
     "form": 16,
@@ -20223,7 +23243,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "USA",
     "zone": "EXTRA_EU",
-    "malus": 3
+    "malus": 3,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 18,
@@ -20302,7 +23330,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 16,
@@ -20403,7 +23439,15 @@ const N3GH_DATA = {
    "provenance": {
     "country": "France",
     "zone": "FR",
-    "malus": 0
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-05",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": []
    },
    "scores": {
     "form": 16,

@@ -15,6 +15,159 @@ meta:
 
 sources:
 
+  - id: am-nutrition-pure-ashwagandha-ksm66-bio-gelules-60
+    product_id: am-nutrition-pure-ashwagandha-ksm66-bio-gelules-60
+    brand: "AM Nutrition"
+    name: "PURE Ashwagandha KSM66® bio"
+    category: ashwagandha
+    url: https://www.amnutrition.fr/products/pure-ashwagandha
+    ean: null
+    render: js
+
+  - id: argalys-ashwagandha-ksm-66-magnesium-tryptophane-gelules-60
+    product_id: argalys-ashwagandha-ksm-66-magnesium-tryptophane-gelules-60
+    brand: Argalys
+    name: "Ashwagandha KSM-66® + Magnésium & Tryptophane"
+    category: ashwagandha
+    url: https://www.argalys.com/products/ashwagandha-bio-magnesium-tryptophane
+    ean: null
+    render: js
+
+  - id: biotechusa-ashwagandha-gelules-60
+    product_id: biotechusa-ashwagandha-gelules-60
+    brand: BioTechUSA
+    name: Ashwagandha
+    category: ashwagandha
+    url: https://shop.biotechusa.fr/products/ashwagandha-60-gelules
+    ean: null
+    render: js
+
+  - id: biotechusa-ashwagandha-ksm-66-gelules-60
+    product_id: biotechusa-ashwagandha-ksm-66-gelules-60
+    brand: BioTechUSA
+    name: "Ashwagandha KSM-66®"
+    category: ashwagandha
+    url: https://shop.biotechusa.fr/products/ashwagandha-ksm-66%C2%AE-60-gelules
+    ean: null
+    render: js
+
+  - id: dynveo-ashwagandha-bio-ksm-66-gelules-600-mg-60
+    product_id: dynveo-ashwagandha-bio-ksm-66-gelules-600-mg-60
+    brand: Dynveo
+    name: "Ashwagandha BIO KSM-66"
+    category: ashwagandha
+    url: https://www.dynveo.fr/products/ashwagandha-bio
+    ean: null
+    render: js
+
+  - id: nat-form-ashwagandha-bio-ksm-66-gelules-60
+    product_id: nat-form-ashwagandha-bio-ksm-66-gelules-60
+    brand: Nat&Form
+    name: "Ashwagandha Bio KSM-66®"
+    category: ashwagandha
+    url: https://www.nat-form.com/products/ashwagandha-bio-ksm-66%C2%AE-en-gelules
+    ean: null
+    render: js
+
+  - id: novoma-ashwagandha-bio-ksm-66-gelules-60
+    product_id: novoma-ashwagandha-bio-ksm-66-gelules-60
+    brand: Novoma
+    name: "Ashwagandha Bio KSM-66®"
+    category: ashwagandha
+    url: https://novoma.com/products/ashwagandha-bio
+    ean: null
+    render: js
+
+  - id: nutri-co-ashwagandha-bio-ksm-66-gelules-60
+    product_id: nutri-co-ashwagandha-bio-ksm-66-gelules-60
+    brand: Nutri&Co
+    name: "Ashwagandha Bio KSM-66®"
+    category: ashwagandha
+    url: https://nutriandco.com/fr/produits/ashwagandha-bio
+    ean: null
+    render: js
+
+  - id: nutrimuscle-ashwagandha-shoden-gelules-30
+    product_id: nutrimuscle-ashwagandha-shoden-gelules-30
+    brand: Nutrimuscle
+    name: "Ashwagandha Shoden®"
+    category: ashwagandha
+    url: https://www.nutrimuscle.com/products/ashwagandha-shoden-r
+    ean: null
+    render: js
+
+  - id: nutripure-ashwagandha-ksm66-bio-gelules-600-mg-60
+    product_id: nutripure-ashwagandha-ksm66-bio-gelules-600-mg-60
+    brand: Nutripure
+    name: "Ashwagandha KSM66 Bio"
+    category: ashwagandha
+    url: https://www.nutripure.fr/fr/sante/5-ashwagandha.html
+    ean: null
+    render: static
+
+  - id: dynveo-complexe-vitamines-b-gelules-60
+    product_id: dynveo-complexe-vitamines-b-gelules-60
+    brand: Dynveo
+    name: "Complexe vitamines B"
+    category: b_complex
+    url: https://www.dynveo.fr/products/complexe-vitamines-b
+    ean: null
+    render: js
+
+  - id: nat-form-complexe-vitamines-b-en-gelules-gelules-30
+    product_id: nat-form-complexe-vitamines-b-en-gelules-gelules-30
+    brand: Nat&Form
+    name: "Complexe vitamines B en gélules"
+    category: b_complex
+    url: https://www.nat-form.com/products/complexe-vitamines-b-en-gelules
+    ean: null
+    render: js
+
+  - id: biocyte-biotine-10-000-g-gelules-45
+    product_id: biocyte-biotine-10-000-g-gelules-45
+    brand: Biocyte
+    name: "Biotine 10 000 µg"
+    category: biotin
+    url: https://www.biocyte.com/products/biotine-10000-mcg-45-gelules
+    ean: null
+    render: js
+
+  - id: cuure-biotine-gelules-60
+    product_id: cuure-biotine-gelules-60
+    brand: Cuure
+    name: Biotine
+    category: biotin
+    url: https://cuure.com/produits/biotine
+    ean: null
+    render: js
+
+  - id: nat-form-biotine-en-gelules-gelules-60
+    product_id: nat-form-biotine-en-gelules-gelules-60
+    brand: Nat&Form
+    name: "Biotine en gélules"
+    category: biotin
+    url: https://www.nat-form.com/products/biotine-en-gelules
+    ean: null
+    render: js
+
+  - id: onatera-vitamine-b8-biotine-1000-g-gelules-60
+    product_id: onatera-vitamine-b8-biotine-1000-g-gelules-60
+    brand: Onatera
+    name: "Vitamine B8 (Biotine) 1000 µg"
+    category: biotin
+    url: https://www.onatera.com/FR/fr/produit-vitamine-b8-biotine-1000-mg-50-gelules-orfito
+    ean: null
+    render: static
+
+  - id: onatera-vitamine-b8-max-10-000-g-gelules-60
+    product_id: onatera-vitamine-b8-max-10-000-g-gelules-60
+    brand: Onatera
+    name: "Vitamine B8 Max 10 000 µg"
+    category: biotin
+    url: https://www.onatera.com/FR/fr/produit-vitamine-b8-max-60-gelules-onatera
+    ean: null
+    render: static
+
   - id: aime-collagen-tripeptides-glow-neutre-30-sticks
     product_id: aime-collagen-tripeptides-glow-neutre-30-sticks
     brand: Aime
@@ -300,6 +453,348 @@ sources:
     name: "Créatine Monohydrate Creapure®"
     category: creatine
     url: https://www.optigura.fr/product/creatine-monohydrate-yam-nutrition
+    ean: null
+    render: js
+
+  - id: argalys-curcuma-bcm95-manganese-et-vitamine-c-gelules-60
+    product_id: argalys-curcuma-bcm95-manganese-et-vitamine-c-gelules-60
+    brand: Argalys
+    name: "Curcuma BCM95® + Manganèse et Vitamine C"
+    category: curcumin
+    url: https://www.argalys.com/products/curcuma-manganese-vitamine-c
+    ean: null
+    render: js
+
+  - id: biocyte-curcumin-forte-liposomal-gelules-30
+    product_id: biocyte-curcumin-forte-liposomal-gelules-30
+    brand: Biocyte
+    name: "Curcumin Forte Liposomal"
+    category: curcumin
+    url: https://www.biocyte.com/products/curcumin-forte-liposomal
+    ean: null
+    render: js
+
+  - id: biotechusa-liquid-curcuma-capsules-30
+    product_id: biotechusa-liquid-curcuma-capsules-30
+    brand: BioTechUSA
+    name: "Liquid Curcuma"
+    category: curcumin
+    url: https://shop.biotechusa.fr/products/liquid-curcruma-30-capsules
+    ean: null
+    render: js
+
+  - id: dynveo-curcumine-bio-optimisee-gelules-300-mg-30
+    product_id: dynveo-curcumine-bio-optimisee-gelules-300-mg-30
+    brand: Dynveo
+    name: "Curcumine BIO Optimisée"
+    category: curcumin
+    url: https://www.dynveo.fr/products/curcumine-optimisee
+    ean: null
+    render: js
+
+  - id: nat-form-curcuma-bio-gelules-200
+    product_id: nat-form-curcuma-bio-gelules-200
+    brand: Nat&Form
+    name: "Curcuma Bio"
+    category: curcumin
+    url: https://www.nat-form.com/products/curcuma-bio
+    ean: null
+    render: js
+
+  - id: nat-form-curcuma-piperine-bio-gelules-200
+    product_id: nat-form-curcuma-piperine-bio-gelules-200
+    brand: Nat&Form
+    name: "Curcuma pipérine Bio"
+    category: curcumin
+    url: https://www.nat-form.com/products/curcuma-piperine-bio
+    ean: null
+    render: js
+
+  - id: novoma-curcuma-gelules-60
+    product_id: novoma-curcuma-gelules-60
+    brand: Novoma
+    name: Curcuma
+    category: curcumin
+    url: https://novoma.com/products/curcuma-gelule
+    ean: null
+    render: js
+
+  - id: nutri-co-curcuma-bio-gelules-60
+    product_id: nutri-co-curcuma-bio-gelules-60
+    brand: Nutri&Co
+    name: "Curcuma Bio"
+    category: curcumin
+    url: https://nutriandco.com/fr/produits/curcuma-bio
+    ean: null
+    render: js
+
+  - id: nutrimuscle-curcumine-capsules-molles-60
+    product_id: nutrimuscle-curcumine-capsules-molles-60
+    brand: Nutrimuscle
+    name: Curcumine
+    category: curcumin
+    url: https://www.nutrimuscle.com/products/curcumine
+    ean: null
+    render: js
+
+  - id: nutripure-curcumine-active-cavacurmin-gelules-90
+    product_id: nutripure-curcumine-active-cavacurmin-gelules-90
+    brand: Nutripure
+    name: "Curcumine Active Cavacurmin®"
+    category: curcumin
+    url: https://www.nutripure.fr/fr/complement-alimentaire-mobilite-articulation/39-active-curcumine.html
+    ean: null
+    render: static
+
+  - id: biotechusa-fenugreek-gelules-60
+    product_id: biotechusa-fenugreek-gelules-60
+    brand: BioTechUSA
+    name: Fenugreek
+    category: fenugreek
+    url: https://shop.biotechusa.fr/products/fenugreek-60-gelules-mega
+    ean: null
+    render: js
+
+  - id: nat-form-fenugrec-bio-en-gelules-gelules-200
+    product_id: nat-form-fenugrec-bio-en-gelules-gelules-200
+    brand: Nat&Form
+    name: "Fenugrec Bio en gélules"
+    category: fenugreek
+    url: https://www.nat-form.com/products/fenugrec-bio
+    ean: null
+    render: js
+
+  - id: nutripure-fenugrec-titre-a-50-de-saponines-gelules-120
+    product_id: nutripure-fenugrec-titre-a-50-de-saponines-gelules-120
+    brand: Nutripure
+    name: "Fenugrec titré à 50 % de saponines"
+    category: fenugreek
+    url: https://www.nutripure.fr/fr/musculation/6-gelules-fenugrec-saponines.html
+    ean: null
+    render: static
+
+  - id: nutrivie-fenugrec-bio-gelules-60
+    product_id: nutrivie-fenugrec-bio-gelules-60
+    brand: NutriVie
+    name: "Fenugrec Bio"
+    category: fenugreek
+    url: https://www.onatera.com/FR/fr/produit-fenugrec-bio-60-gelules-nutrivie
+    ean: null
+    render: static
+
+  - id: superdiet-fenugrec-bio-gelules-40
+    product_id: superdiet-fenugrec-bio-gelules-40
+    brand: Superdiet
+    name: "Fenugrec Bio"
+    category: fenugreek
+    url: https://www.superdiet.com/fr/p13864_fenugrec_bio_40_gelules.php
+    ean: null
+    render: js
+
+  - id: dynveo-vitamine-b9-quatrefolic-gelules-60
+    product_id: dynveo-vitamine-b9-quatrefolic-gelules-60
+    brand: Dynveo
+    name: "Vitamine B9 Quatrefolic®"
+    category: folate
+    url: https://www.dynveo.fr/products/vitamine-b9
+    ean: null
+    render: js
+
+  - id: novoma-acide-folique-quatrefolic-gelules-90
+    product_id: novoma-acide-folique-quatrefolic-gelules-90
+    brand: Novoma
+    name: "Acide Folique Quatrefolic®"
+    category: folate
+    url: https://novoma.com/products/acide-folique
+    ean: null
+    render: js
+
+  - id: nutri-co-acide-folique-quatrefolic-gelules-120
+    product_id: nutri-co-acide-folique-quatrefolic-gelules-120
+    brand: Nutri&Co
+    name: "Acide folique Quatrefolic®"
+    category: folate
+    url: https://nutriandco.com/fr/produits/acide-folique
+    ean: null
+    render: js
+
+  - id: nutripure-vitamine-b9-active-quatrefolic-gelules-90
+    product_id: nutripure-vitamine-b9-active-quatrefolic-gelules-90
+    brand: Nutripure
+    name: "Vitamine B9 active Quatrefolic®"
+    category: folate
+    url: https://www.nutripure.fr/fr/sante/314-vitamine-b9.html
+    ean: null
+    render: static
+
+  - id: onatera-vitamine-b9-acide-folique-gelules-90
+    product_id: onatera-vitamine-b9-acide-folique-gelules-90
+    brand: Onatera
+    name: "Vitamine B9 (acide folique)"
+    category: folate
+    url: https://www.onatera.com/FR/fr/produit-vitamine-b9-acide-folique-100-gelules-orfito
+    ean: null
+    render: static
+
+  - id: arkopharma-arkogelules-fer-liposomal-gelules-60
+    product_id: arkopharma-arkogelules-fer-liposomal-gelules-60
+    brand: Arkopharma
+    name: "Arkogélules® Fer Liposomal"
+    category: iron
+    url: https://fr.arkopharma.com/products/arkogelules®-fer-liposomal
+    ean: 3578835506624
+    render: static
+
+  - id: biocyte-fer-liposomal-gelules-30
+    product_id: biocyte-fer-liposomal-gelules-30
+    brand: Biocyte
+    name: "Fer Liposomal"
+    category: iron
+    url: https://www.biocyte.com/products/fer-liposomal
+    ean: 3770008244290
+    render: js
+
+  - id: cuure-fer-bisglycinate-lomachelatex-gelules-90
+    product_id: cuure-fer-bisglycinate-lomachelatex-gelules-90
+    brand: Cuure
+    name: "Fer Bisglycinate LomaChelateX®"
+    category: iron
+    url: https://cuure.com/produits/fer
+    ean: 3760353422894
+    render: js
+
+  - id: dynveo-bisglycinate-de-fer-gelules-60
+    product_id: dynveo-bisglycinate-de-fer-gelules-60
+    brand: Dynveo
+    name: "Bisglycinate de Fer"
+    category: iron
+    url: https://www.dynveo.fr/products/bisglycinate-de-fer
+    ean: 3770000228182
+    render: js
+
+  - id: dynveo-complexe-fer-et-vitamine-c-fer3-gelules-60
+    product_id: dynveo-complexe-fer-et-vitamine-c-fer3-gelules-60
+    brand: Dynveo
+    name: "Complexe Fer et Vitamine C : Fer3"
+    category: iron
+    url: https://www.dynveo.fr/products/complexe-fer
+    ean: 3760331482377
+    render: js
+
+  - id: nat-form-bisglycinate-de-fer-gelules-30
+    product_id: nat-form-bisglycinate-de-fer-gelules-30
+    brand: Nat&Form
+    name: "Bisglycinate de fer"
+    category: iron
+    url: https://www.nat-form.com/products/bisglycinate-de-fer
+    ean: null
+    render: js
+
+  - id: novoma-fer-bisglycinate-ferrochel-gelules-90
+    product_id: novoma-fer-bisglycinate-ferrochel-gelules-90
+    brand: Novoma
+    name: "Fer Bisglycinate Ferrochel®"
+    category: iron
+    url: https://novoma.com/products/fer-bisglycinate
+    ean: null
+    render: js
+
+  - id: nutrimuscle-fer-ultimine-gelules-30
+    product_id: nutrimuscle-fer-ultimine-gelules-30
+    brand: Nutrimuscle
+    name: "Fer Ultimine™"
+    category: iron
+    url: https://www.nutrimuscle.com/products/fer-ultimine
+    ean: null
+    render: js
+
+  - id: onatera-fer-bisglycinate-doux-non-constipant-gelules-90
+    product_id: onatera-fer-bisglycinate-doux-non-constipant-gelules-90
+    brand: Onatera
+    name: "Fer Bisglycinate doux non constipant"
+    category: iron
+    url: https://www.onatera.com/FR/fr/produit-fer-doux-non-constipant-brevete-90-gelules-onatera
+    ean: 3701407713315
+    render: static
+
+  - id: onatera-fer-bisglycinate-gelules-90
+    product_id: onatera-fer-bisglycinate-gelules-90
+    brand: Onatera
+    name: "Fer bisglycinate"
+    category: iron
+    url: https://www.onatera.com/FR/fr/produit-fer-bisglycinate-90-gelules-orfito
+    ean: 3701407713261
+    render: static
+
+  - id: pileje-forferal-fer-gelules-30
+    product_id: pileje-forferal-fer-gelules-30
+    brand: PiLeJe
+    name: "Forferal Fer"
+    category: iron
+    url: https://solutions.pileje.fr/fr/produit/forferal-fer
+    ean: null
+    render: js
+
+  - id: superdiet-fer-acerola-unidoses-20
+    product_id: superdiet-fer-acerola-unidoses-20
+    brand: Superdiet
+    name: "Fer Acérola"
+    category: iron
+    url: https://www.superdiet.com/fr/p14221_fer_acerola_20_unidoses.php
+    ean: null
+    render: js
+
+  - id: superphysique-nutrition-elite-fer-gelules-90
+    product_id: superphysique-nutrition-elite-fer-gelules-90
+    brand: "SuperPhysique Nutrition"
+    name: "Elite Fer"
+    category: iron
+    url: https://www.superphysique-nutrition.fr/679-elite-fer.html
+    ean: null
+    render: static
+
+  - id: biotechusa-maca-mega-gelules-60
+    product_id: biotechusa-maca-mega-gelules-60
+    brand: BioTechUSA
+    name: Maca
+    category: maca
+    url: https://shop.biotechusa.fr/products/maca-60-gelules-mega
+    ean: null
+    render: js
+
+  - id: dynveo-maca-bio-gelules-500-mg-60
+    product_id: dynveo-maca-bio-gelules-500-mg-60
+    brand: Dynveo
+    name: "Maca BIO"
+    category: maca
+    url: https://www.dynveo.fr/products/maca-bio
+    ean: null
+    render: js
+
+  - id: nat-form-maca-bio-du-perou-gelules-200
+    product_id: nat-form-maca-bio-du-perou-gelules-200
+    brand: Nat&Form
+    name: "Maca Bio du Pérou"
+    category: maca
+    url: https://www.nat-form.com/products/maca-bio-du-perou
+    ean: null
+    render: js
+
+  - id: nutri-co-maca-noire-bio-gelules-60
+    product_id: nutri-co-maca-noire-bio-gelules-60
+    brand: Nutri&Co
+    name: "Maca Noire Bio"
+    category: maca
+    url: https://nutriandco.com/fr/produits/maca-noire-bio
+    ean: null
+    render: js
+
+  - id: nutrimuscle-maca-bio-gelules-60
+    product_id: nutrimuscle-maca-bio-gelules-60
+    brand: Nutrimuscle
+    name: "Maca bio"
+    category: maca
+    url: https://www.nutrimuscle.com/products/maca-bio-en-gelules
     ean: null
     render: js
 
@@ -870,6 +1365,51 @@ sources:
     ean: null
     render: js
 
+  - id: dynveo-citrate-de-potassium-gelules-60
+    product_id: dynveo-citrate-de-potassium-gelules-60
+    brand: Dynveo
+    name: "Citrate de potassium"
+    category: potassium
+    url: https://www.dynveo.fr/products/citrate-de-potassium
+    ean: null
+    render: js
+
+  - id: granions-citrate-de-potassium-ampoules-30-2-ml
+    product_id: granions-citrate-de-potassium-ampoules-30-2-ml
+    brand: Granions
+    name: "Citrate de Potassium"
+    category: potassium
+    url: https://www.granions.fr/granions-de-potassium.html
+    ean: 3760155210255
+    render: static
+
+  - id: nutrimuscle-citrate-de-potassium-en-gelules-gelules-120
+    product_id: nutrimuscle-citrate-de-potassium-en-gelules-gelules-120
+    brand: Nutrimuscle
+    name: "Citrate de Potassium en gélules"
+    category: potassium
+    url: https://www.nutrimuscle.com/products/citrate-de-potassium-en-gelules
+    ean: null
+    render: js
+
+  - id: onatera-citrate-de-potassium-gelules-120
+    product_id: onatera-citrate-de-potassium-gelules-120
+    brand: Onatera
+    name: "Citrate de Potassium"
+    category: potassium
+    url: https://www.onatera.com/FR/fr/produit-citrate-potassium-120-gelules-onatera
+    ean: 3701407714176
+    render: static
+
+  - id: pileje-unibiane-potassium-comprimes-secables-120
+    product_id: pileje-unibiane-potassium-comprimes-secables-120
+    brand: PiLeJe
+    name: "Unibiane Potassium"
+    category: potassium
+    url: https://solutions.pileje.fr/fr/produit/unibiane-potassium
+    ean: null
+    render: js
+
   - id: apyforme-probio-flore-intestinale-60-gelules
     product_id: apyforme-probio-flore-intestinale-60-gelules
     brand: Apyforme
@@ -968,6 +1508,195 @@ sources:
     url: https://solutions.pileje.fr/fr/produit/lactibiane-tolerance-30-gelules
     ean: null
     render: js
+
+  - id: biotechusa-rhodiola-gelules-60
+    product_id: biotechusa-rhodiola-gelules-60
+    brand: BioTechUSA
+    name: Rhodiola
+    category: rhodiola
+    url: https://shop.biotechusa.fr/products/rhodiola-60-gelules
+    ean: null
+    render: js
+
+  - id: dynveo-rhodiola-rosea-gelules-350-mg-60
+    product_id: dynveo-rhodiola-rosea-gelules-350-mg-60
+    brand: Dynveo
+    name: "Rhodiola rosea"
+    category: rhodiola
+    url: https://www.dynveo.fr/products/rhodiola-rosea
+    ean: null
+    render: js
+
+  - id: nat-form-rhodiola-gelules-60
+    product_id: nat-form-rhodiola-gelules-60
+    brand: Nat&Form
+    name: Rhodiola
+    category: rhodiola
+    url: https://www.nat-form.com/products/rhodiola-bio
+    ean: null
+    render: js
+
+  - id: nutri-co-rhodiola-bio-gelules-60
+    product_id: nutri-co-rhodiola-bio-gelules-60
+    brand: Nutri&Co
+    name: "Rhodiola Bio"
+    category: rhodiola
+    url: https://nutriandco.com/fr/produits/rhodiola-bio
+    ean: null
+    render: js
+
+  - id: nutrimuscle-rhodiola-rhodiolife-gelules-30
+    product_id: nutrimuscle-rhodiola-rhodiolife-gelules-30
+    brand: Nutrimuscle
+    name: "Rhodiola Rhodiolife®"
+    category: rhodiola
+    url: https://www.nutrimuscle.com/products/rhodiola-rhodiolife-r
+    ean: null
+    render: js
+
+  - id: cuure-tribulus-gelules-60
+    product_id: cuure-tribulus-gelules-60
+    brand: Cuure
+    name: Tribulus
+    category: tribulus
+    url: https://cuure.com/produits/tribulus
+    ean: null
+    render: js
+
+  - id: dynveo-tribulus-terrestris-bio-vemoherb-ts-gelules-120
+    product_id: dynveo-tribulus-terrestris-bio-vemoherb-ts-gelules-120
+    brand: Dynveo
+    name: "Tribulus terrestris BIO VemoHerb®TS"
+    category: tribulus
+    url: https://www.dynveo.fr/products/tribulus-terrestris-bio
+    ean: null
+    render: js
+
+  - id: nutri-co-tribulus-terrestris-gelules-120
+    product_id: nutri-co-tribulus-terrestris-gelules-120
+    brand: Nutri&Co
+    name: "Tribulus Terrestris"
+    category: tribulus
+    url: https://nutriandco.com/fr/produits/tribulus-terrestris
+    ean: null
+    render: js
+
+  - id: nutrimuscle-tribulus-terrestris-gelules-120
+    product_id: nutrimuscle-tribulus-terrestris-gelules-120
+    brand: Nutrimuscle
+    name: "Tribulus Terrestris"
+    category: tribulus
+    url: https://www.nutrimuscle.com/products/tribulus-terrestris
+    ean: null
+    render: js
+
+  - id: onatera-tribulus-terrestris-titre-650-mg-gelules-120
+    product_id: onatera-tribulus-terrestris-titre-650-mg-gelules-120
+    brand: Onatera
+    name: "Tribulus terrestris titré 650 mg"
+    category: tribulus
+    url: https://www.onatera.com/FR/fr/produit-tribulus-terrestris-titre-650-mg-120-gelules-orfito
+    ean: null
+    render: static
+
+  - id: orfito-tribulus-bio-300-mg-gelules-90
+    product_id: orfito-tribulus-bio-300-mg-gelules-90
+    brand: Orfito
+    name: "Tribulus Bio 300 mg"
+    category: tribulus
+    url: https://www.onatera.com/FR/fr/produit-tribulus-bio-300-mg-90-gelules-vegetales-orfito
+    ean: null
+    render: static
+
+  - id: argalys-vitamine-b12-vegan-1000-g-iode-et-selenium-gelules-60
+    product_id: argalys-vitamine-b12-vegan-1000-g-iode-et-selenium-gelules-60
+    brand: ARGALYS
+    name: "Vitamine B12 Vegan 1000 µg + Iode et Sélénium"
+    category: vitamin_b12
+    url: https://www.argalys.com/products/vitamine-b12-iode-selenium
+    ean: null
+    render: js
+
+  - id: biocyte-vitamin-b12-liposomal-500-g-gelules-30
+    product_id: biocyte-vitamin-b12-liposomal-500-g-gelules-30
+    brand: Biocyte
+    name: "Vitamin B12 Liposomal 500 µg"
+    category: vitamin_b12
+    url: https://www.biocyte.com/products/vitamin-b12-liposomal-30-gelules
+    ean: null
+    render: js
+
+  - id: cuure-vitamine-b12-methylcobalamine-gelules-120
+    product_id: cuure-vitamine-b12-methylcobalamine-gelules-120
+    brand: Cuure
+    name: "Vitamine B12 Méthylcobalamine"
+    category: vitamin_b12
+    url: https://cuure.com/produits/vitamine-b12
+    ean: null
+    render: js
+
+  - id: dynveo-vitamine-b12-active-gelules-60
+    product_id: dynveo-vitamine-b12-active-gelules-60
+    brand: Dynveo
+    name: "Vitamine B12 active"
+    category: vitamin_b12
+    url: https://www.dynveo.fr/products/vitamine-b12
+    ean: null
+    render: js
+
+  - id: nat-form-vitamine-b12-en-gelules-gelules-30
+    product_id: nat-form-vitamine-b12-en-gelules-gelules-30
+    brand: Nat&Form
+    name: "Vitamine B12 en gélules"
+    category: vitamin_b12
+    url: https://www.nat-form.com/products/vitamine-b12-en-gelules
+    ean: null
+    render: js
+
+  - id: novoma-vitamine-b12-gelules-120
+    product_id: novoma-vitamine-b12-gelules-120
+    brand: Novoma
+    name: "Vitamine B12"
+    category: vitamin_b12
+    url: https://novoma.com/products/vitamine-b12
+    ean: null
+    render: js
+
+  - id: nutri-co-vitamine-b12-mecobalactive-gelules-120
+    product_id: nutri-co-vitamine-b12-mecobalactive-gelules-120
+    brand: Nutri&Co
+    name: "Vitamine B12 MecobalActive®"
+    category: vitamin_b12
+    url: https://nutriandco.com/fr/produits/vitamine-b12
+    ean: null
+    render: js
+
+  - id: onatera-vitamine-b12-liposomale-lipocelltech-gelules-60
+    product_id: onatera-vitamine-b12-liposomale-lipocelltech-gelules-60
+    brand: Onatera
+    name: "Vitamine B12 liposomale LipoCellTech™"
+    category: vitamin_b12
+    url: https://www.onatera.com/FR/fr/produit-vitamine-b12-liposomale-60-gelules-vegetales-enefis
+    ean: null
+    render: static
+
+  - id: onatera-vitamine-b12-vegan-gelules-60
+    product_id: onatera-vitamine-b12-vegan-gelules-60
+    brand: Onatera
+    name: "Vitamine B12 vegan"
+    category: vitamin_b12
+    url: https://www.onatera.com/FR/fr/produit-vitamine-b12-vegan-60-gelules-vegetales-orfito
+    ean: null
+    render: static
+
+  - id: onatera-vitamine-b9-b12-formes-actives-gelules-60
+    product_id: onatera-vitamine-b9-b12-formes-actives-gelules-60
+    brand: Onatera
+    name: "Vitamine B9 & B12 formes actives"
+    category: vitamin_b12
+    url: https://www.onatera.com/FR/fr/produit-vitamine-b9-b12-formes-actives-60-gelules-orfito
+    ean: null
+    render: static
 
   - id: dieti-natura-acerola-25-comprimes
     product_id: dieti-natura-acerola-25-comprimes
@@ -1218,6 +1947,105 @@ sources:
     name: "Vitamine D 1000 UI"
     category: vitamin_d3
     url: https://vitavea.com/produits/vitamines/vitamine-d-1000-ui
+    ean: null
+    render: static
+
+  - id: biotechusa-k2-d3-drops-flacon-30-ml-87-doses
+    product_id: biotechusa-k2-d3-drops-flacon-30-ml-87-doses
+    brand: BioTechUSA
+    name: "K2+D3 Drops"
+    category: vitamin_k2
+    url: https://shop.biotechusa.fr/products/k2-d3-drops-30-ml
+    ean: null
+    render: js
+
+  - id: cuure-vitamine-k2-menaq7-gelules-120
+    product_id: cuure-vitamine-k2-menaq7-gelules-120
+    brand: Cuure
+    name: "Vitamine K2 MenaQ7®"
+    category: vitamin_k2
+    url: https://cuure.com/produits/vitamine-k2
+    ean: null
+    render: js
+
+  - id: dynveo-vitamine-d3-k2-mk-7-gelules-60
+    product_id: dynveo-vitamine-d3-k2-mk-7-gelules-60
+    brand: Dynveo
+    name: "Vitamine D3 K2 MK-7"
+    category: vitamin_k2
+    url: https://www.dynveo.fr/products/vitamine-d3-k2-mk7
+    ean: null
+    render: js
+
+  - id: dynveo-vitamine-k2-mk7-gelules-60
+    product_id: dynveo-vitamine-k2-mk7-gelules-60
+    brand: Dynveo
+    name: "Vitamine K2 MK7"
+    category: vitamin_k2
+    url: https://www.dynveo.fr/products/vitamine-k2-mk7
+    ean: null
+    render: js
+
+  - id: nutrimuscle-vitamines-d3-k2-mk7-gelules-30
+    product_id: nutrimuscle-vitamines-d3-k2-mk7-gelules-30
+    brand: Nutrimuscle
+    name: "Vitamines D3 + K2-MK7"
+    category: vitamin_k2
+    url: https://www.nutrimuscle.com/products/vitamines-d3-k2-mk7
+    ean: null
+    render: js
+
+  - id: olimp-sport-nutrition-gold-vit-d3-k2-2000-iu-sport-edition-capsules-60
+    product_id: olimp-sport-nutrition-gold-vit-d3-k2-2000-iu-sport-edition-capsules-60
+    brand: "Olimp Sport Nutrition"
+    name: "Gold-Vit® D3+K2 2000 IU Sport Edition"
+    category: vitamin_k2
+    url: https://olimpstore.fr/olimp-gold-vit-d3-k2-2000-iu-sport-edition-60-gelules-2191
+    ean: null
+    render: js
+
+  - id: onatera-vitamines-k2-mk7-d3-comprimes-90
+    product_id: onatera-vitamines-k2-mk7-d3-comprimes-90
+    brand: Onatera
+    name: "Vitamines K2 MK7 & D3"
+    category: vitamin_k2
+    url: https://www.onatera.com/FR/fr/produit-vitamines-k2-mk7-d3-90-comprimes-onatera
+    ean: null
+    render: static
+
+  - id: onatera-vitamines-k2-mk7-d3-ultra-gelules-90
+    product_id: onatera-vitamines-k2-mk7-d3-ultra-gelules-90
+    brand: Onatera
+    name: "Vitamines K2 MK7 & D3 Ultra"
+    category: vitamin_k2
+    url: https://www.onatera.com/FR/fr/produit-vitamines-k2-mk7-d3-ultra-90-gelules-onatera
+    ean: null
+    render: static
+
+  - id: pure-am-nutrition-pure-vitamines-d3-k2-mk-7-gelules-120
+    product_id: pure-am-nutrition-pure-vitamines-d3-k2-mk-7-gelules-120
+    brand: "PURE AM Nutrition"
+    name: "PURE Vitamines D3 + K2 MK-7"
+    category: vitamin_k2
+    url: https://www.amnutrition.fr/products/pure-vitamines-d3-k2-mk-7
+    ean: null
+    render: js
+
+  - id: solaray-vitamine-k2-menaquinone-7-capsules-30
+    product_id: solaray-vitamine-k2-menaquinone-7-capsules-30
+    brand: Solaray
+    name: "Vitamine K2 Ménaquinone-7"
+    category: vitamin_k2
+    url: https://www.onatera.com/FR/fr/produit-vitamine-k2-menaquinone-7-30-capsules-solaray
+    ean: null
+    render: static
+
+  - id: superphysique-nutrition-elite-vitamines-d3-k2-vitamk7-spray-105-pulverisations
+    product_id: superphysique-nutrition-elite-vitamines-d3-k2-vitamk7-spray-105-pulverisations
+    brand: "Superphysique Nutrition"
+    name: "Elite Vitamines D3+K2 vitaMK7®"
+    category: vitamin_k2
+    url: https://www.superphysique-nutrition.fr/680--elite-d3k2-vitamk7.html
     ean: null
     render: static
 
@@ -1472,6 +2300,24 @@ sources:
     url: https://www.newpharma.fr/solgar/508698/solgar-zinc-picolinate-22mg-comprimes-100.html
     ean: 0033984037250
     render: static
+
+  - id: eiyolab-zma-ht-comprimes-90
+    product_id: eiyolab-zma-ht-comprimes-90
+    brand: Eiyolab
+    name: "ZMA HT"
+    category: zma
+    url: https://www.eiyolab.com/zma-ht
+    ean: null
+    render: js
+
+  - id: olimp-sport-nutrition-zma-capsules-120
+    product_id: olimp-sport-nutrition-zma-capsules-120
+    brand: "Olimp Sport Nutrition"
+    name: ZMA
+    category: zma
+    url: https://olimpstore.fr/olimp-zma-120-gelules-545
+    ean: null
+    render: js
 
 # --- manual sources (kept across regenerations) ---
   # Amazon.fr listings (render: js — needs the headless renderer)

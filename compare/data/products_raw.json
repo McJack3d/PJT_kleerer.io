@@ -57,18 +57,43 @@
       "url": "https://www.amazon.fr/dp/B00HF63AYA"
     },
     {
-      "id": "nutrimuscle-whey-native", "category": "whey", "brand": "Nutrimuscle", "name": "Whey Native", "variant": "Nature (unflavoured) · 1 kg",
-      "price_eur": 37.95, "price_note": "eu.nutrimuscle.com live price Jul 2026. Stable pricing, no promo culture.",
-      "pack_g": 1000, "serving_g": 30, "active_per_100g": 78, "active_per_serving_g": 23.4,
-      "form": "Native whey (fresh French milk, non-instantised)", "form_tier": 20, "form_note": "Native whey from milk, not a cheese by-product.",
+      "id": "nutrimuscle-whey-native",
+      "category": "whey",
+      "brand": "Nutrimuscle",
+      "name": "Whey Native",
+      "variant": "Nature (unflavoured) · 1 kg",
+      "price_eur": 37.95,
+      "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion. Indisponible lors du contrôle.",
+      "pack_g": 1000,
+      "serving_g": 30,
+      "active_per_100g": 78,
+      "active_per_serving_g": 23.4,
+      "form": "Native whey (fresh French milk, non-instantised)",
+      "form_tier": 20,
+      "form_note": "Native whey from milk, not a cheese by-product.",
       "vegan": false,
-      "purity_tags": [], "additives_detail": [],
-      "certifications": ["Sport Protect (anti-doping)", "Published batch contaminant analyses", "Halal"],
-      "transparency": {"coa_published": true, "third_party_cert": true, "branded_ingredient": null, "full_label": true},
-      "flags": [], "confidence": "high",
+      "purity_tags": [],
+      "additives_detail": [],
+      "certifications": [
+        "Sport Protect (anti-doping)",
+        "Published batch contaminant analyses",
+        "Halal"
+      ],
+      "transparency": {
+        "coa_published": true,
+        "third_party_cert": true,
+        "branded_ingredient": null,
+        "full_label": true
+      },
+      "flags": [],
+      "confidence": "high",
       "notes": "Ingredient list of the Nature flavour: native WPC — nothing else. No lecithin, no sweetener.",
       "url": "https://www.nutrimuscle.com/products/whey-native",
-      "price_context": {"kind": "stable"}
+      "price_context": {
+        "kind": "observed_offer",
+        "checked_on": "2026-10-05",
+        "source_url": "https://www.nutrimuscle.com/products/whey-native?variant=50084507287881"
+      }
     },
     {
       "id": "prozis-real-whey", "category": "whey", "brand": "Prozis", "name": "100% Real Whey Protein", "variant": "Vanilla · 1 kg",
@@ -86,31 +111,78 @@
     },
 
     {
-      "id": "myprotein-creatine", "category": "creatine", "brand": "Myprotein", "name": "Creatine Monohydrate", "variant": "Unflavoured · 500 g",
-      "price_eur": 19.99, "price_note": "List price (not re-verified Jul 2026); promo codes usually land it at €13–17.",
-      "pack_g": 500, "serving_g": 3.4, "active_per_100g": 88, "active_per_serving_g": 3,
-      "form": "Generic creatine monohydrate", "form_tier": 16, "form_note": "Monohydrate is the gold-standard form; generic source.",
+      "id": "myprotein-creatine",
+      "category": "creatine",
+      "brand": "Myprotein",
+      "name": "Creatine Monohydrate",
+      "variant": "Unflavoured · 500 g",
+      "price_eur": 14.99,
+      "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
+      "pack_g": 500,
+      "serving_g": 3.4,
+      "active_per_100g": 88,
+      "active_per_serving_g": 3,
+      "form": "Generic creatine monohydrate",
+      "form_tier": 16,
+      "form_note": "Monohydrate is the gold-standard form; generic source.",
       "vegan": true,
-      "purity_tags": [], "additives_detail": [],
-      "certifications": ["Labdoor Grade A (historic test)"],
-      "transparency": {"coa_published": false, "third_party_cert": true, "branded_ingredient": null, "full_label": true},
-      "flags": [], "confidence": "low",
+      "purity_tags": [],
+      "additives_detail": [],
+      "certifications": [
+        "Labdoor Grade A (historic test)"
+      ],
+      "transparency": {
+        "coa_published": false,
+        "third_party_cert": true,
+        "branded_ingredient": null,
+        "full_label": true
+      },
+      "flags": [],
+      "confidence": "low",
       "notes": "100% creatine monohydrate, no excipients.",
       "url": "https://fr.myprotein.com/p/nutrition-sportive/creatine-monohydrate-en-poudre/10530050/",
-      "price_context": {"kind": "list_price", "typical_off_pct": [15, 35]}
+      "price_context": {
+        "kind": "observed_offer",
+        "checked_on": "2026-10-05",
+        "source_url": "https://fr.myprotein.com/p/nutrition-sportive/creatine-monohydrate-en-poudre/10530050/?variation=10530054"
+      }
     },
     {
-      "id": "esn-ultrapure-creatine", "category": "creatine", "brand": "ESN", "name": "Ultrapure Creatine Monohydrate", "variant": "Neutral · 500 g",
-      "price_eur": 21.27, "price_note": "Amazon.de Prime, Jul 2026; ESN list ~€27.90.",
-      "pack_g": 500, "serving_g": 3.5, "active_per_100g": 88, "active_per_serving_g": 3.1,
-      "form": "Generic monohydrate, micro-fine, 99.9% purity claim, made in Germany", "form_tier": 16, "form_note": "High-purity claim but not Creapure.",
+      "id": "esn-ultrapure-creatine",
+      "category": "creatine",
+      "brand": "ESN",
+      "name": "Ultrapure Creatine Monohydrate",
+      "variant": "Neutral · 500 g",
+      "price_eur": 17.0,
+      "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
+      "pack_g": 500,
+      "serving_g": 3.5,
+      "active_per_100g": 88,
+      "active_per_serving_g": 3.1,
+      "form": "Generic monohydrate, micro-fine, 99.9% purity claim, made in Germany",
+      "form_tier": 16,
+      "form_note": "High-purity claim but not Creapure.",
       "vegan": true,
-      "purity_tags": [], "additives_detail": [],
-      "certifications": ["Cologne List (Kölner Liste)"],
-      "transparency": {"coa_published": false, "third_party_cert": true, "branded_ingredient": null, "full_label": true},
-      "flags": [], "confidence": "high",
+      "purity_tags": [],
+      "additives_detail": [],
+      "certifications": [
+        "Cologne List (Kölner Liste)"
+      ],
+      "transparency": {
+        "coa_published": false,
+        "third_party_cert": true,
+        "branded_ingredient": null,
+        "full_label": true
+      },
+      "flags": [],
+      "confidence": "high",
       "notes": "500 g ≈ 142 servings.",
-      "url": "https://www.amazon.fr/dp/B0057ED9AM"
+      "url": "https://www.amazon.fr/dp/B0057ED9AM",
+      "price_context": {
+        "kind": "observed_offer",
+        "checked_on": "2026-10-05",
+        "source_url": "https://www.amazon.fr/ESN-Creatine-Ultrapure-Naturelle-1x500g/dp/B0057ED9AM"
+      }
     },
     {
       "id": "bulk-creatine", "category": "creatine", "brand": "Bulk", "name": "Creatine Monohydrate", "variant": "Unflavoured · 500 g",
@@ -139,15 +211,36 @@
       "url": "https://www.amazon.fr/dp/B00T7L20EC"
     },
     {
-      "id": "nutrimuscle-creapure", "category": "creatine", "brand": "Nutrimuscle", "name": "Creatine Creapure® Powder", "variant": "Nature · 350 g",
-      "price_eur": 34.95, "price_note": "eu.nutrimuscle.com live Jul 2026. Stock tension from creatine demand boom.",
-      "pack_g": 350, "serving_g": 3, "active_per_100g": 88, "active_per_serving_g": 3,
-      "form": "Creapure® monohydrate (AlzChem, Germany)", "form_tier": 20, "form_note": "Documented-purity branded monohydrate.",
+      "id": "nutrimuscle-creapure",
+      "category": "creatine",
+      "brand": "Nutrimuscle",
+      "name": "Creatine Creapure® Powder",
+      "variant": "Nature · 350 g",
+      "price_eur": 34.95,
+      "price_note": "eu.nutrimuscle.com live Jul 2026. Stock tension from creatine demand boom.",
+      "pack_g": 350,
+      "serving_g": 3,
+      "active_per_100g": 88,
+      "active_per_serving_g": 2.638,
+      "form": "Creapure® monohydrate (AlzChem, Germany)",
+      "form_tier": 20,
+      "form_note": "Documented-purity branded monohydrate.",
       "vegan": true,
-      "purity_tags": [], "additives_detail": [],
-      "certifications": ["Creapure®", "Sport Protect (anti-doping)", "Published batch analyses"],
-      "transparency": {"coa_published": true, "third_party_cert": true, "branded_ingredient": "Creapure®", "full_label": true},
-      "flags": [], "confidence": "high",
+      "purity_tags": [],
+      "additives_detail": [],
+      "certifications": [
+        "Creapure®",
+        "Sport Protect (anti-doping)",
+        "Published batch analyses"
+      ],
+      "transparency": {
+        "coa_published": true,
+        "third_party_cert": true,
+        "branded_ingredient": "Creapure®",
+        "full_label": true
+      },
+      "flags": [],
+      "confidence": "high",
       "notes": "Creapure carries ~2× premium vs generic (€100–113/kg vs €43–56/kg).",
       "url": "https://www.nutrimuscle.com/products/creatine-creapure-r-en-poudre"
     },
@@ -338,18 +431,54 @@
       "url": "https://www.nutripure.fr/fr/sante/2-omega-3-EPAX.html"
     },
     {
-      "id": "norsan-omega3-total", "category": "omega3", "brand": "Norsan", "name": "Omega-3 Total (liquid)", "variant": "200 ml, lemon",
-      "price_eur": 27.00, "price_note": "norsan.de verified Jul 2026 (3-pack = €24/bottle).",
-      "units_pack": 25, "unit_name": "8 ml dose", "units_per_day": 1, "active_per_unit": 1656, "active_unit": "mg EPA+DHA",
-      "form": "Natural TG — unconcentrated wild fish oil", "form_tier": 16, "form_note": "Whole-fish oil, no concentration step; + D3 800 IU and olive-oil polyphenols per dose.",
+      "id": "norsan-omega3-total",
+      "category": "omega3",
+      "brand": "Norsan",
+      "name": "Omega-3 Total (liquid)",
+      "variant": "200 ml, lemon",
+      "price_eur": 26.9,
+      "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
+      "units_pack": 25,
+      "unit_name": "8 ml dose",
+      "units_per_day": 1,
+      "active_per_unit": 1656,
+      "active_unit": "mg EPA+DHA",
+      "form": "Natural TG — unconcentrated wild fish oil",
+      "form_tier": 16,
+      "form_note": "Whole-fish oil, no concentration step; + D3 800 IU and olive-oil polyphenols per dose.",
       "vegan": false,
-      "purity_tags": [], "additives_detail": ["Organic olive oil (antioxidant, neutral)", "Natural lemon oil (neutral)"],
-      "certifications": ["Friend of the Sea", "TOTOX ~10 published", "Independent heavy-metal/PCB lab certificates published"],
-      "transparency": {"coa_published": true, "third_party_cert": true, "branded_ingredient": null, "full_label": true},
-      "flags": [], "confidence": "high",
+      "purity_tags": [],
+      "additives_detail": [
+        "Organic olive oil (antioxidant, neutral)",
+        "Natural lemon oil (neutral)"
+      ],
+      "certifications": [
+        "Friend of the Sea",
+        "TOTOX ~10 published",
+        "Independent heavy-metal/PCB lab certificates published"
+      ],
+      "transparency": {
+        "coa_published": true,
+        "third_party_cert": true,
+        "branded_ingredient": null,
+        "full_label": true
+      },
+      "flags": [],
+      "confidence": "high",
       "notes": "No.1 omega-3 brand in German pharmacies. Bottle = 25 days.",
       "url": "https://www.amazon.fr/dp/B08X4XVPFM",
-      "secondary_actives": [{"category": "vitamin_d3", "per_day": 800, "source": "manufacturer: 800 IU vitamin D3 per 8 ml daily dose"}]
+      "secondary_actives": [
+        {
+          "category": "vitamin_d3",
+          "per_day": 800,
+          "source": "manufacturer: 800 IU vitamin D3 per 8 ml daily dose"
+        }
+      ],
+      "price_context": {
+        "kind": "observed_offer",
+        "checked_on": "2026-10-05",
+        "source_url": "https://www.amazon.fr/NORSAN-Omega-citron-qualit%C3%A9-sup%C3%A9rieure/dp/B08X4XVPFM"
+      }
     },
     {
       "id": "nutrico-omega3", "category": "omega3", "brand": "Nutri&Co", "name": "Omega 3 EPAX® Ultra-Pure", "variant": "120 capsules",
@@ -421,35 +550,122 @@
     },
 
     {
-      "id": "myprotein-alpha-men", "category": "multivitamin", "brand": "Myprotein", "name": "Alpha Men Multivitamin", "variant": "120 tablets",
-      "price_eur": 26.99, "price_note": "List price; near-constant promos (effective ~€15–19).",
-      "units_pack": 120, "unit_name": "tablet", "units_per_day": 2, "active_per_unit": null, "active_unit": null,
-      "form": "~35 vitamins/minerals + botanicals; cheap mineral forms (zinc oxide)", "form_tier": 8, "form_note": "Zinc as oxide; standard vitamin forms.",
-      "dose_tier": 16, "dose_note": "Sports-multi dosing, mostly 100–400% NRV.",
+      "id": "myprotein-alpha-men",
+      "category": "multivitamin",
+      "brand": "Myprotein",
+      "name": "Alpha Men Multivitamin",
+      "variant": "120 tablets",
+      "price_eur": 26.99,
+      "price_note": "List price; near-constant promos (effective ~€15–19).",
+      "units_pack": 120,
+      "unit_name": "tablet",
+      "units_per_day": 2,
+      "active_per_unit": null,
+      "active_unit": null,
+      "form": "~35 vitamins/minerals + botanicals; cheap mineral forms (zinc oxide)",
+      "form_tier": 8,
+      "form_note": "Zinc as oxide; standard vitamin forms.",
+      "dose_tier": 16,
+      "dose_note": "Sports-multi dosing, mostly 100–400% NRV.",
       "vegan": false,
-      "purity_tags": ["bulking_filler", "coating", "anticaking", "undisclosed_doses"], "additives_detail": ["Microcrystalline cellulose + HPMC", "Tablet coating", "Magnesium stearate", "Botanical blend without individual doses"],
+      "purity_tags": [
+        "bulking_filler",
+        "coating",
+        "anticaking",
+        "undisclosed_doses"
+      ],
+      "additives_detail": [
+        "Microcrystalline cellulose + HPMC",
+        "Tablet coating",
+        "Magnesium stearate",
+        "Botanical blend without individual doses"
+      ],
       "certifications": [],
-      "transparency": {"coa_published": false, "third_party_cert": false, "branded_ingredient": null, "full_label": false},
-      "flags": ["Contains gluten; traces of milk"], "confidence": "low",
+      "transparency": {
+        "coa_published": false,
+        "third_party_cert": false,
+        "branded_ingredient": null,
+        "full_label": false
+      },
+      "flags": [
+        "Contains gluten; traces of milk"
+      ],
+      "confidence": "low",
       "notes": "60 days per pack — cheapest cost/day of the multi set at street price.",
       "url": "https://fr.myprotein.com/p/nutrition-sportive/alpha-men-comprimes-multivitamines/10530421/",
-      "price_context": {"kind": "list_price", "typical_off_pct": [30, 45]}
+      "price_context": {
+        "kind": "list_price",
+        "typical_off_pct": [
+          30,
+          45
+        ]
+      },
+      "nutrients": {
+        "vitamin_d3": 200,
+        "vitamin_c": 80,
+        "magnesium": 56,
+        "zinc": 15,
+        "folate": 400,
+        "vitamin_b6": 4.2,
+        "vitamin_b12": 7.5
+      },
+      "nutrients_source": "Tableau fabricant consulté le 2026-10-05 ; quantités pour 2 unité(s) par jour. Sous-ensemble des nutriments, pas validation intégrale du produit."
     },
     {
-      "id": "nutrico-le-multi", "category": "multivitamin", "brand": "Nutri&Co", "name": "Le Multi (25 bioactive nutrients)", "variant": "90 capsules",
-      "price_eur": 27.90, "price_note": "Redcare Pharmacie FR verified Jul 2026 (€27.79).",
-      "units_pack": 90, "unit_name": "capsule", "units_per_day": 3, "active_per_unit": null, "active_unit": null,
-      "form": "Bioactive forms: P-5-P (B6), Quatrefolic® (B9), K2VITAL® (K2), methylcobalamin, lichen D3 1000 IU; no iron by design", "form_tier": 20, "form_note": "Physiological ~100% NRV philosophy + NAC, CoQ10, lutein.",
-      "dose_tier": 20, "dose_note": "~100% NRV coverage without exceeding ULs; D3 25 µg.",
+      "id": "nutrico-le-multi",
+      "category": "multivitamin",
+      "brand": "Nutri&Co",
+      "name": "Le Multi (25 bioactive nutrients)",
+      "variant": "90 capsules",
+      "price_eur": 27.9,
+      "price_note": "Prix affiché sur le site fabricant pour ce format, consulté le 2026-10-05, hors livraison.",
+      "units_pack": 90,
+      "unit_name": "capsule",
+      "units_per_day": 3,
+      "active_per_unit": null,
+      "active_unit": null,
+      "form": "Bioactive forms: P-5-P (B6), Quatrefolic® (B9), K2VITAL® (K2), methylcobalamin, lichen D3 1000 IU; no iron by design",
+      "form_tier": 20,
+      "form_note": "Physiological ~100% NRV philosophy + NAC, CoQ10, lutein.",
+      "dose_tier": 20,
+      "dose_note": "~100% NRV coverage without exceeding ULs; D3 25 µg.",
       "vegan": true,
-      "purity_tags": ["bulking_filler", "lecithin", "anticaking"], "additives_detail": ["Corn starch (Magshape carrier)", "Sunflower lecithin", "Rice extract (clean-label anti-caking)"],
-      "certifications": ["Quatrefolic® / K2VITAL® branded ingredients", "Made in France"],
-      "transparency": {"coa_published": false, "third_party_cert": false, "branded_ingredient": "Quatrefolic® / K2VITAL®", "full_label": true},
-      "flags": ["Allergens: fish/mollusc/crustacean (fucus iodine source)"], "confidence": "high",
+      "purity_tags": [
+        "bulking_filler",
+        "lecithin",
+        "anticaking"
+      ],
+      "additives_detail": [
+        "Corn starch (Magshape carrier)",
+        "Sunflower lecithin",
+        "Rice extract (clean-label anti-caking)"
+      ],
+      "certifications": [
+        "Quatrefolic® / K2VITAL® branded ingredients",
+        "Made in France"
+      ],
+      "transparency": {
+        "coa_published": false,
+        "third_party_cert": false,
+        "branded_ingredient": "Quatrefolic® / K2VITAL®",
+        "full_label": true
+      },
+      "flags": [
+        "Allergens: fish/mollusc/crustacean (fucus iodine source)"
+      ],
+      "confidence": "high",
       "notes": "30 days per pack at 3 caps/day.",
       "url": "https://nutriandco.com/fr/produits/multivitamines",
-      "nutrients": {"vitamin_d3": 1000},
-      "nutrients_source": "label: lichen D3 1000 IU per 3-capsule dose"
+      "nutrients": {
+        "vitamin_d3": 1000,
+        "vitamin_c": 80,
+        "magnesium": 150,
+        "zinc": 10,
+        "folate": 200,
+        "vitamin_b6": 2,
+        "vitamin_b12": 2.7
+      },
+      "nutrients_source": "Tableau fabricant consulté le 2026-10-05 ; quantités pour 3 unité(s) par jour. Sous-ensemble des nutriments, pas validation intégrale du produit."
     },
     {
       "id": "solgar-vm75", "category": "multivitamin", "brand": "Solgar", "name": "Formula VM-75", "variant": "60 tablets",
@@ -466,18 +682,57 @@
       "url": "https://www.redcare-pharmacie.fr/hygiene-et-sante/BE09801624/solgar-formula.htm"
     },
     {
-      "id": "now-adam", "category": "multivitamin", "brand": "NOW Foods", "name": "ADAM Men's Multivitamin", "variant": "90 veg capsules",
-      "price_eur": 31.90, "price_note": "zumub.com EU listing ≈ €31–34, Jul 2026 (geo-priced).",
-      "units_pack": 90, "unit_name": "capsule", "units_per_day": 3, "active_per_unit": null, "active_unit": null,
-      "form": "Quality chelated minerals (TRAACS® zinc bisglycinate, methylcobalamin) BUT vitamin D as D2 in veg-cap version", "form_tier": 14, "form_note": "D2 instead of D3 caps the form score.",
-      "dose_tier": 12, "dose_note": "B12 at 10 000% NRV (megadose style); D 25 µg.",
+      "id": "now-adam",
+      "category": "multivitamin",
+      "brand": "NOW Foods",
+      "name": "ADAM Men's Multivitamin",
+      "variant": "90 veg capsules",
+      "price_eur": 31.9,
+      "price_note": "zumub.com EU listing ≈ €31–34, Jul 2026 (geo-priced).",
+      "units_pack": 90,
+      "unit_name": "capsule",
+      "units_per_day": 3,
+      "active_per_unit": null,
+      "active_unit": null,
+      "form": "Minerals including zinc picolinate and TRAACS® copper/manganese; methylcobalamin; vitamin D2 (ergocalciferol) in veg capsules",
+      "form_tier": 14,
+      "form_note": "D2 instead of D3 caps the form score.",
+      "dose_tier": 12,
+      "dose_note": "B12 at 10 000% NRV (megadose style); D 25 µg.",
       "vegan": true,
-      "purity_tags": ["bulking_filler", "anticaking", "anticaking2"], "additives_detail": ["Cellulose capsule/bulking", "Silica", "Stearic acid (vegetable)"],
-      "certifications": ["GMP (NPA A-rated)"],
-      "transparency": {"coa_published": false, "third_party_cert": false, "branded_ingredient": "TRAACS®", "full_label": true},
-      "flags": [], "confidence": "medium",
+      "purity_tags": [
+        "bulking_filler",
+        "anticaking",
+        "anticaking2"
+      ],
+      "additives_detail": [
+        "Cellulose capsule/bulking",
+        "Silica",
+        "Stearic acid (vegetable)"
+      ],
+      "certifications": [
+        "GMP (NPA A-rated)"
+      ],
+      "transparency": {
+        "coa_published": false,
+        "third_party_cert": false,
+        "branded_ingredient": "TRAACS®",
+        "full_label": true
+      },
+      "flags": [],
+      "confidence": "medium",
       "notes": "30 servings per bottle; includes saw palmetto, lycopene, CoQ10.",
-      "url": "https://www.nowfoods.com/products/supplements/adam-mens-multiple-vitamin-veg-capsules"
+      "url": "https://www.nowfoods.com/products/supplements/adam-mens-multiple-vitamin-veg-capsules",
+      "nutrients": {
+        "vitamin_d2": 1000,
+        "vitamin_c": 250,
+        "magnesium": 25,
+        "zinc": 15,
+        "folate": 400,
+        "vitamin_b6": 25,
+        "vitamin_b12": 250
+      },
+      "nutrients_source": "Tableau fabricant consulté le 2026-10-05 ; quantités pour 3 unité(s) par jour. Sous-ensemble des nutriments, pas validation intégrale du produit."
     },
     {
       "id": "foodspring-daily-vitamins", "category": "multivitamin", "brand": "foodspring", "name": "Daily Vitamins", "variant": "100 capsules",
@@ -495,20 +750,53 @@
       "nutrients_source": "label: 12 vitamins only, no minerals"
     },
     {
-      "id": "sunday-essentials-multi", "category": "multivitamin", "brand": "Sunday Natural", "name": "Essentials All in One Premium", "variant": "120 capsules",
-      "price_eur": 28.90, "price_note": "sunday.de verified Jul 2026.",
-      "units_pack": 120, "unit_name": "capsule", "units_per_day": 4, "active_per_unit": null, "active_unit": null,
-      "form": "60+ nutrients, bioactive/chelated forms (all-3-cobalamins B12, bioactive folate, chelated zinc), vegan D3 1000 IU, K2", "form_tier": 20, "form_note": "German bioactive-forms specialist.",
-      "dose_tier": 16, "dose_note": "Mostly physiological, but B12 at 8000% NRV (megadose).",
+      "id": "sunday-essentials-multi",
+      "category": "multivitamin",
+      "brand": "Sunday Natural",
+      "name": "Essentials All in One Premium",
+      "variant": "120 capsules",
+      "price_eur": 28.9,
+      "price_note": "sunday.de verified Jul 2026.",
+      "units_pack": 120,
+      "unit_name": "capsule",
+      "units_per_day": 4,
+      "active_per_unit": null,
+      "active_unit": null,
+      "form": "60+ nutrients, bioactive/chelated forms (all-3-cobalamins B12, bioactive folate, chelated zinc), vegan D3 1000 IU, K2",
+      "form_tier": 20,
+      "form_note": "German bioactive-forms specialist.",
+      "dose_tier": 16,
+      "dose_note": "Mostly physiological, but B12 at 8000% NRV (megadose).",
       "vegan": true,
-      "purity_tags": ["bulking_filler"], "additives_detail": ["Tapioca dextrin (carrier)"],
-      "certifications": ["Lab-tested, COAs published (brand policy)"],
-      "transparency": {"coa_published": true, "third_party_cert": false, "branded_ingredient": null, "full_label": true},
-      "flags": [], "confidence": "high",
+      "purity_tags": [
+        "bulking_filler"
+      ],
+      "additives_detail": [
+        "Tapioca dextrin (carrier)"
+      ],
+      "certifications": [
+        "Lab-tested, COAs published (brand policy)"
+      ],
+      "transparency": {
+        "coa_published": true,
+        "third_party_cert": false,
+        "branded_ingredient": null,
+        "full_label": true
+      },
+      "flags": [],
+      "confidence": "high",
       "notes": "30 days at full dose (4 caps) or 60 days at half dose.",
       "url": "https://www.sunday.de/en/multivitamin-essentials-all-in-one-premium.html",
-      "nutrients": {"vitamin_d3": 1000},
-      "nutrients_source": "label: vegan D3 1000 IU per 4-capsule dose"
+      "nutrients": {
+        "vitamin_d3": 1000,
+        "vitamin_c": 125,
+        "magnesium": 150,
+        "zinc": 8,
+        "folate": 400,
+        "vitamin_b6": 15,
+        "vitamin_b12": 200
+      },
+      "nutrients_source": "Tableau fabricant consulté le 2026-10-05 ; quantités pour 4 unité(s) par jour. Sous-ensemble des nutriments, pas validation intégrale du produit."
     }
   ]
 }

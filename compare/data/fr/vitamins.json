@@ -210,7 +210,7 @@
   "name": "Vitamine B12 Méthylcobalamine",
   "variant": "gélules · 120",
   "price_eur": 27.9,
-  "price_note": "cuure.com live 06/09/2026",
+  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
   "units_pack": 120,
   "unit_name": "gélule",
   "units_per_day": 1,
@@ -234,7 +234,12 @@
   "confidence": "medium",
   "url": "https://cuure.com/produits/vitamine-b12",
   "ean": null,
-  "notes": "Liste d'ingrédients lue sur les fiches « Ingrédients » de la page (méthylcobalamine, poudre de fleurs d'hibiscus, gélule végétale), pas de ligne d'étiquette formelle. 1 mg = 1 000 µg ; flacon « 120 jours »."
+  "notes": "Liste d'ingrédients lue sur les fiches « Ingrédients » de la page (méthylcobalamine, poudre de fleurs d'hibiscus, gélule végétale), pas de ligne d'étiquette formelle. 1 mg = 1 000 µg ; flacon « 120 jours ».",
+  "price_context": {
+   "kind": "observed_offer",
+   "checked_on": "2026-10-05",
+   "source_url": "https://cuure.com/produits/vitamine-b12"
+  }
  },
  {
   "category": "vitamin_b12",
@@ -242,7 +247,7 @@
   "name": "Vitamine B12 vegan",
   "variant": "gélules · 60",
   "price_eur": 10.9,
-  "price_note": "onatera.com live 06/09/2026",
+  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
   "units_pack": 60,
   "unit_name": "gélule",
   "units_per_day": 1,
@@ -266,7 +271,12 @@
   "confidence": "high",
   "url": "https://www.onatera.com/FR/fr/produit-vitamine-b12-vegan-60-gelules-vegetales-orfito",
   "ean": null,
-  "notes": "1 000 µg/j. Existe en 120 gélules (19,95 €)."
+  "notes": "1 000 µg/j. Existe en 120 gélules (19,95 €).",
+  "price_context": {
+   "kind": "observed_offer",
+   "checked_on": "2026-10-05",
+   "source_url": "https://www.onatera.com/FR/fr/produit-vitamine-b12-vegan-60-gelules-vegetales-orfito"
+  }
  },
  {
   "category": "vitamin_b12",
@@ -274,7 +284,7 @@
   "name": "Vitamine B12 liposomale LipoCellTech™",
   "variant": "gélules · 60",
   "price_eur": 15.95,
-  "price_note": "onatera.com live 06/09/2026",
+  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
   "units_pack": 60,
   "unit_name": "gélule",
   "units_per_day": 1,
@@ -299,7 +309,12 @@
   "confidence": "high",
   "url": "https://www.onatera.com/FR/fr/produit-vitamine-b12-liposomale-60-gelules-vegetales-enefis",
   "ean": null,
-  "notes": "1 000 µg/j."
+  "notes": "1 000 µg/j.",
+  "price_context": {
+   "kind": "observed_offer",
+   "checked_on": "2026-10-05",
+   "source_url": "https://www.onatera.com/FR/fr/produit-vitamine-b12-liposomale-60-gelules-vegetales-enefis"
+  }
  },
  {
   "category": "vitamin_b12",
@@ -307,7 +322,7 @@
   "name": "Vitamine B9 & B12 formes actives",
   "variant": "gélules · 60",
   "price_eur": 16.9,
-  "price_note": "onatera.com live 06/09/2026",
+  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
   "units_pack": 60,
   "unit_name": "gélule",
   "units_per_day": 1,
@@ -337,7 +352,12 @@
     "category": "folate",
     "per_day": 200
    }
-  ]
+  ],
+  "price_context": {
+   "kind": "observed_offer",
+   "checked_on": "2026-10-05",
+   "source_url": "https://www.onatera.com/FR/fr/produit-vitamine-b9-b12-formes-actives-60-gelules-orfito"
+  }
  },
  {
   "category": "vitamin_k2",
@@ -414,7 +434,7 @@
   "name": "Vitamines D3 + K2-MK7",
   "variant": "gélules · 30",
   "price_eur": 11.95,
-  "price_note": "nutrimuscle.com live 06/09/2026",
+  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
   "units_pack": 30,
   "unit_name": "gélule",
   "units_per_day": 1,
@@ -445,7 +465,12 @@
     "category": "vitamin_d3",
     "per_day": 1240
    }
-  ]
+  ],
+  "price_context": {
+   "kind": "observed_offer",
+   "checked_on": "2026-10-05",
+   "source_url": "https://www.nutrimuscle.com/products/vitamines-d3-k2-mk7?variant=50638352351561"
+  }
  },
  {
   "category": "vitamin_k2",
@@ -453,7 +478,7 @@
   "name": "K2+D3 Drops",
   "variant": "flacon 30 ml · 87 doses",
   "price_eur": 29.9,
-  "price_note": "shop.biotechusa.fr live 06/09/2026",
+  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
   "units_pack": 87,
   "unit_name": "dose de 10 gouttes",
   "units_per_day": 1,
@@ -482,7 +507,12 @@
     "category": "vitamin_d3",
     "per_day": 2000
    }
-  ]
+  ],
+  "price_context": {
+   "kind": "observed_offer",
+   "checked_on": "2026-10-05",
+   "source_url": "https://shop.biotechusa.fr/products/k2-d3-drops-30-ml"
+  }
  },
  {
   "category": "vitamin_k2",
@@ -561,8 +591,8 @@
   "brand": "Olimp Sport Nutrition",
   "name": "Gold-Vit® D3+K2 2000 IU Sport Edition",
   "variant": "capsules · 60",
-  "price_eur": 11.0,
-  "price_note": "olimpstore.fr live 06/09/2026",
+  "price_eur": 10.99,
+  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
   "units_pack": 60,
   "unit_name": "capsule",
   "units_per_day": 1,
@@ -590,7 +620,12 @@
     "category": "vitamin_d3",
     "per_day": 2000
    }
-  ]
+  ],
+  "price_context": {
+   "kind": "observed_offer",
+   "checked_on": "2026-10-05",
+   "source_url": "https://olimpstore.fr/olimp-gold-vit-d3-k2-2000-iu-sport-edition-60-gelules-2191"
+  }
  },
  {
   "category": "vitamin_k2",
@@ -630,7 +665,7 @@
   "name": "Vitamines K2 MK7 & D3",
   "variant": "comprimés · 90",
   "price_eur": 11.5,
-  "price_note": "onatera.com live 06/09/2026",
+  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
   "units_pack": 90,
   "unit_name": "comprimé",
   "units_per_day": 1,
@@ -661,7 +696,12 @@
     "category": "vitamin_d3",
     "per_day": 1000
    }
-  ]
+  ],
+  "price_context": {
+   "kind": "observed_offer",
+   "checked_on": "2026-10-05",
+   "source_url": "https://www.onatera.com/FR/fr/produit-vitamines-k2-mk7-d3-90-comprimes-onatera"
+  }
  },
  {
   "category": "vitamin_k2",
@@ -669,7 +709,7 @@
   "name": "Vitamines K2 MK7 & D3 Ultra",
   "variant": "gélules · 90",
   "price_eur": 19.9,
-  "price_note": "onatera.com live 06/09/2026",
+  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
   "units_pack": 90,
   "unit_name": "gélule",
   "units_per_day": 1,
@@ -698,7 +738,12 @@
     "category": "vitamin_d3",
     "per_day": 3000
    }
-  ]
+  ],
+  "price_context": {
+   "kind": "observed_offer",
+   "checked_on": "2026-10-05",
+   "source_url": "https://www.onatera.com/FR/fr/produit-vitamines-k2-mk7-d3-ultra-90-gelules-onatera"
+  }
  },
  {
   "category": "vitamin_k2",
@@ -737,7 +782,7 @@
   "name": "Complexe vitamines B",
   "variant": "gélules · 60",
   "price_eur": 18.9,
-  "price_note": "dynveo.fr live 06/09/2026",
+  "price_note": "Prix affiché sur le site fabricant pour ce format, consulté le 2026-10-05, hors livraison.",
   "units_pack": 60,
   "unit_name": "gélule",
   "units_per_day": 1,
@@ -760,7 +805,22 @@
   "ean": null,
   "notes": "≈ 100 % des VNR par gélule (B6 1,4 mg, B8 50 µg, B9 200 µg, B12 2,5 µg) ; 20 mg d'inositol et 20 mg de PABA.",
   "form_quality": "bioactive",
-  "dose_style": "physiological"
+  "dose_style": "physiological",
+  "nutrients": {
+   "vitamin_d3": 0,
+   "vitamin_c": 0,
+   "magnesium": 0,
+   "zinc": 0,
+   "folate": 200,
+   "vitamin_b1": 1.1,
+   "vitamin_b2": 1.4,
+   "vitamin_b3": 16,
+   "vitamin_b5": 6,
+   "vitamin_b6": 1.4,
+   "biotin": 50,
+   "vitamin_b12": 2.5
+  },
+  "nutrients_source": "Tableau fabricant consulté le 2026-10-05 ; quantités pour 1 unité(s) par jour. Sous-ensemble des nutriments, pas validation intégrale du produit."
  },
  {
   "category": "b_complex",
@@ -768,7 +828,7 @@
   "name": "Complexe vitamines B en gélules",
   "variant": "gélules · 30",
   "price_eur": 14.9,
-  "price_note": "nat-form.com live 06/09/2026",
+  "price_note": "Prix affiché sur le site fabricant pour ce format, consulté le 2026-10-05, hors livraison.",
   "units_pack": 30,
   "unit_name": "gélule",
   "units_per_day": 1,
@@ -793,7 +853,22 @@
   "ean": null,
   "notes": "B1 6,6 mg (600 % VNR), B2 7,7 mg (550 %), B3 80 mg (500 %), B5 29 mg (483 %), B6 3,2 mg (228 %) ; 80 mg de PABA, 80 mg d'inositol, 33 mg de choline.",
   "form_quality": "standard",
-  "dose_style": "megadose_b"
+  "dose_style": "megadose_b",
+  "nutrients": {
+   "vitamin_d3": 0,
+   "vitamin_c": 0,
+   "magnesium": 0,
+   "zinc": 0,
+   "folate": 300,
+   "vitamin_b1": 6.6,
+   "vitamin_b2": 7.7,
+   "vitamin_b3": 80,
+   "vitamin_b5": 29,
+   "vitamin_b6": 3.2,
+   "biotin": 700,
+   "vitamin_b12": 4.8
+  },
+  "nutrients_source": "Tableau fabricant consulté le 2026-10-05 ; quantités pour 1 unité(s) par jour. Sous-ensemble des nutriments, pas validation intégrale du produit."
  },
  {
   "category": "biotin",
@@ -870,7 +945,7 @@
   "name": "Biotine",
   "variant": "gélules · 60",
   "price_eur": 12.9,
-  "price_note": "cuure.com live 06/09/2026",
+  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
   "units_pack": 60,
   "unit_name": "gélule",
   "units_per_day": 1,
@@ -894,7 +969,12 @@
   "confidence": "medium",
   "url": "https://cuure.com/produits/biotine",
   "ean": null,
-  "notes": "450 µg/j. Liste d'ingrédients lue sur les fiches « Ingrédients » de la page."
+  "notes": "450 µg/j. Liste d'ingrédients lue sur les fiches « Ingrédients » de la page.",
+  "price_context": {
+   "kind": "observed_offer",
+   "checked_on": "2026-10-05",
+   "source_url": "https://cuure.com/produits/biotine"
+  }
  },
  {
   "category": "biotin",
@@ -902,7 +982,7 @@
   "name": "Vitamine B8 (Biotine) 1000 µg",
   "variant": "gélules · 60",
   "price_eur": 9.95,
-  "price_note": "onatera.com live 06/09/2026",
+  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
   "units_pack": 60,
   "unit_name": "gélule",
   "units_per_day": 1,
@@ -928,7 +1008,12 @@
   "confidence": "high",
   "url": "https://www.onatera.com/FR/fr/produit-vitamine-b8-biotine-1000-mg-50-gelules-orfito",
   "ean": null,
-  "notes": "1 000 µg/j — 25 × l'apport de référence."
+  "notes": "1 000 µg/j — 25 × l'apport de référence.",
+  "price_context": {
+   "kind": "observed_offer",
+   "checked_on": "2026-10-05",
+   "source_url": "https://www.onatera.com/FR/fr/produit-vitamine-b8-biotine-1000-mg-50-gelules-orfito"
+  }
  },
  {
   "category": "biotin",
@@ -1095,7 +1180,7 @@
   "name": "Vitamine B9 (acide folique)",
   "variant": "gélules · 90",
   "price_eur": 7.95,
-  "price_note": "onatera.com live 06/09/2026",
+  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
   "units_pack": 90,
   "unit_name": "gélule",
   "units_per_day": 1,
@@ -1122,6 +1207,11 @@
   "confidence": "medium",
   "url": "https://www.onatera.com/FR/fr/produit-vitamine-b9-acide-folique-100-gelules-orfito",
   "ean": null,
-  "notes": "Titre actuel « 90 gélules » ; la fiche mentionne encore une cure de 100 jours (ancien format 100). Excipients déclarés à part : maltodextrine, stéarate de magnésium, talc."
+  "notes": "Titre actuel « 90 gélules » ; la fiche mentionne encore une cure de 100 jours (ancien format 100). Excipients déclarés à part : maltodextrine, stéarate de magnésium, talc.",
+  "price_context": {
+   "kind": "observed_offer",
+   "checked_on": "2026-10-05",
+   "source_url": "https://www.onatera.com/FR/fr/produit-vitamine-b9-acide-folique-100-gelules-orfito"
+  }
  }
 ]

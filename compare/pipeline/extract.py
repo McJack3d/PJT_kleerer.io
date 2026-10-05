@@ -17,11 +17,9 @@ Priority order (most reliable first):
   2. OpenGraph / product meta tags (og:price:amount, product:price:amount)
   3. plain-text price fallback (regex, last resort)
 
-Ingredient/additive extraction from arbitrary merchant HTML is deliberately NOT
-attempted here in v0 — it is brittle and better sourced from OpenFoodFacts
-(offtake.py) or a per-merchant adapter (Phase 1). What we reliably get today is
-the thing that changes most often and matters most for the archive: PRICE and
-AVAILABILITY, plus enough identity to match a product.
+Explicit ingredient/composition blocks are extracted conservatively, regardless
+of where the price was found. Missing labels can be enriched from OpenFoodFacts
+(offtake.py) or a per-merchant adapter; we do not infer an absent ingredient list.
 
 Standard library only.
 """
@@ -96,17 +94,18 @@ def extract(html_text, url=""):
             if out["price"] is not None:
                 out["source"] = "json-ld"
         if out["price"] is not None:
-            return {k: (html.unescape(v) if isinstance(v, str) else v) for k, v in out.items()}
-
-    # 2) meta tags
-    for pat in PRICE_META:
-        m = re.search(pat, html_text, re.I)
-        if m:
-            out["price"] = _to_float(m.group(1))
-            cm = re.search(CURRENCY_META, html_text, re.I)
-            out["currency"] = cm.group(1) if cm else out["currency"]
-            out["source"] = "meta"
             break
+
+    # 2) meta tags — never replace the more reliable JSON-LD price.
+    if out["price"] is None:
+        for pat in PRICE_META:
+            m = re.search(pat, html_text, re.I)
+            if m:
+                out["price"] = _to_float(m.group(1))
+                cm = re.search(CURRENCY_META, html_text, re.I)
+                out["currency"] = cm.group(1) if cm else out["currency"]
+                out["source"] = "meta"
+                break
 
     # 3) plain-text euro fallback
     if out["price"] is None:
@@ -124,7 +123,7 @@ def extract(html_text, url=""):
     ing = extract_ingredients(html_text)
     if ing:
         out["ingredients_text"] = ing
-    return out
+    return {k: (html.unescape(v) if isinstance(v, str) else v) for k, v in out.items()}
 
 
 _TAG = re.compile(r"<[^>]+>")

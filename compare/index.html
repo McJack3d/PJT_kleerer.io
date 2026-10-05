@@ -213,6 +213,7 @@
   .gradeb.lg{width:64px; height:64px}
   .gradeb.lg b{font-size:30px}
   .gradeb.lg span{font-size:9px}
+  .m-title{min-width:0; overflow-wrap:anywhere}
   .m-title h2{font-size:1.15rem; font-weight:700; line-height:1.25}
   .m-sub{font-size:.78rem; color:var(--muted); margin-top:3px}
   .m-score{font-size:.78rem; margin-top:7px; color:var(--muted)}
@@ -234,6 +235,12 @@
   ul.plain li::before{content:"·"; color:var(--faint)}
   .flagbox{background:var(--warn-bg); border:1px solid var(--warn-line); color:var(--warn-ink); border-radius:2px; padding:11px 13px; font-size:.78rem; margin-top:8px}
   .footnote{font-size:.72rem; color:var(--faint); margin-top:18px; padding-top:14px; border-top:1px solid var(--line)}
+  .verification{margin-top:24px; border-top:1px solid var(--line); border-bottom:1px solid var(--line)}
+  .verification .tool-content{font-size:.75rem; color:var(--muted)}
+  .verification dl{display:grid; grid-template-columns:minmax(110px,1fr) 2fr; gap:8px 16px; margin:4px 0 12px}
+  .verification dt{color:var(--faint)}
+  .verification dd{margin:0; overflow-wrap:anywhere}
+  .verification p + p{margin-top:8px}
 
   /* ---------- compare table ---------- */
   .ctable{width:100%; border-collapse:collapse; font-size:.78rem; margin-top:16px}
@@ -400,8 +407,8 @@
   </div>
 </footer>
 
-<script src="i18n.js?v=1.5"></script>
-<script src="data.js?v=1.5"></script>
+<script src="i18n.js?v=1.11"></script>
+<script src="data.js?v=1.11"></script>
 <script>
 const P = N3GH_DATA.products;
 const META = N3GH_DATA.meta;
@@ -442,7 +449,7 @@ function renderStats(){
     <div class="stat"><b>${META.n_products}</b><span>${T("statProducts")}</span></div>
     <div class="stat"><b>${META.n_categories}</b><span>${T("statCategories")}</span></div>
     <div class="stat"><b>${META.region}</b><span>${T("statRegion")}</span></div>
-    <div class="stat"><b>${META.snapshot}</b><span>${T("statSnapshot")}</span></div>
+    <div class="stat"><b>${META.generated}</b><span>${T("statSnapshot")}</span></div>
     <div class="stat"><b>100%</b><span>${T("statOpen")}</span></div>`;
 }
 
@@ -725,6 +732,16 @@ function renderStackBtn(){
 
 // Nutrients that carry a regulatory ceiling — the ones a stack must not silently exceed.
 const UL_NUTRIENTS = ["vitamin_d3","magnesium","zinc","vitamin_c","folate"];
+const isMultiNutrient = p => p.category === "multivitamin" || p.category === "b_complex";
+const hasNutrientAmount = (n, k) => typeof n[k] === "number" && Number.isFinite(n[k]);
+const stackNutrientLabel = k => k === "vitamin_d3" ? T("stack").vitaminDTotal : catLabel(k);
+function stackNutrientAmount(n, k){
+  if (k !== "vitamin_d3") return hasNutrientAmount(n, k) ? n[k] : null;
+  // Both source fields are in IU. Keep D2/D3 separate on the label table,
+  // but combine known amounts for the existing total-vitamin-D limit check.
+  const forms = ["vitamin_d2", "vitamin_d3"].filter(key => hasNutrientAmount(n, key));
+  return forms.length ? forms.reduce((total, key) => total + n[key], 0) : null;
+}
 
 /* category -> [{p, amount, builtIn, fromMulti}]
    Multivitamins contribute every nutrient they have coded (0 = confirmed absent).
@@ -734,11 +751,13 @@ function stackContributions(items){
   const contrib = {}, gaps = [];
   const push = (cat, entry) => (contrib[cat] = contrib[cat]||[]).push(entry);
   for (const p of items){
-    if (p.category === "multivitamin"){
+    if (isMultiNutrient(p)){
       const n = p.nutrients || {};
-      for (const k of UL_NUTRIENTS)
-        if (typeof n[k] === "number" && n[k] > 0) push(k, {p, amount:n[k], fromMulti:true});
-      const missing = UL_NUTRIENTS.filter(k => typeof n[k] !== "number");
+      for (const k of UL_NUTRIENTS){
+        const amount = stackNutrientAmount(n, k);
+        if (amount > 0) push(k, {p, amount, fromMulti:true});
+      }
+      const missing = UL_NUTRIENTS.filter(k => stackNutrientAmount(n, k) === null);
       if (missing.length) gaps.push({p, missing});
       continue;
     }
@@ -747,7 +766,7 @@ function stackContributions(items){
     // limit) rather than sitting in a row of its own.
     if (d != null) push(p.category === "zma" ? "zinc" : p.category, {p, amount:d});
     for (const sa of (p.secondary_actives||[]))
-      push(sa.category, {p, amount:sa.per_day, builtIn:true});
+      push(sa.category === "vitamin_d2" ? "vitamin_d3" : sa.category, {p, amount:sa.per_day, builtIn:true});
   }
   return {contrib, gaps};
 }
@@ -756,9 +775,9 @@ function stackContributions(items){
 // surfaced instead of silently ignored (same philosophy as "needs review")
 const MENTIONS = [["vitamin_d3",/vitamine?\s*d\s*3?\b/i], ["vitamin_c",/vitamine?\s*c\b/i],
   ["zinc",/\bzinc\b/i], ["magnesium",/magn[eé]sium/i], ["melatonin",/m[eé]latonine?/i],
-  ["collagen",/collag[eè]ne|collagen/i]];
+  ["collagen",/collag[eè]ne|collagen/i], ["vitamin_b6",/\bb\s*6\b/i]];
 function uncodedMentions(p){
-  if (p.category === "multivitamin") return [];
+  if (isMultiNutrient(p)) return [];
   const txt = (p.name + " " + (p.variant||"") + " " + (p.form||"")).toLowerCase();
   const coded = new Set((p.secondary_actives||[]).map(s => s.category));
   const own = p.category === "zma" ? "zinc" : p.category;
@@ -792,7 +811,7 @@ function stackRowHTML(catKey, entries){
           : e.fromMulti ? " <b>"+esc(S.fromMulti)+"</b>" : ""}`).join(" + ")}</div>`
     : "";
   return `<div class="stkrow">
-    <div class="stk-head"><b>${catLabel(catKey)}</b>
+    <div class="stk-head"><b>${stackNutrientLabel(catKey)}</b>
       <span>${esc(S.total)} <b>${fmtNum(total)}</b> ${unit} ${chip}</span></div>
     ${from}${bar}${note}
   </div>`;
@@ -836,7 +855,7 @@ function renderStack(){
 
   if (gaps.length)
     html += `<div class="flagbox" style="margin-top:14px">${S.multiWarn(gaps.map(g =>
-      `<b>${esc(g.p.brand)} ${esc(g.p.name)}</b> (${g.missing.map(catLabel).join(", ")})`).join(" · "))}</div>`;
+      `<b>${esc(g.p.brand)} ${esc(g.p.name)}</b> (${g.missing.map(stackNutrientLabel).join(", ")})`).join(" · "))}</div>`;
 
   const mentions = items.flatMap(p => uncodedMentions(p).map(c => ({p, c})));
   if (mentions.length)
@@ -1044,6 +1063,50 @@ function openCompare(){
 }
 
 /* ---------- detail ---------- */
+function verificationHTML(p){
+  const V = T("verification"), v = p.verification || {};
+  const prov = p.provenance || {zone:"UNKNOWN"};
+  const link = (url, label) => typeof url === "string" && /^https?:\/\//i.test(url)
+    ? `<a href="${esc(url)}" target="_blank" rel="noopener nofollow">${esc(label)} ↗</a>` : "";
+  const sourceLink = link(p.url, V.openSource);
+  const labelLink = link(v.label_source_url, V.openLabel);
+  const priceLink = link(v.price_source_url, V.openPrice);
+  const sourceState = V.statuses[v.source_status] ||
+    V.statuses[v.source_reachable === true ? "reachable_unverified" : "unchecked"];
+  const rows = [
+    [V.source, `${esc(sourceState)}${v.checked_on?` · ${esc(v.checked_on)}`:""}${sourceLink?`<br>${sourceLink}`:""}`],
+    [V.label, `${esc(v.label_checked_on ? V.checkedOn(v.label_checked_on) : V.notRechecked)}${labelLink?`<br>${labelLink}`:""}`],
+    [V.price, `${esc(v.price_checked_on ? V.checkedOn(v.price_checked_on) : V.notRechecked)}${priceLink?`<br>${priceLink}`:""}`]
+  ];
+  if (V.availabilityStates[v.availability]) rows.push([V.availability, esc(V.availabilityStates[v.availability])]);
+  return `<details class="tool-options verification">
+    <summary>${esc(V.title)}</summary>
+    <div class="tool-content">
+      <dl>${rows.map(([label, value]) => `<dt>${esc(label)}</dt><dd>${value}</dd>`).join("")}</dl>
+      <p>${esc(V.accessNote)}</p>
+      ${v.label_scope?`<p><b>${esc(V.scope)}</b> ${esc(v.label_scope)}</p>`:""}
+      ${v.price_scope?`<p><b>${esc(V.priceScope)}</b> ${esc(v.price_scope)}</p>`:""}
+      ${Array.isArray(v.pending_fields)&&v.pending_fields.length?`<p><b>${esc(V.pending)}</b> ${v.pending_fields.map(field=>esc(V.fields[field] || field)).join(" · ")}</p>`:""}
+      ${Array.isArray(v.review_notes)?v.review_notes.map(note=>`<p>${esc(note)}</p>`).join(""):""}
+      <p><b>${esc(V.origin)}</b> ${provBadge(p)} ${esc(zoneLabel(prov.zone))}${prov.country?` · ${esc(prov.country)}`:""}. ${esc(V.originNote)}</p>
+    </div>
+  </details>`;
+}
+
+function nutrientTableHTML(p){
+  const D = T("detail"), n = p.nutrients || {};
+  const coded = Object.keys(n).filter(k => hasNutrientAmount(n, k));
+  const missing = UL_NUTRIENTS.filter(k => stackNutrientAmount(n, k) === null);
+  return `<div class="sec"><h3>${esc(D.secNutrients)}</h3>
+    <p style="font-size:.85rem">${esc(D.multiLead)}</p>
+    ${coded.length?`<ul class="plain" style="margin-top:8px">${coded.map(k =>
+      `<li>${esc(catLabel(k))}: <b>${n[k]===0?esc(D.absent):fmtNum(n[k])+" "+esc(T("nutrientUnits")[k] || stackUnit(k))}</b>${n[k]>0?" / "+esc(D.perDayWord):""}</li>`).join("")}</ul>
+      <p style="font-size:.7rem;color:var(--muted);margin-top:6px">${esc(D.multiCoded)}${p.nutrients_source?" — "+esc(p.nutrients_source):""}</p>`:""}
+    ${missing.length?`<p style="font-size:.7rem;color:var(--muted);margin-top:6px">${esc(D.multiMissing(missing.map(stackNutrientLabel).join(", ")))}</p>`:""}
+    <p style="font-size:.7rem;color:var(--muted);margin-top:6px">${esc(D.multiNote(p.scores.dose))}</p>
+  </div>`;
+}
+
 function openDetail(id){
   const p = P.find(x => x.id === id), s = p.scores;
   const D = T("detail");
@@ -1053,7 +1116,6 @@ function openDetail(id){
     [D.rowPurity, s.purity, 30, p.additives_detail.length ? p.additives_detail.join(" · ") : D.noAdditives],
     [D.rowTransparency, s.transparency, 30, p.certifications.length ? p.certifications.join(" · ") : D.noCerts]
   ];
-  const prov = p.provenance || {zone:"UNKNOWN"};
   let html = `<button class="close" onclick="closeModal()">✕</button>
     ${s.red_card?`<div class="redcard-banner" style="margin-bottom:14px">${esc(D.redCardLong((s.banned_substances||[]).join(", ").replace(/_/g," ")))}</div>`:""}
     <div class="m-head">
@@ -1077,26 +1139,12 @@ function openDetail(id){
       <p style="font-size:.72rem;color:var(--muted);margin-top:8px">${esc(p.price_note)}</p>
       ${priceCtxLine(p)?`<p style="font-size:.72rem;margin-top:6px" class="${p.price_context.kind==="promo_price"?"fit-over":""}">${esc(priceCtxLine(p))}</p>`:""}
     </div>
-    <div class="sec"><h3>${esc(D.secProvenance)}</h3>
-      <p style="font-size:.85rem">${provBadge(p)} <b>${esc(zoneLabel(prov.zone))}</b>${prov.country?` · ${esc(prov.country)}`:""}
-      ${prov.malus?` <span style="color:var(--muted)">${esc(D.provMalus(prov.malus))}</span>`:""}</p>
-    </div>
+    ${verificationHTML(p)}
     ${(function(){
+      if(isMultiNutrient(p)) return nutrientTableHTML(p);
       const f=doseFit(p);
       if(!f) return `<div class="sec"><h3>${esc(D.secDosage)}</h3><p style="font-size:.78rem;color:var(--muted)">${
         esc(PROFILE ? D.noDose : D.fillProfile)}</p></div>`;
-      if(f.state==="multi"){
-        const n = p.nutrients || {};
-        const coded = UL_NUTRIENTS.filter(k => typeof n[k] === "number");
-        const missing = UL_NUTRIENTS.filter(k => typeof n[k] !== "number");
-        return `<div class="sec"><h3>${esc(D.secDosage)}</h3>
-        <p style="font-size:.85rem">${esc(D.multiLead)}</p>
-        ${coded.length?`<ul class="plain" style="margin-top:8px">${coded.map(k =>
-          `<li>${esc(catLabel(k))}: <b>${n[k]===0?esc(D.absent):fmtNum(n[k])+" "+esc(stackUnit(k))}</b>${n[k]>0?" / "+esc(D.perDayWord):""}</li>`).join("")}</ul>
-          <p style="font-size:.7rem;color:var(--muted);margin-top:6px">${esc(D.multiCoded)}${p.nutrients_source?" — "+esc(p.nutrients_source):""}</p>`:""}
-        ${missing.length?`<p style="font-size:.7rem;color:var(--muted);margin-top:6px">${esc(D.multiMissing(missing.map(catLabel).join(", ")))}</p>`:""}
-        <p style="font-size:.7rem;color:var(--muted);margin-top:6px">${esc(D.multiNote(p.scores.dose))}</p></div>`;
-      }
       return `<div class="sec"><h3>${esc(D.secDosage)}</h3>
         <p style="font-size:.85rem"><span class="${f.cls}">${esc(f.label)}</span></p>
         ${f.noBar?"":doseBar(f)}

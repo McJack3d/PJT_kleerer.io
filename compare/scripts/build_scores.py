@@ -20,7 +20,7 @@ everything on one code path, and writes data.js.
 Every rule mirrors METHODOLOGY.md. Change one, change both.
 """
 import json, os, sys, datetime, hashlib, glob, re
-import autotag, review, alert
+import autotag, review, alert, verification
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 V1   = os.path.join(HERE, "..", "data", "products_raw.json")
@@ -201,7 +201,8 @@ def grade(s):
     return "A" if s>=80 else "B" if s>=65 else "C" if s>=50 else "D" if s>=35 else "E"
 
 # --------------------------------------------------------------------------- #
-#  Provenance (v1.2). Country of MANUFACTURE per brand + a proximity malus.
+#  Provenance (v1.2). Brand-based origin estimate + a proximity malus.
+#  This lookup does not establish where a particular product was manufactured.
 #  IMPORTANT: this malus is kept OUT of the Health & Compo Score — a clean
 #  German product is not "less healthy" than a French one. It is shown as a
 #  separate, transparent axis (n3gh has a French-market focus). See
@@ -238,8 +239,8 @@ def provenance_for(brand):
     n = autotag._norm(brand or "")
     for key, (country, zone) in PROVENANCE.items():
         if key.strip() and key.strip() in n:
-            return {"country": country, "zone": zone, "malus": ZONE_MALUS[zone]}
-    return {"country": None, "zone": "UNKNOWN", "malus": 0}
+            return {"country": country, "zone": zone, "malus": ZONE_MALUS[zone], "basis": "brand_estimate"}
+    return {"country": None, "zone": "UNKNOWN", "malus": 0, "basis": "unknown"}
 
 def price_tier(value_std, mean, std):
     """1–5 affordability band within a category (1 = cheapest per standard dose,
@@ -343,6 +344,7 @@ def main():
                 products.append(p)
 
     ledger = review.load()
+    source_checks, label_checks = verification.load()
     errors, seen = [], {}
     for p in products:
         if p["id"] in seen:
@@ -371,6 +373,7 @@ def main():
         p.pop("review_flags", None)
 
         p["provenance"] = provenance_for(p.get("brand"))
+        p["verification"] = verification.attach(p, source_checks, label_checks)
 
         form = p["form_tier"]; dose = dose_score(p)
         pur = purity_score(p["purity_tags"]); tra = transparency_score(p["transparency"])
@@ -434,6 +437,9 @@ def main():
                  "generated":datetime.date.today().isoformat(),
                  "n_products":len(products),"n_categories":len(cats),
                  "n_red_cards":n_red,
+                 "n_source_checks":sum(bool(p["verification"].get("checked_on")) for p in products),
+                 "n_label_checks":sum(bool(p["verification"].get("label_checked_on")) for p in products),
+                 "n_price_checks":sum(bool(p["verification"].get("price_checked_on")) for p in products),
                  "n_withheld_for_review":len(withheld),
                  "botanical_categories":BOTANICALS,
                  "booster_categories":BOOSTERS,

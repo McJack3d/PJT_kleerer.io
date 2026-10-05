@@ -41,6 +41,40 @@ def test_extract_jsonld():
     assert e["source"] == "json-ld"
 
 
+def test_extract_jsonld_keeps_ingredients_and_price_priority():
+    # A structured price must not short-circuit label extraction or be replaced
+    # by a less reliable promotional/meta price elsewhere in the page.
+    page = _read("jsonld_product.html") + """
+      <meta property="product:price:amount" content="99.90">
+      <p>Ingrédients: collagène marin, sucralose, acésulfame K.
+         Conseils d'utilisation : une portion par jour.</p>
+    """
+    e = extract.extract(page, "https://example.com/product")
+    assert e["price"] == 14.90
+    assert e["source"] == "json-ld"
+    assert e["brand"] == "Nutripure"
+    assert e["ingredients_text"] == "collagène marin, sucralose, acésulfame K"
+    tags = [autotag.classify_additive(x)
+            for x in extract.ingredient_items(e["ingredients_text"])]
+    assert "sweetener_d" in tags and "sweetener_c" in tags
+
+
+def test_extract_jsonld_without_price_falls_back_and_keeps_ingredients():
+    page = """
+      <script type="application/ld+json">
+        {"@type": "Product", "name": "A &amp; B", "brand": "Example"}
+      </script>
+      <meta property="product:price:amount" content="12.90">
+      <p>Ingrédients: créatine monohydrate, arôme naturel.
+         Conseils d'utilisation : une portion par jour.</p>
+    """
+    e = extract.extract(page, "https://example.com/product")
+    assert e["price"] == 12.90
+    assert e["source"] == "meta"
+    assert e["name"] == "A & B"
+    assert e["ingredients_text"] == "créatine monohydrate, arôme naturel"
+
+
 def test_extract_meta_french_comma():
     e = extract.extract(_read("meta_product.html"), "http://x")
     assert e["price"] == 11.90          # "11,90" parsed correctly
@@ -97,6 +131,8 @@ def test_autotag_penalties_v12():
     assert autotag.classify_additive("stéarate de magnésium") == "anticaking"
     assert autotag.classify_additive("lécithine de tournesol") == "lecithin"
     assert autotag.classify_additive("Botanical blend without individual doses") == "proprietary_blend"
+    # Methodology v1.3: trace acidity regulators use the separate -1 band.
+    assert autotag.classify_additive("acide citrique") == "acidity_regulator"
 
 
 def test_autotag_natural_sweeteners_neutral():
@@ -118,7 +154,7 @@ def test_autotag_red_card_substances():
 def test_autotag_neutrals():
     for neutral in ["huile de colza vierge bio", "gélule végétale (HPMC)",
                     "arôme naturel de vanille", "extrait riche en tocophérols",
-                    "glycérine", "acide citrique", "Organic olive oil (antioxidant, neutral)"]:
+                    "glycérine", "Organic olive oil (antioxidant, neutral)"]:
         assert autotag.classify_additive(neutral) is None, neutral
 
 

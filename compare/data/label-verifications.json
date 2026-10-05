@@ -1,0 +1,704 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-05",
+  "scope": "Vérifications documentaires par champ. Les autres champs historiques ne sont pas certifiés par ces observations.",
+  "units": {
+    "vitamin_d2": "IU/day",
+    "vitamin_d3": "IU/day",
+    "magnesium": "mg/day elemental",
+    "zinc": "mg/day elemental",
+    "vitamin_c": "mg/day",
+    "folate": "µg/day supplemental folate; not DFE",
+    "vitamin_b1": "mg/day",
+    "vitamin_b2": "mg/day",
+    "vitamin_b3": "mg/day",
+    "vitamin_b5": "mg/day",
+    "vitamin_b6": "mg/day",
+    "vitamin_b12": "µg/day",
+    "biotin": "µg/day"
+  },
+  "products": {
+    "myprotein-alpha-men": {
+      "checked_on": "2026-10-05",
+      "label": {
+        "checked_on": "2026-10-05",
+        "source_url": "https://fr.myprotein.com/p/nutrition-sportive/alpha-men-comprimes-multivitamines/10530421/",
+        "scope": "Quantités journalières des nutriments affichés et nombre d’unités par jour. Additifs, certifications et autres nutriments non revérifiés.",
+        "fields": {
+          "nutrients": {
+            "vitamin_d3": 200,
+            "vitamin_c": 80,
+            "magnesium": 56,
+            "zinc": 15,
+            "folate": 400,
+            "vitamin_b6": 4.2,
+            "vitamin_b12": 7.5
+          },
+          "units_per_day": 2
+        },
+        "product_identity": {
+          "brand": "Myprotein",
+          "name": "Alpha Men Multivitamin",
+          "variant": "120 tablets",
+          "url": "https://fr.myprotein.com/p/nutrition-sportive/alpha-men-comprimes-multivitamines/10530421/",
+          "pack_g": null,
+          "units_pack": 120,
+          "ean": null
+        }
+      },
+      "pending_fields": [
+        "Prix du format 120 comprimés : la page affiche aussi 60 comprimés."
+      ],
+      "review_notes": []
+    },
+    "nutrico-le-multi": {
+      "checked_on": "2026-10-05",
+      "label": {
+        "checked_on": "2026-10-05",
+        "source_url": "https://nutriandco.com/fr/produits/multivitamines",
+        "scope": "Quantités journalières des nutriments affichés et nombre d’unités par jour. Additifs, certifications et autres nutriments non revérifiés.",
+        "fields": {
+          "nutrients": {
+            "vitamin_d3": 1000,
+            "vitamin_c": 80,
+            "magnesium": 150,
+            "zinc": 10,
+            "folate": 200,
+            "vitamin_b6": 2,
+            "vitamin_b12": 2.7
+          },
+          "units_per_day": 3
+        },
+        "product_identity": {
+          "brand": "Nutri&Co",
+          "name": "Le Multi (25 bioactive nutrients)",
+          "variant": "90 capsules",
+          "url": "https://nutriandco.com/fr/produits/multivitamines",
+          "pack_g": null,
+          "units_pack": 90,
+          "ean": null
+        }
+      },
+      "pending_fields": [],
+      "review_notes": [],
+      "price": {
+        "checked_on": "2026-10-05",
+        "source_url": "https://nutriandco.com/fr/produits/multivitamines",
+        "price_eur": 27.9,
+        "variant": "90 capsules",
+        "scope": "Prix fabricant, achat à l’unité, hors livraison.",
+        "product_identity": {
+          "brand": "Nutri&Co",
+          "name": "Le Multi (25 bioactive nutrients)",
+          "variant": "90 capsules",
+          "url": "https://nutriandco.com/fr/produits/multivitamines",
+          "pack_g": null,
+          "units_pack": 90,
+          "ean": null
+        }
+      }
+    },
+    "solgar-vm75": {
+      "checked_on": "2026-10-05",
+      "review_notes": [
+        "La fiche fabricant américaine VM-75 comporte une formulation distincte selon les marchés. Ne pas transposer automatiquement ses quantités ou excipients à la référence européenne."
+      ],
+      "pending_fields": [
+        "Étiquette européenne exacte et tableau nutritionnel."
+      ]
+    },
+    "now-adam": {
+      "checked_on": "2026-10-05",
+      "label": {
+        "checked_on": "2026-10-05",
+        "source_url": "https://www.nowfoods.com/products/supplements/adam-mens-multiple-vitamin-veg-capsules",
+        "scope": "Quantités journalières des nutriments affichés et nombre d’unités par jour. Additifs, certifications et autres nutriments non revérifiés.",
+        "fields": {
+          "nutrients": {
+            "vitamin_d2": 1000,
+            "vitamin_c": 250,
+            "magnesium": 25,
+            "zinc": 15,
+            "folate": 400,
+            "vitamin_b6": 25,
+            "vitamin_b12": 250
+          },
+          "units_per_day": 3
+        },
+        "product_identity": {
+          "brand": "NOW Foods",
+          "name": "ADAM Men's Multivitamin",
+          "variant": "90 veg capsules",
+          "url": "https://www.nowfoods.com/products/supplements/adam-mens-multiple-vitamin-veg-capsules",
+          "pack_g": null,
+          "units_pack": 90,
+          "ean": null
+        }
+      },
+      "pending_fields": [],
+      "review_notes": [
+        "Folate : 400 µg d’acide folique (680 µg DFE sur l’étiquette). Vitamine D sous forme D2, pas D3. Formule fabricant US ; vérifier la concordance avec le flacon vendu en Europe."
+      ]
+    },
+    "foodspring-daily-vitamins": {
+      "checked_on": "2026-10-05",
+      "review_notes": [
+        "Fiche historique déjà signalée comme retirée de la vente ; aucune URL active dans le catalogue."
+      ],
+      "pending_fields": [
+        "Disponibilité et source de la formule historique."
+      ]
+    },
+    "sunday-essentials-multi": {
+      "checked_on": "2026-10-05",
+      "label": {
+        "checked_on": "2026-10-05",
+        "source_url": "https://www.sunday.de/en/multivitamin-essentials-all-in-one-premium.html",
+        "scope": "Quantités journalières des nutriments affichés et nombre d’unités par jour. Additifs, certifications et autres nutriments non revérifiés.",
+        "fields": {
+          "nutrients": {
+            "vitamin_d3": 1000,
+            "vitamin_c": 125,
+            "magnesium": 150,
+            "zinc": 8,
+            "folate": 400,
+            "vitamin_b6": 15,
+            "vitamin_b12": 200
+          },
+          "units_per_day": 4
+        },
+        "product_identity": {
+          "brand": "Sunday Natural",
+          "name": "Essentials All in One Premium",
+          "variant": "120 capsules",
+          "url": "https://www.sunday.de/en/multivitamin-essentials-all-in-one-premium.html",
+          "pack_g": null,
+          "units_pack": 120,
+          "ean": null
+        }
+      },
+      "pending_fields": [
+        "Liste complète des excipients et score associé."
+      ],
+      "review_notes": [
+        "Les excipients du site fabricant sont plus détaillés que la fiche historique ; score de composition à revoir séparément."
+      ]
+    },
+    "arkopharma-azinc-vitalite-adulte-120-gelules": {
+      "checked_on": "2026-10-05",
+      "label": {
+        "checked_on": "2026-10-05",
+        "source_url": "https://fr.arkopharma.com/products/azinc-vitalite-gelules",
+        "scope": "Quantités journalières des nutriments affichés et nombre d’unités par jour. Additifs, certifications et autres nutriments non revérifiés.",
+        "fields": {
+          "nutrients": {
+            "vitamin_d3": 200,
+            "vitamin_c": 120,
+            "zinc": 15,
+            "folate": 200,
+            "vitamin_b6": 2,
+            "vitamin_b12": 1
+          },
+          "units_per_day": 2
+        },
+        "product_identity": {
+          "brand": "Arkopharma",
+          "name": "Azinc Vitalité Adulte",
+          "variant": "120 gélules",
+          "url": "https://fr.arkopharma.com/products/azinc-vitalite-gelules",
+          "pack_g": null,
+          "units_pack": 120,
+          "ean": "3578835502800"
+        }
+      },
+      "pending_fields": [
+        "Magnésium élémentaire non quantifié dans le tableau.",
+        "Prix du conditionnement 120 gélules."
+      ],
+      "review_notes": []
+    },
+    "alvityl-vitalite-a-avaler-40-comprimes": {
+      "checked_on": "2026-10-05",
+      "label": {
+        "checked_on": "2026-10-05",
+        "source_url": "https://alvityl.fr/alvityl-produits/alvityl-vitalite-a-avaler/",
+        "scope": "Quantités journalières des nutriments affichés et nombre d’unités par jour. Additifs, certifications et autres nutriments non revérifiés.",
+        "fields": {
+          "nutrients": {
+            "vitamin_d3": 200,
+            "vitamin_c": 80,
+            "magnesium": 57,
+            "zinc": 10,
+            "folate": 200,
+            "vitamin_b6": 1.4,
+            "vitamin_b12": 2.5
+          },
+          "units_per_day": 1
+        },
+        "product_identity": {
+          "brand": "Alvityl",
+          "name": "Vitalité à avaler",
+          "variant": "40 comprimés",
+          "url": "https://alvityl.fr/alvityl-produits/alvityl-vitalite-a-avaler/",
+          "pack_g": null,
+          "units_pack": 40,
+          "ean": "3664492022864"
+        }
+      },
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "bion3-p-g-bion3-defense-adultes-30-comprimes": {
+      "checked_on": "2026-10-05",
+      "label": {
+        "checked_on": "2026-10-05",
+        "source_url": "https://www.bion3.com/fr-fr/produits/bion3-defense-comprimes",
+        "scope": "Quantités journalières des nutriments affichés et nombre d’unités par jour. Additifs, certifications et autres nutriments non revérifiés.",
+        "fields": {
+          "nutrients": {
+            "vitamin_d3": 400,
+            "vitamin_c": 120,
+            "magnesium": 56.3,
+            "zinc": 10,
+            "folate": 300,
+            "vitamin_b6": 2,
+            "vitamin_b12": 3
+          },
+          "units_per_day": 1
+        },
+        "product_identity": {
+          "brand": "Bion3 (P&G)",
+          "name": "Bion3 Défense Adultes",
+          "variant": "30 comprimés",
+          "url": "https://www.bion3.com/fr-fr/produits/bion3-defense-comprimes",
+          "pack_g": null,
+          "units_pack": 30,
+          "ean": "3401377618190"
+        }
+      },
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "bayer-berocca-energie-30-comprimes": {
+      "checked_on": "2026-10-05",
+      "label": {
+        "checked_on": "2026-10-05",
+        "source_url": "https://www.beroccagamme.fr/nos-produits/beroccaenergie-comprime",
+        "scope": "Quantités journalières des nutriments affichés et nombre d’unités par jour. Additifs, certifications et autres nutriments non revérifiés.",
+        "fields": {
+          "nutrients": {
+            "vitamin_d3": 0,
+            "vitamin_c": 500,
+            "magnesium": 100,
+            "zinc": 10,
+            "folate": 400,
+            "vitamin_b6": 8.22,
+            "vitamin_b12": 10
+          },
+          "units_per_day": 1
+        },
+        "product_identity": {
+          "brand": "Bayer",
+          "name": "Berocca Energie",
+          "variant": "30 comprimés",
+          "url": "https://www.pharma-gdd.com/fr/berocca-energie-comprimes",
+          "pack_g": null,
+          "units_pack": 30,
+          "ean": "3534510000665"
+        }
+      },
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "isoxan-isoxan-adulte-20-comprimes": {
+      "checked_on": "2026-10-05",
+      "label": {
+        "checked_on": "2026-10-05",
+        "source_url": "https://isoxan.com/produits/isoxan-adulte/",
+        "scope": "Quantités journalières des nutriments affichés et nombre d’unités par jour. Additifs, certifications et autres nutriments non revérifiés.",
+        "fields": {
+          "nutrients": {
+            "vitamin_d3": 0,
+            "vitamin_c": 80,
+            "magnesium": 100,
+            "zinc": 5,
+            "folate": 200,
+            "vitamin_b6": 2,
+            "vitamin_b12": 1.5
+          },
+          "units_per_day": 1
+        },
+        "product_identity": {
+          "brand": "Isoxan",
+          "name": "Isoxan Adulte",
+          "variant": "20 comprimés",
+          "url": "https://isoxan.com/produits/isoxan-adulte/",
+          "pack_g": null,
+          "units_pack": 20,
+          "ean": "3401554166858"
+        }
+      },
+      "pending_fields": [],
+      "review_notes": [
+        "Tableau des comprimés à avaler ; ne pas utiliser celui de la version effervescente."
+      ]
+    },
+    "nutripure-multivitamines-60-gelules": {
+      "checked_on": "2026-10-05",
+      "label": {
+        "checked_on": "2026-10-05",
+        "source_url": "https://www.nutripure.fr/fr/sante/1-multi-vitamines-mineraux.html",
+        "scope": "Quantités journalières des nutriments affichés et nombre d’unités par jour. Additifs, certifications et autres nutriments non revérifiés.",
+        "fields": {
+          "nutrients": {
+            "vitamin_d3": 1000,
+            "vitamin_c": 216,
+            "magnesium": 120,
+            "zinc": 10,
+            "folate": 200,
+            "vitamin_b6": 2,
+            "vitamin_b12": 5
+          },
+          "units_per_day": 2
+        },
+        "product_identity": {
+          "brand": "Nutripure",
+          "name": "Multivitamines",
+          "variant": "60 gélules",
+          "url": "https://www.nutripure.fr/fr/sante/1-multi-vitamines-mineraux.html",
+          "pack_g": null,
+          "units_pack": 60,
+          "ean": null
+        }
+      },
+      "pending_fields": [
+        "Prix à vérifier sur le format 60 gélules seul."
+      ],
+      "review_notes": []
+    },
+    "nutrimuscle-multivitamines-poudre-pot-60-g-88-doses": {
+      "checked_on": "2026-10-05",
+      "review_notes": [
+        "La page actuelle annonce une nouvelle formule à 12 vitamines et 60 µg de D3 par dose de 670 mg, contre 13 vitamines et 6 µg dans cette fiche historique. Le format et l’étiquette doivent être rapprochés avant remplacement."
+      ],
+      "pending_fields": [
+        "Formule actuelle, étiquette du conditionnement et score de composition."
+      ]
+    },
+    "dynveo-multivitamines-multi27-60-gelules": {
+      "checked_on": "2026-10-05",
+      "label": {
+        "checked_on": "2026-10-05",
+        "source_url": "https://www.dynveo.fr/products/multivitamines",
+        "scope": "Quantités journalières des nutriments affichés et nombre d’unités par jour. Additifs, certifications et autres nutriments non revérifiés.",
+        "fields": {
+          "nutrients": {
+            "vitamin_d3": 200,
+            "vitamin_c": 80,
+            "magnesium": 0,
+            "zinc": 10,
+            "folate": 200,
+            "vitamin_b6": 1.4,
+            "vitamin_b12": 5
+          },
+          "units_per_day": 2
+        },
+        "product_identity": {
+          "brand": "Dynveo",
+          "name": "Multivitamines Multi27",
+          "variant": "60 gélules",
+          "url": "https://www.dynveo.fr/products/multivitamines",
+          "pack_g": null,
+          "units_pack": 60,
+          "ean": null
+        }
+      },
+      "pending_fields": [],
+      "review_notes": [],
+      "price": {
+        "checked_on": "2026-10-05",
+        "source_url": "https://www.dynveo.fr/products/multivitamines",
+        "price_eur": 27.9,
+        "variant": "60 gélules",
+        "scope": "Prix fabricant, achat à l’unité, hors livraison.",
+        "product_identity": {
+          "brand": "Dynveo",
+          "name": "Multivitamines Multi27",
+          "variant": "60 gélules",
+          "url": "https://www.dynveo.fr/products/multivitamines",
+          "pack_g": null,
+          "units_pack": 60,
+          "ean": null
+        }
+      }
+    },
+    "cuure-multivitamines-60-gelules": {
+      "checked_on": "2026-10-05",
+      "review_notes": [
+        "La page accessible ne permet pas de confirmer l’ensemble des quantités journalières de la fiche."
+      ],
+      "pending_fields": [
+        "Tableau par dose quotidienne et magnésium élémentaire."
+      ]
+    },
+    "epycure-cure-multivitamines-60-gelules": {
+      "checked_on": "2026-10-05",
+      "label": {
+        "checked_on": "2026-10-05",
+        "source_url": "https://epycure.com/products/essentiel-anti-fatigue",
+        "scope": "Vitamine C et D3 uniquement, d’après la FAQ fabricant, pour 2 gélules par jour.",
+        "fields": {
+          "nutrients": {
+            "vitamin_d3": 400,
+            "vitamin_c": 80
+          },
+          "units_per_day": 2
+        },
+        "product_identity": {
+          "brand": "Epycure",
+          "name": "Cure multivitamines+",
+          "variant": "60 gélules",
+          "url": "https://epycure.com/products/essentiel-anti-fatigue",
+          "pack_g": null,
+          "units_pack": 60,
+          "ean": "3770017754186"
+        }
+      },
+      "pending_fields": [
+        "Tableau intégral des minéraux et folates."
+      ],
+      "review_notes": [
+        "D3 et C confirmées dans la FAQ de la formule actuelle ; ce contrôle ne valide pas le reste de l’étiquette."
+      ],
+      "price": {
+        "checked_on": "2026-10-05",
+        "source_url": "https://epycure.com/products/essentiel-anti-fatigue",
+        "price_eur": 27,
+        "variant": "60 gélules",
+        "scope": "Prix fabricant, achat à l’unité, hors livraison.",
+        "product_identity": {
+          "brand": "Epycure",
+          "name": "Cure multivitamines+",
+          "variant": "60 gélules",
+          "url": "https://epycure.com/products/essentiel-anti-fatigue",
+          "pack_g": null,
+          "units_pack": 60,
+          "ean": "3770017754186"
+        }
+      }
+    },
+    "argalys-multivitamines-et-mineraux-60-gelules": {
+      "checked_on": "2026-10-05",
+      "label": {
+        "checked_on": "2026-10-05",
+        "source_url": "https://www.argalys.com/products/multivitamines",
+        "scope": "Quantités journalières des nutriments affichés et nombre d’unités par jour. Additifs, certifications et autres nutriments non revérifiés.",
+        "fields": {
+          "nutrients": {
+            "vitamin_d3": 400,
+            "vitamin_c": 40,
+            "zinc": 10,
+            "folate": 200,
+            "vitamin_b6": 1.4,
+            "vitamin_b12": 10
+          },
+          "units_per_day": 1
+        },
+        "product_identity": {
+          "brand": "Argalys",
+          "name": "Multivitamines et minéraux",
+          "variant": "60 gélules",
+          "url": "https://www.argalys.com/products/multivitamines",
+          "pack_g": null,
+          "units_pack": 60,
+          "ean": "3760280070052"
+        }
+      },
+      "pending_fields": [
+        "Magnésium élémentaire : la page indique 100 mg de bisglycinate et 5 % VNR, sans quantité élémentaire explicite."
+      ],
+      "review_notes": [
+        "Retrait de l’ancienne estimation de 19 mg de magnésium ; une quantité inconnue ne vaut pas zéro."
+      ],
+      "price": {
+        "checked_on": "2026-10-05",
+        "source_url": "https://www.argalys.com/products/multivitamines",
+        "price_eur": 24.9,
+        "variant": "60 gélules",
+        "scope": "Prix fabricant, achat à l’unité, hors livraison.",
+        "product_identity": {
+          "brand": "Argalys",
+          "name": "Multivitamines et minéraux",
+          "variant": "60 gélules",
+          "url": "https://www.argalys.com/products/multivitamines",
+          "pack_g": null,
+          "units_pack": 60,
+          "ean": "3760280070052"
+        }
+      }
+    },
+    "eric-favre-vitamino-30-comprimes": {
+      "checked_on": "2026-10-05",
+      "label": {
+        "checked_on": "2026-10-05",
+        "source_url": "https://www.ericfavre.com/fr_fr/tonus-immunite/vitamino-immunite-fatigue-multivitamines-et-mineraux-p-160.htm",
+        "scope": "Quantités journalières des nutriments affichés et nombre d’unités par jour. Additifs, certifications et autres nutriments non revérifiés.",
+        "fields": {
+          "nutrients": {
+            "vitamin_d3": 200,
+            "vitamin_c": 80,
+            "magnesium": 56.25,
+            "zinc": 10,
+            "folate": 200,
+            "vitamin_b6": 2,
+            "vitamin_b12": 2.5
+          },
+          "units_per_day": 1
+        },
+        "product_identity": {
+          "brand": "Eric Favre",
+          "name": "Vitamino+",
+          "variant": "30 comprimés",
+          "url": "https://www.ericfavre.com/fr_fr/tonus-immunite/vitamino-cure-30-jours-p-160.htm",
+          "pack_g": null,
+          "units_pack": 30,
+          "ean": null
+        }
+      },
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "dynveo-complexe-vitamines-b-gelules-60": {
+      "checked_on": "2026-10-05",
+      "label": {
+        "checked_on": "2026-10-05",
+        "source_url": "https://www.dynveo.fr/products/complexe-vitamines-b",
+        "scope": "Quantités journalières des nutriments affichés et nombre d’unités par jour. Additifs, certifications et autres nutriments non revérifiés.",
+        "fields": {
+          "nutrients": {
+            "vitamin_d3": 0,
+            "vitamin_c": 0,
+            "magnesium": 0,
+            "zinc": 0,
+            "folate": 200,
+            "vitamin_b1": 1.1,
+            "vitamin_b2": 1.4,
+            "vitamin_b3": 16,
+            "vitamin_b5": 6,
+            "vitamin_b6": 1.4,
+            "biotin": 50,
+            "vitamin_b12": 2.5
+          },
+          "units_per_day": 1
+        },
+        "product_identity": {
+          "brand": "Dynveo",
+          "name": "Complexe vitamines B",
+          "variant": "gélules · 60",
+          "url": "https://www.dynveo.fr/products/complexe-vitamines-b",
+          "pack_g": null,
+          "units_pack": 60,
+          "ean": null
+        }
+      },
+      "pending_fields": [],
+      "review_notes": [],
+      "price": {
+        "checked_on": "2026-10-05",
+        "source_url": "https://www.dynveo.fr/products/complexe-vitamines-b",
+        "price_eur": 18.9,
+        "variant": "gélules · 60",
+        "scope": "Prix fabricant, achat à l’unité, hors livraison.",
+        "product_identity": {
+          "brand": "Dynveo",
+          "name": "Complexe vitamines B",
+          "variant": "gélules · 60",
+          "url": "https://www.dynveo.fr/products/complexe-vitamines-b",
+          "pack_g": null,
+          "units_pack": 60,
+          "ean": null
+        }
+      }
+    },
+    "nat-form-complexe-vitamines-b-en-gelules-gelules-30": {
+      "checked_on": "2026-10-05",
+      "label": {
+        "checked_on": "2026-10-05",
+        "source_url": "https://www.nat-form.com/products/complexe-vitamines-b-en-gelules",
+        "scope": "Quantités journalières des nutriments affichés et nombre d’unités par jour. Additifs, certifications et autres nutriments non revérifiés.",
+        "fields": {
+          "nutrients": {
+            "vitamin_d3": 0,
+            "vitamin_c": 0,
+            "magnesium": 0,
+            "zinc": 0,
+            "folate": 300,
+            "vitamin_b1": 6.6,
+            "vitamin_b2": 7.7,
+            "vitamin_b3": 80,
+            "vitamin_b5": 29,
+            "vitamin_b6": 3.2,
+            "biotin": 700,
+            "vitamin_b12": 4.8
+          },
+          "units_per_day": 1
+        },
+        "product_identity": {
+          "brand": "Nat&Form",
+          "name": "Complexe vitamines B en gélules",
+          "variant": "gélules · 30",
+          "url": "https://www.nat-form.com/products/complexe-vitamines-b-en-gelules",
+          "pack_g": null,
+          "units_pack": 30,
+          "ean": null
+        }
+      },
+      "pending_fields": [],
+      "review_notes": [
+        "Prix affiché pour 30 gélules ; la page indique une rupture de stock. Forme de B3 non précisée."
+      ],
+      "price": {
+        "checked_on": "2026-10-05",
+        "source_url": "https://www.nat-form.com/products/complexe-vitamines-b-en-gelules",
+        "price_eur": 14.9,
+        "variant": "gélules · 30",
+        "scope": "Prix fabricant, achat à l’unité, hors livraison.",
+        "product_identity": {
+          "brand": "Nat&Form",
+          "name": "Complexe vitamines B en gélules",
+          "variant": "gélules · 30",
+          "url": "https://www.nat-form.com/products/complexe-vitamines-b-en-gelules",
+          "pack_g": null,
+          "units_pack": 30,
+          "ean": null
+        }
+      }
+    },
+    "nutrimuscle-creapure": {
+      "checked_on": "2026-10-05",
+      "label": {
+        "checked_on": "2026-10-05",
+        "source_url": "https://www.nutrimuscle.com/products/creatine-creapure-r-en-poudre?variant=48752695509321",
+        "scope": "Créatine active par portion de 3 g : 2,638 g ; le monohydrate pèse 3 g. Concentration 88 % arrondie.",
+        "fields": {
+          "serving_g": 3,
+          "active_per_serving_g": 2.638,
+          "active_per_100g": 88
+        },
+        "product_identity": {
+          "brand": "Nutrimuscle",
+          "name": "Creatine Creapure® Powder",
+          "variant": "Nature · 350 g",
+          "url": "https://www.nutrimuscle.com/products/creatine-creapure-r-en-poudre",
+          "pack_g": 350,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "review_notes": [
+        "La masse de monohydrate et la masse de créatine active sont distinctes."
+      ],
+      "pending_fields": []
+    }
+  }
+}
