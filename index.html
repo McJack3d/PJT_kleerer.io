@@ -26,16 +26,7 @@
     }
     </script>
     <link rel="stylesheet" href="style.css">
-    <style>
-      .langsw{position:absolute; top:0; right:0; display:flex; border:1px solid rgba(0,0,0,.18); border-radius:2px; overflow:hidden}
-      .langsw button{background:none; border:none; padding:4px 8px; font:inherit; font-size:.7rem; cursor:pointer; color:rgba(0,0,0,.56); letter-spacing:.04em}
-      .langsw button.on{background:#000; color:#f7f4eb}
-      .site-header{position:relative}
-      .site-foot{max-width:78ch; font-size:.68rem; line-height:1.6; color:rgba(0,0,0,.42)}
-      .site-foot p+p{margin-top:6px}
-      .site-foot a{color:inherit; text-decoration:none; border-bottom:1px solid rgba(0,0,0,.2)}
-      .site-foot a:hover{color:var(--ink); border-bottom-color:var(--ink)}
-    </style>
+
     <script src="/analytics.js" defer></script>
     <link rel="manifest" href="/manifest.webmanifest">
     <meta name="theme-color" content="#f7f4eb">
@@ -48,80 +39,164 @@
     <script src="/pwa.js" defer></script>
 </head>
 <body class="home">
+  <a class="skip-link" href="#category-index" id="skip-link">Skip to the supplement index</a>
   <header class="site-header">
-    <h1 class="logo">n3gh<span class="logo-dot">.</span></h1>
+    <a class="logo" href="./" aria-label="n3gh — home">n3gh<span class="logo-dot">.</span></a>
+    <nav class="header-nav" id="main-nav" aria-label="Main navigation">
+      <a href="compare/" id="nav-compare">Compare</a>
+      <a href="compare/evidence/" id="evidence-link">The evidence</a>
+    </nav>
     <span class="langsw" id="langsw" role="group" aria-label="Language">
       <button type="button" onclick="setLang('en')" data-lang="en" aria-pressed="true">EN</button>
       <button type="button" onclick="setLang('fr')" data-lang="fr" aria-pressed="false">FR</button>
     </span>
   </header>
   <main class="home-main">
-    <div class="molecular-background" aria-hidden="true">
-      <img class="molecule-sleep" src="assets/molecules/melatonin.png" width="300" height="300" alt="" decoding="async">
-      <img class="molecule-growth" src="assets/molecules/growth-hormone.jpeg" width="500" height="500" alt="" decoding="async">
-      <img class="molecule-glycine" src="assets/molecules/glycine.png" width="300" height="300" alt="" decoding="async">
-    </div>
     <section class="intro" aria-labelledby="motto">
-      <h2 class="motto" id="motto">Health data, made available.</h2>
-      <p class="intro-copy" id="intro-copy">Compare supplements. Understand the evidence. No sponsors, no affiliate links.</p>
-      <nav class="home-actions" id="main-nav" aria-label="Main navigation">
-        <a class="primary-link" href="compare/" id="compare-link">Compare supplements →</a>
-        <a class="secondary-link" href="compare/evidence/" id="evidence-link">Explore the evidence →</a>
+      <div class="molecular-background" aria-hidden="true">
+        <img class="molecule-sleep" src="assets/molecules/melatonin.png" width="300" height="300" alt="" decoding="async">
+        <img class="molecule-glycine" src="assets/molecules/glycine.png" width="300" height="300" alt="" decoding="async">
+      </div>
+      <div class="hero-heading">
+        <p class="eyebrow" id="eyebrow">The independent supplement index</p>
+        <h1 class="motto" id="motto"><span id="motto-first">Supplements,</span><em id="motto-second">made clear.</em></h1>
+      </div>
+      <div class="hero-aside">
+        <p class="intro-copy" id="intro-copy">Composition, doses, prices and scientific evidence. Everything you need to take a closer look.</p>
+        <a class="primary-link" href="compare/" id="compare-link"><span id="compare-label">Open the comparator</span><span class="link-arrow" aria-hidden="true">↗</span></a>
+        <p class="independence" id="independence">No sponsors. No affiliate links.</p>
+      </div>
+    </section>
+    <section class="supplement-index" aria-labelledby="index-heading">
+      <div class="index-toolbar">
+        <div class="index-title"><h2 id="index-heading">The index.</h2><span class="index-count" id="index-count">25 categories</span></div>
+        <label class="index-search"><span class="search-symbol" aria-hidden="true"></span><span class="sr-only" id="search-label">Filter supplement categories</span><input id="category-search" type="search" placeholder="Find a supplement category" autocomplete="off"></label>
+      </div>
+      <nav class="category-grid" id="category-index" aria-label="Supplement categories">
+        <a class="category-link" href="compare/#cat=ashwagandha" data-category="ashwagandha"><span class="category-number" aria-hidden="true">01</span><span class="category-name">Ashwagandha</span><span class="link-arrow" aria-hidden="true">↗</span></a>
+        <a class="category-link" href="compare/#cat=b_complex" data-category="b_complex"><span class="category-number" aria-hidden="true">02</span><span class="category-name">B complex</span><span class="link-arrow" aria-hidden="true">↗</span></a>
+        <a class="category-link" href="compare/#cat=biotin" data-category="biotin"><span class="category-number" aria-hidden="true">03</span><span class="category-name">Biotin</span><span class="link-arrow" aria-hidden="true">↗</span></a>
+        <a class="category-link" href="compare/#cat=collagen" data-category="collagen"><span class="category-number" aria-hidden="true">04</span><span class="category-name">Collagen</span><span class="link-arrow" aria-hidden="true">↗</span></a>
+        <a class="category-link" href="compare/#cat=creatine" data-category="creatine"><span class="category-number" aria-hidden="true">05</span><span class="category-name">Creatine</span><span class="link-arrow" aria-hidden="true">↗</span></a>
+        <a class="category-link" href="compare/#cat=curcumin" data-category="curcumin"><span class="category-number" aria-hidden="true">06</span><span class="category-name">Curcumin</span><span class="link-arrow" aria-hidden="true">↗</span></a>
+        <a class="category-link" href="compare/#cat=fenugreek" data-category="fenugreek"><span class="category-number" aria-hidden="true">07</span><span class="category-name">Fenugreek</span><span class="link-arrow" aria-hidden="true">↗</span></a>
+        <a class="category-link" href="compare/#cat=folate" data-category="folate"><span class="category-number" aria-hidden="true">08</span><span class="category-name">Folate</span><span class="link-arrow" aria-hidden="true">↗</span></a>
+        <a class="category-link" href="compare/#cat=iron" data-category="iron"><span class="category-number" aria-hidden="true">09</span><span class="category-name">Iron</span><span class="link-arrow" aria-hidden="true">↗</span></a>
+        <a class="category-link" href="compare/#cat=maca" data-category="maca"><span class="category-number" aria-hidden="true">10</span><span class="category-name">Maca</span><span class="link-arrow" aria-hidden="true">↗</span></a>
+        <a class="category-link" href="compare/#cat=magnesium" data-category="magnesium"><span class="category-number" aria-hidden="true">11</span><span class="category-name">Magnesium</span><span class="link-arrow" aria-hidden="true">↗</span></a>
+        <a class="category-link" href="compare/#cat=melatonin" data-category="melatonin"><span class="category-number" aria-hidden="true">12</span><span class="category-name">Melatonin</span><span class="link-arrow" aria-hidden="true">↗</span></a>
+        <a class="category-link" href="compare/#cat=multivitamin" data-category="multivitamin"><span class="category-number" aria-hidden="true">13</span><span class="category-name">Multivitamins</span><span class="link-arrow" aria-hidden="true">↗</span></a>
+        <a class="category-link" href="compare/#cat=omega3" data-category="omega3"><span class="category-number" aria-hidden="true">14</span><span class="category-name">Omega-3</span><span class="link-arrow" aria-hidden="true">↗</span></a>
+        <a class="category-link" href="compare/#cat=potassium" data-category="potassium"><span class="category-number" aria-hidden="true">15</span><span class="category-name">Potassium</span><span class="link-arrow" aria-hidden="true">↗</span></a>
+        <a class="category-link" href="compare/#cat=probiotics" data-category="probiotics"><span class="category-number" aria-hidden="true">16</span><span class="category-name">Probiotics</span><span class="link-arrow" aria-hidden="true">↗</span></a>
+        <a class="category-link" href="compare/#cat=rhodiola" data-category="rhodiola"><span class="category-number" aria-hidden="true">17</span><span class="category-name">Rhodiola</span><span class="link-arrow" aria-hidden="true">↗</span></a>
+        <a class="category-link" href="compare/#cat=tribulus" data-category="tribulus"><span class="category-number" aria-hidden="true">18</span><span class="category-name">Tribulus</span><span class="link-arrow" aria-hidden="true">↗</span></a>
+        <a class="category-link" href="compare/#cat=vitamin_b12" data-category="vitamin_b12"><span class="category-number" aria-hidden="true">19</span><span class="category-name">Vitamin B12</span><span class="link-arrow" aria-hidden="true">↗</span></a>
+        <a class="category-link" href="compare/#cat=vitamin_c" data-category="vitamin_c"><span class="category-number" aria-hidden="true">20</span><span class="category-name">Vitamin C</span><span class="link-arrow" aria-hidden="true">↗</span></a>
+        <a class="category-link" href="compare/#cat=vitamin_d3" data-category="vitamin_d3"><span class="category-number" aria-hidden="true">21</span><span class="category-name">Vitamin D3</span><span class="link-arrow" aria-hidden="true">↗</span></a>
+        <a class="category-link" href="compare/#cat=vitamin_k2" data-category="vitamin_k2"><span class="category-number" aria-hidden="true">22</span><span class="category-name">Vitamin K2</span><span class="link-arrow" aria-hidden="true">↗</span></a>
+        <a class="category-link" href="compare/#cat=whey" data-category="whey"><span class="category-number" aria-hidden="true">23</span><span class="category-name">Whey</span><span class="link-arrow" aria-hidden="true">↗</span></a>
+        <a class="category-link" href="compare/#cat=zinc" data-category="zinc"><span class="category-number" aria-hidden="true">24</span><span class="category-name">Zinc</span><span class="link-arrow" aria-hidden="true">↗</span></a>
+        <a class="category-link" href="compare/#cat=zma" data-category="zma"><span class="category-number" aria-hidden="true">25</span><span class="category-name">ZMA</span><span class="link-arrow" aria-hidden="true">↗</span></a>
       </nav>
+      <p class="empty-index" id="empty-index" hidden>No matching category. Try another term, or open the full comparator.</p>
+      <p class="sr-only" id="search-status" role="status" aria-live="polite"></p>
+      <a class="all-products" href="compare/"><span id="all-products-label">See all products</span><span class="link-arrow" aria-hidden="true">→</span></a>
+    </section>
+    <section class="reading-room" aria-labelledby="reading-title">
+      <div class="reading-intro"><h2 class="eyebrow" id="reading-title">Before you choose</h2><p id="reading-copy">A little context.<br>A clearer perspective.</p></div>
+      <div class="reading-links">
+        <a class="reading-link" href="compare/evidence/"><div><h3 id="proof-title">What does the science say?</h3><p id="proof-copy">The studies, the limits, the precautions.</p></div><span class="link-arrow" aria-hidden="true">↗</span></a>
+        <a class="reading-link" href="compare/#methodology"><div><h3 id="method-title">Behind the comparison.</h3><p id="method-copy">Our criteria, sources and calculations.</p></div><span class="link-arrow" aria-hidden="true">↗</span></a>
+      </div>
+      <img class="reading-molecule" src="assets/molecules/growth-hormone.jpeg" width="500" height="500" alt="" decoding="async" loading="lazy">
     </section>
   </main>
   <footer class="site-foot">
-    <p>© 2026 n3gh.</p>
-    <nav aria-label="Information" id="footer-nav">
-      <a href="terms/" id="termslink">terms &amp; licences</a>
-      <a href="bot/" id="botlink">crawler</a>
-    </nav>
+    <p>© 2026 n3gh.</p><p class="footer-note" id="footer-note">Information to inform your choices. Not medical advice.</p>
+    <nav aria-label="Information" id="footer-nav"><a href="terms/" id="termslink">Terms &amp; licences</a><a href="bot/" id="botlink">Data</a></nav>
   </footer>
 <script>
 const LANG_KEY = "n3gh_lang";
 const TXT = {
   en: {
-    motto: "Health data, made available.",
-    "intro-copy": "Compare supplements. Understand the evidence. No sponsors, no affiliate links.",
-    "compare-link": "Compare supplements →",
-    "evidence-link": "Explore the evidence →",
-    termslink: "terms & licences", botlink: "crawler",
-    desc: "n3gh. — independent health data. Compare supplements and explore the evidence. No sponsors, no affiliate links."
+    "skip-link":"Skip to the supplement index", "nav-compare":"Compare", "evidence-link":"The evidence",
+    eyebrow:"The independent supplement index", "motto-first":"Supplements,", "motto-second":"made clear.",
+    "intro-copy":"Composition, doses, prices and scientific evidence. Everything you need to take a closer look.",
+    "compare-label":"Open the comparator", independence:"No sponsors. No affiliate links.", "index-heading":"The index.",
+    "search-label":"Filter supplement categories", "empty-index":"No matching category. Try another term, or open the full comparator.",
+    "all-products-label":"See all products", "reading-title":"Before you choose", "reading-copy":"A little context. A clearer perspective.",
+    "proof-title":"What does the science say?", "proof-copy":"The studies, the limits, the precautions.",
+    "method-title":"Behind the comparison.", "method-copy":"Our criteria, sources and calculations.",
+    "footer-note":"Information to inform your choices. Not medical advice.", termslink:"Terms & licences", botlink:"Data",
+    desc:"n3gh. — independent supplement information. Find a category, compare products and explore the evidence. No sponsors or affiliate links.",
+    searchPlaceholder:"Find a supplement category", count:"categories", filtered:"matching categories", categoryNav:"Supplement categories",
+    categories:{ashwagandha:"Ashwagandha",b_complex:"B complex",biotin:"Biotin",collagen:"Collagen",creatine:"Creatine",curcumin:"Curcumin",fenugreek:"Fenugreek",folate:"Folate",iron:"Iron",maca:"Maca",magnesium:"Magnesium",melatonin:"Melatonin",multivitamin:"Multivitamins",omega3:"Omega-3",potassium:"Potassium",probiotics:"Probiotics",rhodiola:"Rhodiola",tribulus:"Tribulus",vitamin_b12:"Vitamin B12",vitamin_c:"Vitamin C",vitamin_d3:"Vitamin D3",vitamin_k2:"Vitamin K2",whey:"Whey",zinc:"Zinc",zma:"ZMA"}
   },
   fr: {
-    motto: "Les données de santé, accessibles.",
-    "intro-copy": "Comparez les compléments. Comprenez les preuves. Sans sponsors ni liens affiliés.",
-    "compare-link": "Comparer les compléments →",
-    "evidence-link": "Explorer les preuves →",
-    termslink: "conditions et licences", botlink: "robot",
-    desc: "n3gh. — des données de santé indépendantes. Comparez les compléments et explorez les preuves. Sans sponsors ni liens affiliés."
+    "skip-link":"Aller à l’index des compléments", "nav-compare":"Comparer", "evidence-link":"Les preuves",
+    eyebrow:"L’index indépendant des compléments", "motto-first":"Les compléments,", "motto-second":"en clair.",
+    "intro-copy":"Composition, doses, prix et preuves scientifiques. Les informations utiles pour regarder de plus près.",
+    "compare-label":"Ouvrir le comparateur", independence:"Sans sponsors ni liens affiliés.", "index-heading":"L’index.",
+    "search-label":"Filtrer les familles de compléments", "empty-index":"Aucune famille ne correspond. Essayez un autre terme ou ouvrez le comparateur complet.",
+    "all-products-label":"Voir tous les produits", "reading-title":"Avant de choisir", "reading-copy":"Un peu de contexte. Un autre regard.",
+    "proof-title":"Que dit la science ?", "proof-copy":"Les études, les limites, les précautions.",
+    "method-title":"Derrière la comparaison.", "method-copy":"Nos critères, nos sources, nos calculs.",
+    "footer-note":"Des repères pour choisir. Pas un avis médical.", termslink:"Conditions et licences", botlink:"Données",
+    desc:"n3gh. — un regard indépendant sur les compléments. Trouvez une famille, comparez les produits et explorez les preuves. Sans sponsors ni liens affiliés.",
+    searchPlaceholder:"Rechercher une famille", count:"familles", filtered:"familles correspondantes", categoryNav:"Familles de compléments",
+    categories:{ashwagandha:"Ashwagandha",b_complex:"Complexe B",biotin:"Biotine",collagen:"Collagène",creatine:"Créatine",curcumin:"Curcuma",fenugreek:"Fenugrec",folate:"Folates",iron:"Fer",maca:"Maca",magnesium:"Magnésium",melatonin:"Mélatonine",multivitamin:"Multivitamines",omega3:"Oméga-3",potassium:"Potassium",probiotics:"Probiotiques",rhodiola:"Rhodiola",tribulus:"Tribulus",vitamin_b12:"Vitamine B12",vitamin_c:"Vitamine C",vitamin_d3:"Vitamine D3",vitamin_k2:"Vitamine K2",whey:"Whey",zinc:"Zinc",zma:"ZMA"}
   }
 };
 function detectLang(){
-  try { const saved = localStorage.getItem(LANG_KEY); if (saved === "fr" || saved === "en") return saved; } catch(e){}
-  return /^fr\b/i.test((navigator.languages && navigator.languages[0]) || navigator.language || "en") ? "fr" : "en";
+  try { const saved=localStorage.getItem(LANG_KEY); if(saved==="fr"||saved==="en") return saved; } catch(e){}
+  return /^fr\b/i.test((navigator.languages&&navigator.languages[0])||navigator.language||"en")?"fr":"en";
 }
-let LANG = detectLang();
+let LANG=detectLang();
+const categoryIndex=document.getElementById("category-index");
+const categoryLinks=Array.from(categoryIndex.querySelectorAll("[data-category]"));
+const categorySearch=document.getElementById("category-search");
+const normalize=value=>value.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]/g,"");
+function filterCategories(announce=true){
+  const query=normalize(categorySearch.value);
+  let count=0;
+  categoryLinks.forEach(link=>{
+    const key=link.dataset.category;
+    // Both names remain searchable when switching language or typing without accents.
+    const terms=[TXT.en.categories[key],TXT.fr.categories[key],key];
+    link.hidden=!terms.some(term=>normalize(term).includes(query));
+    if(!link.hidden) count++;
+  });
+  document.getElementById("index-count").textContent=count+" "+(count===1?(LANG==="fr"?"famille":"category"):TXT[LANG].count);
+  document.getElementById("empty-index").hidden=count>0;
+  if(announce) document.getElementById("search-status").textContent=count+" "+TXT[LANG].filtered;
+}
 function setLang(lang){
-  if (!TXT[lang]) return;
-  LANG = lang;
-  try { localStorage.setItem(LANG_KEY, lang); } catch(e){}
+  if(!TXT[lang])return;
+  LANG=lang;
+  try { localStorage.setItem(LANG_KEY,lang); } catch(e){}
   applyLang();
 }
 function applyLang(){
-  document.documentElement.lang = LANG;
-  for (const [id, text] of Object.entries(TXT[LANG])) {
-    if (id === "desc") document.querySelector('meta[name="description"]').content = text;
-    else document.getElementById(id).textContent = text;
+  document.documentElement.lang=LANG;
+  const copy=TXT[LANG];
+  for(const [id,text] of Object.entries(copy)){
+    const el=document.getElementById(id);
+    if(el&&typeof text==="string")el.textContent=text;
   }
-  document.getElementById("langsw").setAttribute("aria-label", LANG === "fr" ? "Langue" : "Language");
-  document.getElementById("main-nav").setAttribute("aria-label", LANG === "fr" ? "Navigation principale" : "Main navigation");
-  document.querySelectorAll("#langsw button").forEach(button => {
-    const active = button.dataset.lang === LANG;
-    button.classList.toggle("on", active);
-    button.setAttribute("aria-pressed", String(active));
-  });
+  document.querySelector('meta[name="description"]').content=copy.desc;
+  document.querySelector('meta[property="og:description"]').content=copy.desc;
+  document.getElementById("langsw").setAttribute("aria-label",LANG==="fr"?"Langue":"Language");
+  document.getElementById("main-nav").setAttribute("aria-label",LANG==="fr"?"Navigation principale":"Main navigation");
+  document.querySelector(".site-header .logo").setAttribute("aria-label",LANG==="fr"?"n3gh — accueil":"n3gh — home");
+  categoryIndex.setAttribute("aria-label",copy.categoryNav);
+  categorySearch.placeholder=copy.searchPlaceholder;
+  categoryLinks.sort((a,b)=>copy.categories[a.dataset.category].localeCompare(copy.categories[b.dataset.category],LANG));
+  categoryLinks.forEach((link,index)=>{link.querySelector(".category-name").textContent=copy.categories[link.dataset.category];link.querySelector(".category-number").textContent=String(index+1).padStart(2,"0");categoryIndex.append(link);});
+  document.querySelectorAll("#langsw button").forEach(button=>{const active=button.dataset.lang===LANG;button.classList.toggle("on",active);button.setAttribute("aria-pressed",String(active));});
+  filterCategories(false);
 }
+categorySearch.addEventListener("input",()=>filterCategories());
 applyLang();
 </script>
 </body>
