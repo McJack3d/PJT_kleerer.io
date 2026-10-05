@@ -1,4 +1,4 @@
-// kleerer. — UI translations (en / fr). Hand-written, not machine-translated.
+// n3gh. — UI translations (en / fr). Hand-written, not machine-translated.
 //
 // Language is chosen from the browser's own stated preference (navigator.language),
 // never from IP geolocation: geolocation needs a third-party lookup (an external
@@ -688,12 +688,12 @@ fr: {
 };
 
 /* ---------- language selection ---------- */
-const LANG_KEY = "kleerer_lang";
+const LANG_KEY = "n3gh_lang";
 function detectLang(){
   // A prerendered /fr/ or /en/ route pins its language: the URL is the promise the
   // crawler indexed, so it must win over both the stored choice and the browser.
-  if (window.KLEERER_FORCE_LANG === "fr" || window.KLEERER_FORCE_LANG === "en")
-    return window.KLEERER_FORCE_LANG;
+  if (window.N3GH_FORCE_LANG === "fr" || window.N3GH_FORCE_LANG === "en")
+    return window.N3GH_FORCE_LANG;
   try { const saved = localStorage.getItem(LANG_KEY); if (saved === "fr" || saved === "en") return saved; } catch(e){}
   const nav = (navigator.languages && navigator.languages[0]) || navigator.language || "en";
   return /^fr\b/i.test(nav) ? "fr" : "en";            // fr, fr-FR, fr-BE, fr-CA…

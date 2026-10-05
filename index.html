@@ -4,25 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <meta name="description" content="kleerer. — independent, evidence-based health data. Makes supplement science available to individuals seeking advice or recommendations.">
+    <meta name="description" content="n3gh. — independent, evidence-based health data. Makes supplement science available to individuals seeking advice or recommendations.">
     <meta name="robots" content="index,follow">
-    <link rel="canonical" href="https://kleerer.com/">
+    <link rel="canonical" href="https://n3gh.com/">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="kleerer.">
-    <meta property="og:title" content="kleerer. — supplements, made clear">
+    <meta property="og:site_name" content="n3gh.">
+    <meta property="og:title" content="n3gh. — supplements, made clear">
     <meta property="og:description" content="Independent, evidence-based health data. An open Health & Compo Score and true price-per-active for EU/French supplements.">
-    <meta property="og:url" content="https://kleerer.com/">
+    <meta property="og:url" content="https://n3gh.com/">
     <meta name="twitter:card" content="summary">
-    <title>kleerer. — Health Data Made Available</title>
+    <title>n3gh. — Health Data Made Available</title>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "kleerer.",
-      "url": "https://kleerer.com/",
+      "name": "n3gh.",
+      "url": "https://n3gh.com/",
       "description": "Independent, evidence-based health data: an open Health & Compo Score and true price-per-active for dietary supplements.",
       "knowsAbout": ["dietary supplements", "nutrition", "food additives", "health"],
-      "sameAs": ["https://github.com/McJack3d/kleerer.io"]
+      "sameAs": ["https://github.com/McJack3d/n3gh.io"]
     }
     </script>
     <link rel="stylesheet" href="style.css">
@@ -44,53 +44,132 @@
     <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta name="apple-mobile-web-app-title" content="kleerer.">
+    <meta name="apple-mobile-web-app-title" content="n3gh.">
     <script src="/pwa.js" defer></script>
 </head>
-<body>
+<body class="home">
     <header class="site-header">
-        <p class="logo">kleerer<span class="logo-dot">.</span></p>
-        <span class="langsw" id="langsw">
-          <button onclick="setLang('en')" data-lang="en">EN</button>
-          <button onclick="setLang('fr')" data-lang="fr">FR</button>
+    <h1 class="logo">n3gh<span class="logo-dot">.</span></h1>
+    <span class="langsw" id="langsw" role="group" aria-label="Language">
+      <button type="button" onclick="setLang('en')" data-lang="en" aria-pressed="true">EN</button>
+      <button type="button" onclick="setLang('fr')" data-lang="fr" aria-pressed="false">FR</button>
         </span>
     </header>
 
-    <main class="text">
-        <h1 class="motto" id="motto">Makes health data available to individuals seeking advice or recommendations.</h1>
-        <p id="l1">The project aims to open-source and make available all science-based resources and technologies to accurately help users enhance their well-being.</p>
-        <p id="l2">The project will deliver in many different steps open-source innovative products that will dive toward this ambition.</p>
-        <p class="p1-line"><a href="compare/" id="p1link">p1 · compare — live →</a></p>
+  <main class="home-main">
+    <section class="intro" aria-labelledby="motto">
+      <h2 class="motto" id="motto">Health data, made available.</h2>
+      <div class="text">
+        <p id="l1">Independent evidence. Open methods. Science-based resources to help you make sense of your health.</p>
+        <p id="l2">Our first project brings supplement labels, research and prices into focus.</p>
+        <p class="p1-line"><a href="compare/" id="p1link">p1 · compare supplements →</a></p>
+      </div>
+    </section>
+
+    <section class="molecules" aria-labelledby="molecules-title">
+      <div class="section-heading">
+        <h2 id="molecules-title">A closer look at human biology</h2>
+        <a href="compare/evidence/" id="evidencelink">explore the evidence →</a>
+      </div>
+      <div class="molecule-grid">
+        <figure class="molecule">
+          <div class="molecule-heading"><span>01</span><span id="sleep-label">sleep / circadian rhythm</span></div>
+          <img src="https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/896/PNG?image_size=large" width="480" height="300" alt="Melatonin chemical structure: an indole ring with methoxy and acetamide groups." id="melatonin-image" referrerpolicy="no-referrer">
+          <figcaption>
+            <div class="molecule-name"><h3 id="melatonin-name">Melatonin</h3><span>C<sub>13</sub>H<sub>16</sub>N<sub>2</sub>O<sub>2</sub></span></div>
+            <p id="melatonin-note">A hormone involved in the timing of the sleep-wake cycle.</p>
+            <a href="https://pubchem.ncbi.nlm.nih.gov/compound/896" id="melatonin-source" rel="noreferrer">structure / PubChem 896 ↗</a>
+          </figcaption>
+        </figure>
+        <figure class="molecule">
+          <div class="molecule-heading"><span>02</span><span id="growth-label">growth / cell signalling</span></div>
+          <img src="https://cdn.rcsb.org/images/structures/hg/1hgu/1hgu_assembly-1.jpeg" width="480" height="300" alt="Three-dimensional protein structure of human growth hormone, PDB entry 1HGU." id="growth-image" referrerpolicy="no-referrer">
+          <figcaption>
+            <div class="molecule-name"><h3 id="growth-name">Growth hormone</h3><span id="growth-formula">191 amino acids</span></div>
+            <p id="growth-note">A protein hormone involved in growth and metabolism, shown as a folded structure.</p>
+            <a href="https://www.rcsb.org/structure/1HGU" id="growth-source" rel="noreferrer">structure / RCSB PDB 1HGU ↗</a>
+          </figcaption>
+        </figure>
+        <figure class="molecule">
+          <div class="molecule-heading"><span>03</span><span id="glycine-label">amino acids / neurotransmission</span></div>
+          <img src="https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/750/PNG?image_size=large" width="480" height="300" alt="Glycine chemical structure: an amino group linked to a carboxylic acid through a methylene group." id="glycine-image" referrerpolicy="no-referrer">
+          <figcaption>
+            <div class="molecule-name"><h3>Glycine</h3><span>C<sub>2</sub>H<sub>5</sub>NO<sub>2</sub></span></div>
+            <p id="glycine-note">The simplest amino acid. A building block of proteins and a neurotransmitter.</p>
+            <a href="https://pubchem.ncbi.nlm.nih.gov/compound/750" id="glycine-source" rel="noreferrer">structure / PubChem 750 ↗</a>
+          </figcaption>
+        </figure>
+      </div>
+      <p class="molecule-disclaimer" id="molecule-disclaimer">Biological roles are not evidence of a supplement's benefit. These structures are not treatment recommendations.</p>
+    </section>
     </main>
 
     <footer class="site-foot">
-        <p id="rights">© 2026 kleerer. Code AGPL-3.0 · methodology CC BY-NC-ND 4.0 · catalogue CC BY-NC-SA 4.0. Database right asserted (Dir. 96/9/EC): single facts stay free to quote, extraction of a substantial part is reserved. Text-and-data-mining rights reserved (Dir. (EU) 2019/790 art. 4(3)).</p>
+        <p id="rights">© 2026 n3gh. Code AGPL-3.0 · methodology CC BY-NC-ND 4.0 · catalogue CC BY-NC-SA 4.0. Database right asserted (Dir. 96/9/EC): single facts stay free to quote, extraction of a substantial part is reserved. Text-and-data-mining rights reserved (Dir. (EU) 2019/790 art. 4(3)).</p>
         <p><a href="terms/" id="termslink">terms</a> · <a href="bot/" id="botlink">crawler</a> · <a href="/.well-known/tdmrep.json">tdmrep.json</a></p>
     </footer>
 <script>
 // Same rule as the comparator: the browser's stated language preference, never
 // an IP lookup — no third party ever sees a visitor's address for this.
-const LANG_KEY = "kleerer_lang";
+const LANG_KEY = "n3gh_lang";
 const TXT = {
   en: {
     lang: "en",
-    desc: "kleerer. — independent, evidence-based health data. Makes supplement science available to individuals seeking advice or recommendations.",
-    motto: "Makes health data available to individuals seeking advice or recommendations.",
-    l1: "The project aims to open-source and make available all science-based resources and technologies to accurately help users enhance their well-being.",
-    l2: "The project will deliver in many different steps open-source innovative products that will dive toward this ambition.",
-    p1: "p1 · compare — live →",
-    rights: "© 2026 kleerer. Code AGPL-3.0 · methodology CC BY-NC-ND 4.0 · catalogue CC BY-NC-SA 4.0. Database right asserted (Dir. 96/9/EC): single facts stay free to quote, extraction of a substantial part is reserved. Text-and-data-mining rights reserved (Dir. (EU) 2019/790 art. 4(3)).",
+    desc: "n3gh. — independent, evidence-based health data. Makes supplement science available to individuals seeking advice or recommendations.",
+    motto: "Health data, made available.",
+    l1: "Independent evidence. Open methods. Science-based resources to help you make sense of your health.",
+    l2: "Our first project brings supplement labels, research and prices into focus.",
+    p1: "p1 · compare supplements →",
+    molecules: {
+      "molecules-title": "A closer look at human biology",
+      evidencelink: "explore the evidence →",
+      "sleep-label": "sleep / circadian rhythm",
+      "growth-label": "growth / cell signalling",
+      "glycine-label": "amino acids / neurotransmission",
+      "melatonin-name": "Melatonin",
+      "growth-name": "Growth hormone",
+      "growth-formula": "191 amino acids",
+      "melatonin-note": "A hormone involved in the timing of the sleep-wake cycle.",
+      "growth-note": "A protein hormone involved in growth and metabolism, shown as a folded structure.",
+      "glycine-note": "The simplest amino acid. A building block of proteins and a neurotransmitter.",
+      "molecule-disclaimer": "Biological roles are not evidence of a supplement's benefit. These structures are not treatment recommendations."
+    },
+    imageAlts: {
+      "melatonin-image": "Melatonin chemical structure: an indole ring with methoxy and acetamide groups.",
+      "growth-image": "Three-dimensional protein structure of human growth hormone, PDB entry 1HGU.",
+      "glycine-image": "Glycine chemical structure: an amino group linked to a carboxylic acid through a methylene group."
+    },
+    rights: "© 2026 n3gh. Code AGPL-3.0 · methodology CC BY-NC-ND 4.0 · catalogue CC BY-NC-SA 4.0. Database right asserted (Dir. 96/9/EC): single facts stay free to quote, extraction of a substantial part is reserved. Text-and-data-mining rights reserved (Dir. (EU) 2019/790 art. 4(3)).",
     terms: "terms",
     bot: "crawler"
   },
   fr: {
     lang: "fr",
-    desc: "kleerer. — des données de santé indépendantes et fondées sur les preuves. Rend la science des compléments accessible à qui cherche des conseils ou des recommandations.",
-    motto: "Rend les données de santé accessibles à celles et ceux qui cherchent des conseils ou des recommandations.",
-    l1: "Le projet vise à ouvrir le code et à rendre accessibles toutes les ressources et technologies fondées sur la science, pour aider chacun à améliorer son bien-être avec justesse.",
-    l2: "Le projet livrera, étape après étape, des produits open source innovants qui poursuivent cette ambition.",
-    p1: "p1 · comparer — en ligne →",
-    rights: "© 2026 kleerer. Code AGPL-3.0 · méthodologie CC BY-NC-ND 4.0 · catalogue CC BY-NC-SA 4.0. Droit sui generis revendiqué (dir. 96/9/CE) : un fait isolé reste librement citable, l'extraction d'une partie substantielle est réservée. Droits de fouille de textes et de données réservés (dir. (UE) 2019/790 art. 4(3)).",
+    desc: "n3gh. — des données de santé indépendantes et fondées sur les preuves. Rend la science des compléments accessible à qui cherche des conseils ou des recommandations.",
+    motto: "Les données de santé, accessibles.",
+    l1: "Des preuves indépendantes. Des méthodes ouvertes. Des ressources scientifiques pour mieux comprendre votre santé.",
+    l2: "Notre premier projet met en perspective les étiquettes, les études et les prix des compléments.",
+    p1: "p1 · comparer les compléments →",
+    molecules: {
+      "molecules-title": "La biologie humaine, de plus près",
+      evidencelink: "explorer les preuves →",
+      "sleep-label": "sommeil / rythme circadien",
+      "growth-label": "croissance / signalisation cellulaire",
+      "glycine-label": "acides aminés / neurotransmission",
+      "melatonin-name": "Mélatonine",
+      "growth-name": "Hormone de croissance",
+      "growth-formula": "191 acides aminés",
+      "melatonin-note": "Une hormone impliquée dans la régulation du cycle veille-sommeil.",
+      "growth-note": "Une hormone protéique impliquée dans la croissance et le métabolisme, représentée sous sa forme repliée.",
+      "glycine-note": "Le plus simple des acides aminés. Un constituant des protéines et un neurotransmetteur.",
+      "molecule-disclaimer": "Un rôle biologique ne prouve pas le bénéfice d'un complément. Ces structures ne constituent pas des recommandations de traitement."
+    },
+    imageAlts: {
+      "melatonin-image": "Structure chimique de la mélatonine : un noyau indole avec des groupes méthoxy et acétamide.",
+      "growth-image": "Structure tridimensionnelle de l'hormone de croissance humaine, entrée PDB 1HGU.",
+      "glycine-image": "Structure chimique de la glycine : un groupe amine relié à un acide carboxylique par un groupe méthylène."
+    },
+    rights: "© 2026 n3gh. Code AGPL-3.0 · méthodologie CC BY-NC-ND 4.0 · catalogue CC BY-NC-SA 4.0. Droit sui generis revendiqué (dir. 96/9/CE) : un fait isolé reste librement citable, l'extraction d'une partie substantielle est réservée. Droits de fouille de textes et de données réservés (dir. (UE) 2019/790 art. 4(3)).",
     terms: "conditions",
     bot: "robot"
   }
@@ -119,8 +198,18 @@ function applyLang(){
   document.getElementById("rights").textContent = t.rights;
   document.getElementById("termslink").textContent = t.terms;
   document.getElementById("botlink").textContent = t.bot;
-  document.querySelectorAll("#langsw button").forEach(b =>
-    b.classList.toggle("on", b.dataset.lang === LANG));
+  Object.entries(t.molecules).forEach(([id, text]) => {
+    document.getElementById(id).textContent = text;
+  });
+  Object.entries(t.imageAlts).forEach(([id, text]) => {
+    document.getElementById(id).alt = text;
+  });
+  document.getElementById("langsw").setAttribute("aria-label", LANG === "fr" ? "Langue" : "Language");
+  document.querySelectorAll("#langsw button").forEach(button => {
+    const active = button.dataset.lang === LANG;
+    button.classList.toggle("on", active);
+    button.setAttribute("aria-pressed", String(active));
+  });
 }
 applyLang();
 </script>

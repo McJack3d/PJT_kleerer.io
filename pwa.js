@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: AGPL-3.0-only
- * Copyright (C) 2026 kleerer.
+ * Copyright (C) 2026 n3gh.
  *
  * Registers the service worker, and offers an install button only when the
  * browser says the app is actually installable.
@@ -25,7 +25,7 @@
     });
   }
 
-  var DISMISSED = "kleerer_install_dismissed";
+  var DISMISSED = "n3gh_install_dismissed";
   var deferred = null;
 
   window.addEventListener("beforeinstallprompt", function (e) {

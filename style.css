@@ -82,6 +82,218 @@ body {
     }
 }
 
+.home {
+    --muted: #65635d;
+    --rule: #d4d1c7;
+    gap: 3rem;
+    justify-content: flex-start;
+}
+
+.home .site-header {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+}
+
+.home .logo {
+    font-size: 7rem;
+    letter-spacing: 0;
+}
+
+.home .langsw button {
+    min-width: 44px;
+    min-height: 44px;
+    letter-spacing: 0;
+}
+
+.home-main {
+    display: grid;
+    gap: 3.5rem;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+.intro .motto {
+    max-width: 20ch;
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.intro .text {
+    max-width: 60ch;
+    gap: 1rem;
+}
+
+.home .p1-line a {
+    opacity: 1;
+    border-bottom-color: var(--rule);
+    display: inline-block;
+    padding-block: 0.5rem;
+}
+
+.section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.75rem 2rem;
+    padding-block: 1rem;
+    border-top: 1px solid var(--rule);
+}
+
+.section-heading h2,
+.section-heading a {
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.molecules a {
+    color: inherit;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+    text-decoration-color: var(--rule);
+}
+
+.molecules a:hover {
+    text-decoration-color: var(--ink);
+}
+
+.home a:focus-visible,
+.home button:focus-visible {
+    outline: 2px solid var(--ink);
+    outline-offset: 4px;
+}
+
+.molecule-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 2rem;
+}
+
+.molecule {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid var(--rule);
+}
+
+.molecule-heading {
+    min-height: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-top: 1rem;
+    font-size: 0.65rem;
+    line-height: 1.6;
+    color: var(--muted);
+}
+
+.molecule-heading span:last-child {
+    text-align: right;
+}
+
+.molecule img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+    margin-block: 0.5rem 1.5rem;
+}
+
+.molecule figcaption {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.molecule-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.4rem 1rem;
+}
+
+.molecule-name h3 {
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.molecule-name span {
+    font-size: 0.65rem;
+    color: var(--muted);
+}
+
+.molecule figcaption p {
+    font-size: 0.75rem;
+    line-height: 1.7;
+    margin-block: 0.75rem 1rem;
+    max-width: 46ch;
+}
+
+.molecule figcaption a {
+    margin-top: auto;
+    font-size: 0.65rem;
+    line-height: 1.8;
+    color: var(--muted);
+    align-self: flex-start;
+}
+
+.molecule-disclaimer {
+    margin-top: 2rem;
+    font-size: 0.65rem;
+    line-height: 1.7;
+    color: var(--muted);
+    max-width: 100ch;
+}
+
+.home .site-foot {
+    max-width: none;
+    border-top: 1px solid var(--rule);
+    padding-top: 1.5rem;
+    color: var(--muted);
+}
+
+.home .site-foot p {
+    max-width: 120ch;
+}
+
+@media (min-width: 1600px) {
+    .home {
+        padding-inline: max(var(--pad), calc((100% - 1488px) / 2));
+    }
+}
+
+@media (max-width: 760px) {
+    .home .logo {
+        font-size: 4.5rem;
+    }
+
+    .intro {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .intro .motto {
+        font-size: 1.5rem;
+    }
+
+    .molecule-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .molecule img {
+        height: 180px;
+    }
+}
+
 @keyframes breathe {
     50% {
         opacity: 0.25;
