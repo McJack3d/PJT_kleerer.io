@@ -17,7 +17,7 @@ en: {
   htmlLang: "en",
   langName: "EN",
   langSwitchTitle: "Afficher en français",
-  metaDesc: "Independent supplement comparator: an evidence-based Health & Compo Score (A–E), price per gram of actual active, and a personalised dosage check for 257 EU/French products across 25 categories — vitamins, minerals, proteins, botanicals and testosterone boosters scored apart. No sponsors, no affiliate links.",
+  metaDesc: "Compare supplement ingredients, doses and price per active ingredient. Independent scores, source links and scientific evidence. No affiliate links.",
 
   crumb: "/ p1 · compare",
   navEvidence: "evidence", navMethodology: "methodology",
@@ -371,7 +371,7 @@ fr: {
   htmlLang: "fr",
   langName: "FR",
   langSwitchTitle: "Switch to English",
-  metaDesc: "Comparateur indépendant de compléments alimentaires : un Health & Compo Score fondé sur les preuves (A–E), le prix au gramme d'actif réel et un contrôle de dosage personnalisé pour 257 produits UE/France dans 25 catégories — vitamines, minéraux, protéines, plantes et « boosters » de testostérone notés à part. Sans sponsors, sans liens affiliés.",
+  metaDesc: "Comparez composition, doses et prix par actif des compléments alimentaires. Scores indépendants, sources et preuves scientifiques. Sans liens affiliés.",
 
   crumb: "/ p1 · comparer",
   navEvidence: "preuves", navMethodology: "méthodologie",

@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <meta name="description" content="n3gh. — independent, evidence-based health data. Makes supplement science available to individuals seeking advice or recommendations.">
+    <meta name="description" content="Compare supplement ingredients, doses and prices with n3gh. Explore independent evidence for vitamins, minerals, proteins and botanicals.">
     <meta name="robots" content="index,follow">
     <link rel="canonical" href="https://n3gh.com/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="n3gh.">
     <meta property="og:title" content="n3gh. — supplements, made clear">
-    <meta property="og:description" content="Independent, evidence-based health data. An open Health & Compo Score and true price-per-active for EU/French supplements.">
+    <meta property="og:description" content="Compare supplement ingredients, doses and prices with n3gh. Explore independent evidence for vitamins, minerals, proteins and botanicals.">
     <meta property="og:url" content="https://n3gh.com/">
     <meta name="twitter:card" content="summary">
-    <title>n3gh. — Health Data Made Available</title>
+    <meta name="twitter:title" content="n3gh — Independent supplement comparison">
+    <meta name="twitter:description" content="Compare supplement ingredients, doses and prices with n3gh. Explore independent evidence for vitamins, minerals, proteins and botanicals.">
+    <title>n3gh — Independent supplement comparison</title>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -186,6 +188,7 @@ function applyLang(){
   }
   document.querySelector('meta[name="description"]').content=copy.desc;
   document.querySelector('meta[property="og:description"]').content=copy.desc;
+  document.querySelector('meta[name="twitter:description"]').content=copy.desc;
   document.getElementById("langsw").setAttribute("aria-label",LANG==="fr"?"Langue":"Language");
   document.getElementById("main-nav").setAttribute("aria-label",LANG==="fr"?"Navigation principale":"Main navigation");
   document.querySelector(".site-header .logo").setAttribute("aria-label",LANG==="fr"?"n3gh — accueil":"n3gh — home");

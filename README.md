@@ -86,3 +86,36 @@ Remove the old apex AAAA record pointing to the previous host, or replace it wit
 [GitHub Pages custom-domain documentation](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
 
 The GitHub repository URLs retain their actual existing names; changing the public brand does not rename remote repositories.
+
+## Search indexing and audience measurement
+
+- Production sitemap: <https://n3gh.com/sitemap.xml>, declared in `robots.txt`.
+  Include only canonical, indexable HTML routes. Do not add filter fragments,
+  design previews, data files or duplicate `/index.html` URLs.
+- Regenerate translated metadata with `python3 compare/scripts/build_pages.py`.
+  Titles live in that generator; descriptions in `compare/i18n.js` and the
+  source `/compare/index.html`. Structured data and sharing cards are localized.
+- Search Console is **not yet verified**. Sign into the brand owner's Google
+  account, add URL-prefix property `https://n3gh.com/`, and use Google's exact
+  HTML verification file or homepage meta tag. Deploy the token, verify ownership,
+  then submit `https://n3gh.com/sitemap.xml`. Keep the verification token deployed.
+  Alternatively a domain property requires the account-specific DNS TXT record.
+- Audience measurement is **not yet active**. `analytics.js` is prepared for
+  Umami, with an empty `WEBSITE_ID`. Create/select the site's Umami property,
+  copy its public website UUID and confirm the script URL from its installation
+  instructions. Update the privacy text in `/terms/` to match actual processing
+  before enabling it. Never put an API key or account password in this file.
+- This integration sends only one pageview per page load, with a fixed route and
+  title. It excludes local previews, unknown routes, URL query/hash values,
+  referrers, searches, profile/routine data, custom events and session replay.
+  DNT/GPC opt-outs are respected. Hash filter changes are not extra pageviews.
+  A third-party endpoint still receives network connection information; do not
+  claim that cookieless measurement automatically means no personal processing
+  or an unconditional consent exemption.
+- After activation, verify a real pageview in the private Umami dashboard; a
+  downloaded script alone does not prove that measurement works. Search Console
+  reports search performance separately and can take time to populate.
+
+References: [Search Console verification](https://support.google.com/webmasters/answer/9008080),
+[Google sitemap guidance](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap),
+[Umami tracker functions](https://docs.umami.is/docs/tracker-functions).

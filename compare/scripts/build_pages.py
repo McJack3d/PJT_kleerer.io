@@ -29,6 +29,7 @@ Usage:  python3 scripts/build_pages.py      (run after build_scores.py)
 Output: compare/en/index.html, compare/fr/index.html
 """
 import os, re, json, sys
+from html import escape
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 COMPARE = os.path.abspath(os.path.join(HERE, ".."))
@@ -61,8 +62,8 @@ def i18n_strings():
 
 
 TITLES = {
-    "en": "n3gh. — p1 · compare · independent supplement comparator",
-    "fr": "n3gh. — p1 · comparer · comparateur indépendant de compléments",
+    "en": "Compare supplements: ingredients, doses & prices | n3gh",
+    "fr": "Comparateur de compléments : composition, doses et prix | n3gh",
 }
 OG_TITLES = {
     "en": "n3gh. — supplements, made clear",
@@ -81,14 +82,14 @@ def build(lang, strings):
     html = html.replace('href="../"', 'href="../../"')          # logo -> site root
 
     html = html.replace('<html lang="en">', f'<html lang="{s["htmlLang"]}">')
-    html = re.sub(r'<title>.*?</title>', f'<title>{TITLES[lang]}</title>', html, count=1, flags=re.S)
+    html = re.sub(r'<title>.*?</title>', f'<title>{escape(TITLES[lang])}</title>', html, count=1, flags=re.S)
     html = re.sub(r'(<meta name="description" content=")[^"]*(">)',
-                  lambda m: m.group(1) + s["metaDesc"].replace('"', "&quot;") + m.group(2),
+                  lambda m: m.group(1) + escape(s["metaDesc"], quote=True) + m.group(2),
                   html, count=1)
     html = re.sub(r'(<meta property="og:title" content=")[^"]*(">)',
                   lambda m: m.group(1) + OG_TITLES[lang] + m.group(2), html, count=1)
     html = re.sub(r'(<meta property="og:description" content=")[^"]*(">)',
-                  lambda m: m.group(1) + s["metaDesc"].replace('"', "&quot;") + m.group(2),
+                  lambda m: m.group(1) + escape(s["metaDesc"], quote=True) + m.group(2),
                   html, count=1)
     html = html.replace(f'<link rel="canonical" href="{BASE_URL}">',
                         f'<link rel="canonical" href="{BASE_URL}{lang}/">')
@@ -103,6 +104,20 @@ def build(lang, strings):
                 f'<link rel="alternate" hreflang="{alt}" href="{BASE_URL}{alt}/">\n'
                 f'<link rel="alternate" hreflang="x-default" href="{BASE_URL}">\n')
     html = html.replace('<link rel="canonical"', hreflang + '<link rel="canonical"', 1)
+
+    # Keep sharing cards and structured data in the route's own language.
+    for key, value in (("title", OG_TITLES[lang]), ("description", s["metaDesc"])):
+        html = re.sub(rf'(<meta name="twitter:{key}" content=")[^"]*(">)',
+                      lambda m: m.group(1) + escape(value, quote=True) + m.group(2), html, count=1)
+
+    def localize_schema(match):
+        data = json.loads(match.group(1))
+        data.update(name=TITLES[lang], url=f"{BASE_URL}{lang}/",
+                    inLanguage=lang, description=s["metaDesc"])
+        data["about"]["name"] = "Compléments alimentaires" if lang == "fr" else "Dietary supplements"
+        return '<script type="application/ld+json">\n' + json.dumps(data, ensure_ascii=False, indent=2) + '\n</script>'
+    html = re.sub(r'<script type="application/ld\+json">(.*?)</script>',
+                  localize_schema, html, count=1, flags=re.S)
 
     # pin the language before i18n.js runs, and make the toggle navigate between routes
     pin = (f'<script>window.N3GH_FORCE_LANG="{lang}";'

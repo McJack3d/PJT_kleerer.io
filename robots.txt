@@ -69,3 +69,5 @@ Allow: /
 
 User-agent: Applebot
 Allow: /
+
+Sitemap: https://n3gh.com/sitemap.xml
