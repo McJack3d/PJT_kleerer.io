@@ -392,7 +392,16 @@ def audit_product(product, client, date):
         offers = node.get('offers', [])
         prices = {(offer.get('price'), offer.get('priceCurrency')) for offer in offers
                   if offer.get('price') is not None and not offer.get('aggregate')}
-        if len(offers) == 1 and len(prices) == 1 and next(iter(prices))[1] == 'EUR':
+        # A schema.org offer can be a members-only price. Keep identity evidence,
+        # but require manual review of the public one-off purchase option.
+        page_text = html.unescape(re.sub(r'<[^>]*>', ' ', response['body'])).lower()
+        page_text = re.sub(r'\s+', ' ', unicodedata.normalize('NFKD', page_text).encode('ascii', 'ignore').decode())
+        members_only = any(phrase in page_text for phrase in (
+            'cette offre est exclusivement reservee aux membres prime',
+            'this deal is exclusively for prime members'))
+        if members_only:
+            result['price_restriction'] = 'members_only_offer_requires_manual_review'
+        if not members_only and len(offers) == 1 and len(prices) == 1 and next(iter(prices))[1] == 'EUR':
             price, currency = next(iter(prices))
             result['observed_price_eur'] = price
             result['observed_offer_url'] = offers[0].get('url') or result['final_url']

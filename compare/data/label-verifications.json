@@ -698,7 +698,692 @@
       "review_notes": [
         "La masse de monohydrate et la masse de créatine active sont distinctes."
       ],
-      "pending_fields": []
+      "pending_fields": [],
+      "price": {
+        "checked_on": "2026-10-07",
+        "source_url": "https://www.nutrimuscle.com/products/creatine-creapure-r-en-poudre?variant=48752695509321",
+        "price_eur": 34.95,
+        "variant": "Nature · 350 g",
+        "scope": "Offre fabricant pour 350 g ; rupture de stock au contrôle, hors livraison.",
+        "product_identity": {
+          "brand": "Nutrimuscle",
+          "name": "Creatine Creapure® Powder",
+          "variant": "Nature · 350 g",
+          "url": "https://www.nutrimuscle.com/products/creatine-creapure-r-en-poudre",
+          "pack_g": 350,
+          "units_pack": null,
+          "ean": null
+        }
+      }
+    },
+    "nutrimuscle-whey-native": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "myprotein-creatine": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "esn-ultrapure-creatine": {
+      "pending_fields": [],
+      "review_notes": [],
+      "price": {
+        "checked_on": "2026-10-07",
+        "source_url": "https://www.amazon.fr/dp/B0057ED9AM",
+        "price_eur": 17.97,
+        "variant": "Neutral · 500 g",
+        "scope": "Prix public Amazon 500 g hors Prime et abonnement, hors livraison. Offre Prime 17 € exclue.",
+        "product_identity": {
+          "brand": "ESN",
+          "name": "Ultrapure Creatine Monohydrate",
+          "variant": "Neutral · 500 g",
+          "url": "https://www.amazon.fr/dp/B0057ED9AM",
+          "pack_g": 500,
+          "units_pack": null,
+          "ean": null
+        }
+      }
+    },
+    "bulk-creatine": {
+      "pending_fields": [],
+      "review_notes": [],
+      "price": {
+        "checked_on": "2026-10-07",
+        "source_url": "https://www.amazon.fr/dp/B00SP2ZKW8",
+        "price_eur": 15.99,
+        "variant": "Unflavoured · 500 g",
+        "scope": "Achat ponctuel Amazon, sachet non aromatisé 500 g ; hors abonnement et livraison.",
+        "product_identity": {
+          "brand": "Bulk",
+          "name": "Creatine Monohydrate",
+          "variant": "Unflavoured · 500 g",
+          "url": "https://www.amazon.fr/dp/B00SP2ZKW8",
+          "pack_g": 500,
+          "units_pack": null,
+          "ean": null
+        }
+      }
+    },
+    "norsan-omega3-total": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "nutrimuscle-tribulus-terrestris-gelules-120": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "cuure-tribulus-gelules-60": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "onatera-tribulus-terrestris-titre-650-mg-gelules-120": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "orfito-tribulus-bio-300-mg-gelules-90": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "nutrivie-fenugrec-bio-gelules-60": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "olimp-sport-nutrition-zma-capsules-120": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "nutrimuscle-ashwagandha-shoden-gelules-30": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "biotechusa-ashwagandha-ksm-66-gelules-60": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "biotechusa-ashwagandha-gelules-60": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "nutrimuscle-maca-bio-gelules-60": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "nutrimuscle-rhodiola-rhodiolife-gelules-30": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "biotechusa-rhodiola-gelules-60": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "dynveo-curcumine-bio-optimisee-gelules-300-mg-30": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "nutrimuscle-curcumine-capsules-molles-60": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "biotechusa-liquid-curcuma-capsules-30": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "biocyte-collagen-max-cacao-260-g": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "dynveo-vitamine-d3-vegetale-1000-ui-gelules-60": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "dynveo-magnesium-bisglycinate-chelate-traacs-gelules-750-mg-60": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "nutrimuscle-complexe-magnesium-gelules-60": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "onatera-magnesium-bisglycinate-300-mg-gelules-90": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "arkopharma-arkogelules-fer-liposomal-gelules-60": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "biocyte-fer-liposomal-gelules-30": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "cuure-fer-bisglycinate-lomachelatex-gelules-90": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "dynveo-bisglycinate-de-fer-gelules-60": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "dynveo-complexe-fer-et-vitamine-c-fer3-gelules-60": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "nutrimuscle-fer-ultimine-gelules-30": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "onatera-fer-bisglycinate-doux-non-constipant-gelules-90": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "onatera-fer-bisglycinate-gelules-90": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "dynveo-citrate-de-potassium-gelules-60": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "nutrimuscle-citrate-de-potassium-en-gelules-gelules-120": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "onatera-citrate-de-potassium-gelules-120": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "nutrimuscle-omega-3-epax-60-capsules": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "nutergia-ergy-d-flacon-15-ml-340-gouttes": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "nutergia-ergymag-45-gelules": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "nat-form-magnesium-marin-vitamine-b6-80-gelules": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "nutergia-oligomax-zinc-flacon-150-ml-30-doses": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "nat-form-acerola-1000-bio-100-comprimes-a-croquer": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "biocyte-microbiote-atb-probiotiques-10-gelules": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "zzzquil-sommeil-gummies-natura-30-gommes-fruits-des-bois": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "nutrimuscle-native-whey-isolate-chocolat-1-kg": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "inshape-nutrition-creatine-en-poudre-neutre-300-g": {
+      "pending_fields": [],
+      "review_notes": [],
+      "price": {
+        "checked_on": "2026-10-07",
+        "source_url": "https://www.inshape-nutrition.com/products/creatine-en-poudre",
+        "price_eur": 29.9,
+        "variant": "neutre · 300 g",
+        "scope": "Prix affiché pour le sachet neutre 300 g ; rupture de stock au contrôle, hors livraison.",
+        "product_identity": {
+          "brand": "InShape Nutrition",
+          "name": "Créatine en poudre",
+          "variant": "neutre · 300 g",
+          "url": "https://www.inshape-nutrition.com/products/creatine-en-poudre",
+          "pack_g": 300,
+          "units_pack": null,
+          "ean": null
+        }
+      }
+    },
+    "biotechusa-100-creatine-monohydrate-neutre-500-g": {
+      "pending_fields": [],
+      "review_notes": [],
+      "price": {
+        "checked_on": "2026-10-07",
+        "source_url": "https://shop.biotechusa.fr/products/100-micronized-creatine-monohydrate-500-g",
+        "price_eur": 47.9,
+        "variant": "neutre · 500 g",
+        "scope": "Offre fabricant pour 500 g non aromatisé, hors livraison.",
+        "product_identity": {
+          "brand": "BioTechUSA",
+          "name": "100% Creatine Monohydrate",
+          "variant": "neutre · 500 g",
+          "url": "https://shop.biotechusa.fr/products/100-micronized-creatine-monohydrate-500-g",
+          "pack_g": 500,
+          "units_pack": null,
+          "ean": null
+        }
+      }
+    },
+    "olimp-sport-nutrition-creatine-monohydrate-creapure-neutre-500-g": {
+      "pending_fields": [],
+      "review_notes": [],
+      "price": {
+        "checked_on": "2026-10-07",
+        "source_url": "https://olimpstore.fr/olimp-creatine-monohydrate-powder-creapure-500-g-95",
+        "price_eur": 44.5,
+        "variant": "neutre · 500 g",
+        "scope": "Offre fabricant Creapure 500 g, hors livraison.",
+        "product_identity": {
+          "brand": "Olimp Sport Nutrition",
+          "name": "Creatine Monohydrate Creapure®",
+          "variant": "neutre · 500 g",
+          "url": "https://olimpstore.fr/olimp-creatine-monohydrate-powder-creapure-500-g-95",
+          "pack_g": 500,
+          "units_pack": null,
+          "ean": null
+        }
+      }
+    },
+    "colpropur-colpropur-care-neutre-300-g": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "vital-proteins-collagen-peptides-neutre-567-g": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "olimp-sport-nutrition-collaregen-400-g": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "cuure-vitamine-b12-methylcobalamine-gelules-120": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "onatera-vitamine-b12-vegan-gelules-60": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "onatera-vitamine-b12-liposomale-lipocelltech-gelules-60": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "onatera-vitamine-b9-b12-formes-actives-gelules-60": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "nutrimuscle-vitamines-d3-k2-mk7-gelules-30": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "biotechusa-k2-d3-drops-flacon-30-ml-87-doses": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "olimp-sport-nutrition-gold-vit-d3-k2-2000-iu-sport-edition-capsules-60": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "onatera-vitamines-k2-mk7-d3-comprimes-90": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "onatera-vitamines-k2-mk7-d3-ultra-gelules-90": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "cuure-biotine-gelules-60": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "onatera-vitamine-b8-biotine-1000-g-gelules-60": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "onatera-vitamine-b9-acide-folique-gelules-90": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "am-nutrition-pure-whey-isolate-framboise-700-g": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "am-nutrition-pure-creatine-creapure-nature-500-g": {
+      "pending_fields": [],
+      "review_notes": [],
+      "price": {
+        "checked_on": "2026-10-07",
+        "source_url": "https://www.amnutrition.fr/products/pure-creatine-creapure?variant=48356628824411",
+        "price_eur": 42.9,
+        "variant": "nature · 500 g",
+        "scope": "Prix fabricant du sachet 500 g, sans code promotionnel ; stock à confirmer sur la page, hors livraison.",
+        "product_identity": {
+          "brand": "AM Nutrition",
+          "name": "PURE Créatine Creapure®",
+          "variant": "nature · 500 g",
+          "url": "https://www.amnutrition.fr/products/pure-creatine-creapure",
+          "pack_g": 500,
+          "units_pack": null,
+          "ean": null
+        }
+      }
+    },
+    "superphysique-nutrition-elite-creatine-creapure-neutre-544-g": {
+      "pending_fields": [],
+      "review_notes": [],
+      "price": {
+        "checked_on": "2026-10-07",
+        "source_url": "https://www.superphysique-nutrition.fr/creatine/618-elite-creatine-creapure-en-poudre.html",
+        "price_eur": 37.9,
+        "variant": "neutre · 544 g",
+        "scope": "Prix fabricant de la poudre neutre 544 g, hors livraison.",
+        "product_identity": {
+          "brand": "SuperPhysique Nutrition",
+          "name": "Elite Créatine Creapure®",
+          "variant": "neutre · 544 g",
+          "url": "https://www.superphysique-nutrition.fr/creatine/618-elite-creatine-creapure-en-poudre.html",
+          "pack_g": 544,
+          "units_pack": null,
+          "ean": null
+        }
+      }
+    },
+    "nutri-co-creatine-monohydrate-creapure-neutre-300-g": {
+      "pending_fields": [],
+      "review_notes": [],
+      "price": {
+        "checked_on": "2026-10-07",
+        "source_url": "https://nutriandco.com/fr/produits/creatine",
+        "price_eur": 29.9,
+        "variant": "neutre · 300 g",
+        "scope": "Prix fabricant de la poudre 300 g (88 portions), hors livraison.",
+        "product_identity": {
+          "brand": "Nutri&Co",
+          "name": "Créatine monohydrate Creapure®",
+          "variant": "neutre · 300 g",
+          "url": "https://nutriandco.com/fr/produits/creatine",
+          "pack_g": 300,
+          "units_pack": null,
+          "ean": null
+        }
+      }
+    },
+    "dynveo-zinc-bisglycinate-60-gelules-10-mg-traacs": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "dynveo-vitamine-c-liposomale-quali-c-60-gelules-500-mg": {
+      "pending_fields": [],
+      "review_notes": []
+    },
+    "novoma-creatine-creapure-en-poudre-neutre-180-g": {
+      "checked_on": "2026-10-07",
+      "price": {
+        "checked_on": "2026-10-07",
+        "source_url": "https://novoma.com/products/creatine",
+        "price_eur": 21.9,
+        "variant": "neutre · 180 g",
+        "scope": "Prix fabricant affiché pour le format sélectionné, achat à l’unité hors livraison et abonnement.",
+        "product_identity": {
+          "brand": "Novoma",
+          "name": "Créatine Creapure® en Poudre",
+          "variant": "neutre · 180 g",
+          "url": "https://novoma.com/products/creatine",
+          "pack_g": 180,
+          "units_pack": null,
+          "ean": "3770025711706"
+        }
+      },
+      "label": {
+        "checked_on": "2026-10-07",
+        "source_url": "https://novoma.com/products/creatine",
+        "scope": "Ingrédient unique, conditionnement et portion fabricant. Quantité de créatine anhydre calculée lorsque seule la masse de monohydrate est fournie ; voir notes. Certifications et analyses de lot non auditées.",
+        "fields": {
+          "pack_g": 180,
+          "serving_g": 3,
+          "active_per_100g": 87.93,
+          "active_per_serving_g": 2.638,
+          "form": "créatine monohydrate Creapure®",
+          "additives": []
+        },
+        "product_identity": {
+          "brand": "Novoma",
+          "name": "Créatine Creapure® en Poudre",
+          "variant": "neutre · 180 g",
+          "url": "https://novoma.com/products/creatine",
+          "pack_g": 180,
+          "units_pack": null,
+          "ean": "3770025711706"
+        }
+      },
+      "review_notes": [],
+      "pending_fields": [
+        "Certifications et analyses de lot : non revérifiées."
+      ]
+    },
+    "eric-favre-pure-creatine-200-mesh-neutre-300-g": {
+      "checked_on": "2026-10-07",
+      "price": {
+        "checked_on": "2026-10-07",
+        "source_url": "https://www.ericfavre.com/fr_fr/bcaa-acides-amines/creatine-pro-pure-creatine-300g-naturel-p-174-o-355.htm",
+        "price_eur": 23.9,
+        "variant": "neutre · 300 g",
+        "scope": "Prix fabricant affiché pour le format sélectionné, achat à l’unité hors livraison et abonnement.",
+        "product_identity": {
+          "brand": "Eric Favre",
+          "name": "Pure Creatine 200 mesh",
+          "variant": "neutre · 300 g",
+          "url": "https://www.ericfavre.com/fr_fr/bcaa-acides-amines/creatine-pro-pure-creatine-300g-naturel-p-174-o-355.htm",
+          "pack_g": 300,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "label": {
+        "checked_on": "2026-10-07",
+        "source_url": "https://www.ericfavre.com/fr_fr/bcaa-acides-amines/creatine-pro-pure-creatine-300g-naturel-p-174-o-355.htm",
+        "scope": "Ingrédient unique, conditionnement et portion fabricant. Quantité de créatine anhydre calculée lorsque seule la masse de monohydrate est fournie ; voir notes. Certifications et analyses de lot non auditées.",
+        "fields": {
+          "pack_g": 300,
+          "serving_g": 3,
+          "active_per_100g": 87.93,
+          "active_per_serving_g": 2.638,
+          "form": "créatine monohydrate micronisée 200 mesh",
+          "additives": []
+        },
+        "product_identity": {
+          "brand": "Eric Favre",
+          "name": "Pure Creatine 200 mesh",
+          "variant": "neutre · 300 g",
+          "url": "https://www.ericfavre.com/fr_fr/bcaa-acides-amines/creatine-pro-pure-creatine-300g-naturel-p-174-o-355.htm",
+          "pack_g": 300,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "review_notes": [],
+      "pending_fields": [
+        "Certifications et analyses de lot : non revérifiées."
+      ]
+    },
+    "nutratrail-nutrixeal-creatine-creapure-micronisee-neutre-500-g": {
+      "checked_on": "2026-10-07",
+      "price": {
+        "checked_on": "2026-10-07",
+        "source_url": "https://www.nutrixeal.fr/588-creatine-monohydrate-micronisee-creapure.html#declinaison=8-142-14-262-6-115",
+        "price_eur": 35,
+        "variant": "neutre · 500 g",
+        "scope": "Prix fabricant affiché pour le format sélectionné, achat à l’unité hors livraison et abonnement.",
+        "product_identity": {
+          "brand": "Nutratrail (Nutrixeal)",
+          "name": "Créatine Creapure® micronisée",
+          "variant": "neutre · 500 g",
+          "url": "https://www.nutrixeal.fr/588-creatine-monohydrate-micronisee-creapure.html#declinaison=8-142-14-262-6-115",
+          "pack_g": 500,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "label": {
+        "checked_on": "2026-10-07",
+        "source_url": "https://www.nutrixeal.fr/588-creatine-monohydrate-micronisee-creapure.html#declinaison=8-142-14-262-6-115",
+        "scope": "Ingrédient unique, conditionnement et portion fabricant. Quantité de créatine anhydre calculée lorsque seule la masse de monohydrate est fournie ; voir notes. Certifications et analyses de lot non auditées.",
+        "fields": {
+          "pack_g": 500,
+          "serving_g": 3.4,
+          "active_per_100g": 88.2,
+          "active_per_serving_g": 3,
+          "form": "créatine monohydrate Creapure® micronisée",
+          "additives": []
+        },
+        "product_identity": {
+          "brand": "Nutratrail (Nutrixeal)",
+          "name": "Créatine Creapure® micronisée",
+          "variant": "neutre · 500 g",
+          "url": "https://www.nutrixeal.fr/588-creatine-monohydrate-micronisee-creapure.html#declinaison=8-142-14-262-6-115",
+          "pack_g": 500,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "review_notes": [],
+      "pending_fields": [
+        "Certifications et analyses de lot : non revérifiées."
+      ]
+    },
+    "hsn-creatine-monohydrate-200-mesh-neutre-500-g": {
+      "checked_on": "2026-10-07",
+      "price": {
+        "checked_on": "2026-10-07",
+        "source_url": "https://www.hsnstore.fr/marques/raw-series/creatine-monohydratee-en-poudre-200-mesh",
+        "price_eur": 6.42,
+        "variant": "neutre · 500 g",
+        "scope": "Prix fabricant affiché pour le format sélectionné, achat à l’unité hors livraison et abonnement.",
+        "product_identity": {
+          "brand": "HSN",
+          "name": "Créatine monohydrate 200 mesh",
+          "variant": "neutre · 500 g",
+          "url": "https://www.hsnstore.fr/marques/raw-series/creatine-monohydratee-en-poudre-200-mesh",
+          "pack_g": 500,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "label": {
+        "checked_on": "2026-10-07",
+        "source_url": "https://www.hsnstore.fr/marques/raw-series/creatine-monohydratee-en-poudre-200-mesh",
+        "scope": "Ingrédient unique, conditionnement et portion fabricant. Quantité de créatine anhydre calculée lorsque seule la masse de monohydrate est fournie ; voir notes. Certifications et analyses de lot non auditées.",
+        "fields": {
+          "pack_g": 500,
+          "serving_g": 3.412,
+          "active_per_100g": 87.93,
+          "active_per_serving_g": 3,
+          "form": "créatine monohydrate micronisée 200 mesh",
+          "additives": []
+        },
+        "product_identity": {
+          "brand": "HSN",
+          "name": "Créatine monohydrate 200 mesh",
+          "variant": "neutre · 500 g",
+          "url": "https://www.hsnstore.fr/marques/raw-series/creatine-monohydratee-en-poudre-200-mesh",
+          "pack_g": 500,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "review_notes": [],
+      "pending_fields": [
+        "Certifications et analyses de lot : non revérifiées."
+      ]
+    },
+    "hsn-creatine-excell-creapure-neutre-500-g": {
+      "checked_on": "2026-10-07",
+      "price": {
+        "checked_on": "2026-10-07",
+        "source_url": "https://www.hsnstore.fr/marques/raw-series/creatine-excell-100-creapure-en-poudre",
+        "price_eur": 26.84,
+        "variant": "neutre · 500 g",
+        "scope": "Prix fabricant affiché pour le format sélectionné, achat à l’unité hors livraison et abonnement.",
+        "product_identity": {
+          "brand": "HSN",
+          "name": "Créatine Excell Creapure®",
+          "variant": "neutre · 500 g",
+          "url": "https://www.hsnstore.fr/marques/raw-series/creatine-excell-100-creapure-en-poudre",
+          "pack_g": 500,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "label": {
+        "checked_on": "2026-10-07",
+        "source_url": "https://www.hsnstore.fr/marques/raw-series/creatine-excell-100-creapure-en-poudre",
+        "scope": "Ingrédient unique, conditionnement et portion fabricant. Quantité de créatine anhydre calculée lorsque seule la masse de monohydrate est fournie ; voir notes. Certifications et analyses de lot non auditées.",
+        "fields": {
+          "pack_g": 500,
+          "serving_g": 3.412,
+          "active_per_100g": 87.93,
+          "active_per_serving_g": 3,
+          "form": "créatine monohydrate Creapure®",
+          "additives": []
+        },
+        "product_identity": {
+          "brand": "HSN",
+          "name": "Créatine Excell Creapure®",
+          "variant": "neutre · 500 g",
+          "url": "https://www.hsnstore.fr/marques/raw-series/creatine-excell-100-creapure-en-poudre",
+          "pack_g": 500,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "review_notes": [],
+      "pending_fields": [
+        "Certifications et analyses de lot : non revérifiées."
+      ]
+    },
+    "on-micronised-creatine": {
+      "pending_fields": [],
+      "review_notes": [],
+      "price": {
+        "checked_on": "2026-10-07",
+        "source_url": "https://www.amazon.fr/dp/B00T7L20EC",
+        "price_eur": 29.99,
+        "variant": "Unflavoured · 634 g",
+        "scope": "Prix public Amazon 634 g sans arôme, hors Prime et abonnement, hors livraison. Offre Prime 24,99 € exclue.",
+        "product_identity": {
+          "brand": "Optimum Nutrition",
+          "name": "Micronised Creatine Powder",
+          "variant": "Unflavoured · 634 g",
+          "url": "https://www.amazon.fr/dp/B00T7L20EC",
+          "pack_g": 634,
+          "units_pack": null,
+          "ean": null
+        }
+      }
+    },
+    "nutriting-nucrea-poudre-500-g": {
+      "review_notes": [],
+      "pending_fields": [],
+      "price": {
+        "checked_on": "2026-10-07",
+        "source_url": "https://www.nutriting.com/nu-shop/complement-alimentaire-creatine",
+        "price_eur": 39.9,
+        "variant": "poudre · 500 g",
+        "scope": "Prix fabricant, variante poudre 500 g, hors abonnement et livraison.",
+        "product_identity": {
+          "brand": "nutriting",
+          "name": "nuCrea+",
+          "variant": "poudre · 500 g",
+          "url": "https://www.nutriting.com/nu-shop/complement-alimentaire-creatine",
+          "pack_g": 500,
+          "units_pack": null,
+          "ean": null
+        }
+      }
     }
   }
 }

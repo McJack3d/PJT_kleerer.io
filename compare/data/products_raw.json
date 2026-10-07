@@ -63,7 +63,7 @@
       "name": "Whey Native",
       "variant": "Nature (unflavoured) · 1 kg",
       "price_eur": 37.95,
-      "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion. Indisponible lors du contrôle.",
+      "price_note": "Offre en EUR pour la référence identifiée, hors livraison. Contrôlé le 2026-10-07.",
       "pack_g": 1000,
       "serving_g": 30,
       "active_per_100g": 78,
@@ -89,11 +89,7 @@
       "confidence": "high",
       "notes": "Ingredient list of the Nature flavour: native WPC — nothing else. No lecithin, no sweetener.",
       "url": "https://www.nutrimuscle.com/products/whey-native",
-      "price_context": {
-        "kind": "observed_offer",
-        "checked_on": "2026-10-05",
-        "source_url": "https://www.nutrimuscle.com/products/whey-native?variant=50084507287881"
-      }
+      "price_context": {"kind": "observed_offer", "checked_on": "2026-10-07", "source_url": "https://www.nutrimuscle.com/products/whey-native?variant=50084507287881"}
     },
     {
       "id": "prozis-real-whey", "category": "whey", "brand": "Prozis", "name": "100% Real Whey Protein", "variant": "Vanilla · 1 kg",
@@ -117,7 +113,7 @@
       "name": "Creatine Monohydrate",
       "variant": "Unflavoured · 500 g",
       "price_eur": 14.99,
-      "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
+      "price_note": "Offre en EUR pour la référence identifiée, hors livraison. Contrôlé le 2026-10-07.",
       "pack_g": 500,
       "serving_g": 3.4,
       "active_per_100g": 88,
@@ -141,11 +137,7 @@
       "confidence": "low",
       "notes": "100% creatine monohydrate, no excipients.",
       "url": "https://fr.myprotein.com/p/nutrition-sportive/creatine-monohydrate-en-poudre/10530050/",
-      "price_context": {
-        "kind": "observed_offer",
-        "checked_on": "2026-10-05",
-        "source_url": "https://fr.myprotein.com/p/nutrition-sportive/creatine-monohydrate-en-poudre/10530050/?variation=10530054"
-      }
+      "price_context": {"kind": "observed_offer", "checked_on": "2026-10-07", "source_url": "https://fr.myprotein.com/p/nutrition-sportive/creatine-monohydrate-en-poudre/10530050/?variation=10530054"}
     },
     {
       "id": "esn-ultrapure-creatine",
@@ -153,8 +145,8 @@
       "brand": "ESN",
       "name": "Ultrapure Creatine Monohydrate",
       "variant": "Neutral · 500 g",
-      "price_eur": 17.0,
-      "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
+      "price_eur": 17.97,
+      "price_note": "Prix public Amazon 500 g hors Prime et abonnement, hors livraison. Offre Prime 17 € exclue. Contrôlé le 2026-10-07.",
       "pack_g": 500,
       "serving_g": 3.5,
       "active_per_100g": 88,
@@ -178,15 +170,11 @@
       "confidence": "high",
       "notes": "500 g ≈ 142 servings.",
       "url": "https://www.amazon.fr/dp/B0057ED9AM",
-      "price_context": {
-        "kind": "observed_offer",
-        "checked_on": "2026-10-05",
-        "source_url": "https://www.amazon.fr/ESN-Creatine-Ultrapure-Naturelle-1x500g/dp/B0057ED9AM"
-      }
+      "price_context": {"kind": "observed_offer", "checked_on": "2026-10-07", "source_url": "https://www.amazon.fr/dp/B0057ED9AM"}
     },
     {
       "id": "bulk-creatine", "category": "creatine", "brand": "Bulk", "name": "Creatine Monohydrate", "variant": "Unflavoured · 500 g",
-      "price_eur": 15.99, "price_note": "Estimated from bulk.com structural promo pattern (100 g = €4.99 live).",
+      "price_eur": 15.99, "price_note": "Achat ponctuel Amazon, sachet non aromatisé 500 g ; hors abonnement et livraison. Contrôlé le 2026-10-07.",
       "pack_g": 500, "serving_g": 3.4, "active_per_100g": 88, "active_per_serving_g": 3,
       "form": "Generic monohydrate, 99.9% purity claim", "form_tier": 16, "form_note": "Ingredient list: creatine monohydrate only.",
       "vegan": true,
@@ -195,11 +183,12 @@
       "transparency": {"coa_published": false, "third_party_cert": false, "branded_ingredient": null, "full_label": true},
       "flags": [], "confidence": "low",
       "notes": "Allergen cross-contact warning (milk/soy) from shared facility.",
-      "url": "https://www.amazon.fr/dp/B00SP2ZKW8"
+      "url": "https://www.amazon.fr/dp/B00SP2ZKW8",
+      "price_context": {"kind": "observed_offer", "checked_on": "2026-10-07", "source_url": "https://www.amazon.fr/dp/B00SP2ZKW8"}
     },
     {
       "id": "on-micronised-creatine", "category": "creatine", "brand": "Optimum Nutrition", "name": "Micronised Creatine Powder", "variant": "Unflavoured · 634 g",
-      "price_eur": 37.99, "price_note": "Best estimate after 2025–26 creatine price inflation — NOT confirmed.",
+      "price_eur": 29.99, "price_note": "Prix public Amazon 634 g sans arôme, hors Prime et abonnement, hors livraison. Offre Prime 24,99 € exclue. Contrôlé le 2026-10-07.",
       "pack_g": 634, "serving_g": 3.6, "active_per_100g": 88, "active_per_serving_g": 3.2,
       "form": "Micronised monohydrate (EU packs historically Creapure — verify batch)", "form_tier": 18, "form_note": "Creapure status of current EU batches unconfirmed.",
       "vegan": true,
@@ -208,7 +197,8 @@
       "transparency": {"coa_published": false, "third_party_cert": true, "branded_ingredient": null, "full_label": true},
       "flags": [], "confidence": "low",
       "notes": "~176 servings per Amazon.de listing.",
-      "url": "https://www.amazon.fr/dp/B00T7L20EC"
+      "url": "https://www.amazon.fr/dp/B00T7L20EC",
+      "price_context": {"kind": "observed_offer", "checked_on": "2026-10-07", "source_url": "https://www.amazon.fr/dp/B00T7L20EC"}
     },
     {
       "id": "nutrimuscle-creapure",
@@ -217,7 +207,7 @@
       "name": "Creatine Creapure® Powder",
       "variant": "Nature · 350 g",
       "price_eur": 34.95,
-      "price_note": "eu.nutrimuscle.com live Jul 2026. Stock tension from creatine demand boom.",
+      "price_note": "Offre fabricant pour 350 g ; rupture de stock au contrôle, hors livraison. Contrôlé le 2026-10-07.",
       "pack_g": 350,
       "serving_g": 3,
       "active_per_100g": 88,
@@ -242,7 +232,8 @@
       "flags": [],
       "confidence": "high",
       "notes": "Creapure carries ~2× premium vs generic (€100–113/kg vs €43–56/kg).",
-      "url": "https://www.nutrimuscle.com/products/creatine-creapure-r-en-poudre"
+      "url": "https://www.nutrimuscle.com/products/creatine-creapure-r-en-poudre",
+      "price_context": {"kind": "observed_offer", "checked_on": "2026-10-07", "source_url": "https://www.nutrimuscle.com/products/creatine-creapure-r-en-poudre?variant=48752695509321"}
     },
     {
       "id": "nutripure-creapure", "category": "creatine", "brand": "Nutripure", "name": "Creatine Monohydrate Creapure®", "variant": "Nature · 150 g",
@@ -437,7 +428,7 @@
       "name": "Omega-3 Total (liquid)",
       "variant": "200 ml, lemon",
       "price_eur": 26.9,
-      "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
+      "price_note": "Offre en EUR pour la référence identifiée, hors livraison. Contrôlé le 2026-10-07.",
       "units_pack": 25,
       "unit_name": "8 ml dose",
       "units_per_day": 1,
@@ -474,11 +465,7 @@
           "source": "manufacturer: 800 IU vitamin D3 per 8 ml daily dose"
         }
       ],
-      "price_context": {
-        "kind": "observed_offer",
-        "checked_on": "2026-10-05",
-        "source_url": "https://www.amazon.fr/NORSAN-Omega-citron-qualit%C3%A9-sup%C3%A9rieure/dp/B08X4XVPFM"
-      }
+      "price_context": {"kind": "observed_offer", "checked_on": "2026-10-07", "source_url": "https://www.amazon.fr/NORSAN-Omega-citron-qualit%C3%A9-sup%C3%A9rieure/dp/B08X4XVPFM"}
     },
     {
       "id": "nutrico-omega3", "category": "omega3", "brand": "Nutri&Co", "name": "Omega 3 EPAX® Ultra-Pure", "variant": "120 capsules",

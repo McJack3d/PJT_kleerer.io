@@ -36,7 +36,7 @@
   "name": "Tribulus Terrestris",
   "variant": "gélules · 120",
   "price_eur": 14.95,
-  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
+  "price_note": "Offre en EUR pour la référence identifiée, hors livraison. Contrôlé le 2026-10-07.",
   "units_pack": 120,
   "unit_name": "gélule",
   "units_per_day": 4,
@@ -63,11 +63,7 @@
   "url": "https://www.nutrimuscle.com/products/tribulus-terrestris",
   "ean": null,
   "notes": "1 800 mg d'extrait/j (720 mg de saponines) en 4 gélules.",
-  "price_context": {
-   "kind": "observed_offer",
-   "checked_on": "2026-10-05",
-   "source_url": "https://www.nutrimuscle.com/products/tribulus-terrestris?variant=32404576075913"
-  }
+  "price_context": {"kind": "observed_offer", "checked_on": "2026-10-07", "source_url": "https://www.nutrimuscle.com/products/tribulus-terrestris?variant=32404576075913"}
  },
  {
   "category": "tribulus",
@@ -105,7 +101,7 @@
   "name": "Tribulus",
   "variant": "gélules · 60",
   "price_eur": 18.9,
-  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
+  "price_note": "Offre en EUR pour la référence identifiée, hors livraison. Contrôlé le 2026-10-07.",
   "units_pack": 60,
   "unit_name": "gélule",
   "units_per_day": 2,
@@ -132,11 +128,7 @@
   "url": "https://cuure.com/produits/tribulus",
   "ean": null,
   "notes": "Liste d'ingrédients lue sur les fiches « Ingrédients » (extrait de fruit, fibres d'avoine, gélule végétale). 2 gélules/j = 2 000 mg d'extrait, 800 mg de saponines.",
-  "price_context": {
-   "kind": "observed_offer",
-   "checked_on": "2026-10-05",
-   "source_url": "https://cuure.com/produits/tribulus"
-  }
+  "price_context": {"kind": "observed_offer", "checked_on": "2026-10-07", "source_url": "https://cuure.com/produits/tribulus"}
  },
  {
   "category": "tribulus",
@@ -144,7 +136,7 @@
   "name": "Tribulus terrestris titré 650 mg",
   "variant": "gélules · 120",
   "price_eur": 16.9,
-  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
+  "price_note": "Offre en EUR pour la référence identifiée, hors livraison. Contrôlé le 2026-10-07.",
   "units_pack": 120,
   "unit_name": "gélule",
   "units_per_day": 2,
@@ -169,11 +161,7 @@
   "url": "https://www.onatera.com/FR/fr/produit-tribulus-terrestris-titre-650-mg-120-gelules-orfito",
   "ean": null,
   "notes": "650 mg d'extrait/j (260 mg de saponines) en 2 gélules.",
-  "price_context": {
-   "kind": "observed_offer",
-   "checked_on": "2026-10-05",
-   "source_url": "https://www.onatera.com/FR/fr/produit-tribulus-terrestris-titre-650-mg-120-gelules-orfito"
-  }
+  "price_context": {"kind": "observed_offer", "checked_on": "2026-10-07", "source_url": "https://www.onatera.com/FR/fr/produit-tribulus-terrestris-titre-650-mg-120-gelules-orfito"}
  },
  {
   "category": "tribulus",
@@ -181,7 +169,7 @@
   "name": "Tribulus Bio 300 mg",
   "variant": "gélules · 90",
   "price_eur": 9.9,
-  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion. Indisponible lors du contrôle.",
+  "price_note": "Offre en EUR pour la référence identifiée, hors livraison. Contrôlé le 2026-10-07.",
   "units_pack": 90,
   "unit_name": "gélule",
   "units_per_day": 3,
@@ -207,11 +195,7 @@
   "url": "https://www.onatera.com/FR/fr/produit-tribulus-bio-300-mg-90-gelules-vegetales-orfito",
   "ean": null,
   "notes": "900 mg de poudre/j en 3 gélules ; pas de teneur en saponines déclarée.",
-  "price_context": {
-   "kind": "observed_offer",
-   "checked_on": "2026-10-05",
-   "source_url": "https://www.onatera.com/FR/fr/produit-tribulus-bio-300-mg-90-gelules-vegetales-orfito"
-  }
+  "price_context": {"kind": "observed_offer", "checked_on": "2026-10-07", "source_url": "https://www.onatera.com/FR/fr/produit-tribulus-bio-300-mg-90-gelules-vegetales-orfito"}
  },
  {
   "category": "fenugreek",
@@ -354,7 +338,7 @@
   "name": "Fenugrec Bio",
   "variant": "gélules · 60",
   "price_eur": 10.9,
-  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
+  "price_note": "Offre en EUR pour la référence identifiée, hors livraison. Contrôlé le 2026-10-07.",
   "units_pack": 60,
   "unit_name": "gélule",
   "units_per_day": 3,
@@ -377,11 +361,7 @@
   "url": "https://www.onatera.com/FR/fr/produit-fenugrec-bio-60-gelules-nutrivie",
   "ean": null,
   "notes": "3 à 6 gélules/j — chiffré à 3/j (1 005 mg).",
-  "price_context": {
-   "kind": "observed_offer",
-   "checked_on": "2026-10-05",
-   "source_url": "https://www.onatera.com/FR/fr/produit-fenugrec-bio-60-gelules-nutrivie"
-  }
+  "price_context": {"kind": "observed_offer", "checked_on": "2026-10-07", "source_url": "https://www.onatera.com/FR/fr/produit-fenugrec-bio-60-gelules-nutrivie"}
  },
  {
   "category": "zma",
@@ -389,7 +369,7 @@
   "name": "ZMA",
   "variant": "capsules · 120",
   "price_eur": 31.5,
-  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion. Indisponible lors du contrôle.",
+  "price_note": "Offre en EUR pour la référence identifiée, hors livraison. Contrôlé le 2026-10-07.",
   "units_pack": 120,
   "unit_name": "capsule",
   "units_per_day": 1,
@@ -417,11 +397,7 @@
     "per_day": 150
    }
   ],
-  "price_context": {
-   "kind": "observed_offer",
-   "checked_on": "2026-10-05",
-   "source_url": "https://olimpstore.fr/olimp-zma-120-gelules-545"
-  }
+  "price_context": {"kind": "observed_offer", "checked_on": "2026-10-07", "source_url": "https://olimpstore.fr/olimp-zma-120-gelules-545"}
  },
  {
   "category": "zma",

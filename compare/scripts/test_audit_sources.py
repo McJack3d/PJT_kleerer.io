@@ -42,6 +42,22 @@ class StructuredSourceTests(unittest.TestCase):
         self.assertTrue(offer['aggregate'])
         self.assertNotIn('price', offer)
 
+    def test_members_only_offer_is_not_a_public_price(self):
+        product = dict(self.product(), id="test", price_eur=20)
+        page = '<title>Magnésium</title><script type="application/ld+json">' + \
+            '{"@type":"Product","name":"Magnésium Bisglycinate 60 gélules","brand":"Marque",' + \
+            '"offers":{"@type":"Offer","price":17,"priceCurrency":"EUR"}}</script>'
+        for restriction in ("Cette offre est exclusivement réservée aux membres Prime.",
+                            "This deal is exclusively for Prime members."):
+            with self.subTest(restriction=restriction):
+                client = SimpleNamespace(fetch=lambda url: {"status":200, "body":page + restriction})
+                result = audit.audit_product(product, client, "2026-10-07")
+                self.assertTrue(result["identity_verified"])
+                self.assertFalse(result["price_verified"])
+                self.assertIn("price_restriction", result)
+        client = SimpleNamespace(fetch=lambda url: {"status":200, "body":page})
+        self.assertTrue(audit.audit_product(product, client, "2026-10-07")["price_verified"])
+
     def test_decimal_pack_and_no_dose_confusion(self):
         self.assertEqual(audit.pack_values('0,5 kg / gélules 500 mg')['g'], {500})
         self.assertEqual(audit.pack_values('60 gélules 500 mg')['units'], {60})

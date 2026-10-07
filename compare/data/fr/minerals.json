@@ -5,7 +5,7 @@
   "name": "Arkogélules® Fer Liposomal",
   "variant": "gélules · 60",
   "price_eur": 13.4,
-  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
+  "price_note": "Offre en EUR pour la référence identifiée, hors livraison. Contrôlé le 2026-10-07.",
   "units_pack": 60,
   "unit_name": "gélule",
   "units_per_day": 2,
@@ -41,11 +41,7 @@
     "per_day": 88
    }
   ],
-  "price_context": {
-   "kind": "observed_offer",
-   "checked_on": "2026-10-05",
-   "source_url": "https://fr.arkopharma.com/products/arkogelules%C2%AE-fer-liposomal?variant=57053394403652"
-  }
+  "price_context": {"kind": "observed_offer", "checked_on": "2026-10-07", "source_url": "https://fr.arkopharma.com/products/arkogelules%C2%AE-fer-liposomal?variant=57053394403652"}
  },
  {
   "category": "iron",
@@ -53,7 +49,7 @@
   "name": "Fer Liposomal",
   "variant": "gélules · 30",
   "price_eur": 19.51,
-  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
+  "price_note": "Offre en EUR pour la référence identifiée, hors livraison. Contrôlé le 2026-10-07.",
   "units_pack": 30,
   "unit_name": "gélule",
   "units_per_day": 1,
@@ -92,11 +88,7 @@
     "per_day": 1.25
    }
   ],
-  "price_context": {
-   "kind": "observed_offer",
-   "checked_on": "2026-10-05",
-   "source_url": "https://www.biocyte.com/products/fer-liposomal?variant=54965059748175"
-  }
+  "price_context": {"kind": "observed_offer", "checked_on": "2026-10-07", "source_url": "https://www.biocyte.com/products/fer-liposomal?variant=54965059748175"}
  },
  {
   "category": "iron",
@@ -104,7 +96,7 @@
   "name": "Fer Bisglycinate LomaChelateX®",
   "variant": "gélules · 90",
   "price_eur": 17.9,
-  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
+  "price_note": "Offre en EUR pour la référence identifiée, hors livraison. Contrôlé le 2026-10-07.",
   "units_pack": 90,
   "unit_name": "gélule",
   "units_per_day": 1,
@@ -133,11 +125,7 @@
   "url": "https://cuure.com/produits/fer",
   "ean": "3760353422894",
   "notes": "14 mg de fer (100 % VNR) par gélule ; flacon « 90 jours » à 1 gélule/j. Liste complète lue dans les données de composition de la fiche (fécule de pomme de terre 130 mg, bisglycinate de fer 70 mg, gélule HPMC 65 mg, spiruline 10 mg en colorant) ; l'onglet visible « Ingrédients » ne nomme que bisglycinate, spiruline et fécule. Existe en box personnalisée de 30 gélules (6,21 € au lieu de 6,90 €).",
-  "price_context": {
-   "kind": "observed_offer",
-   "checked_on": "2026-10-05",
-   "source_url": "https://cuure.com/produits/fer"
-  }
+  "price_context": {"kind": "observed_offer", "checked_on": "2026-10-07", "source_url": "https://cuure.com/produits/fer"}
  },
  {
   "category": "iron",
@@ -145,7 +133,7 @@
   "name": "Bisglycinate de Fer",
   "variant": "gélules · 60",
   "price_eur": 12.9,
-  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
+  "price_note": "Offre en EUR pour la référence identifiée, hors livraison. Contrôlé le 2026-10-07.",
   "units_pack": 60,
   "unit_name": "gélule",
   "units_per_day": 1,
@@ -172,11 +160,7 @@
   "url": "https://www.dynveo.fr/products/bisglycinate-de-fer",
   "ean": "3770000228182",
   "notes": "14 mg de fer (100 % VNR) par gélule ; formule 3 ingrédients, déclarée vegan.",
-  "price_context": {
-   "kind": "observed_offer",
-   "checked_on": "2026-10-05",
-   "source_url": "https://www.dynveo.fr/products/bisglycinate-de-fer"
-  }
+  "price_context": {"kind": "observed_offer", "checked_on": "2026-10-07", "source_url": "https://www.dynveo.fr/products/bisglycinate-de-fer"}
  },
  {
   "category": "iron",
@@ -184,7 +168,7 @@
   "name": "Complexe Fer et Vitamine C : Fer3",
   "variant": "gélules · 60",
   "price_eur": 26.9,
-  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
+  "price_note": "Offre en EUR pour la référence identifiée, hors livraison. Contrôlé le 2026-10-07.",
   "units_pack": 60,
   "unit_name": "gélule",
   "units_per_day": 2,
@@ -217,11 +201,7 @@
     "per_day": 180
    }
   ],
-  "price_context": {
-   "kind": "observed_offer",
-   "checked_on": "2026-10-05",
-   "source_url": "https://www.dynveo.fr/products/complexe-fer"
-  }
+  "price_context": {"kind": "observed_offer", "checked_on": "2026-10-07", "source_url": "https://www.dynveo.fr/products/complexe-fer"}
  },
  {
   "category": "iron",
@@ -304,7 +284,7 @@
   "name": "Fer Ultimine™",
   "variant": "gélules · 30",
   "price_eur": 7.95,
-  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
+  "price_note": "Offre en EUR pour la référence identifiée, hors livraison. Contrôlé le 2026-10-07.",
   "units_pack": 30,
   "unit_name": "gélule",
   "units_per_day": 1,
@@ -333,11 +313,7 @@
   "url": "https://www.nutrimuscle.com/products/fer-ultimine",
   "ean": null,
   "notes": "13,7 mg de fer (98 % VNR) par gélule. Analyse de l'ingrédient, étiquette et certificats Sport Protect/WADA publiés. Ne pas cumuler avec les multiminéraux de la marque.",
-  "price_context": {
-   "kind": "observed_offer",
-   "checked_on": "2026-10-05",
-   "source_url": "https://www.nutrimuscle.com/products/fer-ultimine?variant=54076227944777"
-  }
+  "price_context": {"kind": "observed_offer", "checked_on": "2026-10-07", "source_url": "https://www.nutrimuscle.com/products/fer-ultimine?variant=54076227944777"}
  },
  {
   "category": "iron",
@@ -345,7 +321,7 @@
   "name": "Fer Bisglycinate doux non constipant",
   "variant": "gélules · 90",
   "price_eur": 11.9,
-  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
+  "price_note": "Offre en EUR pour la référence identifiée, hors livraison. Contrôlé le 2026-10-07.",
   "units_pack": 90,
   "unit_name": "gélule",
   "units_per_day": 1,
@@ -380,11 +356,7 @@
     "per_day": 80
    }
   ],
-  "price_context": {
-   "kind": "observed_offer",
-   "checked_on": "2026-10-05",
-   "source_url": "https://www.onatera.com/FR/fr/produit-fer-doux-non-constipant-brevete-90-gelules-onatera"
-  }
+  "price_context": {"kind": "observed_offer", "checked_on": "2026-10-07", "source_url": "https://www.onatera.com/FR/fr/produit-fer-doux-non-constipant-brevete-90-gelules-onatera"}
  },
  {
   "category": "iron",
@@ -392,7 +364,7 @@
   "name": "Fer bisglycinate",
   "variant": "gélules · 90",
   "price_eur": 9.9,
-  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
+  "price_note": "Offre en EUR pour la référence identifiée, hors livraison. Contrôlé le 2026-10-07.",
   "units_pack": 90,
   "unit_name": "gélule",
   "units_per_day": 1,
@@ -421,11 +393,7 @@
   "url": "https://www.onatera.com/FR/fr/produit-fer-bisglycinate-90-gelules-orfito",
   "ean": "3701407713261",
   "notes": "1 gélule/j = 14 mg de fer (100 % AR). La table indique 70 mg de bisglycinate, le texte marketing 75 mg ; la teneur en fer (14 mg) est la même. La fiche dit aussi « Convient aux adultes, sportifs, femmes enceintes » alors que les précautions demandent un avis médical. Format 180 gélules listé sans prix affiché.",
-  "price_context": {
-   "kind": "observed_offer",
-   "checked_on": "2026-10-05",
-   "source_url": "https://www.onatera.com/FR/fr/produit-fer-bisglycinate-90-gelules-orfito"
-  }
+  "price_context": {"kind": "observed_offer", "checked_on": "2026-10-07", "source_url": "https://www.onatera.com/FR/fr/produit-fer-bisglycinate-90-gelules-orfito"}
  },
  {
   "category": "iron",
@@ -559,7 +527,7 @@
   "name": "Citrate de potassium",
   "variant": "gélules · 60",
   "price_eur": 19.9,
-  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
+  "price_note": "Offre en EUR pour la référence identifiée, hors livraison. Contrôlé le 2026-10-07.",
   "units_pack": 60,
   "unit_name": "gélule",
   "units_per_day": 2,
@@ -590,11 +558,7 @@
   "url": "https://www.dynveo.fr/products/citrate-de-potassium",
   "ean": null,
   "notes": "2 gélules/j = 2 000 mg de citrate de tripotassium dont 700 mg de potassium (35 % VNR). Existe aussi en poudre 250 g (17,90 €, 2 cuillères = 875 mg de K). La description parle de gélules en pullulan, la liste d'ingrédients d'hypromellose : liste retenue. L'EAN du JSON-LD (3760331480373) correspond au format poudre, non repris. Analyses « systématiques » revendiquées mais aucun certificat lié sur la fiche.",
-  "price_context": {
-   "kind": "observed_offer",
-   "checked_on": "2026-10-05",
-   "source_url": "https://www.dynveo.fr/products/citrate-de-potassium?variant=52063266406727"
-  }
+  "price_context": {"kind": "observed_offer", "checked_on": "2026-10-07", "source_url": "https://www.dynveo.fr/products/citrate-de-potassium?variant=52063266406727"}
  },
  {
   "category": "potassium",
@@ -643,7 +607,7 @@
   "name": "Citrate de Potassium en gélules",
   "variant": "gélules · 120",
   "price_eur": 19.95,
-  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
+  "price_note": "Offre en EUR pour la référence identifiée, hors livraison. Contrôlé le 2026-10-07.",
   "units_pack": 120,
   "unit_name": "gélule",
   "units_per_day": 8,
@@ -674,11 +638,7 @@
   "url": "https://www.nutrimuscle.com/products/citrate-de-potassium-en-gelules",
   "ean": null,
   "notes": "Portion recommandée 8 gélules/j = 4 663 mg de citrate et 2 838 mg de potassium (142 % VNR), soit ≈ 354,75 mg de K par gélule ; paquet de 120 = 15 jours. Certificat d'analyse du citrate tripotassique téléchargeable.",
-  "price_context": {
-   "kind": "observed_offer",
-   "checked_on": "2026-10-05",
-   "source_url": "https://www.nutrimuscle.com/products/citrate-de-potassium-en-gelules?variant=48752770416969"
-  }
+  "price_context": {"kind": "observed_offer", "checked_on": "2026-10-07", "source_url": "https://www.nutrimuscle.com/products/citrate-de-potassium-en-gelules?variant=48752770416969"}
  },
  {
   "category": "potassium",
@@ -686,7 +646,7 @@
   "name": "Citrate de Potassium",
   "variant": "gélules · 120",
   "price_eur": 12.9,
-  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
+  "price_note": "Offre en EUR pour la référence identifiée, hors livraison. Contrôlé le 2026-10-07.",
   "units_pack": 120,
   "unit_name": "gélule",
   "units_per_day": 2,
@@ -716,11 +676,7 @@
   "url": "https://www.onatera.com/FR/fr/produit-citrate-potassium-120-gelules-onatera",
   "ean": "3701407714176",
   "notes": "Étiquette : 2 à 4 gélules/j = 300 à 600 mg de potassium élément (15–30 % AR) ; tableau donné pour 4 gélules (600 mg, dose maximale) ; chiffré à 2/j (dose basse), soit 150 mg par gélule. Gélule HPMC d'après la description.",
-  "price_context": {
-   "kind": "observed_offer",
-   "checked_on": "2026-10-05",
-   "source_url": "https://www.onatera.com/FR/fr/produit-citrate-potassium-120-gelules-onatera"
-  }
+  "price_context": {"kind": "observed_offer", "checked_on": "2026-10-07", "source_url": "https://www.onatera.com/FR/fr/produit-citrate-potassium-120-gelules-onatera"}
  },
  {
   "category": "potassium",

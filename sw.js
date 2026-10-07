@@ -24,7 +24,7 @@
  *   assets       stale-while-revalidate. Instant paint from cache, refreshed in
  *                the background, so data.js is never more than one visit stale.
  */
-const VERSION = "v1.12.0";
+const VERSION = "v1.13.0";
 
 // Assets are requested with a cache-busting query -- `i18n.js?v=1.5`,
 // `data.js?v=1.5` -- while the precache stores them under their bare path. A

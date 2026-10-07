@@ -125,7 +125,7 @@
   "name": "Ashwagandha Shoden®",
   "variant": "gélules · 30",
   "price_eur": 19.95,
-  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
+  "price_note": "Offre en EUR pour la référence identifiée, hors livraison. Contrôlé le 2026-10-07.",
   "units_pack": 30,
   "units_per_day": 1,
   "active_per_unit": 215,
@@ -135,11 +135,7 @@
    "gélule végétalienne (agent d'enrobage : hydroxypropylméthylcellulose)"
   ],
   "url": "https://www.nutrimuscle.com/products/ashwagandha-shoden-r",
-  "price_context": {
-   "kind": "observed_offer",
-   "checked_on": "2026-10-05",
-   "source_url": "https://www.nutrimuscle.com/products/ashwagandha-shoden-r?variant=49016792940873"
-  }
+  "price_context": {"kind": "observed_offer", "checked_on": "2026-10-07", "source_url": "https://www.nutrimuscle.com/products/ashwagandha-shoden-r?variant=49016792940873"}
  },
  {
   "active_unit": "mg",
@@ -163,7 +159,7 @@
   "name": "Ashwagandha KSM-66®",
   "variant": "gélules · 60",
   "price_eur": 19.9,
-  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
+  "price_note": "Offre en EUR pour la référence identifiée, hors livraison. Contrôlé le 2026-10-07.",
   "units_pack": 60,
   "units_per_day": 1,
   "active_per_unit": 250,
@@ -174,11 +170,7 @@
    "agents anti-agglomérants (sels de magnésium d'acides gras, dioxyde de silicium)"
   ],
   "url": "https://shop.biotechusa.fr/products/ashwagandha-ksm-66%C2%AE-60-gelules",
-  "price_context": {
-   "kind": "observed_offer",
-   "checked_on": "2026-10-05",
-   "source_url": "https://shop.biotechusa.fr/products/ashwagandha-ksm-66%C2%AE-60-gelules"
-  }
+  "price_context": {"kind": "observed_offer", "checked_on": "2026-10-07", "source_url": "https://shop.biotechusa.fr/products/ashwagandha-ksm-66%C2%AE-60-gelules"}
  },
  {
   "active_unit": "mg",
@@ -200,7 +192,7 @@
   "name": "Ashwagandha",
   "variant": "gélules · 60",
   "price_eur": 13.9,
-  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
+  "price_note": "Offre en EUR pour la référence identifiée, hors livraison. Contrôlé le 2026-10-07.",
   "units_pack": 60,
   "units_per_day": 1,
   "active_per_unit": 245,
@@ -216,11 +208,7 @@
    "agents anti-agglomérants (sels de magnésium d'acides gras)"
   ],
   "url": "https://shop.biotechusa.fr/products/ashwagandha-60-gelules",
-  "price_context": {
-   "kind": "observed_offer",
-   "checked_on": "2026-10-05",
-   "source_url": "https://shop.biotechusa.fr/products/ashwagandha-60-gelules"
-  }
+  "price_context": {"kind": "observed_offer", "checked_on": "2026-10-07", "source_url": "https://shop.biotechusa.fr/products/ashwagandha-60-gelules"}
  },
  {
   "active_unit": "mg",
@@ -411,7 +399,7 @@
   "name": "Maca bio",
   "variant": "gélules · 60",
   "price_eur": 9.95,
-  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
+  "price_note": "Offre en EUR pour la référence identifiée, hors livraison. Contrôlé le 2026-10-07.",
   "units_pack": 60,
   "units_per_day": 2,
   "active_per_unit": 600,
@@ -421,11 +409,7 @@
    "gélule végétalienne (agent d'enrobage : hydroxypropylméthylcellulose)"
   ],
   "url": "https://www.nutrimuscle.com/products/maca-bio-en-gelules",
-  "price_context": {
-   "kind": "observed_offer",
-   "checked_on": "2026-10-05",
-   "source_url": "https://www.nutrimuscle.com/products/maca-bio-en-gelules?variant=48751561769289"
-  }
+  "price_context": {"kind": "observed_offer", "checked_on": "2026-10-07", "source_url": "https://www.nutrimuscle.com/products/maca-bio-en-gelules?variant=48751561769289"}
  },
  {
   "active_unit": "mg",
@@ -580,7 +564,7 @@
   "name": "Rhodiola Rhodiolife®",
   "variant": "gélules · 30",
   "price_eur": 19.95,
-  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
+  "price_note": "Offre en EUR pour la référence identifiée, hors livraison. Contrôlé le 2026-10-07.",
   "units_pack": 30,
   "units_per_day": 2,
   "active_per_unit": 530,
@@ -589,11 +573,7 @@
    "gélule végétalienne (agent d'enrobage : hydroxypropylméthylcellulose)"
   ],
   "url": "https://www.nutrimuscle.com/products/rhodiola-rhodiolife-r",
-  "price_context": {
-   "kind": "observed_offer",
-   "checked_on": "2026-10-05",
-   "source_url": "https://www.nutrimuscle.com/products/rhodiola-rhodiolife-r?variant=50633047179593"
-  }
+  "price_context": {"kind": "observed_offer", "checked_on": "2026-10-07", "source_url": "https://www.nutrimuscle.com/products/rhodiola-rhodiolife-r?variant=50633047179593"}
  },
  {
   "active_unit": "mg",
@@ -616,7 +596,7 @@
   "name": "Rhodiola",
   "variant": "gélules · 60",
   "price_eur": 29.9,
-  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
+  "price_note": "Offre en EUR pour la référence identifiée, hors livraison. Contrôlé le 2026-10-07.",
   "units_pack": 60,
   "units_per_day": 2,
   "active_per_unit": 500,
@@ -630,11 +610,7 @@
    "antiagglomérants (sels de magnésium d'acides gras)"
   ],
   "url": "https://shop.biotechusa.fr/products/rhodiola-60-gelules",
-  "price_context": {
-   "kind": "observed_offer",
-   "checked_on": "2026-10-05",
-   "source_url": "https://shop.biotechusa.fr/products/rhodiola-60-gelules"
-  }
+  "price_context": {"kind": "observed_offer", "checked_on": "2026-10-07", "source_url": "https://shop.biotechusa.fr/products/rhodiola-60-gelules"}
  },
  {
   "active_unit": "mg",
@@ -757,7 +733,7 @@
   "name": "Curcumine BIO Optimisée",
   "variant": "gélules 300 mg · 30",
   "price_eur": 19.9,
-  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
+  "price_note": "Offre en EUR pour la référence identifiée, hors livraison. Contrôlé le 2026-10-07.",
   "units_pack": 30,
   "units_per_day": 1,
   "active_per_unit": 90,
@@ -768,11 +744,7 @@
    "extrait d'écorce de quillaja bio"
   ],
   "url": "https://www.dynveo.fr/products/curcumine-optimisee",
-  "price_context": {
-   "kind": "observed_offer",
-   "checked_on": "2026-10-05",
-   "source_url": "https://www.dynveo.fr/products/curcumine-optimisee?variant=52062933778759"
-  }
+  "price_context": {"kind": "observed_offer", "checked_on": "2026-10-07", "source_url": "https://www.dynveo.fr/products/curcumine-optimisee?variant=52062933778759"}
  },
  {
   "active_unit": "mg",
@@ -830,7 +802,7 @@
   "name": "Curcumine",
   "variant": "capsules molles · 60",
   "price_eur": 24.95,
-  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
+  "price_note": "Offre en EUR pour la référence identifiée, hors livraison. Contrôlé le 2026-10-07.",
   "units_pack": 60,
   "units_per_day": 2,
   "active_per_unit": 50,
@@ -842,11 +814,7 @@
    "vitamine E (d-α-tocophérol)"
   ],
   "url": "https://www.nutrimuscle.com/products/curcumine",
-  "price_context": {
-   "kind": "observed_offer",
-   "checked_on": "2026-10-05",
-   "source_url": "https://www.nutrimuscle.com/products/curcumine?variant=48373141373257"
-  }
+  "price_context": {"kind": "observed_offer", "checked_on": "2026-10-07", "source_url": "https://www.nutrimuscle.com/products/curcumine?variant=48373141373257"}
  },
  {
   "active_unit": "mg",
@@ -870,7 +838,7 @@
   "name": "Liquid Curcuma",
   "variant": "capsules · 30",
   "price_eur": 22.9,
-  "price_note": "Offre affichée pour cette référence le 2026-10-05, hors livraison ; peut inclure une promotion.",
+  "price_note": "Offre en EUR pour la référence identifiée, hors livraison. Contrôlé le 2026-10-07.",
   "units_pack": 30,
   "units_per_day": 1,
   "active_per_unit": 48,
@@ -881,11 +849,7 @@
    "antioxydant (acide ascorbique)"
   ],
   "url": "https://shop.biotechusa.fr/products/liquid-curcruma-30-capsules",
-  "price_context": {
-   "kind": "observed_offer",
-   "checked_on": "2026-10-05",
-   "source_url": "https://shop.biotechusa.fr/products/liquid-curcruma-30-capsules"
-  }
+  "price_context": {"kind": "observed_offer", "checked_on": "2026-10-07", "source_url": "https://shop.biotechusa.fr/products/liquid-curcruma-30-capsules"}
  },
  {
   "active_unit": "mg",

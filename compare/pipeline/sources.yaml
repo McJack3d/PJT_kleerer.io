@@ -348,12 +348,39 @@ sources:
     ean: null
     render: js
 
+  - id: eric-favre-pure-creatine-200-mesh-neutre-300-g
+    product_id: eric-favre-pure-creatine-200-mesh-neutre-300-g
+    brand: "Eric Favre"
+    name: "Pure Creatine 200 mesh"
+    category: creatine
+    url: https://www.ericfavre.com/fr_fr/bcaa-acides-amines/creatine-pro-pure-creatine-300g-naturel-p-174-o-355.htm
+    ean: null
+    render: js
+
   - id: esn-ultrapure-creatine
     product_id: esn-ultrapure-creatine
     brand: ESN
     name: "Ultrapure Creatine Monohydrate"
     category: creatine
     url: https://www.amazon.fr/dp/B0057ED9AM
+    ean: null
+    render: js
+
+  - id: hsn-creatine-excell-creapure-neutre-500-g
+    product_id: hsn-creatine-excell-creapure-neutre-500-g
+    brand: HSN
+    name: "Créatine Excell Creapure®"
+    category: creatine
+    url: https://www.hsnstore.fr/marques/raw-series/creatine-excell-100-creapure-en-poudre
+    ean: null
+    render: js
+
+  - id: hsn-creatine-monohydrate-200-mesh-neutre-500-g
+    product_id: hsn-creatine-monohydrate-200-mesh-neutre-500-g
+    brand: HSN
+    name: "Créatine monohydrate 200 mesh"
+    category: creatine
+    url: https://www.hsnstore.fr/marques/raw-series/creatine-monohydratee-en-poudre-200-mesh
     ean: null
     render: js
 
@@ -372,6 +399,24 @@ sources:
     name: "Creatine Monohydrate"
     category: creatine
     url: https://fr.myprotein.com/p/nutrition-sportive/creatine-monohydrate-en-poudre/10530050/
+    ean: null
+    render: js
+
+  - id: novoma-creatine-creapure-en-poudre-neutre-180-g
+    product_id: novoma-creatine-creapure-en-poudre-neutre-180-g
+    brand: Novoma
+    name: "Créatine Creapure® en Poudre"
+    category: creatine
+    url: https://novoma.com/products/creatine
+    ean: 3770025711706
+    render: js
+
+  - id: nutratrail-nutrixeal-creatine-creapure-micronisee-neutre-500-g
+    product_id: nutratrail-nutrixeal-creatine-creapure-micronisee-neutre-500-g
+    brand: "Nutratrail (Nutrixeal)"
+    name: "Créatine Creapure® micronisée"
+    category: creatine
+    url: https://www.nutrixeal.fr/588-creatine-monohydrate-micronisee-creapure.html#declinaison=8-142-14-262-6-115
     ean: null
     render: js
 
