@@ -19,9 +19,11 @@ en: {
   langSwitchTitle: "Afficher en français",
   metaDesc: "Compare supplement ingredients, doses and price per active ingredient. Independent scores, source links and scientific evidence. No affiliate links.",
 
+  navIndex: "The index", skipProducts: "Skip to products",
+  heroEyebrow: "The independent supplement index", heroTitle: "Compare,", heroEmphasis: "in detail.",
   crumb: "/ p1 · compare",
-  navEvidence: "evidence", navMethodology: "methodology",
-  navAbout: "about",
+  navEvidence: "The evidence", navMethodology: "Methodology",
+  navAbout: "About",
 
   heroSub: `Compare ingredients, scores and price per active. No sponsors or affiliate links.`,
 
@@ -373,9 +375,11 @@ fr: {
   langSwitchTitle: "Switch to English",
   metaDesc: "Comparez composition, doses et prix par actif des compléments alimentaires. Scores indépendants, sources et preuves scientifiques. Sans liens affiliés.",
 
+  navIndex: "L’index", skipProducts: "Aller aux produits",
+  heroEyebrow: "L’index indépendant des compléments", heroTitle: "Comparez,", heroEmphasis: "en détail.",
   crumb: "/ p1 · comparer",
-  navEvidence: "preuves", navMethodology: "méthodologie",
-  navAbout: "à propos",
+  navEvidence: "Les preuves", navMethodology: "Méthode",
+  navAbout: "À propos",
 
   heroSub: `Comparez les ingrédients, les scores et le prix par actif. Sans sponsors ni liens affiliés.`,
 

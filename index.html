@@ -27,8 +27,10 @@
       "sameAs": ["https://github.com/McJack3d/PJT_kleerer.io"]
     }
     </script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=1.14">
 
+    <link rel="stylesheet" href="/brand.css?v=1.14">
+    <script src="/molecules.js?v=1.14" defer></script>
     <script src="/analytics.js" defer></script>
     <link rel="manifest" href="/manifest.webmanifest">
     <meta name="theme-color" content="#f7f4eb">
@@ -41,6 +43,7 @@
     <script src="/pwa.js" defer></script>
 </head>
 <body class="home">
+  <canvas class="molecule-field" id="molecule-field" aria-hidden="true"></canvas>
   <a class="skip-link" href="#category-index" id="skip-link">Skip to the supplement index</a>
   <header class="site-header">
     <a class="logo" href="./" aria-label="n3gh — home">n3gh<span class="logo-dot">.</span></a>
@@ -67,6 +70,7 @@
         <p class="intro-copy" id="intro-copy">Composition, doses, prices and scientific evidence. Everything you need to take a closer look.</p>
         <a class="primary-link" href="compare/" id="compare-link"><span id="compare-label">Open the comparator</span><span class="link-arrow" aria-hidden="true">↗</span></a>
         <p class="independence" id="independence">No sponsors. No affiliate links.</p>
+        <button class="motion-toggle" id="motion-toggle" type="button" hidden>Pause animation</button>
       </div>
     </section>
     <section class="supplement-index" aria-labelledby="index-heading">

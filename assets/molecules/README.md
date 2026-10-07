@@ -1,6 +1,6 @@
 # Molecular illustrations
 
-Downloaded on 2026-10-05. Files are unmodified copies of the source illustrations; the homepage uses CSS grayscale to fit the monochrome design.
+Downloaded on 2026-10-05. Files are unmodified copies of the source illustrations; the homepage uses CSS grayscale for its static fallback. The optional canvas background removes white margins and applies monochrome opacity in memory, while preserving these original files. The repulsion and fragmentation are decorative effects, not a simulation of chemical reactions. Motion is paused for hidden tabs, disabled by default for reduced-motion preferences, and static on touch-only devices.
 
 | File | Record | Original image |
 | --- | --- | --- |

@@ -1,0 +1,137 @@
+/* Shared editorial language for the index and comparator. */
+:root {
+  --n3gh-paper:#f7f4eb;
+  --n3gh-ink:#191a17;
+  --n3gh-muted:#69685f;
+  --n3gh-rule:#d3d0c5;
+  --n3gh-sans:Arial,"Helvetica Neue",Helvetica,sans-serif;
+  --n3gh-serif:Georgia,"Times New Roman",serif;
+  --n3gh-gutter:clamp(24px,5vw,76px);
+  --n3gh-width:1384px;
+}
+.home,.comparator {
+  --bg:var(--n3gh-paper); --ink:var(--n3gh-ink); --muted:var(--n3gh-muted);
+  --rule:var(--n3gh-rule); --line:var(--n3gh-rule); --faint:#75736a;
+  --sans:var(--n3gh-sans); --serif:var(--n3gh-serif);
+}
+.home {padding-inline:max(var(--n3gh-gutter),calc((100% - var(--n3gh-width))/2)); position:relative; isolation:isolate;}
+.home .site-header,.comparator .hwrap {min-height:106px; align-items:center; gap:32px;}
+.home .logo,.comparator .logo-s {font-family:var(--sans); font-size:46px; font-weight:700; letter-spacing:-.07em; line-height:1; animation:none;}
+.home .logo-dot,.comparator .logo-dot {animation:none;}
+.home .header-nav,.comparator .hnav {align-items:center; gap:26px;}
+.home .header-nav a,.comparator .hnav a,.comparator .hnav>button {
+  min-height:44px; display:inline-flex; align-items:center; padding:0;
+  font-size:.75rem; color:var(--ink); text-decoration:none; text-underline-offset:6px;
+}
+.comparator .hnav a:hover,.comparator .hnav>button:hover {text-decoration:underline;}
+.home .langsw,.comparator .langsw {display:flex; gap:0; border:0; margin-left:0; overflow:visible;}
+.home .langsw button,.comparator .langsw button {min-width:40px; min-height:44px; padding:0; font-size:.68rem; font-weight:400; border:0; background:none; color:var(--muted); text-underline-offset:6px;}
+.home .langsw button.on,.comparator .langsw button.on {background:none; color:var(--ink); text-decoration:underline;}
+.comparator :is(a,button,input,select,summary):focus-visible {outline:2px solid var(--ink); outline-offset:4px;}
+.comparator .skip-link {position:absolute; top:12px; left:24px; z-index:100; padding:15px; background:var(--ink); color:var(--bg); transform:translateY(-200%); font-size:.8rem;}
+.comparator .skip-link:focus {transform:none;}
+.comparator header {border:0;}
+.comparator :is(.hwrap,.hero,.profile,.controls,.grid,.fwrap,.traywrap) {max-width:var(--n3gh-width); width:calc(100% - var(--n3gh-gutter)*2); margin-inline:auto; padding-inline:0;}
+.comparator .hwrap {padding-block:0; border-bottom:1px solid var(--line);}
+.comparator .crumb {display:none;}
+.comparator .hero {padding-block:42px 0; animation:none;}
+.comparator .hero-intro {display:grid; grid-template-columns:1.65fr 1fr; gap:60px; align-items:end;}
+.comparator .eyebrow {font-size:.63rem; letter-spacing:.08em; text-transform:uppercase; font-weight:400; color:var(--muted); line-height:1.7; margin-bottom:18px;}
+.comparator .hero h1 {font-family:var(--sans); font-size:clamp(44px,4.8vw,68px); font-weight:400; letter-spacing:-.06em; line-height:1.05;}
+.comparator .hero h1 em {font-family:var(--serif); font-weight:400; display:inline;}
+.comparator .hero .sub {font-family:var(--sans); font-size:16px; color:var(--muted); max-width:32ch; margin:0 0 6px; line-height:1.75;}
+.comparator .stats {gap:20px 42px; margin-top:30px; padding-block:18px; border-top:1px solid var(--ink);}
+.comparator .stat b {font-size:.95rem; font-weight:400;}
+.comparator .stat span {font-size:.62rem; color:var(--muted);}
+.comparator .profile {padding-block:0; display:flex; flex-wrap:wrap; column-gap:28px;}
+.comparator .personal-tools>.tool-options {flex:1 1 calc(50% - 14px); min-width:0; border-top:1px solid var(--line);}
+.comparator .personal-tools>.tool-options[open] {flex-basis:100%;}
+.comparator .tool-options summary {font-size:.72rem; min-height:46px;}
+.comparator .controls {padding-top:22px; animation:none;}
+.comparator .pills {gap:5px 6px;}
+.comparator .pill {border-color:transparent; border-radius:0; min-height:34px; padding:5px 10px; font-size:.7rem;}
+.comparator .pill:hover {border-color:var(--line);}
+.comparator .pill.on {border-color:var(--ink);}
+.comparator .bar2 {gap:16px; margin-top:18px; padding-block:0 14px; border-bottom:1px solid var(--ink);}
+.comparator .search {border:0; border-bottom:1px solid var(--line); border-radius:0; padding:8px 0; min-height:44px; gap:14px;}
+.comparator .search input {font-family:var(--sans); font-size:15px;}
+.comparator .search-symbol {display:block; flex:none; width:12px; height:12px; border:1px solid var(--muted); border-radius:50%; position:relative; margin-left:3px;}
+.comparator .search-symbol::after {content:""; width:5px; height:1px; background:var(--muted); position:absolute; right:-4px; bottom:-2px; transform:rotate(45deg);}
+.comparator .bar2 select {border:0; border-bottom:1px solid var(--line); border-radius:0; min-height:44px; font-size:.7rem; padding-left:0;}
+.comparator .count {font-size:.65rem;}
+.comparator .grid {padding-block:24px 64px; gap:20px; grid-template-columns:repeat(auto-fill,minmax(min(315px,100%),1fr));}
+.comparator .card {padding:24px; gap:14px; border-radius:0; background:rgba(255,255,255,.15);}
+.comparator .card:hover {border-color:var(--muted);}
+.comparator .card-top>div:last-child {min-width:0; padding-right:8px;}
+.comparator .brand {font-size:.58rem; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); margin-bottom:5px;}
+.comparator .pname {font-family:var(--sans); font-weight:400; font-size:21px; letter-spacing:-.035em; line-height:1.2;}
+.comparator .variant {font-size:.67rem; margin-top:6px;}
+.comparator .gradeb {border-radius:0; width:38px; height:44px;}
+.comparator .price {font-family:var(--sans); font-size:27px; font-weight:400; letter-spacing:-.045em;}
+.comparator .perday {font-size:.64rem;}
+.comparator .value-chip {border-color:var(--line); border-radius:0; font-weight:400; font-size:.74rem;}
+.comparator .bars {gap:9px 16px;}
+.comparator .bar {color:var(--muted);}
+.comparator .chip {border-radius:0; font-size:.6rem;}
+.comparator .btn {border-radius:0; font-size:.67rem; font-weight:400; min-height:40px; padding:8px 10px;}
+.comparator .btn.buy {border:0; margin-left:auto; text-decoration:underline; text-underline-offset:5px;}
+.comparator .card-actions {gap:6px; padding-top:12px; border-top:1px solid var(--line);}
+.comparator .modal {border-color:var(--line); border-radius:0;}
+.comparator .modal .pname {font-size:30px;}
+.comparator .fwrap {font-size:.65rem; padding-block:24px;}
+.comparator .fwrap .flogo {font-size:22px;}
+.comparator .fwrap .row {gap:14px 28px;}
+.comparator .footer-about {display:none; background:none; border:0; padding:8px 0; min-height:44px; color:var(--muted); font:inherit; text-decoration:underline; text-underline-offset:5px;}
+@media(max-width:760px) {.comparator .footer-about {display:inline-flex; align-items:center;}}
+/* Real molecular illustrations stay behind the content and never intercept input. */
+.molecule-field {position:fixed; inset:0; width:100%; height:100%; pointer-events:none; z-index:-1;}
+.home.has-molecule-field .intro,.home.has-molecule-field .reading-room {background:transparent;}
+.home.has-molecule-field .molecular-background,.home.has-molecule-field .reading-molecule {visibility:hidden;}
+.motion-toggle {border:0; background:none; color:var(--muted); font:inherit; font-size:.57rem; cursor:pointer; min-height:36px; padding:6px 0; text-decoration:underline; text-underline-offset:4px;}
+@media(min-width:1600px) {.comparator :is(.hwrap,.hero,.profile,.controls,.grid,.fwrap,.traywrap) {width:calc(100% - 152px);}}
+@media(max-width:760px) {
+  :root {--n3gh-gutter:24px;}
+  .home .site-header,.comparator .hwrap {min-height:85px; gap:18px;}
+  .home .logo,.comparator .logo-s {font-size:38px;}
+  .home .header-nav,.comparator .hnav {gap:18px;}
+  .comparator .hero {padding-top:32px;}
+  .comparator .hero-intro {gap:25px; grid-template-columns:1fr;}
+  .comparator .hero h1 {font-size:clamp(44px,8vw,64px);}
+  .comparator .hero h1 em {display:inline;}
+  .comparator .hero .sub {font-size:14px; max-width:46ch;}
+  .comparator .stats {gap:14px 25px; margin-top:24px;}
+  .comparator .stat b {font-size:.83rem;}
+  .comparator .stat span {font-size:.58rem;}
+  .comparator .grid {gap:16px;}
+  .comparator .card {padding:20px;}
+  .comparator .hnav>button[data-i18n="navAbout"] {display:none;}
+}
+@media(max-width:640px) {
+  .comparator .hwrap {flex-wrap:wrap; padding-block:16px 8px; gap:4px 16px;}
+  .comparator .hnav {margin-left:0; width:100%; gap:24px;}
+  .comparator .hnav .langsw {margin-left:auto;}
+  .comparator .hnav a,.comparator .hnav>button {font-size:.69rem;}
+  .comparator .personal-tools>.tool-options {flex-basis:100%;}
+  .comparator .personal-tools>.tool-options+.tool-options {border-top:0;}
+  .comparator .controls {padding-top:15px;}
+  .comparator .pill {min-height:44px;}
+  .comparator .bar2 {gap:8px 14px; margin-top:8px;}
+  .comparator .search {flex-basis:100%;}
+  .comparator .search input {font-size:16px;}
+  .comparator .count {font-size:.6rem;}
+  .comparator .stat:nth-child(3),.comparator .stat:nth-child(5) {display:none;}
+  .comparator .grid {padding-top:20px;}
+  .comparator .hero h1 {font-size:clamp(31px,9vw,42px);}
+  .comparator .hero h1 em {display:inline; white-space:nowrap;}
+  .comparator .btn {min-height:44px;}
+}
+@media(max-width:540px) {
+  .home .site-header {gap:10px;}
+  .home .header-nav {gap:12px;}
+  .home .header-nav a {font-size:.69rem;}
+}
+@media(prefers-reduced-motion:reduce) {
+  .comparator {scroll-behavior:auto;}
+  html:has(.comparator) {scroll-behavior:auto;}
+  .comparator * {animation:none !important; transition:none !important;}
+}
