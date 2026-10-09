@@ -1,0 +1,1235 @@
+[
+  {
+    "brand": "Novoma",
+    "name": "Multivitamines",
+    "category": "multivitamin",
+    "variant": "120 gélules",
+    "price_eur": 26.9,
+    "url": "https://novoma.com/products/multivitamines?variant=39452604760235",
+    "ean": "3052351247976",
+    "form": "Vitamines méthylées, minéraux bisglycinates, vitamine D3 et K2 MK-7",
+    "additives": [
+      "gélule végétale : pullulan"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Quatrefolic®",
+    "full_label": true,
+    "flags": [
+      "Étiquette : déconseillé aux fumeurs, aux personnes présentant des troubles thyroïdiens ou sous anticoagulant."
+    ],
+    "confidence": "medium",
+    "notes": "Quantités pour 4 gélules. Autres actifs : NAC 150 mg, orange 75 mg, prêle 75 mg, quercétine 50 mg, myrtille 50 mg, brocoli 50 mg, Dunaliella 48 mg, inositol 40 mg, lutéine 5 mg, lycopène 2 mg et zéaxanthine 0,9 mg. Dosages hétérogènes selon les nutriments.",
+    "price_note": "Prix fabricant observé le 2026-10-09 pour la référence identifiée, hors livraison et abonnement.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://novoma.com/products/multivitamines?variant=39452604760235"
+    },
+    "units_pack": 120,
+    "unit_name": "gélule",
+    "units_per_day": 4,
+    "form_quality": "bioactive",
+    "dose_style": "mixed",
+    "vit_d_ug": 25,
+    "vegan": true,
+    "nutrients": {
+      "magnesium": 125,
+      "vitamin_c": 160,
+      "iodine": 150,
+      "zinc": 10,
+      "vitamin_e": 6,
+      "vitamin_b3": 16,
+      "vitamin_k2": 25,
+      "vitamin_d3": 1000,
+      "selenium": 33,
+      "vitamin_b5": 6,
+      "vitamin_b6": 1.4,
+      "vitamin_b1": 1.1,
+      "vitamin_b2": 1.4,
+      "folate": 200,
+      "chromium": 20,
+      "biotin": 50,
+      "vitamin_b12": 5,
+      "vitamin_a": 800
+    }
+  },
+  {
+    "brand": "Novoma",
+    "name": "Vitamine D3 végétale 2000 UI",
+    "category": "vitamin_d3",
+    "variant": "120 gélules",
+    "price_eur": 19.9,
+    "url": "https://novoma.com/products/vitamine-d3-2000-ui?variant=57202642125182",
+    "ean": "3052351247747",
+    "form": "cholécalciférol végétal",
+    "additives": [
+      "gomme d’acacia",
+      "gélule végétale : hydroxypropylméthylcellulose",
+      "amidon de maïs"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "2000 UI (50 µg) pour 2 gélules, soit 1000 UI par gélule.",
+    "price_note": "Prix fabricant observé le 2026-10-09 pour la référence identifiée, hors livraison et abonnement.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://novoma.com/products/vitamine-d3-2000-ui?variant=57202642125182"
+    },
+    "units_pack": 120,
+    "units_per_day": 2,
+    "active_per_unit": 1000,
+    "active_unit": "IU",
+    "unit_name": "gélule",
+    "vegan": true
+  },
+  {
+    "brand": "Novoma",
+    "name": "Vitamine C Liposomale",
+    "category": "vitamin_c",
+    "variant": "90 gélules",
+    "price_eur": 27.9,
+    "url": "https://novoma.com/products/vitamine-c-liposomale?variant=39452608594091",
+    "ean": "3052351247877",
+    "form": "acide L-ascorbique Quali®-C liposomal, phosphatidylcholine de tournesol",
+    "additives": [
+      "gélule végétale : hydroxypropylméthylcellulose",
+      "amidon de riz",
+      "lécithine de tournesol"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Quali®-C",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "1000 mg de vitamine C pour 3 gélules.",
+    "price_note": "Prix fabricant observé le 2026-10-09 pour la référence identifiée, hors livraison et abonnement.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://novoma.com/products/vitamine-c-liposomale?variant=39452608594091"
+    },
+    "units_pack": 90,
+    "units_per_day": 3,
+    "active_per_unit": 333.3333333333333,
+    "active_unit": "mg",
+    "unit_name": "gélule",
+    "vegan": true
+  },
+  {
+    "brand": "Novoma",
+    "name": "Vitamine C Liposomale liquide",
+    "category": "vitamin_c",
+    "variant": "300 ml · 60 portions de 5 ml",
+    "price_eur": 39.9,
+    "url": "https://novoma.com/products/vitamine-c-liposomale-liquide?variant=39452606529707",
+    "ean": "3052351247785",
+    "form": "ascorbate de sodium Quali®-C liposomal",
+    "additives": [
+      "eau",
+      "glycérine",
+      "lécithine de tournesol",
+      "arôme naturel",
+      "glycosides de stéviol"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Quali®-C",
+    "full_label": true,
+    "flags": [
+      "Conserver au réfrigérateur après ouverture ; consommer dans les 90 jours (étiquette)."
+    ],
+    "confidence": "medium",
+    "notes": "1000 mg de vitamine C par 5 ml ; extrait d’argousier également déclaré sans quantité. 60 portions calculées sur le flacon de 300 ml.",
+    "price_note": "Prix fabricant observé le 2026-10-09 pour la référence identifiée, hors livraison et abonnement.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://novoma.com/products/vitamine-c-liposomale-liquide?variant=39452606529707"
+    },
+    "units_pack": 60,
+    "units_per_day": 1,
+    "active_per_unit": 1000,
+    "active_unit": "mg",
+    "unit_name": "portion de 5 ml",
+    "format": "liquid",
+    "vegan": true
+  },
+  {
+    "brand": "Novoma",
+    "name": "Vitamine C pure en poudre",
+    "category": "vitamin_c",
+    "variant": "500 g · 500 portions de 1 g",
+    "price_eur": 24.9,
+    "url": "https://novoma.com/products/vitamine-c-poudre?variant=39452607873195",
+    "ean": "0635131530654",
+    "form": "acide L-ascorbique",
+    "additives": [],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "1 g de poudre pure par jour (2 dosettes), soit 1000 mg de vitamine C. Nombre de portions calculé à partir de 500 g.",
+    "price_note": "Prix fabricant observé le 2026-10-09 pour la référence identifiée, hors livraison et abonnement.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://novoma.com/products/vitamine-c-poudre?variant=39452607873195"
+    },
+    "units_pack": 500,
+    "units_per_day": 1,
+    "active_per_unit": 1000,
+    "active_unit": "mg",
+    "unit_name": "portion de 1 g",
+    "format": "powder",
+    "vegan": true
+  },
+  {
+    "brand": "Novoma",
+    "name": "Acérola",
+    "category": "vitamin_c",
+    "variant": "30 comprimés à croquer",
+    "price_eur": 13.9,
+    "url": "https://novoma.com/products/acerola?variant=40390848118955",
+    "ean": "3052351248188",
+    "form": "extrait d’acérola titré à 17 % de vitamine C",
+    "additives": [
+      "amidon de riz",
+      "arôme naturel"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "1000 mg d’extrait d’acérola apportent 170 mg de vitamine C par comprimé.",
+    "price_note": "Prix fabricant observé le 2026-10-09 pour la référence identifiée, hors livraison et abonnement.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://novoma.com/products/acerola?variant=40390848118955"
+    },
+    "units_pack": 30,
+    "units_per_day": 1,
+    "active_per_unit": 170,
+    "active_unit": "mg",
+    "unit_name": "comprimé à croquer"
+  },
+  {
+    "brand": "Novoma",
+    "name": "Formule Sommeil",
+    "category": "melatonin",
+    "variant": "90 gélules",
+    "price_eur": 23.9,
+    "url": "https://novoma.com/products/formule-sommeil?variant=40770245951659",
+    "ean": "3052351247983",
+    "form": "mélatonine à libération prolongée Melotime™ et extraits de plantes",
+    "additives": [
+      "gélule végétale HPMC K-Caps®",
+      "amidon de riz"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Melotime™",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "Pour 2 gélules : mélatonine 1,9 mg, mélisse 200 mg, passiflore 200 mg, pavot de Californie 150 mg et houblon 100 mg.",
+    "price_note": "Prix fabricant observé le 2026-10-09 pour la référence identifiée, hors livraison et abonnement.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://novoma.com/products/formule-sommeil?variant=40770245951659"
+    },
+    "units_pack": 90,
+    "units_per_day": 2,
+    "active_per_unit": 0.95,
+    "active_unit": "mg",
+    "unit_name": "gélule",
+    "release": "prolonged"
+  },
+  {
+    "brand": "Novoma",
+    "name": "Collagène Marin en poudre",
+    "category": "collagen",
+    "variant": "non aromatisé · 284 g",
+    "price_eur": 32.9,
+    "url": "https://novoma.com/products/collagene-marin-poudre?variant=42366551457963",
+    "ean": "3770025711584",
+    "form": "peptides de collagène marin hydrolysé Naticol®",
+    "additives": [],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Naticol®",
+    "full_label": true,
+    "flags": [
+      "Contient du poisson."
+    ],
+    "confidence": "medium",
+    "notes": "Étiquette nature : 10 g de collagène et 150 mg de vitamine C par portion arrondie à 10,1 g. Teneur calculée à partir de ces valeurs arrondies.",
+    "price_note": "Prix fabricant observé le 2026-10-09 pour la référence identifiée, hors livraison et abonnement.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://novoma.com/products/collagene-marin-poudre?variant=42366551457963"
+    },
+    "format": "powder",
+    "pack_g": 284,
+    "serving_g": 10.1,
+    "active_per_serving_g": 10,
+    "active_per_100g": 99.009901,
+    "vegan": false,
+    "nutrients": {
+      "vitamin_c": 150
+    },
+    "secondary_actives": [
+      {
+        "category": "vitamin_c",
+        "per_day": 150,
+        "unit": "mg"
+      }
+    ]
+  },
+  {
+    "brand": "Novoma",
+    "name": "Collagène Beauté",
+    "category": "collagen",
+    "variant": "fraise-goyave · 175 g",
+    "price_eur": 39.9,
+    "url": "https://novoma.com/products/collagene-beaute?variant=57605496242558",
+    "ean": "3760438020434",
+    "form": "peptides de collagène marin Naticol®",
+    "additives": [
+      "arôme naturel",
+      "poudre de betterave",
+      "glycosides de stéviol"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Naticol® ; CAVAQ10™",
+    "full_label": true,
+    "flags": [
+      "Contient du poisson."
+    ],
+    "confidence": "medium",
+    "notes": "Pour 6,3 g : collagène 5 g, acide hyaluronique 180 mg, coenzyme Q10 40 mg, vitamine C 150 mg, zinc 10 mg et biotine 450 µg. Poudre de betterave vérifiée sur l’étiquette.",
+    "price_note": "Prix fabricant observé le 2026-10-09 pour la référence identifiée, hors livraison et abonnement.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://novoma.com/products/collagene-beaute?variant=57605496242558"
+    },
+    "format": "powder",
+    "pack_g": 175,
+    "serving_g": 6.3,
+    "active_per_serving_g": 5,
+    "active_per_100g": 79.365079,
+    "vegan": false,
+    "nutrients": {
+      "vitamin_c": 150,
+      "zinc": 10,
+      "biotin": 450
+    },
+    "secondary_actives": [
+      {
+        "category": "vitamin_c",
+        "per_day": 150,
+        "unit": "mg"
+      },
+      {
+        "category": "zinc",
+        "per_day": 10,
+        "unit": "mg"
+      },
+      {
+        "category": "biotin",
+        "per_day": 450,
+        "unit": "µg"
+      }
+    ]
+  },
+  {
+    "brand": "Novoma",
+    "name": "Isolat de Whey Native",
+    "category": "whey",
+    "variant": "nature · 900 g",
+    "price_eur": 45.9,
+    "url": "https://novoma.com/products/isolat-whey-native?variant=49571722854724",
+    "ean": "3770025711720",
+    "form": "isolat de protéines de lactosérum natives",
+    "additives": [
+      "lécithine de tournesol/colza"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [
+      "Contient du lait.",
+      "En rupture de stock lors du relevé du 9 octobre 2026."
+    ],
+    "confidence": "medium",
+    "notes": "Étiquette nature : protéines 84 g/100 g de matière humide et 25 g par portion de 30 g (valeurs arrondies). Complexe amylase, protéase, lactase, lipase et cellulase. Prix public affiché malgré la rupture.",
+    "price_note": "Prix fabricant observé le 2026-10-09 pour la référence identifiée, hors livraison et abonnement.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://novoma.com/products/isolat-whey-native?variant=49571722854724"
+    },
+    "format": "powder",
+    "pack_g": 900,
+    "serving_g": 30,
+    "active_per_serving_g": 25,
+    "active_per_100g": 84,
+    "vegan": false
+  },
+  {
+    "brand": "Novoma",
+    "name": "Collagène Articulaire",
+    "category": "collagen",
+    "variant": "citron · 260 g",
+    "price_eur": 39.9,
+    "url": "https://novoma.com/products/collagene-articulation?variant=57640478540158",
+    "ean": "3760438020441",
+    "form": "peptides de collagène marin Naticol® et Cartidyss®",
+    "additives": [
+      "arôme naturel",
+      "glycosides de stéviol"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Naticol® ; Cartidyss® ; OptiMSM®",
+    "full_label": true,
+    "flags": [
+      "Contient du poisson."
+    ],
+    "confidence": "medium",
+    "notes": "Pour 9,3 g : Naticol 5 g, Cartidyss 0,5 g, MSM 3 g, vitamine C 150 mg et bambou 100 mg dont silicium 75 mg.",
+    "price_note": "Prix fabricant observé le 2026-10-09 pour la référence identifiée, hors livraison et abonnement.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://novoma.com/products/collagene-articulation?variant=57640478540158"
+    },
+    "format": "powder",
+    "pack_g": 260,
+    "serving_g": 9.3,
+    "active_per_serving_g": 5.5,
+    "active_per_100g": 59.139785,
+    "vegan": false,
+    "nutrients": {
+      "vitamin_c": 150
+    },
+    "secondary_actives": [
+      {
+        "category": "vitamin_c",
+        "per_day": 150,
+        "unit": "mg"
+      }
+    ]
+  },
+  {
+    "brand": "Novoma",
+    "name": "Formule Cheveux",
+    "category": "biotin",
+    "variant": "60 gélules",
+    "price_eur": 24.9,
+    "url": "https://novoma.com/products/formule-cheveux?variant=47491058794820",
+    "ean": "3760438020182",
+    "form": "D-biotine avec kératine hydrolysée KerPep®, L-cystine, L-méthionine et roquette",
+    "additives": [
+      "gélule végétale : hydroxypropylméthylcellulose",
+      "farine de noix de coco"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "KerPep®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "Pour 2 gélules : biotine 100 µg, kératine 300 mg, L-cystine 200 mg, L-méthionine 100 mg, roquette 100 mg, zinc 10 mg et sélénium 55 µg. Kératine issue de laine de mouton.",
+    "price_note": "Prix fabricant observé le 2026-10-09 pour la référence identifiée, hors livraison et abonnement.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://novoma.com/products/formule-cheveux?variant=47491058794820"
+    },
+    "units_pack": 60,
+    "units_per_day": 2,
+    "active_per_unit": 50,
+    "active_unit": "µg",
+    "unit_name": "gélule",
+    "vegan": false,
+    "nutrients": {
+      "zinc": 10,
+      "selenium": 55
+    },
+    "secondary_actives": [
+      {
+        "category": "zinc",
+        "per_day": 10,
+        "unit": "mg"
+      }
+    ]
+  },
+  {
+    "brand": "Nutri&Co",
+    "name": "Whey Concentrée Native",
+    "category": "whey",
+    "variant": "chocolat · 900 g",
+    "price_eur": 44.9,
+    "url": "https://nutriandco.com/fr/produits/whey-native",
+    "ean": null,
+    "form": "concentré de protéines de lactosérum natives avec lactase Tolérase® L",
+    "additives": [
+      "lécithine de tournesol",
+      "poudre de cacao",
+      "arôme naturel",
+      "arôme",
+      "gomme xanthane",
+      "sel",
+      "glycosides de stéviol"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Tolérase® L",
+    "full_label": true,
+    "flags": [
+      "Contient du lait.",
+      "Page affichant « M’informer de son retour » lors du relevé du 9 octobre 2026."
+    ],
+    "confidence": "medium",
+    "notes": "Variante chocolat : protéines 70,5 g/100 g et 21,2 g/30 g avec facteur N=6,25. Le facteur N=6,38 et la variante vanille ne sont pas utilisés. Complexe de minéraux du lait également déclaré ; arôme d’origine non précisée conservé tel quel.",
+    "price_note": "Prix fabricant observé le 2026-10-09 pour la référence identifiée, hors livraison et abonnement.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://nutriandco.com/fr/produits/whey-native"
+    },
+    "format": "powder",
+    "pack_g": 900,
+    "serving_g": 30,
+    "active_per_serving_g": 21.2,
+    "active_per_100g": 70.5,
+    "vegan": false
+  },
+  {
+    "brand": "Nutri&Co",
+    "name": "Zinc",
+    "category": "zinc",
+    "variant": "60 gélules",
+    "price_eur": 12.9,
+    "url": "https://nutriandco.com/fr/produits/zinc",
+    "ean": null,
+    "form": "mélange bisglycinate de zinc TRAACS® et oxyde de zinc microencapsulé ZnNOVA®",
+    "additives": [
+      "fibres d’acacia",
+      "gélule végétale : hydroxypropylméthylcellulose",
+      "mono- et diglycérides d’acides gras"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "TRAACS® ; ZnNOVA®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "Par gélule : zinc élémentaire 10 mg provenant de deux formes, sélénium 27 µg (levure). La formule ne contient pas uniquement du bisglycinate.",
+    "price_note": "Prix fabricant observé le 2026-10-09 pour la référence identifiée, hors livraison et abonnement.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://nutriandco.com/fr/produits/zinc"
+    },
+    "units_pack": 60,
+    "units_per_day": 1,
+    "active_per_unit": 10,
+    "active_unit": "mg elemental Zn",
+    "unit_name": "gélule",
+    "nutrients": {
+      "selenium": 27
+    },
+    "secondary_actives": []
+  },
+  {
+    "brand": "Nutri&Co",
+    "name": "Fer",
+    "category": "iron",
+    "variant": "30 gélules",
+    "price_eur": 18.9,
+    "url": "https://nutriandco.com/fr/produits/fer",
+    "ean": null,
+    "form": "bisglycinate de fer Ferrochel® TRAACS® avec L. plantarum 299v",
+    "additives": [
+      "amidon de maïs",
+      "gélule gastro-résistante : hydroxypropylméthylcellulose et pectine"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Ferrochel® ; L. plantarum 299v",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "14 mg de fer, 12 mg de vitamine C, 216 µg de folates et 10 milliards d’UFC de L. plantarum 299v DSM9843 par gélule.",
+    "price_note": "Prix fabricant observé le 2026-10-09 pour la référence identifiée, hors livraison et abonnement.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://nutriandco.com/fr/produits/fer"
+    },
+    "units_pack": 30,
+    "units_per_day": 1,
+    "active_per_unit": 14,
+    "active_unit": "mg elemental Fe",
+    "unit_name": "gélule",
+    "nutrients": {
+      "vitamin_c": 12,
+      "folate": 216
+    },
+    "secondary_actives": [
+      {
+        "category": "vitamin_c",
+        "per_day": 12,
+        "unit": "mg"
+      },
+      {
+        "category": "folate",
+        "per_day": 216,
+        "unit": "µg"
+      }
+    ]
+  },
+  {
+    "brand": "Nutri&Co",
+    "name": "Peau Nette",
+    "category": "probiotics",
+    "variant": "60 gélules",
+    "price_eur": 19.9,
+    "url": "https://nutriandco.com/fr/produits/peau-nette",
+    "ean": null,
+    "form": "souches identifiées ; gélules gastro-résistantes",
+    "additives": [
+      "amidon de maïs",
+      "gélule gastro-résistante : hydroxypropylméthylcellulose et pectine"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "Pour 2 gélules : 5 milliards d’UFC, zinc 7,5 mg et ortie 100 mg. Souches : L. reuteri PBS072, L. rhamnosus LRH020, L. plantarum PBS067, B. lactis BI04.",
+    "price_note": "Prix fabricant observé le 2026-10-09 pour la référence identifiée, hors livraison et abonnement.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://nutriandco.com/fr/produits/peau-nette"
+    },
+    "units_pack": 60,
+    "units_per_day": 2,
+    "active_per_unit": 2.5,
+    "active_unit": "billion CFU",
+    "unit_name": "gélule",
+    "strains_coded": true,
+    "gastro_resistant": true,
+    "nutrients": {
+      "zinc": 7.5
+    },
+    "secondary_actives": [
+      {
+        "category": "zinc",
+        "per_day": 7.5,
+        "unit": "mg"
+      }
+    ]
+  },
+  {
+    "brand": "Nutri&Co",
+    "name": "Lactobacillus Gasseri",
+    "category": "probiotics",
+    "variant": "60 gélules",
+    "price_eur": 19.9,
+    "url": "https://nutriandco.com/fr/produits/l-gasseri",
+    "ean": null,
+    "form": "souches identifiées ; gélules gastro-résistantes",
+    "additives": [
+      "amidon de maïs",
+      "gélule gastro-résistante : hydroxypropylméthylcellulose et pectine"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "Pour 2 gélules : 12 milliards d’UFC, cola 40 mg et vitamine B2 0,42 mg. Caféine du cola non quantifiée. Souches : L. gasseri CNCM I-5076.",
+    "price_note": "Prix fabricant observé le 2026-10-09 pour la référence identifiée, hors livraison et abonnement.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://nutriandco.com/fr/produits/l-gasseri"
+    },
+    "units_pack": 60,
+    "units_per_day": 2,
+    "active_per_unit": 6,
+    "active_unit": "billion CFU",
+    "unit_name": "gélule",
+    "strains_coded": true,
+    "gastro_resistant": true,
+    "nutrients": {
+      "vitamin_b2": 0.42
+    },
+    "secondary_actives": []
+  },
+  {
+    "brand": "Nutri&Co",
+    "name": "Probiotique Stress",
+    "category": "probiotics",
+    "variant": "60 gélules",
+    "price_eur": 19.9,
+    "url": "https://nutriandco.com/fr/produits/probiotique-stress",
+    "ean": null,
+    "form": "souches identifiées ; gélules gastro-résistantes",
+    "additives": [
+      "amidon de maïs",
+      "gélule gastro-résistante : hydroxypropylméthylcellulose et pectine"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "Pour 2 gélules : 5 milliards d’UFC et magnésium 56,3 mg. Souches : L. reuteri PBS072, B. breve BB077, L. rhamnosus GG.",
+    "price_note": "Prix fabricant observé le 2026-10-09 pour la référence identifiée, hors livraison et abonnement.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://nutriandco.com/fr/produits/probiotique-stress"
+    },
+    "units_pack": 60,
+    "units_per_day": 2,
+    "active_per_unit": 2.5,
+    "active_unit": "billion CFU",
+    "unit_name": "gélule",
+    "strains_coded": true,
+    "gastro_resistant": true,
+    "nutrients": {
+      "magnesium": 56.3
+    },
+    "secondary_actives": [
+      {
+        "category": "magnesium",
+        "per_day": 56.3,
+        "unit": "mg"
+      }
+    ]
+  },
+  {
+    "brand": "Nutri&Co",
+    "name": "Probiotique Flore Intime",
+    "category": "probiotics",
+    "variant": "60 gélules",
+    "price_eur": 19.9,
+    "url": "https://nutriandco.com/fr/produits/probiotique-flore-intime",
+    "ean": null,
+    "form": "souches identifiées ; gélules gastro-résistantes",
+    "additives": [
+      "amidon de maïs",
+      "gélule gastro-résistante : hydroxypropylméthylcellulose et pectine"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "Pour 2 gélules : 12 milliards d’UFC et vitamine B2 0,21 mg. Souches : L. crispatus CCFM1110, L. paracasei Lpc-37, L. acidophilus PBS066, L. rhamnosus LRH020, B. lactis BL050, L. plantarum PBS067.",
+    "price_note": "Prix fabricant observé le 2026-10-09 pour la référence identifiée, hors livraison et abonnement.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://nutriandco.com/fr/produits/probiotique-flore-intime"
+    },
+    "units_pack": 60,
+    "units_per_day": 2,
+    "active_per_unit": 6,
+    "active_unit": "billion CFU",
+    "unit_name": "gélule",
+    "strains_coded": true,
+    "gastro_resistant": true,
+    "nutrients": {
+      "vitamin_b2": 0.21
+    },
+    "secondary_actives": []
+  },
+  {
+    "brand": "Nutri&Co",
+    "name": "Probiotiques pour la digestion",
+    "category": "probiotics",
+    "variant": "60 gélules",
+    "price_eur": 19.9,
+    "url": "https://nutriandco.com/fr/produits/probiotiques-pour-la-digestion",
+    "ean": null,
+    "form": "souches identifiées ; gélules gastro-résistantes",
+    "additives": [
+      "amidon de maïs",
+      "gélule gastro-résistante : hydroxypropylméthylcellulose et pectine"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "60 milliards d’UFC pour 4 gélules, valeur à la production ; 15 milliards par gélule. Le fabricant propose 1 à 4 gélules selon les besoins ; calcul au dosage du tableau nutritionnel de 4 gélules. 8 souches au total. Souches : B. lactis ATCC SD-5219, L. rhamnosus GG ATCC 53103, B. lactis ATCC SD-5674, L. plantarum LP90 CECT8328, L. rhamnosus LRa66 CGMCC 24282, B. bifidum BBi32 DSM 34758, L. casei LC89 DSM 34763, L. acidophilus LA85 DSM 34694.",
+    "price_note": "Prix fabricant observé le 2026-10-09 pour la référence identifiée, hors livraison et abonnement.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://nutriandco.com/fr/produits/probiotiques-pour-la-digestion"
+    },
+    "units_pack": 60,
+    "units_per_day": 4,
+    "active_per_unit": 15,
+    "active_unit": "billion CFU",
+    "unit_name": "gélule",
+    "strains_coded": true,
+    "gastro_resistant": true,
+    "nutrients": {
+      "vitamin_d3": 60
+    },
+    "secondary_actives": [
+      {
+        "category": "vitamin_d3",
+        "per_day": 60,
+        "unit": "IU"
+      }
+    ]
+  },
+  {
+    "brand": "Nutri&Co",
+    "name": "Créatine Creapure® en gélules",
+    "category": "creatine",
+    "variant": "120 gélules",
+    "price_eur": 19.9,
+    "url": "https://nutriandco.com/fr/produits/creatine-gelule",
+    "ean": null,
+    "form": "créatine monohydrate Creapure®",
+    "additives": [
+      "gélule végétale : hydroxypropylméthylcellulose"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Creapure®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "4 gélules contiennent 3,4 g de créatine monohydrate, correspondant à 3 g de créatine.",
+    "price_note": "Prix fabricant observé le 2026-10-09 pour la référence identifiée, hors livraison et abonnement.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://nutriandco.com/fr/produits/creatine-gelule"
+    },
+    "units_pack": 120,
+    "units_per_day": 4,
+    "active_per_unit": 0.75,
+    "active_unit": "g creatine",
+    "unit_name": "gélule",
+    "active_per_serving_g": 3
+  },
+  {
+    "brand": "Nutri&Co",
+    "name": "Vitamine C effervescente",
+    "category": "vitamin_c",
+    "variant": "fraise-citron · 15 comprimés",
+    "price_eur": 9.9,
+    "url": "https://nutriandco.com/fr/produits/vitamine-c",
+    "ean": null,
+    "form": "acide L-ascorbique",
+    "additives": [
+      "sorbitol",
+      "acide citrique",
+      "correcteur d'acidité : bicarbonate de potassium",
+      "arôme naturel (fraise-citron)",
+      "polyéthylène glycol",
+      "glycosides de stéviol"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "1000 mg de vitamine C et 70 mg d’extrait d’orange dont 24 mg de flavonoïdes par comprimé.",
+    "price_note": "Prix fabricant observé le 2026-10-09 pour la référence identifiée, hors livraison et abonnement.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://nutriandco.com/fr/produits/vitamine-c"
+    },
+    "units_pack": 15,
+    "units_per_day": 1,
+    "active_per_unit": 1000,
+    "active_unit": "mg",
+    "unit_name": "comprimé effervescent"
+  },
+  {
+    "brand": "Nutri&Co",
+    "name": "Tripeptides de Collagène",
+    "category": "collagen",
+    "variant": "pêche · 30 portions de 3,3 g",
+    "price_eur": 39.9,
+    "url": "https://nutriandco.com/fr/produits/tripeptide-de-collagene",
+    "ean": null,
+    "form": "collagènes marins Morikol®, Solugel® Supra et Cartidyss®, riches en tripeptides",
+    "additives": [
+      "gomme d’acacia",
+      "arôme naturel de pêche"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Morikol® ; Solugel® Supra ; Cartidyss®",
+    "full_label": true,
+    "flags": [
+      "Contient du poisson."
+    ],
+    "confidence": "medium",
+    "notes": "Portion de 3,3 g : Morikol 1 g, Solugel 1 g et Cartidyss 0,5 g, soit 2,5 g de collagène, avec vitamine C 24 mg. Conditionnement de 30 portions.",
+    "price_note": "Prix fabricant observé le 2026-10-09 pour la référence identifiée, hors livraison et abonnement.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://nutriandco.com/fr/produits/tripeptide-de-collagene"
+    },
+    "units_pack": 30,
+    "units_per_day": 1,
+    "active_per_unit": 2.5,
+    "active_unit": "g collagen",
+    "unit_name": "portion de 3,3 g",
+    "format": "powder",
+    "serving_g": 3.3,
+    "active_per_serving_g": 2.5,
+    "vegan": false,
+    "nutrients": {
+      "vitamin_c": 24
+    },
+    "secondary_actives": [
+      {
+        "category": "vitamin_c",
+        "per_day": 24,
+        "unit": "mg"
+      }
+    ]
+  },
+  {
+    "brand": "Nutripure",
+    "name": "Fer Bisglycinate",
+    "category": "iron",
+    "variant": "120 gélules",
+    "price_eur": 19.9,
+    "url": "https://www.nutripure.fr/fr/sante/139-bisglycinate-de-fer.html",
+    "ean": null,
+    "form": "bisglycinate de fer Ferrochel®",
+    "additives": [
+      "gomme d’acacia",
+      "gélule végétale : pullulan",
+      "amidon de riz"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Ferrochel®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "Pour 2 gélules : 14 mg de fer élémentaire.",
+    "price_note": "Prix fabricant observé le 2026-10-09 pour la référence identifiée, hors livraison et abonnement.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutripure.fr/fr/sante/139-bisglycinate-de-fer.html"
+    },
+    "units_pack": 120,
+    "units_per_day": 2,
+    "active_per_unit": 7,
+    "active_unit": "mg elemental Fe",
+    "unit_name": "gélule",
+    "vegan": true
+  },
+  {
+    "brand": "Nutripure",
+    "name": "NeuroMagné²",
+    "category": "magnesium",
+    "variant": "120 gélules",
+    "price_eur": 29.9,
+    "url": "https://www.nutripure.fr/fr/sante/310-magnesium-l-threonate.html",
+    "ean": null,
+    "form": "mélange magnésium L-thréonate Magtein® et bisglycinate Albion™",
+    "additives": [
+      "gélule végétale : pullulan",
+      "gomme d’acacia"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Magtein® ; Albion™",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "Pour 4 gélules : magnésium 240 mg, B6 1,4 mg, D3 25 µg. Deux sources de magnésium : L-thréonate 1000 mg et bisglycinate 1630 mg.",
+    "price_note": "Prix fabricant observé le 2026-10-09 pour la référence identifiée, hors livraison et abonnement.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutripure.fr/fr/sante/310-magnesium-l-threonate.html"
+    },
+    "units_pack": 120,
+    "units_per_day": 4,
+    "active_per_unit": 60,
+    "active_unit": "mg elemental Mg",
+    "unit_name": "gélule",
+    "nutrients": {
+      "vitamin_b6": 1.4,
+      "vitamin_d3": 1000
+    },
+    "secondary_actives": [
+      {
+        "category": "vitamin_d3",
+        "per_day": 1000,
+        "unit": "IU"
+      }
+    ]
+  },
+  {
+    "brand": "Nutripure",
+    "name": "Rhodiola Rosea + Safran",
+    "category": "rhodiola",
+    "variant": "60 gélules",
+    "price_eur": 34.9,
+    "url": "https://www.nutripure.fr/fr/sante/7-rhodiola-rosea-safran.html",
+    "ean": null,
+    "form": "extrait de rhodiola titré à 3 % de rosavines, avec safran Safr’Inside™ à 2 % de safranal",
+    "additives": [
+      "gélule végétale : pullulan",
+      "gomme d’acacia",
+      "huile de tournesol"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Safr’Inside™",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "Pour 2 gélules : rhodiola 1200 mg dont rosavines 36 mg ; safran 30 mg dont safranal 0,6 mg. Salidrosides non quantifiés.",
+    "price_note": "Prix fabricant observé le 2026-10-09 pour la référence identifiée, hors livraison et abonnement.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutripure.fr/fr/sante/7-rhodiola-rosea-safran.html"
+    },
+    "units_pack": 60,
+    "units_per_day": 2,
+    "active_per_unit": 600,
+    "active_unit": "mg extract",
+    "unit_name": "gélule",
+    "rosavins_pct": 3
+  },
+  {
+    "brand": "Nutripure",
+    "name": "Pure Sommeil",
+    "category": "melatonin",
+    "variant": "60 gélules",
+    "price_eur": 22.9,
+    "url": "https://www.nutripure.fr/fr/sante/66-melatonine-sommeil.html",
+    "ean": null,
+    "form": "mélatonine avec extraits de plantes",
+    "additives": [
+      "gélule végétale : pullulan",
+      "huile de coco"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "Pour 2 gélules : mélatonine 1,9 mg, aubépine 200 mg, mélisse 160 mg, pavot de Californie 152 mg et valériane 120 mg. Libération prolongée non revendiquée.",
+    "price_note": "Prix fabricant observé le 2026-10-09 pour la référence identifiée, hors livraison et abonnement.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutripure.fr/fr/sante/66-melatonine-sommeil.html"
+    },
+    "units_pack": 60,
+    "units_per_day": 2,
+    "active_per_unit": 0.95,
+    "active_unit": "mg",
+    "unit_name": "gélule"
+  },
+  {
+    "brand": "Nutripure",
+    "name": "Collagène Marin Sauvage Naticol®",
+    "category": "collagen",
+    "variant": "neutre · 310 g",
+    "price_eur": 33.9,
+    "url": "https://www.nutripure.fr/fr/complement-alimentaire-mobilite-articulation/176-1113-collagene-marin.html",
+    "ean": "3760322503937",
+    "form": "peptides de collagène marin hydrolysé Naticol®",
+    "additives": [],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Naticol®",
+    "full_label": true,
+    "flags": [
+      "Contient du poisson."
+    ],
+    "confidence": "medium",
+    "notes": "Ingrédient unique : collagène marin hydrolysé. Portion de 10 g.",
+    "price_note": "Prix fabricant observé le 2026-10-09 pour la référence identifiée, hors livraison et abonnement.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutripure.fr/fr/complement-alimentaire-mobilite-articulation/176-1113-collagene-marin.html"
+    },
+    "format": "powder",
+    "pack_g": 310,
+    "serving_g": 10,
+    "active_per_serving_g": 10,
+    "active_per_100g": 100.0,
+    "vegan": false
+  },
+  {
+    "brand": "Nutripure",
+    "name": "Vitamine C Quali®-C en gélules",
+    "category": "vitamin_c",
+    "variant": "60 gélules",
+    "price_eur": 13.9,
+    "url": "https://www.nutripure.fr/fr/sante/68-1215-vitamine-c.html",
+    "ean": "3760322500691",
+    "form": "acide L-ascorbique Quali®-C",
+    "additives": [
+      "gélule végétale : pullulan",
+      "citrate de calcium",
+      "huile de tournesol"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Quali®-C",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "750 mg de vitamine C par gélule.",
+    "price_note": "Prix fabricant observé le 2026-10-09 pour la référence identifiée, hors livraison et abonnement.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutripure.fr/fr/sante/68-1215-vitamine-c.html"
+    },
+    "units_pack": 60,
+    "units_per_day": 1,
+    "active_per_unit": 750,
+    "active_unit": "mg",
+    "unit_name": "gélule",
+    "vegan": true
+  },
+  {
+    "brand": "Nutripure",
+    "name": "Vitamine C Quali®-C en poudre",
+    "category": "vitamin_c",
+    "variant": "180 g · 180 portions de 1 g",
+    "price_eur": 22.9,
+    "url": "https://www.nutripure.fr/fr/sante/68-1314-vitamine-c.html",
+    "ean": "3760322506396",
+    "form": "acide L-ascorbique Quali®-C",
+    "additives": [],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Quali®-C",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "2 dosettes = 1 g de poudre, soit 1000 mg de vitamine C. 180 portions calculées sur le pot de 180 g.",
+    "price_note": "Prix fabricant observé le 2026-10-09 pour la référence identifiée, hors livraison et abonnement.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutripure.fr/fr/sante/68-1314-vitamine-c.html"
+    },
+    "units_pack": 180,
+    "units_per_day": 1,
+    "active_per_unit": 1000,
+    "active_unit": "mg",
+    "unit_name": "portion de 1 g",
+    "format": "powder",
+    "vegan": true
+  },
+  {
+    "brand": "Nutripure",
+    "name": "Magnésium en poudre 3 formes",
+    "category": "magnesium",
+    "variant": "51 g · 30 portions de 1,7 g",
+    "price_eur": 16.9,
+    "url": "https://www.nutripure.fr/fr/sante/251-1056-magnesium-poudre.html",
+    "ean": "3760322504118",
+    "form": "mélange glycérophosphate, citrate et bisglycinate de magnésium Albion™",
+    "additives": [],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Albion™",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "1,5 dosette = 1,7 g, apportant 240 mg de magnésium élémentaire. Pour cette portion : glycérophosphate 874 mg, citrate 724 mg, bisglycinate 109 mg (quantités arrondies). 30 portions calculées sur 51 g.",
+    "price_note": "Prix fabricant observé le 2026-10-09 pour la référence identifiée, hors livraison et abonnement.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutripure.fr/fr/sante/251-1056-magnesium-poudre.html"
+    },
+    "units_pack": 30,
+    "units_per_day": 1,
+    "active_per_unit": 240,
+    "active_unit": "mg elemental Mg",
+    "unit_name": "portion de 1,7 g",
+    "format": "powder"
+  }
+]

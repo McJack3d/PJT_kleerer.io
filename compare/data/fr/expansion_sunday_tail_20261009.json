@@ -1,0 +1,1220 @@
+[
+  {
+    "brand": "Sunday Natural",
+    "name": "MAGNÉSIUM L-THRÉONATE MAGTEIN®",
+    "category": "magnesium",
+    "variant": "90 gélules",
+    "price_eur": 29.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "form": "magnésium L-thréonate Magtein®",
+    "ingredients": [
+      "L-thréonate de magnésium Magtein®",
+      "Cellulose en poudre",
+      "Hydroxypropylméthylcellulose"
+    ],
+    "additives": [
+      "cellulose en poudre",
+      "capsule HPMC"
+    ],
+    "vegan": true,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Magtein®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.sunday.fr/magnesium-l-threonate-gelules.html",
+    "ean": "4069484014237",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/magnesium-l-threonate-gelules.html"
+    },
+    "notes": "3 gélules apportent 2040 mg de L-thréonate, dont 147 mg de magnésium élémentaire. Ne pas assimiler les 680 mg de sel par gélule à 680 mg de magnésium.",
+    "units_pack": 90,
+    "units_per_day": 3,
+    "unit_name": "gélule",
+    "active_per_unit": 49,
+    "active_unit": "mg"
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Collagène Greens - SunGlow® Luxe",
+    "category": "collagen",
+    "variant": "Greens · 180 g",
+    "price_eur": 19.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "form": "hydrolysat de collagène bovin types I et III à 500 Da",
+    "ingredients": [
+      "Hydrolysat de collagène bovin SunColl®",
+      "Poudre d’herbe de blé",
+      "Poudre d’herbe d’orge",
+      "Poudre de Spirulina platensis",
+      "Poudre de Chlorella pyrenoidosa",
+      "Poudre de jus d’herbe de blé",
+      "Poudre de chou frisé",
+      "Poudre de feuilles de moringa",
+      "Poudre de luzerne",
+      "Poudre de persil",
+      "Poudre d’épinards",
+      "Poudre de jus d’herbe d’orge",
+      "Poudre de brocoli",
+      "Poudre d’algues vertes",
+      "Poudre de germes de brocoli"
+    ],
+    "additives": [],
+    "vegan": false,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "SunColl®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.sunday.fr/collagene-poudre-sac-sunglow-luxe-verts.html",
+    "ean": "4069484015371",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/collagene-poudre-sac-sunglow-luxe-verts.html"
+    },
+    "notes": "Formule collagène + 14 plantes : 4 g de poudre apportent 2 g de collagène. Les protéines végétales ne sont pas comptées comme collagène.",
+    "format": "powder",
+    "pack_g": 180,
+    "serving_g": 4,
+    "active_per_100g": 50,
+    "active_per_serving_g": 2.0
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Collagène en poudre SunGlow® Pure",
+    "category": "collagen",
+    "variant": "nature · 450 g",
+    "price_eur": 20.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "form": "hydrolysat de collagène bovin types I et III à 2000 Da",
+    "ingredients": [
+      "Hydrolysat de collagène bovin SunColl®"
+    ],
+    "additives": [],
+    "vegan": false,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "SunColl®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.sunday.fr/collagene-poudre-sunglow-pure-nature.html",
+    "ean": "4069484013094",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/collagene-poudre-sunglow-pure-nature.html"
+    },
+    "notes": "Hydrolysat pur : 10 g par portion. La masse de l’hydrolysat est distincte des protéines nutritionnelles (92 g/100 g).",
+    "format": "powder",
+    "pack_g": 450,
+    "serving_g": 10,
+    "active_per_100g": 100,
+    "active_per_serving_g": 10.0
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Collagène en poudre SunGlow® Luxe",
+    "category": "collagen",
+    "variant": "nature · 180 g",
+    "price_eur": 19.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "form": "hydrolysat de collagène bovin types I et III à 500 Da",
+    "ingredients": [
+      "Hydrolysat de collagène bovin SunColl®"
+    ],
+    "additives": [],
+    "vegan": false,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "SunColl®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.sunday.fr/collagene-poudre-sunglow-luxe-nature.html",
+    "ean": "4069484017139",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/collagene-poudre-sunglow-luxe-nature.html"
+    },
+    "notes": "Hydrolysat pur à 500 Da distinct de SunGlow Pure 2000 Da. Dose fabricant 2 g/jour ; aucune équivalence supérieure de dose n’est postulée.",
+    "format": "powder",
+    "pack_g": 180,
+    "serving_g": 2,
+    "active_per_100g": 100,
+    "active_per_serving_g": 2.0
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Collagène marin en poudre - SunGlow® Luxe",
+    "category": "collagen",
+    "variant": "nature · 180 g",
+    "price_eur": 21.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "form": "hydrolysat de collagène marin de type I à 500 Da",
+    "ingredients": [
+      "Hydrolysat de collagène marin de tilapia SunColl®"
+    ],
+    "additives": [],
+    "vegan": false,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "SunColl®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.sunday.fr/collagene-marin-poudre-sunglow-luxe-neutre.html",
+    "ean": "4069484013087",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/collagene-marin-poudre-sunglow-luxe-neutre.html"
+    },
+    "notes": "Hydrolysat pur de poisson : 2 g par portion ; protéines nutritionnelles 92 g/100 g distinctes de la masse d’hydrolysat.",
+    "format": "powder",
+    "pack_g": 180,
+    "serving_g": 2,
+    "active_per_100g": 100,
+    "active_per_serving_g": 2.0
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Complexe de zinc Ultra + Vitamine C",
+    "category": "zinc",
+    "variant": "240 gélules",
+    "price_eur": 10.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "form": "complexe de 8 formes de zinc",
+    "ingredients": [
+      "Vitamine C",
+      "Bioflavonoïdes d’agrumes",
+      "Hydroxypropylméthylcellulose",
+      "Bisglycinate de zinc",
+      "Malate de zinc",
+      "Gluconate de zinc",
+      "Ascorbate de zinc",
+      "L-lysine de zinc",
+      "Acétate de zinc",
+      "Picolinate de zinc",
+      "Sulfate de zinc mono-L-méthionine"
+    ],
+    "additives": [
+      "capsule HPMC"
+    ],
+    "vegan": true,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": false,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.sunday.fr/complexe-zinc-ultra-plus-vitamine-c.html",
+    "ean": "4069484018198",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/complexe-zinc-ultra-plus-vitamine-c.html"
+    },
+    "notes": "Par gélule : zinc élémentaire 15 mg, vitamine C 100 mg. Liste du fabricant : vitamine C avec bioflavonoïdes ; supports exacts de PureWay-C non détaillés sur cette fiche.",
+    "units_pack": 240,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 15,
+    "active_unit": "mg",
+    "secondary_actives": [
+      {
+        "category": "vitamin_c",
+        "per_day": 100,
+        "unit": "mg"
+      }
+    ]
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Oméga-3 DHA 500",
+    "category": "omega3",
+    "variant": "90 softgels",
+    "price_eur": 19.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "form": "triglycérides de microalgues Schizochytrium",
+    "ingredients": [
+      "Huile de Schizochytrium sp.",
+      "Extraits riches en tocophérols",
+      "Amidon modifié",
+      "Glycérine",
+      "Eau"
+    ],
+    "additives": [
+      "tocophérols",
+      "amidon modifié",
+      "glycérine",
+      "eau"
+    ],
+    "vegan": true,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.sunday.fr/omega-3-500mg-dha-vegan-gelules.html",
+    "ean": "4069484019607",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/omega-3-500mg-dha-vegan-gelules.html"
+    },
+    "notes": "Conseils et tableau : 2 gélules par jour apportent DHA 1000 mg + EPA 5 mg. Le total actif comparé est 1005 mg, distinct des 1667 mg d’huile.",
+    "units_pack": 90,
+    "units_per_day": 2,
+    "unit_name": "softgel",
+    "active_per_unit": 502.5,
+    "active_unit": "mg"
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Collagène Plus SunGlow® Luxe - Gélules",
+    "category": "collagen",
+    "variant": "180 gélules",
+    "price_eur": 20.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "form": "hydrolysat de collagène bovin SunColl® à 500 Da",
+    "ingredients": [
+      "Hydrolysat de collagène bovin SunColl®",
+      "Hydroxypropylméthylcellulose",
+      "Hyaluronate de sodium",
+      "Acide L-ascorbique",
+      "Bioflavonoïdes d’agrumes",
+      "Acides gras végétaux",
+      "Extrait de grenade",
+      "Poudre d’extrait de peau de grenade",
+      "Gomme arabique",
+      "Inuline",
+      "Huile de zeste de citron",
+      "L-ascorbate de zinc",
+      "Biotine"
+    ],
+    "additives": [
+      "capsule HPMC",
+      "acides gras végétaux",
+      "gomme arabique",
+      "inuline"
+    ],
+    "vegan": false,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "SunColl® / PureWay-C®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.sunday.fr/collagene-gelules-sunglow-luxe-plus.html",
+    "ean": "4069484018068",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/collagene-gelules-sunglow-luxe-plus.html"
+    },
+    "notes": "5 gélules : collagène 2 g, vitamine C 200 mg, biotine 1000 µg, zinc 2 mg et acide hyaluronique 275 mg. Autres actifs : extrait de grenade 150 mg (dont 60 mg punicalagines), poudre d’extrait de peau de grenade 150 mg (dont 60 mg acide ellagique) et poudre d’huile de zeste de citron 20 mg.",
+    "units_pack": 180,
+    "units_per_day": 5,
+    "unit_name": "gélule",
+    "active_per_unit": 0.4,
+    "active_unit": "g",
+    "secondary_actives": [
+      {
+        "category": "vitamin_c",
+        "per_day": 200,
+        "unit": "mg"
+      },
+      {
+        "category": "biotin",
+        "per_day": 1000,
+        "unit": "µg"
+      },
+      {
+        "category": "zinc",
+        "per_day": 2,
+        "unit": "mg"
+      }
+    ]
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Fer bisglycinate + vitamine C",
+    "category": "iron",
+    "variant": "120 gélules",
+    "price_eur": 8.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "form": "bisglycinate de fer",
+    "ingredients": [
+      "Bisglycinate de fer",
+      "Acide L-ascorbique",
+      "Hydroxypropylméthylcellulose"
+    ],
+    "additives": [
+      "capsule HPMC"
+    ],
+    "vegan": true,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.sunday.fr/fer-bisglycinate-vitamine-c.html",
+    "ean": "4069484018204",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/fer-bisglycinate-vitamine-c.html"
+    },
+    "notes": "1 gélule : 20 mg de fer élémentaire et 200 mg de vitamine C.",
+    "units_pack": 120,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 20,
+    "active_unit": "mg",
+    "secondary_actives": [
+      {
+        "category": "vitamin_c",
+        "per_day": 200,
+        "unit": "mg"
+      }
+    ]
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Oméga-3 Complete - EPA 300 + DHA 200 + ALA 5",
+    "category": "omega3",
+    "variant": "90 softgels",
+    "price_eur": 34.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "form": "huile de microalgues Schizochytrium et huiles végétales",
+    "ingredients": [
+      "Huile de Schizochytrium sp. riche en EPA et DHA",
+      "Amidon de tapioca",
+      "Glycérine",
+      "Eau",
+      "Huile MCT de coco",
+      "Huile de bourrache",
+      "Huile de chia",
+      "Huile de moringa",
+      "Huile de lin",
+      "Huile d’argousier",
+      "Extrait de romarin",
+      "Extraits riches en tocophérols",
+      "Palmitate d’ascorbyle",
+      "Huile de tournesol"
+    ],
+    "additives": [
+      "amidon de tapioca",
+      "glycérine",
+      "eau",
+      "extrait de romarin",
+      "tocophérols",
+      "palmitate d’ascorbyle",
+      "huile de tournesol"
+    ],
+    "vegan": true,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.sunday.fr/omega-3-epa-dha-vegan-1000mg-gelules.html",
+    "ean": "4069484019577",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/omega-3-epa-dha-vegan-1000mg-gelules.html"
+    },
+    "notes": "1 gélule : EPA 300 mg + DHA 200 mg. DPA 40 mg, ALA 5 mg et GLA 1,2 mg ne sont pas additionnés au total comparé EPA+DHA.",
+    "units_pack": 90,
+    "units_per_day": 1,
+    "unit_name": "softgel",
+    "active_per_unit": 500,
+    "active_unit": "mg"
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Magnésium marin bio 125 mg",
+    "category": "magnesium",
+    "variant": "90 gélules",
+    "price_eur": 26.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "form": "magnésium issu de laitue de mer Ulva lactuca",
+    "ingredients": [
+      "Extrait de laitue de mer biologique",
+      "Hydroxypropylméthylcellulose"
+    ],
+    "additives": [
+      "capsule HPMC"
+    ],
+    "vegan": true,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.sunday.fr/magnesium-marin-125mg-gelules.html",
+    "ean": "4260677600552",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/magnesium-marin-125mg-gelules.html"
+    },
+    "notes": "3 gélules : extrait d’Ulva lactuca 1500 mg, dont magnésium élémentaire 375 mg. Allégation biologique sans contrôle du certificat ; teneur en iode non quantifiée.",
+    "units_pack": 90,
+    "units_per_day": 3,
+    "unit_name": "gélule",
+    "active_per_unit": 125,
+    "active_unit": "mg"
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Vitamine B12 Mh3a® + Calcium 500 µg",
+    "category": "vitamin_b12",
+    "variant": "60 gélules",
+    "price_eur": 14.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "form": "méthylcobalamine, hydroxocobalamine et adénosylcobalamine",
+    "ingredients": [
+      "Citrate de calcium",
+      "Méthylcobalamine",
+      "Hydroxocobalamine",
+      "Adénosylcobalamine",
+      "Hydroxypropylméthylcellulose"
+    ],
+    "additives": [
+      "capsule HPMC"
+    ],
+    "vegan": true,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "MH3A®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.sunday.fr/vitamine-b12-calcium-formule-mha.html",
+    "ean": "4069484019126",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/vitamine-b12-calcium-formule-mha.html"
+    },
+    "notes": "Dose basse fabricant 1 gélule/jour, fourchette 1–2. Par gélule : B12 500 µg et calcium 73,5 mg ; les trois formes B12 sont additionnées seulement dans le total B12.",
+    "units_pack": 60,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 500,
+    "active_unit": "µg",
+    "nutrients": {
+      "calcium": 73.5
+    }
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Créatine Monohydrate Creapure®",
+    "category": "creatine",
+    "variant": "nature · 500 g",
+    "price_eur": 29.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "form": "créatine monohydrate Creapure®",
+    "ingredients": [
+      "Créatine monohydrate"
+    ],
+    "additives": [],
+    "vegan": true,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Creapure®",
+    "full_label": true,
+    "flags": [
+      "En rupture de stock au relevé du 9 octobre 2026."
+    ],
+    "confidence": "medium",
+    "url": "https://www.sunday.fr/creatine-creapure-monohydrate.html",
+    "ean": "4069484018822",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/creatine-creapure-monohydrate.html"
+    },
+    "notes": "Tableau fabricant : 3,4 g de monohydrate dont 3 g de créatine. La masse active comparée exclut l’eau du monohydrate ; référence Creapure distincte de la poudre générique. Prix affiché malgré la rupture.",
+    "format": "powder",
+    "pack_g": 500,
+    "serving_g": 3.4,
+    "active_per_100g": 88.23529411764706,
+    "active_per_serving_g": 3.0
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Complexe de fer végétal 14 mg",
+    "category": "iron",
+    "variant": "60 gélules",
+    "price_eur": 16.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "form": "fer de feuilles de curry, koji fermenté et sarrasin germé",
+    "ingredients": [
+      "Extrait de cynorrhodon Rosa canina",
+      "Extrait de feuilles de curry Murraya koenigii",
+      "Biomasse d’Aspergillus oryzae riche en fer Ultimine™",
+      "Hydroxypropylméthylcellulose",
+      "Poudre de germe de sarrasin",
+      "Poudre de jus d’acérola"
+    ],
+    "additives": [
+      "capsule HPMC"
+    ],
+    "vegan": true,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Ultimine™",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.sunday.fr/complexe-fer-vegetal-14mg-gelules.html",
+    "ean": "4069484020177",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/complexe-fer-vegetal-14mg-gelules.html"
+    },
+    "notes": "1 gélule : 14 mg de fer élémentaire, vitamine C 50 mg. Masses végétales non assimilées au fer.",
+    "units_pack": 60,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 14,
+    "active_unit": "mg",
+    "secondary_actives": [
+      {
+        "category": "vitamin_c",
+        "per_day": 50,
+        "unit": "mg"
+      }
+    ]
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Gélules de fer, chrome et molybdène",
+    "category": "iron",
+    "variant": "100 gélules",
+    "price_eur": 15.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "form": "fer issu de sarrasin germé enrichi",
+    "ingredients": [
+      "Poudre de sarrasin germé",
+      "Hydroxypropylméthylcellulose"
+    ],
+    "additives": [
+      "capsule HPMC"
+    ],
+    "vegan": true,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.sunday.fr/fer-chrome-molybdene-hautement-dose-plus-naturel-gelules.html",
+    "ean": "4260677600866",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/fer-chrome-molybdene-hautement-dose-plus-naturel-gelules.html"
+    },
+    "notes": "Dose retenue : 2 gélules, borne haute de la fourchette fabricant 1–2. Apport : fer 14 mg, chrome 80 µg et molybdène 100 µg. Chrome et molybdène conservés à titre informatif hors cumul des 25 catégories.",
+    "units_pack": 100,
+    "units_per_day": 2,
+    "unit_name": "gélule",
+    "active_per_unit": 7,
+    "active_unit": "mg",
+    "nutrients": {
+      "chromium": 80,
+      "molybdenum": 100
+    }
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Complexe Fer Ultra 14 mg",
+    "category": "iron",
+    "variant": "60 gélules",
+    "price_eur": 24.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "form": "fer de sarrasin et curry, bisglycinate, lactate et gluconate",
+    "ingredients": [
+      "Glycine",
+      "L-ascorbate de calcium",
+      "Hydroxypropylméthylcellulose",
+      "Gomme gellane",
+      "Poudre de germe de sarrasin",
+      "Lactoferrine de lait de vache",
+      "L-lysine",
+      "Extrait de feuilles de curry Murraya koenigii",
+      "Bisglycinate de fer",
+      "Lactate de fer",
+      "Gluconate de fer",
+      "Nicotinamide",
+      "D-pantothénate de calcium",
+      "Complexe cuivre-lysine",
+      "Pyridoxal-5-phosphate",
+      "Riboflavine-5-phosphate de sodium",
+      "Chlorhydrate de thiamine",
+      "L-méthylfolate de calcium",
+      "5-désoxyadénosylcobalamine",
+      "Méthylcobalamine",
+      "Sulfate d’hydroxocobalamine",
+      "Chlorhydrate d’hydroxocobalamine",
+      "Acétate d’hydroxocobalamine"
+    ],
+    "additives": [
+      "capsule HPMC",
+      "gomme gellane"
+    ],
+    "vegan": false,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Magnafolate® Pro / MH3A®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.sunday.fr/complexe-fer-ultra-14mg-gelules.html",
+    "ean": "4069484019591",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/complexe-fer-ultra-14mg-gelules.html"
+    },
+    "notes": "Par gélule : fer 14 mg, C 100 mg, folates 100 µg, B12 16 µg ; B1 0,55 mg, B2 0,7 mg, B3 8 mg, B6 0,7 mg, B5 3 mg et cuivre 0,25 mg. Contient du lait. Autres actifs déclarés par gélule : glycine 200 mg, lysine 100 mg et lactoferrine 100 mg.",
+    "units_pack": 60,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 14,
+    "active_unit": "mg",
+    "secondary_actives": [
+      {
+        "category": "vitamin_c",
+        "per_day": 100,
+        "unit": "mg"
+      },
+      {
+        "category": "folate",
+        "per_day": 100,
+        "unit": "µg"
+      },
+      {
+        "category": "vitamin_b12",
+        "per_day": 16,
+        "unit": "µg"
+      }
+    ],
+    "nutrients": {
+      "vitamin_b1": 0.55,
+      "vitamin_b2": 0.7,
+      "vitamin_b3": 8,
+      "vitamin_b6": 0.7,
+      "vitamin_b5": 3,
+      "copper": 0.25
+    }
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Taurate de magnésium en poudre",
+    "category": "magnesium",
+    "variant": "poudre · 250 g",
+    "price_eur": 14.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "form": "taurate de magnésium",
+    "ingredients": [
+      "Taurate de magnésium"
+    ],
+    "additives": [],
+    "vegan": true,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.sunday.fr/taurate-magnesium-poudre.html",
+    "ean": "4069484014374",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/taurate-magnesium-poudre.html"
+    },
+    "notes": "Tableau fabricant : 1 cuillère de 2,55 g apporte 200 mg de magnésium élémentaire. Le sachet fournit 250/2,55 portions théoriques ; valeur calculée en mg, pas en grammes de sel.",
+    "units_pack": 98.03921568627452,
+    "units_per_day": 1,
+    "unit_name": "portion de 2,55 g",
+    "active_per_unit": 200,
+    "active_unit": "mg",
+    "format": "powder"
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Collagène marin SunGlow® Luxe - gélules",
+    "category": "collagen",
+    "variant": "120 gélules",
+    "price_eur": 15.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "form": "hydrolysat de collagène marin de tilapia SunColl® à 500 Da",
+    "ingredients": [
+      "Hydrolysat de collagène marin de tilapia",
+      "Hydroxypropylméthylcellulose"
+    ],
+    "additives": [
+      "capsule HPMC"
+    ],
+    "vegan": false,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "SunColl®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.sunday.fr/collagene-marin-gelules-sunglow-luxe.html",
+    "ean": "4069484018082",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/collagene-marin-gelules-sunglow-luxe.html"
+    },
+    "notes": "4 gélules : 2 g de collagène de poisson. Aucune équivalence de cette dose avec 10–15 g d’autres collagènes n’est postulée.",
+    "units_pack": 120,
+    "units_per_day": 4,
+    "unit_name": "gélule",
+    "active_per_unit": 0.5,
+    "active_unit": "g"
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Collagène SunGlow® Luxe",
+    "category": "collagen",
+    "variant": "120 gélules",
+    "price_eur": 12.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "form": "hydrolysat de collagène bovin SunColl® à 500 Da",
+    "ingredients": [
+      "Hydrolysat de collagène bovin",
+      "Hydroxypropylméthylcellulose"
+    ],
+    "additives": [
+      "capsule HPMC"
+    ],
+    "vegan": false,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "SunColl®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.sunday.fr/collagene-sunglow-luxe-gelules.html",
+    "ean": "4069484018099",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/collagene-sunglow-luxe-gelules.html"
+    },
+    "notes": "4 gélules : 2 g de collagène bovin. L’enveloppe HPMC est conservée dans la composition malgré le titre «sans additifs».",
+    "units_pack": 120,
+    "units_per_day": 4,
+    "unit_name": "gélule",
+    "active_per_unit": 0.5,
+    "active_unit": "g"
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Créatine monohydrate en gélules",
+    "category": "creatine",
+    "variant": "240 gélules",
+    "price_eur": 17.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "form": "créatine monohydrate",
+    "ingredients": [
+      "Créatine monohydrate",
+      "Hydroxypropylméthylcellulose"
+    ],
+    "additives": [
+      "capsule HPMC"
+    ],
+    "vegan": true,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.sunday.fr/creatine-monohydrate-240-gelules.html",
+    "ean": "4069484020191",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/creatine-monohydrate-240-gelules.html"
+    },
+    "notes": "Tableau : 2 gélules apportent 2480 mg de monohydrate dont 2170 mg de créatine active ; le raccourci commercial de 1250 mg par gélule n’est pas la masse active comparée.",
+    "units_pack": 240,
+    "units_per_day": 2,
+    "unit_name": "gélule",
+    "active_per_unit": 1.085,
+    "active_unit": "g",
+    "active_per_serving_g": 2.17
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Collagène SunGlow® Luxe + Vitamine C - Gélules",
+    "category": "collagen",
+    "variant": "180 gélules",
+    "price_eur": 15.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "form": "hydrolysat de collagène bovin SunColl® à 500 Da",
+    "ingredients": [
+      "Hydrolysat de collagène bovin",
+      "Hydroxypropylméthylcellulose",
+      "Vitamine C",
+      "Bioflavonoïdes d’agrumes"
+    ],
+    "additives": [
+      "capsule HPMC"
+    ],
+    "vegan": false,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "SunColl® / PureWay-C®",
+    "full_label": false,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.sunday.fr/collagene-sunglow-luxe-plus-vitamine-c-gelules.html",
+    "ean": "4069484020139",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/collagene-sunglow-luxe-plus-vitamine-c-gelules.html"
+    },
+    "notes": "5 gélules : 2 g de collagène et vitamine C 100 mg. Liste déclarée préservée ; matrice exacte de PureWay-C non détaillée dans cette fiche.",
+    "units_pack": 180,
+    "units_per_day": 5,
+    "unit_name": "gélule",
+    "active_per_unit": 0.4,
+    "active_unit": "g",
+    "secondary_actives": [
+      {
+        "category": "vitamin_c",
+        "per_day": 100,
+        "unit": "mg"
+      }
+    ]
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Vitamine K2 500 µg MK7 Vegan",
+    "category": "vitamin_k2",
+    "variant": "60 gélules",
+    "price_eur": 11.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "form": "ménaquinone-7 MK7 tout-trans K2Vital®",
+    "ingredients": [
+      "Fibre d’acacia",
+      "Cellulose microcristalline",
+      "Huile MCT de coco",
+      "Vitamine K2 MK7 tout-trans",
+      "Hydroxypropylméthylcellulose"
+    ],
+    "additives": [
+      "fibres d’acacia",
+      "cellulose microcristalline",
+      "huile de coco",
+      "capsule HPMC"
+    ],
+    "vegan": true,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "K2Vital®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.sunday.fr/vitamine-k2-mk7-gelules-500mcg-tout-trans-haute-dose.html",
+    "ean": "4069484021594",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/vitamine-k2-mk7-gelules-500mcg-tout-trans-haute-dose.html"
+    },
+    "notes": "500 µg de K2 MK7 par gélule, 1 gélule par jour. Concentration tout-trans déclarée, certificat de lot non contrôlé.",
+    "units_pack": 60,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 500,
+    "active_unit": "µg"
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Créatine monohydrate Creavitalis®",
+    "category": "creatine",
+    "variant": "nature · 500 g",
+    "price_eur": 38.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "form": "créatine monohydrate micronisée Creavitalis®",
+    "ingredients": [
+      "Créatine monohydrate micronisée"
+    ],
+    "additives": [],
+    "vegan": true,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Creavitalis®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.sunday.fr/creatine-monohydrate-poudre-creavitalis.html",
+    "ean": "4069484023208",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/creatine-monohydrate-poudre-creavitalis.html"
+    },
+    "notes": "3 cuillères de 3,4 g au total : 3 g de créatine active selon tableau fabricant. Aucune allégation de longévité ni supériorité cognitive reprise.",
+    "format": "powder",
+    "pack_g": 500,
+    "serving_g": 3.4,
+    "active_per_100g": 88.23529411764706,
+    "active_per_serving_g": 3.0
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Protéine Whey bio Concentrate",
+    "category": "whey",
+    "variant": "nature · 900 g",
+    "price_eur": 58.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "form": "concentré de protéines de lactosérum biologique",
+    "ingredients": [
+      "Concentré de protéines de lactosérum de lait biologique"
+    ],
+    "additives": [],
+    "vegan": false,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.sunday.fr/proteine-whey-concentrate-bio.html",
+    "ean": "4069484017870",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/proteine-whey-concentrate-bio.html"
+    },
+    "notes": "Tableau fabricant : 77 g de protéines pour 100 g et 23 g par portion de 30 g. Ces valeurs sont arrondies séparément ; portion déclarée conservée. Mention biologique déclarée, certificat non contrôlé.",
+    "format": "powder",
+    "pack_g": 900,
+    "serving_g": 30,
+    "active_per_100g": 77,
+    "active_per_serving_g": 23
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Protéine Whey Isolate ISO-C® - Nature",
+    "category": "whey",
+    "variant": "nature · 600 g",
+    "price_eur": 39.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "form": "isolat de protéines de lactosérum ISO-C®",
+    "ingredients": [
+      "Protéine de lactosérum de lait"
+    ],
+    "additives": [],
+    "vegan": false,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "ISO-C®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.sunday.fr/proteine-whey-isolate-iso-c-nature-900g-poudre.html",
+    "ean": "4069484017917",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/proteine-whey-isolate-iso-c-nature-900g-poudre.html"
+    },
+    "notes": "Format actuel 600 g confirmé par titre, prix et description malgré l’URL historique 900 g. Tableau fabricant : 85 g de protéines pour 100 g et 25 g par portion de 30 g ; valeurs arrondies séparément, portion déclarée conservée.",
+    "format": "powder",
+    "pack_g": 600,
+    "serving_g": 30,
+    "active_per_100g": 85,
+    "active_per_serving_g": 25
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Oméga-3 DHA sn-2",
+    "category": "omega3",
+    "variant": "60 softgels",
+    "price_eur": 24.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "form": "triglycérides de microalgues enrichis en DHA en position sn-2",
+    "ingredients": [
+      "Huile de Schizochytrium sp.",
+      "Extraits riches en tocophérols",
+      "Amidon modifié",
+      "Glycérine",
+      "Eau"
+    ],
+    "additives": [
+      "tocophérols",
+      "amidon modifié",
+      "glycérine",
+      "eau"
+    ],
+    "vegan": true,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.sunday.fr/omega-3-dha-sn-2-gelules.html",
+    "ean": "4069484019089",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/omega-3-dha-sn-2-gelules.html"
+    },
+    "notes": "Par gélule : huile 500 mg dont DHA 250 mg. Aucun EPA quantifié. Aucune affirmation de supériorité d’assimilation ni TOTOX vérifié n’est reprise sans certificat.",
+    "units_pack": 60,
+    "units_per_day": 1,
+    "unit_name": "softgel",
+    "active_per_unit": 250,
+    "active_unit": "mg"
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Oméga-3 vegan 350 DHA/180 EPA XL",
+    "category": "omega3",
+    "variant": "120 softgels",
+    "price_eur": 36.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "form": "huile de microalgues Schizochytrium riche en DHA et EPA",
+    "ingredients": [
+      "Huile de Schizochytrium sp. riche en DHA et EPA",
+      "Huile de tournesol",
+      "Extrait de romarin",
+      "Extraits riches en tocophérols",
+      "Palmitate d’ascorbyle",
+      "Amidon modifié de tapioca",
+      "Glycérine"
+    ],
+    "additives": [
+      "huile de tournesol",
+      "extrait de romarin",
+      "tocophérols",
+      "palmitate d’ascorbyle",
+      "amidon modifié",
+      "glycérine"
+    ],
+    "vegan": true,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.sunday.fr/omega-3-vegan-dha-epa-210-gelules.html",
+    "ean": "4069484018051",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/omega-3-vegan-dha-epa-210-gelules.html"
+    },
+    "notes": "2 capsules : DHA 700 mg + EPA 360 mg. Les 1160 mg d’oméga-3 totaux ne sont pas assimilés à EPA+DHA. Formule sans mélange d’huiles ALA/GLA distincte du complexe Complete.",
+    "units_pack": 120,
+    "units_per_day": 2,
+    "unit_name": "softgel",
+    "active_per_unit": 530,
+    "active_unit": "mg"
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Vitamines D3 + K2 MK7 (1 000 UI + 20 µg) - 1500 gouttes",
+    "category": "vitamin_d3",
+    "variant": "45 ml · 1500 gouttes",
+    "price_eur": 16.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "form": "cholécalciférol végétal Sunferol® et MK-7 Sunquinone®",
+    "ingredients": [
+      "Huile MCT de coco",
+      "Cholécalciférol végétal",
+      "Extraits riches en tocophérols",
+      "Vitamine K2 MK7"
+    ],
+    "additives": [
+      "huile de coco",
+      "tocophérols"
+    ],
+    "vegan": true,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Sunferol® / Sunquinone®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.sunday.fr/vitamine-d3-k2-1000-ui-vegan-grand-format.html",
+    "ean": "4069484017702",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/vitamine-d3-k2-1000-ui-vegan-grand-format.html"
+    },
+    "notes": "1 goutte : D3 végétale 1000 UI et K2 20 µg. Flacon de 1500 gouttes explicitement déclaré. Distinct de la formule D3 issue de lanoline du catalogue.",
+    "units_pack": 1500,
+    "units_per_day": 1,
+    "unit_name": "goutte",
+    "active_per_unit": 1000,
+    "active_unit": "IU",
+    "format": "liquid",
+    "secondary_actives": [
+      {
+        "category": "vitamin_k2",
+        "per_day": 20,
+        "unit": "µg"
+      }
+    ]
+  }
+]

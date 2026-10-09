@@ -1,7 +1,590 @@
 {
- "generated": "2026-10-07",
- "n_withheld_products": 0,
- "n_pending_strings": 0,
- "pending_strings": [],
- "withheld_products": []
+ "generated": "2026-10-09",
+ "n_withheld_products": 43,
+ "n_pending_strings": 40,
+ "pending_strings": [
+  {
+   "string": "phosphates de calcium",
+   "blocks_n_products": 12
+  },
+  {
+   "string": "gomme laque",
+   "blocks_n_products": 7
+  },
+  {
+   "string": "correcteur d’acidité : hydroxyde d’ammonium",
+   "blocks_n_products": 7
+  },
+  {
+   "string": "colorant : curcumine",
+   "blocks_n_products": 2
+  },
+  {
+   "string": "colorant : bleu brillant FCF",
+   "blocks_n_products": 2
+  },
+  {
+   "string": "colorant : carotènes",
+   "blocks_n_products": 2
+  },
+  {
+   "string": "poudre de fraise",
+   "blocks_n_products": 2
+  },
+  {
+   "string": "colorant : anthocyanes",
+   "blocks_n_products": 2
+  },
+  {
+   "string": "citrates de sodium",
+   "blocks_n_products": 2
+  },
+  {
+   "string": "citrate trisodique",
+   "blocks_n_products": 2
+  },
+  {
+   "string": "ascorbate de sodium",
+   "blocks_n_products": 2
+  },
+  {
+   "string": "gomme cellulosique",
+   "blocks_n_products": 2
+  },
+  {
+   "string": "diméthylpolysiloxane",
+   "blocks_n_products": 2
+  },
+  {
+   "string": "émulsifiant : E471",
+   "blocks_n_products": 2
+  },
+  {
+   "string": "émulsifiant : E472a",
+   "blocks_n_products": 2
+  },
+  {
+   "string": "protéines de lait",
+   "blocks_n_products": 2
+  },
+  {
+   "string": "phosphates de potassium",
+   "blocks_n_products": 2
+  },
+  {
+   "string": "émulsifiant : E433",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "antioxydant : acide ascorbique",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "correcteur d’acidité : citrate trisodique",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "gélifiant : agar",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "correcteur d’acidité : acide phosphorique",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "antioxydant : ascorbate de sodium",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "colorant : carmins",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "antimousse : diméthylpolysiloxane",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "colorant : complexes cuivriques de chlorophylles et chlorophyllines",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "colorant : riboflavine",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "huile de noix de coco en poudre",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "polysorbate 80",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "café instantané",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "huile d’orange",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "concentré de poivron rouge",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "colorant : anthocyanines",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "malates de sodium",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "protéines végétales",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "extrait de noix de coco",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "poudre de protéines de lait",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "colorant : caramel ammoniacal",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "extrait de fruit du moine",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "phospholipides",
+   "blocks_n_products": 1
+  }
+ ],
+ "withheld_products": [
+  {
+   "id": "biotechusa-ashwa-30-gelules",
+   "brand": "BioTechUSA",
+   "name": "Ashwa+",
+   "category": "ashwagandha",
+   "pending": [
+    "gomme laque",
+    "correcteur d’acidité : hydroxyde d’ammonium"
+   ]
+  },
+  {
+   "id": "biotechusa-ashwa-candy-strawberry-twist-90-comprimes-a-macher",
+   "brand": "BioTechUSA",
+   "name": "Ashwa Candy",
+   "category": "ashwagandha",
+   "pending": [
+    "poudre de fraise"
+   ]
+  },
+  {
+   "id": "biotechusa-clear-collagen-fraise-airelles-rouges-308-g",
+   "brand": "BioTechUSA",
+   "name": "Clear Collagen",
+   "category": "collagen",
+   "pending": [
+    "colorant : carmins"
+   ]
+  },
+  {
+   "id": "biotechusa-clear-collagen-professional-the-glace-a-la-peche-350-g",
+   "brand": "BioTechUSA",
+   "name": "Clear Collagen Professional",
+   "category": "collagen",
+   "pending": [
+    "colorant : carotènes",
+    "colorant : complexes cuivriques de chlorophylles et chlorophyllines",
+    "phosphates de calcium"
+   ]
+  },
+  {
+   "id": "biotechusa-collagen-hyaluronic-30-gelules",
+   "brand": "BioTechUSA",
+   "name": "Collagen & Hyaluronic",
+   "category": "collagen",
+   "pending": [
+    "phosphates de calcium",
+    "gomme laque",
+    "correcteur d’acidité : hydroxyde d’ammonium"
+   ]
+  },
+  {
+   "id": "biotechusa-creatine-ph-x-90-gelules",
+   "brand": "BioTechUSA",
+   "name": "Creatine pH-X",
+   "category": "creatine",
+   "pending": [
+    "gomme laque",
+    "correcteur d’acidité : hydroxyde d’ammonium"
+   ]
+  },
+  {
+   "id": "biotechusa-hyaluronic-collagen-120-gelules",
+   "brand": "BioTechUSA",
+   "name": "Hyaluronic & Collagen",
+   "category": "collagen",
+   "pending": [
+    "gomme laque",
+    "correcteur d’acidité : hydroxyde d’ammonium",
+    "phosphates de calcium"
+   ]
+  },
+  {
+   "id": "biotechusa-hydro-whey-zero-chocolat-454-g",
+   "brand": "BioTechUSA",
+   "name": "Hydro Whey Zero",
+   "category": "whey",
+   "pending": [
+    "protéines végétales"
+   ]
+  },
+  {
+   "id": "biotechusa-iron-professional-60-comprimes",
+   "brand": "BioTechUSA",
+   "name": "Iron Professional",
+   "category": "iron",
+   "pending": [
+    "phosphates de calcium"
+   ]
+  },
+  {
+   "id": "biotechusa-iso-whey-clear-cherry-candy-400-g",
+   "brand": "BioTechUSA",
+   "name": "Iso Whey Clear",
+   "category": "whey",
+   "pending": [
+    "émulsifiant : E471",
+    "émulsifiant : E472a",
+    "protéines de lait",
+    "phosphates de potassium",
+    "diméthylpolysiloxane"
+   ]
+  },
+  {
+   "id": "biotechusa-iso-whey-zero-chocolat-blanc-908-g",
+   "brand": "BioTechUSA",
+   "name": "Iso Whey Zero",
+   "category": "whey",
+   "pending": [
+    "émulsifiant : E471",
+    "émulsifiant : E472a",
+    "protéines de lait",
+    "phosphates de potassium",
+    "gomme cellulosique"
+   ]
+  },
+  {
+   "id": "biotechusa-iso-whey-zero-natural-coco-908-g",
+   "brand": "BioTechUSA",
+   "name": "Iso Whey Zero Natural",
+   "category": "whey",
+   "pending": [
+    "extrait de noix de coco",
+    "poudre de protéines de lait",
+    "phosphates de calcium"
+   ]
+  },
+  {
+   "id": "biotechusa-magnesium-chelate-60-gelules",
+   "brand": "BioTechUSA",
+   "name": "Magnesium + Chelate",
+   "category": "magnesium",
+   "pending": [
+    "phosphates de calcium",
+    "gomme laque",
+    "correcteur d’acidité : hydroxyde d’ammonium"
+   ]
+  },
+  {
+   "id": "biotechusa-marine-collagen-mangue-240-g",
+   "brand": "BioTechUSA",
+   "name": "Marine Collagen",
+   "category": "collagen",
+   "pending": [
+    "colorant : carotènes",
+    "antimousse : diméthylpolysiloxane"
+   ]
+  },
+  {
+   "id": "biotechusa-multivitamin-for-women-from-organic-sources-60-comprimes",
+   "brand": "BioTechUSA",
+   "name": "Multivitamin For Women from organic sources",
+   "category": "multivitamin",
+   "pending": [
+    "phosphates de calcium",
+    "citrates de sodium",
+    "ascorbate de sodium"
+   ]
+  },
+  {
+   "id": "biotechusa-tribulus-maximus-90-comprimes",
+   "brand": "BioTechUSA",
+   "name": "Tribulus Maximus",
+   "category": "tribulus",
+   "pending": [
+    "phosphates de calcium"
+   ]
+  },
+  {
+   "id": "biotechusa-vitamin-c-500-assortiment-fraise-orange-myrtille-120-comprimes-a-croquer",
+   "brand": "BioTechUSA",
+   "name": "Vitamin C 500",
+   "category": "vitamin_c",
+   "pending": [
+    "colorant : bleu brillant FCF"
+   ]
+  },
+  {
+   "id": "biotechusa-vitamin-complex-60-gelules",
+   "brand": "BioTechUSA",
+   "name": "Vitamin Complex",
+   "category": "multivitamin",
+   "pending": [
+    "gomme laque",
+    "correcteur d’acidité : hydroxyde d’ammonium",
+    "phosphates de calcium"
+   ]
+  },
+  {
+   "id": "biotechusa-vitamine-c-effervescents-citron-20-comprimes",
+   "brand": "BioTechUSA",
+   "name": "Vitamine C effervescents",
+   "category": "vitamin_c",
+   "pending": [
+    "colorant : riboflavine"
+   ]
+  },
+  {
+   "id": "biotechusa-whey-shake-caramel-sale-1-kg",
+   "brand": "BioTechUSA",
+   "name": "Whey Shake",
+   "category": "whey",
+   "pending": [
+    "gomme cellulosique",
+    "colorant : caramel ammoniacal"
+   ]
+  },
+  {
+   "id": "bulk-cafe-au-collagene-cafe-noir-500-g",
+   "brand": "Bulk",
+   "name": "Café au collagène",
+   "category": "collagen",
+   "pending": [
+    "café instantané"
+   ]
+  },
+  {
+   "id": "bulk-gummies-au-magnesium-tropical-60-gummies",
+   "brand": "Bulk",
+   "name": "Gummies au magnésium",
+   "category": "magnesium",
+   "pending": [
+    "colorant : curcumine"
+   ]
+  },
+  {
+   "id": "bulk-gummies-de-collagene-grenade-60-gummies",
+   "brand": "Bulk",
+   "name": "Gummies de collagène",
+   "category": "collagen",
+   "pending": [
+    "gélifiant : agar"
+   ]
+  },
+  {
+   "id": "bulk-gummies-de-creatine-blue-raspberry-60-gummies",
+   "brand": "Bulk",
+   "name": "Gummies de créatine",
+   "category": "creatine",
+   "pending": [
+    "correcteur d’acidité : citrate trisodique",
+    "colorant : bleu brillant FCF"
+   ]
+  },
+  {
+   "id": "bulk-gummies-multivitamines-orange-60-gummies",
+   "brand": "Bulk",
+   "name": "Gummies multivitamines",
+   "category": "multivitamin",
+   "pending": [
+    "colorant : curcumine"
+   ]
+  },
+  {
+   "id": "bulk-shots-de-collagene-marin-fruits-rouges-12-60-ml",
+   "brand": "Bulk",
+   "name": "Shots de collagène marin",
+   "category": "collagen",
+   "pending": [
+    "correcteur d’acidité : acide phosphorique"
+   ]
+  },
+  {
+   "id": "myprotein-clear-protein-whey-collagene-framboise-citronnee-500-g",
+   "brand": "Myprotein",
+   "name": "Clear Protein | Whey & Collagène",
+   "category": "collagen",
+   "pending": [
+    "diméthylpolysiloxane"
+   ]
+  },
+  {
+   "id": "myprotein-gummies-a-la-creatine-framboise-90-gummies",
+   "brand": "Myprotein",
+   "name": "Gummies à la créatine",
+   "category": "creatine",
+   "pending": [
+    "citrate trisodique",
+    "colorant : anthocyanes"
+   ]
+  },
+  {
+   "id": "myprotein-gummies-a-la-creatine-sans-sucre-lemonade-90-gummies",
+   "brand": "Myprotein",
+   "name": "Gummies à la créatine sans sucre",
+   "category": "creatine",
+   "pending": [
+    "citrate trisodique",
+    "malates de sodium"
+   ]
+  },
+  {
+   "id": "myprotein-gummies-au-glycinate-de-magnesium-fruits-rouges-30-gummies",
+   "brand": "Myprotein",
+   "name": "Gummies au glycinate de magnésium",
+   "category": "magnesium",
+   "pending": [
+    "citrates de sodium",
+    "phosphates de calcium",
+    "colorant : anthocyanines"
+   ]
+  },
+  {
+   "id": "myprotein-impact-whey-isolate-truly-grass-fed-cacao-edulcorants-d-origine-naturelle-1-kg",
+   "brand": "Myprotein",
+   "name": "Impact Whey Isolate Truly Grass Fed®",
+   "category": "whey",
+   "pending": [
+    "extrait de fruit du moine"
+   ]
+  },
+  {
+   "id": "myvitamins-myprotein-curcumine-et-vitamine-d-60-gelules",
+   "brand": "Myvitamins (Myprotein)",
+   "name": "Curcumine et vitamine D",
+   "category": "curcumin",
+   "pending": [
+    "polysorbate 80"
+   ]
+  },
+  {
+   "id": "myvitamins-myprotein-fer-90-comprimes",
+   "brand": "Myvitamins (Myprotein)",
+   "name": "Fer",
+   "category": "iron",
+   "pending": [
+    "antioxydant : ascorbate de sodium"
+   ]
+  },
+  {
+   "id": "myvitamins-myprotein-huile-de-coco-et-collagene-60-gelules",
+   "brand": "Myvitamins (Myprotein)",
+   "name": "Huile de coco et collagène",
+   "category": "collagen",
+   "pending": [
+    "huile de noix de coco en poudre"
+   ]
+  },
+  {
+   "id": "myvitamins-myprotein-melatonine-en-pastilles-gelifiees-cassis-60-gummies",
+   "brand": "Myvitamins (Myprotein)",
+   "name": "Mélatonine en pastilles gélifiées",
+   "category": "melatonin",
+   "pending": [
+    "colorant : anthocyanes"
+   ]
+  },
+  {
+   "id": "myvitamins-myprotein-vitamine-d3-gummies-orange-60-gummies",
+   "brand": "Myvitamins (Myprotein)",
+   "name": "Vitamine D3 gummies",
+   "category": "vitamin_d3",
+   "pending": [
+    "huile d’orange",
+    "concentré de poivron rouge"
+   ]
+  },
+  {
+   "id": "scitec-nutrition-creatine-bites-fraise-240-comprimes-a-croquer",
+   "brand": "Scitec Nutrition",
+   "name": "Creatine Bites",
+   "category": "creatine",
+   "pending": [
+    "poudre de fraise"
+   ]
+  },
+  {
+   "id": "scitec-nutrition-liquid-curcuma-30-gelules",
+   "brand": "Scitec Nutrition",
+   "name": "Liquid Curcuma",
+   "category": "curcumin",
+   "pending": [
+    "émulsifiant : E433",
+    "antioxydant : acide ascorbique"
+   ]
+  },
+  {
+   "id": "scitec-nutrition-mega-creatine-monohydrate-1320-creapure-120-gelules",
+   "brand": "Scitec Nutrition",
+   "name": "Mega Creatine Monohydrate 1320",
+   "category": "creatine",
+   "pending": [
+    "gomme laque",
+    "correcteur d’acidité : hydroxyde d’ammonium"
+   ]
+  },
+  {
+   "id": "scitec-nutrition-night-melatonin-90-comprimes",
+   "brand": "Scitec Nutrition",
+   "name": "Night Melatonin",
+   "category": "melatonin",
+   "pending": [
+    "phosphates de calcium"
+   ]
+  },
+  {
+   "id": "scitec-nutrition-tribu-2000-90-comprimes",
+   "brand": "Scitec Nutrition",
+   "name": "Tribu 2000",
+   "category": "tribulus",
+   "pending": [
+    "phosphates de calcium"
+   ]
+  },
+  {
+   "id": "sunday-natural-all-in-one-one-a-day-60-gelules",
+   "brand": "Sunday Natural",
+   "name": "All in One - One a Day",
+   "category": "multivitamin",
+   "pending": [
+    "ascorbate de sodium"
+   ]
+  },
+  {
+   "id": "sunday-natural-vitamine-c-liposomale-ultra-500-mg-100-gelules",
+   "brand": "Sunday Natural",
+   "name": "Vitamine C liposomale Ultra - 500 mg",
+   "category": "vitamin_c",
+   "pending": [
+    "phospholipides"
+   ]
+  }
+ ]
 }

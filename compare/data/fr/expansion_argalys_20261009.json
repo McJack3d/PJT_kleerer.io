@@ -1,0 +1,293 @@
+[
+  {
+    "category": "probiotics",
+    "brand": "Argalys",
+    "name": "Probiotiques & fibres Prébiotiques",
+    "variant": "60 gélules",
+    "price_eur": 24.9,
+    "price_note": "Prix fabricant à l’unité relevé le 9 octobre 2026, hors livraison, abonnement et codes de réduction.",
+    "units_pack": 60,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 10,
+    "active_unit": "billion CFU",
+    "form": "4 espèces de ferments lactiques, gélule gastro-résistante ; codes des souches non publiés",
+    "additives": [
+      "fructo-oligosaccharides",
+      "maltodextrine de maïs",
+      "son de riz",
+      "gélule végétale"
+    ],
+    "vegan": true,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "url": "https://www.argalys.com/products/probiotiques",
+    "ean": null,
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.argalys.com/products/probiotiques?variant=45815095984442"
+    },
+    "strains_count": 4,
+    "strains_coded": false,
+    "gastro_resistant": true,
+    "notes": "10 milliards UFC par gélule au moment de la fabrication, sans garantie chiffrée de viabilité à échéance. Espèces : L. acidophilus, B. longum, L. casei et L. rhamnosus. Calcul fondé sur la dose d’entretien fabricant de 1 gélule ; FOS 100 mg par gélule."
+  },
+  {
+    "category": "omega3",
+    "brand": "Argalys",
+    "name": "Oméga 3 DHA Vegan",
+    "variant": "60 gélules",
+    "price_eur": 24.9,
+    "price_note": "Prix fabricant à l’unité relevé le 9 octobre 2026, hors livraison, abonnement et codes de réduction.",
+    "units_pack": 60,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 250,
+    "active_unit": "mg EPA+DHA",
+    "form": "huile de microalgue Schizochytrium sp., DHA 250 mg par capsule",
+    "additives": [
+      "tocophérols naturels",
+      "huile végétale",
+      "amidon",
+      "glycérol",
+      "palmitate d’ascorbyle",
+      "carraghénane",
+      "carbonate de sodium"
+    ],
+    "vegan": true,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "url": "https://www.argalys.com/products/dha-omega-3",
+    "ean": null,
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.argalys.com/products/dha-omega-3?variant=45815101522234"
+    },
+    "notes": "La quantité affichée correspond au DHA déclaré (250 mg). EPA non quantifié, non ajouté au calcul. Dose adulte fabricant : une capsule par jour. Analyses TOTOX et contaminants non consultées."
+  },
+  {
+    "category": "iron",
+    "brand": "Argalys",
+    "name": "Fer + Vitamine C, B9 et Carotte",
+    "variant": "60 gélules",
+    "price_eur": 19.9,
+    "price_note": "Prix fabricant à l’unité relevé le 9 octobre 2026, hors livraison, abonnement et codes de réduction.",
+    "units_pack": 60,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 14,
+    "active_unit": "mg elemental Fe",
+    "form": "fer bisglycinate et pidolate",
+    "additives": [
+      "gomme d’acacia",
+      "fibre de riz",
+      "gélule végétale HPM cellulose",
+      "gomme gellane"
+    ],
+    "vegan": true,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [
+      "Le fabricant demande un avis médical avant la prise de ce complément de fer."
+    ],
+    "url": "https://www.argalys.com/products/fer-vitamine-c",
+    "ean": null,
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.argalys.com/products/fer-vitamine-c?variant=45815118823738"
+    },
+    "secondary_actives": [
+      {
+        "category": "folate",
+        "per_day": 66
+      }
+    ],
+    "notes": "La fiche annonce explicitement 14 mg de fer par gélule (8 mg + 6 mg). B9 : 66 µg par gélule. Acérola 24 mg titré à 17 % : quantité de vitamine C non ajoutée au cumul car la présentation de la fiche est ambiguë."
+  },
+  {
+    "category": "magnesium",
+    "brand": "Argalys",
+    "name": "Magnésium Bisglycinate + B6 et Zinc",
+    "variant": "60 gélules",
+    "price_eur": 15.5,
+    "price_note": "Prix fabricant à l’unité relevé le 9 octobre 2026, hors livraison, abonnement et codes de réduction.",
+    "units_pack": 60,
+    "units_per_day": 2,
+    "unit_name": "gélule",
+    "active_per_unit": 100,
+    "active_unit": "mg elemental Mg",
+    "form": "magnésium bisglycinate, zinc bisglycinate et vitamine B6 (chlorhydrate de pyridoxine)",
+    "additives": [
+      "farine de coco bio",
+      "gélule végétale HPMC"
+    ],
+    "vegan": true,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "url": "https://www.argalys.com/products/magnesium",
+    "ean": null,
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.argalys.com/products/magnesium?variant=45815123542330"
+    },
+    "secondary_actives": [
+      {
+        "category": "zinc",
+        "per_day": 6.6
+      }
+    ],
+    "notes": "Dose adulte usuelle fabricant : 2 gélules, soit 200 mg de magnésium élémentaire, 6,6 mg de zinc et 1 mg de B6. Boîte de 60 gélules = 30 jours à cette dose.",
+    "nutrients": {
+      "vitamin_b6": 1
+    }
+  },
+  {
+    "category": "biotin",
+    "brand": "Argalys",
+    "name": "Complexe cheveux avec Biotine",
+    "variant": "60 gélules",
+    "price_eur": 24.9,
+    "price_note": "Prix fabricant à l’unité relevé le 9 octobre 2026, hors livraison, abonnement et codes de réduction.",
+    "units_pack": 60,
+    "units_per_day": 2,
+    "unit_name": "gélule",
+    "active_per_unit": 27.5,
+    "active_unit": "µg",
+    "form": "biotine, extraits de millet et de palmier nain, levure de bière, méthionine, cystine, zinc gluconate et sélénite de sodium",
+    "additives": [
+      "fibre d’acacia",
+      "gélule végétale HPMC"
+    ],
+    "vegan": true,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": false,
+    "confidence": "medium",
+    "flags": [
+      "Contient du palmier nain ; le fabricant signale des précautions avec les anticoagulants et antiplaquettaires."
+    ],
+    "url": "https://www.argalys.com/products/biotine-vegetale",
+    "ean": null,
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.argalys.com/products/biotine-vegetale?variant=45815139828026"
+    },
+    "secondary_actives": [
+      {
+        "category": "zinc",
+        "per_day": 2.6
+      }
+    ],
+    "notes": "Biotine 0,055 mg = 55 µg pour 2 gélules. Millet et palmier nain : 150 mg chacun par jour, palmier titré à 20 % de lipides. La quantité commune levure/méthionine/cystine est ambiguë dans le texte fabricant ; aucune quantité individuelle déduite.",
+    "nutrients": {
+      "selenium": 25
+    }
+  },
+  {
+    "category": "zinc",
+    "brand": "Argalys",
+    "name": "Zinc Bisglycinate",
+    "variant": "60 gélules",
+    "price_eur": 14.9,
+    "price_note": "Prix fabricant à l’unité relevé le 9 octobre 2026, hors livraison, abonnement et codes de réduction.",
+    "units_pack": 60,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 10,
+    "active_unit": "mg elemental Zn",
+    "form": "zinc bisglycinate, vitamine C, chlorhydrate de pyridoxine, sélénite de sodium et L-méthionine",
+    "additives": [
+      "farine de coco",
+      "fibre d’acacia",
+      "son de riz",
+      "gélule végétale HPMC"
+    ],
+    "vegan": true,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "url": "https://www.argalys.com/products/zinc-bisglycinate",
+    "ean": null,
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.argalys.com/products/zinc-bisglycinate?variant=49271291576634"
+    },
+    "secondary_actives": [
+      {
+        "category": "vitamin_c",
+        "per_day": 30
+      }
+    ],
+    "notes": "10 mg de zinc, 30 mg de vitamine C, 0,7 mg de B6, 15 µg de sélénium et 30 mg de méthionine par gélule. Source : tableau de composition, sans reprendre les pourcentages VNR incohérents du texte.",
+    "nutrients": {
+      "vitamin_b6": 0.7,
+      "selenium": 15
+    }
+  },
+  {
+    "category": "vitamin_c",
+    "brand": "Argalys",
+    "name": "Vitamine C & Quercétine",
+    "variant": "60 gélules",
+    "price_eur": 14.9,
+    "price_note": "Prix fabricant à l’unité relevé le 9 octobre 2026, hors livraison, abonnement et codes de réduction.",
+    "units_pack": 60,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 180,
+    "active_unit": "mg",
+    "form": "acide ascorbique et quercétine extraite de Sophora japonica",
+    "additives": [
+      "fibre d’acacia",
+      "son de riz",
+      "gélule végétale HPMC"
+    ],
+    "vegan": true,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "url": "https://www.argalys.com/products/vitamine-c-gelules",
+    "ean": null,
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.argalys.com/products/vitamine-c-gelules?variant=57262239449466"
+    },
+    "notes": "180 mg de vitamine C et 50 mg de quercétine par gélule. Boîte de 60 = 60 jours à la dose fabricant."
+  }
+]

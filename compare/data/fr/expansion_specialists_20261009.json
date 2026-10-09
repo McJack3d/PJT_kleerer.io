@@ -1,0 +1,4747 @@
+[
+  {
+    "category": "vitamin_c",
+    "brand": "Dynveo",
+    "name": "Vitamine C pure Quali®-C",
+    "variant": "gélules · 60",
+    "price_eur": 9.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "acide L-ascorbique Quali®-C",
+    "vegan": true,
+    "additives": [
+      "gélule pullulan"
+    ],
+    "ingredients": [
+      "Acide L-ascorbique",
+      "Pullulan"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Quali®-C",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.dynveo.fr/products/vitamine-c",
+    "ean": null,
+    "notes": "",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.dynveo.fr/products/vitamine-c"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 2,
+    "active_per_unit": 500,
+    "active_unit": "mg"
+  },
+  {
+    "category": "melatonin",
+    "brand": "Dynveo",
+    "name": "Mélatonine végétale 0,3 mg",
+    "variant": "gélules · 60",
+    "price_eur": 12.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "mélatonine issue de millepertuis",
+    "vegan": true,
+    "additives": [
+      "fibres d’acacia",
+      "capsule HPMC"
+    ],
+    "ingredients": [
+      "Fibres d’acacia",
+      "Hypromellose cellulose",
+      "Extrait de millepertuis"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.dynveo.fr/products/melatonine-naturelle-vegetale",
+    "ean": null,
+    "notes": "Version 0,3 mg. Extrait de millepertuis 30 mg standardisé à 1 % de mélatonine ; prudence interactions médicamenteuses du millepertuis.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.dynveo.fr/products/melatonine-naturelle-vegetale"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 0.3,
+    "active_unit": "mg"
+  },
+  {
+    "category": "omega3",
+    "brand": "Dynveo",
+    "name": "DHA végétal",
+    "variant": "gélules · 60",
+    "price_eur": 33.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "DHA et EPA libres stabilisés par sel de lysine",
+    "vegan": true,
+    "additives": [
+      "gélule pullulan"
+    ],
+    "ingredients": [
+      "Huile de microalgue Schizochytrium sp.",
+      "Sel de lysine (L-lysine)",
+      "Pullulan"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.dynveo.fr/products/dha-vegetal",
+    "ean": null,
+    "notes": "Par gélule : DHA 250 mg + EPA 10 mg ; L-lysine 150 mg. Le total comparé est EPA+DHA, soit 260 mg.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.dynveo.fr/products/dha-vegetal"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 260,
+    "active_unit": "mg"
+  },
+  {
+    "category": "collagen",
+    "brand": "Dynveo",
+    "name": "Collagène végétarien Ovoderm®",
+    "variant": "gélules · 60",
+    "price_eur": 24.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "collagène naturel de type I issu de membrane d’œuf",
+    "vegan": false,
+    "additives": [
+      "gélule pullulan"
+    ],
+    "ingredients": [
+      "Extrait de membrane d’œuf",
+      "Pullulan"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Ovoderm®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.dynveo.fr/products/collagene-vegetarien",
+    "ean": null,
+    "notes": "300 mg de membrane par gélule, dont minimum 66 mg de collagène, 75 mg d’élastine et 9 mg d’acide hyaluronique. Le poids de membrane n’est pas assimilé au poids de collagène.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.dynveo.fr/products/collagene-vegetarien"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 0.066,
+    "active_unit": "g"
+  },
+  {
+    "category": "omega3",
+    "brand": "Dynveo",
+    "name": "Huile de Krill Superba Boost™",
+    "variant": "gélules · 60",
+    "price_eur": 22,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "phospholipides de krill",
+    "vegan": false,
+    "additives": [
+      "gélatine de poisson"
+    ],
+    "ingredients": [
+      "Extrait lipidique de krill de l’Antarctique",
+      "Gélatine de poisson",
+      "Eau purifiée"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Superba Boost™",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.dynveo.fr/products/huile-de-krill",
+    "ean": null,
+    "notes": "Pour 2 gélules : EPA 177 mg + DHA 83 mg. Total EPA+DHA 260 mg, distinct des 319 mg d’oméga-3 totaux.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.dynveo.fr/products/huile-de-krill"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 2,
+    "active_per_unit": 130,
+    "active_unit": "mg"
+  },
+  {
+    "category": "magnesium",
+    "brand": "Dynveo",
+    "name": "Magnésium Acétyl Taurinate",
+    "variant": "gélules · 60",
+    "price_eur": 20.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "magnésium acétyl taurinate",
+    "vegan": true,
+    "additives": [
+      "gélule pullulan"
+    ],
+    "ingredients": [
+      "Magnésium acétyl taurinate",
+      "Pullulan"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "ATA Mg®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.dynveo.fr/products/acetyl-taurinate-de-magnesium",
+    "ean": null,
+    "notes": "Pour 2 gélules : 800 mg de sel, dont 48 mg de magnésium élémentaire et 664 mg d’acétyltaurine.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.dynveo.fr/products/acetyl-taurinate-de-magnesium"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 2,
+    "active_per_unit": 24,
+    "active_unit": "mg"
+  },
+  {
+    "category": "vitamin_c",
+    "brand": "Dynveo",
+    "name": "Acérola BIO",
+    "variant": "gélules · 60",
+    "price_eur": 19.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "vitamine C native d’acérola",
+    "vegan": true,
+    "additives": [
+      "capsule HPMC"
+    ],
+    "ingredients": [
+      "Acérola biologique",
+      "Hypromellose cellulose"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.dynveo.fr/products/acerola-bio",
+    "ean": null,
+    "notes": "2 gélules : extrait d’acérola 1340 mg dont vitamine C 400 mg. Allégation BIO du fabricant, document certificateur non contrôlé.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.dynveo.fr/products/acerola-bio"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 2,
+    "active_per_unit": 200,
+    "active_unit": "mg"
+  },
+  {
+    "category": "probiotics",
+    "brand": "Dynveo",
+    "name": "Probio4",
+    "variant": "gélules · 28",
+    "price_eur": 24.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "4 souches codées, gélules gastro-résistantes DRcaps®",
+    "vegan": true,
+    "additives": [
+      "inuline",
+      "ascorbyl palmitate",
+      "extrait de riz",
+      "capsule HPMC"
+    ],
+    "ingredients": [
+      "Inuline",
+      "Lactobacillus reuteri LRC®",
+      "Bifidobacterium lactis BB-12®",
+      "Lactobacillus acidophilus LA-5®",
+      "Lactobacillus rhamnosus LGG®",
+      "Ascorbyl palmitate",
+      "Extrait de riz",
+      "Hypromellose cellulose"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "LRC® / BB-12® / LA-5® / LGG®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.dynveo.fr/products/probiotiques",
+    "ean": null,
+    "notes": "Dose journalière : 10 milliards UFC, annoncés garantis jusqu’à consommation.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.dynveo.fr/products/probiotiques"
+    },
+    "units_pack": 28,
+    "unit_name": "gélule",
+    "units_per_day": 2,
+    "active_per_unit": 5,
+    "active_unit": "billion CFU",
+    "strains_count": 4,
+    "strains_coded": true,
+    "gastro_resistant": true
+  },
+  {
+    "category": "creatine",
+    "brand": "Dynveo",
+    "name": "Créatine monohydrate Creapure®",
+    "variant": "neutre · 250 g",
+    "price_eur": 24.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "créatine monohydrate Creapure®",
+    "vegan": true,
+    "additives": [],
+    "ingredients": [
+      "Créatine monohydrate"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Creapure®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.dynveo.fr/products/creatine-monohydrate",
+    "ean": null,
+    "notes": "Tableau fabricant : 3,4 g de monohydrate dont 3 g de créatine. Concentration dérivée du tableau ; seul le conditionnement poudre 250 g est retenu.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.dynveo.fr/products/creatine-monohydrate"
+    },
+    "format": "powder",
+    "pack_g": 250,
+    "serving_g": 3.4,
+    "active_per_100g": 88.23529411764706,
+    "active_per_serving_g": 3.0
+  },
+  {
+    "category": "magnesium",
+    "brand": "Dynveo",
+    "name": "Magnésium L-thréonate Magtein®",
+    "variant": "gélules · 90",
+    "price_eur": 35.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "magnésium L-thréonate",
+    "vegan": true,
+    "additives": [
+      "huile de coco",
+      "gélule pullulan"
+    ],
+    "ingredients": [
+      "Magnésium L-thréonate",
+      "Triglycérides à chaîne moyenne de coco",
+      "Pullulan"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Magtein®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.dynveo.fr/products/magnesium-l-threonate",
+    "ean": null,
+    "notes": "Pour 3 gélules : 2000 mg de L-thréonate dont 154 mg de magnésium élémentaire.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.dynveo.fr/products/magnesium-l-threonate"
+    },
+    "units_pack": 90,
+    "unit_name": "gélule",
+    "units_per_day": 3,
+    "active_per_unit": 51.333333333333336,
+    "active_unit": "mg"
+  },
+  {
+    "category": "collagen",
+    "brand": "Dynveo",
+    "name": "Collagène Tripeptides Naticol®",
+    "variant": "gélules · 120",
+    "price_eur": 22.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "hydrolysat de collagène marin de type I",
+    "vegan": false,
+    "additives": [
+      "gélule pullulan",
+      "huile de coco"
+    ],
+    "ingredients": [
+      "Hydrolysat de collagène de poisson",
+      "Pullulan",
+      "Triglycérides à chaîne moyenne de coco"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Naticol® X3Peptide",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.dynveo.fr/products/peptides-de-collagene",
+    "ean": null,
+    "notes": "4 gélules = 2,5 g de collagène ; fabricant annonce plus de 25 % de tripeptides.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.dynveo.fr/products/peptides-de-collagene"
+    },
+    "units_pack": 120,
+    "unit_name": "gélule",
+    "units_per_day": 4,
+    "active_per_unit": 0.625,
+    "active_unit": "g"
+  },
+  {
+    "category": "magnesium",
+    "brand": "Dynveo",
+    "name": "Complexe Magnésium 360",
+    "variant": "gélules · 120",
+    "price_eur": 24.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "magnésium malate, bisglycinate et L-thréonate",
+    "vegan": true,
+    "additives": [
+      "huile de coco",
+      "gélule pullulan"
+    ],
+    "ingredients": [
+      "Magnésium malate",
+      "Magnésium bisglycinate",
+      "Magnésium L-thréonate",
+      "Triglycérides à chaîne moyenne de coco biologique",
+      "Pullulan"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "TRAACS® / Magtein®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.dynveo.fr/products/complexe-magnesium",
+    "ean": null,
+    "notes": "4 gélules apportent 300 mg de magnésium élémentaire.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.dynveo.fr/products/complexe-magnesium"
+    },
+    "units_pack": 120,
+    "unit_name": "gélule",
+    "units_per_day": 4,
+    "active_per_unit": 75,
+    "active_unit": "mg"
+  },
+  {
+    "category": "melatonin",
+    "brand": "Dynveo",
+    "name": "Complexe Endormissement Chronobio",
+    "variant": "gélules · 30",
+    "price_eur": 16.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "mélatonine végétale, L-théanine et valériane",
+    "vegan": true,
+    "additives": [
+      "gélule pullulan"
+    ],
+    "ingredients": [
+      "Extrait sec de thé vert",
+      "Extrait sec de valériane",
+      "Extrait sec de millepertuis",
+      "Pullulan"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Be Theanine®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.dynveo.fr/products/complexe-endormissement",
+    "ean": null,
+    "notes": "2 gélules : 1,9 mg de mélatonine, 200 mg de L-théanine, 300 mg de valériane. Le tableau du fabricant comporte une incohérence sur l’acide valérénique : ce chiffre secondaire n’est pas repris.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.dynveo.fr/products/complexe-endormissement"
+    },
+    "units_pack": 30,
+    "unit_name": "gélule",
+    "units_per_day": 2,
+    "active_per_unit": 0.95,
+    "active_unit": "mg"
+  },
+  {
+    "category": "magnesium",
+    "brand": "Nutrimea",
+    "name": "Magnésium Marin B6",
+    "variant": "gélules · 120",
+    "price_eur": 15.99,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "oxyde de magnésium marin",
+    "vegan": true,
+    "additives": [
+      "capsule HPMC",
+      "antiagglomérant acide stéarique",
+      "antiagglomérant carbonate de magnésium"
+    ],
+    "ingredients": [
+      "Oxyde de magnésium marin",
+      "Hydroxypropylméthylcellulose",
+      "Acide stéarique",
+      "Carbonate de magnésium",
+      "Chlorhydrate de pyridoxine"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimea.com/products/4-magnesium-marin",
+    "ean": null,
+    "notes": "148,5 mg de magnésium élémentaire et 1 mg de vitamine B6 par gélule. Autres nutriments par jour : B6 1 mg.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimea.com/products/4-magnesium-marin"
+    },
+    "units_pack": 120,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 148.5,
+    "active_unit": "mg",
+    "nutrients": {
+      "vitamin_b6": 1
+    },
+    "secondary_actives": []
+  },
+  {
+    "category": "melatonin",
+    "brand": "Nutrimea",
+    "name": "Mélatonine et plantes",
+    "variant": "gélules · 60",
+    "price_eur": 16.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "mélatonine, valériane et passiflore",
+    "vegan": true,
+    "additives": [
+      "fibres d’acacia",
+      "capsule HPMC",
+      "maltodextrine",
+      "inuline",
+      "arôme naturel huile essentielle de lavande"
+    ],
+    "ingredients": [
+      "Fibres d’acacia",
+      "Hydroxypropylméthylcellulose",
+      "Extrait de valériane sur maltodextrine",
+      "Inuline",
+      "Extrait de passiflore sur maltodextrine",
+      "Huile essentielle de lavande",
+      "Mélatonine"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimea.com/products/melatonine-18-mg-jour",
+    "ean": null,
+    "notes": "2 gélules : mélatonine 1,9 mg, valériane 140 mg, passiflore 35 mg. URL historique «18 mg» distincte de la dose affichée actuelle.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimea.com/products/melatonine-18-mg-jour"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 2,
+    "active_per_unit": 0.95,
+    "active_unit": "mg"
+  },
+  {
+    "category": "curcumin",
+    "brand": "Nutrimea",
+    "name": "Curcuma Gingembre Bio",
+    "variant": "gélules · 60",
+    "price_eur": 18.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "extrait de curcuma à 95 % de curcuminoïdes",
+    "vegan": true,
+    "additives": [
+      "maltodextrine",
+      "capsule HPMC",
+      "amidon de riz"
+    ],
+    "ingredients": [
+      "Extrait de gingembre sur maltodextrine",
+      "Extrait de curcuma",
+      "Hydroxypropylméthylcellulose",
+      "Amidon de riz"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimea.com/products/curcuma-bio",
+    "ean": null,
+    "notes": "2 gélules : extrait de curcuma 161 mg dont curcuminoïdes 153 mg, gingembre 375 mg.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimea.com/products/curcuma-bio"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 2,
+    "active_per_unit": 76.5,
+    "active_unit": "mg"
+  },
+  {
+    "category": "maca",
+    "brand": "Nutrimea",
+    "name": "Maca Bio",
+    "variant": "gélules · 90",
+    "price_eur": 18.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "poudre de racine de maca biologique",
+    "vegan": true,
+    "additives": [
+      "capsule HPMC"
+    ],
+    "ingredients": [
+      "Poudre de racines de maca",
+      "Hydroxypropylméthylcellulose"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimea.com/products/maca-bio-ab",
+    "ean": null,
+    "notes": "",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimea.com/products/maca-bio-ab"
+    },
+    "units_pack": 90,
+    "unit_name": "gélule",
+    "units_per_day": 3,
+    "active_per_unit": 500,
+    "active_unit": "mg"
+  },
+  {
+    "category": "magnesium",
+    "brand": "Nutrimea",
+    "name": "Magnésium Bisglycinate B6",
+    "variant": "gélules · 90",
+    "price_eur": 18.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "bisglycinate de magnésium",
+    "vegan": true,
+    "additives": [
+      "capsule HPMC",
+      "antiagglomérant acide stéarique",
+      "antiagglomérant carbonate de magnésium"
+    ],
+    "ingredients": [
+      "Bisglycinate de magnésium",
+      "Hydroxypropylméthylcellulose",
+      "Acide stéarique",
+      "Carbonate de magnésium",
+      "Chlorhydrate de pyridoxine"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimea.com/products/magnesium-bisglycinate",
+    "ean": null,
+    "notes": "3 gélules : magnésium élémentaire 300 mg et vitamine B6 1,4 mg. Autres nutriments par jour : B6 1.4 mg.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimea.com/products/magnesium-bisglycinate"
+    },
+    "units_pack": 90,
+    "unit_name": "gélule",
+    "units_per_day": 3,
+    "active_per_unit": 100,
+    "active_unit": "mg",
+    "nutrients": {
+      "vitamin_b6": 1.4
+    },
+    "secondary_actives": []
+  },
+  {
+    "category": "collagen",
+    "brand": "Nutrimea",
+    "name": "Collagène Marin en gélules",
+    "variant": "gélules · 90",
+    "price_eur": 18.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "hydrolysats de collagène marin de type I",
+    "vegan": false,
+    "additives": [
+      "capsule HPMC",
+      "maltodextrine",
+      "antiagglomérant acide stéarique",
+      "antiagglomérant carbonate de magnésium"
+    ],
+    "ingredients": [
+      "Hydrolysats de collagène marin (poisson)",
+      "Hydroxypropylméthylcellulose",
+      "Extrait de baies d’acérola sur maltodextrine",
+      "Acide stéarique",
+      "Carbonate de magnésium",
+      "Acétate de D-alpha-tocophéryle",
+      "Bêta-carotène de Blakeslea trispora"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Naticol® / Collyss®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimea.com/products/collagene-marin-type-i-ii-900-mg",
+    "ean": null,
+    "notes": "3 gélules : collagène Naticol® 500 mg + Collyss® 400 mg. L’URL historique ne vaut pas preuve de type II ; composition actuelle type I. Autres nutriments par jour : vitamine E 12.06 mg, vitamine A 120 µg.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimea.com/products/collagene-marin-type-i-ii-900-mg"
+    },
+    "units_pack": 90,
+    "unit_name": "gélule",
+    "units_per_day": 3,
+    "active_per_unit": 0.3,
+    "active_unit": "g",
+    "nutrients": {
+      "vitamin_c": 60,
+      "vitamin_e": 12.06,
+      "vitamin_a": 120
+    },
+    "secondary_actives": [
+      {
+        "category": "vitamin_c",
+        "per_day": 60,
+        "unit": "mg"
+      }
+    ]
+  },
+  {
+    "category": "ashwagandha",
+    "brand": "Nutrimea",
+    "name": "Ashwagandha Bio KSM-66®",
+    "variant": "gélules · 90",
+    "price_eur": 18.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "extrait de racine KSM-66® titré à 5 % de withanolides",
+    "vegan": true,
+    "additives": [
+      "capsule HPMC"
+    ],
+    "ingredients": [
+      "Extrait de racine d’ashwagandha KSM-66®",
+      "Hydroxypropylméthylcellulose"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "KSM-66®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimea.com/products/483-ashwagandha-bio",
+    "ean": null,
+    "notes": "",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimea.com/products/483-ashwagandha-bio"
+    },
+    "units_pack": 90,
+    "unit_name": "gélule",
+    "units_per_day": 2,
+    "active_per_unit": 300,
+    "active_unit": "mg"
+  },
+  {
+    "category": "vitamin_c",
+    "brand": "Nutrimea",
+    "name": "Vitamine C 1000 mg",
+    "variant": "gélules · 60",
+    "price_eur": 13.41,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "acide ascorbique",
+    "vegan": true,
+    "additives": [
+      "capsule HPMC",
+      "antiagglomérant carbonate de magnésium"
+    ],
+    "ingredients": [
+      "Acide ascorbique",
+      "Hydroxypropylméthylcellulose",
+      "Carbonate de magnésium"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimea.com/products/vitamine-c-gelules",
+    "ean": null,
+    "notes": "",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimea.com/products/vitamine-c-gelules"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 2,
+    "active_per_unit": 500,
+    "active_unit": "mg"
+  },
+  {
+    "category": "rhodiola",
+    "brand": "Nutrimea",
+    "name": "Rhodiola Rosea",
+    "variant": "gélules · 120",
+    "price_eur": 21.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "extrait de racine de Rhodiola rosea non titré",
+    "vegan": true,
+    "additives": [
+      "maltodextrine",
+      "capsule HPMC",
+      "farine de riz"
+    ],
+    "ingredients": [
+      "Extrait de racine de rhodiola sur maltodextrine",
+      "Hydroxypropylméthylcellulose",
+      "Farine de riz"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimea.com/products/rhodiola",
+    "ean": null,
+    "notes": "Dose retenue : 2 gélules = 400 mg d’extrait. Aucun titrage en rosavines/salidrosides indiqué dans la composition.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimea.com/products/rhodiola"
+    },
+    "units_pack": 120,
+    "unit_name": "gélule",
+    "units_per_day": 2,
+    "active_per_unit": 200,
+    "active_unit": "mg"
+  },
+  {
+    "category": "probiotics",
+    "brand": "Nutrimea",
+    "name": "Probiotiques Flore Intime",
+    "variant": "gélules · 60",
+    "price_eur": 18.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "3 espèces de lactobacilles, souches non codées",
+    "vegan": true,
+    "additives": [
+      "maltodextrine",
+      "capsule HPMC"
+    ],
+    "ingredients": [
+      "Maltodextrine",
+      "Lactobacillus crispatus",
+      "Lactobacillus reuteri",
+      "Lactobacillus acidophilus",
+      "Hydroxypropylméthylcellulose",
+      "Riboflavine 5-phosphate"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimea.com/products/probiotiques-flore-intime",
+    "ean": null,
+    "notes": "2 gélules = 24 milliards UFC. Les trois espèces sont nommées, sans identifiants de souches dans la composition. Autres nutriments par jour : B2 0.21 mg.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimea.com/products/probiotiques-flore-intime"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 2,
+    "active_per_unit": 12,
+    "active_unit": "billion CFU",
+    "strains_count": 3,
+    "strains_coded": false,
+    "gastro_resistant": false,
+    "nutrients": {
+      "vitamin_b2": 0.21
+    },
+    "secondary_actives": []
+  },
+  {
+    "category": "creatine",
+    "brand": "Nutrimea",
+    "name": "Créatine Monohydrate Creapure®",
+    "variant": "neutre · 500 g",
+    "price_eur": 39.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "créatine monohydrate Creapure®",
+    "vegan": true,
+    "additives": [],
+    "ingredients": [
+      "Créatine monohydrate Creapure®"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Creapure®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimea.com/products/creatine-en-poudre",
+    "ean": null,
+    "notes": "Tableau fabricant : 3430 mg de monohydrate dont 3000 mg de créatine par cuillère. La portion est fondée sur ce tableau, pas sur le raccourci «3 grammes de poudre».",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimea.com/products/creatine-en-poudre"
+    },
+    "format": "powder",
+    "pack_g": 500,
+    "serving_g": 3.43,
+    "active_per_100g": 87.46355685131195,
+    "active_per_serving_g": 3.0
+  },
+  {
+    "category": "whey",
+    "brand": "Nutrimea",
+    "name": "Whey Isolate",
+    "variant": "chocolat · 750 g",
+    "price_eur": 44.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "isolat de protéines de lactosérum",
+    "vegan": false,
+    "additives": [
+      "arôme naturel",
+      "gomme xanthane",
+      "lécithine de tournesol",
+      "sucralose"
+    ],
+    "ingredients": [
+      "Isolat de protéines de lait",
+      "Cacao en poudre",
+      "Arôme naturel",
+      "Gomme xanthane",
+      "Lécithine de tournesol",
+      "Lactase",
+      "Sucralose"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimea.com/products/whey-proteines",
+    "ean": null,
+    "notes": "Tableau chocolat : 88 g de protéines pour 100 g ; portion 30 g. Protéines calculées 26,4 g par portion (tableau arrondi à 26 g).",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimea.com/products/whey-proteines"
+    },
+    "format": "powder",
+    "pack_g": 750,
+    "serving_g": 30,
+    "active_per_100g": 88,
+    "active_per_serving_g": 26.4
+  },
+  {
+    "category": "collagen",
+    "brand": "Nutrimea",
+    "name": "Gummies Collagène",
+    "variant": "fruits · 60 gummies",
+    "price_eur": 18.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "hydrolysat de collagène de poisson",
+    "vegan": false,
+    "additives": [
+      "maltitol",
+      "pectine",
+      "arôme naturel d’orange",
+      "arôme naturel de cassis",
+      "arôme naturel",
+      "concentrés de fruits et légumes",
+      "acide citrique",
+      "cire de carnauba",
+      "huile de coco",
+      "tocophérol"
+    ],
+    "ingredients": [
+      "Sirop de maltitol",
+      "Pectine",
+      "Hydrolysat de collagène de poisson",
+      "Acide ascorbique",
+      "Arôme naturel d’orange",
+      "Arôme naturel de cassis",
+      "Arôme naturel",
+      "Concentré de carotte et cassis",
+      "Concentré de radis et carthame",
+      "Acide citrique",
+      "Cire de carnauba",
+      "Huile de coco",
+      "Alpha-tocophérol"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimea.com/products/gummies-collagene",
+    "ean": null,
+    "notes": "2 gummies = 250 mg de collagène. Aucun brevet attribué : la composition détaillée et le texte promotionnel ne citent pas uniformément Verisol®.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimea.com/products/gummies-collagene"
+    },
+    "units_pack": 60,
+    "unit_name": "gummy",
+    "units_per_day": 2,
+    "active_per_unit": 0.125,
+    "active_unit": "g",
+    "nutrients": {
+      "vitamin_c": 40
+    },
+    "secondary_actives": [
+      {
+        "category": "vitamin_c",
+        "per_day": 40,
+        "unit": "mg"
+      }
+    ]
+  },
+  {
+    "category": "zma",
+    "brand": "Nutrimuscle",
+    "name": "ZMB Pidolates",
+    "variant": "gélules · 120",
+    "price_eur": 22.95,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "L-pidolates de zinc et de magnésium, vitamine B6",
+    "vegan": true,
+    "additives": [
+      "gélule pullulan",
+      "inuline"
+    ],
+    "ingredients": [
+      "L-pidolate de magnésium",
+      "Pullulan",
+      "Inuline",
+      "Chlorhydrate de pyridoxine",
+      "L-pidolate de zinc"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimuscle.com/products/zmb-pidolates",
+    "ean": null,
+    "notes": "Pour 3 gélules : zinc élémentaire 3,1 mg, magnésium élémentaire 104 mg, vitamine B6 4,5 mg. Le zinc comparé est élémentaire, pas 15 mg de pidolate. Autres nutriments par jour : B6 4.5 mg.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimuscle.com/products/zmb-pidolates"
+    },
+    "units_pack": 120,
+    "unit_name": "gélule",
+    "units_per_day": 3,
+    "active_per_unit": 1.0333333333333334,
+    "active_unit": "mg",
+    "nutrients": {
+      "magnesium": 104,
+      "vitamin_b6": 4.5
+    },
+    "secondary_actives": [
+      {
+        "category": "magnesium",
+        "per_day": 104,
+        "unit": "mg"
+      }
+    ]
+  },
+  {
+    "category": "magnesium",
+    "brand": "Nutrimuscle",
+    "name": "Citrate de Magnésium",
+    "variant": "gélules · 120",
+    "price_eur": 14.95,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "citrate de magnésium",
+    "vegan": true,
+    "additives": [
+      "gélule pullulan"
+    ],
+    "ingredients": [
+      "Citrate de magnésium",
+      "Pullulan"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimuscle.com/products/citrate-de-magnesium-en-gelules",
+    "ean": null,
+    "notes": "5 gélules : 338 mg de magnésium élémentaire.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimuscle.com/products/citrate-de-magnesium-en-gelules"
+    },
+    "units_pack": 120,
+    "unit_name": "gélule",
+    "units_per_day": 5,
+    "active_per_unit": 67.6,
+    "active_unit": "mg"
+  },
+  {
+    "category": "vitamin_c",
+    "brand": "Nutrimuscle",
+    "name": "Vitamine C Quali®-C",
+    "variant": "gélules · 30",
+    "price_eur": 7.95,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "acide L-ascorbique",
+    "vegan": true,
+    "additives": [
+      "capsule HPMC"
+    ],
+    "ingredients": [
+      "Acide L-ascorbique Quali®-C",
+      "Hydroxypropylméthylcellulose"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Quali®-C",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimuscle.com/products/vitamine-c-quali-r-c-en-gelules",
+    "ean": null,
+    "notes": "",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimuscle.com/products/vitamine-c-quali-r-c-en-gelules"
+    },
+    "units_pack": 30,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 867,
+    "active_unit": "mg"
+  },
+  {
+    "category": "vitamin_c",
+    "brand": "Nutrimuscle",
+    "name": "Vitamine C Bio Camu Camu",
+    "variant": "gélules · 60",
+    "price_eur": 17.95,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "vitamine C de poudre de camu camu",
+    "vegan": true,
+    "additives": [
+      "capsule HPMC"
+    ],
+    "ingredients": [
+      "Poudre de fruit camu camu biologique",
+      "Hydroxypropylméthylcellulose"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimuscle.com/products/vitamine-c-bio-en-gelules",
+    "ean": null,
+    "notes": "2 gélules : 1200 mg de camu camu dont 120 mg de vitamine C.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimuscle.com/products/vitamine-c-bio-en-gelules"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 2,
+    "active_per_unit": 60,
+    "active_unit": "mg"
+  },
+  {
+    "category": "vitamin_d3",
+    "brand": "Nutrimuscle",
+    "name": "Vitamine D Quali®-D 2000 UI",
+    "variant": "gélules · 30",
+    "price_eur": 7.95,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "cholécalciférol D3",
+    "vegan": false,
+    "additives": [
+      "inuline",
+      "gélule pullulan"
+    ],
+    "ingredients": [
+      "Inuline",
+      "Pullulan",
+      "Cholécalciférol Quali®-D"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Quali®-D",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimuscle.com/products/vitamine-d-quali-r-d",
+    "ean": null,
+    "notes": "Par gélule : 50 µg de vitamine D3, soit 2000 UI. Origine végétale de la D3 non établie.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimuscle.com/products/vitamine-d-quali-r-d"
+    },
+    "units_pack": 30,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 2000,
+    "active_unit": "IU"
+  },
+  {
+    "category": "zinc",
+    "brand": "Nutrimuscle",
+    "name": "Zinc Ultimine™",
+    "variant": "gélules · 30",
+    "price_eur": 8.95,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "zinc issu de koji fermenté",
+    "vegan": true,
+    "additives": [
+      "inuline",
+      "gélule pullulan"
+    ],
+    "ingredients": [
+      "Inuline",
+      "Koji fermenté Aspergillus oryzae Ultimine™ titré en zinc",
+      "Pullulan"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Ultimine™",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimuscle.com/products/zinc-ultimine-5-5",
+    "ean": null,
+    "notes": "Tableau fabricant : koji fermenté 200 mg dont zinc 12 mg par gélule.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimuscle.com/products/zinc-ultimine-5-5"
+    },
+    "units_pack": 30,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 12,
+    "active_unit": "mg"
+  },
+  {
+    "category": "omega3",
+    "brand": "Nutrimuscle",
+    "name": "Huile de Krill SuperbaBoost®",
+    "variant": "gélules · 60",
+    "price_eur": 27.95,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "phospholipides de krill",
+    "vegan": false,
+    "additives": [
+      "gélatine de poisson",
+      "glycérol",
+      "sorbitol",
+      "eau"
+    ],
+    "ingredients": [
+      "Huile de krill antarctique",
+      "Gélatine de poisson",
+      "Glycérol",
+      "Sorbitol",
+      "Eau"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "SuperbaBoost®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimuscle.com/products/huile-de-krill",
+    "ean": null,
+    "notes": "2 capsules : EPA 178 mg + DHA 82 mg = 260 mg ; 318 mg d’oméga-3 totaux.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimuscle.com/products/huile-de-krill"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 2,
+    "active_per_unit": 130,
+    "active_unit": "mg"
+  },
+  {
+    "category": "collagen",
+    "brand": "Nutrimuscle",
+    "name": "Collagène 2 Colartix®",
+    "variant": "gélules · 120",
+    "price_eur": 32.95,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "hydrolysat de cartilage bovin types I, II et III",
+    "vegan": false,
+    "additives": [
+      "gélatine de bœuf"
+    ],
+    "ingredients": [
+      "Hydrolysat de cartilage bovin Colartix®",
+      "Gélatine de bœuf"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Colartix®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimuscle.com/products/collagene-colartix-en-gelules",
+    "ean": null,
+    "notes": "7 gélules : 2800 mg d’hydrolysat de cartilage dont 1750 mg de collagène et 518 mg de sulfate de chondroïtine.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimuscle.com/products/collagene-colartix-en-gelules"
+    },
+    "units_pack": 120,
+    "unit_name": "gélule",
+    "units_per_day": 7,
+    "active_per_unit": 0.25,
+    "active_unit": "g"
+  },
+  {
+    "category": "collagen",
+    "brand": "Nutrimuscle",
+    "name": "Collagène Marin Peptan®",
+    "variant": "nature · 200 g",
+    "price_eur": 34.95,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "hydrolysat de collagène marin Peptan® de type I",
+    "vegan": false,
+    "additives": [],
+    "ingredients": [
+      "Hydrolysat de collagène de poisson Peptan®"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Peptan®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimuscle.com/products/collagene-marin-peptan-r-1-en-poudre",
+    "ean": "5407008823306",
+    "notes": "Variante Nature 200 g identifiée dans les offres structurées : 48752699834697. Seul ce format est retenu.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimuscle.com/products/collagene-marin-peptan-r-1-en-poudre"
+    },
+    "format": "powder",
+    "pack_g": 200,
+    "serving_g": 10,
+    "active_per_100g": 100,
+    "active_per_serving_g": 10.0
+  },
+  {
+    "category": "creatine",
+    "brand": "Nutrimuscle",
+    "name": "Créatine Micronisée Opticreatine™",
+    "variant": "nature · 350 g",
+    "price_eur": 37.95,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "créatine monohydrate micronisée",
+    "vegan": true,
+    "additives": [],
+    "ingredients": [
+      "Créatine monohydrate Opticreatine™"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Opticreatine™",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimuscle.com/products/creatine-micronisee-opticreatine",
+    "ean": "5407013170297",
+    "notes": "Variante Nature 350 g en stock : 54041821479241. Tableau Nature : 3000 mg de monohydrate dont 2637 mg de créatine par portion.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimuscle.com/products/creatine-micronisee-opticreatine"
+    },
+    "format": "powder",
+    "pack_g": 350,
+    "serving_g": 3,
+    "active_per_100g": 87.9,
+    "active_per_serving_g": 2.637
+  },
+  {
+    "category": "whey",
+    "brand": "Nutrimuscle",
+    "name": "Whey Native Isolate Low Lactose",
+    "variant": "nature · 1,5 kg",
+    "price_eur": 116.95,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "isolat de protéines de lactosérum natives faible en lactose",
+    "vegan": false,
+    "additives": [],
+    "ingredients": [
+      "Isolat de protéines sériques natives du lait non instantanéisé"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimuscle.com/products/whey-native-isolate-low-lactose",
+    "ean": "5407008821333",
+    "notes": "Variante Nature 1,50 kg : 48752716153161. Tableau Nature : 90 g de protéines et 0,2 g de sucres pour 100 g.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimuscle.com/products/whey-native-isolate-low-lactose"
+    },
+    "format": "powder",
+    "pack_g": 1500,
+    "serving_g": 30,
+    "active_per_100g": 90,
+    "active_per_serving_g": 27.0
+  },
+  {
+    "category": "magnesium",
+    "brand": "Nutrixeal",
+    "name": "CéréMag® Magnésium L-thréonate",
+    "variant": "gélules · 90",
+    "price_eur": 35.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "magnésium L-thréonate",
+    "vegan": true,
+    "additives": [
+      "gélule végétale"
+    ],
+    "ingredients": [
+      "Magnésium L-thréonate Magtein®",
+      "Gélule végétale"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Magtein®",
+    "full_label": false,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/616-ceremag-magnesium-l-threonate-magtein.html",
+    "ean": null,
+    "notes": "3 gélules : 2 g de L-thréonate dont 154 mg de magnésium élémentaire. Matériau de gélule non précisé.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/616-ceremag-magnesium-l-threonate-magtein.html"
+    },
+    "units_pack": 90,
+    "unit_name": "gélule",
+    "units_per_day": 3,
+    "active_per_unit": 51.333333333333336,
+    "active_unit": "mg"
+  },
+  {
+    "category": "whey",
+    "brand": "Nutrixeal",
+    "name": "Nutratrail® Whey concentrée",
+    "variant": "nature · 500 g",
+    "price_eur": 20,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "concentré de lactosérum ultrafiltré",
+    "vegan": false,
+    "additives": [
+      "lécithine de tournesol"
+    ],
+    "ingredients": [
+      "Concentré de protéines de lactosérum issu de lait",
+      "Lécithine de tournesol"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/614-whey-concentree-nutratrail.html",
+    "ean": null,
+    "notes": "Tableau : 80 g de protéines pour 100 g. La lécithine est explicitement déclarée dans les ingrédients malgré le titre «100% pur».",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/614-whey-concentree-nutratrail.html"
+    },
+    "format": "powder",
+    "pack_g": 500,
+    "serving_g": 34,
+    "active_per_100g": 80,
+    "active_per_serving_g": 27.2
+  },
+  {
+    "category": "whey",
+    "brand": "Nutrixeal",
+    "name": "Nutratrail® Whey Isolate",
+    "variant": "nature · 500 g",
+    "price_eur": 25,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "isolat de protéines de lactosérum ultrafiltré",
+    "vegan": false,
+    "additives": [
+      "lécithine de tournesol"
+    ],
+    "ingredients": [
+      "Isolat de protéines de lactosérum issu de lait",
+      "Lécithine de tournesol"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/576-whey-isolate-bio-riche-en-proteines-non-denaturees.html",
+    "ean": null,
+    "notes": "",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/576-whey-isolate-bio-riche-en-proteines-non-denaturees.html"
+    },
+    "format": "powder",
+    "pack_g": 500,
+    "serving_g": 30,
+    "active_per_100g": 90,
+    "active_per_serving_g": 27.0
+  },
+  {
+    "category": "probiotics",
+    "brand": "Nutrixeal",
+    "name": "Probiopur® Tribiotique IBS",
+    "variant": "gélules · 30",
+    "price_eur": 29,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "3 souches probiotiques codées, postbiotique et prébiotique",
+    "vegan": true,
+    "additives": [
+      "fibres d’acacia",
+      "capsule HPMC"
+    ],
+    "ingredients": [
+      "Fibres d’acacia",
+      "Lactobacillus rhamnosus DSM 25568",
+      "Lactobacillus plantarum DSM 24937",
+      "Bifidobacterium animalis subsp. lactis DSM 25566",
+      "Bifidobacterium longum ES1 HT",
+      "Hydroxypropylméthylcellulose"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/590-Probiopur-tribiotique-IBS-symbiotique-innovant-3-en-1.html",
+    "ean": null,
+    "notes": "Référence sélectionnée PROTIBS30,30 gélules. 3 souches vivantes à 3,3 milliards UFC chacune = 9,9 milliards UFC. Les 2,5 milliards de postbiotiques ES1 HT ne sont pas ajoutés au total vivant.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/590-Probiopur-tribiotique-IBS-symbiotique-innovant-3-en-1.html"
+    },
+    "units_pack": 30,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 9.9,
+    "active_unit": "billion CFU",
+    "strains_count": 3,
+    "strains_coded": true,
+    "gastro_resistant": false
+  },
+  {
+    "category": "omega3",
+    "brand": "Nutrixeal",
+    "name": "Omegartic® 3+9+11",
+    "variant": "gélules · 60",
+    "price_eur": 18,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "triglycérides restructurés rTG de poisson",
+    "vegan": false,
+    "additives": [
+      "gélatine de poisson",
+      "glycérol",
+      "extrait de romarin",
+      "tocophérols"
+    ],
+    "ingredients": [
+      "Huile de maquereaux et harengs",
+      "Gélatine marine de poisson",
+      "Glycérol",
+      "Extrait de romarin",
+      "Mélange de tocophérols"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "EPAX® NovusLipids",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/577-Omegartic-3-9-11-complexe-unique-associant-omega-3-acide-gondoique-et-acide-cetoleique.html",
+    "ean": null,
+    "notes": "Par gélule : EPA 25 mg + DHA 100 mg. Dose retenue basse de la fourchette fabricant 1–4 gélules.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/577-Omegartic-3-9-11-complexe-unique-associant-omega-3-acide-gondoique-et-acide-cetoleique.html"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 125,
+    "active_unit": "mg"
+  },
+  {
+    "category": "omega3",
+    "brand": "Nutrixeal",
+    "name": "EPA/DHA Green® Équilibre",
+    "variant": "gélules · 60",
+    "price_eur": 28,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "triglycérides restructurés rTG de microalgues",
+    "vegan": true,
+    "additives": [
+      "capsule végétale amidon de tapioca et glycérine",
+      "huile végétale oléique",
+      "tocophérols",
+      "extrait de romarin",
+      "lécithine de tournesol"
+    ],
+    "ingredients": [
+      "Huile de Schizochytrium sp.",
+      "Amidon de tapioca",
+      "Glycérine végétale",
+      "Huile végétale oléique",
+      "Tocophérols naturels",
+      "Extrait de romarin",
+      "Lécithine de tournesol"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/565-Huile-d-algue-riche-en-epa-dha-en-capsules-molles-softgels.html",
+    "ean": null,
+    "notes": "Par capsule : DHA 250 mg + EPA 125 mg. Les 405 mg d’oméga-3 totaux ne sont pas utilisés comme EPA+DHA.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/565-Huile-d-algue-riche-en-epa-dha-en-capsules-molles-softgels.html"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 375,
+    "active_unit": "mg"
+  },
+  {
+    "category": "iron",
+    "brand": "Nutrixeal",
+    "name": "IxeaBoost® Hémoglobine",
+    "variant": "gélules · 60",
+    "price_eur": 25,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "bisglycinate de fer Ferrochel®",
+    "vegan": true,
+    "additives": [
+      "fibres d’acacia",
+      "gélule végétale"
+    ],
+    "ingredients": [
+      "Fibres d’acacia",
+      "Bisglycinate de fer Ferrochel®",
+      "Acide L-ascorbique Quali-C®",
+      "Chlorhydrate de pyridoxine",
+      "6S-5-méthyltétrahydrofolate de glucosamine Quatrefolic®",
+      "Méthylcobalamine",
+      "5-déoxyadénosylcobalamine",
+      "Gélule végétale"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Ferrochel® / Quali-C® / Quatrefolic®",
+    "full_label": false,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/564-Ixeaboost-hemoglobine-fer-chelate-et-vitamines-B6-B9-B12-et-C.html",
+    "ean": null,
+    "notes": "21 mg de fer élémentaire par gélule. Matériau de gélule non précisé. Autres nutriments par jour : B6 1.4 mg.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/564-Ixeaboost-hemoglobine-fer-chelate-et-vitamines-B6-B9-B12-et-C.html"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 21,
+    "active_unit": "mg",
+    "nutrients": {
+      "vitamin_c": 80,
+      "folate": 200,
+      "vitamin_b12": 10,
+      "vitamin_b6": 1.4
+    },
+    "secondary_actives": [
+      {
+        "category": "vitamin_c",
+        "per_day": 80,
+        "unit": "mg"
+      },
+      {
+        "category": "folate",
+        "per_day": 200,
+        "unit": "µg"
+      },
+      {
+        "category": "vitamin_b12",
+        "per_day": 10,
+        "unit": "µg"
+      }
+    ]
+  },
+  {
+    "category": "omega3",
+    "brand": "Nutrixeal",
+    "name": "DHA Green® Softgels",
+    "variant": "gélules · 60",
+    "price_eur": 25,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "triglycérides restructurés rTG de microalgues",
+    "vegan": true,
+    "additives": [
+      "capsule végétale amidon de tapioca et glycérine",
+      "huile végétale oléique",
+      "eau",
+      "tocophérols",
+      "palmitate d’ascorbyle"
+    ],
+    "ingredients": [
+      "Huile de Schizochytrium sp. FCC-3204",
+      "Amidon de tapioca",
+      "Glycérine végétale",
+      "Huile végétale oléique",
+      "Eau",
+      "Tocophérols naturels",
+      "Palmitate d’ascorbyle"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/542-dha-green-omega-3-vegan-250-mg-de-dha-vegetal-en-softgels.html",
+    "ean": null,
+    "notes": "250 mg DHA par capsule. EPA non quantifié ; les 260 mg d’oméga-3 totaux ne sont pas assimilés à EPA+DHA.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/542-dha-green-omega-3-vegan-250-mg-de-dha-vegetal-en-softgels.html"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 250,
+    "active_unit": "mg"
+  },
+  {
+    "category": "curcumin",
+    "brand": "Nutrixeal",
+    "name": "Curcumine BIO 150 mg",
+    "variant": "gélules · 60",
+    "price_eur": 25,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "extrait de Curcuma longa standardisé 95 % curcumine",
+    "vegan": true,
+    "additives": [
+      "fibres d’acacia",
+      "capsule HPMC"
+    ],
+    "ingredients": [
+      "Fibres d’acacia biologique",
+      "Extrait de Curcuma longa biologique",
+      "Hypromellose Vcaps® Plus"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/512-curcumine-bio-en-gelules.html",
+    "ean": null,
+    "notes": "",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/512-curcumine-bio-en-gelules.html"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 150,
+    "active_unit": "mg"
+  },
+  {
+    "category": "omega3",
+    "brand": "Nutrixeal",
+    "name": "Omegartic® Synergy 3",
+    "variant": "gélules · 120",
+    "price_eur": 38,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "triglycérides rTG EPAX®, phospholipides de krill et esters de cire de Calanus",
+    "vegan": false,
+    "additives": [
+      "gélatine de poisson",
+      "glycérol",
+      "extrait de romarin",
+      "tocophérols"
+    ],
+    "ingredients": [
+      "Huile de poissons EPAX®-XO",
+      "Gélatine marine de poisson",
+      "Glycérol",
+      "Extrait lipidique de krill Superba 2®",
+      "Huile de Calanus finmarchicus Zooca®",
+      "Extrait de romarin",
+      "Tocophérols"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "EPAX® / Superba 2® / Zooca®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/511-omegartic-synergy-3-complexe-optimise-d-omega-3-huile-epax-krill-et-calanus-en-gelules.html",
+    "ean": null,
+    "notes": "Pour 4 gélules : EPA 624 mg + DHA 428 mg = 1052 mg ; dose retenue 1 gélule dans la fourchette 1–4.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/511-omegartic-synergy-3-complexe-optimise-d-omega-3-huile-epax-krill-et-calanus-en-gelules.html"
+    },
+    "units_pack": 120,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 263,
+    "active_unit": "mg"
+  },
+  {
+    "category": "vitamin_b12",
+    "brand": "Nutrixeal",
+    "name": "PhysioB12® bioactive",
+    "variant": "fruits · 90 pastilles",
+    "price_eur": 19,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "méthylcobalamine et adénosylcobalamine",
+    "vegan": true,
+    "additives": [
+      "fibres d’acacia",
+      "arôme naturel de fruits",
+      "stévia"
+    ],
+    "ingredients": [
+      "Fibres d’acacia",
+      "Méthylcobalamine",
+      "5-déoxyadénosylcobalamine",
+      "Arôme naturel de fruits",
+      "Extrait de stévia"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/509-vitamine-b12-methylcobalamine-et-adenosylcobalamine-vegan-formes-actives-en-pastilles.html",
+    "ean": null,
+    "notes": "",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/509-vitamine-b12-methylcobalamine-et-adenosylcobalamine-vegan-formes-actives-en-pastilles.html"
+    },
+    "units_pack": 90,
+    "unit_name": "pastille",
+    "units_per_day": 1,
+    "active_per_unit": 500,
+    "active_unit": "µg"
+  },
+  {
+    "category": "ashwagandha",
+    "brand": "Nutrixeal",
+    "name": "Ultra Ashwagandha Shoden®",
+    "variant": "125 mg · 60 gélules",
+    "price_eur": 20,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "extrait de racines et feuilles Shoden® titré à 35 % de withanolides",
+    "vegan": true,
+    "additives": [
+      "fibres d’acacia",
+      "gélule végétale"
+    ],
+    "ingredients": [
+      "Ashwagandha Shoden®",
+      "Fibres d’acacia",
+      "Gélule végétale"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Shoden®",
+    "full_label": false,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/556-extrait-ashwagandha-qualite-shoden-ultra-concentre-35-de-withanolides.html",
+    "ean": null,
+    "notes": "Référence UASH125-60 ; variante 125 mg. Matériau de gélule non précisé.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/556-extrait-ashwagandha-qualite-shoden-ultra-concentre-35-de-withanolides.html"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 125,
+    "active_unit": "mg"
+  },
+  {
+    "category": "ashwagandha",
+    "brand": "Nutrixeal",
+    "name": "Ashwagandha BIO",
+    "variant": "600 mg · 60 gélules",
+    "price_eur": 19.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "extrait de racine titré à 5 % de withanolides",
+    "vegan": true,
+    "additives": [
+      "capsule HPMC"
+    ],
+    "ingredients": [
+      "Extrait de racine d’ashwagandha biologique",
+      "Hypromellose Vcaps® Plus"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/326-ashwagandha-bio-extrait-concentre-ksm-66.html",
+    "ean": null,
+    "notes": "Référence ASH600-60. Dose retenue 1 gélule dans la fourchette 1–2 ; analyses/certificat biologique non revérifiés.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/326-ashwagandha-bio-extrait-concentre-ksm-66.html"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 600,
+    "active_unit": "mg"
+  },
+  {
+    "category": "vitamin_c",
+    "brand": "Nutrixeal",
+    "name": "Vitamine C Liposomale Quali-C® ZetaGreen®",
+    "variant": "gélules · 60",
+    "price_eur": 29.5,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "acide L-ascorbique encapsulé dans phosphatidylcholine",
+    "vegan": true,
+    "additives": [
+      "fibres d’acacia",
+      "gélule végétale"
+    ],
+    "ingredients": [
+      "Acide L-ascorbique Quali-C®",
+      "Phosphatidylcholine purifiée",
+      "Fibres d’acacia",
+      "Gélule végétale"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Quali-C® / ZetaGreen®",
+    "full_label": false,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/309-vitamine-c-liposomale-en-gelules.html",
+    "ean": null,
+    "notes": "Dose retenue 1 gélule dans la fourchette 1–2. Matériau de gélule non précisé.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/309-vitamine-c-liposomale-en-gelules.html"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 500,
+    "active_unit": "mg"
+  },
+  {
+    "category": "zinc",
+    "brand": "Nutrixeal",
+    "name": "Zinc Bisglycinate Chélaté Albion®",
+    "variant": "10 mg · 60 gélules",
+    "price_eur": 10.5,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "bisglycinate de zinc chélaté",
+    "vegan": true,
+    "additives": [
+      "fibres d’acacia",
+      "gélule végétale"
+    ],
+    "ingredients": [
+      "Fibres d’acacia",
+      "Bisglycinate de zinc",
+      "Gélule végétale"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Albion® / TRAACS®",
+    "full_label": false,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/305-zinc-bisglycinate-en-gelules.html",
+    "ean": null,
+    "notes": "Variante ZNC10-60 : 10 mg de zinc élémentaire. Matériau de gélule non précisé.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/305-zinc-bisglycinate-en-gelules.html"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 10,
+    "active_unit": "mg"
+  },
+  {
+    "category": "magnesium",
+    "brand": "Nutrixeal",
+    "name": "UltraMag® Magnésium Taurine B6",
+    "variant": "gélules · 100",
+    "price_eur": 21.5,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "bisglycinate de magnésium chélaté",
+    "vegan": true,
+    "additives": [
+      "gélule pullulan"
+    ],
+    "ingredients": [
+      "Bisglycinate de magnésium",
+      "Taurine",
+      "Vitamine B6 pyridoxal 5-phosphate",
+      "Pullulan"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Albion® / TRAACS®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/288-ultramag-magnesium-chelate-taurine-vit-b6-gelules-vegetales.html",
+    "ean": null,
+    "notes": "1–4 gélules selon fabricant ; dose basse retenue. 4 gélules : magnésium élémentaire 320 mg, taurine 268 mg, B6 1,9 mg. Autres nutriments par jour : B6 0.475 mg.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/288-ultramag-magnesium-chelate-taurine-vit-b6-gelules-vegetales.html"
+    },
+    "units_pack": 100,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 80,
+    "active_unit": "mg",
+    "nutrients": {
+      "vitamin_b6": 0.475
+    },
+    "secondary_actives": []
+  },
+  {
+    "category": "vitamin_d3",
+    "brand": "Nutrixeal",
+    "name": "Ultra-D3 BIO Lichen",
+    "variant": "gélules · 60",
+    "price_eur": 25,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "cholécalciférol D3 de lichen",
+    "vegan": true,
+    "additives": [
+      "fibres d’acacia",
+      "capsule HPMC"
+    ],
+    "ingredients": [
+      "Fibres d’acacia biologique",
+      "Vitamine D3 issue de lichen biologique",
+      "Hypromellose Vcaps® Plus"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/287-ultra-d3-bio-vitamine-d3-naturelle.html",
+    "ean": null,
+    "notes": "",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/287-ultra-d3-bio-vitamine-d3-naturelle.html"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 2000,
+    "active_unit": "IU"
+  },
+  {
+    "category": "vitamin_d3",
+    "brand": "Nutrixeal",
+    "name": "Ultra-D3 V Pin",
+    "variant": "2000 UI · 60 comprimés",
+    "price_eur": 19.5,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "cholécalciférol D3 végétal de pin microencapsulé",
+    "vegan": true,
+    "additives": [
+      "fibres d’acacia"
+    ],
+    "ingredients": [
+      "Vitamine D3 issue de pin",
+      "Fibres d’acacia"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": false,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/286-ultra-d3-v-vitamine-d3-vegetale.html",
+    "ean": null,
+    "notes": "Matériaux de microencapsulation non détaillés.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/286-ultra-d3-v-vitamine-d3-vegetale.html"
+    },
+    "units_pack": 60,
+    "unit_name": "comprimé",
+    "units_per_day": 1,
+    "active_per_unit": 2000,
+    "active_unit": "IU"
+  },
+  {
+    "category": "vitamin_d3",
+    "brand": "Nutrixeal",
+    "name": "Ultra-D3®",
+    "variant": "2000 UI · 60 comprimés",
+    "price_eur": 15,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "cholécalciférol D3 issu de lanoline microencapsulé",
+    "vegan": false,
+    "additives": [
+      "fibres d’acacia"
+    ],
+    "ingredients": [
+      "Vitamine D3 issue de lanoline",
+      "Fibres d’acacia"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": false,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/285-ultra-d3-vitamine-d3-microencapsulee.html",
+    "ean": null,
+    "notes": "Variante UD3N200060 ; matériaux de microencapsulation non détaillés.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/285-ultra-d3-vitamine-d3-microencapsulee.html"
+    },
+    "units_pack": 60,
+    "unit_name": "comprimé",
+    "units_per_day": 1,
+    "active_per_unit": 2000,
+    "active_unit": "IU"
+  },
+  {
+    "category": "tribulus",
+    "brand": "Nutrixeal",
+    "name": "Tribulus terrestris BIO",
+    "variant": "gélules · 90",
+    "price_eur": 28,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "extrait de Tribulus terrestris titré à 40 % saponines",
+    "vegan": true,
+    "additives": [
+      "capsule HPMC"
+    ],
+    "ingredients": [
+      "Extrait de Tribulus terrestris biologique",
+      "Hypromellose Vcaps® Plus"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/274-tribulus-terrestris-bio-standardise-en-saponines-700-mg-par-gelule.html",
+    "ean": null,
+    "notes": "Composition actuelle : 500 mg par gélule, malgré l’URL historique 700 mg. Dose basse fabricant 2 gélules =1000 mg d’extrait.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/274-tribulus-terrestris-bio-standardise-en-saponines-700-mg-par-gelule.html"
+    },
+    "units_pack": 90,
+    "unit_name": "gélule",
+    "units_per_day": 2,
+    "active_per_unit": 500,
+    "active_unit": "mg"
+  },
+  {
+    "category": "zinc",
+    "brand": "Nutrimea",
+    "name": "Zinc Citrate",
+    "variant": "gélules · 120",
+    "price_eur": 14.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "citrate de zinc",
+    "vegan": true,
+    "additives": [
+      "maltodextrine",
+      "gélule végétale"
+    ],
+    "ingredients": [
+      "Maltodextrine biologique",
+      "Gélule végétale",
+      "Citrate de zinc"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": false,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimea.com/products/zinc-citrate",
+    "ean": null,
+    "notes": "12,5 mg zinc élémentaire par gélule. Matériau de gélule non précisé ; le titre 40 mg ne désigne pas le zinc élémentaire.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimea.com/products/zinc-citrate"
+    },
+    "units_pack": 120,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 12.5,
+    "active_unit": "mg"
+  },
+  {
+    "category": "iron",
+    "brand": "Nutrimea",
+    "name": "Fer Bisglycinate Vitamine C",
+    "variant": "gélules · 90",
+    "price_eur": 18.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "bisglycinate de fer",
+    "vegan": true,
+    "additives": [
+      "maltodextrine",
+      "gélule végétale",
+      "farine de riz"
+    ],
+    "ingredients": [
+      "Poudre de jus de baies d’acérola sur maltodextrine enrichie en vitamine C",
+      "Gélule végétale",
+      "Bisglycinate de fer",
+      "Farine de riz"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Ferrochel®",
+    "full_label": false,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimea.com/products/fer-bisglycinate-vitamine-c",
+    "ean": null,
+    "notes": "14 mg fer élémentaire et 80 mg vitamine C par gélule. Matériau de gélule non précisé.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimea.com/products/fer-bisglycinate-vitamine-c"
+    },
+    "units_pack": 90,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 14,
+    "active_unit": "mg",
+    "nutrients": {
+      "vitamin_c": 80
+    },
+    "secondary_actives": [
+      {
+        "category": "vitamin_c",
+        "per_day": 80,
+        "unit": "mg"
+      }
+    ]
+  },
+  {
+    "category": "vitamin_b12",
+    "brand": "Nutrimea",
+    "name": "Vitamine B12",
+    "variant": "gélules · 60",
+    "price_eur": 14.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "cyanocobalamine",
+    "vegan": true,
+    "additives": [
+      "extrait de riz",
+      "gélule végétale"
+    ],
+    "ingredients": [
+      "Extrait de riz",
+      "Gélule végétale",
+      "Cyanocobalamine"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": false,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimea.com/products/vitamine-b12",
+    "ean": null,
+    "notes": "1 mg =1000 µg B12 par gélule. Matériau de gélule non précisé.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimea.com/products/vitamine-b12"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 1000,
+    "active_unit": "µg"
+  },
+  {
+    "category": "rhodiola",
+    "brand": "Nutrixeal",
+    "name": "Rhodiola Totum BIO",
+    "variant": "gélules · 100",
+    "price_eur": 22.5,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "totum de racine de Rhodiola rosea non standardisé",
+    "vegan": true,
+    "additives": [
+      "capsule HPMC"
+    ],
+    "ingredients": [
+      "Totum de racine de Rhodiola rosea biologique",
+      "Hypromellose Vcaps® Plus"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/255-rhodiola-totum-bio-en-gelules.html",
+    "ean": null,
+    "notes": "Totum non standardisé ; ne pas assimiler à un extrait titré. Dose basse fabricant 4 gélules, fourchette 4–6.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/255-rhodiola-totum-bio-en-gelules.html"
+    },
+    "units_pack": 100,
+    "unit_name": "gélule",
+    "units_per_day": 4,
+    "active_per_unit": 375,
+    "active_unit": "mg"
+  },
+  {
+    "category": "b_complex",
+    "brand": "Nutrixeal",
+    "name": "QuinoGerm® B Complex",
+    "variant": "gélules · 60",
+    "price_eur": 25,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "vitamines B issues de germes de quinoa",
+    "vegan": true,
+    "additives": [
+      "fibres d’acacia",
+      "gélule végétale"
+    ],
+    "ingredients": [
+      "Extrait standardisé de germes de quinoa",
+      "Fibres d’acacia",
+      "Gélule végétale"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "QuinoGerm®",
+    "full_label": false,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/248-complexe-vitamines-b-naturelles.html",
+    "ean": null,
+    "notes": "Dose haute fabricant 2 gélules : 840 mg d’extrait, 100 % AR de chacune des 8 vitamines B. B1 1,1 mg, B2 1,4 mg, B3 16 mg, B5 6 mg, B6 1,4 mg, B8 50 µg, B9 200 µg, B12 2,5 µg. Matériau de gélule non précisé.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/248-complexe-vitamines-b-naturelles.html"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 2,
+    "active_per_unit": 420,
+    "active_unit": "mg",
+    "form_quality": "standard",
+    "dose_style": "physiological",
+    "nutrients": {
+      "vitamin_b1": 1.1,
+      "vitamin_b2": 1.4,
+      "vitamin_b3": 16,
+      "vitamin_b5": 6,
+      "vitamin_b6": 1.4,
+      "biotin": 50,
+      "folate": 200,
+      "vitamin_b12": 2.5
+    }
+  },
+  {
+    "category": "vitamin_k2",
+    "brand": "Nutrixeal",
+    "name": "PhysioK2® K2 et D3",
+    "variant": "gélules · 60",
+    "price_eur": 29.5,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "ménaquinone-7 MK-7 microencapsulée",
+    "vegan": true,
+    "additives": [
+      "fibres d’acacia",
+      "gélule végétale"
+    ],
+    "ingredients": [
+      "Fibres d’acacia",
+      "Vitamine K2 MK-7 microencapsulée",
+      "Vitamine D3 végétale microencapsulée",
+      "Gélule végétale"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": false,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/219-physiok2-vitamines-k2-d3.html",
+    "ean": null,
+    "notes": "Par gélule 75 µg K2 et 2000 UI D3. Matériau de gélule et microencapsulation non détaillés.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/219-physiok2-vitamines-k2-d3.html"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 75,
+    "active_unit": "µg",
+    "nutrients": {
+      "vitamin_d3": 2000
+    },
+    "secondary_actives": [
+      {
+        "category": "vitamin_d3",
+        "per_day": 2000,
+        "unit": "IU"
+      }
+    ]
+  },
+  {
+    "category": "folate",
+    "brand": "Nutrixeal",
+    "name": "PhysioB9® Quatrefolic®",
+    "variant": "gélules · 60",
+    "price_eur": 19,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "6S-5-méthyltétrahydrofolate de glucosamine",
+    "vegan": true,
+    "additives": [
+      "fibres d’acacia",
+      "gélule végétale"
+    ],
+    "ingredients": [
+      "Fibres d’acacia",
+      "6S-5-méthyltétrahydrofolate de glucosamine Quatrefolic®",
+      "Gélule végétale"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Quatrefolic®",
+    "full_label": false,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/218-physiob9-vitamine-b9-quatrefolic-folates-forme-active-haute-assimilation.html",
+    "ean": null,
+    "notes": "743 µg de Quatrefolic équivalent 400 µg vitamine B9 par gélule. Dose fabricant population générale 1 gélule ; matériau de gélule non précisé.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/218-physiob9-vitamine-b9-quatrefolic-folates-forme-active-haute-assimilation.html"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 400,
+    "active_unit": "µg"
+  },
+  {
+    "category": "omega3",
+    "brand": "Nutrixeal",
+    "name": "PhosphoKrill® SuperbaBoost®",
+    "variant": "capsules molles · 60",
+    "price_eur": 22,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "phospholipides de krill",
+    "vegan": false,
+    "additives": [
+      "gélatine de poisson"
+    ],
+    "ingredients": [
+      "Extrait lipidique de krill antarctique SuperbaBoost®",
+      "Gélatine marine de poisson"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "SuperbaBoost®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/216-huile-de-krill-pure-superbaboost-en-gelules.html",
+    "ean": null,
+    "notes": "Référence KRILL60. 4 capsules : EPA 356 mg + DHA 164 mg. Dose basse fabricant 1 capsule ; fourchette 1–4.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/216-huile-de-krill-pure-superbaboost-en-gelules.html"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 130,
+    "active_unit": "mg"
+  },
+  {
+    "category": "omega3",
+    "brand": "Nutrixeal",
+    "name": "Omegartic® Planct’innov®",
+    "variant": "gélules · 60",
+    "price_eur": 24,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "esters de cire de Calanus",
+    "vegan": false,
+    "additives": [
+      "gélatine de poisson",
+      "glycérine",
+      "eau"
+    ],
+    "ingredients": [
+      "Huile de Calanus finmarchicus",
+      "Gélatine marine de poisson",
+      "Glycérine",
+      "Eau purifiée"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Zooca™",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/202-omegartic-planct-innov-pure-huile-de-calanus-gelules.html",
+    "ean": null,
+    "notes": "6 capsules : EPA 180 mg + DHA 138 mg ; SDA 135–279 mg non ajouté au comparatif EPA+DHA. Dose basse fabricant 3 capsules.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/202-omegartic-planct-innov-pure-huile-de-calanus-gelules.html"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 3,
+    "active_per_unit": 53,
+    "active_unit": "mg"
+  },
+  {
+    "category": "omega3",
+    "brand": "Nutrixeal",
+    "name": "Omegartic® Sport 1000",
+    "variant": "gélules · 90",
+    "price_eur": 24.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "triglycérides restructurés rTG EPAX®",
+    "vegan": false,
+    "additives": [
+      "gélatine de poisson",
+      "glycérol",
+      "extrait de romarin",
+      "tocophérols"
+    ],
+    "ingredients": [
+      "Huile de poissons sauvages concentrée",
+      "Gélatine marine de poisson",
+      "Glycérol",
+      "Extrait de romarin",
+      "Mélange de tocophérols"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "EPAX®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/203-Omega-3-pour-le-sport.html",
+    "ean": null,
+    "notes": "Par capsule : EPA 411 mg + DHA 326 mg. Autres oméga 3 exclus du total EPA+DHA. Dose basse fabricant 1 capsule.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/203-Omega-3-pour-le-sport.html"
+    },
+    "units_pack": 90,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 737,
+    "active_unit": "mg"
+  },
+  {
+    "category": "omega3",
+    "brand": "Nutrixeal",
+    "name": "Omegartic® Équilibre EPA/DHA",
+    "variant": "gélules · 60",
+    "price_eur": 18,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "triglycérides restructurés rTG EPAX®",
+    "vegan": false,
+    "additives": [
+      "gélatine de poisson",
+      "glycérol",
+      "extrait de romarin",
+      "tocophérols"
+    ],
+    "ingredients": [
+      "Huile de poissons sauvages concentrée",
+      "Gélatine marine de poisson",
+      "Glycérol",
+      "Extrait de romarin",
+      "Mélange de tocophérols"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "EPAX®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/200-omega-3-epa-dha-qualite-epax-en-gelules.html",
+    "ean": null,
+    "notes": "Par capsule : EPA 162 mg + DHA 116 mg. Autres oméga 3 exclus du total EPA+DHA. Dose basse fabricant 1 capsule.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/200-omega-3-epa-dha-qualite-epax-en-gelules.html"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 278,
+    "active_unit": "mg"
+  },
+  {
+    "category": "omega3",
+    "brand": "Nutrixeal",
+    "name": "Omegartic® EPA+",
+    "variant": "gélules · 60",
+    "price_eur": 20,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "triglycérides restructurés rTG EPAX®",
+    "vegan": false,
+    "additives": [
+      "gélatine de poisson",
+      "glycérol",
+      "extrait de romarin",
+      "tocophérols"
+    ],
+    "ingredients": [
+      "Huile de poissons sauvages concentrée",
+      "Gélatine marine de poisson",
+      "Glycérol",
+      "Extrait de romarin",
+      "Mélange de tocophérols"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "EPAX®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/199-omegartic-epa-omega-3-ultra-purifies-concentres-en-epa.html",
+    "ean": null,
+    "notes": "Par capsule : EPA 205 mg + DHA 55 mg. Autres oméga 3 exclus du total EPA+DHA. Dose basse fabricant 1 capsule.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/199-omegartic-epa-omega-3-ultra-purifies-concentres-en-epa.html"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 260,
+    "active_unit": "mg"
+  },
+  {
+    "category": "omega3",
+    "brand": "Nutrixeal",
+    "name": "Omegartic® DHA+",
+    "variant": "gélules · 60",
+    "price_eur": 20,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "triglycérides restructurés rTG EPAX®",
+    "vegan": false,
+    "additives": [
+      "gélatine de poisson",
+      "glycérol",
+      "extrait de romarin",
+      "tocophérols"
+    ],
+    "ingredients": [
+      "Huile de poissons sauvages concentrée",
+      "Gélatine marine de poisson",
+      "Glycérol",
+      "Extrait de romarin",
+      "Mélange de tocophérols"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "EPAX®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/196-omegartic-dha-omega-3-ultra-purifies-concentres-en-dha.html",
+    "ean": null,
+    "notes": "Par capsule : EPA 60 mg + DHA 260 mg. Autres oméga 3 exclus du total EPA+DHA. Dose basse fabricant 1 capsule.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/196-omegartic-dha-omega-3-ultra-purifies-concentres-en-dha.html"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 320,
+    "active_unit": "mg"
+  },
+  {
+    "category": "melatonin",
+    "brand": "Nutrixeal",
+    "name": "Mélatonine Libération Prolongée",
+    "variant": "60 comprimés",
+    "price_eur": 13,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "mélatonine microencapsulée à libération prolongée",
+    "vegan": true,
+    "additives": [
+      "fibres d’acacia"
+    ],
+    "ingredients": [
+      "Fibres d’acacia",
+      "Mélatonine microencapsulée"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": false,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/182-melatonine-vegan-comprimes-liberation-prolongee.html",
+    "ean": null,
+    "notes": "1,75 mg de mélatonine par comprimé. Matériaux de microencapsulation non détaillés.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/182-melatonine-vegan-comprimes-liberation-prolongee.html"
+    },
+    "units_pack": 60,
+    "unit_name": "comprimé",
+    "units_per_day": 1,
+    "active_per_unit": 1.75,
+    "active_unit": "mg"
+  },
+  {
+    "category": "probiotics",
+    "brand": "Nutrixeal",
+    "name": "Lactobacillus gasseri 10 milliards",
+    "variant": "gélules · 60",
+    "price_eur": 17.5,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "Lactobacillus gasseri, capsule DRcaps® à dissolution retardée",
+    "vegan": true,
+    "additives": [
+      "fibres d’acacia",
+      "gélule végétale"
+    ],
+    "ingredients": [
+      "Fibres d’acacia",
+      "Lactobacillus gasseri",
+      "Gélule végétale à dissolution retardée DRcaps®"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": false,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/164-lactobacillus-gasseri-250-milliards.html",
+    "ean": null,
+    "notes": "10 milliards UFC garantis par gélule ; surdosage technique 12,5 milliards à fabrication non utilisé. Pas de code de souche ni composition exacte de DRcaps indiqués.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/164-lactobacillus-gasseri-250-milliards.html"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 10,
+    "active_unit": "billion CFU",
+    "strains_count": 1,
+    "strains_coded": false,
+    "gastro_resistant": true
+  },
+  {
+    "category": "collagen",
+    "brand": "Nutrixeal",
+    "name": "Hyaluroforce®",
+    "variant": "gélules · 60",
+    "price_eur": 33,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "peptides de collagène marin hydrolysé",
+    "vegan": false,
+    "additives": [
+      "huile de coco",
+      "fibres d’acacia",
+      "gélule végétale"
+    ],
+    "ingredients": [
+      "Peptides de collagène de poisson",
+      "Sulfate de sodium de chondroïtine marine de poisson",
+      "Acide hyaluronique issu de biofermentation",
+      "Glycine",
+      "Acide L-ascorbique Quali®-C",
+      "Huile de coco vierge",
+      "Fibres d’acacia",
+      "Gélule végétale"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": false,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/144-hyaluroforce-collagene-acide-hyaluronique-et-chondroitine-gelules-vegetales.html",
+    "ean": null,
+    "notes": "4 gélules : 1,2 g de collagène, 240 mg d’acide hyaluronique, 354 mg de chondroïtine, 200 mg de glycine, 160 mg de C. Dose basse fabricant 2 gélules ; matériau capsule non précisé.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/144-hyaluroforce-collagene-acide-hyaluronique-et-chondroitine-gelules-vegetales.html"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 2,
+    "active_per_unit": 0.3,
+    "active_unit": "g",
+    "nutrients": {
+      "vitamin_c": 80
+    },
+    "secondary_actives": [
+      {
+        "category": "vitamin_c",
+        "per_day": 80,
+        "unit": "mg"
+      }
+    ]
+  },
+  {
+    "category": "omega3",
+    "brand": "Dynveo",
+    "name": "Huile de foie de Morue pure",
+    "variant": "gélules · 60",
+    "price_eur": 9.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "huile de foie de morue",
+    "vegan": false,
+    "additives": [
+      "gélatine de poisson",
+      "eau",
+      "glycérine"
+    ],
+    "ingredients": [
+      "Huile de foie de morue",
+      "Gélatine de poisson",
+      "Eau purifiée",
+      "Glycérine végétale"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.dynveo.fr/products/huile-de-foie-de-morue",
+    "ean": null,
+    "notes": "2 capsules : EPA 80 mg + DHA 90 mg, vitamine A 180 µg ER, vitamine D 2,5 µg et vitamine E 1,5 mg. Autres nutriments par jour : vitamine A 180 µg, vitamine E 1.5 mg.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.dynveo.fr/products/huile-de-foie-de-morue"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 2,
+    "active_per_unit": 85,
+    "active_unit": "mg",
+    "nutrients": {
+      "vitamin_d3": 100,
+      "vitamin_a": 180,
+      "vitamin_e": 1.5
+    },
+    "secondary_actives": [
+      {
+        "category": "vitamin_d3",
+        "per_day": 100,
+        "unit": "IU"
+      }
+    ]
+  },
+  {
+    "category": "folate",
+    "brand": "Nutrimea",
+    "name": "Acide Folique B9 Quatrefolic®",
+    "variant": "gélules · 120",
+    "price_eur": 18.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "6S-5-méthyltétrahydrofolate de glucosamine",
+    "vegan": true,
+    "additives": [
+      "gomme d’acacia",
+      "capsule HPMC"
+    ],
+    "ingredients": [
+      "Gomme d’acacia",
+      "Hydroxypropylméthylcellulose",
+      "6S-5-méthyltétrahydrofolate de glucosamine"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Quatrefolic®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimea.com/products/acide-folique",
+    "ean": null,
+    "notes": "",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimea.com/products/acide-folique"
+    },
+    "units_pack": 120,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 400,
+    "active_unit": "µg"
+  },
+  {
+    "category": "biotin",
+    "brand": "Nutrimea",
+    "name": "Biotine Pro Men",
+    "variant": "gélules · 120",
+    "price_eur": 16.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "D-biotine",
+    "vegan": true,
+    "additives": [
+      "capsule HPMC"
+    ],
+    "ingredients": [
+      "Poudre de pépins de courge",
+      "Hydroxypropylméthylcellulose",
+      "Citrate de zinc",
+      "L-sélénométhionine",
+      "D-biotine"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimea.com/products/nutri-beard",
+    "ean": null,
+    "notes": "Par gélule : biotine 450 µg, zinc 12,34 mg, sélénium 50 µg, courge 200 mg. Autres nutriments par jour : sélénium 50 µg.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimea.com/products/nutri-beard"
+    },
+    "units_pack": 120,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 450,
+    "active_unit": "µg",
+    "nutrients": {
+      "zinc": 12.34,
+      "selenium": 50
+    },
+    "secondary_actives": [
+      {
+        "category": "zinc",
+        "per_day": 12.34,
+        "unit": "mg"
+      }
+    ]
+  },
+  {
+    "category": "probiotics",
+    "brand": "Nutrimea",
+    "name": "Probiotiques 7 souches",
+    "variant": "gélules · 60",
+    "price_eur": 19.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "7 espèces probiotiques non codées",
+    "vegan": true,
+    "additives": [
+      "amidon de maïs",
+      "capsule HPMC",
+      "amidon de riz"
+    ],
+    "ingredients": [
+      "Amidon de maïs",
+      "Lactococcus lactis",
+      "Streptococcus thermophilus",
+      "Lactobacillus acidophilus",
+      "Lactobacillus casei",
+      "Lactobacillus rhamnosus",
+      "Bifidobacterium bifidum",
+      "Bifidobacterium breve",
+      "Hydroxypropylméthylcellulose",
+      "Amidon de riz",
+      "Cholécalciférol"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimea.com/products/probioactif",
+    "ean": null,
+    "notes": "Liste quantitative ingrédients : 30 milliards UFC pour 2 gélules. Tableau titre 3×10⁹ semble erroné, alors que 7×4,3 milliards≈30 milliards ; FAQ 30 milliards/gélule non retenue. Les codes des souches ne sont pas publiés.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimea.com/products/probioactif"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 2,
+    "active_per_unit": 15,
+    "active_unit": "billion CFU",
+    "strains_count": 7,
+    "strains_coded": false,
+    "gastro_resistant": false,
+    "nutrients": {
+      "vitamin_d3": 200
+    },
+    "secondary_actives": [
+      {
+        "category": "vitamin_d3",
+        "per_day": 200,
+        "unit": "IU"
+      }
+    ]
+  },
+  {
+    "category": "probiotics",
+    "brand": "Nutrimuscle",
+    "name": "Mix Pré & Probiotiques",
+    "variant": "sans lactase · 60 g",
+    "price_eur": 24.95,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "Bacillus coagulans GBI-30 6086 sporulé et inuline",
+    "vegan": false,
+    "additives": [
+      "inuline"
+    ],
+    "ingredients": [
+      "Inuline",
+      "Bacillus coagulans GBI-30 6086 contenant du lait"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "GanedenBC30® / Frutafit®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimuscle.com/products/biotiques",
+    "ean": "5407008820374",
+    "notes": "Flacon 60 g : 60 portions de 1 g. Dose fabricant 1 g : 8,3 × 10⁸ UFC, soit 0,83 milliard UFC. Contient du lait malgré la mention vegan du descriptif commercial.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimuscle.com/products/biotiques"
+    },
+    "units_pack": 60,
+    "unit_name": "portion de 1 g",
+    "units_per_day": 1,
+    "active_per_unit": 0.83,
+    "active_unit": "billion CFU",
+    "format": "powder",
+    "strains_count": 1,
+    "strains_coded": true,
+    "gastro_resistant": true
+  },
+  {
+    "category": "tribulus",
+    "brand": "Nutrimuscle",
+    "name": "Testosterone Booster",
+    "variant": "gélules · 120",
+    "price_eur": 39.95,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "extrait de Tribulus terrestris titré à 40 % saponines",
+    "vegan": true,
+    "additives": [
+      "gélule pullulan"
+    ],
+    "ingredients": [
+      "Extrait de parties aériennes de Tribulus terrestris",
+      "Poudre de maca biologique",
+      "Pullulan",
+      "Extrait de racines et feuilles d’ashwagandha Shoden®",
+      "Koji fermenté Aspergillus oryzae Ultimine™ titré en zinc"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Shoden® / Ultimine™",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimuscle.com/products/testosterone-booster-gelules",
+    "ean": "5407010254907",
+    "notes": "4 gélules : extrait de tribulus 718 mg dont 287 mg de saponines, maca 539 mg, ashwagandha 180 mg, koji 163 mg. Zinc élémentaire non quantifié dans tableau ; aucune allégation concernant la testostérone reprise.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimuscle.com/products/testosterone-booster-gelules"
+    },
+    "units_pack": 120,
+    "unit_name": "gélule",
+    "units_per_day": 4,
+    "active_per_unit": 179.5,
+    "active_unit": "mg",
+    "nutrients": {
+      "maca": 539,
+      "ashwagandha": 180
+    },
+    "secondary_actives": [
+      {
+        "category": "maca",
+        "per_day": 539,
+        "unit": "mg"
+      },
+      {
+        "category": "ashwagandha",
+        "per_day": 180,
+        "unit": "mg"
+      }
+    ]
+  },
+  {
+    "category": "melatonin",
+    "brand": "Nutrixeal",
+    "name": "GoodNight®",
+    "variant": "gélules · 60",
+    "price_eur": 28.8,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "mélatonine, L-théanine, L-tryptophane et extraits végétaux",
+    "vegan": true,
+    "additives": [
+      "fibres d’acacia",
+      "gélule végétale"
+    ],
+    "ingredients": [
+      "L-théanine Isothéanine®",
+      "L-tryptophane",
+      "Extrait de passiflore à 2 % vitexine",
+      "Extrait de parties aériennes d’Eschscholzia californica à 0,25 % protopine",
+      "Fibres d’acacia",
+      "Mélatonine",
+      "Gélule végétale"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Isothéanine®",
+    "full_label": false,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/127-goodnight-sommeil-melatonine-theanine-tryptophane.html",
+    "ean": null,
+    "notes": "Par gélule : mélatonine 0,90 mg, théanine 120 mg, tryptophane 100 mg, passiflore 90 mg, Eschscholzia 90 mg. Dose basse fabricant 1 gélule ; fourchette 1–2. Matériau de gélule non précisé.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/127-goodnight-sommeil-melatonine-theanine-tryptophane.html"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 0.9,
+    "active_unit": "mg"
+  },
+  {
+    "category": "melatonin",
+    "brand": "Nutrixeal",
+    "name": "GABAnight®",
+    "variant": "gélules · 60",
+    "price_eur": 28.8,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "mélatonine, GABA et glycérophosphate de magnésium",
+    "vegan": true,
+    "additives": [
+      "gélule végétale"
+    ],
+    "ingredients": [
+      "GABA",
+      "Glycérophosphate de magnésium",
+      "Mélatonine",
+      "Gélule végétale"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": false,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/119-gabanight-complexe-gaba-magnesium-bisglycinate-melatonine-sommeil.html",
+    "ean": null,
+    "notes": "Référence GBN60G gélules : 500 mg GABA, 16 mg magnésium élémentaire et 1,75 mg mélatonine. Matériau de gélule non précisé.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/119-gabanight-complexe-gaba-magnesium-bisglycinate-melatonine-sommeil.html"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 1.75,
+    "active_unit": "mg",
+    "nutrients": {
+      "magnesium": 16
+    },
+    "secondary_actives": [
+      {
+        "category": "magnesium",
+        "per_day": 16,
+        "unit": "mg"
+      }
+    ]
+  },
+  {
+    "category": "iron",
+    "brand": "Nutrixeal",
+    "name": "Fer bisglycinate chélaté Albion® Ferrochel®",
+    "variant": "14 mg · 60 gélules",
+    "price_eur": 14.5,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "bisglycinate de fer",
+    "vegan": true,
+    "additives": [
+      "fibres d’acacia",
+      "gélule végétale"
+    ],
+    "ingredients": [
+      "Fibres d’acacia",
+      "Bisglycinate de fer",
+      "Gélule végétale"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Albion® Ferrochel®",
+    "full_label": false,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/112-fer-bisglycinate-chelate-qualite-ferrochel-en-gelules.html",
+    "ean": null,
+    "notes": "Référence FECB60 : 70 mg bisglycinate dont 14 mg fer élémentaire. Matériau de gélule non précisé.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/112-fer-bisglycinate-chelate-qualite-ferrochel-en-gelules.html"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 14,
+    "active_unit": "mg"
+  },
+  {
+    "category": "omega3",
+    "brand": "Nutrixeal",
+    "name": "Physio DHA Green®",
+    "variant": "gélules · 60",
+    "price_eur": 34,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "acides gras libres stabilisés par sel de lysine",
+    "vegan": true,
+    "additives": [
+      "huile de coco",
+      "gélule végétale"
+    ],
+    "ingredients": [
+      "Huile de Schizochytrium sp.",
+      "L-lysine",
+      "Triglycérides à chaîne moyenne issus de coco",
+      "Gélule végétale"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "AvailOm® Algae",
+    "full_label": false,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/104-physio-dha-green-gelules.html",
+    "ean": null,
+    "notes": "Par gélule : DHA 250 mg + EPA 10 mg. Matériau de gélule non précisé.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/104-physio-dha-green-gelules.html"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 260,
+    "active_unit": "mg"
+  },
+  {
+    "category": "magnesium",
+    "brand": "Nutrixeal",
+    "name": "Magnésium Bisglycinate Albion® Poudre",
+    "variant": "poudre · 200 g",
+    "price_eur": 15.6,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "bisglycinate de magnésium chélaté",
+    "vegan": true,
+    "additives": [],
+    "ingredients": [
+      "Bisglycinate de magnésium"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Albion® TRAACS®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/178-magnesium-bisglycinate-qualite-albion-traacs.html",
+    "ean": null,
+    "notes": "Conditionnement 200 g. Tableau fabricant : 1 dosette de 10 mL = 2,5 g dont 200 mg magnésium élémentaire. 200 / 2,5 = 80 portions. Calcul de valeur fondé sur les portions afin de conserver l’unité mg.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/178-magnesium-bisglycinate-qualite-albion-traacs.html"
+    },
+    "units_pack": 80,
+    "unit_name": "portion de 2,5 g",
+    "units_per_day": 1,
+    "active_per_unit": 200,
+    "active_unit": "mg",
+    "format": "powder"
+  },
+  {
+    "category": "vitamin_c",
+    "brand": "Nutrixeal",
+    "name": "Vitamine C Quali-C® Poudre",
+    "variant": "poudre · 150 g",
+    "price_eur": 11.7,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "acide L-ascorbique",
+    "vegan": true,
+    "additives": [],
+    "ingredients": [
+      "Acide L-ascorbique Quali-C®"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Quali-C®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/300-acide-ascorbique-vitamine-c-quali-c.html",
+    "ean": null,
+    "notes": "Conditionnement 150 g ; tableau fabricant 1 dosette de 1 mL = 1 g de vitamine C. 150 portions de 1 g, valeur calculée en mg.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/300-acide-ascorbique-vitamine-c-quali-c.html"
+    },
+    "units_pack": 150,
+    "unit_name": "portion de 1 g",
+    "units_per_day": 1,
+    "active_per_unit": 1000,
+    "active_unit": "mg",
+    "format": "powder"
+  },
+  {
+    "category": "collagen",
+    "brand": "Nutrixeal",
+    "name": "Collagène Marin Matcha",
+    "variant": "matcha · 200 g",
+    "price_eur": 17,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "hydrolysat de collagène marin Naticol®",
+    "vegan": false,
+    "additives": [
+      "fibres d’acacia"
+    ],
+    "ingredients": [
+      "Collagène marin de poisson Naticol®",
+      "Matcha",
+      "Glycine",
+      "Fibres d’acacia",
+      "Acide L-ascorbique"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Naticol®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/627-collagene-matcha.html",
+    "ean": null,
+    "notes": "Tableau 82 g collagène pour 100 g ; dose 4 g, soit 3,28 g (arrondi fabricant à 3,3 g). Ajout distinct de la poudre pure : glycine et vitamine C.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/627-collagene-matcha.html"
+    },
+    "format": "powder",
+    "pack_g": 200,
+    "serving_g": 4,
+    "active_per_100g": 82,
+    "active_per_serving_g": 3.28,
+    "nutrients": {
+      "vitamin_c": 20
+    },
+    "secondary_actives": [
+      {
+        "category": "vitamin_c",
+        "per_day": 20,
+        "unit": "mg"
+      }
+    ]
+  },
+  {
+    "category": "collagen",
+    "brand": "Nutrixeal",
+    "name": "Collagène Marin Hydrolysé Naticol®",
+    "variant": "nature · 250 g",
+    "price_eur": 19.5,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "hydrolysat de collagène marin de type I",
+    "vegan": false,
+    "additives": [],
+    "ingredients": [
+      "Peptides de collagène marin de poisson Naticol®"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Naticol®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/90-collagene-marin-hydrolyse-naticol.html",
+    "ean": null,
+    "notes": "Poudre pure composée uniquement d’hydrolysat de collagène. Portion fabricant à la cuillère à dessert ≈ 3 g ; protéines nutritionnelles 95 g/100 g distinctes du poids d’hydrolysat.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/90-collagene-marin-hydrolyse-naticol.html"
+    },
+    "format": "powder",
+    "pack_g": 250,
+    "serving_g": 3,
+    "active_per_100g": 100,
+    "active_per_serving_g": 3.0
+  },
+  {
+    "category": "potassium",
+    "brand": "Nutrixeal",
+    "name": "Citrate de Potassium",
+    "variant": "gélules · 60",
+    "price_eur": 19.5,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "citrate de potassium",
+    "vegan": true,
+    "additives": [
+      "fibres d’acacia",
+      "gélule pullulan"
+    ],
+    "ingredients": [
+      "Citrate de potassium",
+      "Fibres d’acacia",
+      "Pullulan"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/87-citrate-de-potassium-900-mg.html",
+    "ean": null,
+    "notes": "Par gélule : 900 mg citrate dont 325 mg potassium élémentaire. Dose basse fabricant 1 gélule ; fourchette 1–3.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/87-citrate-de-potassium-900-mg.html"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 325,
+    "active_unit": "mg"
+  },
+  {
+    "category": "collagen",
+    "brand": "Nutrixeal",
+    "name": "Ixeaderm®",
+    "variant": "90 comprimés",
+    "price_eur": 30,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "hydrolysat de collagène marin Verisol®",
+    "vegan": false,
+    "additives": [
+      "fibres d’acacia"
+    ],
+    "ingredients": [
+      "Peptides de collagène marin de poisson Verisol®",
+      "Extrait d’hibiscus",
+      "Extrait de pépins de raisin riche en polyphénols",
+      "Acide hyaluronique ExceptionHYAL® Star",
+      "Peptides d’élastine marine hydrolysée",
+      "Fibres d’acacia"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Verisol® / ExceptionHYAL® Star",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/154-ixeaderm-collagene-elastine-acide-hyaluronique-et-opc.html",
+    "ean": null,
+    "notes": "6 comprimés apportent 2550 mg collagène, 324 mg acide hyaluronique, 420 mg extrait de pépins de raisin, 102 mg élastine. Dose basse fabricant : 3 comprimés.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/154-ixeaderm-collagene-elastine-acide-hyaluronique-et-opc.html"
+    },
+    "units_pack": 90,
+    "unit_name": "comprimé",
+    "units_per_day": 3,
+    "active_per_unit": 0.425,
+    "active_unit": "g"
+  },
+  {
+    "category": "vitamin_c",
+    "brand": "Nutrixeal",
+    "name": "Acérola BIO 17 %",
+    "variant": "17 % · 60 gélules",
+    "price_eur": 15,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "vitamine C issue d’acérola",
+    "vegan": true,
+    "additives": [
+      "fibres d’acacia",
+      "huile de coco",
+      "capsule HPMC"
+    ],
+    "ingredients": [
+      "Extrait d’acérola biologique standardisé à 17 % vitamine C",
+      "Fibres d’acacia biologique",
+      "Huile de coco biologique",
+      "Hypromellose Vcaps® Plus"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/42-acerola-bio-vitamine-c.html",
+    "ean": null,
+    "notes": "Variante ACE17-60. Chaque gélule : 600 mg extrait dont 102 mg vitamine C. Dose basse fabricant 1 gélule, fourchette 1–4.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/42-acerola-bio-vitamine-c.html"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 102,
+    "active_unit": "mg"
+  },
+  {
+    "category": "b_complex",
+    "brand": "Nutrixeal",
+    "name": "IxeaRegul® Homocystéine",
+    "variant": "gélules · 60",
+    "price_eur": 25,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "B6 pyridoxal-5-phosphate, B9 5-MTHF, B12 méthylcobalamine et adénosylcobalamine",
+    "vegan": true,
+    "additives": [
+      "fibres d’acacia",
+      "gélule pullulan"
+    ],
+    "ingredients": [
+      "Fibres d’acacia",
+      "Pyridoxal 5-phosphate",
+      "6S-5-méthyltétrahydrofolate de glucosamine Quatrefolic®",
+      "Méthylcobalamine",
+      "5-déoxyadénosylcobalamine",
+      "Pullulan"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Quatrefolic®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/566-ixearegul-homocysteine-vitamines-b6-b9-et-b12-formes-actives-biodisponibles.html",
+    "ean": null,
+    "notes": "Complexe de 3 vitamines B : B6 1,4 mg, B9 500 µg, B12 10 µg par gélule. Ne contient pas les 8 vitamines du groupe B.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/566-ixearegul-homocysteine-vitamines-b6-b9-et-b12-formes-actives-biodisponibles.html"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": null,
+    "active_unit": "mg",
+    "form_quality": "bioactive",
+    "dose_style": "mixed",
+    "nutrients": {
+      "vitamin_b6": 1.4,
+      "folate": 500,
+      "vitamin_b12": 10
+    }
+  },
+  {
+    "category": "ashwagandha",
+    "brand": "Nutrixeal",
+    "name": "IxeaBoost® Energy 3 BIO",
+    "variant": "gélules · 60",
+    "price_eur": 25,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "extrait de racine d’ashwagandha titré à 5 % withanolides",
+    "vegan": true,
+    "additives": [
+      "fibres d’acacia",
+      "capsule HPMC"
+    ],
+    "ingredients": [
+      "Extrait de racine d’ashwagandha biologique à 5 % withanolides",
+      "Extrait de ginseng rouge coréen biologique à 25 % ginsénosides",
+      "Extrait de racine de Rhodiola rosea biologique à 3 % rosavines et 1 % salidroside",
+      "Fibres d’acacia biologique",
+      "Hypromellose Vcaps® Plus"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/514-ixeaboost-energy-3-ashwagandha-ksm-66-bio-ginseng-bio-et-rhodiola-bio-en-gelules.html",
+    "ean": null,
+    "notes": "4 gélules : ashwagandha 1000 mg, ginseng 400 mg, rhodiola 200 mg. Dose basse fabricant 1 gélule, fourchette 1–4. KSM-66 non attribué car le nom historique dans l’URL ne correspond plus aux ingrédients actuels.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/514-ixeaboost-energy-3-ashwagandha-ksm-66-bio-ginseng-bio-et-rhodiola-bio-en-gelules.html"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 250,
+    "active_unit": "mg",
+    "nutrients": {
+      "rhodiola": 50
+    },
+    "secondary_actives": [
+      {
+        "category": "rhodiola",
+        "per_day": 50,
+        "unit": "mg"
+      }
+    ]
+  },
+  {
+    "category": "omega3",
+    "brand": "Nutrixeal",
+    "name": "Lipidactif®",
+    "variant": "gélules · 60",
+    "price_eur": 26.6,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "oméga-3 de microalgue stabilisés par sel de lysine",
+    "vegan": true,
+    "additives": [
+      "gélule végétale"
+    ],
+    "ingredients": [
+      "Extrait d’ail noir ABG25+®",
+      "Huile de Schizochytrium sp.",
+      "L-lysine",
+      "Mélange de tocophérols et tocotriénols",
+      "Gélule végétale"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "AvailOm® Algae / ABG25+®",
+    "full_label": false,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/174-lipidactif-ail-noir-omega3-vitamine-e-sante-cardiovasculaire.html",
+    "ean": null,
+    "notes": "Par gélule : DHA 125 mg + EPA 5 mg, ail noir 250 mg, vitamine E 1 mg. Dose basse fabricant 1 gélule, fourchette 1–2. Matériau capsule non précisé. Autres nutriments par jour : vitamine E 1 mg.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/174-lipidactif-ail-noir-omega3-vitamine-e-sante-cardiovasculaire.html"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 130,
+    "active_unit": "mg",
+    "nutrients": {
+      "vitamin_e": 1
+    },
+    "secondary_actives": []
+  },
+  {
+    "category": "magnesium",
+    "brand": "Nutrixeal",
+    "name": "PhosphoMag®",
+    "variant": "poudre · 100 g",
+    "price_eur": 18.5,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "glycérophosphate de magnésium",
+    "vegan": true,
+    "additives": [],
+    "ingredients": [
+      "Glycérophosphate de magnésium"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/217-glycerophosphate-de-magnesium-pur-en-poudre-hydrosoluble.html",
+    "ean": null,
+    "notes": "Tableau : 1 dosette de 2,5 mL = 1,3 g dont 163 mg magnésium élémentaire. Conditionnement 100 g, soit 100/1,3 portions théoriques. Dose basse fabricant adulte 1 portion, fourchette 1–2.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/217-glycerophosphate-de-magnesium-pur-en-poudre-hydrosoluble.html"
+    },
+    "units_pack": 76.92307692307692,
+    "unit_name": "portion de 1,3 g",
+    "units_per_day": 1,
+    "active_per_unit": 163,
+    "active_unit": "mg",
+    "format": "powder"
+  },
+  {
+    "category": "vitamin_c",
+    "brand": "Nutrixeal",
+    "name": "Ester-C® PhytoComplex Poudre",
+    "variant": "poudre · 100 g",
+    "price_eur": 34,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "ascorbate de calcium thréonate et palmitate d’ascorbyle liposomal",
+    "vegan": true,
+    "additives": [
+      "lécithine de colza",
+      "fibres d’acacia",
+      "arôme naturel de fruit"
+    ],
+    "ingredients": [
+      "Ascorbate de calcium thréonate Ester-C®",
+      "Glycérophosphate de magnésium",
+      "Extrait d’orange douce à 50 % bioflavonoïdes",
+      "Lécithine de colza concentrée en phosphatidylcholine",
+      "Fibres d’acacia",
+      "Palmitate d’ascorbyle",
+      "Arôme naturel de fruit"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Ester-C® / ZetaGreen®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/111-vitamine-c-liposomale-en-poudre-non-acide-qualite-ester-c.html",
+    "ean": null,
+    "notes": "Le fabricant annonce 93 dosettes de 1 mL par flacon 100 g. Tableau : 799 mg vitamine C pour 2 dosettes. Valeurs moyennes selon remplissage rase ; dose basse fabricant 1 dosette, fourchette 1–2.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/111-vitamine-c-liposomale-en-poudre-non-acide-qualite-ester-c.html"
+    },
+    "units_pack": 93,
+    "unit_name": "dosette de 1 mL",
+    "units_per_day": 1,
+    "active_per_unit": 399.5,
+    "active_unit": "mg",
+    "format": "powder"
+  },
+  {
+    "category": "multivitamin",
+    "brand": "Nutrixeal",
+    "name": "IxeaBoost® Multi Premium",
+    "variant": "gélules · 120",
+    "price_eur": 29.5,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "vitamines, minéraux chélatés, oméga-3 et antioxydants",
+    "vegan": true,
+    "additives": [
+      "fibres d’acacia",
+      "gélule végétale"
+    ],
+    "ingredients": [
+      "Extrait de germes de quinoa standardisé en vitamines B",
+      "Glycine",
+      "Acide L-ascorbique Quali-C®",
+      "Huile de Schizochytrium sp.",
+      "L-lysine",
+      "N-acétyl-cystéine",
+      "6-palmitate de L-ascorbyle",
+      "Tocophérols et tocotriénols",
+      "Fibres d’acacia",
+      "L-carnosine",
+      "Glutathion réduit",
+      "Phosphatidylcholine",
+      "Bisglycinate de zinc Albion®",
+      "Extrait de Tagetes erecta microencapsulé FloraGLO®",
+      "Vitamine D3 extraite de pin",
+      "OPC de raisins",
+      "Resvératrol",
+      "Extrait de myrtille concentré en anthocyanes",
+      "Vitamine K2 vitaMK7®",
+      "Extrait de pin maritime Pycnogenol®",
+      "Extrait de melon concentré en SOD",
+      "Iodure de potassium",
+      "Méthylcobalamine",
+      "5-déoxyadénosylcobalamine",
+      "Vitamine B9 Quatrefolic®",
+      "Gélule végétale"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": false,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/522-multivitamines-multimineraux-multiantioxydants.html",
+    "ean": null,
+    "notes": "Dose basse fabricant 2 gélules, fourchette 2–4. Tableau par 4 gélules : B1 1,1 mg, B2 1,4 mg, B3 16 mg, B5 6 mg, B6 1,4 mg, B8 50 µg, B9 200 µg, B12 7,5 µg, C 250 mg, D3 50 µg, E 12 mg, K2 75 µg, iode 60 µg, zinc 5 mg. Matériau de gélule et certains supports de microencapsulation non détaillés.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/522-multivitamines-multimineraux-multiantioxydants.html"
+    },
+    "units_pack": 120,
+    "unit_name": "gélule",
+    "units_per_day": 2,
+    "active_per_unit": null,
+    "active_unit": "mg",
+    "form_quality": "standard",
+    "dose_style": "mixed",
+    "nutrients": {
+      "vitamin_b1": 0.55,
+      "vitamin_b2": 0.7,
+      "vitamin_b3": 8,
+      "vitamin_b5": 3,
+      "vitamin_b6": 0.7,
+      "biotin": 25,
+      "folate": 100,
+      "vitamin_b12": 3.75,
+      "vitamin_c": 125,
+      "vitamin_d3": 1000,
+      "vitamin_e": 6,
+      "vitamin_k2": 37.5,
+      "iodine": 30,
+      "zinc": 2.5,
+      "omega3": 32.15
+    }
+  },
+  {
+    "category": "magnesium",
+    "brand": "Dynveo",
+    "name": "Complexe Essentiel",
+    "variant": "gélules · 60",
+    "price_eur": 19.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "malate de magnésium avec oméga-3 et D3",
+    "vegan": true,
+    "additives": [
+      "gélule pullulan"
+    ],
+    "ingredients": [
+      "Malate de magnésium",
+      "Huile de Schizochytrium sp.",
+      "L-lysine",
+      "Cholécalciférol issu de lichen",
+      "Pullulan"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": false,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.dynveo.fr/products/complexe-essentiel",
+    "ean": null,
+    "notes": "2 gélules : magnésium élémentaire 90 mg, DHA 125 mg, EPA 5 mg, vitamine D3 25 µg. La D3 est annoncée microencapsulée sans matériaux détaillés.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.dynveo.fr/products/complexe-essentiel"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 2,
+    "active_per_unit": 45,
+    "active_unit": "mg",
+    "nutrients": {
+      "vitamin_d3": 1000,
+      "omega3": 130
+    },
+    "secondary_actives": [
+      {
+        "category": "vitamin_d3",
+        "per_day": 1000,
+        "unit": "IU"
+      },
+      {
+        "category": "omega3",
+        "per_day": 130,
+        "unit": "mg"
+      }
+    ]
+  },
+  {
+    "category": "ashwagandha",
+    "brand": "Dynveo",
+    "name": "Complexe Sommeil Profond nREM",
+    "variant": "gélules · 60",
+    "price_eur": 29.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "extrait d’ashwagandha Shoden® à 35 % withanolides",
+    "vegan": true,
+    "additives": [
+      "gélule pullulan"
+    ],
+    "ingredients": [
+      "Extrait sec d’ashwagandha",
+      "Hydrolysat de protéines de riz brun PeptiSleep™",
+      "Extrait sec de passiflore biologique",
+      "Extrait de stigmates de safran biologique SAFFR’ACTIV®",
+      "Pullulan"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Shoden® / PeptiSleep™ / SAFFR’ACTIV®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.dynveo.fr/products/complexe-sommeil-profond",
+    "ean": null,
+    "notes": "Par gélule : ashwagandha 120 mg dont 42 mg withanolides, PeptiSleep 250 mg, passiflore 60 mg, safran 30 mg. Formule sans mélatonine ; classée selon son ashwagandha.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.dynveo.fr/products/complexe-sommeil-profond"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 120,
+    "active_unit": "mg"
+  },
+  {
+    "category": "omega3",
+    "brand": "Nutrimea",
+    "name": "Oméga 3 Huile de Poisson & Krill",
+    "variant": "gélules · 60",
+    "price_eur": 17.01,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "huile de poisson et phospholipides de krill",
+    "vegan": false,
+    "additives": [
+      "gélatine de poisson"
+    ],
+    "ingredients": [
+      "Huile de poisson Omegavie®",
+      "Gélatine de poisson Licaps®",
+      "Extrait lipidique de krill de l’Antarctique"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Omegavie® / Licaps®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimea.com/products/3-omega-3-krill",
+    "ean": null,
+    "notes": "2 gélules : huile de poisson 940 mg, huile de krill 100 mg ; EPA 289 mg + DHA 193 mg. Malgré le titre du fabricant, il ne s’agit pas d’huile de krill pure. Prix public remisé observé 17,01 €.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimea.com/products/3-omega-3-krill"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 2,
+    "active_per_unit": 241,
+    "active_unit": "mg"
+  },
+  {
+    "category": "multivitamin",
+    "brand": "Nutrimuscle",
+    "name": "Multivitamines Max",
+    "variant": "gélules · 30",
+    "price_eur": 24.95,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "vitamines standard et formes actives de B2, B9 et K2",
+    "vegan": false,
+    "additives": [
+      "gélatine de bœuf"
+    ],
+    "ingredients": [
+      "Acide L-ascorbique",
+      "Gélatine de bœuf",
+      "Niacinamide",
+      "Tocotriénols et tocophérols EVNol®",
+      "D-pantothénate de calcium",
+      "Chlorhydrate de pyridoxine",
+      "Mononitrate de thiamine",
+      "Riboflavine-5-phosphate de sodium",
+      "Acétate de rétinyle",
+      "L-méthylfolate de calcium Metafolin®",
+      "D-biotine",
+      "Ménaquinone-7",
+      "Phylloquinone",
+      "Cholécalciférol",
+      "Cyanocobalamine"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimuscle.com/products/multivitamines-max-en-gelules",
+    "ean": "5407010253498",
+    "notes": "Par gélule : C 144,8 mg, B3 14,48 mg, E 13,35 mg, B5 8,62 mg, B6 1,82 mg, B1 et B2 1,52 mg chacun, A 517 µg, B9 179 µg, B8 114 µg, K2 87 µg, K1 50 µg, D3 38 µg, B12 2,7 µg.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimuscle.com/products/multivitamines-max-en-gelules"
+    },
+    "units_pack": 30,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": null,
+    "active_unit": "mg",
+    "form_quality": "standard",
+    "dose_style": "mixed",
+    "nutrients": {
+      "vitamin_c": 144.8,
+      "vitamin_b3": 14.48,
+      "vitamin_e": 13.35,
+      "vitamin_b5": 8.62,
+      "vitamin_b6": 1.82,
+      "vitamin_b1": 1.52,
+      "vitamin_b2": 1.52,
+      "vitamin_a": 517,
+      "folate": 179,
+      "biotin": 114,
+      "vitamin_k2": 87,
+      "vitamin_k1": 50,
+      "vitamin_d3": 1520,
+      "vitamin_b12": 2.7
+    }
+  },
+  {
+    "category": "multivitamin",
+    "brand": "Nutrimuscle",
+    "name": "Complexe Vitamines & Minéraux",
+    "variant": "gélules · 60",
+    "price_eur": 26.95,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "vitamines standard, zinc fermenté et formes actives de B2 et B9",
+    "vegan": false,
+    "additives": [
+      "gélule pullulan"
+    ],
+    "ingredients": [
+      "Acide L-ascorbique Quali®-C",
+      "Koji fermenté Aspergillus oryzae Ultimine™ titré en zinc",
+      "Extrait de plante entière de Fucus vesiculosus titré en iode avec allergènes poisson mollusques crustacés",
+      "Pullulan",
+      "Tocotriénols et tocophérols EVNol®",
+      "Niacinamide",
+      "D-pantothénate de calcium",
+      "Chlorhydrate de pyridoxine",
+      "Mononitrate de thiamine",
+      "Riboflavine-5-phosphate de sodium",
+      "Acétate de rétinyle",
+      "L-méthylfolate de calcium Metafolin®",
+      "D-biotine",
+      "Ménaquinone",
+      "Phylloquinone",
+      "Cholécalciférol",
+      "Cyanocobalamine",
+      "L-sélénométhionine"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrimuscle.com/products/complexe-vitamines-mineraux",
+    "ean": "5407008824082",
+    "notes": "Tableau nutritionnel et conseils : 1 gélule par jour, malgré 30 doses affichées dans le sélecteur 60 gélules. Par gélule C 116 mg, E 21 mg, zinc 5,85 mg, iode 67,5 µg, D3 25 µg, B12 2,15 µg, B9 143 µg. Origine de D3 non établie végétale et fucus déclare des allergènes marins.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimuscle.com/products/complexe-vitamines-mineraux"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": null,
+    "active_unit": "mg",
+    "form_quality": "standard",
+    "dose_style": "mixed",
+    "nutrients": {
+      "vitamin_c": 116,
+      "vitamin_e": 21,
+      "vitamin_b3": 11.6,
+      "vitamin_b5": 6.9,
+      "vitamin_b6": 1.45,
+      "vitamin_b1": 1.21,
+      "vitamin_b2": 1.21,
+      "vitamin_a": 413,
+      "folate": 143,
+      "biotin": 91,
+      "vitamin_k1": 40,
+      "vitamin_d3": 1000,
+      "vitamin_b12": 2.15,
+      "vitamin_k2": 57.5,
+      "zinc": 5.85,
+      "iodine": 67.5,
+      "selenium": 28.5
+    }
+  },
+  {
+    "category": "collagen",
+    "brand": "Nutrixeal",
+    "name": "OvoCartil® Ovomet®",
+    "variant": "gélules · 60",
+    "price_eur": 24.5,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "collagène natif de membrane d’œuf",
+    "vegan": false,
+    "additives": [
+      "fibres d’acacia",
+      "huile de coco",
+      "gélule pullulan"
+    ],
+    "ingredients": [
+      "Membrane d’œuf de poule Ovomet®",
+      "Carbonate de calcium de coquille d’œuf",
+      "Fibres d’acacia",
+      "Huile de coco",
+      "Pullulan"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Ovomet®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/208-ovocartil-membrane-d-oeuf.html",
+    "ean": null,
+    "notes": "Chaque gélule contient 300 mg de membrane d’œuf dont 22 % de collagène, soit 66 mg. Dose basse fabricant 1 gélule, fourchette 1–2. Les 300 mg de membrane ne sont pas assimilés à 300 mg de collagène.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/208-ovocartil-membrane-d-oeuf.html"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 1,
+    "active_per_unit": 0.066,
+    "active_unit": "g"
+  },
+  {
+    "category": "potassium",
+    "brand": "Nutrixeal",
+    "name": "IxeaBase® Minéraux Alcalinisants",
+    "variant": "100 gélules",
+    "price_eur": 14.5,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "citrate de potassium avec calcium et magnésium",
+    "vegan": true,
+    "additives": [
+      "gélule végétale"
+    ],
+    "ingredients": [
+      "Citrate de potassium",
+      "Citrate de calcium",
+      "Glycérophosphate de magnésium",
+      "Glycérophosphate de calcium",
+      "Citrate de magnésium",
+      "Gélule végétale"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": false,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/152-ixeabase-mineraux-alcalinisants.html",
+    "ean": null,
+    "notes": "Tableau 6 gélules : potassium élémentaire 912 mg, calcium 236 mg, magnésium 94 mg, phosphore 126 mg. Dose basse fabricant 4 gélules, fourchette 4–6. Matériau capsule non précisé. Autres nutriments par jour : calcium 157.333 mg, phosphore 84 mg.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/152-ixeabase-mineraux-alcalinisants.html"
+    },
+    "units_pack": 100,
+    "unit_name": "gélule",
+    "units_per_day": 4,
+    "active_per_unit": 152.0,
+    "active_unit": "mg",
+    "nutrients": {
+      "magnesium": 62.666667,
+      "calcium": 157.333333,
+      "phosphorus": 84
+    },
+    "secondary_actives": [
+      {
+        "category": "magnesium",
+        "per_day": 62.666667,
+        "unit": "mg"
+      }
+    ]
+  },
+  {
+    "category": "collagen",
+    "brand": "Nutrixeal",
+    "name": "Recovery Booster® Nutratrail®",
+    "variant": "menthe · 250 g",
+    "price_eur": 26,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "hydrolysat de collagène marin avec acides aminés",
+    "vegan": false,
+    "additives": [
+      "fibres d’acacia",
+      "arôme naturel de menthe"
+    ],
+    "ingredients": [
+      "Peptides de collagène marin de poisson Naticol®",
+      "Glycine",
+      "L-citrulline",
+      "Glycérophosphate de magnésium",
+      "L-alanyl-glutamine",
+      "Fibres d’acacia",
+      "Acide L-ascorbique Quali-C®",
+      "Arôme naturel de menthe",
+      "Chlorhydrate de pyridoxine"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Naticol® / Quali-C®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/555-recovery-booster-une-boisson-premium-de-recuperation-musculaire-apres-sport-par-nutratrail.html",
+    "ean": null,
+    "notes": "Référence NRBM250. Tableau : 48 g de collagène pour 100 g. 1 dosette ≈ 12,5 g selon fabricant, soit 6 g de collagène. Dose basse fabricant 1 dosette, fourchette 1–2 ; les autres acides aminés ne sont pas inclus dans le collagène. Autres nutriments par jour : B6 0.35 mg, phosphore 159 mg.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/555-recovery-booster-une-boisson-premium-de-recuperation-musculaire-apres-sport-par-nutratrail.html"
+    },
+    "format": "powder",
+    "pack_g": 250,
+    "serving_g": 12.5,
+    "active_per_100g": 48,
+    "active_per_serving_g": 6.0,
+    "nutrients": {
+      "magnesium": 125,
+      "vitamin_c": 80,
+      "vitamin_b6": 0.35,
+      "phosphorus": 159
+    },
+    "secondary_actives": [
+      {
+        "category": "magnesium",
+        "per_day": 125,
+        "unit": "mg"
+      },
+      {
+        "category": "vitamin_c",
+        "per_day": 80,
+        "unit": "mg"
+      }
+    ]
+  },
+  {
+    "category": "whey",
+    "brand": "Dynveo",
+    "name": "Whey Native Isolate",
+    "variant": "nature · 1 kg",
+    "price_eur": 59.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "isolat de protéines de lactosérum natives",
+    "vegan": false,
+    "additives": [],
+    "ingredients": [
+      "Isolat de protéines de lactosérum natives du lait"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [
+      "En rupture de stock au relevé du 9 octobre 2026."
+    ],
+    "confidence": "medium",
+    "url": "https://www.dynveo.fr/products/whey-native-isolate",
+    "ean": null,
+    "notes": "Prix fabricant affiché malgré la rupture. Tableau : 95 g de protéines pour 100 g ; dose 30 g.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.dynveo.fr/products/whey-native-isolate"
+    },
+    "format": "powder",
+    "pack_g": 1000,
+    "serving_g": 30,
+    "active_per_100g": 95,
+    "active_per_serving_g": 28.5
+  },
+  {
+    "category": "tribulus",
+    "brand": "Nutrixeal",
+    "name": "Tribulus Premium",
+    "variant": "gélules · 60",
+    "price_eur": 35,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "extrait de Tribulus terrestris à 60 % furostanol saponines",
+    "vegan": true,
+    "additives": [
+      "fibres d’acacia",
+      "huile de coco",
+      "gélule pullulan"
+    ],
+    "ingredients": [
+      "Extrait de Tribulus terrestris standardisé à 60 % furostanol saponines",
+      "Fibres d’acacia",
+      "Huile de coco",
+      "Pullulan"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [
+      "En rupture de stock au relevé du 9 octobre 2026."
+    ],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/275-tribulus-terrestris-premium-concentre-en-furostanol-saponines.html",
+    "ean": null,
+    "notes": "Prix fabricant affiché malgré la rupture. 400 mg d’extrait dont 240 mg furostanol saponines par gélule. Dose basse fabricant 2 gélules, fourchette 2–3.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/275-tribulus-terrestris-premium-concentre-en-furostanol-saponines.html"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 2,
+    "active_per_unit": 400,
+    "active_unit": "mg"
+  },
+  {
+    "category": "tribulus",
+    "brand": "Nutrixeal",
+    "name": "Tribulus Standardisé",
+    "variant": "gélules · 90",
+    "price_eur": 25,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "extrait de Tribulus terrestris titré à 40 % saponines",
+    "vegan": true,
+    "additives": [
+      "gélule pullulan"
+    ],
+    "ingredients": [
+      "Extrait de Tribulus terrestris à 40 % saponines",
+      "Pullulan"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [
+      "En rupture de stock au relevé du 9 octobre 2026."
+    ],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/273-tribulus-terrestris-40-saponines-750-mg.html",
+    "ean": null,
+    "notes": "Prix fabricant affiché malgré la rupture. 750 mg d’extrait dont 300 mg saponines par gélule. Dose basse fabricant 2 gélules, fourchette 2–3. Version non biologique distincte de la formule Bio 500 mg.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/273-tribulus-terrestris-40-saponines-750-mg.html"
+    },
+    "units_pack": 90,
+    "unit_name": "gélule",
+    "units_per_day": 2,
+    "active_per_unit": 750,
+    "active_unit": "mg"
+  },
+  {
+    "category": "omega3",
+    "brand": "Nutrixeal",
+    "name": "DHA Green® Poudre",
+    "variant": "poudre · 100 g",
+    "price_eur": 28,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "triglycérides rTG de microalgues microencapsulés",
+    "vegan": true,
+    "additives": [
+      "maltodextrine"
+    ],
+    "ingredients": [
+      "Huile de Schizochytrium sp.",
+      "Maltodextrine"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [
+      "En rupture de stock au relevé du 9 octobre 2026."
+    ],
+    "confidence": "medium",
+    "url": "https://www.nutrixeal.fr/545-dha-green-poudre-omega-3-dha-vegan.html",
+    "ean": null,
+    "notes": "Prix fabricant affiché malgré la rupture. Le fabricant déclare 80 dosettes pour 100 g, 125 mg DHA par dosette ; dose adulte 2 dosettes. Aucun EPA quantifié. La valeur utilise le nombre explicite de portions.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrixeal.fr/545-dha-green-poudre-omega-3-dha-vegan.html"
+    },
+    "units_pack": 80,
+    "unit_name": "dosette de 2,5 mL",
+    "units_per_day": 2,
+    "active_per_unit": 125,
+    "active_unit": "mg",
+    "format": "powder"
+  },
+  {
+    "category": "biotin",
+    "brand": "Nutrimea",
+    "name": "Anti-Chute de Cheveux Keranat™",
+    "variant": "gélules · 60",
+    "price_eur": 18.9,
+    "price_note": "Prix fabricant observé le 2026-10-09, achat à l’unité hors abonnement, adhésion et livraison.",
+    "form": "biotine dans un complexe Keranat™ et plantes",
+    "vegan": true,
+    "additives": [
+      "phosphate dicalcique",
+      "huile de tournesol",
+      "extrait de romarin",
+      "capsule HPMC",
+      "gomme d’acacia",
+      "amidon"
+    ],
+    "ingredients": [
+      "Phosphate dicalcique",
+      "Extrait de graine de millet",
+      "Extrait de graine de blé",
+      "Huile de tournesol pressée à froid",
+      "Extrait de feuilles de romarin",
+      "Hydroxypropylméthylcellulose",
+      "Gomme d’acacia",
+      "Extrait de partie aérienne de cheveux de Vénus",
+      "Poudre de partie aérienne de prêle",
+      "Amidon",
+      "Pidolate de zinc",
+      "Levure enrichie en sélénium",
+      "Chlorhydrate de pyridoxine",
+      "Biotine"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Keranat™",
+    "full_label": true,
+    "flags": [
+      "En rupture de stock au relevé du 9 octobre 2026."
+    ],
+    "confidence": "medium",
+    "url": "https://www.nutrimea.com/products/anti-chute",
+    "ean": null,
+    "notes": "Prix fabricant affiché malgré la rupture. Complexe pour cheveux, avec 25 µg biotine par dose de 2 gélules ; Keranat 300 mg, cheveux de Vénus 150 mg, prêle 50 mg, zinc 5 mg, B6 0,7 mg, sélénium 27,5 µg. Présence de blé déclarée. Autres nutriments par jour : B6 0.7 mg, sélénium 27.5 µg.",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.nutrimea.com/products/anti-chute"
+    },
+    "units_pack": 60,
+    "unit_name": "gélule",
+    "units_per_day": 2,
+    "active_per_unit": 12.5,
+    "active_unit": "µg",
+    "nutrients": {
+      "zinc": 5,
+      "vitamin_b6": 0.7,
+      "selenium": 27.5
+    },
+    "secondary_actives": [
+      {
+        "category": "zinc",
+        "per_day": 5,
+        "unit": "mg"
+      }
+    ]
+  }
+]

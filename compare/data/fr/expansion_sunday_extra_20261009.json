@@ -1,0 +1,727 @@
+[
+  {
+    "brand": "Sunday Natural",
+    "name": "Flora Système Immunitaire",
+    "category": "probiotics",
+    "variant": "60 gélules",
+    "units_pack": 60,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 10,
+    "active_unit": "billion CFU",
+    "form": "Lactobacillus plantarum LP28 et L. rhamnosus LRH113, DRcaps®",
+    "additives": [
+      "fibres de haricot de guar",
+      "maltodextrine",
+      "cellulose microcristalline",
+      "gélule végétale HPMC"
+    ],
+    "price_eur": 19.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "url": "https://www.sunday.fr/flora-systeme-immunitaire-gelules.html",
+    "ean": "4260677586702",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/flora-systeme-immunitaire-gelules.html"
+    },
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "10 milliards UFC par gélule ; 40 mg vitamine C tamponnée sous forme d’ascorbate de calcium et fibres Sunfiber 75 mg. 1 gélule/j dans le tableau et les conseils.",
+    "vegan": true,
+    "strains_count": 2,
+    "strains_coded": true,
+    "gastro_resistant": true,
+    "nutrients": {
+      "vitamin_c": 40
+    },
+    "secondary_actives": [
+      {
+        "category": "vitamin_c",
+        "per_day": 40,
+        "unit": "mg"
+      }
+    ]
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Vitamines D3 + K2 MK7 (1 000 UI + 50 µg) En Gouttes",
+    "category": "vitamin_d3",
+    "variant": "gouttes · 7,8 ml · 300 gouttes",
+    "units_pack": 300,
+    "units_per_day": 1,
+    "unit_name": "goutte",
+    "active_per_unit": 1000,
+    "active_unit": "IU",
+    "form": "cholécalciférol issu d’algues et vitamine K2 MK-7 K2VITAL®",
+    "additives": [
+      "huile MCT"
+    ],
+    "price_eur": 8.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "url": "https://www.sunday.fr/vitamines-d3-1000-plus-k2-mk7-50mcg-100-pourcent-tout-trans-vegan.html",
+    "ean": "4260677599993",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/vitamines-d3-1000-plus-k2-mk7-50mcg-100-pourcent-tout-trans-vegan.html"
+    },
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "K2VITAL®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "300 gouttes explicites ; 1 goutte/j apporte1000UI D3 et50µg K2. Support MCT coco.",
+    "vegan": true,
+    "nutrients": {
+      "vitamin_k2": 50
+    },
+    "secondary_actives": [
+      {
+        "category": "vitamin_k2",
+        "per_day": 50,
+        "unit": "µg"
+      }
+    ]
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Vitamine B12 bioactive formule MH3A® 500 µg",
+    "category": "vitamin_b12",
+    "variant": "120 gélules",
+    "units_pack": 120,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 500,
+    "active_unit": "µg",
+    "form": "méthylcobalamine, hydroxocobalamine et adénosylcobalamine MH3A®",
+    "additives": [
+      "gomme arabique",
+      "gélule végétale HPMC"
+    ],
+    "price_eur": 12.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "url": "https://www.sunday.fr/b12-formule-mha-bioactive.html",
+    "ean": "4260677599719",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/b12-formule-mha-bioactive.html"
+    },
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "MH3A®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "500 µg B12 par gélule, chaque famille de cobalamines arrondie à166 µg. 1 gélule/j.",
+    "vegan": true
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Vitamine B12 5 000 µg Formule MH3A® à dosage élevé",
+    "category": "vitamin_b12",
+    "variant": "90 gélules",
+    "units_pack": 90,
+    "units_per_day": 0.2,
+    "unit_name": "gélule",
+    "active_per_unit": 5000,
+    "active_unit": "µg",
+    "form": "méthylcobalamine, hydroxocobalamine et adénosylcobalamine MH3A®",
+    "additives": [
+      "fibres d’acacia",
+      "gélule végétale HPMC"
+    ],
+    "price_eur": 24.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "url": "https://www.sunday.fr/b12-mha-formule-bioactive-5000-dosage-eleve.html",
+    "ean": "4069484002173",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/b12-mha-formule-bioactive-5000-dosage-eleve.html"
+    },
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "MH3A®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "Tableau et conseils : 1 gélule5000 µg tous les5 jours, soit0,2 gélule/j et1000 µg/j en moyenne arithmétique. Ni estimation d’absorption ni promesse de traitement de carence reprise.",
+    "vegan": true
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Flora Essentials 14 HIT Sensitive",
+    "category": "probiotics",
+    "variant": "90 gélules",
+    "units_pack": 90,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 10,
+    "active_unit": "billion CFU",
+    "form": "14 cultures bactériennes, avec fibres de guar Sunfiber®",
+    "additives": [
+      "cellulose microcristalline",
+      "fibres de haricot de guar",
+      "gélule végétale HPMC",
+      "gomme gellane"
+    ],
+    "price_eur": 24.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "url": "https://www.sunday.fr/flora-essentials-14-hit-90-gelules.html",
+    "ean": "4069484002869",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/flora-essentials-14-hit-90-gelules.html"
+    },
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Sunfiber®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "10 milliards UFC/gélule et80 mg fibres de guar ; 1 gélule/j. Liste des espèces sans codes de souches. Gélules DRcaps gastro-résistantes déclarées sur la fiche.",
+    "vegan": true,
+    "strains_count": 14,
+    "strains_coded": false,
+    "gastro_resistant": true
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Vitamines D3 + K2 MK7 1 000 UI + 50 µg - 300 Gouttes",
+    "category": "vitamin_d3",
+    "variant": "300 gouttes",
+    "units_pack": 300,
+    "units_per_day": 1,
+    "unit_name": "goutte",
+    "active_per_unit": 1000,
+    "active_unit": "IU",
+    "form": "cholécalciférol de lanoline et vitamine K2 MK-7 K2VITAL®",
+    "additives": [
+      "huile MCT"
+    ],
+    "price_eur": 8.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "url": "https://www.sunday.fr/vitamines-d3-1000-plus-k2-mk7-50mcg-100-pourcent-tout-trans.html",
+    "ean": "4069484003828",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/vitamines-d3-1000-plus-k2-mk7-50mcg-100-pourcent-tout-trans.html"
+    },
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "K2VITAL®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "300 gouttes explicites ; D3 issue de laine de mouton, K2 origine végétale. 1 goutte 1000 UI D3+50 µg K2/j. Calcul fondé sur300 gouttes ; volume de flacon non utilisé pour inférer la capacité.",
+    "vegan": false,
+    "nutrients": {
+      "vitamin_k2": 50
+    },
+    "secondary_actives": [
+      {
+        "category": "vitamin_k2",
+        "per_day": 50,
+        "unit": "µg"
+      }
+    ]
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Vitamines D E K A",
+    "category": "vitamin_d3",
+    "variant": "gouttes · 20 ml · 600 gouttes",
+    "units_pack": 600,
+    "units_per_day": 1,
+    "unit_name": "goutte",
+    "active_per_unit": 1000,
+    "active_unit": "IU",
+    "form": "cholécalciférol avec vitamines K2 MK-7, A et E",
+    "additives": [
+      "huile MCT",
+      "huile de tournesol"
+    ],
+    "price_eur": 16.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "url": "https://www.sunday.fr/vitamines-d-e-k-a-1000-ui-gouttes.html",
+    "ean": "4069484003897",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/vitamines-d-e-k-a-1000-ui-gouttes.html"
+    },
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "1 goutte/j : D3 1000 UI,K2 40 µg,A 150 µg,E 12,35 mg. Total explicite 20 ml/600 gouttes. D3 végétarienne ; la variante vegan est distincte.",
+    "vegan": false,
+    "nutrients": {
+      "vitamin_k2": 40,
+      "vitamin_a": 150,
+      "vitamin_e": 12.35
+    },
+    "secondary_actives": [
+      {
+        "category": "vitamin_k2",
+        "per_day": 40,
+        "unit": "µg"
+      }
+    ]
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Vitamine B12 1 000 µg Formule MH3A®",
+    "category": "vitamin_b12",
+    "variant": "120 gélules",
+    "units_pack": 120,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 1000,
+    "active_unit": "µg",
+    "form": "méthylcobalamine, hydroxocobalamine et adénosylcobalamine MH3A®",
+    "additives": [
+      "fibres d’acacia",
+      "gélule végétale HPMC"
+    ],
+    "price_eur": 14.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "url": "https://www.sunday.fr/b12-mh3a-formule-bioactive-1000ug.html",
+    "ean": "4260677599443",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/b12-mh3a-formule-bioactive-1000ug.html"
+    },
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "MH3A®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "1 gélule/j1000 µg B12 ; trois familles cobalamines arrondies à333 µg chacune. Distinct des comprimés à fibres de guar et du produit associé aux folates.",
+    "vegan": true
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Gélules d'acide folique (folate) Quatrefolic® 400 µg",
+    "category": "folate",
+    "variant": "120 gélules",
+    "units_pack": 120,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 400,
+    "active_unit": "µg",
+    "form": "(6S)-5-méthyltétrahydrofolate sel de glucosamine Quatrefolic®",
+    "additives": [
+      "fibres d’acacia",
+      "gélule végétale HPMC"
+    ],
+    "price_eur": 9.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "url": "https://www.sunday.fr/acide-folique-acide-levomefolique-400-bioactif-quatrefolic.html",
+    "ean": "4260677600484",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/acide-folique-acide-levomefolique-400-bioactif-quatrefolic.html"
+    },
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Quatrefolic®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "400 µg folates par gélule ; fabricant 1/j.",
+    "vegan": true
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Complexe de vitamines B liposomales",
+    "category": "b_complex",
+    "variant": "liquide · 250 ml",
+    "units_pack": 50,
+    "units_per_day": 1,
+    "unit_name": "portion de 5 ml",
+    "active_per_unit": 0,
+    "active_unit": "daily complex",
+    "form": "vitamines B liposomales : thiamine, riboflavine, nicotinamide, pantothénate, pyridoxine, biotine, acide folique et méthylcobalamine",
+    "additives": [
+      "eau",
+      "glycérol",
+      "phospholipides de tournesol",
+      "acide malique",
+      "extrait de romarin"
+    ],
+    "price_eur": 21.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "url": "https://www.sunday.fr/complexe-vitamines-b-liposomales-liquide.html",
+    "ean": "4069484002340",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/complexe-vitamines-b-liposomales-liquide.html"
+    },
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "Dose quotidienne 5 ml selon tableau et posologie ;50 portions/flacon. Extrait argousier5 mg/portion.",
+    "vegan": true,
+    "format": "liquid",
+    "form_quality": "standard",
+    "dose_style": "mixed",
+    "nutrients": {
+      "vitamin_b1": 1,
+      "vitamin_b2": 1.5,
+      "vitamin_b3": 16,
+      "vitamin_b5": 6,
+      "vitamin_b6": 1.5,
+      "biotin": 50,
+      "folate": 250,
+      "vitamin_b12": 50
+    }
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Vitamines D E K A, 1 000, vegan, 600 gouttes",
+    "category": "vitamin_d3",
+    "variant": "vegan · gouttes · 20 ml · 600 gouttes",
+    "units_pack": 600,
+    "units_per_day": 1,
+    "unit_name": "goutte",
+    "active_per_unit": 1000,
+    "active_unit": "IU",
+    "form": "cholécalciférol issu d’algues avec vitamines K2 MK-7, A et E",
+    "additives": [
+      "huile MCT",
+      "huile de tournesol"
+    ],
+    "price_eur": 24.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "url": "https://www.sunday.fr/vitamines-d-e-k-a-1000-ui-gouttes-vegan.html",
+    "ean": "4069484006836",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/vitamines-d-e-k-a-1000-ui-gouttes-vegan.html"
+    },
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "K2VITAL®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "1 goutte/j : D3 1000 UI,K2 40 µg,A 150 µg,E 12,35 mg. Total explicite 20 ml/600 gouttes. D3 issue d’algues ; distinct de la variante végétarienne.",
+    "vegan": true,
+    "nutrients": {
+      "vitamin_k2": 40,
+      "vitamin_a": 150,
+      "vitamin_e": 12.35
+    },
+    "secondary_actives": [
+      {
+        "category": "vitamin_k2",
+        "per_day": 40,
+        "unit": "µg"
+      }
+    ]
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Flora Femina",
+    "category": "probiotics",
+    "variant": "60 gélules",
+    "units_pack": 60,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 6,
+    "active_unit": "billion CFU",
+    "form": "6 cultures bactériennes codées, DRcaps®",
+    "additives": [
+      "fibres de haricot de guar",
+      "maltodextrine",
+      "cellulose microcristalline",
+      "gélule végétale HPMC"
+    ],
+    "price_eur": 22.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "url": "https://www.sunday.fr/flora-femina-gelules.html",
+    "ean": "4069484002883",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/flora-femina-gelules.html"
+    },
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Sunfiber®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "1 gélule/j : 6 milliards UFC, biotine 400 µg, fibres Sunfiber 100 mg. Souches LP115, LA25, LF26, LRH10, LPC12, LDL114.",
+    "vegan": true,
+    "strains_count": 6,
+    "strains_coded": true,
+    "gastro_resistant": true,
+    "nutrients": {
+      "biotin": 400
+    },
+    "secondary_actives": [
+      {
+        "category": "biotin",
+        "per_day": 400,
+        "unit": "µg"
+      }
+    ]
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Acide folique (folate) 400 µg en gélules",
+    "category": "folate",
+    "variant": "120 gélules",
+    "units_pack": 120,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 400,
+    "active_unit": "µg",
+    "form": "folates issus de zestes de citron, dont acide lévoméfolique",
+    "additives": [
+      "fibres d’acacia",
+      "gélule végétale HPMC"
+    ],
+    "price_eur": 9.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "url": "https://www.sunday.fr/acide-folique-400-gelules-extrait-zestes-citron.html",
+    "ean": "4069484003453",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/acide-folique-400-gelules-extrait-zestes-citron.html"
+    },
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "1 gélule/j : extrait de zestes de citron 8 mg dont folates 400 µg. La masse de l’extrait n’est pas comptée comme folate pur.",
+    "vegan": true
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Flora Pso-Skin",
+    "category": "probiotics",
+    "variant": "60 gélules",
+    "units_pack": 60,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 1,
+    "active_unit": "billion CFU",
+    "form": "Bifidobacterium lactis CECT 8145, B. longum CECT 7347 et Lactobacillus rhamnosus CECT 8361, DRcaps®",
+    "additives": [
+      "gomme arabique",
+      "gélule végétale HPMC",
+      "gomme gellane",
+      "maltodextrine"
+    ],
+    "price_eur": 24.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "url": "https://www.sunday.fr/flora-pso-skin-gelules.html",
+    "ean": "4069484012462",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/flora-pso-skin-gelules.html"
+    },
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "1 gélule/j : 1 milliard UFC, biotine 50 µg. Trois souches identifiées par leurs codes CECT.",
+    "vegan": true,
+    "strains_count": 3,
+    "strains_coded": true,
+    "gastro_resistant": true,
+    "nutrients": {
+      "biotin": 50
+    },
+    "secondary_actives": [
+      {
+        "category": "biotin",
+        "per_day": 50,
+        "unit": "µg"
+      }
+    ]
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Flora Clear Skin",
+    "category": "probiotics",
+    "variant": "120 gélules",
+    "units_pack": 120,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 3,
+    "active_unit": "billion CFU",
+    "form": "Lactobacillus rhamnosus SP1",
+    "additives": [
+      "gomme arabique",
+      "gélule végétale HPMC",
+      "gomme gellane"
+    ],
+    "price_eur": 24.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "url": "https://www.sunday.fr/flora-skin-clear-gelules.html",
+    "ean": "4069484012424",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/flora-skin-clear-gelules.html"
+    },
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "1 gélule/j : 3 milliards UFC, vitamine C 28 mg, biotine 50 µg et zinc 5 mg sous forme de L-ascorbate de zinc.",
+    "vegan": true,
+    "strains_count": 1,
+    "strains_coded": true,
+    "gastro_resistant": false,
+    "nutrients": {
+      "vitamin_c": 28,
+      "biotin": 50,
+      "zinc": 5
+    },
+    "secondary_actives": [
+      {
+        "category": "vitamin_c",
+        "per_day": 28,
+        "unit": "mg"
+      },
+      {
+        "category": "biotin",
+        "per_day": 50,
+        "unit": "µg"
+      },
+      {
+        "category": "zinc",
+        "per_day": 5,
+        "unit": "mg"
+      }
+    ]
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "Zinc, cuivre et manganèse en gélules",
+    "category": "zinc",
+    "variant": "100 gélules",
+    "units_pack": 100,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 10,
+    "active_unit": "mg",
+    "form": "zinc naturellement présent dans une poudre de sarrasin germé enrichi",
+    "additives": [
+      "gélule végétale HPMC"
+    ],
+    "price_eur": 15.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "url": "https://www.sunday.fr/zink-cuivre-manganese-fortement-dose-gelules.html",
+    "ean": "4260677599894",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/zink-cuivre-manganese-fortement-dose-gelules.html"
+    },
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "Le tableau par dose journalière (1 gélule) apporte zinc 10 mg, cuivre 1 mg et manganèse 2 mg, à partir de 1112 mg de sarrasin germé. La posologie textuelle contient une coquille « 1 à gélules » ; calcul sur la dose explicite du tableau.",
+    "vegan": true,
+    "nutrients": {
+      "copper": 1,
+      "manganese": 2
+    },
+    "secondary_actives": []
+  },
+  {
+    "brand": "Sunday Natural",
+    "name": "VITAMINE D3 K2 MK7 (2500 UI + 100 µg)",
+    "category": "vitamin_d3",
+    "variant": "gouttes · 8 ml · 300 gouttes",
+    "units_pack": 300,
+    "units_per_day": 1,
+    "unit_name": "goutte",
+    "active_per_unit": 2500,
+    "active_unit": "IU",
+    "form": "cholécalciférol d’origine végétarienne avec vitamine K2 MK-7 K2VITAL®",
+    "additives": [
+      "huile MCT"
+    ],
+    "price_eur": 14.9,
+    "price_note": "Prix public fabricant du format identifié, relevé le 9 octobre 2026 ; hors livraison et lots promotionnels.",
+    "url": "https://www.sunday.fr/vitamines-d3-2500-plus-k2-mk7-100mcg-100-pourcent-tout-trans.html",
+    "ean": "4260461113336",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.sunday.fr/vitamines-d3-2500-plus-k2-mk7-100mcg-100-pourcent-tout-trans.html"
+    },
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "K2VITAL®",
+    "full_label": true,
+    "flags": [],
+    "confidence": "medium",
+    "notes": "1 goutte/j : D3 2500 UI et K2 100 µg ; 300 gouttes explicites. Distinct de la version vegan dont la dose de K2 reste contradictoire.",
+    "vegan": false,
+    "nutrients": {
+      "vitamin_k2": 100
+    },
+    "secondary_actives": [
+      {
+        "category": "vitamin_k2",
+        "per_day": 100,
+        "unit": "µg"
+      }
+    ]
+  }
+]
