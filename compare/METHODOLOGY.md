@@ -21,7 +21,7 @@ Text-and-data-mining rights reserved — Dir. (EU) 2019/790 art. 4(3); CPI art. 
 
 **What the score is not.** It is not medical advice, not a measure of whether *you* need the product, and not a lab test — we score label composition and public transparency, not actual batch content.
 
-**Scope.** 612 published products across 25 categories (18 nutrient categories, 4 botanicals, 3 testosterone boosters — see §5), EU with a French-market focus. Records retain their own price and label observation dates; the 9 October 2026 expansion is documented in [the audit](AUDIT-2026-10-09.md). Scoring methodology v1.4; personalised dosing model v2.
+**Scope.** 696 published products across 25 categories (18 nutrient categories, 4 botanicals, 3 testosterone boosters — see §5), EU with a French-market focus. Records retain their own price and label observation dates; the latest 9 October 2026 French-brand expansion is documented in [the audit](AUDIT-FR-2026-10-09.md). Scoring methodology v1.4; personalised dosing model v2.
 
 ---
 

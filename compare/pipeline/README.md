@@ -52,6 +52,6 @@ One-time setup:
 
 ## What v0 does and does not do
 
-**Does:** polite fetch, **headless rendering for JS-only shops** (Playwright Chromium, free on GitHub Actions — `render.py`), JSON-LD/meta extraction, **live ingredient-label extraction** feeding the shared auto-tagger (observed reformulation detection), dated content-hashed snapshots, price-move + reformulation diffing, OpenFoodFacts enrichment by EAN, auto-generated source list from the catalogue (`gen_sources.py`, 611 tracked sources, including manufacturers, Amazon.fr and French online pharmacies), dry-run planning, 16 offline tests.
+**Does:** polite fetch, **headless rendering for JS-only shops** (Playwright Chromium, free on GitHub Actions — `render.py`), JSON-LD/meta extraction, **live ingredient-label extraction** feeding the shared auto-tagger (observed reformulation detection), dated content-hashed snapshots, price-move + reformulation diffing, OpenFoodFacts enrichment by EAN, auto-generated source list from the catalogue (`gen_sources.py`, 695 tracked sources, including manufacturers, Amazon.fr and French online pharmacies), dry-run planning, 16 offline tests.
 
 **Does not yet:** per-merchant HTML adapters, captcha/anti-bot evasion (we don't evade — if a site blocks us, we record the failure and move on), a proper database. Bot transparency page: [/bot/](../../bot/) — site owners can request exclusion at hello@n3gh.com.

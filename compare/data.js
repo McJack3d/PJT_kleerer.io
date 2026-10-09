@@ -19,13 +19,13 @@ const N3GH_DATA = {
   "region": "EU/FR",
   "currency": "EUR",
   "generated": "2026-10-09",
-  "n_products": 612,
+  "n_products": 696,
   "n_categories": 25,
   "n_red_cards": 1,
-  "n_source_checks": 612,
-  "n_label_checks": 372,
-  "n_price_checks": 435,
-  "n_withheld_for_review": 43,
+  "n_source_checks": 696,
+  "n_label_checks": 458,
+  "n_price_checks": 520,
+  "n_withheld_for_review": 83,
   "botanical_categories": [
    "ashwagandha",
    "maca",
@@ -199,7 +199,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "cbf178202879",
-   "rank_in_category": 17
+   "rank_in_category": 20
   },
   {
    "id": "esn-designer-whey",
@@ -278,7 +278,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "b7e3e7b0a064",
-   "rank_in_category": 26
+   "rank_in_category": 29
   },
   {
    "id": "bulk-pure-whey",
@@ -351,7 +351,7 @@ const N3GH_DATA = {
     "price_tier": 1
    },
    "label_hash": "be33fa16af43",
-   "rank_in_category": 30
+   "rank_in_category": 34
   },
   {
    "id": "nutrimuscle-whey-native",
@@ -511,7 +511,7 @@ const N3GH_DATA = {
     "price_tier": 1
    },
    "label_hash": "913a80d9a189",
-   "rank_in_category": 29
+   "rank_in_category": 33
   },
   {
    "id": "myprotein-creatine",
@@ -739,7 +739,7 @@ const N3GH_DATA = {
     "price_tier": 1
    },
    "label_hash": "d275c758528b",
-   "rank_in_category": 28
+   "rank_in_category": 32
   },
   {
    "id": "on-micronised-creatine",
@@ -1335,10 +1335,10 @@ const N3GH_DATA = {
     "std": 0.018,
     "std_label": "€ / 1000 IU",
     "days_per_pack": 240,
-    "price_tier": 2
+    "price_tier": 1
    },
    "label_hash": "44afbfd6832e",
-   "rank_in_category": 34
+   "rank_in_category": 35
   },
   {
    "id": "mivolis-d3-1000",
@@ -1407,7 +1407,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "673d42cdfab6",
-   "rank_in_category": 22
+   "rank_in_category": 23
   },
   {
    "id": "nutrico-magnesium",
@@ -1484,7 +1484,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "65c12e82f8fe",
-   "rank_in_category": 39
+   "rank_in_category": 44
   },
   {
    "id": "nutripure-magnesium",
@@ -1553,7 +1553,7 @@ const N3GH_DATA = {
     "std": 0.554,
     "std_label": "€ / 300 mg Mg",
     "days_per_pack": 90,
-    "price_tier": 3
+    "price_tier": 2
    },
    "label_hash": "8ffe1379dfdd",
    "rank_in_category": 2
@@ -1627,7 +1627,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "db38cc9e9f9b",
-   "rank_in_category": 21
+   "rank_in_category": 23
   },
   {
    "id": "solgar-mg-citrate",
@@ -1708,7 +1708,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "5e55b98af9a7",
-   "rank_in_category": 41
+   "rank_in_category": 46
   },
   {
    "id": "sunday-mg-glycinate",
@@ -1866,7 +1866,7 @@ const N3GH_DATA = {
     "price_tier": 1
    },
    "label_hash": "dda9632114cc",
-   "rank_in_category": 55
+   "rank_in_category": 61
   },
   {
    "id": "nutripure-omega3",
@@ -2264,7 +2264,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "01f6cfb039c8",
-   "rank_in_category": 44
+   "rank_in_category": 51
   },
   {
    "id": "myprotein-omega3",
@@ -2339,10 +2339,10 @@ const N3GH_DATA = {
     "std": 0.127,
     "std_label": "€ / 500 mg EPA+DHA",
     "days_per_pack": 250,
-    "price_tier": 1
+    "price_tier": 2
    },
    "label_hash": "27e2551c0dd7",
-   "rank_in_category": 39
+   "rank_in_category": 46
   },
   {
    "id": "norsan-omega3-vegan",
@@ -2526,7 +2526,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "68bbb9b16b24",
-   "rank_in_category": 27
+   "rank_in_category": 33
   },
   {
    "id": "nutrico-le-multi",
@@ -2708,7 +2708,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "5df4c3e735b2",
-   "rank_in_category": 23
+   "rank_in_category": 27
   },
   {
    "id": "now-adam",
@@ -2800,7 +2800,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "b8cae5d8e75c",
-   "rank_in_category": 16
+   "rank_in_category": 18
   },
   {
    "id": "foodspring-daily-vitamins",
@@ -2892,7 +2892,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "aff43fca5e53",
-   "rank_in_category": 25
+   "rank_in_category": 31
   },
   {
    "id": "sunday-essentials-multi",
@@ -3166,7 +3166,7 @@ const N3GH_DATA = {
     "std": 0.498,
     "std_label": "€ / day",
     "days_per_pack": 30,
-    "price_tier": 3
+    "price_tier": 2
    },
    "label_hash": "2804fc6df982",
    "rank_in_category": 1
@@ -3248,7 +3248,7 @@ const N3GH_DATA = {
     "std": 0.497,
     "std_label": "€ / day",
     "days_per_pack": 40,
-    "price_tier": 3
+    "price_tier": 2
    },
    "label_hash": "8c461f78f646",
    "rank_in_category": 3
@@ -3352,7 +3352,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "cd80b24ef9ec",
-   "rank_in_category": 7
+   "rank_in_category": 8
   },
   {
    "category": "tribulus",
@@ -3443,10 +3443,10 @@ const N3GH_DATA = {
     "std": 0.282,
     "std_label": "€ / day",
     "days_per_pack": 60,
-    "price_tier": 2
+    "price_tier": 1
    },
    "label_hash": "3b0afb1c3457",
-   "rank_in_category": 8
+   "rank_in_category": 9
   },
   {
    "category": "tribulus",
@@ -3538,10 +3538,10 @@ const N3GH_DATA = {
     "std": 0.33,
     "std_label": "€ / day",
     "days_per_pack": 30,
-    "price_tier": 2
+    "price_tier": 1
    },
    "label_hash": "9226dbe6f86d",
-   "rank_in_category": 11
+   "rank_in_category": 15
   },
   {
    "category": "fenugreek",
@@ -4482,7 +4482,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "0d0f9b60a8c3",
-   "rank_in_category": 9
+   "rank_in_category": 12
   },
   {
    "active_unit": "mg",
@@ -4576,7 +4576,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "57cd8b75b774",
-   "rank_in_category": 18
+   "rank_in_category": 23
   },
   {
    "active_unit": "mg",
@@ -4674,7 +4674,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "27628b39ab8f",
-   "rank_in_category": 16
+   "rank_in_category": 21
   },
   {
    "active_unit": "mg",
@@ -4803,7 +4803,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "6efe8ad239db",
-   "rank_in_category": 22
+   "rank_in_category": 27
   },
   {
    "active_unit": "mg",
@@ -4896,7 +4896,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "9880d42ea960",
-   "rank_in_category": 12
+   "rank_in_category": 16
   },
   {
    "active_unit": "mg",
@@ -4983,7 +4983,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "c3fefd2d0a5c",
-   "rank_in_category": 8
+   "rank_in_category": 10
   },
   {
    "active_unit": "mg",
@@ -5335,7 +5335,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "f7b1da8b8b8c",
-   "rank_in_category": 18
+   "rank_in_category": 19
   },
   {
    "active_unit": "mg",
@@ -5454,7 +5454,7 @@ const N3GH_DATA = {
     "price_tier": 4
    },
    "label_hash": "1d3dd302fb44",
-   "rank_in_category": 19
+   "rank_in_category": 20
   },
   {
    "active_unit": "mg",
@@ -5535,7 +5535,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "42ea3b0f86ad",
-   "rank_in_category": 17
+   "rank_in_category": 18
   },
   {
    "active_unit": "mg",
@@ -5702,7 +5702,7 @@ const N3GH_DATA = {
     "std": 0.474,
     "std_label": "€ / 400 mg extract",
     "days_per_pack": 60,
-    "price_tier": 4
+    "price_tier": 3
    },
    "label_hash": "d29da078236e",
    "rank_in_category": 2
@@ -5793,10 +5793,10 @@ const N3GH_DATA = {
     "std": 0.502,
     "std_label": "€ / 400 mg extract",
     "days_per_pack": 15,
-    "price_tier": 4
+    "price_tier": 3
    },
    "label_hash": "6ffdf781c7fa",
-   "rank_in_category": 6
+   "rank_in_category": 7
   },
   {
    "active_unit": "mg",
@@ -5905,10 +5905,10 @@ const N3GH_DATA = {
     "std": 0.399,
     "std_label": "€ / 400 mg extract",
     "days_per_pack": 30,
-    "price_tier": 3
+    "price_tier": 2
    },
    "label_hash": "c0826b66c0ae",
-   "rank_in_category": 9
+   "rank_in_category": 10
   },
   {
    "active_unit": "mg",
@@ -5988,7 +5988,7 @@ const N3GH_DATA = {
     "price_tier": 1
    },
    "label_hash": "948046fc60ae",
-   "rank_in_category": 5
+   "rank_in_category": 6
   },
   {
    "active_unit": "mg",
@@ -7212,7 +7212,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "f77cf02abdd6",
-   "rank_in_category": 9
+   "rank_in_category": 16
   },
   {
    "category": "collagen",
@@ -7377,7 +7377,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "08a10e85b3a2",
-   "rank_in_category": 33
+   "rank_in_category": 45
   },
   {
    "category": "collagen",
@@ -7495,7 +7495,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "d7006c212e0c",
-   "rank_in_category": 45
+   "rank_in_category": 60
   },
   {
    "category": "collagen",
@@ -7590,7 +7590,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "7c4bba726e03",
-   "rank_in_category": 32
+   "rank_in_category": 44
   },
   {
    "category": "collagen",
@@ -7743,7 +7743,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "dfd1e752b0e5",
-   "rank_in_category": 22
+   "rank_in_category": 32
   },
   {
    "category": "collagen",
@@ -7823,10 +7823,10 @@ const N3GH_DATA = {
     "std": 2.267,
     "std_label": "€ / 10 g collagen",
     "days_per_pack": 15,
-    "price_tier": 2
+    "price_tier": 3
    },
    "label_hash": "70752f94d58b",
-   "rank_in_category": 12
+   "rank_in_category": 20
   },
   {
    "category": "collagen",
@@ -7903,7 +7903,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "c7c55f466d08",
-   "rank_in_category": 16
+   "rank_in_category": 24
   },
   {
    "category": "collagen",
@@ -7986,7 +7986,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "0da8a16dcc41",
-   "rank_in_category": 43
+   "rank_in_category": 58
   },
   {
    "category": "creatine",
@@ -8071,7 +8071,7 @@ const N3GH_DATA = {
     "price_tier": 4
    },
    "label_hash": "bf59e8183926",
-   "rank_in_category": 31
+   "rank_in_category": 35
   },
   {
    "category": "creatine",
@@ -8153,10 +8153,10 @@ const N3GH_DATA = {
     "std": 0.272,
     "std_label": "€ / 3 g creatine",
     "days_per_pack": 100,
-    "price_tier": 3
+    "price_tier": 2
    },
    "label_hash": "e337ab4bca32",
-   "rank_in_category": 37
+   "rank_in_category": 44
   },
   {
    "category": "creatine",
@@ -8326,7 +8326,7 @@ const N3GH_DATA = {
     "price_tier": 1
    },
    "label_hash": "2d5777a0e60b",
-   "rank_in_category": 26
+   "rank_in_category": 30
   },
   {
    "category": "creatine",
@@ -8408,7 +8408,7 @@ const N3GH_DATA = {
     "std": 0.183,
     "std_label": "€ / 3 g creatine",
     "days_per_pack": 147,
-    "price_tier": 2
+    "price_tier": 1
    },
    "label_hash": "f1ea29672943",
    "rank_in_category": 13
@@ -8581,7 +8581,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "78faaeda7995",
-   "rank_in_category": 32
+   "rank_in_category": 33
   },
   {
    "category": "vitamin_d3",
@@ -8766,7 +8766,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "a2088a8d8ca5",
-   "rank_in_category": 24
+   "rank_in_category": 25
   },
   {
    "category": "vitamin_d3",
@@ -8862,7 +8862,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "413b7414fe7e",
-   "rank_in_category": 30
+   "rank_in_category": 31
   },
   {
    "category": "vitamin_d3",
@@ -8946,7 +8946,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "e16d2c10516e",
-   "rank_in_category": 27
+   "rank_in_category": 28
   },
   {
    "category": "magnesium",
@@ -9215,7 +9215,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "bd68f7e3c1d0",
-   "rank_in_category": 9
+   "rank_in_category": 10
   },
   {
    "category": "magnesium",
@@ -9300,7 +9300,7 @@ const N3GH_DATA = {
     "price_tier": 4
    },
    "label_hash": "9a895bb85638",
-   "rank_in_category": 44
+   "rank_in_category": 50
   },
   {
    "category": "magnesium",
@@ -9384,10 +9384,10 @@ const N3GH_DATA = {
     "std": 0.097,
     "std_label": "€ / 300 mg Mg",
     "days_per_pack": 180,
-    "price_tier": 2
+    "price_tier": 1
    },
    "label_hash": "adaefc6dffb9",
-   "rank_in_category": 49
+   "rank_in_category": 55
   },
   {
    "category": "magnesium",
@@ -9486,7 +9486,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "6039ae63ba63",
-   "rank_in_category": 53
+   "rank_in_category": 59
   },
   {
    "category": "magnesium",
@@ -9570,10 +9570,10 @@ const N3GH_DATA = {
     "std": 0.094,
     "std_label": "€ / 300 mg Mg",
     "days_per_pack": 120,
-    "price_tier": 2
+    "price_tier": 1
    },
    "label_hash": "4d56e298a432",
-   "rank_in_category": 52
+   "rank_in_category": 58
   },
   {
    "category": "probiotics",
@@ -9673,7 +9673,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "72ec1b8b6066",
-   "rank_in_category": 19
+   "rank_in_category": 23
   },
   {
    "category": "omega3",
@@ -9776,7 +9776,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "a1b8747133a9",
-   "rank_in_category": 47
+   "rank_in_category": 54
   },
   {
    "category": "iron",
@@ -9882,7 +9882,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "0da08f2d5a11",
-   "rank_in_category": 18
+   "rank_in_category": 20
   },
   {
    "category": "magnesium",
@@ -9987,7 +9987,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "2628dba81c08",
-   "rank_in_category": 14
+   "rank_in_category": 15
   },
   {
    "category": "biotin",
@@ -10091,7 +10091,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "834ee79287d4",
-   "rank_in_category": 3
+   "rank_in_category": 4
   },
   {
    "category": "zinc",
@@ -10205,7 +10205,7 @@ const N3GH_DATA = {
     "price_tier": 4
    },
    "label_hash": "14060e39f58e",
-   "rank_in_category": 6
+   "rank_in_category": 7
   },
   {
    "category": "vitamin_c",
@@ -10300,7 +10300,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "abf7af7607de",
-   "rank_in_category": 39
+   "rank_in_category": 42
   },
   {
    "brand": "Novoma",
@@ -10506,7 +10506,7 @@ const N3GH_DATA = {
     "price_tier": 4
    },
    "label_hash": "f3eef937e3da",
-   "rank_in_category": 28
+   "rank_in_category": 29
   },
   {
    "brand": "Novoma",
@@ -10602,7 +10602,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "db8c13fa6ddf",
-   "rank_in_category": 14
+   "rank_in_category": 15
   },
   {
    "brand": "Novoma",
@@ -10790,7 +10790,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "7b19cfe3b731",
-   "rank_in_category": 23
+   "rank_in_category": 26
   },
   {
    "brand": "Novoma",
@@ -10882,7 +10882,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "1d175131facd",
-   "rank_in_category": 34
+   "rank_in_category": 37
   },
   {
    "brand": "Novoma",
@@ -11073,7 +11073,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "2fb744c35f71",
-   "rank_in_category": 5
+   "rank_in_category": 10
   },
   {
    "brand": "Novoma",
@@ -11191,7 +11191,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "e12e520ea40c",
-   "rank_in_category": 8
+   "rank_in_category": 13
   },
   {
    "brand": "Novoma",
@@ -11384,10 +11384,10 @@ const N3GH_DATA = {
     "std": 2.595,
     "std_label": "€ / 10 g collagen",
     "days_per_pack": 28,
-    "price_tier": 2
+    "price_tier": 3
    },
    "label_hash": "c08f76ecbe7f",
-   "rank_in_category": 7
+   "rank_in_category": 12
   },
   {
    "brand": "Novoma",
@@ -11609,7 +11609,7 @@ const N3GH_DATA = {
     "price_tier": 4
    },
    "label_hash": "39d30e730bdd",
-   "rank_in_category": 15
+   "rank_in_category": 17
   },
   {
    "brand": "Nutri&Co",
@@ -11704,10 +11704,10 @@ const N3GH_DATA = {
     "std": 0.323,
     "std_label": "€ / 15 mg Zn",
     "days_per_pack": 60,
-    "price_tier": 3
+    "price_tier": 4
    },
    "label_hash": "9a8f0d2784bd",
-   "rank_in_category": 4
+   "rank_in_category": 5
   },
   {
    "brand": "Nutri&Co",
@@ -11815,7 +11815,7 @@ const N3GH_DATA = {
     "price_tier": 4
    },
    "label_hash": "154fe1d06eb8",
-   "rank_in_category": 8
+   "rank_in_category": 9
   },
   {
    "brand": "Nutri&Co",
@@ -11919,7 +11919,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "0657b1def5e3",
-   "rank_in_category": 14
+   "rank_in_category": 16
   },
   {
    "brand": "Nutri&Co",
@@ -12017,7 +12017,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "4bfd562552d2",
-   "rank_in_category": 9
+   "rank_in_category": 10
   },
   {
    "brand": "Nutri&Co",
@@ -12121,7 +12121,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "0657b1def5e3",
-   "rank_in_category": 15
+   "rank_in_category": 17
   },
   {
    "brand": "Nutri&Co",
@@ -12219,7 +12219,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "4bfd562552d2",
-   "rank_in_category": 10
+   "rank_in_category": 11
   },
   {
    "brand": "Nutri&Co",
@@ -12323,7 +12323,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "4652469f19c6",
-   "rank_in_category": 6
+   "rank_in_category": 7
   },
   {
    "brand": "Nutri&Co",
@@ -12410,7 +12410,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "9e38ebeb3ee6",
-   "rank_in_category": 22
+   "rank_in_category": 25
   },
   {
    "brand": "Nutri&Co",
@@ -12513,7 +12513,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "a545979487f4",
-   "rank_in_category": 41
+   "rank_in_category": 44
   },
   {
    "brand": "Nutri&Co",
@@ -12622,7 +12622,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "5e759422927e",
-   "rank_in_category": 15
+   "rank_in_category": 23
   },
   {
    "brand": "Nutripure",
@@ -12718,7 +12718,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "a998efb709c8",
-   "rank_in_category": 12
+   "rank_in_category": 13
   },
   {
    "brand": "Nutripure",
@@ -12819,7 +12819,7 @@ const N3GH_DATA = {
     "price_tier": 4
    },
    "label_hash": "f14e91b93439",
-   "rank_in_category": 8
+   "rank_in_category": 9
   },
   {
    "brand": "Nutripure",
@@ -12911,10 +12911,10 @@ const N3GH_DATA = {
     "std": 0.388,
     "std_label": "€ / 400 mg extract",
     "days_per_pack": 30,
-    "price_tier": 3
+    "price_tier": 2
    },
    "label_hash": "c1b32814e2e1",
-   "rank_in_category": 7
+   "rank_in_category": 8
   },
   {
    "brand": "Nutripure",
@@ -13004,7 +13004,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "c9b1f60890b1",
-   "rank_in_category": 4
+   "rank_in_category": 5
   },
   {
    "brand": "Nutripure",
@@ -13092,7 +13092,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "c5045629ac29",
-   "rank_in_category": 4
+   "rank_in_category": 8
   },
   {
    "brand": "Nutripure",
@@ -13187,7 +13187,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "6da6660b2e4f",
-   "rank_in_category": 16
+   "rank_in_category": 18
   },
   {
    "brand": "Nutripure",
@@ -13359,6 +13359,8188 @@ const N3GH_DATA = {
    "rank_in_category": 6
   },
   {
+   "category": "melatonin",
+   "brand": "InShape Nutrition",
+   "name": "Mélatonine & Sommeil",
+   "variant": "Pilulier de 60 gélules · Neutre",
+   "price_eur": 19.9,
+   "price_note": "Prix fabricant du format exact relevé le 9 octobre 2026, hors livraison et codes de réduction.",
+   "form": "mélatonine, GABA et L-tryptophane",
+   "additives": [
+    "pullulan",
+    "sels de magnésium d’acides gras"
+   ],
+   "vegan": null,
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [
+    "Le fabricant déconseille ce produit aux enfants, adolescents, femmes enceintes ou allaitantes et en cas de maladies inflammatoires ou auto-immunes. Avis médical demandé notamment en cas d’épilepsie, asthme ou troubles de l’humeur ; risque de somnolence."
+   ],
+   "url": "https://www.inshape-nutrition.com/products/melatonine-sommeil",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://www.inshape-nutrition.com/products/melatonine-sommeil?variant=58429174382917"
+   },
+   "units_pack": 60,
+   "units_per_day": 2,
+   "unit_name": "gélule",
+   "active_per_unit": 0.9,
+   "active_unit": "mg",
+   "notes": "Deux gélules : 1,8 mg de mélatonine, 400 mg de GABA et 200 mg de L-tryptophane. La dose correspond aux conseils fabricant avant le coucher.",
+   "id": "inshape-nutrition-melatonine-sommeil-pilulier-de-60-gelules-neutre",
+   "form_tier": 16,
+   "form_note": "Immediate release — supports sleep onset.",
+   "dose_tier": 20,
+   "dose_note": "1.8 mg/day — EFSA sleep-onset dose, within the French ceiling.",
+   "purity_tags": [],
+   "additives_detail": [
+    "pullulan",
+    "sels de magnésium d’acides gras"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Ingrédients et tableau nutritionnel de la variante exacte présents dans les métadonnées publiques de la fiche fabricant ; dose et conditionnement recoupés avec la description et les conseils d’utilisation. Certifications et analyses de lot non créditées sans document consulté.",
+    "label_source_url": "https://www.inshape-nutrition.com/products/melatonine-sommeil?variant=58429174382917",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://www.inshape-nutrition.com/products/melatonine-sommeil?variant=58429174382917",
+    "price_scope": "Prix public fabricant de la variante exacte, hors livraison et code promotionnel."
+   },
+   "scores": {
+    "form": 16,
+    "dose": 20,
+    "purity": 30,
+    "transparency": 4,
+    "total": 70,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.663,
+    "std": 0.663,
+    "std_label": "€ / day",
+    "days_per_pack": 30,
+    "price_tier": 4
+   },
+   "label_hash": "ce20565cf6b6",
+   "rank_in_category": 4
+  },
+  {
+   "category": "collagen",
+   "brand": "InShape Nutrition",
+   "name": "Collagène marin",
+   "variant": "60 gélules",
+   "price_eur": 19.9,
+   "price_note": "Prix fabricant du format exact relevé le 9 octobre 2026, hors livraison et codes de réduction.",
+   "form": "peptides de collagène marin hydrolysé de type I, 2000 Da, acide L-ascorbique et acide hyaluronique",
+   "additives": [
+    "pullulan",
+    "sels de magnésium d’acides gras"
+   ],
+   "vegan": false,
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "url": "https://www.inshape-nutrition.com/products/collagene-marin",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://www.inshape-nutrition.com/products/collagene-marin?variant=58083367027013"
+   },
+   "units_pack": 60,
+   "units_per_day": 2,
+   "unit_name": "gélule",
+   "active_per_unit": 0.4,
+   "active_unit": "g collagen",
+   "secondary_actives": [
+    {
+     "category": "vitamin_c",
+     "per_day": 160
+    }
+   ],
+   "notes": "Deux gélules apportent 800 mg = 0,8 g de collagène, 160 mg de vitamine C et 80 mg d’acide hyaluronique. Allergène : poisson. Le conditionnement de 60 gélules figure dans la description du produit.",
+   "id": "inshape-nutrition-collagene-marin-60-gelules",
+   "form_tier": 16,
+   "form_note": "Generic hydrolysed peptides.",
+   "collagen_g_day": 0.8,
+   "dose_tier": 8,
+   "dose_note": "0.8 g/day — token dose.",
+   "purity_tags": [],
+   "additives_detail": [
+    "pullulan",
+    "sels de magnésium d’acides gras"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Ingrédients et tableau nutritionnel de la variante exacte présents dans les métadonnées publiques de la fiche fabricant ; dose et conditionnement recoupés avec la description et les conseils d’utilisation. Certifications et analyses de lot non créditées sans document consulté.",
+    "label_source_url": "https://www.inshape-nutrition.com/products/collagene-marin?variant=58083367027013",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://www.inshape-nutrition.com/products/collagene-marin?variant=58083367027013",
+    "price_scope": "Prix public fabricant de la variante exacte, hors livraison et code promotionnel."
+   },
+   "scores": {
+    "form": 16,
+    "dose": 8,
+    "purity": 30,
+    "transparency": 4,
+    "total": 58,
+    "grade": "C",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.663,
+    "std": 8.292,
+    "std_label": "€ / 10 g collagen",
+    "days_per_pack": 30,
+    "price_tier": 3
+   },
+   "label_hash": "d0392dde2696",
+   "rank_in_category": 49
+  },
+  {
+   "category": "ashwagandha",
+   "brand": "InShape Nutrition",
+   "name": "Ashwagandha KSM66® bio",
+   "variant": "Pilulier de 60 gélules",
+   "price_eur": 24.9,
+   "price_note": "Prix fabricant du format exact relevé le 9 octobre 2026, hors livraison et codes de réduction.",
+   "form": "extrait de racine d’ashwagandha KSM-66® titré à 5 % de withanolides",
+   "additives": [
+    "hydroxypropylméthylcellulose",
+    "farine de coco"
+   ],
+   "vegan": true,
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "KSM-66®",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [
+    "Le fabricant déconseille la prise aux enfants, adolescents, femmes enceintes ou allaitantes, personnes ayant un trouble endocrinien, hépatique ou cardiaque, avant la conduite et avec des substances sédatives."
+   ],
+   "url": "https://www.inshape-nutrition.com/products/ashwagandha",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://www.inshape-nutrition.com/products/ashwagandha?variant=55153932239173"
+   },
+   "units_pack": 60,
+   "units_per_day": 2,
+   "unit_name": "gélule",
+   "active_per_unit": 750,
+   "active_unit": "mg",
+   "notes": "Le tableau fabricant déclare 1 500 mg d’extrait et 75 mg de withanolides pour 2 gélules ; cette quantité élevée n’a pas été remplacée par une dose d’essai. Certification biologique annoncée mais document non consulté.",
+   "id": "inshape-nutrition-ashwagandha-ksm66-bio-pilulier-de-60-gelules",
+   "form_tier": 20,
+   "form_note": "Clinically studied branded root extract with standardised withanolides.",
+   "dose_tier": 12,
+   "dose_note": "1500 mg/day — above the studied range; safety scales with dose, benefit does not.",
+   "purity_tags": [
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "hydroxypropylméthylcellulose",
+    "farine de coco"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "KSM-66®",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [
+    {
+     "string": "farine de coco",
+     "verdict": "neutral",
+     "note": "Coconut flour used as a bulking agent — a food ingredient, not an additive.",
+     "reviewed_on": "2026-09-06"
+    }
+   ],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Ingrédients et tableau nutritionnel de la variante exacte présents dans les métadonnées publiques de la fiche fabricant ; dose et conditionnement recoupés avec la description et les conseils d’utilisation. Certifications et analyses de lot non créditées sans document consulté.",
+    "label_source_url": "https://www.inshape-nutrition.com/products/ashwagandha?variant=55153932239173",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://www.inshape-nutrition.com/products/ashwagandha?variant=55153932239173",
+    "price_scope": "Prix public fabricant de la variante exacte, hors livraison et code promotionnel."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 12,
+    "purity": 28,
+    "transparency": 8,
+    "total": 68,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.83,
+    "std": 0.332,
+    "std_label": "€ / 600 mg extract",
+    "days_per_pack": 30,
+    "price_tier": 2
+   },
+   "label_hash": "be4bff4a30a3",
+   "rank_in_category": 18
+  },
+  {
+   "category": "collagen",
+   "brand": "InShape Nutrition",
+   "name": "Collagène",
+   "variant": "Sachet de 250 g · Neutre",
+   "price_eur": 27.9,
+   "price_note": "Prix fabricant du format exact relevé le 9 octobre 2026, hors livraison et codes de réduction.",
+   "form": "peptides de collagène bovin hydrolysé Peptan® et acide L-ascorbique",
+   "additives": [],
+   "vegan": false,
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "Peptan®",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "url": "https://www.inshape-nutrition.com/products/collagene",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://www.inshape-nutrition.com/products/collagene?variant=49593867370821"
+   },
+   "format": "powder",
+   "pack_g": 250,
+   "serving_g": 10,
+   "active_per_100g": 98.8,
+   "active_per_serving_g": 9.88,
+   "secondary_actives": [
+    {
+     "category": "vitamin_c",
+     "per_day": 80
+    }
+   ],
+   "notes": "Variante neutre : 9,88 g de peptides de collagène et 80 mg de vitamine C pour 10 g de poudre. Pas d’arômes ou édulcorants déclarés pour cette variante. Traces possibles de lait, poisson, soja et gluten.",
+   "id": "inshape-nutrition-collagene-sachet-de-250-g-neutre",
+   "form_tier": 20,
+   "form_note": "Branded hydrolysed peptides with clinical backing.",
+   "collagen_g_day": 9.88,
+   "dose_tier": 20,
+   "dose_note": "9.88 g peptides/day — in the studied range.",
+   "purity_tags": [],
+   "additives_detail": [],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Peptan®",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Ingrédients et tableau nutritionnel de la variante exacte présents dans les métadonnées publiques de la fiche fabricant ; dose et conditionnement recoupés avec la description et les conseils d’utilisation. Certifications et analyses de lot non créditées sans document consulté.",
+    "label_source_url": "https://www.inshape-nutrition.com/products/collagene?variant=49593867370821",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://www.inshape-nutrition.com/products/collagene?variant=49593867370821",
+    "price_scope": "Prix public fabricant de la variante exacte, hors livraison et code promotionnel."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 30,
+    "transparency": 8,
+    "total": 78,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 1.116,
+    "std": 1.13,
+    "std_label": "€ / 10 g collagen",
+    "days_per_pack": 25,
+    "price_tier": 2
+   },
+   "label_hash": "bc7a10bb6d08",
+   "rank_in_category": 9
+  },
+  {
+   "category": "magnesium",
+   "brand": "InShape Nutrition",
+   "name": "Magnésium Bisglycinate",
+   "variant": "Pilulier de 90 gélules",
+   "price_eur": 19.9,
+   "price_note": "Prix fabricant du format exact relevé le 9 octobre 2026, hors livraison et codes de réduction.",
+   "form": "bisglycinate de magnésium",
+   "additives": [
+    "hydroxypropylméthylcellulose",
+    "sels de magnésium d’acides gras"
+   ],
+   "vegan": true,
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "url": "https://www.inshape-nutrition.com/products/magnesium",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://www.inshape-nutrition.com/products/magnesium?variant=54475492622661"
+   },
+   "units_pack": 90,
+   "units_per_day": 3,
+   "unit_name": "gélule",
+   "active_per_unit": 120,
+   "active_unit": "mg elemental Mg",
+   "notes": "Le tableau distingue 1 800 mg de bisglycinate de magnésium et 360 mg de magnésium élémentaire pour 3 gélules. Calcul fondé sur le magnésium élémentaire, pas sur la masse du sel.",
+   "id": "inshape-nutrition-magnesium-bisglycinate-pilulier-de-90-gelules",
+   "form_tier": 20,
+   "form_note": "Chelated magnesium — high bioavailability.",
+   "purity_tags": [
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "hydroxypropylméthylcellulose",
+    "sels de magnésium d’acides gras"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Ingrédients et tableau nutritionnel de la variante exacte présents dans les métadonnées publiques de la fiche fabricant ; dose et conditionnement recoupés avec la description et les conseils d’utilisation. Certifications et analyses de lot non créditées sans document consulté.",
+    "label_source_url": "https://www.inshape-nutrition.com/products/magnesium?variant=54475492622661",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://www.inshape-nutrition.com/products/magnesium?variant=54475492622661",
+    "price_scope": "Prix public fabricant de la variante exacte, hors livraison et code promotionnel."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 17,
+    "purity": 28,
+    "transparency": 4,
+    "total": 69,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.663,
+    "std": 0.553,
+    "std_label": "€ / 300 mg Mg",
+    "days_per_pack": 30,
+    "price_tier": 2
+   },
+   "label_hash": "c8ab117549bb",
+   "rank_in_category": 26
+  },
+  {
+   "category": "omega3",
+   "brand": "InShape Nutrition",
+   "name": "Oméga 3",
+   "variant": "Pilulier de 30 capsules",
+   "price_eur": 9.9,
+   "price_note": "Prix fabricant du format exact relevé le 9 octobre 2026, hors livraison et codes de réduction.",
+   "form": "huile de poisson, forme lipidique non précisée",
+   "additives": [
+    "gélatine bovine",
+    "glycérol",
+    "extrait riche en tocophérols"
+   ],
+   "vegan": false,
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "url": "https://www.inshape-nutrition.com/products/omega-3",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://www.inshape-nutrition.com/products/omega-3?variant=41917611049178"
+   },
+   "units_pack": 30,
+   "units_per_day": 1,
+   "unit_name": "capsule",
+   "active_per_unit": 300,
+   "active_unit": "mg EPA+DHA",
+   "notes": "Une capsule contient 1 000 mg d’huile de poisson, 350 mg d’oméga-3 totaux, dont 180 mg d’EPA et 120 mg de DHA. Le comparateur utilise seulement 300 mg d’EPA+DHA. Forme TG/EE et analyses TOTOX non documentées dans la fiche consultée. Allergène : poisson.",
+   "id": "inshape-nutrition-omega-3-pilulier-de-30-capsules",
+   "form_tier": 12,
+   "form_note": "Oil form not clearly declared.",
+   "purity_tags": [],
+   "additives_detail": [
+    "gélatine bovine",
+    "glycérol",
+    "extrait riche en tocophérols"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Ingrédients et tableau nutritionnel de la variante exacte présents dans les métadonnées publiques de la fiche fabricant ; dose et conditionnement recoupés avec la description et les conseils d’utilisation. Certifications et analyses de lot non créditées sans document consulté.",
+    "label_source_url": "https://www.inshape-nutrition.com/products/omega-3?variant=41917611049178",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://www.inshape-nutrition.com/products/omega-3?variant=41917611049178",
+    "price_scope": "Prix public fabricant de la variante exacte, hors livraison et code promotionnel."
+   },
+   "scores": {
+    "form": 12,
+    "dose": 12,
+    "purity": 30,
+    "transparency": 4,
+    "total": 58,
+    "grade": "C",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.33,
+    "std": 0.55,
+    "std_label": "€ / 500 mg EPA+DHA",
+    "days_per_pack": 30,
+    "price_tier": 3
+   },
+   "label_hash": "0fafc63b7e94",
+   "rank_in_category": 56
+  },
+  {
+   "category": "zinc",
+   "brand": "InShape Nutrition",
+   "name": "Zinc Bisglycinate",
+   "variant": "Pilulier de 90 gélules",
+   "price_eur": 19.9,
+   "price_note": "Prix fabricant du format exact relevé le 9 octobre 2026, hors livraison et codes de réduction.",
+   "form": "bisglycinate de zinc",
+   "additives": [
+    "cellulose",
+    "hydroxypropylméthylcellulose",
+    "sels de magnésium d’acides gras"
+   ],
+   "vegan": null,
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "url": "https://www.inshape-nutrition.com/products/bisglycinate-de-zinc",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://www.inshape-nutrition.com/products/bisglycinate-de-zinc?variant=56079527543109"
+   },
+   "units_pack": 90,
+   "units_per_day": 1,
+   "unit_name": "gélule",
+   "active_per_unit": 15,
+   "active_unit": "mg elemental Zn",
+   "notes": "Une gélule contient 50 mg de bisglycinate, dont 15 mg de zinc élémentaire. Le comparateur utilise la quantité élémentaire.",
+   "id": "inshape-nutrition-zinc-bisglycinate-pilulier-de-90-gelules",
+   "form_tier": 20,
+   "form_note": "Bisglycinate — well-absorbed chelate.",
+   "dose_tier": 20,
+   "dose_note": "15 mg elemental zinc/day — effective, within EFSA UL.",
+   "purity_tags": [
+    "bulking_filler",
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "cellulose",
+    "hydroxypropylméthylcellulose",
+    "sels de magnésium d’acides gras"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Ingrédients et tableau nutritionnel de la variante exacte présents dans les métadonnées publiques de la fiche fabricant ; dose et conditionnement recoupés avec la description et les conseils d’utilisation. Certifications et analyses de lot non créditées sans document consulté.",
+    "label_source_url": "https://www.inshape-nutrition.com/products/bisglycinate-de-zinc?variant=56079527543109",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://www.inshape-nutrition.com/products/bisglycinate-de-zinc?variant=56079527543109",
+    "price_scope": "Prix public fabricant de la variante exacte, hors livraison et code promotionnel."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 26,
+    "transparency": 4,
+    "total": 70,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.221,
+    "std": 0.221,
+    "std_label": "€ / 15 mg Zn",
+    "days_per_pack": 90,
+    "price_tier": 3
+   },
+   "label_hash": "721b18a1679f",
+   "rank_in_category": 12
+  },
+  {
+   "category": "multivitamin",
+   "brand": "InShape Nutrition",
+   "name": "Multivitamines",
+   "variant": "Pilulier de 60 gélules",
+   "price_eur": 24.9,
+   "price_note": "Prix fabricant du format exact relevé le 9 octobre 2026, hors livraison et codes de réduction.",
+   "form": "13 vitamines et 9 minéraux : oxyde de magnésium, citrate de zinc, fer bisglycinate, folate acide folique, cyanocobalamine, cholécalciférol, rétinyle et vitamine K1",
+   "additives": [
+    "hydroxypropylméthylcellulose",
+    "sels de magnésium d’acides gras"
+   ],
+   "vegan": null,
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [
+    "Le fabricant déconseille la prise aux enfants, adolescents, femmes enceintes ou souhaitant l’être et allaitantes ; apport de vitamine K déconseillé sous anticoagulants.",
+    "Rupture de stock dans le catalogue fabricant au contrôle du 9 octobre 2026."
+   ],
+   "url": "https://www.inshape-nutrition.com/products/multivitamines",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://www.inshape-nutrition.com/products/multivitamines?variant=41917611081946"
+   },
+   "units_pack": 60,
+   "units_per_day": 1,
+   "unit_name": "gélule",
+   "active_per_unit": null,
+   "active_unit": null,
+   "form_quality": "cheap",
+   "dose_style": "gaps",
+   "nutrients": {
+    "calcium": 120,
+    "chromium": 25,
+    "iron": 4.2,
+    "iodine": 75,
+    "magnesium": 56.7,
+    "selenium": 55,
+    "zinc": 10,
+    "vitamin_b1": 1.1,
+    "vitamin_b2": 1.4,
+    "vitamin_b3": 16,
+    "vitamin_b5": 6,
+    "vitamin_b6": 1.4,
+    "biotin": 150,
+    "folate": 200,
+    "vitamin_b12": 2.5,
+    "vitamin_c": 80,
+    "vitamin_d3": 200,
+    "vitamin_e": 12
+   },
+   "nutrients_source": "Tableau fabricant pour 1 gélule consulté le 9 octobre 2026. Vitamine D3 : 5 µg × 40 = 200 UI. Les autres nutriments non pris en charge par l’affichage sont conservés dans les notes.",
+   "notes": "Une gélule contient aussi : vitamine A 800 µg, cuivre 1 mg, manganèse 2 mg et vitamine K1 75 µg. La K1 n’est pas assimilée à la K2. Vitamine D3 : 5 µg = 200 UI ; fer 4,2 mg, magnésium 56,7 mg et calcium 120 mg. Aucun zéro supposé pour un nutriment non quantifié.",
+   "id": "inshape-nutrition-multivitamines-pilulier-de-60-gelules",
+   "form_tier": 8,
+   "form_note": "Cheap forms (oxides, cyanocobalamin, retinol).",
+   "dose_tier": 10,
+   "dose_note": "Notable gaps (missing minerals or low vitamin D).",
+   "purity_tags": [
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "hydroxypropylméthylcellulose",
+    "sels de magnésium d’acides gras"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Ingrédients et tableau nutritionnel de la variante exacte présents dans les métadonnées publiques de la fiche fabricant ; dose et conditionnement recoupés avec la description et les conseils d’utilisation. Certifications et analyses de lot non créditées sans document consulté.",
+    "label_source_url": "https://www.inshape-nutrition.com/products/multivitamines?variant=41917611081946",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://www.inshape-nutrition.com/products/multivitamines?variant=41917611081946",
+    "price_scope": "Prix public fabricant de la variante exacte, hors livraison et code promotionnel."
+   },
+   "scores": {
+    "form": 8,
+    "dose": 10,
+    "purity": 28,
+    "transparency": 4,
+    "total": 50,
+    "grade": "C",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.415,
+    "std": 0.415,
+    "std_label": "€ / day",
+    "days_per_pack": 60,
+    "price_tier": 2
+   },
+   "label_hash": "58de6fe1405c",
+   "rank_in_category": 28
+  },
+  {
+   "category": "creatine",
+   "brand": "InShape Nutrition",
+   "name": "Créatine en gélules",
+   "variant": "Pilulier de 120 gélules",
+   "price_eur": 29.9,
+   "price_note": "Prix fabricant du format exact relevé le 9 octobre 2026, hors livraison et codes de réduction.",
+   "form": "créatine monohydrate",
+   "additives": [
+    "hydroxypropylméthylcellulose",
+    "sels de magnésium d’acides gras"
+   ],
+   "vegan": true,
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "url": "https://www.inshape-nutrition.com/products/creatine",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://www.inshape-nutrition.com/products/creatine?variant=42189263798490"
+   },
+   "units_pack": 120,
+   "units_per_day": 4,
+   "unit_name": "gélule",
+   "active_per_unit": 0.75,
+   "active_unit": "g creatine",
+   "active_per_serving_g": 3,
+   "notes": "Quatre gélules apportent 3 000 mg = 3 g de créatine selon le tableau fabricant. La masse du monohydrate n’est pas confondue avec la quantité de créatine déclarée. Aucun label Creapure déclaré.",
+   "id": "inshape-nutrition-creatine-en-gelules-pilulier-de-120-gelules",
+   "form_tier": 16,
+   "form_note": "Monohydrate is the gold-standard form; generic source.",
+   "purity_tags": [
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "hydroxypropylméthylcellulose",
+    "sels de magnésium d’acides gras"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Ingrédients et tableau nutritionnel de la variante exacte présents dans les métadonnées publiques de la fiche fabricant ; dose et conditionnement recoupés avec la description et les conseils d’utilisation. Certifications et analyses de lot non créditées sans document consulté.",
+    "label_source_url": "https://www.inshape-nutrition.com/products/creatine?variant=42189263798490",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://www.inshape-nutrition.com/products/creatine?variant=42189263798490",
+    "price_scope": "Prix public fabricant de la variante exacte, hors livraison et code promotionnel."
+   },
+   "scores": {
+    "form": 16,
+    "dose": 20,
+    "purity": 28,
+    "transparency": 4,
+    "total": 68,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.997,
+    "std": 0.997,
+    "std_label": "€ / 3 g creatine",
+    "days_per_pack": 30,
+    "price_tier": 5
+   },
+   "label_hash": "27efdd034820",
+   "rank_in_category": 41
+  },
+  {
+   "brand": "Twenty DC",
+   "name": "Bisglycinate de zinc",
+   "category": "zinc",
+   "url": "https://twentydc.com/products/zinc-bisglycinate?variant=53553708532045",
+   "variant": "Pilulier de 90 gélules",
+   "price_eur": 9.9,
+   "form": "bisglycinate de zinc",
+   "additives": [
+    "cellulose microcristalline",
+    "gélule végétale : hydroxypropylméthylcellulose",
+    "sels de magnésium d'acides gras"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "vegan": true,
+   "price_note": "Prix public fabricant du format exact relevé le 9 octobre 2026, hors livraison, abonnement et codes promotionnels.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://twentydc.com/products/zinc-bisglycinate?variant=53553708532045"
+   },
+   "ean": "7350057190975",
+   "ingredients_text": "Agent de charge : cellulose microcristalline, enveloppe de la gélule végétale : hydroxypropylmethycellulose, bisglycinate de zinc, antiagglomérant : sels de magnésium d'acides gras.",
+   "units_pack": 90,
+   "units_per_day": 1,
+   "active_per_unit": 15,
+   "active_unit": "mg elemental Zn",
+   "unit_name": "gélule",
+   "notes": "15 mg de zinc élémentaire par gélule ; les 75 mg de bisglycinate ne sont pas le poids de zinc élémentaire.",
+   "id": "twenty-dc-bisglycinate-de-zinc-pilulier-de-90-gelules",
+   "form_tier": 20,
+   "form_note": "Bisglycinate — well-absorbed chelate.",
+   "dose_tier": 20,
+   "dose_note": "15 mg elemental zinc/day — effective, within EFSA UL.",
+   "purity_tags": [
+    "bulking_filler",
+    "anticaking"
+   ],
+   "additives_detail": [
+    "cellulose microcristalline",
+    "gélule végétale : hydroxypropylméthylcellulose",
+    "sels de magnésium d'acides gras"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, quantités d’actifs, formes et excipients contrôlés dans la fiche fabricant et ses tableaux de composition. Les certificats et analyses non consultés ne sont pas crédités.",
+    "label_source_url": "https://twentydc.com/products/zinc-bisglycinate?variant=53553708532045",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://twentydc.com/products/zinc-bisglycinate?variant=53553708532045",
+    "price_scope": "Prix public à l’unité pour la variante exacte, hors livraison, abonnement et codes de réduction."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 26,
+    "transparency": 4,
+    "total": 70,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.11,
+    "std": 0.11,
+    "std_label": "€ / 15 mg Zn",
+    "days_per_pack": 90,
+    "price_tier": 2
+   },
+   "label_hash": "6b43dbbdb0a1",
+   "rank_in_category": 9
+  },
+  {
+   "brand": "Twenty DC",
+   "name": "Ashwagandha KSM-66®",
+   "category": "ashwagandha",
+   "url": "https://twentydc.com/products/ashwagandha-ksm-66?variant=53559118004557",
+   "variant": "Pilulier de 60 gélules",
+   "price_eur": 14.9,
+   "form": "extrait de racines KSM-66® titré à 5 % de withanolides",
+   "additives": [
+    "gélule végétale : hydroxypropylméthylcellulose",
+    "sels de magnésium d'acides gras"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "KSM-66®",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [
+    "Étiquette : déconseillé aux enfants, adolescents, femmes enceintes ou allaitantes ; précautions spécifiques de la fiche fabricant."
+   ],
+   "vegan": true,
+   "price_note": "Prix public fabricant du format exact relevé le 9 octobre 2026, hors livraison, abonnement et codes promotionnels.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://twentydc.com/products/ashwagandha-ksm-66?variant=53559118004557"
+   },
+   "ean": "7350057189962",
+   "ingredients_text": "Extrait de racines d’Ashwagandha KSM-66® ( Withania somnifera )* titré à 5 % de withanolides, enveloppe de la gélule végétale : hydroxypropylméthylcellulose, antiagglomérant : sels de magnésium d'acides gras. *Ingrédient issu de l'agriculture biologique.",
+   "units_pack": 60,
+   "units_per_day": 2,
+   "active_per_unit": 365,
+   "active_unit": "mg extract",
+   "unit_name": "gélule",
+   "notes": "730 mg d’extrait et 36 mg de withanolides déclarés pour 2 gélules. Certification bio et documents de lot non contrôlés.",
+   "id": "twenty-dc-ashwagandha-ksm-66-pilulier-de-60-gelules",
+   "form_tier": 20,
+   "form_note": "Clinically studied branded root extract with standardised withanolides.",
+   "dose_tier": 20,
+   "dose_note": "730 mg/day — the dose the stress and sleep trials used.",
+   "purity_tags": [
+    "anticaking"
+   ],
+   "additives_detail": [
+    "gélule végétale : hydroxypropylméthylcellulose",
+    "sels de magnésium d'acides gras"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "KSM-66®",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, quantités d’actifs, formes et excipients contrôlés dans la fiche fabricant et ses tableaux de composition. Les certificats et analyses non consultés ne sont pas crédités.",
+    "label_source_url": "https://twentydc.com/products/ashwagandha-ksm-66?variant=53559118004557",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://twentydc.com/products/ashwagandha-ksm-66?variant=53559118004557",
+    "price_scope": "Prix public à l’unité pour la variante exacte, hors livraison, abonnement et codes de réduction."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 28,
+    "transparency": 8,
+    "total": 76,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.497,
+    "std": 0.408,
+    "std_label": "€ / 600 mg extract",
+    "days_per_pack": 30,
+    "price_tier": 2
+   },
+   "label_hash": "96e3432d9200",
+   "rank_in_category": 9
+  },
+  {
+   "brand": "Twenty DC",
+   "name": "Oméga 3 Epax®",
+   "category": "omega3",
+   "url": "https://twentydc.com/products/omega-3-epax?variant=53559487889741",
+   "variant": "Pilulier de 60 capsules",
+   "price_eur": 14.9,
+   "form": "huile de poisson concentrée EPAX®",
+   "additives": [
+    "gélatine de poisson",
+    "glycérol",
+    "extrait riche en tocophérols",
+    "extrait de romarin"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "EPAX®",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "vegan": false,
+   "price_note": "Prix public fabricant du format exact relevé le 9 octobre 2026, hors livraison, abonnement et codes promotionnels.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://twentydc.com/products/omega-3-epax?variant=53559487889741"
+   },
+   "ean": "7350057189948",
+   "ingredients_text": "Huile de poisson concentrée en oméga 3, tunique : gélatine de poisson , humectant : glycérol, antioxydants : extrait riche en tocophérols et extrait de romarin.",
+   "units_pack": 60,
+   "units_per_day": 2,
+   "active_per_unit": 260,
+   "active_unit": "mg EPA+DHA",
+   "unit_name": "capsule",
+   "notes": "2 capsules : huile de poisson 1000 mg, oméga-3 totaux 610 mg, dont EPA 300 mg et DHA 220 mg. Calcul limité à EPA+DHA (520 mg), sans crédit d’analyse TOTOX non consultée.",
+   "id": "twenty-dc-omega-3-epax-pilulier-de-60-capsules",
+   "form_tier": 12,
+   "form_note": "Oil form not clearly declared.",
+   "purity_tags": [],
+   "additives_detail": [
+    "gélatine de poisson",
+    "glycérol",
+    "extrait riche en tocophérols",
+    "extrait de romarin"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "EPAX®",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, quantités d’actifs, formes et excipients contrôlés dans la fiche fabricant et ses tableaux de composition. Les certificats et analyses non consultés ne sont pas crédités.",
+    "label_source_url": "https://twentydc.com/products/omega-3-epax?variant=53559487889741",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://twentydc.com/products/omega-3-epax?variant=53559487889741",
+    "price_scope": "Prix public à l’unité pour la variante exacte, hors livraison, abonnement et codes de réduction."
+   },
+   "scores": {
+    "form": 12,
+    "dose": 17,
+    "purity": 30,
+    "transparency": 8,
+    "total": 67,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.497,
+    "std": 0.478,
+    "std_label": "€ / 500 mg EPA+DHA",
+    "days_per_pack": 30,
+    "price_tier": 3
+   },
+   "label_hash": "9d71151e4afc",
+   "rank_in_category": 33
+  },
+  {
+   "brand": "Twenty DC",
+   "name": "Magnésium bisglycinate chélaté",
+   "category": "magnesium",
+   "url": "https://twentydc.com/products/magnesium-bisglycinate-chelate?variant=53564061909325",
+   "variant": "Pilulier de 90 gélules",
+   "price_eur": 9.9,
+   "form": "magnésium bisglycinate",
+   "additives": [
+    "gélule végétale : hydroxypropylméthylcellulose",
+    "sels de magnésium d'acides gras"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "vegan": true,
+   "price_note": "Prix public fabricant du format exact relevé le 9 octobre 2026, hors livraison, abonnement et codes promotionnels.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://twentydc.com/products/magnesium-bisglycinate-chelate?variant=53564061909325"
+   },
+   "ean": "7350057189955",
+   "ingredients_text": "Bisglycinate de magnésium, enveloppe de la gélule végétale : hydroxypropylméthylcellulose, antiagglomérant : sels de magnésium d'acides gras.",
+   "units_pack": 90,
+   "units_per_day": 2,
+   "active_per_unit": 90,
+   "active_unit": "mg elemental Mg",
+   "unit_name": "gélule",
+   "notes": "900 mg de bisglycinate pour 2 gélules dont 180 mg de magnésium élémentaire selon le tableau fabricant.",
+   "id": "twenty-dc-magnesium-bisglycinate-chelate-pilulier-de-90-gelules",
+   "form_tier": 20,
+   "form_note": "Chelated magnesium — high bioavailability.",
+   "purity_tags": [
+    "anticaking"
+   ],
+   "additives_detail": [
+    "gélule végétale : hydroxypropylméthylcellulose",
+    "sels de magnésium d'acides gras"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, quantités d’actifs, formes et excipients contrôlés dans la fiche fabricant et ses tableaux de composition. Les certificats et analyses non consultés ne sont pas crédités.",
+    "label_source_url": "https://twentydc.com/products/magnesium-bisglycinate-chelate?variant=53564061909325",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://twentydc.com/products/magnesium-bisglycinate-chelate?variant=53564061909325",
+    "price_scope": "Prix public à l’unité pour la variante exacte, hors livraison, abonnement et codes de réduction."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 28,
+    "transparency": 4,
+    "total": 72,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.22,
+    "std": 0.367,
+    "std_label": "€ / 300 mg Mg",
+    "days_per_pack": 45,
+    "price_tier": 2
+   },
+   "label_hash": "464a90c034de",
+   "rank_in_category": 16
+  },
+  {
+   "brand": "Twenty DC",
+   "name": "Multivitamines",
+   "category": "multivitamin",
+   "url": "https://twentydc.com/products/multivitamines?variant=53576917090637",
+   "variant": "Pilulier de 60 gélules",
+   "price_eur": 9.9,
+   "form": "vitamines standard : acide ascorbique, rétinyle, cyanocobalamine, acide folique, D3",
+   "additives": [
+    "gélule végétale : hydroxypropylméthylcellulose",
+    "cellulose microcristalline",
+    "sels de magnésium d'acides gras"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "vegan": false,
+   "price_note": "Prix public fabricant du format exact relevé le 9 octobre 2026, hors livraison, abonnement et codes promotionnels.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://twentydc.com/products/multivitamines?variant=53576917090637"
+   },
+   "ean": "7350057189993",
+   "ingredients_text": "Acide L-ascorbique (vitamine C), enveloppe de la gélule végétale : hydroxypropylméthylcellulose, agent de remplissage : cellulosemicrocristalline, nicotinamide (vitamine B3), antiagglomérant : sels de magnésium d’acides gras, D-alpha-tocophérol (vitamine E), D-pantothénate de calcium (vitamine B5), chlorhydrate de pyridoxine (vitamine B6), acétate de rétinyle (vitamine A), riboflavine (vitamine B2), chlorhydrate de thiamine (vitamine B1), cholécalciférol (vitamine D), cyanocobalamine (vitamine B12), acide ptéroylmonoglutamique (vitamine B9), D-biotine (vitamine B8).",
+   "units_pack": 60,
+   "units_per_day": 2,
+   "unit_name": "gélule",
+   "form_quality": "cheap",
+   "dose_style": "gaps",
+   "vit_d_ug": 5,
+   "nutrients": {
+    "vitamin_b1": 3.2,
+    "vitamin_b2": 4.2,
+    "vitamin_b3": 40,
+    "vitamin_b5": 18,
+    "vitamin_b6": 4.2,
+    "biotin": 150,
+    "folate": 200,
+    "vitamin_b12": 2.5,
+    "vitamin_c": 480,
+    "vitamin_d3": 200,
+    "vitamin_e": 12
+   },
+   "notes": "Apports pour 2 gélules ; 12 vitamines, sans minéraux déclarés. Vitamine D : 5 µg = 200 UI. B12 sous forme cyanocobalamine et vitamine A rétinyle (800 µg/jour, hors catégories cumulées).",
+   "id": "twenty-dc-multivitamines-pilulier-de-60-gelules",
+   "form_tier": 8,
+   "form_note": "Cheap forms (oxides, cyanocobalamin, retinol).",
+   "dose_tier": 10,
+   "dose_note": "Notable gaps (missing minerals or low vitamin D).",
+   "purity_tags": [
+    "bulking_filler",
+    "anticaking"
+   ],
+   "additives_detail": [
+    "gélule végétale : hydroxypropylméthylcellulose",
+    "cellulose microcristalline",
+    "sels de magnésium d'acides gras"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, quantités d’actifs, formes et excipients contrôlés dans la fiche fabricant et ses tableaux de composition. Les certificats et analyses non consultés ne sont pas crédités.",
+    "label_source_url": "https://twentydc.com/products/multivitamines?variant=53576917090637",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://twentydc.com/products/multivitamines?variant=53576917090637",
+    "price_scope": "Prix public à l’unité pour la variante exacte, hors livraison, abonnement et codes de réduction."
+   },
+   "scores": {
+    "form": 8,
+    "dose": 10,
+    "purity": 26,
+    "transparency": 4,
+    "total": 48,
+    "grade": "D",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.33,
+    "std": 0.33,
+    "std_label": "€ / day",
+    "days_per_pack": 30,
+    "price_tier": 1
+   },
+   "label_hash": "29b396ced195",
+   "rank_in_category": 29
+  },
+  {
+   "brand": "Twenty DC",
+   "name": "Prébiotiques & Probiotiques",
+   "category": "probiotics",
+   "url": "https://twentydc.com/products/prebiotiques-probiotiques?variant=54386310840653",
+   "variant": "Pilulier de 60 gélules",
+   "price_eur": 14.9,
+   "form": "Bacillus subtilis et Bacillus coagulans ; codes des souches non déclarés",
+   "additives": [
+    "fibres d’acacia",
+    "gélule végétale : hydroxypropylméthylcellulose",
+    "sels de magnésium d'acides gras",
+    "carbonate de magnésium"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "vegan": true,
+   "price_note": "Prix public fabricant du format exact relevé le 9 octobre 2026, hors livraison, abonnement et codes promotionnels.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://twentydc.com/products/prebiotiques-probiotiques?variant=54386310840653"
+   },
+   "ean": "7350057197813",
+   "ingredients_text": "Poudre de Reishi ( Ganoderma lucidum ), fibres d'acacia, enveloppe de la gélule végétale : hydroxypropylméthylcellulose, Bacillus subtilis , Bacillus coagulans , antiagglomérants : sels de magnésium d'acides gras et carbonate de magnésium.",
+   "units_pack": 60,
+   "units_per_day": 2,
+   "active_per_unit": 5.5,
+   "active_unit": "billion CFU",
+   "unit_name": "gélule",
+   "strains_count": 2,
+   "strains_coded": false,
+   "gastro_resistant": false,
+   "notes": "11 milliards UFC annoncés par dose de 2 gélules. Tableau : B. subtilis 100 mg, B. coagulans 68 mg, acacia 286 mg, reishi 400 mg par jour. Viabilité à échéance et codes des souches non documentés ; spores non assimilées à une gélule gastro-résistante.",
+   "id": "twenty-dc-prebiotiques-probiotiques-pilulier-de-60-gelules",
+   "form_tier": 10,
+   "form_note": "Strains not coded, no gastro-resistant delivery.",
+   "dose_tier": 18,
+   "dose_note": "11 billion CFU/day — solid.",
+   "purity_tags": [
+    "bulking_filler",
+    "anticaking",
+    "anticaking"
+   ],
+   "additives_detail": [
+    "fibres d’acacia",
+    "gélule végétale : hydroxypropylméthylcellulose",
+    "sels de magnésium d'acides gras",
+    "carbonate de magnésium"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, quantités d’actifs, formes et excipients contrôlés dans la fiche fabricant et ses tableaux de composition. Les certificats et analyses non consultés ne sont pas crédités.",
+    "label_source_url": "https://twentydc.com/products/prebiotiques-probiotiques?variant=54386310840653",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://twentydc.com/products/prebiotiques-probiotiques?variant=54386310840653",
+    "price_scope": "Prix public à l’unité pour la variante exacte, hors livraison, abonnement et codes de réduction."
+   },
+   "scores": {
+    "form": 10,
+    "dose": 18,
+    "purity": 24,
+    "transparency": 4,
+    "total": 56,
+    "grade": "C",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.497,
+    "std": 0.497,
+    "std_label": "€ / day",
+    "days_per_pack": 30,
+    "price_tier": 2
+   },
+   "label_hash": "d4c059e7c021",
+   "rank_in_category": 33
+  },
+  {
+   "brand": "Twenty DC",
+   "name": "Collagène & Acide hyaluronique - Peau Magnifique",
+   "category": "collagen",
+   "url": "https://twentydc.com/products/collagene-peau-magnifique?variant=47288938692941",
+   "variant": "Neutre (populaire)",
+   "price_eur": 39.9,
+   "form": "peptides de collagène marin hydrolysé type I, 2000 Da",
+   "additives": [],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "Ovoderm®",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "vegan": false,
+   "price_note": "Prix public fabricant du format exact relevé le 9 octobre 2026, hors livraison, abonnement et codes promotionnels.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://twentydc.com/products/collagene-peau-magnifique?variant=47288938692941"
+   },
+   "ean": null,
+   "ingredients_text": "Peptides de collagène marin ( poisson ), membrane de coquille d’ œuf (Ovoderm®). Peut contenir des traces de lait.",
+   "pack_g": 280,
+   "serving_g": 10,
+   "active_per_100g": 98.5,
+   "active_per_serving_g": 9.85,
+   "format": "powder",
+   "notes": "Formule neutre : 9,85 g de collagène et 150 mg de membrane de coquille d’œuf Ovoderm® par 10 g. L’acide hyaluronique n’est pas isolément quantifié ; pas d’invention de dose. Allergènes poisson, œuf ; traces de lait possibles.",
+   "id": "twenty-dc-collagene-acide-hyaluronique-peau-magnifique-neutre-populaire",
+   "form_tier": 16,
+   "form_note": "Generic hydrolysed peptides.",
+   "collagen_g_day": 9.85,
+   "dose_tier": 20,
+   "dose_note": "9.85 g peptides/day — in the studied range.",
+   "purity_tags": [],
+   "additives_detail": [],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Ovoderm®",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, quantités d’actifs, formes et excipients contrôlés dans la fiche fabricant et ses tableaux de composition. Les certificats et analyses non consultés ne sont pas crédités.",
+    "label_source_url": "https://twentydc.com/products/collagene-peau-magnifique?variant=47288938692941",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://twentydc.com/products/collagene-peau-magnifique?variant=47288938692941",
+    "price_scope": "Prix public à l’unité pour la variante exacte, hors livraison, abonnement et codes de réduction."
+   },
+   "scores": {
+    "form": 16,
+    "dose": 20,
+    "purity": 30,
+    "transparency": 8,
+    "total": 74,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 1.425,
+    "std": 1.447,
+    "std_label": "€ / 10 g collagen",
+    "days_per_pack": 28,
+    "price_tier": 2
+   },
+   "label_hash": "a93d4eb1b8c3",
+   "rank_in_category": 19
+  },
+  {
+   "brand": "Twenty DC",
+   "name": "Collagène Articulations",
+   "category": "collagen",
+   "url": "https://twentydc.com/products/collagene-articulations?variant=49764131373389",
+   "variant": "Pot de 280 g · Neutre",
+   "price_eur": 34.9,
+   "form": "peptides de collagène marin hydrolysé type I, 2000 Da",
+   "additives": [],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "vegan": false,
+   "price_note": "Prix public fabricant du format exact relevé le 9 octobre 2026, hors livraison, abonnement et codes promotionnels.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://twentydc.com/products/collagene-articulations?variant=49764131373389"
+   },
+   "ean": "3662072147617",
+   "ingredients_text": "Peptides de collagène marin ( poisson ), citrate de magnésium, D-Glucosamine sulfate KCl, chondroïtine sulfate ( poisson ), acide-L-ascorbique. Peut contenir des traces de lait.",
+   "pack_g": 280,
+   "serving_g": 10,
+   "active_per_100g": 72,
+   "active_per_serving_g": 7.2,
+   "format": "powder",
+   "secondary_actives": [
+    {
+     "category": "magnesium",
+     "per_day": 150
+    },
+    {
+     "category": "vitamin_c",
+     "per_day": 80
+    }
+   ],
+   "notes": "Variante neutre : 7,2 g de collagène par 10 g (les variantes aromatisées affichent 7 g). Autres actifs : chondroïtine sulfate 500 mg, glucosamine sulfate 500 mg, magnésium élémentaire 150 mg et vitamine C 80 mg. Allergène poisson, traces de lait possibles.",
+   "id": "twenty-dc-collagene-articulations-pot-de-280-g-neutre",
+   "form_tier": 16,
+   "form_note": "Generic hydrolysed peptides.",
+   "collagen_g_day": 7.2,
+   "dose_tier": 20,
+   "dose_note": "7.2 g peptides/day — in the studied range.",
+   "purity_tags": [],
+   "additives_detail": [],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, quantités d’actifs, formes et excipients contrôlés dans la fiche fabricant et ses tableaux de composition. Les certificats et analyses non consultés ne sont pas crédités.",
+    "label_source_url": "https://twentydc.com/products/collagene-articulations?variant=49764131373389",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://twentydc.com/products/collagene-articulations?variant=49764131373389",
+    "price_scope": "Prix public à l’unité pour la variante exacte, hors livraison, abonnement et codes de réduction."
+   },
+   "scores": {
+    "form": 16,
+    "dose": 20,
+    "purity": 30,
+    "transparency": 4,
+    "total": 70,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 1.246,
+    "std": 1.731,
+    "std_label": "€ / 10 g collagen",
+    "days_per_pack": 28,
+    "price_tier": 2
+   },
+   "label_hash": "bb8da5c08700",
+   "rank_in_category": 30
+  },
+  {
+   "brand": "Twenty DC",
+   "name": "Collagène Marin Pur",
+   "category": "collagen",
+   "url": "https://twentydc.com/products/collagene-marin?variant=52177031135565",
+   "variant": "Pot de 280 g · Chocolat caramel",
+   "price_eur": 32.9,
+   "form": "peptides de collagène marin hydrolysé type I, 2000 Da",
+   "additives": [
+    "poudre de cacao maigre",
+    "arômes",
+    "gomme guar",
+    "gomme xanthane",
+    "sel",
+    "acésulfame-K",
+    "sucralose"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "vegan": false,
+   "price_note": "Prix public fabricant du format exact relevé le 9 octobre 2026, hors livraison, abonnement et codes promotionnels.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://twentydc.com/products/collagene-marin?variant=52177031135565"
+   },
+   "ean": "3662072082604",
+   "ingredients_text": "Peptides de collagène marin ( poisson ), poudre de cacao maigre 3,75 %, arômes, épaississants : gomme guar et gomme xanthane, sel, édulcorants : acésulfame-K et sucralose. Peut contenir des traces de lait.",
+   "pack_g": 280,
+   "serving_g": 10,
+   "active_per_100g": 92.1,
+   "active_per_serving_g": 9.21,
+   "format": "powder",
+   "notes": "Variante chocolat caramel contrôlée : collagène 9,21 g par 10 g, cacao 3,75 %. La variante neutre est écartée : ses métadonnées reprennent les ingrédients de la fraise, en contradiction avec sa présentation 100 % pure.",
+   "id": "twenty-dc-collagene-marin-pur-pot-de-280-g-chocolat-caramel",
+   "form_tier": 16,
+   "form_note": "Generic hydrolysed peptides.",
+   "collagen_g_day": 9.21,
+   "dose_tier": 20,
+   "dose_note": "9.21 g peptides/day — in the studied range.",
+   "purity_tags": [
+    "thickener",
+    "thickener",
+    "sweetener_c",
+    "sweetener_d",
+    "undisclosed_minor"
+   ],
+   "additives_detail": [
+    "poudre de cacao maigre",
+    "arômes",
+    "gomme guar",
+    "gomme xanthane",
+    "sel",
+    "acésulfame-K",
+    "sucralose"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [
+    {
+     "string": "arômes",
+     "verdict": "penalty:undisclosed_minor",
+     "note": "flavouring declared without stating its origin",
+     "reviewed_on": "2026-08-07"
+    }
+   ],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, quantités d’actifs, formes et excipients contrôlés dans la fiche fabricant et ses tableaux de composition. Les certificats et analyses non consultés ne sont pas crédités.",
+    "label_source_url": "https://twentydc.com/products/collagene-marin?variant=52177031135565",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://twentydc.com/products/collagene-marin?variant=52177031135565",
+    "price_scope": "Prix public à l’unité pour la variante exacte, hors livraison, abonnement et codes de réduction."
+   },
+   "scores": {
+    "form": 16,
+    "dose": 20,
+    "purity": 15,
+    "transparency": 4,
+    "total": 55,
+    "grade": "C",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 1.175,
+    "std": 1.276,
+    "std_label": "€ / 10 g collagen",
+    "days_per_pack": 28,
+    "price_tier": 2
+   },
+   "label_hash": "fad3859617ab",
+   "rank_in_category": 56
+  },
+  {
+   "brand": "UNAE",
+   "name": "Vitamine C écossaise",
+   "category": "vitamin_c",
+   "url": "https://www.unae.fr/boutique/vitamine-c/vitamine-c-ecossaise/",
+   "variant": "60 comprimés",
+   "price_eur": 19,
+   "form": "acide ascorbique",
+   "additives": [
+    "sucre de canne complet",
+    "sucre de canne blond",
+    "carbonate de magnésium",
+    "arôme naturel",
+    "maltodextrine",
+    "gomme arabique"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "vegan": true,
+   "price_note": "Prix public fabricant du format exact relevé le 9 octobre 2026, hors livraison, abonnement et codes promotionnels.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://www.unae.fr/boutique/vitamine-c/vitamine-c-ecossaise/"
+   },
+   "ean": null,
+   "ingredients_text": "Ingrédients :\nSucre de canne complet équitable*, vitamine C (acide ascorbique), sucre de canne blond équitable*, carbonate de magnésium, arôme naturel de fruits rouges *.\nComposition pour 1 comprimé par jour\nIngrédients\nApports journaliers\nValeur nutritionnelle de référence\nPays d’origine\nAuxiliaires technologiques\nVitamine C\n500 mg\n625%\nécosse\n-\nArôme naturel\n-\n-\nFrance\nMaltodextrine* (maximum 30,6mg)\nGomme arabique* (maximum 30,6mg)\n* : Ingrédients issus de l’agriculture biologique\n",
+   "units_pack": 60,
+   "units_per_day": 1,
+   "unit_name": "comprimé",
+   "active_per_unit": 500,
+   "active_unit": "mg",
+   "notes": "500 mg de vitamine C par comprimé. Calcul sur 1 comprimé ; recommandation adulte 1 à 2 comprimés. Le fabricant précise 1 comprimé avec ses multivitamines. Les 60 comprimés durent 60 jours à la dose retenue, 30 jours à 2/jour.",
+   "id": "unae-vitamine-c-ecossaise-60-comprimes",
+   "form_tier": 16,
+   "form_note": "Plain ascorbic acid — effective, standard form.",
+   "dose_tier": 20,
+   "dose_note": "500 mg/day — saturating dose.",
+   "purity_tags": [
+    "added_sugar",
+    "added_sugar",
+    "anticaking",
+    "bulking_filler",
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "sucre de canne complet",
+    "sucre de canne blond",
+    "carbonate de magnésium",
+    "arôme naturel",
+    "maltodextrine",
+    "gomme arabique"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, quantités d’actifs, formes et excipients contrôlés dans la fiche fabricant et ses tableaux de composition. Les certificats et analyses non consultés ne sont pas crédités.",
+    "label_source_url": "https://www.unae.fr/boutique/vitamine-c/vitamine-c-ecossaise/",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://www.unae.fr/boutique/vitamine-c/vitamine-c-ecossaise/",
+    "price_scope": "Prix public à l’unité pour la variante exacte, hors livraison, abonnement et codes de réduction."
+   },
+   "scores": {
+    "form": 16,
+    "dose": 20,
+    "purity": 8,
+    "transparency": 4,
+    "total": 48,
+    "grade": "D",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.317,
+    "std": 0.633,
+    "std_label": "€ / 1000 mg C",
+    "days_per_pack": 60,
+    "price_tier": 3
+   },
+   "label_hash": "449eb5180339",
+   "rank_in_category": 52
+  },
+  {
+   "brand": "UNAE",
+   "name": "EQUIFER®+ B12",
+   "category": "iron",
+   "url": "https://www.unae.fr/boutique/fer/equifer_b12/",
+   "variant": "90 gélules",
+   "price_eur": 19,
+   "form": "fer naturel de Kadi Patta (Murraya koenigii), méthylcobalamine",
+   "additives": [
+    "pullulan",
+    "gomme d’acacia",
+    "huile de tournesol",
+    "maltodextrine"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [
+    "Étiquette : déconseillé aux personnes avec accumulation anormale de fer, aux enfants et adolescents."
+   ],
+   "vegan": true,
+   "price_note": "Prix public fabricant du format exact relevé le 9 octobre 2026, hors livraison, abonnement et codes promotionnels.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://www.unae.fr/boutique/fer/equifer_b12/"
+   },
+   "ean": null,
+   "ingredients_text": "Ingrédients :\nExtrait sec de feuilles de Kadi Patta (\nMurraya koenigii (L.) Spreng.\n) standardisé en fer, gélule : pullulan, gomme d’acacia*, huile de tournesol oléique désodorisée*, méthylcobalamine (vitamine B12).\nComposition pour 3 gélules par jour\nIngrédients\nApports journaliers\nValeur nutritionnelle de référence\nPays d’origine\nAuxiliaires technologiques\nKadi Patta (dont fer naturel)\n1273 mg (14mg)\n100 %\nInde\nMaltodextrine (42,42mg)\nVitamine B12\n25 µg\n1028 %\nEspagne\n-\n* : Ingrédients issus de l’agriculture biologique\n",
+   "units_pack": 90,
+   "units_per_day": 3,
+   "unit_name": "gélule",
+   "active_per_unit": 4.666666666666667,
+   "active_unit": "mg elemental Fe",
+   "secondary_actives": [
+    {
+     "category": "vitamin_b12",
+     "per_day": 25
+    }
+   ],
+   "notes": "Pour 3 gélules : Kadi Patta 1273 mg dont fer élémentaire 14 mg, B12 25 µg. Dose fabricant 2 à 3 gélules ; calcul sur 3. Les pourcentages VNR B12 incohérents ne remplacent pas la quantité massique déclarée.",
+   "id": "unae-equifer-b12-90-gelules",
+   "form_tier": 8,
+   "form_note": "Iron compound not declared.",
+   "dose_tier": 20,
+   "dose_note": "14 mg iron/day — at or above the NRV, within the supplemental amount behind EFSA's safe level.",
+   "purity_tags": [
+    "bulking_filler",
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "pullulan",
+    "gomme d’acacia",
+    "huile de tournesol",
+    "maltodextrine"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, quantités d’actifs, formes et excipients contrôlés dans la fiche fabricant et ses tableaux de composition. Les certificats et analyses non consultés ne sont pas crédités.",
+    "label_source_url": "https://www.unae.fr/boutique/fer/equifer_b12/",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://www.unae.fr/boutique/fer/equifer_b12/",
+    "price_scope": "Prix public à l’unité pour la variante exacte, hors livraison, abonnement et codes de réduction."
+   },
+   "scores": {
+    "form": 8,
+    "dose": 20,
+    "purity": 26,
+    "transparency": 4,
+    "total": 58,
+    "grade": "C",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.633,
+    "std": 0.633,
+    "std_label": "€ / 14 mg iron (NRV)",
+    "days_per_pack": 30,
+    "price_tier": 4
+   },
+   "label_hash": "724ab76f34ba",
+   "rank_in_category": 26
+  },
+  {
+   "brand": "UNAE",
+   "name": "Collagène éthique",
+   "category": "collagen",
+   "url": "https://www.unae.fr/boutique/collagene/collagene-ethique-issu-de-poissons-sauvages/",
+   "variant": "30 sachets de 12 g",
+   "price_eur": 39,
+   "form": "collagène de poissons sauvages hydrolysé, 4000 Da",
+   "additives": [],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "vegan": false,
+   "price_note": "Prix public fabricant du format exact relevé le 9 octobre 2026, hors livraison, abonnement et codes promotionnels.",
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://www.unae.fr/boutique/collagene/collagene-ethique-issu-de-poissons-sauvages/"
+   },
+   "ean": null,
+   "ingredients_text": "Ingrédients :\nCollagène hydrolysé issu de\npoissons 100% sauvages\npêchés en Europe (morue, aiglefin, sébaste).\nComposants pour 1 sachet par jour\nIngrédients\nApports journaliers\nValeur nutritionnelle de référence\nPays d’origine\nAuxiliaires technologiques\nCollagène de poissons sauvages européens (morue, aiglefin et sébaste). Hydrolyse à 4000 daltons.\n12 g\n-\nUnion européenne\n-\n",
+   "units_pack": 30,
+   "units_per_day": 1,
+   "unit_name": "sachet de 12 g",
+   "active_per_unit": 12,
+   "active_unit": "g",
+   "notes": "1 sachet = 12 g de collagène pur. Poissons : morue, aiglefin et sébaste. Aucun crédit de certification/analyses sans document consulté.",
+   "id": "unae-collagene-ethique-30-sachets-de-12-g",
+   "form_tier": 16,
+   "form_note": "Generic hydrolysed peptides.",
+   "collagen_g_day": 12,
+   "dose_tier": 20,
+   "dose_note": "12 g peptides/day — in the studied range.",
+   "purity_tags": [],
+   "additives_detail": [],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, quantités d’actifs, formes et excipients contrôlés dans la fiche fabricant et ses tableaux de composition. Les certificats et analyses non consultés ne sont pas crédités.",
+    "label_source_url": "https://www.unae.fr/boutique/collagene/collagene-ethique-issu-de-poissons-sauvages/",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://www.unae.fr/boutique/collagene/collagene-ethique-issu-de-poissons-sauvages/",
+    "price_scope": "Prix public à l’unité pour la variante exacte, hors livraison, abonnement et codes de réduction."
+   },
+   "scores": {
+    "form": 16,
+    "dose": 20,
+    "purity": 30,
+    "transparency": 4,
+    "total": 70,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 1.3,
+    "std": 1.083,
+    "std_label": "€ / 10 g collagen",
+    "days_per_pack": 30,
+    "price_tier": 2
+   },
+   "label_hash": "62432f6689e4",
+   "rank_in_category": 29
+  },
+  {
+   "category": "ashwagandha",
+   "brand": "Greenwhey",
+   "name": "Ashwagandha bio KSM-66",
+   "variant": "60 gélules",
+   "price_eur": 29.95,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "extrait de racine d’ashwagandha KSM-66, standardisé à 5 % de withanolides",
+   "additives": [
+    "gélule végétale : hypromellose"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "KSM-66®",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "1000 mg d’extrait et 50 mg de withanolides par portion de 2 gélules.",
+   "url": "https://greenwhey.com/products/ashwagandha-bio-ksm66",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://greenwhey.com/products/ashwagandha-bio-ksm66"
+   },
+   "units_pack": 60,
+   "units_per_day": 2,
+   "active_per_unit": 500,
+   "active_unit": "mg",
+   "vegan": true,
+   "standardization": "5 % withanolides",
+   "unit_name": "gélule",
+   "id": "greenwhey-ashwagandha-bio-ksm-66-60-gelules",
+   "form_tier": 20,
+   "form_note": "Clinically studied branded root extract with standardised withanolides.",
+   "dose_tier": 20,
+   "dose_note": "1000 mg/day — the dose the stress and sleep trials used.",
+   "purity_tags": [],
+   "additives_detail": [
+    "gélule végétale : hypromellose"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "KSM-66®",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://greenwhey.com/products/ashwagandha-bio-ksm66",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://greenwhey.com/products/ashwagandha-bio-ksm66",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 30,
+    "transparency": 8,
+    "total": 78,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.998,
+    "std": 0.599,
+    "std_label": "€ / 600 mg extract",
+    "days_per_pack": 30,
+    "price_tier": 3
+   },
+   "label_hash": "dd3d0342392d",
+   "rank_in_category": 7
+  },
+  {
+   "category": "melatonin",
+   "brand": "Greenwhey",
+   "name": "Complexe Sommeil",
+   "variant": "60 gélules",
+   "price_eur": 19.95,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "mélatonine à libération rapide, extraits de valériane, mélisse et camomille",
+   "additives": [
+    "gélule végétale : hypromellose",
+    "fibres d’acacia"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "Par 2 gélules : mélatonine 1,9 mg, valériane 300 mg, mélisse 200 mg, camomille 100 mg. Les extraits végétaux ne sont pas ajoutés au cumul de nutriments.",
+   "url": "https://greenwhey.com/products/complexe-sommeil",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://greenwhey.com/products/complexe-sommeil"
+   },
+   "units_pack": 60,
+   "units_per_day": 2,
+   "active_per_unit": 0.95,
+   "active_unit": "mg",
+   "vegan": true,
+   "unit_name": "gélule",
+   "id": "greenwhey-complexe-sommeil-60-gelules",
+   "form_tier": 16,
+   "form_note": "Immediate release — supports sleep onset.",
+   "dose_tier": 20,
+   "dose_note": "1.9 mg/day — EFSA sleep-onset dose, within the French ceiling.",
+   "purity_tags": [
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "gélule végétale : hypromellose",
+    "fibres d’acacia"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://greenwhey.com/products/complexe-sommeil",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://greenwhey.com/products/complexe-sommeil",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 16,
+    "dose": 20,
+    "purity": 28,
+    "transparency": 4,
+    "total": 68,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.665,
+    "std": 0.665,
+    "std_label": "€ / day",
+    "days_per_pack": 30,
+    "price_tier": 4
+   },
+   "label_hash": "8c03923858f1",
+   "rank_in_category": 11
+  },
+  {
+   "category": "iron",
+   "brand": "Greenwhey",
+   "name": "Fer Bisglycinate",
+   "variant": "90 gélules",
+   "price_eur": 19.95,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "fer bisglycinate Ferrochel, vitamine C acide L-ascorbique Quali-C",
+   "additives": [
+    "gélule végétale : hypromellose",
+    "fibres d’acacia"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "Ferrochel®",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "14 mg de fer et 100 mg de vitamine C par gélule. La valeur 100 % VNR confirme que les 14 mg désignent le fer élémentaire.",
+   "url": "https://greenwhey.com/products/fer-bisglycinate",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://greenwhey.com/products/fer-bisglycinate"
+   },
+   "units_pack": 90,
+   "units_per_day": 1,
+   "active_per_unit": 14,
+   "active_unit": "mg elemental Fe",
+   "vegan": true,
+   "secondary_actives": [
+    {
+     "category": "vitamin_c",
+     "per_day": 100
+    }
+   ],
+   "unit_name": "gélule",
+   "id": "greenwhey-fer-bisglycinate-90-gelules",
+   "form_tier": 20,
+   "form_note": "Ferrous bisglycinate — the best head-to-head evidence among supplement forms (haemoglobin and gut tolerance).",
+   "dose_tier": 20,
+   "dose_note": "14 mg iron/day — at or above the NRV, within the supplemental amount behind EFSA's safe level.",
+   "purity_tags": [
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "gélule végétale : hypromellose",
+    "fibres d’acacia"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Ferrochel®",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://greenwhey.com/products/fer-bisglycinate",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://greenwhey.com/products/fer-bisglycinate",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 28,
+    "transparency": 8,
+    "total": 76,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.222,
+    "std": 0.222,
+    "std_label": "€ / 14 mg iron (NRV)",
+    "days_per_pack": 90,
+    "price_tier": 2
+   },
+   "label_hash": "4e57cb1e2ebc",
+   "rank_in_category": 7
+  },
+  {
+   "category": "magnesium",
+   "brand": "Greenwhey",
+   "name": "Magnésium Bisglycinate",
+   "variant": "90 gélules",
+   "price_eur": 19.95,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "bisglycinate de magnésium Albion Minerals, taurine et vitamine B6 pyridoxal-5-phosphate",
+   "additives": [
+    "gélule végétale : hypromellose",
+    "fibres d’acacia"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "Albion® Minerals",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "3 gélules apportent 250 mg de magnésium, 3 mg de B6 et 300 mg de taurine. Aucun oxyde n’est déclaré dans la liste d’ingrédients.",
+   "url": "https://greenwhey.com/products/complexe-de-magnesium",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://greenwhey.com/products/complexe-de-magnesium"
+   },
+   "units_pack": 90,
+   "units_per_day": 3,
+   "active_per_unit": 83.33333333333333,
+   "active_unit": "mg elemental Mg",
+   "vegan": true,
+   "nutrients": {
+    "vitamin_b6": 3
+   },
+   "unit_name": "gélule",
+   "id": "greenwhey-magnesium-bisglycinate-90-gelules",
+   "form_tier": 20,
+   "form_note": "Chelated magnesium — high bioavailability.",
+   "purity_tags": [
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "gélule végétale : hypromellose",
+    "fibres d’acacia"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Albion® Minerals",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://greenwhey.com/products/complexe-de-magnesium",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://greenwhey.com/products/complexe-de-magnesium",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 28,
+    "transparency": 8,
+    "total": 76,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.665,
+    "std": 0.798,
+    "std_label": "€ / 300 mg Mg",
+    "days_per_pack": 30,
+    "price_tier": 3
+   },
+   "label_hash": "1cbd54237abc",
+   "rank_in_category": 8
+  },
+  {
+   "category": "omega3",
+   "brand": "Greenwhey",
+   "name": "Oméga 3 EPAX®",
+   "variant": "90 capsules",
+   "price_eur": 34.95,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "huile de poisson Epax 4832 TGN sous forme triglycérides réestérifiés (rTG)",
+   "additives": [
+    "gélatine de poisson",
+    "extrait de romarin",
+    "tocophérols naturels de soja"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "Epax®",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "Par 3 capsules : EPA 1440 mg et DHA 960 mg, soit 2400 mg EPA+DHA. Les 2580 mg d’oméga-3 totaux ne sont pas utilisés comme EPA+DHA.",
+   "url": "https://greenwhey.com/products/omega-3-epax",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://greenwhey.com/products/omega-3-epax"
+   },
+   "units_pack": 90,
+   "units_per_day": 3,
+   "active_per_unit": 800,
+   "active_unit": "mg EPA+DHA",
+   "vegan": false,
+   "unit_name": "gélule",
+   "id": "greenwhey-omega-3-epax-90-capsules",
+   "form_tier": 20,
+   "form_note": "Re-esterified triglycerides (rTG) — best absorbed.",
+   "purity_tags": [],
+   "additives_detail": [
+    "gélatine de poisson",
+    "extrait de romarin",
+    "tocophérols naturels de soja"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Epax®",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://greenwhey.com/products/omega-3-epax",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://greenwhey.com/products/omega-3-epax",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 30,
+    "transparency": 8,
+    "total": 78,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 1.165,
+    "std": 0.243,
+    "std_label": "€ / 500 mg EPA+DHA",
+    "days_per_pack": 30,
+    "price_tier": 2
+   },
+   "label_hash": "69061f20a388",
+   "rank_in_category": 13
+  },
+  {
+   "category": "vitamin_b12",
+   "brand": "Greenwhey",
+   "name": "Vitamine B12",
+   "variant": "120 gélules",
+   "price_eur": 19.95,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "méthylcobalamine",
+   "additives": [
+    "gélule végétale : hypromellose",
+    "fibres d’acacia"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "",
+   "url": "https://greenwhey.com/products/vitamine-b12",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://greenwhey.com/products/vitamine-b12"
+   },
+   "units_pack": 120,
+   "units_per_day": 1,
+   "active_per_unit": 1000,
+   "active_unit": "µg",
+   "vegan": true,
+   "unit_name": "gélule",
+   "id": "greenwhey-vitamine-b12-120-gelules",
+   "form_tier": 18,
+   "form_note": "Active cobalamin form — works; no proven edge over cyanocobalamin.",
+   "dose_tier": 20,
+   "dose_note": "1000 µg/day — covers the 50–100 µg/day a vegan needs, or a weekly 2,000 µg.",
+   "purity_tags": [
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "gélule végétale : hypromellose",
+    "fibres d’acacia"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://greenwhey.com/products/vitamine-b12",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://greenwhey.com/products/vitamine-b12",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 18,
+    "dose": 20,
+    "purity": 28,
+    "transparency": 4,
+    "total": 70,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.166,
+    "std": 0.083,
+    "std_label": "€ / 500 µg B12",
+    "days_per_pack": 120,
+    "price_tier": 3
+   },
+   "label_hash": "2a8373a05f71",
+   "rank_in_category": 15
+  },
+  {
+   "category": "vitamin_c",
+   "brand": "Greenwhey",
+   "name": "Vitamine C en poudre",
+   "variant": "neutre · 300 g",
+   "price_eur": 39.95,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "acide L-ascorbique Quali-C pur",
+   "additives": [],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "Quali®-C",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "Pot de 300 g ; portion fabricant de 1 g, soit 300 portions et 1000 mg de vitamine C par portion. Portion représentée comme unité pour respecter le calcul de prix en mg.",
+   "url": "https://greenwhey.com/products/vitamine-c-en-poudre",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://greenwhey.com/products/vitamine-c-en-poudre"
+   },
+   "units_pack": 300,
+   "units_per_day": 1,
+   "active_per_unit": 1000,
+   "active_unit": "mg",
+   "vegan": true,
+   "unit_name": "portion de 1 g",
+   "id": "greenwhey-vitamine-c-en-poudre-neutre-300-g",
+   "form_tier": 16,
+   "form_note": "Plain ascorbic acid — effective, standard form.",
+   "dose_tier": 20,
+   "dose_note": "1000 mg/day — saturating dose.",
+   "purity_tags": [],
+   "additives_detail": [],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Quali®-C",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://greenwhey.com/products/vitamine-c-en-poudre",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://greenwhey.com/products/vitamine-c-en-poudre",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 16,
+    "dose": 20,
+    "purity": 30,
+    "transparency": 8,
+    "total": 74,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.133,
+    "std": 0.133,
+    "std_label": "€ / 1000 mg C",
+    "days_per_pack": 300,
+    "price_tier": 3
+   },
+   "label_hash": "b5bf05d51a02",
+   "rank_in_category": 10
+  },
+  {
+   "category": "zinc",
+   "brand": "Greenwhey",
+   "name": "Zinc Bisglycinate",
+   "variant": "90 gélules",
+   "price_eur": 19.95,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "zinc bisglycinate Albion, pyridoxal-5-phosphate et levure de sélénium",
+   "additives": [
+    "gélule végétale : hypromellose",
+    "fibres d’acacia"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "Albion® Minerals",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "Par gélule : zinc 15 mg, B6 5 mg et sélénium 55 µg. B6 et sélénium conservés à titre informatif hors catégories actuelles de cumul.",
+   "url": "https://greenwhey.com/products/zinc-bisglycinate",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://greenwhey.com/products/zinc-bisglycinate"
+   },
+   "units_pack": 90,
+   "units_per_day": 1,
+   "active_per_unit": 15,
+   "active_unit": "mg elemental Zn",
+   "vegan": true,
+   "nutrients": {
+    "vitamin_b6": 5,
+    "selenium": 55
+   },
+   "unit_name": "gélule",
+   "id": "greenwhey-zinc-bisglycinate-90-gelules",
+   "form_tier": 20,
+   "form_note": "Bisglycinate — well-absorbed chelate.",
+   "dose_tier": 20,
+   "dose_note": "15 mg elemental zinc/day — effective, within EFSA UL.",
+   "purity_tags": [
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "gélule végétale : hypromellose",
+    "fibres d’acacia"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Albion® Minerals",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://greenwhey.com/products/zinc-bisglycinate",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://greenwhey.com/products/zinc-bisglycinate",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 28,
+    "transparency": 8,
+    "total": 76,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.222,
+    "std": 0.222,
+    "std_label": "€ / 15 mg Zn",
+    "days_per_pack": 90,
+    "price_tier": 3
+   },
+   "label_hash": "34e5ac745d1a",
+   "rank_in_category": 3
+  },
+  {
+   "category": "probiotics",
+   "brand": "Greenwhey",
+   "name": "Probiotiques & Prébiotiques",
+   "variant": "60 gélules",
+   "price_eur": 24.95,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "10 souches identifiées, gélule gastro-résistante hypromellose",
+   "additives": [
+    "gélule végétale : hypromellose",
+    "fibres d’acacia",
+    "inuline de chicorée"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "40 milliards UFC et 600 mg d’inuline par 2 gélules. Souches : UALp-05, UALr-18, UABb-10, DDS-1, UALre-16, UABla-12, UALpc-04, UABbr-11, UABI-14, UALs-07. Garantie à échéance non explicitement chiffrée.",
+   "url": "https://greenwhey.com/products/probiotiques-prebiotiques",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://greenwhey.com/products/probiotiques-prebiotiques"
+   },
+   "units_pack": 60,
+   "units_per_day": 2,
+   "active_per_unit": 20,
+   "active_unit": "billion CFU",
+   "vegan": true,
+   "strains_count": 10,
+   "strains_coded": true,
+   "gastro_resistant": true,
+   "unit_name": "gélule",
+   "id": "greenwhey-probiotiques-prebiotiques-60-gelules",
+   "form_tier": 20,
+   "form_note": "Strain-coded and gastro-resistant delivery.",
+   "dose_tier": 20,
+   "dose_note": "40 billion CFU/day — high potency.",
+   "purity_tags": [
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "gélule végétale : hypromellose",
+    "fibres d’acacia",
+    "inuline de chicorée"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://greenwhey.com/products/probiotiques-prebiotiques",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://greenwhey.com/products/probiotiques-prebiotiques",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 28,
+    "transparency": 4,
+    "total": 72,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.832,
+    "std": 0.832,
+    "std_label": "€ / day",
+    "days_per_pack": 30,
+    "price_tier": 4
+   },
+   "label_hash": "8841abbc1311",
+   "rank_in_category": 6
+  },
+  {
+   "category": "collagen",
+   "brand": "Greenwhey",
+   "name": "Peptides de Collagène PEPTAN®",
+   "variant": "nature · 300 g",
+   "price_eur": 24.95,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "peptides de collagène bovin Peptan type I hydrolysé 2000 Da",
+   "additives": [],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "Peptan®",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "Composition nature : 100 % peptides de collagène ; 10 g par portion.",
+   "url": "https://greenwhey.com/products/peptides-de-collagene-peptan",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://greenwhey.com/products/peptides-de-collagene-peptan"
+   },
+   "format": "powder",
+   "pack_g": 300,
+   "serving_g": 10,
+   "active_per_serving_g": 10,
+   "active_per_100g": 100.0,
+   "vegan": false,
+   "id": "greenwhey-peptides-de-collagene-peptan-nature-300-g",
+   "form_tier": 20,
+   "form_note": "Branded hydrolysed peptides with clinical backing.",
+   "collagen_g_day": 10,
+   "dose_tier": 20,
+   "dose_note": "10 g peptides/day — in the studied range.",
+   "purity_tags": [],
+   "additives_detail": [],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Peptan®",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://greenwhey.com/products/peptides-de-collagene-peptan",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://greenwhey.com/products/peptides-de-collagene-peptan",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 30,
+    "transparency": 8,
+    "total": 78,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.832,
+    "std": 0.832,
+    "std_label": "€ / 10 g collagen",
+    "days_per_pack": 30,
+    "price_tier": 2
+   },
+   "label_hash": "29fb5309d3fd",
+   "rank_in_category": 5
+  },
+  {
+   "category": "multivitamin",
+   "brand": "Greenwhey",
+   "name": "Multivitamines",
+   "variant": "120 gélules",
+   "price_eur": 34.95,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "vitamines bioactives et minéraux chélatés : bisglycinates Mg/Zn, P5P, méthylcobalamine, méthylfolate, MK-7, cholécalciférol ; extraits végétaux et cofacteurs",
+   "additives": [
+    "gélule végétale : hypromellose",
+    "fibres d’acacia"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "Albion® / Quali®-C / MenaQ7®",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "Apports pour 4 gélules ; D3 25 µg convertie en 1000 UI. Autres quantités hors affichage : vitamine A 600 µg, molybdène 100 µg. Autres actifs : Q10 40 mg, acide alpha-lipoïque 100 mg, choline 200 mg, lutéine 15 mg, apigénine 3,75 mg, quercétine 50 mg, lutéoline 50 mg, inositol 100 mg, zéaxanthine 2 mg, astaxanthine 4 mg, NAC 200 mg. Pourcentages VNR incohérents non utilisés. La ligne B9 nomme simultanément calcium et Quatrefolic : dose conservée, sel exact à préciser.",
+   "url": "https://greenwhey.com/products/multivitamines-et-mineraux",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://greenwhey.com/products/multivitamines-et-mineraux"
+   },
+   "units_pack": 120,
+   "units_per_day": 4,
+   "active_per_unit": 1,
+   "active_unit": "mg",
+   "vegan": true,
+   "form_quality": "bioactive",
+   "dose_style": "mixed",
+   "nutrients": {
+    "vitamin_b1": 5,
+    "vitamin_b2": 5,
+    "vitamin_b3": 23,
+    "vitamin_b5": 10,
+    "vitamin_b6": 5,
+    "biotin": 150,
+    "folate": 300,
+    "vitamin_b12": 5,
+    "vitamin_c": 200,
+    "vitamin_d3": 1000,
+    "vitamin_e": 15,
+    "vitamin_k2": 100,
+    "magnesium": 100,
+    "zinc": 15,
+    "iodine": 150,
+    "selenium": 55,
+    "chromium": 25
+   },
+   "unit_name": "gélule",
+   "id": "greenwhey-multivitamines-120-gelules",
+   "form_tier": 20,
+   "form_note": "Bioactive / chelated forms.",
+   "dose_tier": 15,
+   "dose_note": "Mixed dosing.",
+   "purity_tags": [
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "gélule végétale : hypromellose",
+    "fibres d’acacia"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Albion® / Quali®-C / MenaQ7®",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://greenwhey.com/products/multivitamines-et-mineraux",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://greenwhey.com/products/multivitamines-et-mineraux",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 15,
+    "purity": 28,
+    "transparency": 8,
+    "total": 71,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 1.165,
+    "std": 1.165,
+    "std_label": "€ / day",
+    "days_per_pack": 30,
+    "price_tier": 5
+   },
+   "label_hash": "f6fe17d86a4e",
+   "rank_in_category": 8
+  },
+  {
+   "category": "creatine",
+   "brand": "AM Nutrition",
+   "name": "PURE Créatine monohydrate en gélules",
+   "variant": "120 gélules",
+   "price_eur": 14.9,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "créatine monohydrate micronisée",
+   "additives": [
+    "hydroxypropylméthylcellulose",
+    "sels de magnésium d’acides gras"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "La fiche déclare 750 mg de créatine par gélule et 4 gélules/jour. Tableau technique indisponible (erreur Liquid), valeur reprise du texte fabricant et non extrapolée depuis le poids du sel.",
+   "url": "https://www.amnutrition.fr/products/creatine-en-gelules",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://www.amnutrition.fr/products/creatine-en-gelules?variant=39568894492877"
+   },
+   "units_pack": 120,
+   "units_per_day": 4,
+   "active_per_unit": 0.75,
+   "active_unit": "g",
+   "active_per_serving_g": 3,
+   "vegan": true,
+   "unit_name": "gélule",
+   "id": "am-nutrition-pure-creatine-monohydrate-en-gelules-120-gelules",
+   "form_tier": 16,
+   "form_note": "Monohydrate is the gold-standard form; generic source.",
+   "purity_tags": [
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "hydroxypropylméthylcellulose",
+    "sels de magnésium d’acides gras"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://www.amnutrition.fr/products/creatine-en-gelules",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://www.amnutrition.fr/products/creatine-en-gelules?variant=39568894492877",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 16,
+    "dose": 20,
+    "purity": 28,
+    "transparency": 4,
+    "total": 68,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.497,
+    "std": 0.497,
+    "std_label": "€ / 3 g creatine",
+    "days_per_pack": 30,
+    "price_tier": 4
+   },
+   "label_hash": "33e52c3585fa",
+   "rank_in_category": 39
+  },
+  {
+   "category": "collagen",
+   "brand": "AM Nutrition",
+   "name": "PURE Collagène Peptan®",
+   "variant": "neutre · 1 kg",
+   "price_eur": 44.9,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "peptides de collagène hydrolysé Peptan",
+   "additives": [],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "Peptan®",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "Produit pur à ingrédient unique ; portion fabricant de 10 g. Tableau numérique en erreur Liquid ; masse des peptides basée sur l’ingrédient unique déclaré, et non sur une teneur en protéines.",
+   "url": "https://www.amnutrition.fr/products/peptides-de-collagene-peptan",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://www.amnutrition.fr/products/peptides-de-collagene-peptan?variant=39365440766157"
+   },
+   "format": "powder",
+   "pack_g": 1000,
+   "serving_g": 10,
+   "active_per_serving_g": 10,
+   "active_per_100g": 100.0,
+   "vegan": false,
+   "id": "am-nutrition-pure-collagene-peptan-neutre-1-kg",
+   "form_tier": 20,
+   "form_note": "Branded hydrolysed peptides with clinical backing.",
+   "collagen_g_day": 10,
+   "dose_tier": 20,
+   "dose_note": "10 g peptides/day — in the studied range.",
+   "purity_tags": [],
+   "additives_detail": [],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Peptan®",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://www.amnutrition.fr/products/peptides-de-collagene-peptan",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://www.amnutrition.fr/products/peptides-de-collagene-peptan?variant=39365440766157",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 30,
+    "transparency": 8,
+    "total": 78,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.449,
+    "std": 0.449,
+    "std_label": "€ / 10 g collagen",
+    "days_per_pack": 100,
+    "price_tier": 2
+   },
+   "label_hash": "aa6b6f52cb80",
+   "rank_in_category": 4
+  },
+  {
+   "category": "collagen",
+   "brand": "AM Nutrition",
+   "name": "PURE Collagène marin Naticol®",
+   "variant": "neutre · 500 g",
+   "price_eur": 42.9,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "peptides de collagène marin hydrolysé Naticol",
+   "additives": [],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "Naticol®",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "Produit pur à ingrédient unique ; portion fabricant de 10 g. Tableau numérique en erreur Liquid ; masse des peptides basée sur l’ingrédient unique déclaré, et non sur une teneur en protéines.",
+   "url": "https://www.amnutrition.fr/products/pure-collagene-marin-naticol",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://www.amnutrition.fr/products/pure-collagene-marin-naticol?variant=48166867173723"
+   },
+   "format": "powder",
+   "pack_g": 500,
+   "serving_g": 10,
+   "active_per_serving_g": 10,
+   "active_per_100g": 100.0,
+   "vegan": false,
+   "id": "am-nutrition-pure-collagene-marin-naticol-neutre-500-g",
+   "form_tier": 20,
+   "form_note": "Branded hydrolysed peptides with clinical backing.",
+   "collagen_g_day": 10,
+   "dose_tier": 20,
+   "dose_note": "10 g peptides/day — in the studied range.",
+   "purity_tags": [],
+   "additives_detail": [],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Naticol®",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://www.amnutrition.fr/products/pure-collagene-marin-naticol",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://www.amnutrition.fr/products/pure-collagene-marin-naticol?variant=48166867173723",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 30,
+    "transparency": 8,
+    "total": 78,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.858,
+    "std": 0.858,
+    "std_label": "€ / 10 g collagen",
+    "days_per_pack": 50,
+    "price_tier": 2
+   },
+   "label_hash": "353fdb6ce626",
+   "rank_in_category": 6
+  },
+  {
+   "category": "vitamin_c",
+   "brand": "AM Nutrition",
+   "name": "PURE Vitamine C",
+   "variant": "120 gélules",
+   "price_eur": 14.9,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "acide L-ascorbique et jus d’acérola en poudre",
+   "additives": [
+    "pullulan",
+    "sels de magnésium d’acides gras"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "La description fabricant précise 1000 mg de vitamine C pour 2 gélules. Le tableau nutritionnel est en erreur Liquid ; la dose repose sur cette déclaration explicite.",
+   "url": "https://www.amnutrition.fr/products/pure-vitamine-c-acerola",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://www.amnutrition.fr/products/pure-vitamine-c-acerola?variant=51594863804763"
+   },
+   "units_pack": 120,
+   "units_per_day": 2,
+   "active_per_unit": 500,
+   "active_unit": "mg",
+   "vegan": true,
+   "unit_name": "gélule",
+   "id": "am-nutrition-pure-vitamine-c-120-gelules",
+   "form_tier": 18,
+   "form_note": "Buffered/whole-food vitamin C, gentle on the stomach.",
+   "dose_tier": 20,
+   "dose_note": "1000 mg/day — saturating dose.",
+   "purity_tags": [],
+   "additives_detail": [
+    "pullulan",
+    "sels de magnésium d’acides gras"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://www.amnutrition.fr/products/pure-vitamine-c-acerola",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://www.amnutrition.fr/products/pure-vitamine-c-acerola?variant=51594863804763",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 18,
+    "dose": 20,
+    "purity": 30,
+    "transparency": 4,
+    "total": 72,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.248,
+    "std": 0.248,
+    "std_label": "€ / 1000 mg C",
+    "days_per_pack": 60,
+    "price_tier": 3
+   },
+   "label_hash": "b90488af0c4c",
+   "rank_in_category": 17
+  },
+  {
+   "category": "maca",
+   "brand": "AqeeLab Nutrition",
+   "name": "Maca Bio du Pérou – Gélules",
+   "variant": "120 gélules",
+   "price_eur": 29.95,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "poudre de racine de maca bio",
+   "additives": [
+    "hydroxypropylméthylcellulose"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "La composition indique une poudre de racine. Le conseil d’utilisation emploie aussi le mot extrait ; aucun ratio de concentration supposé. Dose déclarée de 1300 mg pour 2 gélules.",
+   "url": "https://www.aqeelab-nutrition.fr/products/maca-bio-du-perou-gelules",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://www.aqeelab-nutrition.fr/products/maca-bio-du-perou-gelules?variant=48613336711514"
+   },
+   "units_pack": 120,
+   "units_per_day": 2,
+   "active_per_unit": 650,
+   "active_unit": "mg",
+   "vegan": true,
+   "unit_name": "gélule",
+   "id": "aqeelab-nutrition-maca-bio-du-perou-gelules-120-gelules",
+   "form_tier": 14,
+   "form_note": "Raw maca powder.",
+   "dose_tier": 15,
+   "dose_note": "1300 mg/day — half the studied dose.",
+   "purity_tags": [
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "hydroxypropylméthylcellulose"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://www.aqeelab-nutrition.fr/products/maca-bio-du-perou-gelules",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://www.aqeelab-nutrition.fr/products/maca-bio-du-perou-gelules?variant=48613336711514",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 14,
+    "dose": 15,
+    "purity": 28,
+    "transparency": 4,
+    "total": 61,
+    "grade": "C",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.499,
+    "std": 1.152,
+    "std_label": "€ / 3 g maca",
+    "days_per_pack": 60,
+    "price_tier": 4
+   },
+   "label_hash": "3041e599a8c4",
+   "rank_in_category": 21
+  },
+  {
+   "category": "tribulus",
+   "brand": "AqeeLab Nutrition",
+   "name": "Tribulus Terrestris",
+   "variant": "120 comprimés",
+   "price_eur": 22.95,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "extrait de Tribulus terrestris standardisé à 40 % de saponines",
+   "additives": [
+    "fibre d’acacia"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "2400 mg d’extrait/jour, soit 960 mg de saponines déclarées à 40 %. Le texte fabricant confirme 120 comprimés par pot.",
+   "url": "https://www.aqeelab-nutrition.fr/products/tribulus-terrestris",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://www.aqeelab-nutrition.fr/products/tribulus-terrestris?variant=49260921946458"
+   },
+   "units_pack": 120,
+   "units_per_day": 4,
+   "active_per_unit": 600,
+   "active_unit": "mg",
+   "vegan": true,
+   "unit_name": "comprimé",
+   "id": "aqeelab-nutrition-tribulus-terrestris-120-comprimes",
+   "form_tier": 14,
+   "form_note": "Standardised saponin/protodioscin content declared — no dose has raised testosterone in men.",
+   "dose_tier": 8,
+   "dose_note": "2400 mg/day — no tribulus dose has raised testosterone in men; scored as a token.",
+   "purity_tags": [
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "fibre d’acacia"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://www.aqeelab-nutrition.fr/products/tribulus-terrestris",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://www.aqeelab-nutrition.fr/products/tribulus-terrestris?variant=49260921946458",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 14,
+    "dose": 8,
+    "purity": 28,
+    "transparency": 4,
+    "total": 54,
+    "grade": "C",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.765,
+    "std": 0.765,
+    "std_label": "€ / day",
+    "days_per_pack": 30,
+    "price_tier": 4
+   },
+   "label_hash": "63c90a3a4442",
+   "rank_in_category": 10
+  },
+  {
+   "category": "whey",
+   "brand": "AqeeLab Nutrition",
+   "name": "Whey Native Française 94% - Whey Native au Lait Français",
+   "variant": "chocolat · 810 g",
+   "price_eur": 46.95,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "concentré natif de protéines de sérum issu du lait",
+   "additives": [
+    "lécithine de tournesol",
+    "cacao alcalinisé",
+    "arômes",
+    "glycosides de stéviol"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "Tolerase® L",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "22 g de protéines par dose de 30 g pour le chocolat ; concentration calculée à partir de cette portion explicitement publiée (73,333 g/100 g). 94 % désigne la part de matière première whey, pas la teneur en protéines. Lactase Tolerase L déclarée.",
+   "url": "https://www.aqeelab-nutrition.fr/products/whey-native-fabriquee-en-france-lait-francais",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://www.aqeelab-nutrition.fr/products/whey-native-fabriquee-en-france-lait-francais?variant=51383198187866"
+   },
+   "format": "powder",
+   "pack_g": 810,
+   "serving_g": 30,
+   "active_per_serving_g": 22,
+   "active_per_100g": 73.33333333333333,
+   "vegan": false,
+   "id": "aqeelab-nutrition-whey-native-fran-aise-94-whey-native-au-lait-fran-ais-chocolat-810-g",
+   "form_tier": 14,
+   "form_note": "Standard whey concentrate.",
+   "purity_tags": [
+    "lecithin",
+    "undisclosed_minor"
+   ],
+   "additives_detail": [
+    "lécithine de tournesol",
+    "cacao alcalinisé",
+    "arômes",
+    "glycosides de stéviol"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Tolerase® L",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [
+    {
+     "string": "arômes",
+     "verdict": "penalty:undisclosed_minor",
+     "note": "flavouring declared without stating its origin",
+     "reviewed_on": "2026-08-07"
+    }
+   ],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://www.aqeelab-nutrition.fr/products/whey-native-fabriquee-en-france-lait-francais",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://www.aqeelab-nutrition.fr/products/whey-native-fabriquee-en-france-lait-francais?variant=51383198187866",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 14,
+    "dose": 14,
+    "purity": 27,
+    "transparency": 8,
+    "total": 63,
+    "grade": "C",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 1.739,
+    "std": 1.976,
+    "std_label": "€ / 25 g protein",
+    "days_per_pack": 27,
+    "price_tier": 5
+   },
+   "label_hash": "59df8e6e5f9d",
+   "rank_in_category": 25
+  },
+  {
+   "category": "whey",
+   "brand": "Eiyolab",
+   "name": "Whey HT",
+   "variant": "chocolat · 750 g",
+   "price_eur": 31.9,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "concentré de protéine de lactosérum",
+   "additives": [
+    "lécithine de tournesol",
+    "arômes",
+    "cacao en poudre",
+    "sel",
+    "sucralose"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "DigeZyme®",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "Tableau chocolat : 21 g de protéines sur matière humide pour 30 g, soit 70 g/100 g calculés. La valeur sur matière sèche (22,5 g/portion) n’est pas utilisée. Complexe enzymatique DigeZyme 50 mg par portion.",
+   "url": "https://eiyolab.com/products/whey-ht",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://eiyolab.com/products/whey-ht?variant=60801721794894"
+   },
+   "format": "powder",
+   "pack_g": 750,
+   "serving_g": 30,
+   "active_per_serving_g": 21,
+   "active_per_100g": 70.0,
+   "vegan": false,
+   "id": "eiyolab-whey-ht-chocolat-750-g",
+   "form_tier": 14,
+   "form_note": "Standard whey concentrate.",
+   "purity_tags": [
+    "lecithin",
+    "sweetener_d",
+    "undisclosed_minor"
+   ],
+   "additives_detail": [
+    "lécithine de tournesol",
+    "arômes",
+    "cacao en poudre",
+    "sel",
+    "sucralose"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "DigeZyme®",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [
+    {
+     "string": "arômes",
+     "verdict": "penalty:undisclosed_minor",
+     "note": "flavouring declared without stating its origin",
+     "reviewed_on": "2026-08-07"
+    }
+   ],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://eiyolab.com/products/whey-ht",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://eiyolab.com/products/whey-ht?variant=60801721794894",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 14,
+    "dose": 14,
+    "purity": 21,
+    "transparency": 8,
+    "total": 57,
+    "grade": "C",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 1.276,
+    "std": 1.519,
+    "std_label": "€ / 25 g protein",
+    "days_per_pack": 25,
+    "price_tier": 3
+   },
+   "label_hash": "cb6a538faab8",
+   "rank_in_category": 32
+  },
+  {
+   "category": "whey",
+   "brand": "Eiyolab",
+   "name": "Isolate HT",
+   "variant": "vanille · 750 g",
+   "price_eur": 39.9,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "isolat de protéines de lactosérum",
+   "additives": [
+    "lécithine de tournesol",
+    "arômes",
+    "sel",
+    "sucralose"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "DigeZyme®",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "Tableau vanille : 25,2 g de protéines sur matière humide pour 30 g, soit 84 g/100 g. Valeur sur matière sèche non utilisée. DigeZyme 80 mg par portion.",
+   "url": "https://eiyolab.com/products/isolate-ht-doypack",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://eiyolab.com/products/isolate-ht-doypack?variant=60801701118286"
+   },
+   "format": "powder",
+   "pack_g": 750,
+   "serving_g": 30,
+   "active_per_serving_g": 25.2,
+   "active_per_100g": 84.0,
+   "vegan": false,
+   "id": "eiyolab-isolate-ht-vanille-750-g",
+   "form_tier": 18,
+   "form_note": "Isolate-led.",
+   "purity_tags": [
+    "lecithin",
+    "sweetener_d",
+    "undisclosed_minor"
+   ],
+   "additives_detail": [
+    "lécithine de tournesol",
+    "arômes",
+    "sel",
+    "sucralose"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "DigeZyme®",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [
+    {
+     "string": "arômes",
+     "verdict": "penalty:undisclosed_minor",
+     "note": "flavouring declared without stating its origin",
+     "reviewed_on": "2026-08-07"
+    }
+   ],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://eiyolab.com/products/isolate-ht-doypack",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://eiyolab.com/products/isolate-ht-doypack?variant=60801701118286",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 18,
+    "dose": 20,
+    "purity": 21,
+    "transparency": 8,
+    "total": 67,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 1.596,
+    "std": 1.583,
+    "std_label": "€ / 25 g protein",
+    "days_per_pack": 25,
+    "price_tier": 3
+   },
+   "label_hash": "accb564af2f4",
+   "rank_in_category": 16
+  },
+  {
+   "category": "creatine",
+   "brand": "Eiyolab",
+   "name": "Pure Créatine HT en poudre - Creapure®",
+   "variant": "neutre · 300 g",
+   "price_eur": 27.9,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "créatine monohydrate Creapure pure",
+   "additives": [],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "Creapure®",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "Portion de 3,4 g de monohydrate apportant explicitement 3 g de créatine.",
+   "url": "https://eiyolab.com/products/pure-creatine-ht",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://eiyolab.com/products/pure-creatine-ht?variant=60801723367758"
+   },
+   "format": "powder",
+   "pack_g": 300,
+   "serving_g": 3.4,
+   "active_per_serving_g": 3,
+   "active_per_100g": 88.23529411764706,
+   "vegan": true,
+   "id": "eiyolab-pure-creatine-ht-en-poudre-creapure-neutre-300-g",
+   "form_tier": 20,
+   "form_note": "Documented-purity Creapure® monohydrate.",
+   "purity_tags": [],
+   "additives_detail": [],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Creapure®",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://eiyolab.com/products/pure-creatine-ht",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://eiyolab.com/products/pure-creatine-ht?variant=60801723367758",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 30,
+    "transparency": 8,
+    "total": 78,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.316,
+    "std": 0.316,
+    "std_label": "€ / 3 g creatine",
+    "days_per_pack": 88,
+    "price_tier": 3
+   },
+   "label_hash": "3317373dca96",
+   "rank_in_category": 18
+  },
+  {
+   "category": "creatine",
+   "brand": "Eiyolab",
+   "name": "Pure Créatine HT en gélule - Creapure®",
+   "variant": "120 gélules",
+   "price_eur": 14.9,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "créatine monohydrate Creapure",
+   "additives": [
+    "gélule végétale",
+    "farine de coco"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "Creapure®",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "5 gélules : 3400 mg de monohydrate dont 3000 mg de créatine, soit 600 mg de créatine par gélule.",
+   "url": "https://eiyolab.com/products/pure-creatine-ht-gelule-creapure",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://eiyolab.com/products/pure-creatine-ht-gelule-creapure?variant=60801748271438"
+   },
+   "units_pack": 120,
+   "units_per_day": 5,
+   "active_per_unit": 0.6,
+   "active_unit": "g",
+   "active_per_serving_g": 3,
+   "vegan": true,
+   "unit_name": "gélule",
+   "id": "eiyolab-pure-creatine-ht-en-gelule-creapure-120-gelules",
+   "form_tier": 20,
+   "form_note": "Documented-purity Creapure® monohydrate.",
+   "purity_tags": [],
+   "additives_detail": [
+    "gélule végétale",
+    "farine de coco"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Creapure®",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [
+    {
+     "string": "farine de coco",
+     "verdict": "neutral",
+     "note": "Coconut flour used as a bulking agent — a food ingredient, not an additive.",
+     "reviewed_on": "2026-09-06"
+    }
+   ],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://eiyolab.com/products/pure-creatine-ht-gelule-creapure",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://eiyolab.com/products/pure-creatine-ht-gelule-creapure?variant=60801748271438",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 30,
+    "transparency": 8,
+    "total": 78,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.621,
+    "std": 0.621,
+    "std_label": "€ / 3 g creatine",
+    "days_per_pack": 24,
+    "price_tier": 5
+   },
+   "label_hash": "08d18a46fe90",
+   "rank_in_category": 24
+  },
+  {
+   "category": "omega3",
+   "brand": "Eiyolab",
+   "name": "Omega 3 - EPAX®",
+   "variant": "90 capsules",
+   "price_eur": 24.9,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "huile de poisson Epax ; forme moléculaire non précisée",
+   "additives": [
+    "gélatine de poisson",
+    "glycérine",
+    "extrait de romarin",
+    "tocophérols"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "Epax®",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "Par 3 capsules : EPA 1200 mg et DHA 900 mg. Dose de 2 capsules/jour explicitement conseillée par le fabricant pour l’entretien, soit 1400 mg EPA+DHA ; plage générale fabricant 1 à 3 capsules.",
+   "url": "https://eiyolab.com/products/omega-3-epax",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://eiyolab.com/products/omega-3-epax?variant=60801754693966"
+   },
+   "units_pack": 90,
+   "units_per_day": 2,
+   "active_per_unit": 700,
+   "active_unit": "mg EPA+DHA",
+   "vegan": false,
+   "unit_name": "gélule",
+   "id": "eiyolab-omega-3-epax-90-capsules",
+   "form_tier": 12,
+   "form_note": "Oil form not clearly declared.",
+   "purity_tags": [],
+   "additives_detail": [
+    "gélatine de poisson",
+    "glycérine",
+    "extrait de romarin",
+    "tocophérols"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Epax®",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://eiyolab.com/products/omega-3-epax",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://eiyolab.com/products/omega-3-epax?variant=60801754693966",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 12,
+    "dose": 20,
+    "purity": 30,
+    "transparency": 8,
+    "total": 70,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.553,
+    "std": 0.198,
+    "std_label": "€ / 500 mg EPA+DHA",
+    "days_per_pack": 45,
+    "price_tier": 2
+   },
+   "label_hash": "d59ef62a5568",
+   "rank_in_category": 19
+  },
+  {
+   "category": "collagen",
+   "brand": "Eiyolab",
+   "name": "Collagène marin en gélule - Peptan®",
+   "variant": "120 gélules",
+   "price_eur": 15.9,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "peptides de collagène marin hydrolysé Peptan 2000 Da",
+   "additives": [
+    "gélule végétale HPMC",
+    "amidon de riz"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "Peptan®",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "2400 mg de peptides par 4 gélules, soit 2,4 g/jour.",
+   "url": "https://eiyolab.com/products/collagene-marin-gelule-peptan",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://eiyolab.com/products/collagene-marin-gelule-peptan?variant=60801753973070"
+   },
+   "units_pack": 120,
+   "units_per_day": 4,
+   "active_per_unit": 0.6,
+   "active_unit": "g",
+   "vegan": false,
+   "unit_name": "gélule",
+   "id": "eiyolab-collagene-marin-en-gelule-peptan-120-gelules",
+   "form_tier": 20,
+   "form_note": "Branded hydrolysed peptides with clinical backing.",
+   "collagen_g_day": 2.4,
+   "dose_tier": 12,
+   "dose_note": "2.4 g/day — below most trials.",
+   "purity_tags": [
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "gélule végétale HPMC",
+    "amidon de riz"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Peptan®",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://eiyolab.com/products/collagene-marin-gelule-peptan",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://eiyolab.com/products/collagene-marin-gelule-peptan?variant=60801753973070",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 12,
+    "purity": 28,
+    "transparency": 8,
+    "total": 68,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.53,
+    "std": 2.208,
+    "std_label": "€ / 10 g collagen",
+    "days_per_pack": 30,
+    "price_tier": 2
+   },
+   "label_hash": "84e139c6a1c7",
+   "rank_in_category": 34
+  },
+  {
+   "category": "collagen",
+   "brand": "Eiyolab",
+   "name": "Collagène marin en poudre - Peptan®",
+   "variant": "neutre · 250 g",
+   "price_eur": 24.9,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "peptides de collagène marin hydrolysé Peptan 2000 Da",
+   "additives": [],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "Peptan®",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "",
+   "url": "https://eiyolab.com/products/collagene-marin-poudre-peptan",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://eiyolab.com/products/collagene-marin-poudre-peptan?variant=60801698595150"
+   },
+   "format": "powder",
+   "pack_g": 250,
+   "serving_g": 10,
+   "active_per_serving_g": 10,
+   "active_per_100g": 100.0,
+   "vegan": false,
+   "id": "eiyolab-collagene-marin-en-poudre-peptan-neutre-250-g",
+   "form_tier": 20,
+   "form_note": "Branded hydrolysed peptides with clinical backing.",
+   "collagen_g_day": 10,
+   "dose_tier": 20,
+   "dose_note": "10 g peptides/day — in the studied range.",
+   "purity_tags": [],
+   "additives_detail": [],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Peptan®",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://eiyolab.com/products/collagene-marin-poudre-peptan",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://eiyolab.com/products/collagene-marin-poudre-peptan?variant=60801698595150",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 30,
+    "transparency": 8,
+    "total": 78,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.996,
+    "std": 0.996,
+    "std_label": "€ / 10 g collagen",
+    "days_per_pack": 25,
+    "price_tier": 2
+   },
+   "label_hash": "826647077196",
+   "rank_in_category": 7
+  },
+  {
+   "category": "maca",
+   "brand": "Eiyolab",
+   "name": "Maca bio",
+   "variant": "120 gélules",
+   "price_eur": 13.9,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "poudre de racines de maca bio",
+   "additives": [
+    "gélule végétale",
+    "gomme d’acacia"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "1600 mg de poudre de racine pour 4 gélules.",
+   "url": "https://eiyolab.com/products/maca-bio",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://eiyolab.com/products/maca-bio?variant=60801727594830"
+   },
+   "units_pack": 120,
+   "units_per_day": 4,
+   "active_per_unit": 400,
+   "active_unit": "mg",
+   "vegan": true,
+   "unit_name": "gélule",
+   "id": "eiyolab-maca-bio-120-gelules",
+   "form_tier": 14,
+   "form_note": "Raw maca powder.",
+   "dose_tier": 20,
+   "dose_note": "1600 mg powder-equivalent/day — in the studied 1.5–3 g range.",
+   "purity_tags": [
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "gélule végétale",
+    "gomme d’acacia"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://eiyolab.com/products/maca-bio",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://eiyolab.com/products/maca-bio?variant=60801727594830",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 14,
+    "dose": 20,
+    "purity": 28,
+    "transparency": 4,
+    "total": 66,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.463,
+    "std": 0.869,
+    "std_label": "€ / 3 g maca",
+    "days_per_pack": 30,
+    "price_tier": 3
+   },
+   "label_hash": "85008a40f704",
+   "rank_in_category": 17
+  },
+  {
+   "category": "tribulus",
+   "brand": "Eiyolab",
+   "name": "Tribulus HT",
+   "variant": "90 gélules",
+   "price_eur": 11.9,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "extrait de fruits de tribulus standardisé à 40 % de saponines",
+   "additives": [
+    "gélule végétale HPMC",
+    "farine de coco"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "Le tableau fabricant déclare 3000 mg d’extrait dont 1200 mg de saponines par 3 gélules. Dose haute de la plage fabricant 1 à 3 gélules.",
+   "url": "https://eiyolab.com/products/tribulus-ht",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://eiyolab.com/products/tribulus-ht?variant=60801749057870"
+   },
+   "units_pack": 90,
+   "units_per_day": 3,
+   "active_per_unit": 1000,
+   "active_unit": "mg",
+   "vegan": true,
+   "unit_name": "gélule",
+   "id": "eiyolab-tribulus-ht-90-gelules",
+   "form_tier": 14,
+   "form_note": "Standardised saponin/protodioscin content declared — no dose has raised testosterone in men.",
+   "dose_tier": 8,
+   "dose_note": "3000 mg/day — no tribulus dose has raised testosterone in men; scored as a token.",
+   "purity_tags": [],
+   "additives_detail": [
+    "gélule végétale HPMC",
+    "farine de coco"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [
+    {
+     "string": "farine de coco",
+     "verdict": "neutral",
+     "note": "Coconut flour used as a bulking agent — a food ingredient, not an additive.",
+     "reviewed_on": "2026-09-06"
+    }
+   ],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://eiyolab.com/products/tribulus-ht",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://eiyolab.com/products/tribulus-ht?variant=60801749057870",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 14,
+    "dose": 8,
+    "purity": 30,
+    "transparency": 4,
+    "total": 56,
+    "grade": "C",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.397,
+    "std": 0.397,
+    "std_label": "€ / day",
+    "days_per_pack": 30,
+    "price_tier": 2
+   },
+   "label_hash": "676d1729974e",
+   "rank_in_category": 5
+  },
+  {
+   "category": "tribulus",
+   "brand": "Eiyolab",
+   "name": "Testo HT",
+   "variant": "90 gélules",
+   "price_eur": 27.9,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "extrait de tribulus 40 % saponines, ashwagandha KSM-66, grenade, cacao, maca, zinc bisglycinate et vitamines",
+   "additives": [
+    "gélule végétale HPMC",
+    "maltodextrine",
+    "carbonate de calcium"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "Dose 3 gélules : tribulus 800 mg dont saponines 320 mg ; ashwagandha 300 mg dont withanolides 15 mg ; grenade 200 mg ; cacao 200 mg dont théobromine 14 mg ; maca 150 mg ; Zn 15 mg ; D3 5 µg ; B5 0,9 mg ; B6 0,21 mg.",
+   "url": "https://eiyolab.com/products/testo-ht",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://eiyolab.com/products/testo-ht?variant=60801748762958"
+   },
+   "units_pack": 90,
+   "units_per_day": 3,
+   "active_per_unit": 266.6666666666667,
+   "active_unit": "mg",
+   "vegan": true,
+   "secondary_actives": [
+    {
+     "category": "ashwagandha",
+     "per_day": 300
+    },
+    {
+     "category": "maca",
+     "per_day": 150
+    },
+    {
+     "category": "zinc",
+     "per_day": 15
+    },
+    {
+     "category": "vitamin_d3",
+     "per_day": 200
+    }
+   ],
+   "nutrients": {
+    "vitamin_b5": 0.9,
+    "vitamin_b6": 0.21
+   },
+   "unit_name": "gélule",
+   "id": "eiyolab-testo-ht-90-gelules",
+   "form_tier": 14,
+   "form_note": "Standardised saponin/protodioscin content declared — no dose has raised testosterone in men.",
+   "dose_tier": 8,
+   "dose_note": "800 mg/day — no tribulus dose has raised testosterone in men; scored as a token.",
+   "purity_tags": [
+    "bulking_filler",
+    "coating"
+   ],
+   "additives_detail": [
+    "gélule végétale HPMC",
+    "maltodextrine",
+    "carbonate de calcium"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://eiyolab.com/products/testo-ht",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://eiyolab.com/products/testo-ht?variant=60801748762958",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 14,
+    "dose": 8,
+    "purity": 26,
+    "transparency": 4,
+    "total": 52,
+    "grade": "C",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.93,
+    "std": 0.93,
+    "std_label": "€ / day",
+    "days_per_pack": 30,
+    "price_tier": 4
+   },
+   "label_hash": "3174aad5f07d",
+   "rank_in_category": 12
+  },
+  {
+   "category": "probiotics",
+   "brand": "Eiyolab",
+   "name": "Probiotiques 20 milliards",
+   "variant": "60 gélules",
+   "price_eur": 16.9,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "Lactobacillus rhamnosus LR04, Bifidobacterium lactis BS01, Bifidobacterium longum BL03 ; gélule gastro-résistante",
+   "additives": [
+    "gélule végétale gastro-résistante",
+    "amidon de pomme de terre",
+    "carbonate de magnésium",
+    "fibre de gomme d’acacia",
+    "huile de tournesol"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "20 milliards UFC au total pour 2 gélules (6,67 milliards par souche, arrondi fabricant). Glutamine 500 mg et B3 16 mg par jour. Garantie à échéance non explicitement chiffrée.",
+   "url": "https://eiyolab.com/products/probiotiques-20-milliards",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://eiyolab.com/products/probiotiques-20-milliards?variant=60801747878222"
+   },
+   "units_pack": 60,
+   "units_per_day": 2,
+   "active_per_unit": 10,
+   "active_unit": "billion CFU",
+   "vegan": true,
+   "strains_count": 3,
+   "strains_coded": true,
+   "gastro_resistant": true,
+   "nutrients": {
+    "vitamin_b3": 16
+   },
+   "unit_name": "gélule",
+   "id": "eiyolab-probiotiques-20-milliards-60-gelules",
+   "form_tier": 20,
+   "form_note": "Strain-coded and gastro-resistant delivery.",
+   "dose_tier": 20,
+   "dose_note": "20 billion CFU/day — high potency.",
+   "purity_tags": [
+    "bulking_filler",
+    "anticaking",
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "gélule végétale gastro-résistante",
+    "amidon de pomme de terre",
+    "carbonate de magnésium",
+    "fibre de gomme d’acacia",
+    "huile de tournesol"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://eiyolab.com/products/probiotiques-20-milliards",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://eiyolab.com/products/probiotiques-20-milliards?variant=60801747878222",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 24,
+    "transparency": 4,
+    "total": 68,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.563,
+    "std": 0.563,
+    "std_label": "€ / day",
+    "days_per_pack": 30,
+    "price_tier": 2
+   },
+   "label_hash": "fffdce4c3412",
+   "rank_in_category": 12
+  },
+  {
+   "category": "multivitamin",
+   "brand": "Eiyolab",
+   "name": "UltraVitamines",
+   "variant": "90 gélules",
+   "price_eur": 19.9,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "vitamines et minéraux : magnésium carbonate/oxyde, zinc bisglycinate, cyanocobalamine, D3, K2 MK7, Aquamin et PureWay-C",
+   "additives": [
+    "cellulose microcristalline",
+    "amidon de maïs",
+    "gélule végétale",
+    "acides gras issus de son de riz",
+    "huile de tournesol"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "PureWay-C® / Aquamin® / Albion™",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "Apports pour 3 gélules. Autres quantités hors affichage : manganèse 1 mg. Autres actifs : flavonoïdes 5,61 mg, choline 10 mg, inositol 25 mg, bétaïne 18 mg, rutine 10 mg, hespéridine 10 mg, Q10 10 mg, glutathion 2 mg. B9 nommée Quatrefolic et acide folique dans la même liste : dose conservée, forme exacte non créditée comme bioactive.",
+   "url": "https://eiyolab.com/products/ultravitamines",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://eiyolab.com/products/ultravitamines?variant=60801749123406"
+   },
+   "units_pack": 90,
+   "units_per_day": 3,
+   "active_per_unit": 1,
+   "active_unit": "mg",
+   "form_quality": "cheap",
+   "dose_style": "mixed",
+   "nutrients": {
+    "vitamin_c": 180,
+    "calcium": 120,
+    "magnesium": 100,
+    "zinc": 7.5,
+    "potassium": 25,
+    "vitamin_b3": 16,
+    "vitamin_e": 12,
+    "vitamin_b5": 6,
+    "vitamin_b6": 1.4,
+    "vitamin_b2": 1.4,
+    "vitamin_b1": 1.1,
+    "folate": 200,
+    "iodine": 150,
+    "biotin": 100,
+    "selenium": 75,
+    "chromium": 25,
+    "vitamin_k2": 25,
+    "vitamin_d3": 200,
+    "vitamin_b12": 2.5
+   },
+   "unit_name": "gélule",
+   "id": "eiyolab-ultravitamines-90-gelules",
+   "form_tier": 8,
+   "form_note": "Cheap forms (oxides, cyanocobalamin, retinol).",
+   "dose_tier": 15,
+   "dose_note": "Mixed dosing.",
+   "purity_tags": [
+    "bulking_filler",
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "cellulose microcristalline",
+    "amidon de maïs",
+    "gélule végétale",
+    "acides gras issus de son de riz",
+    "huile de tournesol"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "PureWay-C® / Aquamin® / Albion™",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://eiyolab.com/products/ultravitamines",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://eiyolab.com/products/ultravitamines?variant=60801749123406",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 8,
+    "dose": 15,
+    "purity": 26,
+    "transparency": 8,
+    "total": 57,
+    "grade": "C",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.663,
+    "std": 0.663,
+    "std_label": "€ / day",
+    "days_per_pack": 30,
+    "price_tier": 4
+   },
+   "label_hash": "a1d373f42597",
+   "rank_in_category": 20
+  },
+  {
+   "category": "omega3",
+   "brand": "SuperPhysique Nutrition",
+   "name": "Super Oméga-3 (Epax®)",
+   "variant": "180 capsules",
+   "price_eur": 32.9,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "huile de poisson Epax sous forme triglycérides",
+   "additives": [
+    "gélatine de poisson",
+    "glycérine",
+    "extrait de romarin",
+    "tocophérols"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "Epax®",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "Quantités minimales garanties pour 2 capsules : EPA 400 mg + DHA 300 mg = 700 mg. Valeurs maximales non utilisées.",
+   "url": "https://www.superphysique-nutrition.fr/566-super-omega-3-epax.html",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://www.superphysique-nutrition.fr/566-super-omega-3-epax.html"
+   },
+   "units_pack": 180,
+   "units_per_day": 2,
+   "active_per_unit": 350,
+   "active_unit": "mg EPA+DHA",
+   "vegan": false,
+   "unit_name": "gélule",
+   "id": "superphysique-nutrition-super-omega-3-epax-180-capsules",
+   "form_tier": 16,
+   "form_note": "Natural triglycerides (TG).",
+   "purity_tags": [],
+   "additives_detail": [
+    "gélatine de poisson",
+    "glycérine",
+    "extrait de romarin",
+    "tocophérols"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Epax®",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://www.superphysique-nutrition.fr/566-super-omega-3-epax.html",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://www.superphysique-nutrition.fr/566-super-omega-3-epax.html",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 16,
+    "dose": 17,
+    "purity": 30,
+    "transparency": 8,
+    "total": 71,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.366,
+    "std": 0.261,
+    "std_label": "€ / 500 mg EPA+DHA",
+    "days_per_pack": 90,
+    "price_tier": 2
+   },
+   "label_hash": "aa5d173ec871",
+   "rank_in_category": 16
+  },
+  {
+   "category": "omega3",
+   "brand": "SuperPhysique Nutrition",
+   "name": "Super Oméga-3 Calanus (Zooca®)",
+   "variant": "120 capsules",
+   "price_eur": 29.9,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "huile de Calanus finmarchicus Zooca, esters de cire",
+   "additives": [
+    "gélatine de poisson",
+    "glycérine"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "Zooca®",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "Valeurs étiquette pour 4 capsules : EPA 60 mg + DHA 80 mg = 140 mg ; SDA 80 mg exclu du calcul EPA+DHA. Quantités du lot actuel plus élevées non utilisées. Astaxanthine 1,5 mg/jour.",
+   "url": "https://www.superphysique-nutrition.fr/587-super-omega-3-calanus-zooca.html",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://www.superphysique-nutrition.fr/587-super-omega-3-calanus-zooca.html"
+   },
+   "units_pack": 120,
+   "units_per_day": 4,
+   "active_per_unit": 35,
+   "active_unit": "mg EPA+DHA",
+   "vegan": false,
+   "unit_name": "gélule",
+   "id": "superphysique-nutrition-super-omega-3-calanus-zooca-120-capsules",
+   "form_tier": 12,
+   "form_note": "Oil form not clearly declared.",
+   "purity_tags": [],
+   "additives_detail": [
+    "gélatine de poisson",
+    "glycérine"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Zooca®",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://www.superphysique-nutrition.fr/587-super-omega-3-calanus-zooca.html",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://www.superphysique-nutrition.fr/587-super-omega-3-calanus-zooca.html",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 12,
+    "dose": 8,
+    "purity": 30,
+    "transparency": 8,
+    "total": 58,
+    "grade": "C",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.997,
+    "std": 3.56,
+    "std_label": "€ / 500 mg EPA+DHA",
+    "days_per_pack": 30,
+    "price_tier": 5
+   },
+   "label_hash": "51469e09d14f",
+   "rank_in_category": 60
+  },
+  {
+   "category": "omega3",
+   "brand": "SuperPhysique Nutrition",
+   "name": "Elite Oméga-3 (Epax/Superba/Zooca)",
+   "variant": "105 capsules",
+   "price_eur": 32.9,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "mélange huile de poisson Epax triglycérides, krill Superba phospholipides et Calanus Zooca esters de cire",
+   "additives": [
+    "gélatine de poisson",
+    "glycérol",
+    "extrait de romarin",
+    "tocophérols"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "Epax® / Superba® / Zooca®",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "Valeurs étiquette pour 3 capsules : EPA 423 mg + DHA 279 mg = 702 mg ; phospholipides 60 mg, choline 8 mg, astaxanthine 60 µg, esters de cire 63 mg. Les quantités du lot actuel ne remplacent pas la garantie étiquette.",
+   "url": "https://www.superphysique-nutrition.fr/681-elite-omega-3-epaxsuperbazooca.html",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://www.superphysique-nutrition.fr/681-elite-omega-3-epaxsuperbazooca.html"
+   },
+   "units_pack": 105,
+   "units_per_day": 3,
+   "active_per_unit": 234,
+   "active_unit": "mg EPA+DHA",
+   "vegan": false,
+   "unit_name": "gélule",
+   "id": "superphysique-nutrition-elite-omega-3-epax-superba-zooca-105-capsules",
+   "form_tier": 16,
+   "form_note": "Natural triglycerides (TG).",
+   "purity_tags": [],
+   "additives_detail": [
+    "gélatine de poisson",
+    "glycérol",
+    "extrait de romarin",
+    "tocophérols"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Epax® / Superba® / Zooca®",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://www.superphysique-nutrition.fr/681-elite-omega-3-epaxsuperbazooca.html",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://www.superphysique-nutrition.fr/681-elite-omega-3-epaxsuperbazooca.html",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 16,
+    "dose": 17,
+    "purity": 30,
+    "transparency": 8,
+    "total": 71,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.94,
+    "std": 0.67,
+    "std_label": "€ / 500 mg EPA+DHA",
+    "days_per_pack": 35,
+    "price_tier": 3
+   },
+   "label_hash": "a1005820c08f",
+   "rank_in_category": 18
+  },
+  {
+   "category": "creatine",
+   "brand": "SuperPhysique Nutrition",
+   "name": "Elite Créatine  (Creapure®) en gélules",
+   "variant": "180 gélules",
+   "price_eur": 24.9,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "créatine monohydrate Creapure",
+   "additives": [
+    "pullulane"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "Creapure®",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "5 gélules : 3400 mg de monohydrate dont 3000 mg de créatine. Aucun précurseur ajouté au calcul.",
+   "url": "https://www.superphysique-nutrition.fr/571-elite-creatine-creapure-en-gelules.html",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://www.superphysique-nutrition.fr/571-elite-creatine-creapure-en-gelules.html"
+   },
+   "units_pack": 180,
+   "units_per_day": 5,
+   "active_per_unit": 0.6,
+   "active_unit": "g",
+   "active_per_serving_g": 3,
+   "vegan": true,
+   "unit_name": "gélule",
+   "id": "superphysique-nutrition-elite-creatine-creapure-en-gelules-180-gelules",
+   "form_tier": 20,
+   "form_note": "Documented-purity Creapure® monohydrate.",
+   "purity_tags": [],
+   "additives_detail": [
+    "pullulane"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Creapure®",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://www.superphysique-nutrition.fr/571-elite-creatine-creapure-en-gelules.html",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://www.superphysique-nutrition.fr/571-elite-creatine-creapure-en-gelules.html",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 30,
+    "transparency": 8,
+    "total": 78,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.692,
+    "std": 0.692,
+    "std_label": "€ / 3 g creatine",
+    "days_per_pack": 36,
+    "price_tier": 5
+   },
+   "label_hash": "2cc734985ab2",
+   "rank_in_category": 26
+  },
+  {
+   "category": "magnesium",
+   "brand": "SuperPhysique Nutrition",
+   "name": "Elite Magnésium (malate/bisglycinate)",
+   "variant": "180 gélules",
+   "price_eur": 29.9,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "malate de magnésium et bisglycinate de magnésium",
+   "additives": [
+    "pullulane"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": false,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "300 mg de magnésium pour 4 gélules ; deux sels organiques déclarés, sans oxyde dans la composition. Répartition entre sels non publiée.",
+   "url": "https://www.superphysique-nutrition.fr/678-elite-magnesium-malatebisglycinate.html",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://www.superphysique-nutrition.fr/678-elite-magnesium-malatebisglycinate.html"
+   },
+   "units_pack": 180,
+   "units_per_day": 4,
+   "active_per_unit": 75,
+   "active_unit": "mg elemental Mg",
+   "vegan": true,
+   "unit_name": "gélule",
+   "id": "superphysique-nutrition-elite-magnesium-malate-bisglycinate-180-gelules",
+   "form_tier": 20,
+   "form_note": "Chelated magnesium — high bioavailability.",
+   "purity_tags": [],
+   "additives_detail": [
+    "pullulane"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": false
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://www.superphysique-nutrition.fr/678-elite-magnesium-malatebisglycinate.html",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://www.superphysique-nutrition.fr/678-elite-magnesium-malatebisglycinate.html",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 17,
+    "purity": 30,
+    "transparency": 0,
+    "total": 67,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.664,
+    "std": 0.664,
+    "std_label": "€ / 300 mg Mg",
+    "days_per_pack": 45,
+    "price_tier": 3
+   },
+   "label_hash": "27ddf8a1ccbd",
+   "rank_in_category": 34
+  },
+  {
+   "category": "zma",
+   "brand": "SuperPhysique Nutrition",
+   "name": "Elite ZMB (2 magnésiums/Zn/B6)",
+   "variant": "180 gélules",
+   "price_eur": 32.9,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "zinc bisglycinate, magnésium bisglycinate et malate, vitamine B6 pyridoxal-5-phosphate",
+   "additives": [
+    "pullulane",
+    "carbonate de magnésium"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "4 gélules : zinc 15 mg, magnésium 300 mg, B6 2 mg. Carbonate de magnésium déclaré comme antiagglomérant.",
+   "url": "https://www.superphysique-nutrition.fr/568-elite-zmb-2-magnesiumsznb6.html",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://www.superphysique-nutrition.fr/568-elite-zmb-2-magnesiumsznb6.html"
+   },
+   "units_pack": 180,
+   "units_per_day": 4,
+   "active_per_unit": 3.75,
+   "active_unit": "mg elemental Zn",
+   "vegan": true,
+   "secondary_actives": [
+    {
+     "category": "magnesium",
+     "per_day": 300
+    }
+   ],
+   "nutrients": {
+    "vitamin_b6": 2
+   },
+   "unit_name": "gélule",
+   "id": "superphysique-nutrition-elite-zmb-2-magnesiums-zn-b6-180-gelules",
+   "form_tier": 16,
+   "form_note": "Chelated zinc (monomethionine / bisglycinate) — the ZMA trial material or an equivalent chelate.",
+   "dose_tier": 20,
+   "dose_note": "15 mg zinc/day — covers the reference intake and stays under the 25 mg limit.",
+   "purity_tags": [
+    "anticaking"
+   ],
+   "additives_detail": [
+    "pullulane",
+    "carbonate de magnésium"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://www.superphysique-nutrition.fr/568-elite-zmb-2-magnesiumsznb6.html",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://www.superphysique-nutrition.fr/568-elite-zmb-2-magnesiumsznb6.html",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 16,
+    "dose": 20,
+    "purity": 28,
+    "transparency": 4,
+    "total": 68,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.731,
+    "std": 0.731,
+    "std_label": "€ / day",
+    "days_per_pack": 45,
+    "price_tier": 5
+   },
+   "label_hash": "65661f521c52",
+   "rank_in_category": 5
+  },
+  {
+   "category": "multivitamin",
+   "brand": "SuperPhysique Nutrition",
+   "name": "Elite Vitamines",
+   "variant": "120 gélules",
+   "price_eur": 34.9,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "magnésium et zinc bisglycinates, B6 P5P, B2 riboflavine phosphate, méthylfolate, méthylcobalamine, D3 de lichen et K2 MK7",
+   "additives": [
+    "pullulane",
+    "carbonate de magnésium"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "notes": "Apports par 2 gélules. Vitamine A 200 µg RE issue de 1,2 mg bêta-carotène ; D3 5 µg = 200 UI. Autres actifs : SOD de melon 210 UI, citicoline 82,5 mg, Q10 30 mg.",
+   "url": "https://www.superphysique-nutrition.fr/573-elite-vitamines.html",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://www.superphysique-nutrition.fr/573-elite-vitamines.html"
+   },
+   "units_pack": 120,
+   "units_per_day": 2,
+   "active_per_unit": 1,
+   "active_unit": "mg",
+   "form_quality": "bioactive",
+   "dose_style": "mixed",
+   "nutrients": {
+    "vitamin_b1": 1.05,
+    "vitamin_b2": 1.4,
+    "vitamin_b3": 16,
+    "vitamin_b5": 6,
+    "vitamin_b6": 1.4,
+    "biotin": 50,
+    "folate": 200,
+    "vitamin_b12": 2.5,
+    "vitamin_c": 180,
+    "vitamin_d3": 200,
+    "vitamin_e": 3,
+    "vitamin_k2": 18,
+    "chromium": 10,
+    "magnesium": 112,
+    "selenium": 50,
+    "zinc": 2.5
+   },
+   "unit_name": "gélule",
+   "id": "superphysique-nutrition-elite-vitamines-120-gelules",
+   "form_tier": 20,
+   "form_note": "Bioactive / chelated forms.",
+   "dose_tier": 15,
+   "dose_note": "Mixed dosing.",
+   "purity_tags": [
+    "anticaking"
+   ],
+   "additives_detail": [
+    "pullulane",
+    "carbonate de magnésium"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://www.superphysique-nutrition.fr/573-elite-vitamines.html",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://www.superphysique-nutrition.fr/573-elite-vitamines.html",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 15,
+    "purity": 28,
+    "transparency": 4,
+    "total": 67,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.582,
+    "std": 0.582,
+    "std_label": "€ / day",
+    "days_per_pack": 60,
+    "price_tier": 3
+   },
+   "label_hash": "127945d4779e",
+   "rank_in_category": 11
+  },
+  {
+   "category": "tribulus",
+   "brand": "Eiyolab",
+   "name": "Zillax",
+   "variant": "60 gélules",
+   "price_eur": 31.9,
+   "price_note": "Prix public fabricant du format indiqué relevé le 9 octobre 2026, hors livraison, abonnement, achat multiple et code promotionnel.",
+   "form": "extrait de tribulus, saw palmetto, avoine, fenugrec, maca, cistanche, ginkgo, éleuthérocoque, salsepareille, kola, ortie, safran, cannelle, réglisse et rhodiola",
+   "additives": [
+    "gélule végétale",
+    "carbonate de magnésium",
+    "huile de tournesol"
+   ],
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [
+    "Le fabricant signale plusieurs interactions médicamenteuses pour cette formule associant de nombreux extraits."
+   ],
+   "notes": "Dose basse fabricant : 2 gélules (plage 2 à 4). Par 2 : tribulus 300 mg, saw palmetto 150 mg, avoine 100 mg, fenugrec 100 mg, maca 100 mg, cistanche 80 mg, ginkgo 75 mg, éleuthérocoque 50 mg, salsepareille 50 mg, kola 30 mg, ortie 30 mg, safran 30 mg, cannelle 20 mg, réglisse 20 mg et rhodiola 20 mg. Contient du gluten (avoine).",
+   "url": "https://eiyolab.com/products/zillax",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://eiyolab.com/products/zillax?variant=60801749516622"
+   },
+   "units_pack": 60,
+   "units_per_day": 2,
+   "active_per_unit": 150,
+   "active_unit": "mg",
+   "secondary_actives": [
+    {
+     "category": "fenugreek",
+     "per_day": 100
+    },
+    {
+     "category": "maca",
+     "per_day": 100
+    },
+    {
+     "category": "rhodiola",
+     "per_day": 20
+    }
+   ],
+   "unit_name": "gélule",
+   "id": "eiyolab-zillax-60-gelules",
+   "form_tier": 10,
+   "form_note": "Extract, standardisation not declared.",
+   "dose_tier": 8,
+   "dose_note": "300 mg/day — no tribulus dose has raised testosterone in men; scored as a token.",
+   "purity_tags": [
+    "anticaking"
+   ],
+   "additives_detail": [
+    "gélule végétale",
+    "carbonate de magnésium",
+    "huile de tournesol"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Format, portion, actifs et excipients lus sur la fiche officielle fabricant. Aucune certification ou analyse de lot non consultée créditée. Les arrondis ou limites sont précisés dans la note produit.",
+    "label_source_url": "https://eiyolab.com/products/zillax",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://eiyolab.com/products/zillax?variant=60801749516622",
+    "price_scope": "Prix public en EUR à l’unité pour la variante identifiée, hors abonnement et remise conditionnelle."
+   },
+   "scores": {
+    "form": 10,
+    "dose": 8,
+    "purity": 28,
+    "transparency": 4,
+    "total": 50,
+    "grade": "C",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 1.063,
+    "std": 1.063,
+    "std_label": "€ / day",
+    "days_per_pack": 30,
+    "price_tier": 5
+   },
+   "label_hash": "b9b53cc1d8d9",
+   "rank_in_category": 14
+  },
+  {
+   "brand": "Nutrivie",
+   "name": "Fer Bisglycinate 21 mg",
+   "category": "iron",
+   "variant": "60 gélules",
+   "price_eur": 11.9,
+   "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+   "units_pack": 60,
+   "units_per_day": 1,
+   "unit_name": "gélule",
+   "active_per_unit": 21,
+   "active_unit": "mg elemental Fe",
+   "form": "fer bisglycinate",
+   "additives": [
+    "maltodextrine",
+    "farine de coco",
+    "gélule végétale"
+   ],
+   "url": "https://nutrivie.com/products/fer-bisglycinate-21-mg",
+   "ean": null,
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://nutrivie.com/products/fer-bisglycinate-21-mg?variant=52391639908688"
+   },
+   "vegan": true,
+   "notes": "",
+   "id": "nutrivie-fer-bisglycinate-21-mg-60-gelules",
+   "form_tier": 20,
+   "form_note": "Ferrous bisglycinate — the best head-to-head evidence among supplement forms (haemoglobin and gut tolerance).",
+   "dose_tier": 20,
+   "dose_note": "21 mg iron/day — at or above the NRV, within the supplemental amount behind EFSA's safe level.",
+   "purity_tags": [
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "maltodextrine",
+    "farine de coco",
+    "gélule végétale"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [
+    {
+     "string": "farine de coco",
+     "verdict": "neutral",
+     "note": "Coconut flour used as a bulking agent — a food ingredient, not an additive.",
+     "reviewed_on": "2026-09-06"
+    }
+   ],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Étiquette et/ou composition officielle du fabricant, format, dose adulte, actifs et excipients ; aucun crédit accordé à des certificats ou analyses non consultés.",
+    "label_source_url": "https://nutrivie.com/products/fer-bisglycinate-21-mg",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://nutrivie.com/products/fer-bisglycinate-21-mg?variant=52391639908688",
+    "price_scope": "Prix public fabricant à l’unité du format exact, hors abonnement et code promotionnel."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 28,
+    "transparency": 4,
+    "total": 72,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.198,
+    "std": 0.132,
+    "std_label": "€ / 14 mg iron (NRV)",
+    "days_per_pack": 60,
+    "price_tier": 2
+   },
+   "label_hash": "64514b5e7908",
+   "rank_in_category": 14
+  },
+  {
+   "brand": "Nutrivie",
+   "name": "Ashwagandha Bio 1200mg",
+   "category": "ashwagandha",
+   "variant": "60 gélules",
+   "price_eur": 19.9,
+   "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+   "units_pack": 60,
+   "units_per_day": 3,
+   "unit_name": "gélule",
+   "active_per_unit": 400,
+   "active_unit": "mg",
+   "form": "extrait de racine d’ashwagandha KSM-66, 5 % withanolides",
+   "additives": [
+    "fibres d’acacia",
+    "farine de coco",
+    "gélule végétale"
+   ],
+   "url": "https://nutrivie.com/products/ashwagandha-bio-1200mg",
+   "ean": null,
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "KSM-66",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://nutrivie.com/products/ashwagandha-bio-1200mg?variant=52357215879504"
+   },
+   "standardization": "5 % withanolides",
+   "vegan": true,
+   "notes": "Dose de fin de progression fabricant : 3 gélules/jour (1200 mg extrait, 60 mg withanolides). Le protocole fabricant augmente de 1 à 3 gélules par paliers de 10 jours ; les coûts affichés sont calculés à 3 gélules/jour, soit 20 jours par boîte.",
+   "id": "nutrivie-ashwagandha-bio-1200mg-60-gelules",
+   "form_tier": 20,
+   "form_note": "Clinically studied branded root extract with standardised withanolides.",
+   "dose_tier": 20,
+   "dose_note": "1200 mg/day — the dose the stress and sleep trials used.",
+   "purity_tags": [
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "fibres d’acacia",
+    "farine de coco",
+    "gélule végétale"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "KSM-66",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [
+    {
+     "string": "farine de coco",
+     "verdict": "neutral",
+     "note": "Coconut flour used as a bulking agent — a food ingredient, not an additive.",
+     "reviewed_on": "2026-09-06"
+    }
+   ],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Étiquette et/ou composition officielle du fabricant, format, dose adulte, actifs et excipients ; aucun crédit accordé à des certificats ou analyses non consultés.",
+    "label_source_url": "https://nutrivie.com/products/ashwagandha-bio-1200mg",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://nutrivie.com/products/ashwagandha-bio-1200mg?variant=52357215879504",
+    "price_scope": "Prix public fabricant à l’unité du format exact, hors abonnement et code promotionnel."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 28,
+    "transparency": 8,
+    "total": 76,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.995,
+    "std": 0.497,
+    "std_label": "€ / 600 mg extract",
+    "days_per_pack": 20,
+    "price_tier": 2
+   },
+   "label_hash": "6d5717fff2c3",
+   "rank_in_category": 11
+  },
+  {
+   "brand": "Nutrivie",
+   "name": "Ashwagandha Bio Ampoules",
+   "category": "ashwagandha",
+   "variant": "20 ampoules",
+   "price_eur": 19.9,
+   "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+   "units_pack": 20,
+   "units_per_day": 1,
+   "unit_name": "ampoule",
+   "active_per_unit": 600,
+   "active_unit": "mg",
+   "form": "extrait sec de racine d’ashwagandha KSM-66, 5 % withanolides",
+   "additives": [
+    "eau",
+    "acide citrique",
+    "gomme xanthane"
+   ],
+   "url": "https://nutrivie.com/products/ampoules-ashwagandha-bio",
+   "ean": null,
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "KSM-66",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://nutrivie.com/products/ampoules-ashwagandha-bio?variant=49364870922576"
+   },
+   "standardization": "5 % withanolides",
+   "notes": "600 mg d’extrait, équivalent 6000 mg de plante sèche ; le calcul utilise l’extrait, sans multiplier par l’équivalence végétale.",
+   "id": "nutrivie-ashwagandha-bio-ampoules-20-ampoules",
+   "form_tier": 20,
+   "form_note": "Clinically studied branded root extract with standardised withanolides.",
+   "dose_tier": 20,
+   "dose_note": "600 mg/day — the dose the stress and sleep trials used.",
+   "purity_tags": [
+    "acidity_regulator",
+    "thickener"
+   ],
+   "additives_detail": [
+    "eau",
+    "acide citrique",
+    "gomme xanthane"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "KSM-66",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Étiquette et/ou composition officielle du fabricant, format, dose adulte, actifs et excipients ; aucun crédit accordé à des certificats ou analyses non consultés.",
+    "label_source_url": "https://nutrivie.com/products/ampoules-ashwagandha-bio",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://nutrivie.com/products/ampoules-ashwagandha-bio?variant=49364870922576",
+    "price_scope": "Prix public fabricant à l’unité du format exact, hors abonnement et code promotionnel."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 27,
+    "transparency": 8,
+    "total": 75,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.995,
+    "std": 0.995,
+    "std_label": "€ / 600 mg extract",
+    "days_per_pack": 20,
+    "price_tier": 3
+   },
+   "label_hash": "f9cd8c066d49",
+   "rank_in_category": 13
+  },
+  {
+   "brand": "Nutrivie",
+   "name": "Multivitamines",
+   "category": "multivitamin",
+   "variant": "30 gélules",
+   "price_eur": 9.9,
+   "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+   "units_pack": 30,
+   "units_per_day": 1,
+   "unit_name": "gélule",
+   "active_per_unit": 1,
+   "active_unit": "dose",
+   "form": "11 vitamines, citrate de zinc, bisglycinates de fer et manganèse, iodure de potassium et levure de sélénium",
+   "additives": [
+    "cellulose microcristalline",
+    "sels de magnésium d’acides gras",
+    "gélule végétale"
+   ],
+   "url": "https://nutrivie.com/products/multivitamines",
+   "ean": null,
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://nutrivie.com/products/multivitamines?variant=52103123894608"
+   },
+   "form_quality": "standard",
+   "dose_style": "gaps",
+   "vegan": true,
+   "nutrients": {
+    "vitamin_c": 80,
+    "vitamin_b3": 16,
+    "vitamin_e": 12,
+    "vitamin_b5": 6,
+    "vitamin_b6": 1.4,
+    "vitamin_b2": 1.4,
+    "vitamin_b1": 1.1,
+    "folate": 200,
+    "vitamin_d3": 200,
+    "vitamin_b12": 2.5,
+    "zinc": 10,
+    "iron": 6.5,
+    "iodine": 150,
+    "selenium": 55
+   },
+   "notes": "Quantités du tableau fabricant, par gélule. D : 5 µg = 200 UI. Le fer est indiqué à 6,5 mg ; le pourcentage AR de 50 % affiché par le fabricant est incohérent avec cette quantité, le calcul conserve 6,5 mg sans le convertir en 7 mg. Autres quantités par gélule : vitamine A 800 µg et manganèse 2 mg, conservées en notes car catégories sans libellé dans les cumuls.",
+   "id": "nutrivie-multivitamines-30-gelules",
+   "form_tier": 12,
+   "form_note": "Standard vitamin/mineral forms.",
+   "dose_tier": 10,
+   "dose_note": "Notable gaps (missing minerals or low vitamin D).",
+   "purity_tags": [
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "cellulose microcristalline",
+    "sels de magnésium d’acides gras",
+    "gélule végétale"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Étiquette et/ou composition officielle du fabricant, format, dose adulte, actifs et excipients ; aucun crédit accordé à des certificats ou analyses non consultés.",
+    "label_source_url": "https://nutrivie.com/products/multivitamines",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://nutrivie.com/products/multivitamines?variant=52103123894608",
+    "price_scope": "Prix public fabricant à l’unité du format exact, hors abonnement et code promotionnel."
+   },
+   "scores": {
+    "form": 12,
+    "dose": 10,
+    "purity": 28,
+    "transparency": 4,
+    "total": 54,
+    "grade": "C",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.33,
+    "std": 0.33,
+    "std_label": "€ / day",
+    "days_per_pack": 30,
+    "price_tier": 1
+   },
+   "label_hash": "f59cdeddd513",
+   "rank_in_category": 24
+  },
+  {
+   "brand": "Nutrivie",
+   "name": "Nutribiotique® Équilibre Digestif",
+   "category": "probiotics",
+   "variant": "30 gélules",
+   "price_eur": 19.9,
+   "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+   "units_pack": 30,
+   "units_per_day": 1,
+   "unit_name": "gélule",
+   "active_per_unit": 8,
+   "active_unit": "billion CFU",
+   "form": "L. plantarum PBS067, L. rhamnosus GG, L. rhamnosus LRH020 et B. lactis BL050",
+   "additives": [
+    "inuline de chicorée",
+    "gélule HPMC",
+    "pectine",
+    "amidon de maïs",
+    "sels de magnésium d’acides gras"
+   ],
+   "url": "https://nutrivie.com/products/nutribiotique-equilibre-digestif",
+   "ean": null,
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://nutrivie.com/products/nutribiotique-equilibre-digestif?variant=51837778755920"
+   },
+   "strains_count": 4,
+   "strains_coded": true,
+   "gastro_resistant": true,
+   "nutrients": {
+    "vitamin_b2": 0.21
+   },
+   "notes": "8 milliards UFC par gélule, 2 milliards pour chacune des quatre souches. Pissenlit 80 mg, inuline 200 mg et B2 0,21 mg. LRH020 est écrit LHR20 dans une image ; pas de crédit distinct pour ces variantes typographiques.",
+   "id": "nutrivie-nutribiotique-equilibre-digestif-30-gelules",
+   "form_tier": 20,
+   "form_note": "Strain-coded and gastro-resistant delivery.",
+   "dose_tier": 15,
+   "dose_note": "8 billion CFU/day — moderate.",
+   "purity_tags": [
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "inuline de chicorée",
+    "gélule HPMC",
+    "pectine",
+    "amidon de maïs",
+    "sels de magnésium d’acides gras"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Étiquette et/ou composition officielle du fabricant, format, dose adulte, actifs et excipients ; aucun crédit accordé à des certificats ou analyses non consultés.",
+    "label_source_url": "https://nutrivie.com/products/nutribiotique-equilibre-digestif",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://nutrivie.com/products/nutribiotique-equilibre-digestif?variant=51837778755920",
+    "price_scope": "Prix public fabricant à l’unité du format exact, hors abonnement et code promotionnel."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 15,
+    "purity": 28,
+    "transparency": 4,
+    "total": 67,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.663,
+    "std": 0.663,
+    "std_label": "€ / day",
+    "days_per_pack": 30,
+    "price_tier": 3
+   },
+   "label_hash": "7a0dc6c3b2f0",
+   "rank_in_category": 18
+  },
+  {
+   "brand": "Nutrivie",
+   "name": "Nutribiotique® Stress & Sommeil",
+   "category": "probiotics",
+   "variant": "30 gélules",
+   "price_eur": 11.9,
+   "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+   "units_pack": 30,
+   "units_per_day": 1,
+   "unit_name": "gélule",
+   "active_per_unit": 4,
+   "active_unit": "billion CFU",
+   "form": "L. reuteri PBS072 DSM 25175 et B. breve BB077 LMG P-30157",
+   "additives": [
+    "amidon de maïs",
+    "gélule HPMC",
+    "pectine",
+    "sels de magnésium d’acides gras"
+   ],
+   "url": "https://nutrivie.com/products/nutribiotique-stress-sommeil",
+   "ean": null,
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://nutrivie.com/products/nutribiotique-stress-sommeil?variant=51839721242960"
+   },
+   "strains_count": 2,
+   "strains_coded": true,
+   "gastro_resistant": true,
+   "nutrients": {
+    "vitamin_b6": 0.46
+   },
+   "notes": "4 milliards UFC, poudre d’eschscholtzia 50 mg et B6 0,46 mg par gélule.",
+   "id": "nutrivie-nutribiotique-stress-sommeil-30-gelules",
+   "form_tier": 20,
+   "form_note": "Strain-coded and gastro-resistant delivery.",
+   "dose_tier": 12,
+   "dose_note": "4 billion CFU/day — low.",
+   "purity_tags": [
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "amidon de maïs",
+    "gélule HPMC",
+    "pectine",
+    "sels de magnésium d’acides gras"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Étiquette et/ou composition officielle du fabricant, format, dose adulte, actifs et excipients ; aucun crédit accordé à des certificats ou analyses non consultés.",
+    "label_source_url": "https://nutrivie.com/products/nutribiotique-stress-sommeil",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://nutrivie.com/products/nutribiotique-stress-sommeil?variant=51839721242960",
+    "price_scope": "Prix public fabricant à l’unité du format exact, hors abonnement et code promotionnel."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 12,
+    "purity": 28,
+    "transparency": 4,
+    "total": 64,
+    "grade": "C",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.397,
+    "std": 0.397,
+    "std_label": "€ / day",
+    "days_per_pack": 30,
+    "price_tier": 2
+   },
+   "label_hash": "0ba4fc402844",
+   "rank_in_category": 22
+  },
+  {
+   "brand": "Nutrivie",
+   "name": "Mélatonine 1,6mg",
+   "category": "melatonin",
+   "variant": "60 gélules",
+   "price_eur": 13.5,
+   "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+   "units_pack": 60,
+   "units_per_day": 1,
+   "unit_name": "gélule",
+   "active_per_unit": 1.6,
+   "active_unit": "mg",
+   "form": "mélatonine",
+   "additives": [
+    "gomme d’acacia",
+    "pullulan"
+   ],
+   "url": "https://nutrivie.com/products/melatonine-60-gelules",
+   "ean": null,
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://nutrivie.com/products/melatonine-60-gelules?variant=43453481615599"
+   },
+   "notes": "",
+   "id": "nutrivie-melatonine-1-6mg-60-gelules",
+   "form_tier": 16,
+   "form_note": "Immediate release — supports sleep onset.",
+   "dose_tier": 20,
+   "dose_note": "1.6 mg/day — EFSA sleep-onset dose, within the French ceiling.",
+   "purity_tags": [
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "gomme d’acacia",
+    "pullulan"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Étiquette et/ou composition officielle du fabricant, format, dose adulte, actifs et excipients ; aucun crédit accordé à des certificats ou analyses non consultés.",
+    "label_source_url": "https://nutrivie.com/products/melatonine-60-gelules",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://nutrivie.com/products/melatonine-60-gelules?variant=43453481615599",
+    "price_scope": "Prix public fabricant à l’unité du format exact, hors abonnement et code promotionnel."
+   },
+   "scores": {
+    "form": 16,
+    "dose": 20,
+    "purity": 28,
+    "transparency": 4,
+    "total": 68,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.225,
+    "std": 0.225,
+    "std_label": "€ / day",
+    "days_per_pack": 60,
+    "price_tier": 1
+   },
+   "label_hash": "639f446cb77c",
+   "rank_in_category": 8
+  },
+  {
+   "brand": "Nutrivie",
+   "name": "Oméga 3 EPAX®",
+   "category": "omega3",
+   "variant": "120 capsules",
+   "price_eur": 21.9,
+   "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+   "units_pack": 120,
+   "units_per_day": 4,
+   "unit_name": "capsule",
+   "active_per_unit": 267.5,
+   "active_unit": "mg EPA+DHA",
+   "form": "huile de poisson EPAX, EPA et DHA",
+   "additives": [
+    "tocophérols",
+    "gélatine de poisson",
+    "glycérine",
+    "extrait de romarin"
+   ],
+   "url": "https://nutrivie.com/products/omega-3-epax",
+   "ean": null,
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "EPAX",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://nutrivie.com/products/omega-3-epax?variant=49714153652560"
+   },
+   "vegan": false,
+   "notes": "Dose fabricant retenue : 4 capsules. EPA 620 mg + DHA 450 mg = 1070 mg/jour ; les 1260 mg d’oméga-3 totaux ne sont pas utilisés comme EPA+DHA. TOTOX < 10 annoncé commercialement, analyse non consultée donc aucun crédit COA.",
+   "id": "nutrivie-omega-3-epax-120-capsules",
+   "form_tier": 12,
+   "form_note": "Oil form not clearly declared.",
+   "purity_tags": [],
+   "additives_detail": [
+    "tocophérols",
+    "gélatine de poisson",
+    "glycérine",
+    "extrait de romarin"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "EPAX",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Étiquette et/ou composition officielle du fabricant, format, dose adulte, actifs et excipients ; aucun crédit accordé à des certificats ou analyses non consultés.",
+    "label_source_url": "https://nutrivie.com/products/omega-3-epax",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://nutrivie.com/products/omega-3-epax?variant=49714153652560",
+    "price_scope": "Prix public fabricant à l’unité du format exact, hors abonnement et code promotionnel."
+   },
+   "scores": {
+    "form": 12,
+    "dose": 20,
+    "purity": 30,
+    "transparency": 8,
+    "total": 70,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.73,
+    "std": 0.341,
+    "std_label": "€ / 500 mg EPA+DHA",
+    "days_per_pack": 30,
+    "price_tier": 2
+   },
+   "label_hash": "0d42be6fbac2",
+   "rank_in_category": 22
+  },
+  {
+   "brand": "Nutrivie",
+   "name": "Rhodiola",
+   "category": "rhodiola",
+   "variant": "30 gélules",
+   "price_eur": 17.9,
+   "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+   "units_pack": 30,
+   "units_per_day": 1,
+   "unit_name": "gélule",
+   "active_per_unit": 300,
+   "active_unit": "mg",
+   "form": "extrait de racine de Rhodiola rosea, 3 % rosavines et 1 % salidroside",
+   "additives": [
+    "pullulan",
+    "amidon de riz",
+    "sels de magnésium d’acides gras"
+   ],
+   "url": "https://nutrivie.com/products/rhodiola-30-gelules",
+   "ean": null,
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://nutrivie.com/products/rhodiola-30-gelules?variant=43453483974895"
+   },
+   "standardization": "3 % rosavines, 1 % salidroside",
+   "notes": "",
+   "id": "nutrivie-rhodiola-30-gelules",
+   "form_tier": 20,
+   "form_note": "Double-standardised (rosavins + salidroside) — the profile the trials used.",
+   "dose_tier": 20,
+   "dose_note": "300 mg/day — in the studied 200–600 mg range.",
+   "purity_tags": [
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "pullulan",
+    "amidon de riz",
+    "sels de magnésium d’acides gras"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Étiquette et/ou composition officielle du fabricant, format, dose adulte, actifs et excipients ; aucun crédit accordé à des certificats ou analyses non consultés.",
+    "label_source_url": "https://nutrivie.com/products/rhodiola-30-gelules",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://nutrivie.com/products/rhodiola-30-gelules?variant=43453483974895",
+    "price_scope": "Prix public fabricant à l’unité du format exact, hors abonnement et code promotionnel."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 28,
+    "transparency": 4,
+    "total": 72,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.597,
+    "std": 0.796,
+    "std_label": "€ / 400 mg extract",
+    "days_per_pack": 30,
+    "price_tier": 5
+   },
+   "label_hash": "22720a154264",
+   "rank_in_category": 5
+  },
+  {
+   "brand": "Nutrivie",
+   "name": "Acérola Bio",
+   "category": "vitamin_c",
+   "variant": "60 comprimés",
+   "price_eur": 19.3,
+   "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+   "units_pack": 60,
+   "units_per_day": 1,
+   "unit_name": "comprimé",
+   "active_per_unit": 170,
+   "active_unit": "mg",
+   "form": "vitamine C issue d’acérola, concentré titré à 17 %",
+   "additives": [
+    "sirop de glucose",
+    "arôme naturel fruits rouges"
+   ],
+   "url": "https://nutrivie.com/products/acerola-bio",
+   "ean": null,
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://nutrivie.com/products/acerola-bio?variant=49864228569424"
+   },
+   "notes": "1000 mg d’acérola apportant 170 mg de vitamine C par comprimé. Présence de sirop de glucose déclarée.",
+   "id": "nutrivie-acerola-bio-60-comprimes",
+   "form_tier": 18,
+   "form_note": "Buffered/whole-food vitamin C, gentle on the stomach.",
+   "dose_tier": 17,
+   "dose_note": "170 mg/day — at/above NRV.",
+   "purity_tags": [
+    "added_sugar"
+   ],
+   "additives_detail": [
+    "sirop de glucose",
+    "arôme naturel fruits rouges"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Étiquette et/ou composition officielle du fabricant, format, dose adulte, actifs et excipients ; aucun crédit accordé à des certificats ou analyses non consultés.",
+    "label_source_url": "https://nutrivie.com/products/acerola-bio",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://nutrivie.com/products/acerola-bio?variant=49864228569424",
+    "price_scope": "Prix public fabricant à l’unité du format exact, hors abonnement et code promotionnel."
+   },
+   "scores": {
+    "form": 18,
+    "dose": 17,
+    "purity": 22,
+    "transparency": 4,
+    "total": 61,
+    "grade": "C",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.322,
+    "std": 1.892,
+    "std_label": "€ / 1000 mg C",
+    "days_per_pack": 60,
+    "price_tier": 3
+   },
+   "label_hash": "948c365fcf4d",
+   "rank_in_category": 46
+  },
+  {
+   "brand": "Nutrivie",
+   "name": "Collagène Marin Breveté",
+   "category": "collagen",
+   "variant": "90 gélules",
+   "price_eur": 11.9,
+   "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+   "units_pack": 90,
+   "units_per_day": 3,
+   "unit_name": "gélule",
+   "active_per_unit": 0.3333333333333333,
+   "active_unit": "g collagen",
+   "form": "peptides hydrolysés de collagène marin Naticol et vitamine C",
+   "additives": [
+    "stéarate de magnésium",
+    "gélule végétale"
+   ],
+   "url": "https://nutrivie.com/products/collagene-marin-brevete",
+   "ean": null,
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "Naticol",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://nutrivie.com/products/collagene-marin-brevete?variant=51154534924624"
+   },
+   "vegan": false,
+   "secondary_actives": [
+    {
+     "category": "vitamin_c",
+     "per_day": 12
+    }
+   ],
+   "notes": "3 gélules apportent 1 g de collagène et 12 mg de vitamine C, conformément au tableau nutritionnel fabricant.",
+   "id": "nutrivie-collagene-marin-brevete-90-gelules",
+   "form_tier": 20,
+   "form_note": "Branded hydrolysed peptides with clinical backing.",
+   "collagen_g_day": 1.0,
+   "dose_tier": 12,
+   "dose_note": "1 g/day — below most trials.",
+   "purity_tags": [
+    "anticaking"
+   ],
+   "additives_detail": [
+    "stéarate de magnésium",
+    "gélule végétale"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Naticol",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Étiquette et/ou composition officielle du fabricant, format, dose adulte, actifs et excipients ; aucun crédit accordé à des certificats ou analyses non consultés.",
+    "label_source_url": "https://nutrivie.com/products/collagene-marin-brevete",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://nutrivie.com/products/collagene-marin-brevete?variant=51154534924624",
+    "price_scope": "Prix public fabricant à l’unité du format exact, hors abonnement et code promotionnel."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 12,
+    "purity": 28,
+    "transparency": 8,
+    "total": 68,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.397,
+    "std": 3.967,
+    "std_label": "€ / 10 g collagen",
+    "days_per_pack": 30,
+    "price_tier": 3
+   },
+   "label_hash": "eef11c801a62",
+   "rank_in_category": 35
+  },
+  {
+   "brand": "Nutrivie",
+   "name": "Collagène Articulation",
+   "category": "collagen",
+   "variant": "300 g — cacao",
+   "price_eur": 33.9,
+   "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+   "form": "peptides de collagène marin Naticol types I et II, vitamine C et manganèse",
+   "additives": [
+    "poudre de cacao maigre",
+    "maltodextrine"
+   ],
+   "url": "https://nutrivie.com/products/collagene-articulation",
+   "ean": null,
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "Naticol",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://nutrivie.com/products/collagene-articulation?variant=47650319663440"
+   },
+   "format": "powder",
+   "pack_g": 300,
+   "serving_g": 15,
+   "active_per_serving_g": 10,
+   "vegan": false,
+   "secondary_actives": [
+    {
+     "category": "vitamin_c",
+     "per_day": 80
+    }
+   ],
+   "notes": "15 g de poudre par jour apportant 10 g de collagène, 80 mg de vitamine C et 0,8 mg de manganèse ; 20 doses par pot. Prix promotionnel affiché de 33,90 €. Types I et II indiqués sur le tableau nutritionnel, aucune bonification liée à cette mention.",
+   "active_per_100g": 66.66666666666666,
+   "id": "nutrivie-collagene-articulation-300-g-cacao",
+   "form_tier": 20,
+   "form_note": "Branded hydrolysed peptides with clinical backing.",
+   "collagen_g_day": 10,
+   "dose_tier": 20,
+   "dose_note": "10 g peptides/day — in the studied range.",
+   "purity_tags": [
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "poudre de cacao maigre",
+    "maltodextrine"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Naticol",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": null,
+    "zone": "UNKNOWN",
+    "malus": 0,
+    "basis": "unknown"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Étiquette et/ou composition officielle du fabricant, format, dose adulte, actifs et excipients ; aucun crédit accordé à des certificats ou analyses non consultés.",
+    "label_source_url": "https://nutrivie.com/products/collagene-articulation",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://nutrivie.com/products/collagene-articulation?variant=47650319663440",
+    "price_scope": "Prix public fabricant à l’unité du format exact, hors abonnement et code promotionnel."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 28,
+    "transparency": 8,
+    "total": 76,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 1.695,
+    "std": 1.695,
+    "std_label": "€ / 10 g collagen",
+    "days_per_pack": 20,
+    "price_tier": 2
+   },
+   "label_hash": "cc939ad7fd81",
+   "rank_in_category": 14
+  },
+  {
+   "brand": "Cuure",
+   "name": "Magnesium L-Threonate",
+   "category": "magnesium",
+   "variant": "90 gélules",
+   "price_eur": 39.9,
+   "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+   "units_pack": 90,
+   "units_per_day": 3,
+   "unit_name": "gélule",
+   "active_per_unit": 51.333333333333336,
+   "active_unit": "mg elemental Mg",
+   "form": "magnésium L-thréonate Magtein",
+   "additives": [
+    "Poudre d'huile de coco",
+    "sels de magnésium d'acides gras",
+    "Gélule d'origine végétale (hydroxypropylméthylcellulose)"
+   ],
+   "url": "https://cuure.com/produits/magnesium-l-threonate",
+   "ean": "3760353423556",
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "Magtein",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://cuure.com/produits/magnesium-l-threonate"
+   },
+   "vegan": false,
+   "notes": "Étiquette : 2000 mg de L-thréonate apportent 154 mg de magnésium pour 3 gélules. Allergène lait déclaré ; aucune allégation de passage cérébral reprise.",
+   "id": "cuure-magnesium-l-threonate-90-gelules",
+   "form_tier": 10,
+   "form_note": "Unspecified magnesium form.",
+   "purity_tags": [
+    "anticaking"
+   ],
+   "additives_detail": [
+    "Poudre d'huile de coco",
+    "sels de magnésium d'acides gras",
+    "Gélule d'origine végétale (hydroxypropylméthylcellulose)"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Magtein",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Étiquette et/ou composition officielle du fabricant, format, dose adulte, actifs et excipients ; aucun crédit accordé à des certificats ou analyses non consultés.",
+    "label_source_url": "https://4deb4f30d3ceeb7ccf4ed7029328c64e.cdn.bubble.io/d75/f1791215065382x671486893648541700/Label_FR_Magnesium_L-Threonate_2026.png",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://cuure.com/produits/magnesium-l-threonate",
+    "price_scope": "Prix public fabricant à l’unité du format exact, hors abonnement et code promotionnel."
+   },
+   "scores": {
+    "form": 10,
+    "dose": 20,
+    "purity": 28,
+    "transparency": 8,
+    "total": 66,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 1.33,
+    "std": 2.591,
+    "std_label": "€ / 300 mg Mg",
+    "days_per_pack": 30,
+    "price_tier": 5
+   },
+   "label_hash": "a5ae3f2d03fc",
+   "rank_in_category": 38
+  },
+  {
+   "brand": "Cuure",
+   "name": "Vitamine C",
+   "category": "vitamin_c",
+   "variant": "90 comprimés",
+   "price_eur": 19.9,
+   "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+   "units_pack": 90,
+   "units_per_day": 1,
+   "unit_name": "comprimé",
+   "active_per_unit": 250,
+   "active_unit": "mg",
+   "form": "acide ascorbique PureWay-C avec acides gras et flavonoïdes de citrus",
+   "additives": [
+    "Cellulose microcristalline",
+    "Amidon de riz (Oryza sativa L)"
+   ],
+   "url": "https://cuure.com/produits/vitamine-c",
+   "ean": "3760353422887",
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "PureWay-C",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://cuure.com/produits/vitamine-c"
+   },
+   "vegan": true,
+   "notes": "278 mg de complexe PureWay-C apportent 250 mg de vitamine C et 8 mg de flavonoïdes par comprimé.",
+   "id": "cuure-vitamine-c-90-comprimes",
+   "form_tier": 18,
+   "form_note": "Buffered/whole-food vitamin C, gentle on the stomach.",
+   "dose_tier": 20,
+   "dose_note": "250 mg/day — saturating dose.",
+   "purity_tags": [
+    "bulking_filler",
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "Cellulose microcristalline",
+    "Amidon de riz (Oryza sativa L)"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "PureWay-C",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Étiquette et/ou composition officielle du fabricant, format, dose adulte, actifs et excipients ; aucun crédit accordé à des certificats ou analyses non consultés.",
+    "label_source_url": "https://4deb4f30d3ceeb7ccf4ed7029328c64e.cdn.bubble.io/d75/f1756990161907x235569263930387900/20250903FR_Vitamine_C.png",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://cuure.com/produits/vitamine-c",
+    "price_scope": "Prix public fabricant à l’unité du format exact, hors abonnement et code promotionnel."
+   },
+   "scores": {
+    "form": 18,
+    "dose": 20,
+    "purity": 26,
+    "transparency": 8,
+    "total": 72,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.221,
+    "std": 0.884,
+    "std_label": "€ / 1000 mg C",
+    "days_per_pack": 90,
+    "price_tier": 3
+   },
+   "label_hash": "5f700287305b",
+   "rank_in_category": 21
+  },
+  {
+   "brand": "Cuure",
+   "name": "Créatine Creapure®",
+   "category": "creatine",
+   "variant": "204 g — nature",
+   "price_eur": 24.9,
+   "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+   "form": "créatine monohydrate Creapure",
+   "additives": [],
+   "url": "https://cuure.com/produits/creatine",
+   "ean": "3760353423693",
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "Creapure",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://cuure.com/produits/creatine"
+   },
+   "format": "powder",
+   "pack_g": 204,
+   "serving_g": 3.4,
+   "active_per_serving_g": 3,
+   "vegan": true,
+   "notes": "Étiquette : 3,4 g de monohydrate apportent 3,0 g de créatine. Poids net 204 g ; le poids logistique 220 g est exclu.",
+   "active_per_100g": 88.23529411764706,
+   "id": "cuure-creatine-creapure-204-g-nature",
+   "form_tier": 20,
+   "form_note": "Documented-purity Creapure® monohydrate.",
+   "purity_tags": [],
+   "additives_detail": [],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Creapure",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Étiquette et/ou composition officielle du fabricant, format, dose adulte, actifs et excipients ; aucun crédit accordé à des certificats ou analyses non consultés.",
+    "label_source_url": "https://4deb4f30d3ceeb7ccf4ed7029328c64e.cdn.bubble.io/d75/f1773936919675x180414655879235000/Label_FR_Cr%C3%A9atine.png",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://cuure.com/produits/creatine",
+    "price_scope": "Prix public fabricant à l’unité du format exact, hors abonnement et code promotionnel."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 30,
+    "transparency": 8,
+    "total": 78,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.415,
+    "std": 0.415,
+    "std_label": "€ / 3 g creatine",
+    "days_per_pack": 60,
+    "price_tier": 4
+   },
+   "label_hash": "4d4a90242871",
+   "rank_in_category": 21
+  },
+  {
+   "brand": "Cuure",
+   "name": "Créatine",
+   "category": "creatine",
+   "variant": "102 g — nature",
+   "price_eur": 9.9,
+   "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+   "form": "créatine monohydrate",
+   "additives": [],
+   "url": "https://cuure.com/produits/creatine-monohydrate",
+   "ean": "3760353424386",
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://cuure.com/produits/creatine-monohydrate"
+   },
+   "format": "powder",
+   "pack_g": 102,
+   "serving_g": 3.4,
+   "active_per_serving_g": 3,
+   "vegan": true,
+   "notes": "30 doses de 3,4 g apportant chacune 3 g de créatine. Prix promotionnel affiché 9,90 € au lieu de 12,90 € ; formule sans ingrédient Creapure distincte de l’autre produit de la marque.",
+   "active_per_100g": 88.23529411764706,
+   "id": "cuure-creatine-102-g-nature",
+   "form_tier": 16,
+   "form_note": "Monohydrate is the gold-standard form; generic source.",
+   "purity_tags": [],
+   "additives_detail": [],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Étiquette et/ou composition officielle du fabricant, format, dose adulte, actifs et excipients ; aucun crédit accordé à des certificats ou analyses non consultés.",
+    "label_source_url": "https://4deb4f30d3ceeb7ccf4ed7029328c64e.cdn.bubble.io/d75/f1779466708448x509350795737476540/Notice%20cr%C3%A9atine.png",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://cuure.com/produits/creatine-monohydrate",
+    "price_scope": "Prix public fabricant à l’unité du format exact, hors abonnement et code promotionnel."
+   },
+   "scores": {
+    "form": 16,
+    "dose": 20,
+    "purity": 30,
+    "transparency": 4,
+    "total": 70,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.33,
+    "std": 0.33,
+    "std_label": "€ / 3 g creatine",
+    "days_per_pack": 30,
+    "price_tier": 3
+   },
+   "label_hash": "8f3c1cc0fd64",
+   "rank_in_category": 33
+  },
+  {
+   "brand": "Cuure",
+   "name": "Whey Isolate",
+   "category": "whey",
+   "variant": "900 g — vanille",
+   "price_eur": 56.9,
+   "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+   "form": "isolat de protéine de lactosérum",
+   "additives": [
+    "lécithine de tournesol",
+    "arôme naturel vanille",
+    "gomme xanthane",
+    "gomme de cellulose",
+    "sel",
+    "glycosides de stéviol"
+   ],
+   "url": "https://cuure.com/produits/whey-isolate",
+   "ean": "3760353423662",
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://cuure.com/produits/whey-isolate"
+   },
+   "format": "powder",
+   "pack_g": 900,
+   "serving_g": 30,
+   "active_per_serving_g": 25,
+   "active_per_100g": 83,
+   "vegan": false,
+   "notes": "Liste complète lue sur l’étiquette officielle (les données structurées ne listent que whey et arôme). 83 g/100 g ; portion 30 g annoncée à 25 g de protéines, arrondi fabricant. Poids net 900 g.",
+   "id": "cuure-whey-isolate-900-g-vanille",
+   "form_tier": 18,
+   "form_note": "Isolate-led.",
+   "purity_tags": [
+    "lecithin",
+    "thickener",
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "lécithine de tournesol",
+    "arôme naturel vanille",
+    "gomme xanthane",
+    "gomme de cellulose",
+    "sel",
+    "glycosides de stéviol"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Étiquette et/ou composition officielle du fabricant, format, dose adulte, actifs et excipients ; aucun crédit accordé à des certificats ou analyses non consultés.",
+    "label_source_url": "https://4deb4f30d3ceeb7ccf4ed7029328c64e.cdn.bubble.io/d75/f1761140596412x711174610987872000/Capture%20d%E2%80%99e%CC%81cran%202025-10-22%20a%CC%80%2015.41.24.png",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://cuure.com/produits/whey-isolate",
+    "price_scope": "Prix public fabricant à l’unité du format exact, hors abonnement et code promotionnel."
+   },
+   "scores": {
+    "form": 18,
+    "dose": 20,
+    "purity": 24,
+    "transparency": 4,
+    "total": 66,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 1.897,
+    "std": 1.904,
+    "std_label": "€ / 25 g protein",
+    "days_per_pack": 30,
+    "price_tier": 4
+   },
+   "label_hash": "d6339bb71795",
+   "rank_in_category": 19
+  },
+  {
+   "brand": "Cuure",
+   "name": "B Complexe",
+   "category": "b_complex",
+   "variant": "180 comprimés",
+   "price_eur": 29.9,
+   "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+   "units_pack": 180,
+   "units_per_day": 1,
+   "unit_name": "comprimé",
+   "active_per_unit": 1,
+   "active_unit": "dose",
+   "form": "8 vitamines B, méthylfolate, méthylcobalamine, pyridoxine",
+   "additives": [
+    "Amidon de riz (Oryza sativa L)",
+    "Cellulose microcristalline"
+   ],
+   "url": "https://cuure.com/produits/complexe-vitamines-b",
+   "ean": "3760353422849",
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://cuure.com/produits/complexe-vitamines-b"
+   },
+   "form_quality": "bioactive",
+   "dose_style": "physiological",
+   "nutrients": {
+    "vitamin_b1": 1.1,
+    "vitamin_b2": 1.4,
+    "vitamin_b3": 16,
+    "vitamin_b5": 6,
+    "vitamin_b6": 1.4,
+    "biotin": 50,
+    "folate": 200,
+    "vitamin_b12": 2.5
+   },
+   "vegan": true,
+   "notes": "",
+   "id": "cuure-b-complexe-180-comprimes",
+   "form_tier": 20,
+   "form_note": "Bioactive / chelated forms.",
+   "dose_tier": 20,
+   "dose_note": "Physiological ~100% NRV coverage.",
+   "purity_tags": [
+    "bulking_filler",
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "Amidon de riz (Oryza sativa L)",
+    "Cellulose microcristalline"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Étiquette et/ou composition officielle du fabricant, format, dose adulte, actifs et excipients ; aucun crédit accordé à des certificats ou analyses non consultés.",
+    "label_source_url": "https://4deb4f30d3ceeb7ccf4ed7029328c64e.cdn.bubble.io/d75/f1756989156174x193171247871949820/20250903FR_B_Complexe.png",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://cuure.com/produits/complexe-vitamines-b",
+    "price_scope": "Prix public fabricant à l’unité du format exact, hors abonnement et code promotionnel."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 26,
+    "transparency": 4,
+    "total": 70,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.166,
+    "std": 0.166,
+    "std_label": "€ / day",
+    "days_per_pack": 180,
+    "price_tier": 1
+   },
+   "label_hash": "f783ce3ad09f",
+   "rank_in_category": 3
+  },
+  {
+   "brand": "Cuure",
+   "name": "Complexe Anti-chute Cheveux",
+   "category": "biotin",
+   "variant": "30 gélules",
+   "price_eur": 24.9,
+   "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+   "units_pack": 30,
+   "units_per_day": 1,
+   "unit_name": "gélule",
+   "active_per_unit": 50,
+   "active_unit": "µg",
+   "form": "D-biotine, vitamines B5/B6, zinc bisglycinate, AnaGain, phytostérols de pin, cystine, méthionine et prêle",
+   "additives": [
+    "Gélule d'origine végétale (hydroxypropylméthylcellulose)"
+   ],
+   "url": "https://cuure.com/produits/complexe-anti-chute-cheveux",
+   "ean": "3760353422924",
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "AnaGain",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://cuure.com/produits/complexe-anti-chute-cheveux"
+   },
+   "secondary_actives": [
+    {
+     "category": "zinc",
+     "per_day": 10
+    }
+   ],
+   "nutrients": {
+    "vitamin_b5": 6,
+    "vitamin_b6": 1.4
+   },
+   "notes": "Une gélule : biotine 50 µg, zinc 10 mg, B5 6 mg et B6 1,4 mg ; autres actifs : AnaGain 100 mg, phytostérols 100 mg, cystine 50 mg, méthionine 50 mg et prêle 45 mg.",
+   "id": "cuure-complexe-anti-chute-cheveux-30-gelules",
+   "form_tier": 18,
+   "form_note": "D-biotin — one form, no meaningful differences between products.",
+   "dose_tier": 20,
+   "dose_note": "50 µg/day — covers the 40 µg reference intake.",
+   "purity_tags": [],
+   "additives_detail": [
+    "Gélule d'origine végétale (hydroxypropylméthylcellulose)"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "AnaGain",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Étiquette et/ou composition officielle du fabricant, format, dose adulte, actifs et excipients ; aucun crédit accordé à des certificats ou analyses non consultés.",
+    "label_source_url": "https://4deb4f30d3ceeb7ccf4ed7029328c64e.cdn.bubble.io/d75/f1756989319625x740083606955406600/20250903FR_Complexe_Anti-chute_femme.png",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://cuure.com/produits/complexe-anti-chute-cheveux",
+    "price_scope": "Prix public fabricant à l’unité du format exact, hors abonnement et code promotionnel."
+   },
+   "scores": {
+    "form": 18,
+    "dose": 20,
+    "purity": 30,
+    "transparency": 8,
+    "total": 76,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.83,
+    "std": 0.83,
+    "std_label": "€ / day",
+    "days_per_pack": 30,
+    "price_tier": 5
+   },
+   "label_hash": "fe063abcb503",
+   "rank_in_category": 2
+  },
+  {
+   "brand": "Cuure",
+   "name": "Collagène Marin",
+   "category": "collagen",
+   "variant": "210 g — poudre",
+   "price_eur": 29.9,
+   "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+   "form": "hydrolysats de collagène marin Naticol et Cartidyss",
+   "additives": [
+    "fibres d’acacia",
+    "arômes naturels"
+   ],
+   "url": "https://cuure.com/produits/collagene",
+   "ean": "3760353423181",
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "Naticol / Cartidyss",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://cuure.com/produits/collagene"
+   },
+   "format": "powder",
+   "pack_g": 210,
+   "serving_g": 7,
+   "active_per_serving_g": 5.3,
+   "secondary_actives": [
+    {
+     "category": "vitamin_c",
+     "per_day": 80
+    }
+   ],
+   "vegan": false,
+   "notes": "Étiquette : portion 7 g contenant 5 g de Naticol dont 4,7 g de protéines collagéniques, et 1 g de Cartidyss dont 0,6 g de protéines collagéniques. Actif retenu : 5,3 g de protéines collagéniques (pas 6 g de mélanges bruts). Vitamine C 80 mg.",
+   "active_per_100g": 75.71428571428571,
+   "id": "cuure-collagene-marin-210-g-poudre",
+   "form_tier": 20,
+   "form_note": "Branded hydrolysed peptides with clinical backing.",
+   "collagen_g_day": 5.3,
+   "dose_tier": 20,
+   "dose_note": "5.3 g peptides/day — in the studied range.",
+   "purity_tags": [
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "fibres d’acacia",
+    "arômes naturels"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Naticol / Cartidyss",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [
+    {
+     "string": "arômes naturels",
+     "verdict": "neutral",
+     "note": "natural flavouring, declared as such",
+     "reviewed_on": "2026-08-07"
+    }
+   ],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Étiquette et/ou composition officielle du fabricant, format, dose adulte, actifs et excipients ; aucun crédit accordé à des certificats ou analyses non consultés.",
+    "label_source_url": "https://4deb4f30d3ceeb7ccf4ed7029328c64e.cdn.bubble.io/d75/f1756977690899x657764796092953300/Capture%20d%E2%80%99e%CC%81cran%202025-09-04%20a%CC%80%2011.17.25.png",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://cuure.com/produits/collagene",
+    "price_scope": "Prix public fabricant à l’unité du format exact, hors abonnement et code promotionnel."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 20,
+    "purity": 28,
+    "transparency": 8,
+    "total": 76,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.997,
+    "std": 1.881,
+    "std_label": "€ / 10 g collagen",
+    "days_per_pack": 30,
+    "price_tier": 2
+   },
+   "label_hash": "ec1f6ba8d2ff",
+   "rank_in_category": 15
+  },
+  {
+   "brand": "Cuure",
+   "name": "Oméga 3",
+   "category": "omega3",
+   "variant": "60 gélules",
+   "price_eur": 22.9,
+   "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+   "units_pack": 60,
+   "units_per_day": 3,
+   "unit_name": "gélule",
+   "active_per_unit": 350,
+   "active_unit": "mg EPA+DHA",
+   "form": "huile de poisson EPAX, EPA et DHA",
+   "additives": [
+    "gélule HPMC",
+    "tocophérols naturels"
+   ],
+   "url": "https://cuure.com/produits/omega-3",
+   "ean": "3760353422702",
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "EPAX",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://cuure.com/produits/omega-3"
+   },
+   "vegan": false,
+   "notes": "Dose retenue : 3 gélules, maximum de la plage fabricant 1 à 3. Étiquette : 3 gélules apportent 1500 mg d’huile de poisson EPAX, EPA 600 mg + DHA 450 mg = 1050 mg. Aucune analyse de lot consultée, donc aucun crédit COA.",
+   "id": "cuure-omega-3-60-gelules",
+   "form_tier": 12,
+   "form_note": "Oil form not clearly declared.",
+   "purity_tags": [],
+   "additives_detail": [
+    "gélule HPMC",
+    "tocophérols naturels"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "EPAX",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Étiquette et/ou composition officielle du fabricant, format, dose adulte, actifs et excipients ; aucun crédit accordé à des certificats ou analyses non consultés.",
+    "label_source_url": "https://4deb4f30d3ceeb7ccf4ed7029328c64e.cdn.bubble.io/d75/f1783410061179x798079193258472300/Capture%20d%27%C3%A9cran%202026-07-07%20094045.png",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://cuure.com/produits/omega-3",
+    "price_scope": "Prix public fabricant à l’unité du format exact, hors abonnement et code promotionnel."
+   },
+   "scores": {
+    "form": 12,
+    "dose": 20,
+    "purity": 30,
+    "transparency": 8,
+    "total": 70,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 1.145,
+    "std": 0.545,
+    "std_label": "€ / 500 mg EPA+DHA",
+    "days_per_pack": 20,
+    "price_tier": 3
+   },
+   "label_hash": "1f935905d6b1",
+   "rank_in_category": 25
+  },
+  {
+   "brand": "Cuure",
+   "name": "Vitamine D3",
+   "category": "vitamin_d3",
+   "variant": "180 capsules",
+   "price_eur": 19.9,
+   "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+   "units_pack": 180,
+   "units_per_day": 1,
+   "unit_name": "capsule",
+   "active_per_unit": 800,
+   "active_unit": "IU",
+   "form": "cholécalciférol sur huile de tournesol",
+   "additives": [
+    "huile de tournesol",
+    "gélatine de poisson",
+    "glycérol"
+   ],
+   "url": "https://cuure.com/produits/vitamine-d",
+   "ean": "3760353422900",
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://cuure.com/produits/vitamine-d"
+   },
+   "vegan": false,
+   "notes": "Dose minimale fabricant retenue : 1 capsule/jour, 20 µg = 800 UI. Plage indiquée de 1 à 3 capsules ; tableau pour 3 capsules : 60 µg = 2400 UI. Enveloppe de poisson, traces de coco déclarées.",
+   "id": "cuure-vitamine-d3-180-capsules",
+   "form_tier": 16,
+   "form_note": "D3 with undocumented sourcing.",
+   "purity_tags": [],
+   "additives_detail": [
+    "huile de tournesol",
+    "gélatine de poisson",
+    "glycérol"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Étiquette et/ou composition officielle du fabricant, format, dose adulte, actifs et excipients ; aucun crédit accordé à des certificats ou analyses non consultés.",
+    "label_source_url": "https://4deb4f30d3ceeb7ccf4ed7029328c64e.cdn.bubble.io/d75/f1734973249935x531316356021774200/Capture%20d%E2%80%99e%CC%81cran%202024-12-23%20a%CC%80%2016.19.17.png",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://cuure.com/produits/vitamine-d",
+    "price_scope": "Prix public fabricant à l’unité du format exact, hors abonnement et code promotionnel."
+   },
+   "scores": {
+    "form": 16,
+    "dose": 20,
+    "purity": 30,
+    "transparency": 4,
+    "total": 70,
+    "grade": "B",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.111,
+    "std": 0.138,
+    "std_label": "€ / 1000 IU",
+    "days_per_pack": 180,
+    "price_tier": 4
+   },
+   "label_hash": "851af530a2c3",
+   "rank_in_category": 21
+  },
+  {
+   "brand": "Cuure",
+   "name": "Magnésium Sucrosomial",
+   "category": "magnesium",
+   "variant": "60 gélules",
+   "price_eur": 14.9,
+   "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+   "units_pack": 60,
+   "units_per_day": 2,
+   "unit_name": "gélule",
+   "active_per_unit": 68,
+   "active_unit": "mg elemental Mg",
+   "form": "oxyde de magnésium sucrosomial Sidemag",
+   "additives": [
+    "Gélule d'origine végétale (hydroxypropylméthylcellulose)",
+    "Amidon de riz (Oryza sativa L)",
+    "Sucroesters d'acides gras",
+    "Lécithine de tournesol"
+   ],
+   "url": "https://cuure.com/produits/magnesium",
+   "ean": "3760353424416",
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "Sidemag",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://cuure.com/produits/magnesium"
+   },
+   "nutrients": {
+    "vitamin_b6": 2.8
+   },
+   "notes": "Dose retenue : 2 gélules/jour, maximum de la plage fabricant 1 à 2. Pour 2 gélules : 425 mg de Sidemag apportent 136 mg de magnésium élémentaire ; taurine 100 mg et B6 2,8 mg. Forme oxyde sucrosomial explicitement indiquée sur l’étiquette, aucune conversion en équivalence magnésium marin.",
+   "id": "cuure-magnesium-sucrosomial-60-gelules",
+   "form_tier": 4,
+   "form_note": "Oxide (incl. seawater 'marine') — lowest bioavailability.",
+   "purity_tags": [
+    "bulking_filler",
+    "lecithin"
+   ],
+   "additives_detail": [
+    "Gélule d'origine végétale (hydroxypropylméthylcellulose)",
+    "Amidon de riz (Oryza sativa L)",
+    "Sucroesters d'acides gras",
+    "Lécithine de tournesol"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Sidemag",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Étiquette et/ou composition officielle du fabricant, format, dose adulte, actifs et excipients ; aucun crédit accordé à des certificats ou analyses non consultés.",
+    "label_source_url": "https://4deb4f30d3ceeb7ccf4ed7029328c64e.cdn.bubble.io/d75/f1778485550853x550291318686711100/Label%20Magn%C3%A9sium%20Sidemag%C2%AE.png",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://cuure.com/produits/magnesium",
+    "price_scope": "Prix public fabricant à l’unité du format exact, hors abonnement et code promotionnel."
+   },
+   "scores": {
+    "form": 4,
+    "dose": 20,
+    "purity": 26,
+    "transparency": 8,
+    "total": 58,
+    "grade": "C",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.497,
+    "std": 1.096,
+    "std_label": "€ / 300 mg Mg",
+    "days_per_pack": 30,
+    "price_tier": 4
+   },
+   "label_hash": "4c684a899a46",
+   "rank_in_category": 47
+  },
+  {
+   "brand": "Cuure",
+   "name": "Complexe Collagène",
+   "category": "collagen",
+   "variant": "45 gélules",
+   "price_eur": 19.9,
+   "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+   "units_pack": 45,
+   "units_per_day": 1,
+   "unit_name": "gélule",
+   "active_per_unit": 0.066,
+   "active_unit": "g collagen",
+   "form": "extrait de membrane d’œuf REGGENERATE et vitamine C",
+   "additives": [
+    "spiruline",
+    "gélule HPMC",
+    "amidon de pomme de terre"
+   ],
+   "url": "https://cuure.com/produits/complexe-collagene",
+   "ean": "3760353424140",
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": "REGGENERATE",
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://cuure.com/produits/complexe-collagene"
+   },
+   "vegan": false,
+   "secondary_actives": [
+    {
+     "category": "vitamin_c",
+     "per_day": 80
+    }
+   ],
+   "notes": "Par gélule : 300 mg de membrane d’œuf apportent 66 mg de collagène (0,066 g), 75 mg d’élastine, 9 mg d’acide hyaluronique, 6 mg de glucosamine, 6 mg de chondroïtine et 3 mg de kératine. Vitamine C 80 mg ; les 300 mg de membrane ne sont pas assimilés à 300 mg de collagène.",
+   "id": "cuure-complexe-collagene-45-gelules",
+   "form_tier": 12,
+   "form_note": "Eggshell-membrane collagen — different matrix, very low dose.",
+   "collagen_g_day": 0.066,
+   "dose_tier": 8,
+   "dose_note": "0.066 g/day — token dose.",
+   "purity_tags": [
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "spiruline",
+    "gélule HPMC",
+    "amidon de pomme de terre"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "REGGENERATE",
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Étiquette et/ou composition officielle du fabricant, format, dose adulte, actifs et excipients ; aucun crédit accordé à des certificats ou analyses non consultés.",
+    "label_source_url": "https://cuure.com/produits/complexe-collagene",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://cuure.com/produits/complexe-collagene",
+    "price_scope": "Prix public fabricant à l’unité du format exact, hors abonnement et code promotionnel."
+   },
+   "scores": {
+    "form": 12,
+    "dose": 8,
+    "purity": 28,
+    "transparency": 8,
+    "total": 56,
+    "grade": "C",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.442,
+    "std": 67.003,
+    "std_label": "€ / 10 g collagen",
+    "days_per_pack": 45,
+    "price_tier": 5
+   },
+   "label_hash": "0d311b2d5ede",
+   "rank_in_category": 55
+  },
+  {
+   "brand": "Cuure",
+   "name": "Électrolytes",
+   "category": "potassium",
+   "variant": "15 pastilles — citron gingembre",
+   "price_eur": 12.9,
+   "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+   "units_pack": 15,
+   "units_per_day": 1,
+   "unit_name": "pastille",
+   "active_per_unit": 405,
+   "active_unit": "mg elemental K",
+   "form": "chlorure de potassium, bisglycinate de magnésium, citrate de calcium, chlorure et bicarbonate de sodium, vitamines C/B1/B6",
+   "additives": [
+    "sorbitol",
+    "acide citrique",
+    "arômes naturels",
+    "polyéthylène glycol",
+    "glycosides de stéviol"
+   ],
+   "url": "https://cuure.com/produits/electrolytes",
+   "ean": "3760353424225",
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://cuure.com/produits/electrolytes"
+   },
+   "secondary_actives": [
+    {
+     "category": "magnesium",
+     "per_day": 56
+    },
+    {
+     "category": "vitamin_c",
+     "per_day": 80
+    }
+   ],
+   "nutrients": {
+    "calcium": 120,
+    "vitamin_b1": 1.1,
+    "vitamin_b6": 1.4
+   },
+   "vegan": true,
+   "notes": "Étiquette pour 1 pastille : potassium 405 mg, Mg 56 mg, Ca 120 mg, C 80 mg, B1 1,1 mg, B6 1,4 mg ; chlorure 669 mg et sodium 310 mg. 15 pastilles par tube ; la route citron-gingembre correspond au même EAN et n’est pas dupliquée.",
+   "id": "cuure-electrolytes-15-pastilles-citron-gingembre",
+   "form_tier": 20,
+   "form_note": "Potassium chloride — the form behind most of the blood-pressure trials (solid tablets can irritate the gut).",
+   "dose_tier": 12,
+   "dose_note": "405 mg potassium/day — below the lowest dose of the pooled blood-pressure trials.",
+   "purity_tags": [
+    "polyol",
+    "acidity_regulator",
+    "synthetic_carrier"
+   ],
+   "additives_detail": [
+    "sorbitol",
+    "acide citrique",
+    "arômes naturels",
+    "polyéthylène glycol",
+    "glycosides de stéviol"
+   ],
+   "banned": [],
+   "transparency": {
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true
+   },
+   "review_pending": [],
+   "reviewed": [
+    {
+     "string": "arômes naturels",
+     "verdict": "neutral",
+     "note": "natural flavouring, declared as such",
+     "reviewed_on": "2026-08-07"
+    }
+   ],
+   "provenance": {
+    "country": "France",
+    "zone": "FR",
+    "malus": 0,
+    "basis": "brand_estimate"
+   },
+   "verification": {
+    "checked_on": "2026-10-09",
+    "source_status": "reachable_unverified",
+    "source_reachable": true,
+    "review_notes": [],
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Étiquette et/ou composition officielle du fabricant, format, dose adulte, actifs et excipients ; aucun crédit accordé à des certificats ou analyses non consultés.",
+    "label_source_url": "https://4deb4f30d3ceeb7ccf4ed7029328c64e.cdn.bubble.io/d75/f1783003675477x547444807123919940/Capture%20d%27%C3%A9cran%202026-07-02%20164727.png",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://cuure.com/produits/electrolytes",
+    "price_scope": "Prix public fabricant à l’unité du format exact, hors abonnement et code promotionnel."
+   },
+   "scores": {
+    "form": 20,
+    "dose": 12,
+    "purity": 25,
+    "transparency": 4,
+    "total": 61,
+    "grade": "C",
+    "red_card": false,
+    "banned_substances": []
+   },
+   "value": {
+    "cost_per_day": 0.86,
+    "std": 4.247,
+    "std_label": "€ / 2000 mg potassium (NRV)",
+    "days_per_pack": 15,
+    "price_tier": 4
+   },
+   "label_hash": "d19fa32c306f",
+   "rank_in_category": 10
+  },
+  {
    "category": "vitamin_c",
    "brand": "Dynveo",
    "name": "Vitamine C pure Quali®-C",
@@ -13451,7 +21633,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "2814c91693da",
-   "rank_in_category": 12
+   "rank_in_category": 13
   },
   {
    "category": "melatonin",
@@ -13548,10 +21730,10 @@ const N3GH_DATA = {
     "std": 0.215,
     "std_label": "€ / day",
     "days_per_pack": 60,
-    "price_tier": 2
+    "price_tier": 1
    },
    "label_hash": "88f18a81091c",
-   "rank_in_category": 16
+   "rank_in_category": 19
   },
   {
    "category": "omega3",
@@ -13645,7 +21827,7 @@ const N3GH_DATA = {
     "price_tier": 4
    },
    "label_hash": "b90671a80800",
-   "rank_in_category": 49
+   "rank_in_category": 57
   },
   {
    "category": "collagen",
@@ -13741,7 +21923,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "2ada935f754a",
-   "rank_in_category": 38
+   "rank_in_category": 51
   },
   {
    "category": "omega3",
@@ -13835,7 +22017,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "76608aa335a3",
-   "rank_in_category": 43
+   "rank_in_category": 50
   },
   {
    "category": "magnesium",
@@ -13928,7 +22110,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "dc4e14d5c8f6",
-   "rank_in_category": 46
+   "rank_in_category": 52
   },
   {
    "category": "vitamin_c",
@@ -14023,7 +22205,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "66f99bc3b4a1",
-   "rank_in_category": 19
+   "rank_in_category": 22
   },
   {
    "category": "probiotics",
@@ -14221,7 +22403,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "2583ec4276e9",
-   "rank_in_category": 18
+   "rank_in_category": 19
   },
   {
    "category": "magnesium",
@@ -14317,7 +22499,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "7c6e79f200dd",
-   "rank_in_category": 26
+   "rank_in_category": 29
   },
   {
    "category": "collagen",
@@ -14416,7 +22598,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "93934da8fb7f",
-   "rank_in_category": 21
+   "rank_in_category": 31
   },
   {
    "category": "magnesium",
@@ -14514,7 +22696,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "5c0fb51f78c7",
-   "rank_in_category": 10
+   "rank_in_category": 11
   },
   {
    "category": "melatonin",
@@ -14718,7 +22900,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "f05cc85c6a77",
-   "rank_in_category": 48
+   "rank_in_category": 54
   },
   {
    "category": "melatonin",
@@ -14829,7 +23011,7 @@ const N3GH_DATA = {
     "price_tier": 4
    },
    "label_hash": "887c70eb0663",
-   "rank_in_category": 10
+   "rank_in_category": 13
   },
   {
    "category": "curcumin",
@@ -15135,7 +23317,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "ddda8cd43757",
-   "rank_in_category": 30
+   "rank_in_category": 33
   },
   {
    "category": "collagen",
@@ -15258,7 +23440,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "fc25bf906cd4",
-   "rank_in_category": 40
+   "rank_in_category": 53
   },
   {
    "category": "ashwagandha",
@@ -15453,7 +23635,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "fc138278f794",
-   "rank_in_category": 29
+   "rank_in_category": 32
   },
   {
    "category": "rhodiola",
@@ -15555,7 +23737,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "9de6c66485bb",
-   "rank_in_category": 8
+   "rank_in_category": 9
   },
   {
    "category": "probiotics",
@@ -15665,7 +23847,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "ed8aeb8488f8",
-   "rank_in_category": 22
+   "rank_in_category": 26
   },
   {
    "category": "creatine",
@@ -15750,7 +23932,7 @@ const N3GH_DATA = {
     "std": 0.274,
     "std_label": "€ / 3 g creatine",
     "days_per_pack": 146,
-    "price_tier": 3
+    "price_tier": 2
    },
    "label_hash": "31a5733cace2",
    "rank_in_category": 16
@@ -15861,7 +24043,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "ce8c103d9331",
-   "rank_in_category": 23
+   "rank_in_category": 26
   },
   {
    "category": "collagen",
@@ -16000,7 +24182,7 @@ const N3GH_DATA = {
     "price_tier": 4
    },
    "label_hash": "3c244320e03b",
-   "rank_in_category": 46
+   "rank_in_category": 61
   },
   {
    "category": "zma",
@@ -16111,7 +24293,7 @@ const N3GH_DATA = {
     "price_tier": 4
    },
    "label_hash": "4df5bd7bd286",
-   "rank_in_category": 7
+   "rank_in_category": 8
   },
   {
    "category": "magnesium",
@@ -16201,10 +24383,10 @@ const N3GH_DATA = {
     "std": 0.553,
     "std_label": "€ / 300 mg Mg",
     "days_per_pack": 24,
-    "price_tier": 3
+    "price_tier": 2
    },
    "label_hash": "1dfcb4f5849b",
-   "rank_in_category": 29
+   "rank_in_category": 32
   },
   {
    "category": "vitamin_c",
@@ -16299,7 +24481,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "c5f6a7917352",
-   "rank_in_category": 10
+   "rank_in_category": 11
   },
   {
    "category": "vitamin_c",
@@ -16394,7 +24576,7 @@ const N3GH_DATA = {
     "price_tier": 4
    },
    "label_hash": "200d82c5dc47",
-   "rank_in_category": 36
+   "rank_in_category": 39
   },
   {
    "category": "vitamin_d3",
@@ -16588,7 +24770,7 @@ const N3GH_DATA = {
     "price_tier": 4
    },
    "label_hash": "f9505630b483",
-   "rank_in_category": 7
+   "rank_in_category": 8
   },
   {
    "category": "omega3",
@@ -16692,7 +24874,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "57e2ae190ec2",
-   "rank_in_category": 46
+   "rank_in_category": 53
   },
   {
    "category": "collagen",
@@ -16788,7 +24970,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "56708985f3fe",
-   "rank_in_category": 30
+   "rank_in_category": 42
   },
   {
    "category": "collagen",
@@ -16879,7 +25061,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "60a50ec0394b",
-   "rank_in_category": 6
+   "rank_in_category": 11
   },
   {
    "category": "creatine",
@@ -16964,10 +25146,10 @@ const N3GH_DATA = {
     "std": 0.37,
     "std_label": "€ / 3 g creatine",
     "days_per_pack": 117,
-    "price_tier": 4
+    "price_tier": 3
    },
    "label_hash": "88e5eb7a2081",
-   "rank_in_category": 35
+   "rank_in_category": 42
   },
   {
    "category": "whey",
@@ -17149,7 +25331,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "129d18704cba",
-   "rank_in_category": 36
+   "rank_in_category": 41
   },
   {
    "category": "whey",
@@ -17241,10 +25423,10 @@ const N3GH_DATA = {
     "std": 1.25,
     "std_label": "€ / 25 g protein",
     "days_per_pack": 15,
-    "price_tier": 2
+    "price_tier": 1
    },
    "label_hash": "daeab37e005f",
-   "rank_in_category": 16
+   "rank_in_category": 18
   },
   {
    "category": "whey",
@@ -17445,7 +25627,7 @@ const N3GH_DATA = {
     "price_tier": 4
    },
    "label_hash": "b5bc45946731",
-   "rank_in_category": 20
+   "rank_in_category": 24
   },
   {
    "category": "omega3",
@@ -17544,10 +25726,10 @@ const N3GH_DATA = {
     "std": 1.2,
     "std_label": "€ / 500 mg EPA+DHA",
     "days_per_pack": 60,
-    "price_tier": 5
+    "price_tier": 4
    },
    "label_hash": "83c95bda9e82",
-   "rank_in_category": 32
+   "rank_in_category": 39
   },
   {
    "category": "omega3",
@@ -17655,7 +25837,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "cd9acbb90208",
-   "rank_in_category": 34
+   "rank_in_category": 41
   },
   {
    "category": "iron",
@@ -17784,7 +25966,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "b5b0e9c3fdf4",
-   "rank_in_category": 15
+   "rank_in_category": 17
   },
   {
    "category": "omega3",
@@ -17887,10 +26069,10 @@ const N3GH_DATA = {
     "std": 0.833,
     "std_label": "€ / 500 mg EPA+DHA",
     "days_per_pack": 60,
-    "price_tier": 4
+    "price_tier": 3
    },
    "label_hash": "5126cedba193",
-   "rank_in_category": 30
+   "rank_in_category": 37
   },
   {
    "category": "curcumin",
@@ -18094,7 +26276,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "c4fbbc613373",
-   "rank_in_category": 20
+   "rank_in_category": 26
   },
   {
    "category": "vitamin_b12",
@@ -18198,7 +26380,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "ac4cc3f6dc57",
-   "rank_in_category": 18
+   "rank_in_category": 19
   },
   {
    "category": "ashwagandha",
@@ -18299,7 +26481,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "3880af529837",
-   "rank_in_category": 21
+   "rank_in_category": 26
   },
   {
    "category": "ashwagandha",
@@ -18394,7 +26576,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "5bf6e33bdbed",
-   "rank_in_category": 11
+   "rank_in_category": 15
   },
   {
    "category": "vitamin_c",
@@ -18496,7 +26678,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "38a50362c6d7",
-   "rank_in_category": 30
+   "rank_in_category": 33
   },
   {
    "category": "zinc",
@@ -18597,7 +26779,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "64a2195f606b",
-   "rank_in_category": 5
+   "rank_in_category": 6
   },
   {
    "category": "magnesium",
@@ -18696,7 +26878,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "07cc424fce7b",
-   "rank_in_category": 32
+   "rank_in_category": 36
   },
   {
    "category": "vitamin_d3",
@@ -18890,7 +27072,7 @@ const N3GH_DATA = {
     "price_tier": 4
    },
    "label_hash": "8ee1cc9c0bb6",
-   "rank_in_category": 29
+   "rank_in_category": 30
   },
   {
    "category": "vitamin_d3",
@@ -18986,7 +27168,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "20d97b65c17e",
-   "rank_in_category": 23
+   "rank_in_category": 24
   },
   {
    "category": "tribulus",
@@ -19081,7 +27263,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "d126580eeb9f",
-   "rank_in_category": 6
+   "rank_in_category": 7
   },
   {
    "category": "zinc",
@@ -19182,7 +27364,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "23cc19451975",
-   "rank_in_category": 16
+   "rank_in_category": 19
   },
   {
    "category": "iron",
@@ -19296,7 +27478,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "f915115dea25",
-   "rank_in_category": 13
+   "rank_in_category": 15
   },
   {
    "category": "vitamin_b12",
@@ -19395,7 +27577,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "8230161e2258",
-   "rank_in_category": 19
+   "rank_in_category": 20
   },
   {
    "category": "rhodiola",
@@ -19490,7 +27672,7 @@ const N3GH_DATA = {
     "price_tier": 1
    },
    "label_hash": "6a0011a62d6c",
-   "rank_in_category": 10
+   "rank_in_category": 11
   },
   {
    "category": "b_complex",
@@ -19603,7 +27785,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "566e0d1f0ecc",
-   "rank_in_category": 4
+   "rank_in_category": 5
   },
   {
    "category": "vitamin_k2",
@@ -19909,7 +28091,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "de99fe8b386c",
-   "rank_in_category": 51
+   "rank_in_category": 59
   },
   {
    "category": "omega3",
@@ -20008,7 +28190,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "42d1b4009bde",
-   "rank_in_category": 52
+   "rank_in_category": 61
   },
   {
    "category": "omega3",
@@ -20110,7 +28292,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "d53de42bd48f",
-   "rank_in_category": 13
+   "rank_in_category": 14
   },
   {
    "category": "omega3",
@@ -20212,7 +28394,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "0bcf33de7fce",
-   "rank_in_category": 19
+   "rank_in_category": 24
   },
   {
    "category": "omega3",
@@ -20314,7 +28496,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "1b9c493044f9",
-   "rank_in_category": 21
+   "rank_in_category": 27
   },
   {
    "category": "omega3",
@@ -20416,7 +28598,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "e06dcd4677d2",
-   "rank_in_category": 18
+   "rank_in_category": 23
   },
   {
    "category": "melatonin",
@@ -20511,10 +28693,10 @@ const N3GH_DATA = {
     "std": 0.217,
     "std_label": "€ / day",
     "days_per_pack": 60,
-    "price_tier": 2
+    "price_tier": 1
    },
    "label_hash": "375e11ea256c",
-   "rank_in_category": 12
+   "rank_in_category": 15
   },
   {
    "category": "probiotics",
@@ -20618,7 +28800,7 @@ const N3GH_DATA = {
     "price_tier": 1
    },
    "label_hash": "cd5243d4d890",
-   "rank_in_category": 24
+   "rank_in_category": 28
   },
   {
    "category": "collagen",
@@ -20734,10 +28916,10 @@ const N3GH_DATA = {
     "std": 18.333,
     "std_label": "€ / 10 g collagen",
     "days_per_pack": 30,
-    "price_tier": 3
+    "price_tier": 4
    },
    "label_hash": "518aeb5a72bb",
-   "rank_in_category": 47
+   "rank_in_category": 62
   },
   {
    "category": "omega3",
@@ -20848,7 +29030,7 @@ const N3GH_DATA = {
     "price_tier": 4
    },
    "label_hash": "4a33906d5bc7",
-   "rank_in_category": 54
+   "rank_in_category": 63
   },
   {
    "category": "folate",
@@ -21057,7 +29239,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "8511e66427f9",
-   "rank_in_category": 2
+   "rank_in_category": 3
   },
   {
    "category": "probiotics",
@@ -21181,7 +29363,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "e984edaca8b7",
-   "rank_in_category": 26
+   "rank_in_category": 30
   },
   {
    "category": "probiotics",
@@ -21280,7 +29462,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "ddae706f153e",
-   "rank_in_category": 17
+   "rank_in_category": 20
   },
   {
    "category": "tribulus",
@@ -21499,7 +29681,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "9c2c4afbebc9",
-   "rank_in_category": 17
+   "rank_in_category": 20
   },
   {
    "category": "melatonin",
@@ -21607,7 +29789,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "7bb155727111",
-   "rank_in_category": 9
+   "rank_in_category": 12
   },
   {
    "category": "iron",
@@ -21708,7 +29890,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "4437cccc15d7",
-   "rank_in_category": 14
+   "rank_in_category": 16
   },
   {
    "category": "omega3",
@@ -21806,7 +29988,7 @@ const N3GH_DATA = {
     "price_tier": 4
    },
    "label_hash": "e9d4ffccb429",
-   "rank_in_category": 50
+   "rank_in_category": 58
   },
   {
    "category": "magnesium",
@@ -22097,7 +30279,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "313b96ccf93a",
-   "rank_in_category": 13
+   "rank_in_category": 21
   },
   {
    "category": "collagen",
@@ -22188,7 +30370,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "1c701796eb62",
-   "rank_in_category": 19
+   "rank_in_category": 27
   },
   {
    "category": "potassium",
@@ -22390,7 +30572,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "d87c33b4ea0b",
-   "rank_in_category": 24
+   "rank_in_category": 36
   },
   {
    "category": "vitamin_c",
@@ -22493,7 +30675,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "2da8662b690f",
-   "rank_in_category": 33
+   "rank_in_category": 36
   },
   {
    "category": "b_complex",
@@ -22715,7 +30897,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "7f9081fa552c",
-   "rank_in_category": 19
+   "rank_in_category": 24
   },
   {
    "category": "omega3",
@@ -22816,7 +30998,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "803320aa82da",
-   "rank_in_category": 45
+   "rank_in_category": 52
   },
   {
    "category": "magnesium",
@@ -22905,7 +31087,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "230ff4937d0e",
-   "rank_in_category": 35
+   "rank_in_category": 40
   },
   {
    "category": "vitamin_c",
@@ -23013,7 +31195,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "2c1d514e14e8",
-   "rank_in_category": 13
+   "rank_in_category": 14
   },
   {
    "category": "multivitamin",
@@ -23156,7 +31338,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "02869a2bed79",
-   "rank_in_category": 18
+   "rank_in_category": 21
   },
   {
    "category": "magnesium",
@@ -23269,7 +31451,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "62c6fd1a6cb6",
-   "rank_in_category": 42
+   "rank_in_category": 48
   },
   {
    "category": "ashwagandha",
@@ -23367,7 +31549,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "ce65e4553db2",
-   "rank_in_category": 15
+   "rank_in_category": 20
   },
   {
    "category": "omega3",
@@ -23461,7 +31643,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "b216ebd7634b",
-   "rank_in_category": 40
+   "rank_in_category": 47
   },
   {
    "category": "multivitamin",
@@ -23587,7 +31769,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "1e59bf289966",
-   "rank_in_category": 13
+   "rank_in_category": 15
   },
   {
    "category": "multivitamin",
@@ -23719,7 +31901,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "c0d60d0c6ab7",
-   "rank_in_category": 12
+   "rank_in_category": 14
   },
   {
    "category": "collagen",
@@ -23824,7 +32006,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "3c04ba1b7804",
-   "rank_in_category": 41
+   "rank_in_category": 54
   },
   {
    "category": "potassium",
@@ -23936,7 +32118,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "f91f9edb19c8",
-   "rank_in_category": 10
+   "rank_in_category": 11
   },
   {
    "category": "collagen",
@@ -24061,7 +32243,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "4015234d473d",
-   "rank_in_category": 14
+   "rank_in_category": 22
   },
   {
    "category": "whey",
@@ -24256,7 +32438,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "4aa5624d5a17",
-   "rank_in_category": 9
+   "rank_in_category": 11
   },
   {
    "category": "tribulus",
@@ -24353,7 +32535,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "611eb8559d22",
-   "rank_in_category": 5
+   "rank_in_category": 6
   },
   {
    "category": "omega3",
@@ -24451,7 +32633,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "cb45b70fb6f1",
-   "rank_in_category": 35
+   "rank_in_category": 42
   },
   {
    "category": "biotin",
@@ -24583,10 +32765,10 @@ const N3GH_DATA = {
     "std": 0.63,
     "std_label": "€ / day",
     "days_per_pack": 30,
-    "price_tier": 5
+    "price_tier": 4
    },
    "label_hash": "0976ba602ea2",
-   "rank_in_category": 6
+   "rank_in_category": 7
   },
   {
    "brand": "BioTechUSA",
@@ -24665,10 +32847,10 @@ const N3GH_DATA = {
     "std": 0.478,
     "std_label": "€ / 3 g creatine",
     "days_per_pack": 67,
-    "price_tier": 5
+    "price_tier": 4
    },
    "label_hash": "bbe94e4c9405",
-   "rank_in_category": 32
+   "rank_in_category": 36
   },
   {
    "brand": "BioTechUSA",
@@ -24765,7 +32947,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "9081c64bd9b9",
-   "rank_in_category": 37
+   "rank_in_category": 44
   },
   {
    "brand": "BioTechUSA",
@@ -24869,7 +33051,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "fb930fbbbdef",
-   "rank_in_category": 33
+   "rank_in_category": 34
   },
   {
    "brand": "BioTechUSA",
@@ -24974,7 +33156,7 @@ const N3GH_DATA = {
     "price_tier": 1
    },
    "label_hash": "50904b8a289c",
-   "rank_in_category": 11
+   "rank_in_category": 14
   },
   {
    "brand": "BioTechUSA",
@@ -25092,7 +33274,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "63c9e8d5d3bc",
-   "rank_in_category": 44
+   "rank_in_category": 48
   },
   {
    "brand": "Bulk",
@@ -25188,7 +33370,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "68776dbd3d63",
-   "rank_in_category": 37
+   "rank_in_category": 40
   },
   {
    "brand": "Bulk",
@@ -25284,7 +33466,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "4a2037e5b4bc",
-   "rank_in_category": 12
+   "rank_in_category": 15
   },
   {
    "brand": "Bulk",
@@ -25383,7 +33565,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "0fc1989b3eaf",
-   "rank_in_category": 13
+   "rank_in_category": 17
   },
   {
    "brand": "Bulk",
@@ -25786,7 +33968,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "c4d88792df1d",
-   "rank_in_category": 33
+   "rank_in_category": 40
   },
   {
    "brand": "Bulk",
@@ -25879,7 +34061,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "7fafb749fec8",
-   "rank_in_category": 29
+   "rank_in_category": 36
   },
   {
    "brand": "Myprotein",
@@ -25980,7 +34162,7 @@ const N3GH_DATA = {
     "price_tier": 1
    },
    "label_hash": "bfc8d03d7971",
-   "rank_in_category": 10
+   "rank_in_category": 13
   },
   {
    "brand": "Myprotein",
@@ -26188,7 +34370,7 @@ const N3GH_DATA = {
     "price_tier": 1
    },
    "label_hash": "a94e185cabad",
-   "rank_in_category": 5
+   "rank_in_category": 6
   },
   {
    "brand": "Myprotein",
@@ -26384,7 +34566,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "491a4a85e98f",
-   "rank_in_category": 42
+   "rank_in_category": 45
   },
   {
    "brand": "Myvitamins (Myprotein)",
@@ -26483,7 +34665,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "088098f58fff",
-   "rank_in_category": 12
+   "rank_in_category": 13
   },
   {
    "brand": "Myvitamins (Myprotein)",
@@ -26582,7 +34764,7 @@ const N3GH_DATA = {
     "price_tier": 4
    },
    "label_hash": "f8fd9ea004c2",
-   "rank_in_category": 21
+   "rank_in_category": 22
   },
   {
    "brand": "Myvitamins (Myprotein)",
@@ -26685,7 +34867,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "91d2a580496e",
-   "rank_in_category": 54
+   "rank_in_category": 60
   },
   {
    "brand": "Myvitamins (Myprotein)",
@@ -26782,7 +34964,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "3c982ab9cb06",
-   "rank_in_category": 22
+   "rank_in_category": 23
   },
   {
    "brand": "Scitec Nutrition",
@@ -26864,7 +35046,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "99fc7ffffc0c",
-   "rank_in_category": 29
+   "rank_in_category": 34
   },
   {
    "brand": "Scitec Nutrition",
@@ -26943,10 +35125,10 @@ const N3GH_DATA = {
     "std": 0.466,
     "std_label": "€ / 3 g creatine",
     "days_per_pack": 90,
-    "price_tier": 5
+    "price_tier": 4
    },
    "label_hash": "091a1d076e6a",
-   "rank_in_category": 21
+   "rank_in_category": 23
   },
   {
    "brand": "Scitec Nutrition",
@@ -27025,10 +35207,10 @@ const N3GH_DATA = {
     "std": 0.478,
     "std_label": "€ / 3 g creatine",
     "days_per_pack": 67,
-    "price_tier": 5
+    "price_tier": 4
    },
    "label_hash": "bbe94e4c9405",
-   "rank_in_category": 33
+   "rank_in_category": 37
   },
   {
    "brand": "Scitec Nutrition",
@@ -27121,7 +35303,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "3d848d037939",
-   "rank_in_category": 36
+   "rank_in_category": 43
   },
   {
    "brand": "Scitec Nutrition",
@@ -27220,7 +35402,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "6a4bf1a873ad",
-   "rank_in_category": 17
+   "rank_in_category": 22
   },
   {
    "brand": "Scitec Nutrition",
@@ -27320,7 +35502,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "94abe2f59cf2",
-   "rank_in_category": 20
+   "rank_in_category": 25
   },
   {
    "brand": "Scitec Nutrition",
@@ -27418,7 +35600,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "15f1f87f01b6",
-   "rank_in_category": 18
+   "rank_in_category": 20
   },
   {
    "brand": "BioTechUSA",
@@ -27516,7 +35698,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "36189e753548",
-   "rank_in_category": 15
+   "rank_in_category": 16
   },
   {
    "brand": "BioTechUSA",
@@ -27614,7 +35796,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "15f1f87f01b6",
-   "rank_in_category": 17
+   "rank_in_category": 19
   },
   {
    "brand": "BioTechUSA",
@@ -27708,7 +35890,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "bffcd32d1481",
-   "rank_in_category": 34
+   "rank_in_category": 40
   },
   {
    "brand": "BioTechUSA",
@@ -27790,7 +35972,7 @@ const N3GH_DATA = {
     "price_tier": 4
    },
    "label_hash": "091a1d076e6a",
-   "rank_in_category": 20
+   "rank_in_category": 22
   },
   {
    "brand": "Bulk",
@@ -27973,7 +36155,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "8e61937c8e03",
-   "rank_in_category": 38
+   "rank_in_category": 45
   },
   {
    "brand": "Bulk",
@@ -28056,7 +36238,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "2264bb8609bf",
-   "rank_in_category": 27
+   "rank_in_category": 30
   },
   {
    "brand": "Bulk",
@@ -28141,7 +36323,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "a99ca04e0498",
-   "rank_in_category": 21
+   "rank_in_category": 24
   },
   {
    "brand": "Bulk",
@@ -28339,7 +36521,7 @@ const N3GH_DATA = {
     "price_tier": 1
    },
    "label_hash": "5e954eb7cd4c",
-   "rank_in_category": 11
+   "rank_in_category": 12
   },
   {
    "brand": "Bulk",
@@ -28443,10 +36625,10 @@ const N3GH_DATA = {
     "std": 0.333,
     "std_label": "€ / day",
     "days_per_pack": 30,
-    "price_tier": 3
+    "price_tier": 2
    },
    "label_hash": "604b70ac830e",
-   "rank_in_category": 6
+   "rank_in_category": 7
   },
   {
    "brand": "Bulk",
@@ -28565,7 +36747,7 @@ const N3GH_DATA = {
     "price_tier": 4
    },
    "label_hash": "d98bc3dcfe76",
-   "rank_in_category": 25
+   "rank_in_category": 30
   },
   {
    "brand": "Bulk",
@@ -28674,7 +36856,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "8d6544630179",
-   "rank_in_category": 36
+   "rank_in_category": 48
   },
   {
    "brand": "Bulk",
@@ -28802,7 +36984,7 @@ const N3GH_DATA = {
     "price_tier": 1
    },
    "label_hash": "b252a50b4bfe",
-   "rank_in_category": 20
+   "rank_in_category": 23
   },
   {
    "brand": "Myprotein",
@@ -28882,10 +37064,10 @@ const N3GH_DATA = {
     "std": 0.394,
     "std_label": "€ / 3 g creatine",
     "days_per_pack": 74,
-    "price_tier": 4
+    "price_tier": 3
    },
    "label_hash": "091a1d076e6a",
-   "rank_in_category": 19
+   "rank_in_category": 20
   },
   {
    "brand": "Myprotein",
@@ -28983,7 +37165,7 @@ const N3GH_DATA = {
     "price_tier": 4
    },
    "label_hash": "1b5e7ed4b273",
-   "rank_in_category": 39
+   "rank_in_category": 46
   },
   {
    "brand": "Myprotein",
@@ -29074,7 +37256,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "6c6864ff74cf",
-   "rank_in_category": 21
+   "rank_in_category": 23
   },
   {
    "brand": "Myprotein",
@@ -29160,7 +37342,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "ebc997155049",
-   "rank_in_category": 17
+   "rank_in_category": 25
   },
   {
    "brand": "Myprotein",
@@ -29259,7 +37441,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "e3b88855f645",
-   "rank_in_category": 14
+   "rank_in_category": 19
   },
   {
    "brand": "Myvitamins (Myprotein)",
@@ -29355,7 +37537,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "b6bd7fe95c70",
-   "rank_in_category": 42
+   "rank_in_category": 57
   },
   {
    "brand": "Myprotein",
@@ -29441,7 +37623,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "7c4c4c4eb4f3",
-   "rank_in_category": 23
+   "rank_in_category": 33
   },
   {
    "brand": "Myprotein",
@@ -29548,7 +37730,7 @@ const N3GH_DATA = {
     "price_tier": 4
    },
    "label_hash": "0a463f8fdeb3",
-   "rank_in_category": 24
+   "rank_in_category": 27
   },
   {
    "brand": "Myprotein",
@@ -29656,7 +37838,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "572090f8f490",
-   "rank_in_category": 25
+   "rank_in_category": 28
   },
   {
    "brand": "Myprotein",
@@ -29751,7 +37933,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "af54baa9b98b",
-   "rank_in_category": 15
+   "rank_in_category": 17
   },
   {
    "brand": "Myprotein",
@@ -29852,7 +38034,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "22218a3a26ae",
-   "rank_in_category": 40
+   "rank_in_category": 43
   },
   {
    "brand": "Myprotein",
@@ -29968,7 +38150,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "5bce48c4d7b8",
-   "rank_in_category": 24
+   "rank_in_category": 29
   },
   {
    "brand": "Myprotein",
@@ -30083,7 +38265,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "6749a3d5c4bf",
-   "rank_in_category": 23
+   "rank_in_category": 28
   },
   {
    "brand": "Myprotein",
@@ -30194,7 +38376,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "175a73b0d877",
-   "rank_in_category": 51
+   "rank_in_category": 57
   },
   {
    "brand": "Myprotein",
@@ -30306,7 +38488,7 @@ const N3GH_DATA = {
     "price_tier": 1
    },
    "label_hash": "e03c691e44e5",
-   "rank_in_category": 7
+   "rank_in_category": 8
   },
   {
    "brand": "BioTechUSA",
@@ -30391,7 +38573,7 @@ const N3GH_DATA = {
     "price_tier": 4
    },
    "label_hash": "65b353ffd41f",
-   "rank_in_category": 14
+   "rank_in_category": 15
   },
   {
    "brand": "BioTechUSA",
@@ -30490,7 +38672,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "c492e6b72521",
-   "rank_in_category": 27
+   "rank_in_category": 34
   },
   {
    "brand": "BioTechUSA",
@@ -30612,7 +38794,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "9751826716c6",
-   "rank_in_category": 21
+   "rank_in_category": 25
   },
   {
    "brand": "Myprotein",
@@ -30715,7 +38897,7 @@ const N3GH_DATA = {
     "price_tier": 1
    },
    "label_hash": "5a60ec6155ad",
-   "rank_in_category": 32
+   "rank_in_category": 36
   },
   {
    "brand": "Myprotein",
@@ -30844,7 +39026,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "bdba782fc015",
-   "rank_in_category": 33
+   "rank_in_category": 37
   },
   {
    "brand": "Myprotein",
@@ -30965,7 +39147,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "bf95bffa7a91",
-   "rank_in_category": 39
+   "rank_in_category": 52
   },
   {
    "brand": "Myvitamins (Myprotein)",
@@ -31092,7 +39274,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "591716801e7b",
-   "rank_in_category": 15
+   "rank_in_category": 17
   },
   {
    "brand": "Myvitamins (Myprotein)",
@@ -31192,7 +39374,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "747796dc0586",
-   "rank_in_category": 53
+   "rank_in_category": 62
   },
   {
    "brand": "Bulk",
@@ -31275,7 +39457,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "2ff60cc2f76b",
-   "rank_in_category": 18
+   "rank_in_category": 21
   },
   {
    "brand": "Bulk",
@@ -31368,7 +39550,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "cb6a87383139",
-   "rank_in_category": 28
+   "rank_in_category": 35
   },
   {
    "brand": "Bulk",
@@ -31487,7 +39669,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "b06126c55137",
-   "rank_in_category": 9
+   "rank_in_category": 10
   },
   {
    "brand": "Myvitamins (Myprotein)",
@@ -31596,7 +39778,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "e7280ff42101",
-   "rank_in_category": 37
+   "rank_in_category": 38
   },
   {
    "brand": "BioTechUSA",
@@ -31714,7 +39896,7 @@ const N3GH_DATA = {
     "price_tier": 4
    },
    "label_hash": "06dc05bed298",
-   "rank_in_category": 31
+   "rank_in_category": 35
   },
   {
    "brand": "Bulk",
@@ -31846,7 +40028,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "9fc0fba2b085",
-   "rank_in_category": 26
+   "rank_in_category": 32
   },
   {
    "category": "maca",
@@ -32207,7 +40389,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "bee0460db1e4",
-   "rank_in_category": 24
+   "rank_in_category": 27
   },
   {
    "category": "curcumin",
@@ -32767,7 +40949,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "5281475926b0",
-   "rank_in_category": 23
+   "rank_in_category": 29
   },
   {
    "category": "vitamin_d3",
@@ -32953,7 +41135,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "13deed8790a8",
-   "rank_in_category": 12
+   "rank_in_category": 13
   },
   {
    "category": "magnesium",
@@ -33040,7 +41222,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "b4a3d554461d",
-   "rank_in_category": 20
+   "rank_in_category": 22
   },
   {
    "category": "biotin",
@@ -33133,7 +41315,7 @@ const N3GH_DATA = {
     "price_tier": 1
    },
    "label_hash": "7f07d84d4426",
-   "rank_in_category": 7
+   "rank_in_category": 8
   },
   {
    "category": "collagen",
@@ -33227,7 +41409,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "1176dab94609",
-   "rank_in_category": 37
+   "rank_in_category": 50
   },
   {
    "category": "rhodiola",
@@ -33409,7 +41591,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "571c95ecf4f9",
-   "rank_in_category": 38
+   "rank_in_category": 43
   },
   {
    "category": "iron",
@@ -33504,7 +41686,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "b5dbf9fd510a",
-   "rank_in_category": 21
+   "rank_in_category": 23
   },
   {
    "category": "vitamin_c",
@@ -33686,7 +41868,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "3672ea97ec98",
-   "rank_in_category": 28
+   "rank_in_category": 31
   },
   {
    "category": "vitamin_c",
@@ -33775,7 +41957,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "9684384033f3",
-   "rank_in_category": 25
+   "rank_in_category": 28
   },
   {
    "category": "vitamin_c",
@@ -33864,7 +42046,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "d6b9581f5977",
-   "rank_in_category": 24
+   "rank_in_category": 27
   },
   {
    "category": "vitamin_k2",
@@ -34140,7 +42322,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "e95bdba4f3fb",
-   "rank_in_category": 26
+   "rank_in_category": 27
   },
   {
    "category": "vitamin_d3",
@@ -34409,7 +42591,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "d27b676eff56",
-   "rank_in_category": 27
+   "rank_in_category": 30
   },
   {
    "category": "vitamin_c",
@@ -34498,7 +42680,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "e45233eb7601",
-   "rank_in_category": 18
+   "rank_in_category": 20
   },
   {
    "category": "ashwagandha",
@@ -34588,7 +42770,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "94ce4a3b8b80",
-   "rank_in_category": 10
+   "rank_in_category": 14
   },
   {
    "category": "ashwagandha",
@@ -34688,7 +42870,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "bdfe9b0ef54b",
-   "rank_in_category": 7
+   "rank_in_category": 8
   },
   {
    "category": "omega3",
@@ -34795,7 +42977,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "baefbf130334",
-   "rank_in_category": 15
+   "rank_in_category": 17
   },
   {
    "brand": "Sunday Natural",
@@ -34907,7 +43089,7 @@ const N3GH_DATA = {
     "price_tier": 1
    },
    "label_hash": "3605bfcc695c",
-   "rank_in_category": 16
+   "rank_in_category": 19
   },
   {
    "brand": "Sunday Natural",
@@ -35292,7 +43474,7 @@ const N3GH_DATA = {
     "price_tier": 1
    },
    "label_hash": "fee33e5620ce",
-   "rank_in_category": 18
+   "rank_in_category": 21
   },
   {
    "brand": "Sunday Natural",
@@ -35796,7 +43978,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "cec28f5791d0",
-   "rank_in_category": 5
+   "rank_in_category": 6
   },
   {
    "brand": "Sunday Natural",
@@ -36009,7 +44191,7 @@ const N3GH_DATA = {
     "price_tier": 1
    },
    "label_hash": "55061ce0f093",
-   "rank_in_category": 13
+   "rank_in_category": 15
   },
   {
    "brand": "Sunday Natural",
@@ -36214,7 +44396,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "5673fbca078c",
-   "rank_in_category": 25
+   "rank_in_category": 29
   },
   {
    "brand": "Sunday Natural",
@@ -36335,7 +44517,7 @@ const N3GH_DATA = {
     "price_tier": 1
    },
    "label_hash": "c323f2c8e72b",
-   "rank_in_category": 27
+   "rank_in_category": 31
   },
   {
    "brand": "Sunday Natural",
@@ -36429,7 +44611,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "09284779e6f1",
-   "rank_in_category": 11
+   "rank_in_category": 14
   },
   {
    "brand": "Sunday Natural",
@@ -36526,7 +44708,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "96d3337c93d6",
-   "rank_in_category": 31
+   "rank_in_category": 32
   },
   {
    "brand": "Sunday Natural",
@@ -36617,7 +44799,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "7a9b35220fc8",
-   "rank_in_category": 34
+   "rank_in_category": 39
   },
   {
    "brand": "Sunday Natural",
@@ -36891,7 +45073,7 @@ const N3GH_DATA = {
     "std": 0.548,
     "std_label": "€ / 400 mg extract",
     "days_per_pack": 60,
-    "price_tier": 5
+    "price_tier": 4
    },
    "label_hash": "fd7d54d6fa49",
    "rank_in_category": 4
@@ -36978,7 +45160,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "9f9c583a94c3",
-   "rank_in_category": 19
+   "rank_in_category": 21
   },
   {
    "brand": "Sunday Natural",
@@ -37084,7 +45266,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "b8ffb85aae77",
-   "rank_in_category": 26
+   "rank_in_category": 29
   },
   {
    "brand": "Sunday Natural",
@@ -37283,7 +45465,7 @@ const N3GH_DATA = {
     "price_tier": 4
    },
    "label_hash": "d0e62ba62c63",
-   "rank_in_category": 20
+   "rank_in_category": 22
   },
   {
    "brand": "Sunday Natural",
@@ -37475,7 +45657,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "b470a3766605",
-   "rank_in_category": 24
+   "rank_in_category": 30
   },
   {
    "brand": "Sunday Natural",
@@ -37562,7 +45744,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "99d3177191e4",
-   "rank_in_category": 28
+   "rank_in_category": 31
   },
   {
    "brand": "Sunday Natural",
@@ -37751,7 +45933,7 @@ const N3GH_DATA = {
     "price_tier": 1
    },
    "label_hash": "8effd3088e58",
-   "rank_in_category": 27
+   "rank_in_category": 31
   },
   {
    "brand": "Sunday Natural",
@@ -37941,7 +46123,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "71730f813a5e",
-   "rank_in_category": 22
+   "rank_in_category": 28
   },
   {
    "brand": "Sunday Natural",
@@ -38049,7 +46231,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "861a110d0bf9",
-   "rank_in_category": 20
+   "rank_in_category": 23
   },
   {
    "brand": "Sunday Natural",
@@ -38130,10 +46312,10 @@ const N3GH_DATA = {
     "std": 0.103,
     "std_label": "€ / 300 mg Mg",
     "days_per_pack": 100,
-    "price_tier": 2
+    "price_tier": 1
    },
    "label_hash": "cfa8d2f30bef",
-   "rank_in_category": 22
+   "rank_in_category": 24
   },
   {
    "brand": "Sunday Natural",
@@ -38336,7 +46518,7 @@ const N3GH_DATA = {
     "price_tier": 4
    },
    "label_hash": "f489dddbea19",
-   "rank_in_category": 31
+   "rank_in_category": 38
   },
   {
    "brand": "Sunday Natural",
@@ -38517,7 +46699,7 @@ const N3GH_DATA = {
     "price_tier": 1
    },
    "label_hash": "28d743abc9f0",
-   "rank_in_category": 6
+   "rank_in_category": 7
   },
   {
    "brand": "Sunday Natural",
@@ -38605,7 +46787,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "7b5e500d38d9",
-   "rank_in_category": 37
+   "rank_in_category": 42
   },
   {
    "brand": "Sunday Natural",
@@ -38787,7 +46969,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "b969d6067de7",
-   "rank_in_category": 32
+   "rank_in_category": 35
   },
   {
    "brand": "Sunday Natural",
@@ -38969,7 +47151,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "2039e698e30b",
-   "rank_in_category": 11
+   "rank_in_category": 12
   },
   {
    "brand": "Sunday Natural",
@@ -39054,7 +47236,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "bc7db24b86ed",
-   "rank_in_category": 21
+   "rank_in_category": 22
   },
   {
    "brand": "Sunday Natural",
@@ -39237,7 +47419,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "9ac09a183870",
-   "rank_in_category": 22
+   "rank_in_category": 25
   },
   {
    "brand": "Sunday Natural",
@@ -39321,7 +47503,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "0a0def24cb40",
-   "rank_in_category": 24
+   "rank_in_category": 27
   },
   {
    "brand": "Sunday Natural",
@@ -39419,7 +47601,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "31f2fe082561",
-   "rank_in_category": 35
+   "rank_in_category": 36
   },
   {
    "brand": "Sunday Natural",
@@ -39520,7 +47702,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "163777c98759",
-   "rank_in_category": 3
+   "rank_in_category": 4
   },
   {
    "brand": "Sunday Natural",
@@ -39743,7 +47925,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "b0a46dd958ac",
-   "rank_in_category": 44
+   "rank_in_category": 59
   },
   {
    "brand": "Sunday Natural",
@@ -39926,7 +48108,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "8fdba0da79eb",
-   "rank_in_category": 36
+   "rank_in_category": 37
   },
   {
    "brand": "Sunday Natural",
@@ -40022,7 +48204,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "fea50d586f1a",
-   "rank_in_category": 25
+   "rank_in_category": 26
   },
   {
    "brand": "Sunday Natural",
@@ -40659,7 +48841,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "0767d5523495",
-   "rank_in_category": 12
+   "rank_in_category": 13
   },
   {
    "brand": "Sunday Natural",
@@ -40847,7 +49029,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "3d9e9216cd6e",
-   "rank_in_category": 48
+   "rank_in_category": 55
   },
   {
    "brand": "Sunday Natural",
@@ -40934,7 +49116,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "36d8fd8986d0",
-   "rank_in_category": 45
+   "rank_in_category": 51
   },
   {
    "brand": "Sunday Natural",
@@ -41286,7 +49468,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "ba4b0d0d00a5",
-   "rank_in_category": 25
+   "rank_in_category": 28
   },
   {
    "brand": "Sunday Natural",
@@ -41567,7 +49749,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "d1375bdae4f1",
-   "rank_in_category": 13
+   "rank_in_category": 14
   },
   {
    "brand": "Sunday Natural",
@@ -41665,7 +49847,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "93135e77aa80",
-   "rank_in_category": 33
+   "rank_in_category": 37
   },
   {
    "brand": "Sunday Natural",
@@ -41770,7 +49952,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "07fd97629970",
-   "rank_in_category": 28
+   "rank_in_category": 40
   },
   {
    "brand": "Sunday Natural",
@@ -41861,7 +50043,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "9680cca90460",
-   "rank_in_category": 10
+   "rank_in_category": 17
   },
   {
    "brand": "Sunday Natural",
@@ -41952,7 +50134,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "abc626e663c4",
-   "rank_in_category": 25
+   "rank_in_category": 37
   },
   {
    "brand": "Sunday Natural",
@@ -42043,7 +50225,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "d517d01bd130",
-   "rank_in_category": 26
+   "rank_in_category": 38
   },
   {
    "brand": "Sunday Natural",
@@ -42155,7 +50337,7 @@ const N3GH_DATA = {
     "price_tier": 1
    },
    "label_hash": "cb7715b5e9e1",
-   "rank_in_category": 15
+   "rank_in_category": 18
   },
   {
    "brand": "Sunday Natural",
@@ -42259,7 +50441,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "002aa4f8b97a",
-   "rank_in_category": 16
+   "rank_in_category": 20
   },
   {
    "brand": "Sunday Natural",
@@ -42391,7 +50573,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "0afb91a9150a",
-   "rank_in_category": 31
+   "rank_in_category": 43
   },
   {
    "brand": "Sunday Natural",
@@ -42494,7 +50676,7 @@ const N3GH_DATA = {
     "price_tier": 1
    },
    "label_hash": "1cfc61a91052",
-   "rank_in_category": 9
+   "rank_in_category": 10
   },
   {
    "brand": "Sunday Natural",
@@ -42613,7 +50795,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "d3f3d506871f",
-   "rank_in_category": 25
+   "rank_in_category": 31
   },
   {
    "brand": "Sunday Natural",
@@ -42706,7 +50888,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "09fbe1a260c0",
-   "rank_in_category": 40
+   "rank_in_category": 45
   },
   {
    "brand": "Sunday Natural",
@@ -43003,7 +51185,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "8b87f103a914",
-   "rank_in_category": 17
+   "rank_in_category": 19
   },
   {
    "brand": "Sunday Natural",
@@ -43102,7 +51284,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "6258ff8c2247",
-   "rank_in_category": 22
+   "rank_in_category": 24
   },
   {
    "brand": "Sunday Natural",
@@ -43247,7 +51429,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "5e479aa7b4a2",
-   "rank_in_category": 7
+   "rank_in_category": 8
   },
   {
    "brand": "Sunday Natural",
@@ -43336,7 +51518,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "b52f3c0c7277",
-   "rank_in_category": 11
+   "rank_in_category": 12
   },
   {
    "brand": "Sunday Natural",
@@ -43429,10 +51611,10 @@ const N3GH_DATA = {
     "std": 2.65,
     "std_label": "€ / 10 g collagen",
     "days_per_pack": 30,
-    "price_tier": 2
+    "price_tier": 3
    },
    "label_hash": "573e1bb12a89",
-   "rank_in_category": 29
+   "rank_in_category": 41
   },
   {
    "brand": "Sunday Natural",
@@ -43528,7 +51710,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "68777a72990a",
-   "rank_in_category": 27
+   "rank_in_category": 39
   },
   {
    "brand": "Sunday Natural",
@@ -43622,7 +51804,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "b1342ca69e39",
-   "rank_in_category": 36
+   "rank_in_category": 43
   },
   {
    "brand": "Sunday Natural",
@@ -43728,7 +51910,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "8fc5d519b9bb",
-   "rank_in_category": 34
+   "rank_in_category": 46
   },
   {
    "brand": "Sunday Natural",
@@ -43920,10 +52102,10 @@ const N3GH_DATA = {
     "std": 0.265,
     "std_label": "€ / 3 g creatine",
     "days_per_pack": 147,
-    "price_tier": 3
+    "price_tier": 2
    },
    "label_hash": "c4ad4525577d",
-   "rank_in_category": 24
+   "rank_in_category": 28
   },
   {
    "brand": "Sunday Natural",
@@ -44011,7 +52193,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "2ff60cc2f76b",
-   "rank_in_category": 19
+   "rank_in_category": 22
   },
   {
    "brand": "Sunday Natural",
@@ -44203,7 +52385,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "2d9e0d02f22a",
-   "rank_in_category": 42
+   "rank_in_category": 49
   },
   {
    "brand": "Sunday Natural",
@@ -44313,7 +52495,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "55db691f10c1",
-   "rank_in_category": 17
+   "rank_in_category": 21
   },
   {
    "brand": "Sunday Natural",
@@ -44527,7 +52709,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "f4a6df366d4b",
-   "rank_in_category": 23
+   "rank_in_category": 25
   },
   {
    "category": "iron",
@@ -44648,7 +52830,7 @@ const N3GH_DATA = {
     "price_tier": 4
    },
    "label_hash": "53db033e6f5f",
-   "rank_in_category": 19
+   "rank_in_category": 21
   },
   {
    "category": "iron",
@@ -45044,7 +53226,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "bc57fb375119",
-   "rank_in_category": 16
+   "rank_in_category": 18
   },
   {
    "category": "iron",
@@ -45343,7 +53525,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "502721a58cfe",
-   "rank_in_category": 11
+   "rank_in_category": 12
   },
   {
    "category": "iron",
@@ -45443,7 +53625,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "0c63715869c7",
-   "rank_in_category": 10
+   "rank_in_category": 11
   },
   {
    "category": "iron",
@@ -45557,7 +53739,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "80d5df98e3a5",
-   "rank_in_category": 25
+   "rank_in_category": 28
   },
   {
    "category": "iron",
@@ -45653,7 +53835,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "4d6fdefb21e3",
-   "rank_in_category": 26
+   "rank_in_category": 29
   },
   {
    "category": "iron",
@@ -45952,7 +54134,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "4dc68cb71529",
-   "rank_in_category": 13
+   "rank_in_category": 14
   },
   {
    "category": "potassium",
@@ -46250,7 +54432,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "86ff487c51fd",
-   "rank_in_category": 11
+   "rank_in_category": 12
   },
   {
    "category": "omega3",
@@ -46426,7 +54608,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "98e3a7b6e959",
-   "rank_in_category": 14
+   "rank_in_category": 15
   },
   {
    "category": "omega3",
@@ -46600,7 +54782,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "88d1bb6ff900",
-   "rank_in_category": 26
+   "rank_in_category": 32
   },
   {
    "category": "omega3",
@@ -46681,7 +54863,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "0a0149d215c0",
-   "rank_in_category": 41
+   "rank_in_category": 48
   },
   {
    "category": "multivitamin",
@@ -46796,7 +54978,7 @@ const N3GH_DATA = {
     "price_tier": 1
    },
    "label_hash": "7dd2e2288fc0",
-   "rank_in_category": 22
+   "rank_in_category": 26
   },
   {
    "category": "multivitamin",
@@ -46894,7 +55076,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "192c52c9b880",
-   "rank_in_category": 10
+   "rank_in_category": 12
   },
   {
    "category": "multivitamin",
@@ -46997,7 +55179,7 @@ const N3GH_DATA = {
     "price_tier": 4
    },
    "label_hash": "df2328048eca",
-   "rank_in_category": 11
+   "rank_in_category": 13
   },
   {
    "category": "multivitamin",
@@ -47112,7 +55294,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "4a7f331c3cc2",
-   "rank_in_category": 17
+   "rank_in_category": 19
   },
   {
    "category": "multivitamin",
@@ -47218,7 +55400,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "ff5bc3b648ec",
-   "rank_in_category": 19
+   "rank_in_category": 22
   },
   {
    "category": "probiotics",
@@ -47402,7 +55584,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "d475c29d2f99",
-   "rank_in_category": 8
+   "rank_in_category": 9
   },
   {
    "category": "probiotics",
@@ -47496,10 +55678,10 @@ const N3GH_DATA = {
     "std": 0.6,
     "std_label": "€ / day",
     "days_per_pack": 30,
-    "price_tier": 2
+    "price_tier": 3
    },
    "label_hash": "f8c40f8f7151",
-   "rank_in_category": 28
+   "rank_in_category": 32
   },
   {
    "category": "probiotics",
@@ -47594,7 +55776,7 @@ const N3GH_DATA = {
     "price_tier": 1
    },
    "label_hash": "02295961d658",
-   "rank_in_category": 21
+   "rank_in_category": 25
   },
   {
    "category": "melatonin",
@@ -47685,7 +55867,7 @@ const N3GH_DATA = {
     "price_tier": 1
    },
    "label_hash": "a9160a93442d",
-   "rank_in_category": 13
+   "rank_in_category": 16
   },
   {
    "category": "melatonin",
@@ -47789,7 +55971,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "16498273767f",
-   "rank_in_category": 14
+   "rank_in_category": 17
   },
   {
    "category": "melatonin",
@@ -47920,7 +56102,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "54f637fb7f4f",
-   "rank_in_category": 8
+   "rank_in_category": 10
   },
   {
    "category": "omega3",
@@ -48376,7 +56558,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "fa75b3716288",
-   "rank_in_category": 38
+   "rank_in_category": 45
   },
   {
    "category": "omega3",
@@ -48850,7 +57032,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "935b90fe91b1",
-   "rank_in_category": 8
+   "rank_in_category": 9
   },
   {
    "category": "multivitamin",
@@ -48945,7 +57127,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "ac408187230d",
-   "rank_in_category": 14
+   "rank_in_category": 16
   },
   {
    "category": "multivitamin",
@@ -49174,7 +57356,7 @@ const N3GH_DATA = {
     "price_tier": 1
    },
    "label_hash": "c05933a5a076",
-   "rank_in_category": 24
+   "rank_in_category": 30
   },
   {
    "category": "vitamin_d3",
@@ -49694,7 +57876,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "92c5858bdf38",
-   "rank_in_category": 31
+   "rank_in_category": 35
   },
   {
    "category": "magnesium",
@@ -49784,7 +57966,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "011c281fa862",
-   "rank_in_category": 47
+   "rank_in_category": 53
   },
   {
    "category": "magnesium",
@@ -49875,7 +58057,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "0f2393986c93",
-   "rank_in_category": 43
+   "rank_in_category": 49
   },
   {
    "category": "magnesium",
@@ -49964,7 +58146,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "80f4af4bd8cb",
-   "rank_in_category": 50
+   "rank_in_category": 56
   },
   {
    "category": "magnesium",
@@ -50051,7 +58233,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "f12c5a3ea901",
-   "rank_in_category": 16
+   "rank_in_category": 18
   },
   {
    "category": "magnesium",
@@ -50132,7 +58314,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "ab8cae194ca0",
-   "rank_in_category": 23
+   "rank_in_category": 25
   },
   {
    "category": "zinc",
@@ -50237,7 +58419,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "c149998dd0a0",
-   "rank_in_category": 14
+   "rank_in_category": 17
   },
   {
    "category": "zinc",
@@ -50319,10 +58501,10 @@ const N3GH_DATA = {
     "std": 0.201,
     "std_label": "€ / 15 mg Zn",
     "days_per_pack": 84,
-    "price_tier": 2
+    "price_tier": 3
    },
    "label_hash": "ce1beff553aa",
-   "rank_in_category": 9
+   "rank_in_category": 11
   },
   {
    "category": "zinc",
@@ -50407,7 +58589,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "cd289aed06d2",
-   "rank_in_category": 8
+   "rank_in_category": 10
   },
   {
    "category": "zinc",
@@ -50493,7 +58675,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "f2df3a57055c",
-   "rank_in_category": 17
+   "rank_in_category": 20
   },
   {
    "category": "vitamin_c",
@@ -50597,10 +58779,10 @@ const N3GH_DATA = {
     "std": 2.877,
     "std_label": "€ / 1000 mg C",
     "days_per_pack": 24,
-    "price_tier": 3
+    "price_tier": 4
    },
    "label_hash": "5250e97a92c2",
-   "rank_in_category": 46
+   "rank_in_category": 50
   },
   {
    "category": "vitamin_c",
@@ -50703,7 +58885,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "e0d4aece8220",
-   "rank_in_category": 31
+   "rank_in_category": 34
   },
   {
    "category": "vitamin_c",
@@ -50797,7 +58979,7 @@ const N3GH_DATA = {
     "price_tier": 4
    },
    "label_hash": "4f1d7edbd101",
-   "rank_in_category": 35
+   "rank_in_category": 38
   },
   {
    "category": "vitamin_c",
@@ -50897,7 +59079,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "96a53dbea006",
-   "rank_in_category": 45
+   "rank_in_category": 49
   },
   {
    "category": "vitamin_c",
@@ -50978,7 +59160,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "a365816e618c",
-   "rank_in_category": 38
+   "rank_in_category": 41
   },
   {
    "category": "probiotics",
@@ -51245,7 +59427,7 @@ const N3GH_DATA = {
     "price_tier": 4
    },
    "label_hash": "ae4053f4505b",
-   "rank_in_category": 11
+   "rank_in_category": 13
   },
   {
    "category": "probiotics",
@@ -51336,7 +59518,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "66c16853fc7f",
-   "rank_in_category": 7
+   "rank_in_category": 8
   },
   {
    "category": "probiotics",
@@ -51424,7 +59606,7 @@ const N3GH_DATA = {
     "price_tier": 4
    },
    "label_hash": "e2cd75d4657f",
-   "rank_in_category": 12
+   "rank_in_category": 14
   },
   {
    "category": "probiotics",
@@ -51607,7 +59789,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "141a2c451718",
-   "rank_in_category": 23
+   "rank_in_category": 27
   },
   {
    "category": "melatonin",
@@ -51689,7 +59871,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "3a3d619091d5",
-   "rank_in_category": 7
+   "rank_in_category": 9
   },
   {
    "category": "melatonin",
@@ -51784,7 +59966,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "271900c7b627",
-   "rank_in_category": 5
+   "rank_in_category": 6
   },
   {
    "category": "melatonin",
@@ -51895,7 +60077,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "c665e1e1ec73",
-   "rank_in_category": 19
+   "rank_in_category": 22
   },
   {
    "category": "melatonin",
@@ -52007,7 +60189,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "1828fad9f870",
-   "rank_in_category": 18
+   "rank_in_category": 21
   },
   {
    "category": "melatonin",
@@ -52108,7 +60290,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "0a15bb96beb3",
-   "rank_in_category": 15
+   "rank_in_category": 18
   },
   {
    "category": "melatonin",
@@ -52200,60 +60382,54 @@ const N3GH_DATA = {
   },
   {
    "category": "whey",
-   "format": "powder",
    "brand": "InShape Nutrition",
    "name": "Whey Protein",
    "variant": "neutre · 1 kg",
-   "price_eur": 39.9,
-   "price_note": "inshape-nutrition.com live 07/2026",
+   "price_eur": 44.9,
+   "price_note": "Prix fabricant observé le 9 octobre 2026 pour la variante neutre 1 kg, hors livraison.",
+   "form": "whey, protéines de lait",
+   "additives": [],
+   "vegan": false,
+   "certifications": [],
+   "coa_published": false,
+   "third_party_cert": false,
+   "branded_ingredient": null,
+   "full_label": true,
+   "confidence": "medium",
+   "flags": [],
+   "url": "https://www.inshape-nutrition.com/products/whey-protein",
+   "ean": null,
+   "price_context": {
+    "kind": "observed_offer",
+    "checked_on": "2026-10-09",
+    "source_url": "https://www.inshape-nutrition.com/products/whey-protein?variant=56839854653765"
+   },
+   "format": "powder",
    "pack_g": 1000,
    "serving_g": 30,
    "active_per_100g": 81,
    "active_per_serving_g": 24.3,
-   "form": "concentré de whey (WPC)",
-   "vegan": false,
-   "additives": [
-    "arômes (parfums aromatisés)"
+   "notes": "Variante neutre : protéines de lait 100 %, sans arôme déclaré. Le tableau indique 81 g de protéines pour 100 g, soit 24,3 g par dosette de 30 g. Calcium 501 mg et potassium 735 mg pour 100 g ; traces possibles de poisson, soja et gluten.",
+   "secondary_actives": [
+    {
+     "category": "potassium",
+     "per_day": 220.5
+    }
    ],
-   "certifications": [
-    "HACCP"
-   ],
-   "coa_published": false,
-   "third_party_cert": false,
-   "branded_ingredient": null,
-   "full_label": false,
-   "flags": [
-    "liste complète non publiée en ligne"
-   ],
-   "confidence": "medium",
-   "url": "https://www.inshape-nutrition.com/products/whey-protein",
-   "ean": null,
-   "notes": "Marque Tibo InShape, made in France.",
    "id": "inshape-nutrition-whey-protein-neutre-1-kg",
    "form_tier": 14,
    "form_note": "Standard whey concentrate.",
-   "purity_tags": [
-    "undisclosed_minor"
-   ],
-   "additives_detail": [
-    "arômes (parfums aromatisés)"
-   ],
+   "purity_tags": [],
+   "additives_detail": [],
    "banned": [],
    "transparency": {
     "coa_published": false,
     "third_party_cert": false,
     "branded_ingredient": null,
-    "full_label": false
+    "full_label": true
    },
    "review_pending": [],
-   "reviewed": [
-    {
-     "string": "arômes (parfums aromatisés)",
-     "verdict": "penalty:undisclosed_minor",
-     "note": "flavouring declared without stating its origin",
-     "reviewed_on": "2026-08-07"
-    }
-   ],
+   "reviewed": [],
    "provenance": {
     "country": "France",
     "zone": "FR",
@@ -52261,31 +60437,37 @@ const N3GH_DATA = {
     "basis": "brand_estimate"
    },
    "verification": {
-    "checked_on": "2026-10-07",
+    "checked_on": "2026-10-09",
     "source_status": "reachable_unverified",
     "source_reachable": true,
     "review_notes": [],
-    "pending_fields": []
+    "pending_fields": [],
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Ingrédients et tableau nutritionnel de la variante exacte présents dans les métadonnées publiques de la fiche fabricant ; dose et conditionnement recoupés avec la description et les conseils d’utilisation. Certifications et analyses de lot non créditées sans document consulté.",
+    "label_source_url": "https://www.inshape-nutrition.com/products/whey-protein?variant=56839854653765",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://www.inshape-nutrition.com/products/whey-protein?variant=56839854653765",
+    "price_scope": "Prix public fabricant de la variante exacte, hors livraison et code promotionnel."
    },
    "scores": {
     "form": 14,
     "dose": 20,
-    "purity": 29,
-    "transparency": 0,
-    "total": 63,
-    "grade": "C",
+    "purity": 30,
+    "transparency": 4,
+    "total": 68,
+    "grade": "B",
     "red_card": false,
     "banned_substances": []
    },
    "value": {
-    "cost_per_day": 1.197,
-    "std": 1.231,
+    "cost_per_day": 1.347,
+    "std": 1.386,
     "std_label": "€ / 25 g protein",
     "days_per_pack": 33,
-    "price_tier": 1
+    "price_tier": 2
    },
-   "label_hash": "a1709a5258f4",
-   "rank_in_category": 20
+   "label_hash": "f5ef195d2874",
+   "rank_in_category": 14
   },
   {
    "category": "whey",
@@ -52372,7 +60554,7 @@ const N3GH_DATA = {
     "price_tier": 1
    },
    "label_hash": "11cba7b55bc2",
-   "rank_in_category": 28
+   "rank_in_category": 31
   },
   {
    "category": "whey",
@@ -52474,7 +60656,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "6a954e06eebb",
-   "rank_in_category": 34
+   "rank_in_category": 38
   },
   {
    "category": "whey",
@@ -52593,47 +60775,51 @@ const N3GH_DATA = {
   },
   {
    "category": "creatine",
-   "format": "powder",
    "brand": "InShape Nutrition",
    "name": "Créatine en poudre",
    "variant": "neutre · 300 g",
    "price_eur": 29.9,
-   "price_note": "Prix affiché pour le sachet neutre 300 g ; rupture de stock au contrôle, hors livraison. Contrôlé le 2026-10-07.",
-   "pack_g": 300,
-   "serving_g": 4,
-   "active_per_100g": 87.9,
-   "active_per_serving_g": 3.5,
-   "form": "créatine monohydrate micronisée (non Creapure)",
-   "vegan": true,
-   "additives": [],
-   "certifications": [
-    "HACCP"
+   "price_note": "Prix fabricant observé le 9 octobre 2026 pour le sachet de 300 g, hors livraison.",
+   "form": "créatine monohydrate",
+   "additives": [
+    "maltodextrine"
    ],
+   "vegan": true,
+   "certifications": [],
    "coa_published": false,
    "third_party_cert": false,
    "branded_ingredient": null,
-   "full_label": false,
-   "flags": [],
+   "full_label": true,
    "confidence": "medium",
+   "flags": [],
    "url": "https://www.inshape-nutrition.com/products/creatine-en-poudre",
    "ean": null,
-   "notes": "75 doses de 4 g, sans additifs.",
    "price_context": {
     "kind": "observed_offer",
-    "checked_on": "2026-10-07",
-    "source_url": "https://www.inshape-nutrition.com/products/creatine-en-poudre"
+    "checked_on": "2026-10-09",
+    "source_url": "https://www.inshape-nutrition.com/products/creatine-en-poudre?variant=48371127910725"
    },
+   "format": "powder",
+   "pack_g": 300,
+   "serving_g": 4,
+   "active_per_100g": 75,
+   "active_per_serving_g": 3,
+   "notes": "Le tableau de composition de la variante déclare 3 g de créatine et 1 g de maltodextrine pour 4 g de poudre. La maltodextrine est bien présente malgré la mention promotionnelle « sans additifs ». Aucun label Creapure déclaré.",
    "id": "inshape-nutrition-creatine-en-poudre-neutre-300-g",
-   "form_tier": 20,
-   "form_note": "Documented-purity Creapure® monohydrate.",
-   "purity_tags": [],
-   "additives_detail": [],
+   "form_tier": 16,
+   "form_note": "Monohydrate is the gold-standard form; generic source.",
+   "purity_tags": [
+    "bulking_filler"
+   ],
+   "additives_detail": [
+    "maltodextrine"
+   ],
    "banned": [],
    "transparency": {
     "coa_published": false,
     "third_party_cert": false,
     "branded_ingredient": null,
-    "full_label": false
+    "full_label": true
    },
    "review_pending": [],
    "reviewed": [],
@@ -52644,34 +60830,37 @@ const N3GH_DATA = {
     "basis": "brand_estimate"
    },
    "verification": {
-    "checked_on": "2026-10-07",
+    "checked_on": "2026-10-09",
     "source_status": "reachable_unverified",
     "source_reachable": true,
     "review_notes": [],
     "pending_fields": [],
-    "price_checked_on": "2026-10-07",
-    "price_source_url": "https://www.inshape-nutrition.com/products/creatine-en-poudre",
-    "price_scope": "Prix affiché pour le sachet neutre 300 g ; rupture de stock au contrôle, hors livraison."
+    "label_checked_on": "2026-10-09",
+    "label_scope": "Ingrédients et tableau nutritionnel de la variante exacte présents dans les métadonnées publiques de la fiche fabricant ; dose et conditionnement recoupés avec la description et les conseils d’utilisation. Certifications et analyses de lot non créditées sans document consulté.",
+    "label_source_url": "https://www.inshape-nutrition.com/products/creatine-en-poudre?variant=48371127910725",
+    "price_checked_on": "2026-10-09",
+    "price_source_url": "https://www.inshape-nutrition.com/products/creatine-en-poudre?variant=48371127910725",
+    "price_scope": "Prix public fabricant de la variante exacte, hors livraison et code promotionnel."
    },
    "scores": {
-    "form": 20,
+    "form": 16,
     "dose": 20,
-    "purity": 30,
-    "transparency": 0,
-    "total": 70,
+    "purity": 28,
+    "transparency": 4,
+    "total": 68,
     "grade": "B",
     "red_card": false,
     "banned_substances": []
    },
    "value": {
     "cost_per_day": 0.399,
-    "std": 0.34,
+    "std": 0.399,
     "std_label": "€ / 3 g creatine",
     "days_per_pack": 75,
     "price_tier": 3
    },
-   "label_hash": "1203712e222f",
-   "rank_in_category": 30
+   "label_hash": "71879905eafd",
+   "rank_in_category": 38
   },
   {
    "category": "creatine",
@@ -52749,7 +60938,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "a64b23f22098",
-   "rank_in_category": 23
+   "rank_in_category": 27
   },
   {
    "category": "creatine",
@@ -52830,7 +61019,7 @@ const N3GH_DATA = {
     "std": 0.272,
     "std_label": "€ / 3 g creatine",
     "days_per_pack": 167,
-    "price_tier": 3
+    "price_tier": 2
    },
    "label_hash": "9cde4715119c",
    "rank_in_category": 12
@@ -52915,7 +61104,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "51a285fd033c",
-   "rank_in_category": 25
+   "rank_in_category": 29
   },
   {
    "category": "creatine",
@@ -53076,7 +61265,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "e4764f06ea33",
-   "rank_in_category": 20
+   "rank_in_category": 28
   },
   {
    "category": "collagen",
@@ -53162,7 +61351,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "85c2cf341a23",
-   "rank_in_category": 11
+   "rank_in_category": 18
   },
   {
    "category": "collagen",
@@ -53248,7 +61437,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "96cd99a3a001",
-   "rank_in_category": 18
+   "rank_in_category": 26
   },
   {
    "category": "collagen",
@@ -53365,7 +61554,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "03c6f69d8b46",
-   "rank_in_category": 35
+   "rank_in_category": 47
   },
   {
    "category": "collagen",
@@ -53513,7 +61702,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "4e129cfd645f",
-   "rank_in_category": 48
+   "rank_in_category": 63
   },
   {
    "category": "vitamin_b12",
@@ -53784,7 +61973,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "cfba39ce5a3f",
-   "rank_in_category": 16
+   "rank_in_category": 17
   },
   {
    "category": "vitamin_b12",
@@ -53889,7 +62078,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "a3956d936e4f",
-   "rank_in_category": 20
+   "rank_in_category": 21
   },
   {
    "category": "vitamin_b12",
@@ -53973,7 +62162,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "7c4171d76778",
-   "rank_in_category": 17
+   "rank_in_category": 18
   },
   {
    "category": "vitamin_b12",
@@ -54255,7 +62444,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "e76929316a4f",
-   "rank_in_category": 15
+   "rank_in_category": 16
   },
   {
    "category": "vitamin_b12",
@@ -55724,7 +63913,7 @@ const N3GH_DATA = {
     "price_tier": 4
    },
    "label_hash": "51ce23e14953",
-   "rank_in_category": 6
+   "rank_in_category": 7
   },
   {
    "category": "biotin",
@@ -55808,10 +63997,10 @@ const N3GH_DATA = {
     "std": 0.442,
     "std_label": "€ / day",
     "days_per_pack": 45,
-    "price_tier": 4
+    "price_tier": 3
    },
    "label_hash": "daf393b8f91d",
-   "rank_in_category": 10
+   "rank_in_category": 11
   },
   {
    "category": "biotin",
@@ -55901,7 +64090,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "84f6ed499bc9",
-   "rank_in_category": 8
+   "rank_in_category": 9
   },
   {
    "category": "biotin",
@@ -55995,7 +64184,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "72320eda02a2",
-   "rank_in_category": 5
+   "rank_in_category": 6
   },
   {
    "category": "biotin",
@@ -56091,7 +64280,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "693ab1f1d22f",
-   "rank_in_category": 4
+   "rank_in_category": 5
   },
   {
    "category": "biotin",
@@ -56175,10 +64364,10 @@ const N3GH_DATA = {
     "std": 0.282,
     "std_label": "€ / day",
     "days_per_pack": 60,
-    "price_tier": 3
+    "price_tier": 2
    },
    "label_hash": "5341f0bc5e7b",
-   "rank_in_category": 9
+   "rank_in_category": 10
   },
   {
    "category": "folate",
@@ -56716,7 +64905,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "da04357a43e4",
-   "rank_in_category": 22
+   "rank_in_category": 24
   },
   {
    "category": "whey",
@@ -56812,7 +65001,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "c6389af1863b",
-   "rank_in_category": 27
+   "rank_in_category": 30
   },
   {
    "category": "whey",
@@ -56964,7 +65153,7 @@ const N3GH_DATA = {
     "std": 1.494,
     "std_label": "€ / 25 g protein",
     "days_per_pack": 25,
-    "price_tier": 3
+    "price_tier": 2
    },
    "label_hash": "bd7732bf9668",
    "rank_in_category": 11
@@ -57736,7 +65925,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "3c4a6c80faed",
-   "rank_in_category": 3
+   "rank_in_category": 4
   },
   {
    "category": "zinc",
@@ -58000,7 +66189,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "64e952baec95",
-   "rank_in_category": 13
+   "rank_in_category": 16
   },
   {
    "category": "zinc",
@@ -58089,7 +66278,7 @@ const N3GH_DATA = {
     "price_tier": 4
    },
    "label_hash": "5d5100ba4f9a",
-   "rank_in_category": 10
+   "rank_in_category": 13
   },
   {
    "category": "zinc",
@@ -58174,7 +66363,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "ae8b236664b3",
-   "rank_in_category": 19
+   "rank_in_category": 22
   },
   {
    "category": "zinc",
@@ -58257,7 +66446,7 @@ const N3GH_DATA = {
     "price_tier": 2
    },
    "label_hash": "745935b7a2e1",
-   "rank_in_category": 18
+   "rank_in_category": 21
   },
   {
    "category": "vitamin_c",
@@ -58604,7 +66793,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "534072ed255e",
-   "rank_in_category": 17
+   "rank_in_category": 19
   },
   {
    "category": "vitamin_c",
@@ -58691,7 +66880,7 @@ const N3GH_DATA = {
     "price_tier": 5
    },
    "label_hash": "042eb1941316",
-   "rank_in_category": 47
+   "rank_in_category": 51
   },
   {
    "category": "vitamin_c",
@@ -58800,7 +66989,7 @@ const N3GH_DATA = {
     "price_tier": 3
    },
    "label_hash": "f2800270cf1b",
-   "rank_in_category": 43
+   "rank_in_category": 47
   }
  ]
 };

@@ -1,7 +1,7 @@
 {
  "generated": "2026-10-09",
- "n_withheld_products": 43,
- "n_pending_strings": 40,
+ "n_withheld_products": 83,
+ "n_pending_strings": 80,
  "pending_strings": [
   {
    "string": "phosphates de calcium",
@@ -14,6 +14,50 @@
   {
    "string": "correcteur d’acidité : hydroxyde d’ammonium",
    "blocks_n_products": 7
+  },
+  {
+   "string": "huile d’olive",
+   "blocks_n_products": 5
+  },
+  {
+   "string": "sorbate de potassium",
+   "blocks_n_products": 5
+  },
+  {
+   "string": "Oxyde de fer noir",
+   "blocks_n_products": 5
+  },
+  {
+   "string": "glucose",
+   "blocks_n_products": 4
+  },
+  {
+   "string": "glycine",
+   "blocks_n_products": 4
+  },
+  {
+   "string": "citrate trisodique",
+   "blocks_n_products": 3
+  },
+  {
+   "string": "benzoate de sodium",
+   "blocks_n_products": 3
+  },
+  {
+   "string": "huile de sésame",
+   "blocks_n_products": 3
+  },
+  {
+   "string": "arôme orange",
+   "blocks_n_products": 2
+  },
+  {
+   "string": "arôme framboise",
+   "blocks_n_products": 2
+  },
+  {
+   "string": "Huile de graine de tournesol  (Helianthus annuus)",
+   "blocks_n_products": 2
   },
   {
    "string": "colorant : curcumine",
@@ -37,10 +81,6 @@
   },
   {
    "string": "citrates de sodium",
-   "blocks_n_products": 2
-  },
-  {
-   "string": "citrate trisodique",
    "blocks_n_products": 2
   },
   {
@@ -70,6 +110,126 @@
   {
    "string": "phosphates de potassium",
    "blocks_n_products": 2
+  },
+  {
+   "string": "bêta-carotène",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "triglycérides d’huile de noix de coco",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "sucrose",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "poudre de vanille naturelle Bourbon",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "farine de lin jaune",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "phosphatidylcholine de tournesol",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "décoction de fruit du moine en poudre",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "extrait de thé noir",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "extrait d’exsudat de bambou",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "dioxyde de silicone (nano)",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "monostéarate de sorbitane",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "extrait d’écorce de quillaia",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "anthocyanines",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "poudre de fibre de pomme",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "jus concentré d’orange",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "arôme pêche",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "jus concentré de raisin rouge",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "arôme raisin rouge",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "acide phosphorique",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "poudre de feuilles de thé matcha",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "poudre de lait de coco",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "Fécule de pomme de terre (Solanum Tuberosum spp.)",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "huile de pépin de raisin",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "Fécule de manioc (Manihot esculenta)",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "Oxyde de fer jaune",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "Oxyde de fer rouge",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "Concentré de pomme (Malus domestica)",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "Concentré de radis (Raphanus sativus)",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "Concentré de citron (Citrus limon)",
+   "blocks_n_products": 1
+  },
+  {
+   "string": "Concentré de cassis (Ribes nigrum)",
+   "blocks_n_products": 1
   },
   {
    "string": "émulsifiant : E433",
@@ -427,6 +587,204 @@
    ]
   },
   {
+   "id": "cuure-acerola-60-comprimes",
+   "brand": "Cuure",
+   "name": "Acérola",
+   "category": "vitamin_c",
+   "pending": [
+    "Fécule de manioc (Manihot esculenta)"
+   ]
+  },
+  {
+   "id": "cuure-boost-sommeil-30-ml-framboise",
+   "brand": "Cuure",
+   "name": "Boost Sommeil",
+   "category": "melatonin",
+   "pending": [
+    "arôme framboise",
+    "sorbate de potassium"
+   ]
+  },
+  {
+   "id": "cuure-complexe-peau-cheveux-ongles-45-gelules",
+   "brand": "Cuure",
+   "name": "Complexe Peau, Cheveux & Ongles",
+   "category": "biotin",
+   "pending": [
+    "huile de pépin de raisin"
+   ]
+  },
+  {
+   "id": "cuure-l-gasseri-30-gelules",
+   "brand": "Cuure",
+   "name": "L-Gasseri",
+   "category": "probiotics",
+   "pending": [
+    "Oxyde de fer noir"
+   ]
+  },
+  {
+   "id": "cuure-maca-60-gelules",
+   "brand": "Cuure",
+   "name": "Maca",
+   "category": "maca",
+   "pending": [
+    "Huile de graine de tournesol  (Helianthus annuus)",
+    "Oxyde de fer jaune",
+    "Oxyde de fer rouge"
+   ]
+  },
+  {
+   "id": "cuure-probiotiques-60-gelules",
+   "brand": "Cuure",
+   "name": "Probiotiques",
+   "category": "probiotics",
+   "pending": [
+    "Oxyde de fer noir"
+   ]
+  },
+  {
+   "id": "cuure-probiotiques-flore-intime-60-gelules",
+   "brand": "Cuure",
+   "name": "Probiotiques Flore Intime",
+   "category": "probiotics",
+   "pending": [
+    "Oxyde de fer noir"
+   ]
+  },
+  {
+   "id": "cuure-probiotiques-peau-60-gelules",
+   "brand": "Cuure",
+   "name": "Probiotiques Peau",
+   "category": "probiotics",
+   "pending": [
+    "Oxyde de fer noir"
+   ]
+  },
+  {
+   "id": "cuure-rhodiola-60-gelules",
+   "brand": "Cuure",
+   "name": "Rhodiola",
+   "category": "rhodiola",
+   "pending": [
+    "Oxyde de fer noir",
+    "Huile de graine de tournesol  (Helianthus annuus)"
+   ]
+  },
+  {
+   "id": "cuure-vitamine-d3-vegan-120-gelules",
+   "brand": "Cuure",
+   "name": "Vitamine D3 Vegan",
+   "category": "vitamin_d3",
+   "pending": [
+    "Concentré de pomme (Malus domestica)",
+    "Concentré de radis (Raphanus sativus)",
+    "Concentré de citron (Citrus limon)",
+    "Concentré de cassis (Ribes nigrum)"
+   ]
+  },
+  {
+   "id": "cuure-zinc-120-gelules",
+   "brand": "Cuure",
+   "name": "Zinc",
+   "category": "zinc",
+   "pending": [
+    "Fécule de pomme de terre (Solanum Tuberosum spp.)"
+   ]
+  },
+  {
+   "id": "eiyolab-clear-whey-ht-fruits-rouges-500-g",
+   "brand": "Eiyolab",
+   "name": "Clear Whey HT",
+   "category": "whey",
+   "pending": [
+    "dioxyde de silicone (nano)",
+    "monostéarate de sorbitane"
+   ]
+  },
+  {
+   "id": "eiyolab-curcuma-bio-60-gelules",
+   "brand": "Eiyolab",
+   "name": "Curcuma Bio",
+   "category": "curcumin",
+   "pending": [
+    "extrait d’écorce de quillaia"
+   ]
+  },
+  {
+   "id": "eiyolab-gummies-ashwagandha-ksm-66-cerise-60-gummies",
+   "brand": "Eiyolab",
+   "name": "Gummies Ashwagandha KSM-66®",
+   "category": "ashwagandha",
+   "pending": [
+    "anthocyanines",
+    "citrate trisodique"
+   ]
+  },
+  {
+   "id": "eiyolab-vitamines-c-d3-zinc-60-comprimes",
+   "brand": "Eiyolab",
+   "name": "Vitamines C & D3 + zinc",
+   "category": "vitamin_c",
+   "pending": [
+    "extrait d’exsudat de bambou"
+   ]
+  },
+  {
+   "id": "greenwhey-curcumine-bio-60-gelules",
+   "brand": "Greenwhey",
+   "name": "Curcumine Bio",
+   "category": "curcumin",
+   "pending": [
+    "farine de lin jaune"
+   ]
+  },
+  {
+   "id": "greenwhey-isolat-de-clear-whey-ice-tea-peche-600-g",
+   "brand": "Greenwhey",
+   "name": "Isolat de Clear Whey",
+   "category": "whey",
+   "pending": [
+    "extrait de thé noir"
+   ]
+  },
+  {
+   "id": "greenwhey-proteine-de-whey-bio-chocolat-900-g",
+   "brand": "Greenwhey",
+   "name": "Protéine de Whey Bio",
+   "category": "whey",
+   "pending": [
+    "décoction de fruit du moine en poudre"
+   ]
+  },
+  {
+   "id": "greenwhey-vitamine-c-liposomale-90-gelules",
+   "brand": "Greenwhey",
+   "name": "Vitamine C liposomale",
+   "category": "vitamin_c",
+   "pending": [
+    "phosphatidylcholine de tournesol"
+   ]
+  },
+  {
+   "id": "greenwhey-vitamine-d3-k2-60-capsules",
+   "brand": "Greenwhey",
+   "name": "Vitamine D3 + K2",
+   "category": "vitamin_d3",
+   "pending": [
+    "huile d’olive"
+   ]
+  },
+  {
+   "id": "inshape-nutrition-clear-whey-sachet-de-500-g-orange",
+   "brand": "InShape Nutrition",
+   "name": "Clear Whey",
+   "category": "whey",
+   "pending": [
+    "bêta-carotène"
+   ]
+  },
+  {
    "id": "myprotein-clear-protein-whey-collagene-framboise-citronnee-500-g",
    "brand": "Myprotein",
    "name": "Clear Protein | Whey & Collagène",
@@ -522,6 +880,124 @@
    ]
   },
   {
+   "id": "nutrivie-boost-collagene-anti-age-20-ampoules-de-10-ml",
+   "brand": "Nutrivie",
+   "name": "Boost Collagène Anti-âge",
+   "category": "collagen",
+   "pending": [
+    "jus concentré de raisin rouge",
+    "arôme raisin rouge"
+   ]
+  },
+  {
+   "id": "nutrivie-collagene-beaute-200-g-matcha",
+   "brand": "Nutrivie",
+   "name": "Collagène Beauté",
+   "category": "collagen",
+   "pending": [
+    "poudre de feuilles de thé matcha",
+    "poudre de lait de coco"
+   ]
+  },
+  {
+   "id": "nutrivie-magnesium-bisglycinate-1500-mg-120-gelules",
+   "brand": "Nutrivie",
+   "name": "Magnésium bisglycinate 1500 mg",
+   "category": "magnesium",
+   "pending": [
+    "poudre de fibre de pomme"
+   ]
+  },
+  {
+   "id": "nutrivie-shot-collagene-anti-age-14-shots-de-25-ml-framboise",
+   "brand": "Nutrivie",
+   "name": "Shot Collagène+ Anti-âge",
+   "category": "collagen",
+   "pending": [
+    "acide phosphorique",
+    "arôme framboise",
+    "arôme orange",
+    "sorbate de potassium",
+    "benzoate de sodium"
+   ]
+  },
+  {
+   "id": "nutrivie-spray-melatonine-extra-dose-1-9-mg-20-ml-environ-90-pulverisations",
+   "brand": "Nutrivie",
+   "name": "Spray Mélatonine Extra-dosé 1,9 mg",
+   "category": "melatonin",
+   "pending": [
+    "benzoate de sodium",
+    "sorbate de potassium"
+   ]
+  },
+  {
+   "id": "nutrivie-spray-vitamine-d3-1000-ui-20-ml-environ-170-pulverisations",
+   "brand": "Nutrivie",
+   "name": "Spray Vitamine D3 - 1000 UI",
+   "category": "vitamin_d3",
+   "pending": [
+    "huile de sésame"
+   ]
+  },
+  {
+   "id": "nutrivie-spray-vitamine-d3-2000-ui-20-ml-environ-170-pulverisations",
+   "brand": "Nutrivie",
+   "name": "Spray Vitamine D3 2000 UI",
+   "category": "vitamin_d3",
+   "pending": [
+    "huile de sésame"
+   ]
+  },
+  {
+   "id": "nutrivie-stick-collagene-marin-20-sticks-peche",
+   "brand": "Nutrivie",
+   "name": "Stick Collagène Marin",
+   "category": "collagen",
+   "pending": [
+    "arôme pêche"
+   ]
+  },
+  {
+   "id": "nutrivie-vitamine-c-liposomale-20-ampoules",
+   "brand": "Nutrivie",
+   "name": "Vitamine C Liposomale",
+   "category": "vitamin_c",
+   "pending": [
+    "sorbate de potassium"
+   ]
+  },
+  {
+   "id": "nutrivie-vitamine-d3-k2-spray-1000-ui-15-ml-environ-130-pulverisations",
+   "brand": "Nutrivie",
+   "name": "Vitamine D3 K2 Spray 1000 UI",
+   "category": "vitamin_d3",
+   "pending": [
+    "huile de sésame"
+   ]
+  },
+  {
+   "id": "nutrivie-zinc-bisglycinate-d3-500-ml",
+   "brand": "Nutrivie",
+   "name": "Zinc Bisglycinate & D3",
+   "category": "zinc",
+   "pending": [
+    "jus concentré d’orange",
+    "arôme orange",
+    "benzoate de sodium",
+    "sorbate de potassium"
+   ]
+  },
+  {
+   "id": "protealpes-whey-proteine-sans-sucres-ajoutes-vanille-750-g",
+   "brand": "Protéalpes",
+   "name": "Whey protéine sans sucres ajoutés",
+   "category": "whey",
+   "pending": [
+    "poudre de vanille naturelle Bourbon"
+   ]
+  },
+  {
    "id": "scitec-nutrition-creatine-bites-fraise-240-comprimes-a-croquer",
    "brand": "Scitec Nutrition",
    "name": "Creatine Bites",
@@ -584,6 +1060,76 @@
    "category": "vitamin_c",
    "pending": [
     "phospholipides"
+   ]
+  },
+  {
+   "id": "unae-biotiques-digestion-30-gelules",
+   "brand": "UNAE",
+   "name": "Biotiques digestion",
+   "category": "probiotics",
+   "pending": [
+    "huile d’olive"
+   ]
+  },
+  {
+   "id": "unae-elite-multivitamines-60-sachets",
+   "brand": "UNAE",
+   "name": "Elite multivitamines",
+   "category": "multivitamin",
+   "pending": [
+    "glucose",
+    "glycine",
+    "sucrose"
+   ]
+  },
+  {
+   "id": "unae-essentiel-multivitamines-120-gelules",
+   "brand": "UNAE",
+   "name": "Essentiel multivitamines",
+   "category": "multivitamin",
+   "pending": [
+    "glucose",
+    "glycine"
+   ]
+  },
+  {
+   "id": "unae-grossesse-multivitamines-120-gelules",
+   "brand": "UNAE",
+   "name": "Grossesse multivitamines",
+   "category": "multivitamin",
+   "pending": [
+    "glucose",
+    "glycine",
+    "huile d’olive"
+   ]
+  },
+  {
+   "id": "unae-menopause-multivitamines-120-gelules",
+   "brand": "UNAE",
+   "name": "Ménopause multivitamines",
+   "category": "multivitamin",
+   "pending": [
+    "glucose",
+    "glycine"
+   ]
+  },
+  {
+   "id": "unae-omnimag-magnesium-b6-120-gelules",
+   "brand": "UNAE",
+   "name": "OmniMag® magnésium B6",
+   "category": "magnesium",
+   "pending": [
+    "huile d’olive"
+   ]
+  },
+  {
+   "id": "unae-sommeil-serein-60-gelules",
+   "brand": "UNAE",
+   "name": "Sommeil serein",
+   "category": "melatonin",
+   "pending": [
+    "huile d’olive",
+    "triglycérides d’huile de noix de coco"
    ]
   }
  ]

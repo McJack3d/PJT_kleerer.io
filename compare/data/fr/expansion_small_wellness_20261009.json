@@ -1,0 +1,1832 @@
+[
+  {
+    "brand": "Nutrivie",
+    "name": "Fer Bisglycinate 21 mg",
+    "category": "iron",
+    "variant": "60 gélules",
+    "price_eur": 11.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 60,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 21,
+    "active_unit": "mg elemental Fe",
+    "form": "fer bisglycinate",
+    "additives": [
+      "maltodextrine",
+      "farine de coco",
+      "gélule végétale"
+    ],
+    "url": "https://nutrivie.com/products/fer-bisglycinate-21-mg",
+    "ean": null,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://nutrivie.com/products/fer-bisglycinate-21-mg?variant=52391639908688"
+    },
+    "vegan": true,
+    "notes": ""
+  },
+  {
+    "brand": "Nutrivie",
+    "name": "Ashwagandha Bio 1200mg",
+    "category": "ashwagandha",
+    "variant": "60 gélules",
+    "price_eur": 19.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 60,
+    "units_per_day": 3,
+    "unit_name": "gélule",
+    "active_per_unit": 400,
+    "active_unit": "mg",
+    "form": "extrait de racine d’ashwagandha KSM-66, 5 % withanolides",
+    "additives": [
+      "fibres d’acacia",
+      "farine de coco",
+      "gélule végétale"
+    ],
+    "url": "https://nutrivie.com/products/ashwagandha-bio-1200mg",
+    "ean": null,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "KSM-66",
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://nutrivie.com/products/ashwagandha-bio-1200mg?variant=52357215879504"
+    },
+    "standardization": "5 % withanolides",
+    "vegan": true,
+    "notes": "Dose de fin de progression fabricant : 3 gélules/jour (1200 mg extrait, 60 mg withanolides). Le protocole fabricant augmente de 1 à 3 gélules par paliers de 10 jours ; les coûts affichés sont calculés à 3 gélules/jour, soit 20 jours par boîte."
+  },
+  {
+    "brand": "Nutrivie",
+    "name": "Ashwagandha Bio Ampoules",
+    "category": "ashwagandha",
+    "variant": "20 ampoules",
+    "price_eur": 19.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 20,
+    "units_per_day": 1,
+    "unit_name": "ampoule",
+    "active_per_unit": 600,
+    "active_unit": "mg",
+    "form": "extrait sec de racine d’ashwagandha KSM-66, 5 % withanolides",
+    "additives": [
+      "eau",
+      "acide citrique",
+      "gomme xanthane"
+    ],
+    "url": "https://nutrivie.com/products/ampoules-ashwagandha-bio",
+    "ean": null,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "KSM-66",
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://nutrivie.com/products/ampoules-ashwagandha-bio?variant=49364870922576"
+    },
+    "standardization": "5 % withanolides",
+    "notes": "600 mg d’extrait, équivalent 6000 mg de plante sèche ; le calcul utilise l’extrait, sans multiplier par l’équivalence végétale."
+  },
+  {
+    "brand": "Nutrivie",
+    "name": "Magnésium bisglycinate 1500 mg",
+    "category": "magnesium",
+    "variant": "120 gélules",
+    "price_eur": 18.0,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 120,
+    "units_per_day": 4,
+    "unit_name": "gélule",
+    "active_per_unit": 75,
+    "active_unit": "mg elemental Mg",
+    "form": "bisglycinate de magnésium, taurine et chlorhydrate de pyridoxine",
+    "additives": [
+      "gélule végétale",
+      "poudre de fibre de pomme"
+    ],
+    "url": "https://nutrivie.com/products/magnesium-bisglycinate-120-gelules",
+    "ean": null,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://nutrivie.com/products/magnesium-bisglycinate-120-gelules?variant=49177998491984"
+    },
+    "nutrients": {
+      "vitamin_b6": 1.4
+    },
+    "notes": "Pour 4 gélules : 1500 mg de bisglycinate apportant 300 mg de magnésium élémentaire, taurine 200 mg et B6 1,4 mg. Format de 120 gélules retenu ; formats 60 et 240 non dupliqués."
+  },
+  {
+    "brand": "Nutrivie",
+    "name": "Multivitamines",
+    "category": "multivitamin",
+    "variant": "30 gélules",
+    "price_eur": 9.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 30,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 1,
+    "active_unit": "dose",
+    "form": "11 vitamines, citrate de zinc, bisglycinates de fer et manganèse, iodure de potassium et levure de sélénium",
+    "additives": [
+      "cellulose microcristalline",
+      "sels de magnésium d’acides gras",
+      "gélule végétale"
+    ],
+    "url": "https://nutrivie.com/products/multivitamines",
+    "ean": null,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://nutrivie.com/products/multivitamines?variant=52103123894608"
+    },
+    "form_quality": "standard",
+    "dose_style": "gaps",
+    "vegan": true,
+    "nutrients": {
+      "vitamin_c": 80,
+      "vitamin_b3": 16,
+      "vitamin_e": 12,
+      "vitamin_b5": 6,
+      "vitamin_b6": 1.4,
+      "vitamin_b2": 1.4,
+      "vitamin_b1": 1.1,
+      "folate": 200,
+      "vitamin_d3": 200,
+      "vitamin_b12": 2.5,
+      "zinc": 10,
+      "iron": 6.5,
+      "iodine": 150,
+      "selenium": 55
+    },
+    "notes": "Quantités du tableau fabricant, par gélule. D : 5 µg = 200 UI. Le fer est indiqué à 6,5 mg ; le pourcentage AR de 50 % affiché par le fabricant est incohérent avec cette quantité, le calcul conserve 6,5 mg sans le convertir en 7 mg. Autres quantités par gélule : vitamine A 800 µg et manganèse 2 mg, conservées en notes car catégories sans libellé dans les cumuls."
+  },
+  {
+    "brand": "Nutrivie",
+    "name": "Nutribiotique® Équilibre Digestif",
+    "category": "probiotics",
+    "variant": "30 gélules",
+    "price_eur": 19.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 30,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 8,
+    "active_unit": "billion CFU",
+    "form": "L. plantarum PBS067, L. rhamnosus GG, L. rhamnosus LRH020 et B. lactis BL050",
+    "additives": [
+      "inuline de chicorée",
+      "gélule HPMC",
+      "pectine",
+      "amidon de maïs",
+      "sels de magnésium d’acides gras"
+    ],
+    "url": "https://nutrivie.com/products/nutribiotique-equilibre-digestif",
+    "ean": null,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://nutrivie.com/products/nutribiotique-equilibre-digestif?variant=51837778755920"
+    },
+    "strains_count": 4,
+    "strains_coded": true,
+    "gastro_resistant": true,
+    "nutrients": {
+      "vitamin_b2": 0.21
+    },
+    "notes": "8 milliards UFC par gélule, 2 milliards pour chacune des quatre souches. Pissenlit 80 mg, inuline 200 mg et B2 0,21 mg. LRH020 est écrit LHR20 dans une image ; pas de crédit distinct pour ces variantes typographiques."
+  },
+  {
+    "brand": "Nutrivie",
+    "name": "Nutribiotique® Stress & Sommeil",
+    "category": "probiotics",
+    "variant": "30 gélules",
+    "price_eur": 11.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 30,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 4,
+    "active_unit": "billion CFU",
+    "form": "L. reuteri PBS072 DSM 25175 et B. breve BB077 LMG P-30157",
+    "additives": [
+      "amidon de maïs",
+      "gélule HPMC",
+      "pectine",
+      "sels de magnésium d’acides gras"
+    ],
+    "url": "https://nutrivie.com/products/nutribiotique-stress-sommeil",
+    "ean": null,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://nutrivie.com/products/nutribiotique-stress-sommeil?variant=51839721242960"
+    },
+    "strains_count": 2,
+    "strains_coded": true,
+    "gastro_resistant": true,
+    "nutrients": {
+      "vitamin_b6": 0.46
+    },
+    "notes": "4 milliards UFC, poudre d’eschscholtzia 50 mg et B6 0,46 mg par gélule."
+  },
+  {
+    "brand": "Nutrivie",
+    "name": "Spray Mélatonine Extra-dosé 1,9 mg",
+    "category": "melatonin",
+    "variant": "20 ml — environ 90 pulvérisations",
+    "price_eur": 12.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 90,
+    "units_per_day": 3,
+    "unit_name": "pulvérisation",
+    "active_per_unit": 0.6333333333333333,
+    "active_unit": "mg",
+    "form": "mélatonine et extrait de feuille de mélisse",
+    "additives": [
+      "glycérine",
+      "eau",
+      "acide citrique",
+      "arôme naturel cassis",
+      "benzoate de sodium",
+      "sorbate de potassium"
+    ],
+    "url": "https://nutrivie.com/products/spray-melatonine-extra-dose",
+    "ean": null,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://nutrivie.com/products/spray-melatonine-extra-dose?variant=51886028357968"
+    },
+    "notes": "1,9 mg de mélatonine pour 3 pulvérisations. Environ 30 prises par flacon, selon le nombre de pulvérisations indiqué par le fabricant."
+  },
+  {
+    "brand": "Nutrivie",
+    "name": "Mélatonine 1,6mg",
+    "category": "melatonin",
+    "variant": "60 gélules",
+    "price_eur": 13.5,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 60,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 1.6,
+    "active_unit": "mg",
+    "form": "mélatonine",
+    "additives": [
+      "gomme d’acacia",
+      "pullulan"
+    ],
+    "url": "https://nutrivie.com/products/melatonine-60-gelules",
+    "ean": null,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://nutrivie.com/products/melatonine-60-gelules?variant=43453481615599"
+    },
+    "notes": ""
+  },
+  {
+    "brand": "Nutrivie",
+    "name": "Spray Vitamine D3 - 1000 UI",
+    "category": "vitamin_d3",
+    "variant": "20 ml — environ 170 pulvérisations",
+    "price_eur": 12.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 170,
+    "units_per_day": 1,
+    "unit_name": "pulvérisation",
+    "active_per_unit": 1000,
+    "active_unit": "IU",
+    "form": "cholécalciférol de lanoline, support huileux",
+    "additives": [
+      "huile de sésame",
+      "tocophérol"
+    ],
+    "url": "https://nutrivie.com/products/spray-vitamine-d3-1000-ui",
+    "ean": null,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://nutrivie.com/products/spray-vitamine-d3-1000-ui?variant=43453485121775"
+    },
+    "vegan": false,
+    "notes": ""
+  },
+  {
+    "brand": "Nutrivie",
+    "name": "Spray Vitamine D3 2000 UI",
+    "category": "vitamin_d3",
+    "variant": "20 ml — environ 170 pulvérisations",
+    "price_eur": 15.0,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 170,
+    "units_per_day": 1,
+    "unit_name": "pulvérisation",
+    "active_per_unit": 2000,
+    "active_unit": "IU",
+    "form": "cholécalciférol de lanoline, support huileux",
+    "additives": [
+      "huile de sésame",
+      "tocophérol"
+    ],
+    "url": "https://nutrivie.com/products/spray-vitamine-d3-2000-ui",
+    "ean": null,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://nutrivie.com/products/spray-vitamine-d3-2000-ui?variant=43453485220079"
+    },
+    "vegan": false,
+    "notes": ""
+  },
+  {
+    "brand": "Nutrivie",
+    "name": "Vitamine D3 K2 Spray 1000 UI",
+    "category": "vitamin_d3",
+    "variant": "15 ml — environ 130 pulvérisations",
+    "price_eur": 22.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 130,
+    "units_per_day": 2,
+    "unit_name": "pulvérisation",
+    "active_per_unit": 500,
+    "active_unit": "IU",
+    "form": "cholécalciférol de lanoline et ménaquinone-7 de natto, huile de sésame",
+    "additives": [
+      "huile de sésame",
+      "tocophérol"
+    ],
+    "url": "https://nutrivie.com/products/spray-vitamine-d3-k2-500-ui",
+    "ean": null,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://nutrivie.com/products/spray-vitamine-d3-k2-500-ui?variant=43453485318383"
+    },
+    "vegan": false,
+    "secondary_actives": [
+      {
+        "category": "vitamin_k2",
+        "per_day": 75
+      }
+    ],
+    "notes": "Dose adulte : 2 pulvérisations, D3 25 µg = 1000 UI et K2 MK-7 75 µg. Le flacon contient environ 130 pulvérisations, soit 65 jours à cette dose ; l’ancien slug 500-ui décrit une pulvérisation."
+  },
+  {
+    "brand": "Nutrivie",
+    "name": "Zinc Bisglycinate & D3",
+    "category": "zinc",
+    "variant": "500 ml",
+    "price_eur": 18.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 500,
+    "units_per_day": 20,
+    "unit_name": "ml",
+    "active_per_unit": 0.75,
+    "active_unit": "mg elemental Zn",
+    "form": "bisglycinate de zinc et vitamines B5, B6, B8 et D3",
+    "additives": [
+      "eau",
+      "jus concentré d’orange",
+      "acide citrique",
+      "arôme orange",
+      "benzoate de sodium",
+      "sorbate de potassium"
+    ],
+    "url": "https://nutrivie.com/products/zinc-bisglycinate",
+    "ean": null,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://nutrivie.com/products/zinc-bisglycinate?variant=49743472689488"
+    },
+    "notes": "Tableau nutritionnel pour 20 ml : zinc 15 mg (150 % AR), B5 6 mg, B6 1,4 mg, biotine 50 µg et D3 5 µg = 200 UI. 25 prises par flacon de 500 ml.",
+    "secondary_actives": [
+      {
+        "category": "biotin",
+        "per_day": 50
+      },
+      {
+        "category": "vitamin_d3",
+        "per_day": 200
+      }
+    ],
+    "nutrients": {
+      "vitamin_b5": 6,
+      "vitamin_b6": 1.4
+    }
+  },
+  {
+    "brand": "Nutrivie",
+    "name": "Oméga 3 EPAX®",
+    "category": "omega3",
+    "variant": "120 capsules",
+    "price_eur": 21.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 120,
+    "units_per_day": 4,
+    "unit_name": "capsule",
+    "active_per_unit": 267.5,
+    "active_unit": "mg EPA+DHA",
+    "form": "huile de poisson EPAX, EPA et DHA",
+    "additives": [
+      "tocophérols",
+      "gélatine de poisson",
+      "glycérine",
+      "extrait de romarin"
+    ],
+    "url": "https://nutrivie.com/products/omega-3-epax",
+    "ean": null,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "EPAX",
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://nutrivie.com/products/omega-3-epax?variant=49714153652560"
+    },
+    "vegan": false,
+    "notes": "Dose fabricant retenue : 4 capsules. EPA 620 mg + DHA 450 mg = 1070 mg/jour ; les 1260 mg d’oméga-3 totaux ne sont pas utilisés comme EPA+DHA. TOTOX < 10 annoncé commercialement, analyse non consultée donc aucun crédit COA."
+  },
+  {
+    "brand": "Nutrivie",
+    "name": "Rhodiola",
+    "category": "rhodiola",
+    "variant": "30 gélules",
+    "price_eur": 17.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 30,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 300,
+    "active_unit": "mg",
+    "form": "extrait de racine de Rhodiola rosea, 3 % rosavines et 1 % salidroside",
+    "additives": [
+      "pullulan",
+      "amidon de riz",
+      "sels de magnésium d’acides gras"
+    ],
+    "url": "https://nutrivie.com/products/rhodiola-30-gelules",
+    "ean": null,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://nutrivie.com/products/rhodiola-30-gelules?variant=43453483974895"
+    },
+    "standardization": "3 % rosavines, 1 % salidroside",
+    "notes": ""
+  },
+  {
+    "brand": "Nutrivie",
+    "name": "Acérola Bio",
+    "category": "vitamin_c",
+    "variant": "60 comprimés",
+    "price_eur": 19.3,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 60,
+    "units_per_day": 1,
+    "unit_name": "comprimé",
+    "active_per_unit": 170,
+    "active_unit": "mg",
+    "form": "vitamine C issue d’acérola, concentré titré à 17 %",
+    "additives": [
+      "sirop de glucose",
+      "arôme naturel fruits rouges"
+    ],
+    "url": "https://nutrivie.com/products/acerola-bio",
+    "ean": null,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://nutrivie.com/products/acerola-bio?variant=49864228569424"
+    },
+    "notes": "1000 mg d’acérola apportant 170 mg de vitamine C par comprimé. Présence de sirop de glucose déclarée."
+  },
+  {
+    "brand": "Nutrivie",
+    "name": "Collagène Marin Breveté",
+    "category": "collagen",
+    "variant": "90 gélules",
+    "price_eur": 11.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 90,
+    "units_per_day": 3,
+    "unit_name": "gélule",
+    "active_per_unit": 0.3333333333333333,
+    "active_unit": "g collagen",
+    "form": "peptides hydrolysés de collagène marin Naticol et vitamine C",
+    "additives": [
+      "stéarate de magnésium",
+      "gélule végétale"
+    ],
+    "url": "https://nutrivie.com/products/collagene-marin-brevete",
+    "ean": null,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Naticol",
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://nutrivie.com/products/collagene-marin-brevete?variant=51154534924624"
+    },
+    "vegan": false,
+    "secondary_actives": [
+      {
+        "category": "vitamin_c",
+        "per_day": 12
+      }
+    ],
+    "notes": "3 gélules apportent 1 g de collagène et 12 mg de vitamine C, conformément au tableau nutritionnel fabricant."
+  },
+  {
+    "brand": "Nutrivie",
+    "name": "Stick Collagène Marin",
+    "category": "collagen",
+    "variant": "20 sticks — pêche",
+    "price_eur": 28.5,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 20,
+    "units_per_day": 1,
+    "unit_name": "stick",
+    "active_per_unit": 4,
+    "active_unit": "g collagen",
+    "form": "peptides de collagène marin Naticol type I, vitamines C/E et levure enrichie en sélénium",
+    "additives": [
+      "maltodextrine",
+      "arôme pêche",
+      "acide citrique",
+      "glycosides de stéviol"
+    ],
+    "url": "https://nutrivie.com/products/stick-collagene-nomade",
+    "ean": null,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Naticol",
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://nutrivie.com/products/stick-collagene-nomade?variant=47650342863184"
+    },
+    "vegan": false,
+    "notes": "Par stick : collagène 4 g, vitamine C 80 mg, E 12 mg et sélénium 55 µg (100 % AR) issu de levure enrichie.",
+    "secondary_actives": [
+      {
+        "category": "vitamin_c",
+        "per_day": 80
+      }
+    ],
+    "nutrients": {
+      "vitamin_e": 12,
+      "selenium": 55
+    }
+  },
+  {
+    "brand": "Nutrivie",
+    "name": "Boost Collagène Anti-âge",
+    "category": "collagen",
+    "variant": "20 ampoules de 10 ml",
+    "price_eur": 26.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 20,
+    "units_per_day": 1,
+    "unit_name": "ampoule",
+    "active_per_unit": 2.5,
+    "active_unit": "g collagen",
+    "form": "hydrolysat de collagène marin Naticol type I, acide hyaluronique, bardane, prêle, vitamine C et zinc gluconate",
+    "additives": [
+      "eau",
+      "jus concentré de raisin rouge",
+      "acide citrique",
+      "arôme raisin rouge"
+    ],
+    "url": "https://nutrivie.com/products/ampoules-boost-anti-age-collagene",
+    "ean": null,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Naticol",
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://nutrivie.com/products/ampoules-boost-anti-age-collagene?variant=47436280824144"
+    },
+    "vegan": false,
+    "secondary_actives": [
+      {
+        "category": "vitamin_c",
+        "per_day": 40
+      },
+      {
+        "category": "zinc",
+        "per_day": 5
+      }
+    ],
+    "notes": "Par ampoule : collagène 2,5 g, vitamine C 40 mg, zinc 5 mg (50 % AR), acide hyaluronique 50 mg, extrait de bardane 210 mg et extrait de prêle 50 mg. Le zinc est transcrit à partir de la quantité nutritionnelle avec AR, sans conversion du poids de gluconate."
+  },
+  {
+    "brand": "Nutrivie",
+    "name": "Shot Collagène+ Anti-âge",
+    "category": "collagen",
+    "variant": "14 shots de 25 ml — framboise",
+    "price_eur": 15.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 14,
+    "units_per_day": 1,
+    "unit_name": "shot",
+    "active_per_unit": 2.5,
+    "active_unit": "g collagen",
+    "form": "peptides de collagène marin Naticol types I/III, complexe SkinAx2 et vitamine E",
+    "additives": [
+      "eau",
+      "acide citrique",
+      "acide phosphorique",
+      "arôme framboise",
+      "arôme orange",
+      "sorbate de potassium",
+      "benzoate de sodium",
+      "sucralose",
+      "stévia"
+    ],
+    "url": "https://nutrivie.com/products/collagene-anti-age",
+    "ean": null,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Naticol",
+    "full_label": false,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://nutrivie.com/products/collagene-anti-age?variant=49622838018384"
+    },
+    "vegan": false,
+    "notes": "Prix affiché 15,90 € au lieu de 29,90 €, promotion avec DLUO annoncée au 30 janvier 2027. 2,5 g de collagène par shot ; doses secondaires non transcrites."
+  },
+  {
+    "brand": "Nutrivie",
+    "name": "Collagène Articulation",
+    "category": "collagen",
+    "variant": "300 g — cacao",
+    "price_eur": 33.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "form": "peptides de collagène marin Naticol types I et II, vitamine C et manganèse",
+    "additives": [
+      "poudre de cacao maigre",
+      "maltodextrine"
+    ],
+    "url": "https://nutrivie.com/products/collagene-articulation",
+    "ean": null,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Naticol",
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://nutrivie.com/products/collagene-articulation?variant=47650319663440"
+    },
+    "format": "powder",
+    "pack_g": 300,
+    "serving_g": 15,
+    "active_per_serving_g": 10,
+    "vegan": false,
+    "secondary_actives": [
+      {
+        "category": "vitamin_c",
+        "per_day": 80
+      }
+    ],
+    "notes": "15 g de poudre par jour apportant 10 g de collagène, 80 mg de vitamine C et 0,8 mg de manganèse ; 20 doses par pot. Prix promotionnel affiché de 33,90 €. Types I et II indiqués sur le tableau nutritionnel, aucune bonification liée à cette mention.",
+    "active_per_100g": 66.66666666666666
+  },
+  {
+    "brand": "Nutrivie",
+    "name": "Collagène Beauté",
+    "category": "collagen",
+    "variant": "200 g — matcha",
+    "price_eur": 29.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "form": "peptides de collagène marin Naticol types I/III, acide hyaluronique et vitamine C",
+    "additives": [
+      "poudre de feuilles de thé matcha",
+      "poudre de lait de coco",
+      "maltodextrine"
+    ],
+    "url": "https://nutrivie.com/products/collagene-beaute",
+    "ean": null,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Naticol",
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://nutrivie.com/products/collagene-beaute?variant=47550375854416"
+    },
+    "format": "powder",
+    "pack_g": 200,
+    "serving_g": 10,
+    "active_per_serving_g": 5,
+    "vegan": false,
+    "notes": "2 cuillères à café (10 g) : collagène 5 g, acide hyaluronique 100 mg et vitamine C 80 mg. 20 doses par pot.",
+    "active_per_100g": 50.0,
+    "secondary_actives": [
+      {
+        "category": "vitamin_c",
+        "per_day": 80
+      }
+    ]
+  },
+  {
+    "brand": "Cuure",
+    "name": "Magnesium L-Threonate",
+    "category": "magnesium",
+    "variant": "90 gélules",
+    "price_eur": 39.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 90,
+    "units_per_day": 3,
+    "unit_name": "gélule",
+    "active_per_unit": 51.333333333333336,
+    "active_unit": "mg elemental Mg",
+    "form": "magnésium L-thréonate Magtein",
+    "additives": [
+      "Poudre d'huile de coco",
+      "sels de magnésium d'acides gras",
+      "Gélule d'origine végétale (hydroxypropylméthylcellulose)"
+    ],
+    "url": "https://cuure.com/produits/magnesium-l-threonate",
+    "ean": "3760353423556",
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Magtein",
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://cuure.com/produits/magnesium-l-threonate"
+    },
+    "vegan": false,
+    "notes": "Étiquette : 2000 mg de L-thréonate apportent 154 mg de magnésium pour 3 gélules. Allergène lait déclaré ; aucune allégation de passage cérébral reprise."
+  },
+  {
+    "brand": "Cuure",
+    "name": "Vitamine C",
+    "category": "vitamin_c",
+    "variant": "90 comprimés",
+    "price_eur": 19.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 90,
+    "units_per_day": 1,
+    "unit_name": "comprimé",
+    "active_per_unit": 250,
+    "active_unit": "mg",
+    "form": "acide ascorbique PureWay-C avec acides gras et flavonoïdes de citrus",
+    "additives": [
+      "Cellulose microcristalline",
+      "Amidon de riz (Oryza sativa L)"
+    ],
+    "url": "https://cuure.com/produits/vitamine-c",
+    "ean": "3760353422887",
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "PureWay-C",
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://cuure.com/produits/vitamine-c"
+    },
+    "vegan": true,
+    "notes": "278 mg de complexe PureWay-C apportent 250 mg de vitamine C et 8 mg de flavonoïdes par comprimé."
+  },
+  {
+    "brand": "Cuure",
+    "name": "Créatine Creapure®",
+    "category": "creatine",
+    "variant": "204 g — nature",
+    "price_eur": 24.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "form": "créatine monohydrate Creapure",
+    "additives": [],
+    "url": "https://cuure.com/produits/creatine",
+    "ean": "3760353423693",
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Creapure",
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://cuure.com/produits/creatine"
+    },
+    "format": "powder",
+    "pack_g": 204,
+    "serving_g": 3.4,
+    "active_per_serving_g": 3,
+    "vegan": true,
+    "notes": "Étiquette : 3,4 g de monohydrate apportent 3,0 g de créatine. Poids net 204 g ; le poids logistique 220 g est exclu.",
+    "active_per_100g": 88.23529411764706
+  },
+  {
+    "brand": "Cuure",
+    "name": "Créatine",
+    "category": "creatine",
+    "variant": "102 g — nature",
+    "price_eur": 9.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "form": "créatine monohydrate",
+    "additives": [],
+    "url": "https://cuure.com/produits/creatine-monohydrate",
+    "ean": "3760353424386",
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://cuure.com/produits/creatine-monohydrate"
+    },
+    "format": "powder",
+    "pack_g": 102,
+    "serving_g": 3.4,
+    "active_per_serving_g": 3,
+    "vegan": true,
+    "notes": "30 doses de 3,4 g apportant chacune 3 g de créatine. Prix promotionnel affiché 9,90 € au lieu de 12,90 € ; formule sans ingrédient Creapure distincte de l’autre produit de la marque.",
+    "active_per_100g": 88.23529411764706
+  },
+  {
+    "brand": "Cuure",
+    "name": "Whey Isolate",
+    "category": "whey",
+    "variant": "900 g — vanille",
+    "price_eur": 56.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "form": "isolat de protéine de lactosérum",
+    "additives": [
+      "lécithine de tournesol",
+      "arôme naturel vanille",
+      "gomme xanthane",
+      "gomme de cellulose",
+      "sel",
+      "glycosides de stéviol"
+    ],
+    "url": "https://cuure.com/produits/whey-isolate",
+    "ean": "3760353423662",
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://cuure.com/produits/whey-isolate"
+    },
+    "format": "powder",
+    "pack_g": 900,
+    "serving_g": 30,
+    "active_per_serving_g": 25,
+    "active_per_100g": 83,
+    "vegan": false,
+    "notes": "Liste complète lue sur l’étiquette officielle (les données structurées ne listent que whey et arôme). 83 g/100 g ; portion 30 g annoncée à 25 g de protéines, arrondi fabricant. Poids net 900 g."
+  },
+  {
+    "brand": "Cuure",
+    "name": "Probiotiques",
+    "category": "probiotics",
+    "variant": "60 gélules",
+    "price_eur": 17.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 60,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 10,
+    "active_unit": "billion CFU",
+    "form": "Lactobacillus plantarum LP01 et Bifidobacterium breve BR03",
+    "additives": [
+      "Gélule d'origine végétale gastrorésistante DR caps™ (hypromellose, gomme gellane)",
+      "Oxyde de fer noir",
+      "Maltodextrine",
+      "sels de magnésium d'acides gras"
+    ],
+    "url": "https://cuure.com/produits/probiotiques",
+    "ean": "3760353422948",
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://cuure.com/produits/probiotiques"
+    },
+    "strains_count": 2,
+    "strains_coded": true,
+    "gastro_resistant": true,
+    "vegan": true,
+    "notes": ""
+  },
+  {
+    "brand": "Cuure",
+    "name": "B Complexe",
+    "category": "b_complex",
+    "variant": "180 comprimés",
+    "price_eur": 29.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 180,
+    "units_per_day": 1,
+    "unit_name": "comprimé",
+    "active_per_unit": 1,
+    "active_unit": "dose",
+    "form": "8 vitamines B, méthylfolate, méthylcobalamine, pyridoxine",
+    "additives": [
+      "Amidon de riz (Oryza sativa L)",
+      "Cellulose microcristalline"
+    ],
+    "url": "https://cuure.com/produits/complexe-vitamines-b",
+    "ean": "3760353422849",
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://cuure.com/produits/complexe-vitamines-b"
+    },
+    "form_quality": "bioactive",
+    "dose_style": "physiological",
+    "nutrients": {
+      "vitamin_b1": 1.1,
+      "vitamin_b2": 1.4,
+      "vitamin_b3": 16,
+      "vitamin_b5": 6,
+      "vitamin_b6": 1.4,
+      "biotin": 50,
+      "folate": 200,
+      "vitamin_b12": 2.5
+    },
+    "vegan": true,
+    "notes": ""
+  },
+  {
+    "brand": "Cuure",
+    "name": "Complexe Anti-chute Cheveux",
+    "category": "biotin",
+    "variant": "30 gélules",
+    "price_eur": 24.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 30,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 50,
+    "active_unit": "µg",
+    "form": "D-biotine, vitamines B5/B6, zinc bisglycinate, AnaGain, phytostérols de pin, cystine, méthionine et prêle",
+    "additives": [
+      "Gélule d'origine végétale (hydroxypropylméthylcellulose)"
+    ],
+    "url": "https://cuure.com/produits/complexe-anti-chute-cheveux",
+    "ean": "3760353422924",
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "AnaGain",
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://cuure.com/produits/complexe-anti-chute-cheveux"
+    },
+    "secondary_actives": [
+      {
+        "category": "zinc",
+        "per_day": 10
+      }
+    ],
+    "nutrients": {
+      "vitamin_b5": 6,
+      "vitamin_b6": 1.4
+    },
+    "notes": "Une gélule : biotine 50 µg, zinc 10 mg, B5 6 mg et B6 1,4 mg ; autres actifs : AnaGain 100 mg, phytostérols 100 mg, cystine 50 mg, méthionine 50 mg et prêle 45 mg."
+  },
+  {
+    "brand": "Cuure",
+    "name": "Collagène Marin",
+    "category": "collagen",
+    "variant": "210 g — poudre",
+    "price_eur": 29.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "form": "hydrolysats de collagène marin Naticol et Cartidyss",
+    "additives": [
+      "fibres d’acacia",
+      "arômes naturels"
+    ],
+    "url": "https://cuure.com/produits/collagene",
+    "ean": "3760353423181",
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Naticol / Cartidyss",
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://cuure.com/produits/collagene"
+    },
+    "format": "powder",
+    "pack_g": 210,
+    "serving_g": 7,
+    "active_per_serving_g": 5.3,
+    "secondary_actives": [
+      {
+        "category": "vitamin_c",
+        "per_day": 80
+      }
+    ],
+    "vegan": false,
+    "notes": "Étiquette : portion 7 g contenant 5 g de Naticol dont 4,7 g de protéines collagéniques, et 1 g de Cartidyss dont 0,6 g de protéines collagéniques. Actif retenu : 5,3 g de protéines collagéniques (pas 6 g de mélanges bruts). Vitamine C 80 mg.",
+    "active_per_100g": 75.71428571428571
+  },
+  {
+    "brand": "Cuure",
+    "name": "Rhodiola",
+    "category": "rhodiola",
+    "variant": "60 gélules",
+    "price_eur": 27.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 60,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 300,
+    "active_unit": "mg",
+    "form": "extrait de racine de Rhodiola rosea",
+    "additives": [
+      "Gélule d'origine végétale (hydroxypropylméthylcellulose)",
+      "Oxyde de fer noir",
+      "Cellulose microcristalline",
+      "Carbonate de calcium",
+      "Fibres d'avoine (Avena Sativa)",
+      "Huile de graine de tournesol  (Helianthus annuus)"
+    ],
+    "url": "https://cuure.com/produits/rhodiola",
+    "ean": "3760353422511",
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://cuure.com/produits/rhodiola"
+    },
+    "notes": "300 mg d’extrait par gélule ; titrage non crédité faute de teneur chiffrée confirmée sur l’étiquette."
+  },
+  {
+    "brand": "Cuure",
+    "name": "Zinc",
+    "category": "zinc",
+    "variant": "120 gélules",
+    "price_eur": 19.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 120,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 15,
+    "active_unit": "mg elemental Zn",
+    "form": "bisglycinate de zinc",
+    "additives": [
+      "Gélule d'origine végétale (hydroxypropylméthylcellulose)",
+      "Fécule de pomme de terre (Solanum Tuberosum spp.)"
+    ],
+    "url": "https://cuure.com/produits/zinc",
+    "ean": "3760353422665",
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://cuure.com/produits/zinc"
+    },
+    "vegan": true,
+    "notes": ""
+  },
+  {
+    "brand": "Cuure",
+    "name": "Complexe Peau, Cheveux & Ongles",
+    "category": "biotin",
+    "variant": "45 gélules",
+    "price_eur": 24.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 45,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 50,
+    "active_unit": "µg",
+    "form": "D-biotine, sélénite de sodium, citrate de zinc, vitamine B5, tocophérols naturels, méthionine et céramides de blé Ceramosides",
+    "additives": [
+      "huile de pépin de raisin",
+      "cellulose microcristalline",
+      "gélule HPMC"
+    ],
+    "url": "https://cuure.com/produits/complexe-peau-cheveux-ongles",
+    "ean": "3760353422931",
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Ceramosides",
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://cuure.com/produits/complexe-peau-cheveux-ongles"
+    },
+    "vegan": true,
+    "secondary_actives": [
+      {
+        "category": "zinc",
+        "per_day": 10
+      }
+    ],
+    "nutrients": {
+      "selenium": 55,
+      "vitamin_e": 12,
+      "vitamin_b5": 8
+    },
+    "notes": "Par gélule : biotine 50 µg, zinc 10 mg, sélénium 55 µg, E 12 mg, B5 8 mg ; méthionine 100 mg et extrait lipidique de blé 70 mg."
+  },
+  {
+    "brand": "Cuure",
+    "name": "Probiotiques Peau",
+    "category": "probiotics",
+    "variant": "60 gélules",
+    "price_eur": 27.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 60,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 3,
+    "active_unit": "billion CFU",
+    "form": "Lactobacillus reuteri PBS072, L. rhamnosus LRH020 et L. plantarum PBS067",
+    "additives": [
+      "Maltodextrine",
+      "Gélule d'origine végétale gastrorésistante DR caps™ (hypromellose, gomme gellane)",
+      "Oxyde de fer noir"
+    ],
+    "url": "https://cuure.com/produits/probiotiques-peau",
+    "ean": "3760353422443",
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "SynbAEctive Probeauty shield",
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://cuure.com/produits/probiotiques-peau"
+    },
+    "strains_count": 3,
+    "strains_coded": true,
+    "gastro_resistant": true,
+    "secondary_actives": [
+      {
+        "category": "biotin",
+        "per_day": 50
+      }
+    ],
+    "vegan": true,
+    "notes": ""
+  },
+  {
+    "brand": "Cuure",
+    "name": "Probiotiques Flore Intime",
+    "category": "probiotics",
+    "variant": "60 gélules",
+    "price_eur": 27.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 60,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 3,
+    "active_unit": "billion CFU",
+    "form": "Lactobacillus rhamnosus LRH020, B. lactis BL050 et L. plantarum PBS067",
+    "additives": [
+      "Maltodextrine",
+      "Gélule d'origine végétale gastrorésistante DR caps™ (hypromellose, gomme gellane)",
+      "Oxyde de fer noir"
+    ],
+    "url": "https://cuure.com/produits/probiotiques-flore-vaginale",
+    "ean": "3760353422474",
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "SynbAEctive Femme",
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://cuure.com/produits/probiotiques-flore-vaginale"
+    },
+    "strains_count": 3,
+    "strains_coded": true,
+    "gastro_resistant": true,
+    "nutrients": {
+      "vitamin_b3": 16
+    },
+    "vegan": true,
+    "notes": ""
+  },
+  {
+    "brand": "Cuure",
+    "name": "L-Gasseri",
+    "category": "probiotics",
+    "variant": "30 gélules",
+    "price_eur": 24.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 30,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 10,
+    "active_unit": "billion CFU",
+    "form": "Lactobacillus gasseri, code de souche non indiqué sur l’étiquette",
+    "additives": [
+      "Gélule d'origine végétale gastrorésistante DR caps™ (hypromellose, gomme gellane)",
+      "Maltodextrine",
+      "Oxyde de fer noir"
+    ],
+    "url": "https://cuure.com/produits/l-gasseri",
+    "ean": "3760353423242",
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://cuure.com/produits/l-gasseri"
+    },
+    "strains_count": 1,
+    "strains_coded": false,
+    "gastro_resistant": true,
+    "nutrients": {
+      "chromium": 40
+    },
+    "notes": "10 milliards UFC par gélule ; chrome 40 µg sous forme de picolinate. Le code de souche n’est pas renseigné sur l’étiquette consultée."
+  },
+  {
+    "brand": "Cuure",
+    "name": "Acérola",
+    "category": "vitamin_c",
+    "variant": "60 comprimés",
+    "price_eur": 27.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 60,
+    "units_per_day": 1,
+    "unit_name": "comprimé",
+    "active_per_unit": 100,
+    "active_unit": "mg",
+    "form": "poudre de jus de fruit d’acérola enrichie en vitamine C",
+    "additives": [
+      "Fécule de manioc (Manihot esculenta)",
+      "Amidon de riz (Oryza sativa L)",
+      "Fibre d'acacia (Acacia senegal (L.) Willd.)"
+    ],
+    "url": "https://cuure.com/produits/acerola",
+    "ean": "3760353423501",
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://cuure.com/produits/acerola"
+    },
+    "vegan": true,
+    "notes": ""
+  },
+  {
+    "brand": "Cuure",
+    "name": "Maca",
+    "category": "maca",
+    "variant": "60 gélules",
+    "price_eur": 22.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 60,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 375,
+    "active_unit": "mg",
+    "form": "extrait de racine de Maca (Lepidium meyenii)",
+    "additives": [
+      "Huile de graine de tournesol  (Helianthus annuus)",
+      "Gélule d'origine végétale (hydroxypropylméthylcellulose)",
+      "Cellulose microcristalline",
+      "Fibres d'avoine (Avena Sativa)",
+      "Oxyde de fer jaune",
+      "Oxyde de fer rouge"
+    ],
+    "url": "https://cuure.com/produits/maca",
+    "ean": "3760353422719",
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://cuure.com/produits/maca"
+    },
+    "notes": "Dose minimale fabricant retenue : 1 gélule de 375 mg par jour. La plage fabricant va de 1 à 4 gélules/jour (15 à 60 jours par flacon)."
+  },
+  {
+    "brand": "Cuure",
+    "name": "Boost Sommeil",
+    "category": "melatonin",
+    "variant": "30 ml — framboise",
+    "price_eur": 9.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 30,
+    "units_per_day": 1,
+    "unit_name": "ml",
+    "active_per_unit": 1,
+    "active_unit": "mg",
+    "form": "mélatonine",
+    "additives": [
+      "eau",
+      "glycérine végétale",
+      "arôme framboise",
+      "acide citrique",
+      "sorbate de potassium",
+      "glycosides de stéviol"
+    ],
+    "url": "https://cuure.com/produits/boost-sommeil",
+    "ean": "3760353421507",
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://cuure.com/produits/boost-sommeil"
+    },
+    "vegan": true,
+    "notes": "2 pipettes = 1 ml = 1 mg de mélatonine. 30 doses par flacon."
+  },
+  {
+    "brand": "Cuure",
+    "name": "Oméga 3",
+    "category": "omega3",
+    "variant": "60 gélules",
+    "price_eur": 22.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 60,
+    "units_per_day": 3,
+    "unit_name": "gélule",
+    "active_per_unit": 350,
+    "active_unit": "mg EPA+DHA",
+    "form": "huile de poisson EPAX, EPA et DHA",
+    "additives": [
+      "gélule HPMC",
+      "tocophérols naturels"
+    ],
+    "url": "https://cuure.com/produits/omega-3",
+    "ean": "3760353422702",
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "EPAX",
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://cuure.com/produits/omega-3"
+    },
+    "vegan": false,
+    "notes": "Dose retenue : 3 gélules, maximum de la plage fabricant 1 à 3. Étiquette : 3 gélules apportent 1500 mg d’huile de poisson EPAX, EPA 600 mg + DHA 450 mg = 1050 mg. Aucune analyse de lot consultée, donc aucun crédit COA."
+  },
+  {
+    "brand": "Cuure",
+    "name": "Vitamine D3",
+    "category": "vitamin_d3",
+    "variant": "180 capsules",
+    "price_eur": 19.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 180,
+    "units_per_day": 1,
+    "unit_name": "capsule",
+    "active_per_unit": 800,
+    "active_unit": "IU",
+    "form": "cholécalciférol sur huile de tournesol",
+    "additives": [
+      "huile de tournesol",
+      "gélatine de poisson",
+      "glycérol"
+    ],
+    "url": "https://cuure.com/produits/vitamine-d",
+    "ean": "3760353422900",
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://cuure.com/produits/vitamine-d"
+    },
+    "vegan": false,
+    "notes": "Dose minimale fabricant retenue : 1 capsule/jour, 20 µg = 800 UI. Plage indiquée de 1 à 3 capsules ; tableau pour 3 capsules : 60 µg = 2400 UI. Enveloppe de poisson, traces de coco déclarées."
+  },
+  {
+    "brand": "Cuure",
+    "name": "Vitamine D3 Vegan",
+    "category": "vitamin_d3",
+    "variant": "120 gélules",
+    "price_eur": 27.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 120,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 800,
+    "active_unit": "IU",
+    "form": "cholécalciférol issu d’algues Vita-algae D",
+    "additives": [
+      "Concentré de pomme (Malus domestica)",
+      "Concentré de radis (Raphanus sativus)",
+      "Concentré de carthame (Carthamus tinctorius)",
+      "Concentré de citron (Citrus limon)",
+      "Concentré de cassis (Ribes nigrum)",
+      "Amidon de riz (Oryza sativa L)",
+      "Gélule d'origine végétale (hydroxypropylméthylcellulose)"
+    ],
+    "url": "https://cuure.com/produits/vitamine-d-vegan",
+    "ean": "3760353422795",
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://cuure.com/produits/vitamine-d-vegan"
+    },
+    "vegan": true,
+    "notes": "Dose minimale fabricant retenue : 1 gélule/jour, 20 µg = 800 UI. Plage fabricant de 1 à 3 gélules. Colorants végétaux déclarés dans la liste complète."
+  },
+  {
+    "brand": "Cuure",
+    "name": "Magnésium Sucrosomial",
+    "category": "magnesium",
+    "variant": "60 gélules",
+    "price_eur": 14.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 60,
+    "units_per_day": 2,
+    "unit_name": "gélule",
+    "active_per_unit": 68,
+    "active_unit": "mg elemental Mg",
+    "form": "oxyde de magnésium sucrosomial Sidemag",
+    "additives": [
+      "Gélule d'origine végétale (hydroxypropylméthylcellulose)",
+      "Amidon de riz (Oryza sativa L)",
+      "Sucroesters d'acides gras",
+      "Lécithine de tournesol"
+    ],
+    "url": "https://cuure.com/produits/magnesium",
+    "ean": "3760353424416",
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Sidemag",
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://cuure.com/produits/magnesium"
+    },
+    "nutrients": {
+      "vitamin_b6": 2.8
+    },
+    "notes": "Dose retenue : 2 gélules/jour, maximum de la plage fabricant 1 à 2. Pour 2 gélules : 425 mg de Sidemag apportent 136 mg de magnésium élémentaire ; taurine 100 mg et B6 2,8 mg. Forme oxyde sucrosomial explicitement indiquée sur l’étiquette, aucune conversion en équivalence magnésium marin."
+  },
+  {
+    "brand": "Cuure",
+    "name": "Complexe Collagène",
+    "category": "collagen",
+    "variant": "45 gélules",
+    "price_eur": 19.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 45,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 0.066,
+    "active_unit": "g collagen",
+    "form": "extrait de membrane d’œuf REGGENERATE et vitamine C",
+    "additives": [
+      "spiruline",
+      "gélule HPMC",
+      "amidon de pomme de terre"
+    ],
+    "url": "https://cuure.com/produits/complexe-collagene",
+    "ean": "3760353424140",
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "REGGENERATE",
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://cuure.com/produits/complexe-collagene"
+    },
+    "vegan": false,
+    "secondary_actives": [
+      {
+        "category": "vitamin_c",
+        "per_day": 80
+      }
+    ],
+    "notes": "Par gélule : 300 mg de membrane d’œuf apportent 66 mg de collagène (0,066 g), 75 mg d’élastine, 9 mg d’acide hyaluronique, 6 mg de glucosamine, 6 mg de chondroïtine et 3 mg de kératine. Vitamine C 80 mg ; les 300 mg de membrane ne sont pas assimilés à 300 mg de collagène."
+  },
+  {
+    "brand": "Nutrivie",
+    "name": "Vitamine C Liposomale",
+    "category": "vitamin_c",
+    "variant": "20 ampoules",
+    "price_eur": 19.6,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 20,
+    "units_per_day": 1,
+    "unit_name": "ampoule",
+    "active_per_unit": 200,
+    "active_unit": "mg",
+    "form": "ascorbate de sodium en complexe liposomal à phosphatidylcholine de tournesol",
+    "additives": [
+      "eau",
+      "glycérine végétale",
+      "lécithine de tournesol",
+      "sorbate de potassium",
+      "glycosides de stéviol",
+      "acide citrique",
+      "arôme naturel orange"
+    ],
+    "url": "https://nutrivie.com/products/ampoule-vitamine-c-liposomale",
+    "ean": null,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://nutrivie.com/products/ampoule-vitamine-c-liposomale?variant=43453490135279"
+    },
+    "notes": "Le tableau nutritionnel distingue 1000 mg de complexe liposomal dont 200 mg de vitamine C active par ampoule. Le calcul utilise 200 mg, sans attribuer la masse du complexe à la vitamine."
+  },
+  {
+    "brand": "Cuure",
+    "name": "Électrolytes",
+    "category": "potassium",
+    "variant": "15 pastilles — citron gingembre",
+    "price_eur": 12.9,
+    "price_note": "Prix public fabricant relevé le 9 octobre 2026, achat unique hors livraison, abonnement et code promotionnel.",
+    "units_pack": 15,
+    "units_per_day": 1,
+    "unit_name": "pastille",
+    "active_per_unit": 405,
+    "active_unit": "mg elemental K",
+    "form": "chlorure de potassium, bisglycinate de magnésium, citrate de calcium, chlorure et bicarbonate de sodium, vitamines C/B1/B6",
+    "additives": [
+      "sorbitol",
+      "acide citrique",
+      "arômes naturels",
+      "polyéthylène glycol",
+      "glycosides de stéviol"
+    ],
+    "url": "https://cuure.com/produits/electrolytes",
+    "ean": "3760353424225",
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://cuure.com/produits/electrolytes"
+    },
+    "secondary_actives": [
+      {
+        "category": "magnesium",
+        "per_day": 56
+      },
+      {
+        "category": "vitamin_c",
+        "per_day": 80
+      }
+    ],
+    "nutrients": {
+      "calcium": 120,
+      "vitamin_b1": 1.1,
+      "vitamin_b6": 1.4
+    },
+    "vegan": true,
+    "notes": "Étiquette pour 1 pastille : potassium 405 mg, Mg 56 mg, Ca 120 mg, C 80 mg, B1 1,1 mg, B6 1,4 mg ; chlorure 669 mg et sodium 310 mg. 15 pastilles par tube ; la route citron-gingembre correspond au même EAN et n’est pas dupliquée."
+  }
+]

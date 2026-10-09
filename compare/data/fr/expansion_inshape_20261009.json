@@ -1,0 +1,390 @@
+[
+  {
+    "category": "whey",
+    "brand": "InShape Nutrition",
+    "name": "Clear Whey",
+    "variant": "Sachet de 500 g · Orange",
+    "price_eur": 39.9,
+    "price_note": "Prix fabricant du format exact relevé le 9 octobre 2026, hors livraison et codes de réduction.",
+    "form": "isolat de protéines de petit-lait",
+    "additives": [
+      "dioxyde de silicium",
+      "arômes",
+      "acide citrique",
+      "citrate de potassium",
+      "citrate de sodium",
+      "bêta-carotène",
+      "sucralose",
+      "acide malique"
+    ],
+    "vegan": false,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "url": "https://www.inshape-nutrition.com/products/clear-whey",
+    "ean": null,
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.inshape-nutrition.com/products/clear-whey?variant=48479075598661"
+    },
+    "format": "powder",
+    "pack_g": 500,
+    "serving_g": 25,
+    "active_per_100g": 79,
+    "active_per_serving_g": 19.75,
+    "notes": "Variante orange : 79 g de protéines pour 100 g de poudre, soit 19,75 g pour la dosette de 25 g recommandée. Les autres parfums ne sont pas dupliqués. Allergène : lait. Traces possibles de poisson, soja et gluten."
+  },
+  {
+    "category": "melatonin",
+    "brand": "InShape Nutrition",
+    "name": "Mélatonine & Sommeil",
+    "variant": "Pilulier de 60 gélules · Neutre",
+    "price_eur": 19.9,
+    "price_note": "Prix fabricant du format exact relevé le 9 octobre 2026, hors livraison et codes de réduction.",
+    "form": "mélatonine, GABA et L-tryptophane",
+    "additives": [
+      "pullulan",
+      "sels de magnésium d’acides gras"
+    ],
+    "vegan": null,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [
+      "Le fabricant déconseille ce produit aux enfants, adolescents, femmes enceintes ou allaitantes et en cas de maladies inflammatoires ou auto-immunes. Avis médical demandé notamment en cas d’épilepsie, asthme ou troubles de l’humeur ; risque de somnolence."
+    ],
+    "url": "https://www.inshape-nutrition.com/products/melatonine-sommeil",
+    "ean": null,
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.inshape-nutrition.com/products/melatonine-sommeil?variant=58429174382917"
+    },
+    "units_pack": 60,
+    "units_per_day": 2,
+    "unit_name": "gélule",
+    "active_per_unit": 0.9,
+    "active_unit": "mg",
+    "notes": "Deux gélules : 1,8 mg de mélatonine, 400 mg de GABA et 200 mg de L-tryptophane. La dose correspond aux conseils fabricant avant le coucher."
+  },
+  {
+    "category": "collagen",
+    "brand": "InShape Nutrition",
+    "name": "Collagène marin",
+    "variant": "60 gélules",
+    "price_eur": 19.9,
+    "price_note": "Prix fabricant du format exact relevé le 9 octobre 2026, hors livraison et codes de réduction.",
+    "form": "peptides de collagène marin hydrolysé de type I, 2000 Da, acide L-ascorbique et acide hyaluronique",
+    "additives": [
+      "pullulan",
+      "sels de magnésium d’acides gras"
+    ],
+    "vegan": false,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "url": "https://www.inshape-nutrition.com/products/collagene-marin",
+    "ean": null,
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.inshape-nutrition.com/products/collagene-marin?variant=58083367027013"
+    },
+    "units_pack": 60,
+    "units_per_day": 2,
+    "unit_name": "gélule",
+    "active_per_unit": 0.4,
+    "active_unit": "g collagen",
+    "secondary_actives": [
+      {
+        "category": "vitamin_c",
+        "per_day": 160
+      }
+    ],
+    "notes": "Deux gélules apportent 800 mg = 0,8 g de collagène, 160 mg de vitamine C et 80 mg d’acide hyaluronique. Allergène : poisson. Le conditionnement de 60 gélules figure dans la description du produit."
+  },
+  {
+    "category": "ashwagandha",
+    "brand": "InShape Nutrition",
+    "name": "Ashwagandha KSM66® bio",
+    "variant": "Pilulier de 60 gélules",
+    "price_eur": 24.9,
+    "price_note": "Prix fabricant du format exact relevé le 9 octobre 2026, hors livraison et codes de réduction.",
+    "form": "extrait de racine d’ashwagandha KSM-66® titré à 5 % de withanolides",
+    "additives": [
+      "hydroxypropylméthylcellulose",
+      "farine de coco"
+    ],
+    "vegan": true,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "KSM-66®",
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [
+      "Le fabricant déconseille la prise aux enfants, adolescents, femmes enceintes ou allaitantes, personnes ayant un trouble endocrinien, hépatique ou cardiaque, avant la conduite et avec des substances sédatives."
+    ],
+    "url": "https://www.inshape-nutrition.com/products/ashwagandha",
+    "ean": null,
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.inshape-nutrition.com/products/ashwagandha?variant=55153932239173"
+    },
+    "units_pack": 60,
+    "units_per_day": 2,
+    "unit_name": "gélule",
+    "active_per_unit": 750,
+    "active_unit": "mg",
+    "notes": "Le tableau fabricant déclare 1 500 mg d’extrait et 75 mg de withanolides pour 2 gélules ; cette quantité élevée n’a pas été remplacée par une dose d’essai. Certification biologique annoncée mais document non consulté."
+  },
+  {
+    "category": "collagen",
+    "brand": "InShape Nutrition",
+    "name": "Collagène",
+    "variant": "Sachet de 250 g · Neutre",
+    "price_eur": 27.9,
+    "price_note": "Prix fabricant du format exact relevé le 9 octobre 2026, hors livraison et codes de réduction.",
+    "form": "peptides de collagène bovin hydrolysé Peptan® et acide L-ascorbique",
+    "additives": [],
+    "vegan": false,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": "Peptan®",
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "url": "https://www.inshape-nutrition.com/products/collagene",
+    "ean": null,
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.inshape-nutrition.com/products/collagene?variant=49593867370821"
+    },
+    "format": "powder",
+    "pack_g": 250,
+    "serving_g": 10,
+    "active_per_100g": 98.8,
+    "active_per_serving_g": 9.88,
+    "secondary_actives": [
+      {
+        "category": "vitamin_c",
+        "per_day": 80
+      }
+    ],
+    "notes": "Variante neutre : 9,88 g de peptides de collagène et 80 mg de vitamine C pour 10 g de poudre. Pas d’arômes ou édulcorants déclarés pour cette variante. Traces possibles de lait, poisson, soja et gluten."
+  },
+  {
+    "category": "magnesium",
+    "brand": "InShape Nutrition",
+    "name": "Magnésium Bisglycinate",
+    "variant": "Pilulier de 90 gélules",
+    "price_eur": 19.9,
+    "price_note": "Prix fabricant du format exact relevé le 9 octobre 2026, hors livraison et codes de réduction.",
+    "form": "bisglycinate de magnésium",
+    "additives": [
+      "hydroxypropylméthylcellulose",
+      "sels de magnésium d’acides gras"
+    ],
+    "vegan": true,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "url": "https://www.inshape-nutrition.com/products/magnesium",
+    "ean": null,
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.inshape-nutrition.com/products/magnesium?variant=54475492622661"
+    },
+    "units_pack": 90,
+    "units_per_day": 3,
+    "unit_name": "gélule",
+    "active_per_unit": 120,
+    "active_unit": "mg elemental Mg",
+    "notes": "Le tableau distingue 1 800 mg de bisglycinate de magnésium et 360 mg de magnésium élémentaire pour 3 gélules. Calcul fondé sur le magnésium élémentaire, pas sur la masse du sel."
+  },
+  {
+    "category": "omega3",
+    "brand": "InShape Nutrition",
+    "name": "Oméga 3",
+    "variant": "Pilulier de 30 capsules",
+    "price_eur": 9.9,
+    "price_note": "Prix fabricant du format exact relevé le 9 octobre 2026, hors livraison et codes de réduction.",
+    "form": "huile de poisson, forme lipidique non précisée",
+    "additives": [
+      "gélatine bovine",
+      "glycérol",
+      "extrait riche en tocophérols"
+    ],
+    "vegan": false,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "url": "https://www.inshape-nutrition.com/products/omega-3",
+    "ean": null,
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.inshape-nutrition.com/products/omega-3?variant=41917611049178"
+    },
+    "units_pack": 30,
+    "units_per_day": 1,
+    "unit_name": "capsule",
+    "active_per_unit": 300,
+    "active_unit": "mg EPA+DHA",
+    "notes": "Une capsule contient 1 000 mg d’huile de poisson, 350 mg d’oméga-3 totaux, dont 180 mg d’EPA et 120 mg de DHA. Le comparateur utilise seulement 300 mg d’EPA+DHA. Forme TG/EE et analyses TOTOX non documentées dans la fiche consultée. Allergène : poisson."
+  },
+  {
+    "category": "zinc",
+    "brand": "InShape Nutrition",
+    "name": "Zinc Bisglycinate",
+    "variant": "Pilulier de 90 gélules",
+    "price_eur": 19.9,
+    "price_note": "Prix fabricant du format exact relevé le 9 octobre 2026, hors livraison et codes de réduction.",
+    "form": "bisglycinate de zinc",
+    "additives": [
+      "cellulose",
+      "hydroxypropylméthylcellulose",
+      "sels de magnésium d’acides gras"
+    ],
+    "vegan": null,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "url": "https://www.inshape-nutrition.com/products/bisglycinate-de-zinc",
+    "ean": null,
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.inshape-nutrition.com/products/bisglycinate-de-zinc?variant=56079527543109"
+    },
+    "units_pack": 90,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": 15,
+    "active_unit": "mg elemental Zn",
+    "notes": "Une gélule contient 50 mg de bisglycinate, dont 15 mg de zinc élémentaire. Le comparateur utilise la quantité élémentaire."
+  },
+  {
+    "category": "multivitamin",
+    "brand": "InShape Nutrition",
+    "name": "Multivitamines",
+    "variant": "Pilulier de 60 gélules",
+    "price_eur": 24.9,
+    "price_note": "Prix fabricant du format exact relevé le 9 octobre 2026, hors livraison et codes de réduction.",
+    "form": "13 vitamines et 9 minéraux : oxyde de magnésium, citrate de zinc, fer bisglycinate, folate acide folique, cyanocobalamine, cholécalciférol, rétinyle et vitamine K1",
+    "additives": [
+      "hydroxypropylméthylcellulose",
+      "sels de magnésium d’acides gras"
+    ],
+    "vegan": null,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [
+      "Le fabricant déconseille la prise aux enfants, adolescents, femmes enceintes ou souhaitant l’être et allaitantes ; apport de vitamine K déconseillé sous anticoagulants.",
+      "Rupture de stock dans le catalogue fabricant au contrôle du 9 octobre 2026."
+    ],
+    "url": "https://www.inshape-nutrition.com/products/multivitamines",
+    "ean": null,
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.inshape-nutrition.com/products/multivitamines?variant=41917611081946"
+    },
+    "units_pack": 60,
+    "units_per_day": 1,
+    "unit_name": "gélule",
+    "active_per_unit": null,
+    "active_unit": null,
+    "form_quality": "cheap",
+    "dose_style": "gaps",
+    "nutrients": {
+      "calcium": 120,
+      "chromium": 25,
+      "iron": 4.2,
+      "iodine": 75,
+      "magnesium": 56.7,
+      "selenium": 55,
+      "zinc": 10,
+      "vitamin_b1": 1.1,
+      "vitamin_b2": 1.4,
+      "vitamin_b3": 16,
+      "vitamin_b5": 6,
+      "vitamin_b6": 1.4,
+      "biotin": 150,
+      "folate": 200,
+      "vitamin_b12": 2.5,
+      "vitamin_c": 80,
+      "vitamin_d3": 200,
+      "vitamin_e": 12
+    },
+    "nutrients_source": "Tableau fabricant pour 1 gélule consulté le 9 octobre 2026. Vitamine D3 : 5 µg × 40 = 200 UI. Les autres nutriments non pris en charge par l’affichage sont conservés dans les notes.",
+    "notes": "Une gélule contient aussi : vitamine A 800 µg, cuivre 1 mg, manganèse 2 mg et vitamine K1 75 µg. La K1 n’est pas assimilée à la K2. Vitamine D3 : 5 µg = 200 UI ; fer 4,2 mg, magnésium 56,7 mg et calcium 120 mg. Aucun zéro supposé pour un nutriment non quantifié."
+  },
+  {
+    "category": "creatine",
+    "brand": "InShape Nutrition",
+    "name": "Créatine en gélules",
+    "variant": "Pilulier de 120 gélules",
+    "price_eur": 29.9,
+    "price_note": "Prix fabricant du format exact relevé le 9 octobre 2026, hors livraison et codes de réduction.",
+    "form": "créatine monohydrate",
+    "additives": [
+      "hydroxypropylméthylcellulose",
+      "sels de magnésium d’acides gras"
+    ],
+    "vegan": true,
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [],
+    "url": "https://www.inshape-nutrition.com/products/creatine",
+    "ean": null,
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-09",
+      "source_url": "https://www.inshape-nutrition.com/products/creatine?variant=42189263798490"
+    },
+    "units_pack": 120,
+    "units_per_day": 4,
+    "unit_name": "gélule",
+    "active_per_unit": 0.75,
+    "active_unit": "g creatine",
+    "active_per_serving_g": 3,
+    "notes": "Quatre gélules apportent 3 000 mg = 3 g de créatine selon le tableau fabricant. La masse du monohydrate n’est pas confondue avec la quantité de créatine déclarée. Aucun label Creapure déclaré."
+  }
+]

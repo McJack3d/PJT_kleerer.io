@@ -87,6 +87,24 @@ sources:
     ean: null
     render: js
 
+  - id: greenwhey-ashwagandha-bio-ksm-66-60-gelules
+    product_id: greenwhey-ashwagandha-bio-ksm-66-60-gelules
+    brand: Greenwhey
+    name: "Ashwagandha bio KSM-66"
+    category: ashwagandha
+    url: https://greenwhey.com/products/ashwagandha-bio-ksm66
+    ean: null
+    render: js
+
+  - id: inshape-nutrition-ashwagandha-ksm66-bio-pilulier-de-60-gelules
+    product_id: inshape-nutrition-ashwagandha-ksm66-bio-pilulier-de-60-gelules
+    brand: "InShape Nutrition"
+    name: "Ashwagandha KSM66® bio"
+    category: ashwagandha
+    url: https://www.inshape-nutrition.com/products/ashwagandha
+    ean: null
+    render: js
+
   - id: myprotein-ashwagandha-en-pastilles-gelifiees-pomme-rouge-extra-strength-60-gummies
     product_id: myprotein-ashwagandha-en-pastilles-gelifiees-pomme-rouge-extra-strength-60-gummies
     brand: Myprotein
@@ -168,6 +186,24 @@ sources:
     ean: null
     render: static
 
+  - id: nutrivie-ashwagandha-bio-1200mg-60-gelules
+    product_id: nutrivie-ashwagandha-bio-1200mg-60-gelules
+    brand: Nutrivie
+    name: "Ashwagandha Bio 1200mg"
+    category: ashwagandha
+    url: https://nutrivie.com/products/ashwagandha-bio-1200mg
+    ean: null
+    render: js
+
+  - id: nutrivie-ashwagandha-bio-ampoules-20-ampoules
+    product_id: nutrivie-ashwagandha-bio-ampoules-20-ampoules
+    brand: Nutrivie
+    name: "Ashwagandha Bio Ampoules"
+    category: ashwagandha
+    url: https://nutrivie.com/products/ampoules-ashwagandha-bio
+    ean: null
+    render: js
+
   - id: nutrixeal-ashwagandha-bio-600-mg-60-gelules
     product_id: nutrixeal-ashwagandha-bio-600-mg-60-gelules
     brand: Nutrixeal
@@ -238,6 +274,24 @@ sources:
     category: ashwagandha
     url: https://www.sunday.fr/muscle-recover-sport-ashwagandha-complexe.html
     ean: 4260677592864
+    render: js
+
+  - id: twenty-dc-ashwagandha-ksm-66-pilulier-de-60-gelules
+    product_id: twenty-dc-ashwagandha-ksm-66-pilulier-de-60-gelules
+    brand: "Twenty DC"
+    name: "Ashwagandha KSM-66®"
+    category: ashwagandha
+    url: https://twentydc.com/products/ashwagandha-ksm-66?variant=53559118004557
+    ean: 7350057189962
+    render: js
+
+  - id: cuure-b-complexe-180-comprimes
+    product_id: cuure-b-complexe-180-comprimes
+    brand: Cuure
+    name: "B Complexe"
+    category: b_complex
+    url: https://cuure.com/produits/complexe-vitamines-b
+    ean: 3760353422849
     render: js
 
   - id: dynveo-complexe-vitamines-b-gelules-60
@@ -339,6 +393,15 @@ sources:
     ean: null
     render: js
 
+  - id: cuure-complexe-anti-chute-cheveux-30-gelules
+    product_id: cuure-complexe-anti-chute-cheveux-30-gelules
+    brand: Cuure
+    name: "Complexe Anti-chute Cheveux"
+    category: biotin
+    url: https://cuure.com/produits/complexe-anti-chute-cheveux
+    ean: 3760353422924
+    render: js
+
   - id: myvitamins-myprotein-biotine-en-comprime-30-comprimes
     product_id: myvitamins-myprotein-biotine-en-comprime-30-comprimes
     brand: "Myvitamins (Myprotein)"
@@ -420,6 +483,24 @@ sources:
     ean: null
     render: js
 
+  - id: am-nutrition-pure-collagene-marin-naticol-neutre-500-g
+    product_id: am-nutrition-pure-collagene-marin-naticol-neutre-500-g
+    brand: "AM Nutrition"
+    name: "PURE Collagène marin Naticol®"
+    category: collagen
+    url: https://www.amnutrition.fr/products/pure-collagene-marin-naticol
+    ean: null
+    render: js
+
+  - id: am-nutrition-pure-collagene-peptan-neutre-1-kg
+    product_id: am-nutrition-pure-collagene-peptan-neutre-1-kg
+    brand: "AM Nutrition"
+    name: "PURE Collagène Peptan®"
+    category: collagen
+    url: https://www.amnutrition.fr/products/peptides-de-collagene-peptan
+    ean: null
+    render: js
+
   - id: biocyte-collagen-max-cacao-260-g
     product_id: biocyte-collagen-max-cacao-260-g
     brand: Biocyte
@@ -465,6 +546,24 @@ sources:
     ean: null
     render: js
 
+  - id: cuure-collagene-marin-210-g-poudre
+    product_id: cuure-collagene-marin-210-g-poudre
+    brand: Cuure
+    name: "Collagène Marin"
+    category: collagen
+    url: https://cuure.com/produits/collagene
+    ean: 3760353423181
+    render: js
+
+  - id: cuure-complexe-collagene-45-gelules
+    product_id: cuure-complexe-collagene-45-gelules
+    brand: Cuure
+    name: "Complexe Collagène"
+    category: collagen
+    url: https://cuure.com/produits/complexe-collagene
+    ean: 3760353424140
+    render: js
+
   - id: d-lab-absolu-de-collagene-flacon-verre-84-comprimes
     product_id: d-lab-absolu-de-collagene-flacon-verre-84-comprimes
     brand: D-Lab
@@ -501,6 +600,24 @@ sources:
     ean: null
     render: js
 
+  - id: eiyolab-collagene-marin-en-gelule-peptan-120-gelules
+    product_id: eiyolab-collagene-marin-en-gelule-peptan-120-gelules
+    brand: Eiyolab
+    name: "Collagène marin en gélule - Peptan®"
+    category: collagen
+    url: https://eiyolab.com/products/collagene-marin-gelule-peptan
+    ean: null
+    render: js
+
+  - id: eiyolab-collagene-marin-en-poudre-peptan-neutre-250-g
+    product_id: eiyolab-collagene-marin-en-poudre-peptan-neutre-250-g
+    brand: Eiyolab
+    name: "Collagène marin en poudre - Peptan®"
+    category: collagen
+    url: https://eiyolab.com/products/collagene-marin-poudre-peptan
+    ean: null
+    render: js
+
   - id: epycure-cure-collagene-vegetarien-60-gelules
     product_id: epycure-cure-collagene-vegetarien-60-gelules
     brand: Epycure
@@ -510,12 +627,39 @@ sources:
     ean: null
     render: js
 
+  - id: greenwhey-peptides-de-collagene-peptan-nature-300-g
+    product_id: greenwhey-peptides-de-collagene-peptan-nature-300-g
+    brand: Greenwhey
+    name: "Peptides de Collagène PEPTAN®"
+    category: collagen
+    url: https://greenwhey.com/products/peptides-de-collagene-peptan
+    ean: null
+    render: js
+
   - id: holidermie-sticks-collagene-vitamine-c-ah-neutre-15-sticks
     product_id: holidermie-sticks-collagene-vitamine-c-ah-neutre-15-sticks
     brand: Holidermie
     name: "Sticks Collagène + Vitamine C & AH"
     category: collagen
     url: https://www.holidermie.com/products/complement-collagene-en-poudre-gout-neutre-sticks
+    ean: null
+    render: js
+
+  - id: inshape-nutrition-collagene-marin-60-gelules
+    product_id: inshape-nutrition-collagene-marin-60-gelules
+    brand: "InShape Nutrition"
+    name: "Collagène marin"
+    category: collagen
+    url: https://www.inshape-nutrition.com/products/collagene-marin
+    ean: null
+    render: js
+
+  - id: inshape-nutrition-collagene-sachet-de-250-g-neutre
+    product_id: inshape-nutrition-collagene-sachet-de-250-g-neutre
+    brand: "InShape Nutrition"
+    name: Collagène
+    category: collagen
+    url: https://www.inshape-nutrition.com/products/collagene
     ean: null
     render: js
 
@@ -681,6 +825,24 @@ sources:
     ean: null
     render: js
 
+  - id: nutrivie-collagene-articulation-300-g-cacao
+    product_id: nutrivie-collagene-articulation-300-g-cacao
+    brand: Nutrivie
+    name: "Collagène Articulation"
+    category: collagen
+    url: https://nutrivie.com/products/collagene-articulation
+    ean: null
+    render: js
+
+  - id: nutrivie-collagene-marin-brevete-90-gelules
+    product_id: nutrivie-collagene-marin-brevete-90-gelules
+    brand: Nutrivie
+    name: "Collagène Marin Breveté"
+    category: collagen
+    url: https://nutrivie.com/products/collagene-marin-brevete
+    ean: null
+    render: js
+
   - id: nutrixeal-collagene-marin-hydrolyse-naticol-nature-250-g
     product_id: nutrixeal-collagene-marin-hydrolyse-naticol-nature-250-g
     brand: Nutrixeal
@@ -834,6 +996,42 @@ sources:
     ean: 4069484020139
     render: js
 
+  - id: twenty-dc-collagene-acide-hyaluronique-peau-magnifique-neutre-populaire
+    product_id: twenty-dc-collagene-acide-hyaluronique-peau-magnifique-neutre-populaire
+    brand: "Twenty DC"
+    name: "Collagène & Acide hyaluronique - Peau Magnifique"
+    category: collagen
+    url: https://twentydc.com/products/collagene-peau-magnifique?variant=47288938692941
+    ean: null
+    render: js
+
+  - id: twenty-dc-collagene-articulations-pot-de-280-g-neutre
+    product_id: twenty-dc-collagene-articulations-pot-de-280-g-neutre
+    brand: "Twenty DC"
+    name: "Collagène Articulations"
+    category: collagen
+    url: https://twentydc.com/products/collagene-articulations?variant=49764131373389
+    ean: 3662072147617
+    render: js
+
+  - id: twenty-dc-collagene-marin-pur-pot-de-280-g-chocolat-caramel
+    product_id: twenty-dc-collagene-marin-pur-pot-de-280-g-chocolat-caramel
+    brand: "Twenty DC"
+    name: "Collagène Marin Pur"
+    category: collagen
+    url: https://twentydc.com/products/collagene-marin?variant=52177031135565
+    ean: 3662072082604
+    render: js
+
+  - id: unae-collagene-ethique-30-sachets-de-12-g
+    product_id: unae-collagene-ethique-30-sachets-de-12-g
+    brand: UNAE
+    name: "Collagène éthique"
+    category: collagen
+    url: https://www.unae.fr/boutique/collagene/collagene-ethique-issu-de-poissons-sauvages/
+    ean: null
+    render: js
+
   - id: vital-proteins-collagen-peptides-neutre-567-g
     product_id: vital-proteins-collagen-peptides-neutre-567-g
     brand: "Vital Proteins"
@@ -849,6 +1047,15 @@ sources:
     name: "PURE Créatine Creapure®"
     category: creatine
     url: https://www.amnutrition.fr/products/pure-creatine-creapure
+    ean: null
+    render: js
+
+  - id: am-nutrition-pure-creatine-monohydrate-en-gelules-120-gelules
+    product_id: am-nutrition-pure-creatine-monohydrate-en-gelules-120-gelules
+    brand: "AM Nutrition"
+    name: "PURE Créatine monohydrate en gélules"
+    category: creatine
+    url: https://www.amnutrition.fr/products/creatine-en-gelules
     ean: null
     render: js
 
@@ -924,12 +1131,48 @@ sources:
     ean: null
     render: js
 
+  - id: cuure-creatine-102-g-nature
+    product_id: cuure-creatine-102-g-nature
+    brand: Cuure
+    name: Créatine
+    category: creatine
+    url: https://cuure.com/produits/creatine-monohydrate
+    ean: 3760353424386
+    render: js
+
+  - id: cuure-creatine-creapure-204-g-nature
+    product_id: cuure-creatine-creapure-204-g-nature
+    brand: Cuure
+    name: "Créatine Creapure®"
+    category: creatine
+    url: https://cuure.com/produits/creatine
+    ean: 3760353423693
+    render: js
+
   - id: dynveo-creatine-monohydrate-creapure-neutre-250-g
     product_id: dynveo-creatine-monohydrate-creapure-neutre-250-g
     brand: Dynveo
     name: "Créatine monohydrate Creapure®"
     category: creatine
     url: https://www.dynveo.fr/products/creatine-monohydrate
+    ean: null
+    render: js
+
+  - id: eiyolab-pure-creatine-ht-en-gelule-creapure-120-gelules
+    product_id: eiyolab-pure-creatine-ht-en-gelule-creapure-120-gelules
+    brand: Eiyolab
+    name: "Pure Créatine HT en gélule - Creapure®"
+    category: creatine
+    url: https://eiyolab.com/products/pure-creatine-ht-gelule-creapure
+    ean: null
+    render: js
+
+  - id: eiyolab-pure-creatine-ht-en-poudre-creapure-neutre-300-g
+    product_id: eiyolab-pure-creatine-ht-en-poudre-creapure-neutre-300-g
+    brand: Eiyolab
+    name: "Pure Créatine HT en poudre - Creapure®"
+    category: creatine
+    url: https://eiyolab.com/products/pure-creatine-ht
     ean: null
     render: js
 
@@ -966,6 +1209,15 @@ sources:
     name: "Créatine monohydrate 200 mesh"
     category: creatine
     url: https://www.hsnstore.fr/marques/raw-series/creatine-monohydratee-en-poudre-200-mesh
+    ean: null
+    render: js
+
+  - id: inshape-nutrition-creatine-en-gelules-pilulier-de-120-gelules
+    product_id: inshape-nutrition-creatine-en-gelules-pilulier-de-120-gelules
+    brand: "InShape Nutrition"
+    name: "Créatine en gélules"
+    category: creatine
+    url: https://www.inshape-nutrition.com/products/creatine
     ean: null
     render: js
 
@@ -1175,6 +1427,15 @@ sources:
     url: https://www.sunday.fr/creatine-monohydrate-poudre.html
     ean: 4069484005198
     render: js
+
+  - id: superphysique-nutrition-elite-creatine-creapure-en-gelules-180-gelules
+    product_id: superphysique-nutrition-elite-creatine-creapure-en-gelules-180-gelules
+    brand: "SuperPhysique Nutrition"
+    name: "Elite Créatine  (Creapure®) en gélules"
+    category: creatine
+    url: https://www.superphysique-nutrition.fr/571-elite-creatine-creapure-en-gelules.html
+    ean: null
+    render: static
 
   - id: superphysique-nutrition-elite-creatine-creapure-neutre-544-g
     product_id: superphysique-nutrition-elite-creatine-creapure-neutre-544-g
@@ -1572,6 +1833,15 @@ sources:
     ean: 3760331482377
     render: js
 
+  - id: greenwhey-fer-bisglycinate-90-gelules
+    product_id: greenwhey-fer-bisglycinate-90-gelules
+    brand: Greenwhey
+    name: "Fer Bisglycinate"
+    category: iron
+    url: https://greenwhey.com/products/fer-bisglycinate
+    ean: null
+    render: js
+
   - id: nat-form-bisglycinate-de-fer-gelules-30
     product_id: nat-form-bisglycinate-de-fer-gelules-30
     brand: Nat&Form
@@ -1625,6 +1895,15 @@ sources:
     url: https://www.nutripure.fr/fr/sante/139-bisglycinate-de-fer.html
     ean: null
     render: static
+
+  - id: nutrivie-fer-bisglycinate-21-mg-60-gelules
+    product_id: nutrivie-fer-bisglycinate-21-mg-60-gelules
+    brand: Nutrivie
+    name: "Fer Bisglycinate 21 mg"
+    category: iron
+    url: https://nutrivie.com/products/fer-bisglycinate-21-mg
+    ean: null
+    render: js
 
   - id: nutrixeal-fer-bisglycinate-chelate-albion-ferrochel-14-mg-60-gelules
     product_id: nutrixeal-fer-bisglycinate-chelate-albion-ferrochel-14-mg-60-gelules
@@ -1752,6 +2031,24 @@ sources:
     ean: null
     render: static
 
+  - id: unae-equifer-b12-90-gelules
+    product_id: unae-equifer-b12-90-gelules
+    brand: UNAE
+    name: "EQUIFER®+ B12"
+    category: iron
+    url: https://www.unae.fr/boutique/fer/equifer_b12/
+    ean: null
+    render: js
+
+  - id: aqeelab-nutrition-maca-bio-du-perou-gelules-120-gelules
+    product_id: aqeelab-nutrition-maca-bio-du-perou-gelules-120-gelules
+    brand: "AqeeLab Nutrition"
+    name: "Maca Bio du Pérou – Gélules"
+    category: maca
+    url: https://www.aqeelab-nutrition.fr/products/maca-bio-du-perou-gelules
+    ean: null
+    render: js
+
   - id: biotechusa-maca-mega-gelules-60
     product_id: biotechusa-maca-mega-gelules-60
     brand: BioTechUSA
@@ -1785,6 +2082,15 @@ sources:
     name: "Maca BIO"
     category: maca
     url: https://www.dynveo.fr/products/maca-bio
+    ean: null
+    render: js
+
+  - id: eiyolab-maca-bio-120-gelules
+    product_id: eiyolab-maca-bio-120-gelules
+    brand: Eiyolab
+    name: "Maca bio"
+    category: maca
+    url: https://eiyolab.com/products/maca-bio
     ean: null
     render: js
 
@@ -1950,6 +2256,24 @@ sources:
     ean: 5055950625303
     render: js
 
+  - id: cuure-magnesium-l-threonate-90-gelules
+    product_id: cuure-magnesium-l-threonate-90-gelules
+    brand: Cuure
+    name: "Magnesium L-Threonate"
+    category: magnesium
+    url: https://cuure.com/produits/magnesium-l-threonate
+    ean: 3760353423556
+    render: js
+
+  - id: cuure-magnesium-sucrosomial-60-gelules
+    product_id: cuure-magnesium-sucrosomial-60-gelules
+    brand: Cuure
+    name: "Magnésium Sucrosomial"
+    category: magnesium
+    url: https://cuure.com/produits/magnesium
+    ean: 3760353424416
+    render: js
+
   - id: d-lab-magnesium-magnesium-daily-gelules-56
     product_id: d-lab-magnesium-magnesium-daily-gelules-56
     brand: D-Lab
@@ -2030,6 +2354,24 @@ sources:
     url: https://www.granions.fr/magnesium-marin-360-mg.html
     ean: null
     render: static
+
+  - id: greenwhey-magnesium-bisglycinate-90-gelules
+    product_id: greenwhey-magnesium-bisglycinate-90-gelules
+    brand: Greenwhey
+    name: "Magnésium Bisglycinate"
+    category: magnesium
+    url: https://greenwhey.com/products/complexe-de-magnesium
+    ean: null
+    render: js
+
+  - id: inshape-nutrition-magnesium-bisglycinate-pilulier-de-90-gelules
+    product_id: inshape-nutrition-magnesium-bisglycinate-pilulier-de-90-gelules
+    brand: "InShape Nutrition"
+    name: "Magnésium Bisglycinate"
+    category: magnesium
+    url: https://www.inshape-nutrition.com/products/magnesium
+    ean: null
+    render: js
 
   - id: juvamine-magnesium-marin-vitamine-b6-comprimes-120
     product_id: juvamine-magnesium-marin-vitamine-b6-comprimes-120
@@ -2418,6 +2760,24 @@ sources:
     ean: null
     render: js
 
+  - id: superphysique-nutrition-elite-magnesium-malate-bisglycinate-180-gelules
+    product_id: superphysique-nutrition-elite-magnesium-malate-bisglycinate-180-gelules
+    brand: "SuperPhysique Nutrition"
+    name: "Elite Magnésium (malate/bisglycinate)"
+    category: magnesium
+    url: https://www.superphysique-nutrition.fr/678-elite-magnesium-malatebisglycinate.html
+    ean: null
+    render: static
+
+  - id: twenty-dc-magnesium-bisglycinate-chelate-pilulier-de-90-gelules
+    product_id: twenty-dc-magnesium-bisglycinate-chelate-pilulier-de-90-gelules
+    brand: "Twenty DC"
+    name: "Magnésium bisglycinate chélaté"
+    category: magnesium
+    url: https://twentydc.com/products/magnesium-bisglycinate-chelate?variant=53564061909325
+    ean: 7350057189955
+    render: js
+
   - id: arkopharma-arkorelax-sommeil-fort-8h-30-comprimes-bicouches
     product_id: arkopharma-arkorelax-sommeil-fort-8h-30-comprimes-bicouches
     brand: Arkopharma
@@ -2481,6 +2841,24 @@ sources:
     ean: null
     render: js
 
+  - id: greenwhey-complexe-sommeil-60-gelules
+    product_id: greenwhey-complexe-sommeil-60-gelules
+    brand: Greenwhey
+    name: "Complexe Sommeil"
+    category: melatonin
+    url: https://greenwhey.com/products/complexe-sommeil
+    ean: null
+    render: js
+
+  - id: inshape-nutrition-melatonine-sommeil-pilulier-de-60-gelules-neutre
+    product_id: inshape-nutrition-melatonine-sommeil-pilulier-de-60-gelules-neutre
+    brand: "InShape Nutrition"
+    name: "Mélatonine & Sommeil"
+    category: melatonin
+    url: https://www.inshape-nutrition.com/products/melatonine-sommeil
+    ean: null
+    render: js
+
   - id: iprad-chronodorm-melatonine-1-mg-30-comprimes-sublinguaux
     product_id: iprad-chronodorm-melatonine-1-mg-30-comprimes-sublinguaux
     brand: IPRAD
@@ -2525,6 +2903,15 @@ sources:
     url: https://www.nutripure.fr/fr/sante/66-melatonine-sommeil.html
     ean: null
     render: static
+
+  - id: nutrivie-melatonine-1-6mg-60-gelules
+    product_id: nutrivie-melatonine-1-6mg-60-gelules
+    brand: Nutrivie
+    name: "Mélatonine 1,6mg"
+    category: melatonin
+    url: https://nutrivie.com/products/melatonine-60-gelules
+    ean: null
+    render: js
 
   - id: nutrixeal-gabanight-gelules-60
     product_id: nutrixeal-gabanight-gelules-60
@@ -2688,6 +3075,15 @@ sources:
     ean: null
     render: js
 
+  - id: eiyolab-ultravitamines-90-gelules
+    product_id: eiyolab-ultravitamines-90-gelules
+    brand: Eiyolab
+    name: UltraVitamines
+    category: multivitamin
+    url: https://eiyolab.com/products/ultravitamines
+    ean: null
+    render: js
+
   - id: epycure-cure-multivitamines-60-gelules
     product_id: epycure-cure-multivitamines-60-gelules
     brand: Epycure
@@ -2703,6 +3099,24 @@ sources:
     name: Vitamino+
     category: multivitamin
     url: https://www.ericfavre.com/fr_fr/tonus-immunite/vitamino-cure-30-jours-p-160.htm
+    ean: null
+    render: js
+
+  - id: greenwhey-multivitamines-120-gelules
+    product_id: greenwhey-multivitamines-120-gelules
+    brand: Greenwhey
+    name: Multivitamines
+    category: multivitamin
+    url: https://greenwhey.com/products/multivitamines-et-mineraux
+    ean: null
+    render: js
+
+  - id: inshape-nutrition-multivitamines-pilulier-de-60-gelules
+    product_id: inshape-nutrition-multivitamines-pilulier-de-60-gelules
+    brand: "InShape Nutrition"
+    name: Multivitamines
+    category: multivitamin
+    url: https://www.inshape-nutrition.com/products/multivitamines
     ean: null
     render: js
 
@@ -2796,6 +3210,15 @@ sources:
     ean: null
     render: static
 
+  - id: nutrivie-multivitamines-30-gelules
+    product_id: nutrivie-multivitamines-30-gelules
+    brand: Nutrivie
+    name: Multivitamines
+    category: multivitamin
+    url: https://nutrivie.com/products/multivitamines
+    ean: null
+    render: js
+
   - id: nutrixeal-ixeaboost-multi-premium-gelules-120
     product_id: nutrixeal-ixeaboost-multi-premium-gelules-120
     brand: Nutrixeal
@@ -2821,6 +3244,24 @@ sources:
     category: multivitamin
     url: https://www.sunday.de/en/multivitamin-essentials-all-in-one-premium.html
     ean: null
+    render: js
+
+  - id: superphysique-nutrition-elite-vitamines-120-gelules
+    product_id: superphysique-nutrition-elite-vitamines-120-gelules
+    brand: "SuperPhysique Nutrition"
+    name: "Elite Vitamines"
+    category: multivitamin
+    url: https://www.superphysique-nutrition.fr/573-elite-vitamines.html
+    ean: null
+    render: static
+
+  - id: twenty-dc-multivitamines-pilulier-de-60-gelules
+    product_id: twenty-dc-multivitamines-pilulier-de-60-gelules
+    brand: "Twenty DC"
+    name: Multivitamines
+    category: multivitamin
+    url: https://twentydc.com/products/multivitamines?variant=53576917090637
+    ean: 7350057189993
     render: js
 
   - id: argalys-omega-3-dha-vegan-60-gelules
@@ -2886,6 +3327,15 @@ sources:
     ean: 5060343743410
     render: js
 
+  - id: cuure-omega-3-60-gelules
+    product_id: cuure-omega-3-60-gelules
+    brand: Cuure
+    name: "Oméga 3"
+    category: omega3
+    url: https://cuure.com/produits/omega-3
+    ean: 3760353422702
+    render: js
+
   - id: dynveo-dha-vegetal-gelules-60
     product_id: dynveo-dha-vegetal-gelules-60
     brand: Dynveo
@@ -2922,6 +3372,15 @@ sources:
     ean: null
     render: js
 
+  - id: eiyolab-omega-3-epax-90-capsules
+    product_id: eiyolab-omega-3-epax-90-capsules
+    brand: Eiyolab
+    name: "Omega 3 - EPAX®"
+    category: omega3
+    url: https://eiyolab.com/products/omega-3-epax
+    ean: null
+    render: js
+
   - id: fleurance-nature-omega-3-omegavie-60-capsules
     product_id: fleurance-nature-omega-3-omegavie-60-capsules
     brand: "Fleurance Nature"
@@ -2929,6 +3388,24 @@ sources:
     category: omega3
     url: https://www.fleurancenature.fr/p/omega-3-13266.html
     ean: 3700211132664
+    render: js
+
+  - id: greenwhey-omega-3-epax-90-capsules
+    product_id: greenwhey-omega-3-epax-90-capsules
+    brand: Greenwhey
+    name: "Oméga 3 EPAX®"
+    category: omega3
+    url: https://greenwhey.com/products/omega-3-epax
+    ean: null
+    render: js
+
+  - id: inshape-nutrition-omega-3-pilulier-de-30-capsules
+    product_id: inshape-nutrition-omega-3-pilulier-de-30-capsules
+    brand: "InShape Nutrition"
+    name: "Oméga 3"
+    category: omega3
+    url: https://www.inshape-nutrition.com/products/omega-3
+    ean: null
     render: js
 
   - id: laboratoire-lescuyer-omega-3-60-capsules
@@ -3047,6 +3524,15 @@ sources:
     url: https://www.nutripure.fr/fr/sante/2-omega-3-EPAX.html
     ean: null
     render: static
+
+  - id: nutrivie-omega-3-epax-120-capsules
+    product_id: nutrivie-omega-3-epax-120-capsules
+    brand: Nutrivie
+    name: "Oméga 3 EPAX®"
+    category: omega3
+    url: https://nutrivie.com/products/omega-3-epax
+    ean: null
+    render: js
 
   - id: nutrixeal-dha-green-poudre-poudre-100-g
     product_id: nutrixeal-dha-green-poudre-poudre-100-g
@@ -3291,6 +3777,42 @@ sources:
     ean: 4260677599740
     render: js
 
+  - id: superphysique-nutrition-elite-omega-3-epax-superba-zooca-105-capsules
+    product_id: superphysique-nutrition-elite-omega-3-epax-superba-zooca-105-capsules
+    brand: "SuperPhysique Nutrition"
+    name: "Elite Oméga-3 (Epax/Superba/Zooca)"
+    category: omega3
+    url: https://www.superphysique-nutrition.fr/681-elite-omega-3-epaxsuperbazooca.html
+    ean: null
+    render: static
+
+  - id: superphysique-nutrition-super-omega-3-calanus-zooca-120-capsules
+    product_id: superphysique-nutrition-super-omega-3-calanus-zooca-120-capsules
+    brand: "SuperPhysique Nutrition"
+    name: "Super Oméga-3 Calanus (Zooca®)"
+    category: omega3
+    url: https://www.superphysique-nutrition.fr/587-super-omega-3-calanus-zooca.html
+    ean: null
+    render: static
+
+  - id: superphysique-nutrition-super-omega-3-epax-180-capsules
+    product_id: superphysique-nutrition-super-omega-3-epax-180-capsules
+    brand: "SuperPhysique Nutrition"
+    name: "Super Oméga-3 (Epax®)"
+    category: omega3
+    url: https://www.superphysique-nutrition.fr/566-super-omega-3-epax.html
+    ean: null
+    render: static
+
+  - id: twenty-dc-omega-3-epax-pilulier-de-60-capsules
+    product_id: twenty-dc-omega-3-epax-pilulier-de-60-capsules
+    brand: "Twenty DC"
+    name: "Oméga 3 Epax®"
+    category: omega3
+    url: https://twentydc.com/products/omega-3-epax?variant=53559487889741
+    ean: 7350057189948
+    render: js
+
   - id: unae-omega-3-de-poissons-sauvages-msc-bouteille-150-ml
     product_id: unae-omega-3-de-poissons-sauvages-msc-bouteille-150-ml
     brand: UNAE
@@ -3307,6 +3829,15 @@ sources:
     category: omega3
     url: https://www.amazon.fr/dp/B00M42XIVK
     ean: null
+    render: js
+
+  - id: cuure-electrolytes-15-pastilles-citron-gingembre
+    product_id: cuure-electrolytes-15-pastilles-citron-gingembre
+    brand: Cuure
+    name: Électrolytes
+    category: potassium
+    url: https://cuure.com/produits/electrolytes
+    ean: 3760353424225
     render: js
 
   - id: dynveo-citrate-de-potassium-gelules-60
@@ -3480,6 +4011,24 @@ sources:
     ean: null
     render: js
 
+  - id: eiyolab-probiotiques-20-milliards-60-gelules
+    product_id: eiyolab-probiotiques-20-milliards-60-gelules
+    brand: Eiyolab
+    name: "Probiotiques 20 milliards"
+    category: probiotics
+    url: https://eiyolab.com/products/probiotiques-20-milliards
+    ean: null
+    render: js
+
+  - id: greenwhey-probiotiques-prebiotiques-60-gelules
+    product_id: greenwhey-probiotiques-prebiotiques-60-gelules
+    brand: Greenwhey
+    name: "Probiotiques & Prébiotiques"
+    category: probiotics
+    url: https://greenwhey.com/products/probiotiques-prebiotiques
+    ean: null
+    render: js
+
   - id: mayoly-spindler-probiolog-fort-30-gelules-gastro-resistantes
     product_id: mayoly-spindler-probiolog-fort-30-gelules-gastro-resistantes
     brand: "Mayoly Spindler"
@@ -3597,6 +4146,24 @@ sources:
     ean: null
     render: static
 
+  - id: nutrivie-nutribiotique-equilibre-digestif-30-gelules
+    product_id: nutrivie-nutribiotique-equilibre-digestif-30-gelules
+    brand: Nutrivie
+    name: "Nutribiotique® Équilibre Digestif"
+    category: probiotics
+    url: https://nutrivie.com/products/nutribiotique-equilibre-digestif
+    ean: null
+    render: js
+
+  - id: nutrivie-nutribiotique-stress-sommeil-30-gelules
+    product_id: nutrivie-nutribiotique-stress-sommeil-30-gelules
+    brand: Nutrivie
+    name: "Nutribiotique® Stress & Sommeil"
+    category: probiotics
+    url: https://nutrivie.com/products/nutribiotique-stress-sommeil
+    ean: null
+    render: js
+
   - id: nutrixeal-lactobacillus-gasseri-10-milliards-gelules-60
     product_id: nutrixeal-lactobacillus-gasseri-10-milliards-gelules-60
     brand: Nutrixeal
@@ -3678,6 +4245,15 @@ sources:
     ean: 4260677586702
     render: js
 
+  - id: twenty-dc-prebiotiques-probiotiques-pilulier-de-60-gelules
+    product_id: twenty-dc-prebiotiques-probiotiques-pilulier-de-60-gelules
+    brand: "Twenty DC"
+    name: "Prébiotiques & Probiotiques"
+    category: probiotics
+    url: https://twentydc.com/products/prebiotiques-probiotiques?variant=54386310840653
+    ean: 7350057197813
+    render: js
+
   - id: biotechusa-rhodiola-gelules-60
     product_id: biotechusa-rhodiola-gelules-60
     brand: BioTechUSA
@@ -3741,6 +4317,15 @@ sources:
     ean: null
     render: static
 
+  - id: nutrivie-rhodiola-30-gelules
+    product_id: nutrivie-rhodiola-30-gelules
+    brand: Nutrivie
+    name: Rhodiola
+    category: rhodiola
+    url: https://nutrivie.com/products/rhodiola-30-gelules
+    ean: null
+    render: js
+
   - id: nutrixeal-rhodiola-totum-bio-gelules-100
     product_id: nutrixeal-rhodiola-totum-bio-gelules-100
     brand: Nutrixeal
@@ -3768,6 +4353,15 @@ sources:
     ean: 4069484001848
     render: js
 
+  - id: aqeelab-nutrition-tribulus-terrestris-120-comprimes
+    product_id: aqeelab-nutrition-tribulus-terrestris-120-comprimes
+    brand: "AqeeLab Nutrition"
+    name: "Tribulus Terrestris"
+    category: tribulus
+    url: https://www.aqeelab-nutrition.fr/products/tribulus-terrestris
+    ean: null
+    render: js
+
   - id: cuure-tribulus-gelules-60
     product_id: cuure-tribulus-gelules-60
     brand: Cuure
@@ -3783,6 +4377,33 @@ sources:
     name: "Tribulus terrestris BIO VemoHerb®TS"
     category: tribulus
     url: https://www.dynveo.fr/products/tribulus-terrestris-bio
+    ean: null
+    render: js
+
+  - id: eiyolab-testo-ht-90-gelules
+    product_id: eiyolab-testo-ht-90-gelules
+    brand: Eiyolab
+    name: "Testo HT"
+    category: tribulus
+    url: https://eiyolab.com/products/testo-ht
+    ean: null
+    render: js
+
+  - id: eiyolab-tribulus-ht-90-gelules
+    product_id: eiyolab-tribulus-ht-90-gelules
+    brand: Eiyolab
+    name: "Tribulus HT"
+    category: tribulus
+    url: https://eiyolab.com/products/tribulus-ht
+    ean: null
+    render: js
+
+  - id: eiyolab-zillax-60-gelules
+    product_id: eiyolab-zillax-60-gelules
+    brand: Eiyolab
+    name: Zillax
+    category: tribulus
+    url: https://eiyolab.com/products/zillax
     ean: null
     render: js
 
@@ -3900,6 +4521,15 @@ sources:
     name: "Vitamine B12 active"
     category: vitamin_b12
     url: https://www.dynveo.fr/products/vitamine-b12
+    ean: null
+    render: js
+
+  - id: greenwhey-vitamine-b12-120-gelules
+    product_id: greenwhey-vitamine-b12-120-gelules
+    brand: Greenwhey
+    name: "Vitamine B12"
+    category: vitamin_b12
+    url: https://greenwhey.com/products/vitamine-b12
     ean: null
     render: js
 
@@ -4065,6 +4695,15 @@ sources:
     ean: 4069484019126
     render: js
 
+  - id: am-nutrition-pure-vitamine-c-120-gelules
+    product_id: am-nutrition-pure-vitamine-c-120-gelules
+    brand: "AM Nutrition"
+    name: "PURE Vitamine C"
+    category: vitamin_c
+    url: https://www.amnutrition.fr/products/pure-vitamine-c-acerola
+    ean: null
+    render: js
+
   - id: argalys-vitamine-c-quercetine-60-gelules
     product_id: argalys-vitamine-c-quercetine-60-gelules
     brand: Argalys
@@ -4110,6 +4749,15 @@ sources:
     ean: 5060343747876
     render: js
 
+  - id: cuure-vitamine-c-90-comprimes
+    product_id: cuure-vitamine-c-90-comprimes
+    brand: Cuure
+    name: "Vitamine C"
+    category: vitamin_c
+    url: https://cuure.com/produits/vitamine-c
+    ean: 3760353422887
+    render: js
+
   - id: dieti-natura-acerola-25-comprimes
     product_id: dieti-natura-acerola-25-comprimes
     brand: "Dieti Natura"
@@ -4153,6 +4801,15 @@ sources:
     category: vitamin_c
     url: https://www.fleurancenature.fr/p/vitaminnature-acerola-1000-bio-59276.html
     ean: 3700211192767
+    render: js
+
+  - id: greenwhey-vitamine-c-en-poudre-neutre-300-g
+    product_id: greenwhey-vitamine-c-en-poudre-neutre-300-g
+    brand: Greenwhey
+    name: "Vitamine C en poudre"
+    category: vitamin_c
+    url: https://greenwhey.com/products/vitamine-c-en-poudre
+    ean: null
     render: js
 
   - id: juvamine-vitamine-c-1000-mg-30-comprimes-effervescents-orange
@@ -4307,6 +4964,15 @@ sources:
     url: https://www.nutripure.fr/fr/sante/68-1314-vitamine-c.html
     ean: 3760322506396
     render: static
+
+  - id: nutrivie-acerola-bio-60-comprimes
+    product_id: nutrivie-acerola-bio-60-comprimes
+    brand: Nutrivie
+    name: "Acérola Bio"
+    category: vitamin_c
+    url: https://nutrivie.com/products/acerola-bio
+    ean: null
+    render: js
 
   - id: nutrixeal-acerola-bio-17-17-60-gelules
     product_id: nutrixeal-acerola-bio-17-17-60-gelules
@@ -4488,6 +5154,15 @@ sources:
     ean: null
     render: js
 
+  - id: unae-vitamine-c-ecossaise-60-comprimes
+    product_id: unae-vitamine-c-ecossaise-60-comprimes
+    brand: UNAE
+    name: "Vitamine C écossaise"
+    category: vitamin_c
+    url: https://www.unae.fr/boutique/vitamine-c/vitamine-c-ecossaise/
+    ean: null
+    render: js
+
   - id: argalys-vitamine-d3-vegetale-spray-spray-30-ml-240-pulverisations
     product_id: argalys-vitamine-d3-vegetale-spray-spray-30-ml-240-pulverisations
     brand: Argalys
@@ -4513,6 +5188,15 @@ sources:
     category: vitamin_d3
     url: https://shop.biotechusa.fr/products/vitamin-d3-60-comprimes
     ean: null
+    render: js
+
+  - id: cuure-vitamine-d3-180-capsules
+    product_id: cuure-vitamine-d3-180-capsules
+    brand: Cuure
+    name: "Vitamine D3"
+    category: vitamin_d3
+    url: https://cuure.com/produits/vitamine-d
+    ean: 3760353422900
     render: js
 
   - id: dieti-natura-vitamine-d3-60-gelules
@@ -4983,6 +5667,15 @@ sources:
     ean: null
     render: js
 
+  - id: aqeelab-nutrition-whey-native-fran-aise-94-whey-native-au-lait-fran-ais-chocolat-810-g
+    product_id: aqeelab-nutrition-whey-native-fran-aise-94-whey-native-au-lait-fran-ais-chocolat-810-g
+    brand: "AqeeLab Nutrition"
+    name: "Whey Native Française 94% - Whey Native au Lait Français"
+    category: whey
+    url: https://www.aqeelab-nutrition.fr/products/whey-native-fabriquee-en-france-lait-francais
+    ean: null
+    render: js
+
   - id: biotechusa-100-pure-whey-banane-900-g
     product_id: biotechusa-100-pure-whey-banane-900-g
     brand: BioTechUSA
@@ -5028,6 +5721,15 @@ sources:
     ean: null
     render: js
 
+  - id: cuure-whey-isolate-900-g-vanille
+    product_id: cuure-whey-isolate-900-g-vanille
+    brand: Cuure
+    name: "Whey Isolate"
+    category: whey
+    url: https://cuure.com/produits/whey-isolate
+    ean: 3760353423662
+    render: js
+
   - id: dynveo-whey-native-isolate-nature-1-kg
     product_id: dynveo-whey-native-isolate-nature-1-kg
     brand: Dynveo
@@ -5037,12 +5739,30 @@ sources:
     ean: null
     render: js
 
+  - id: eiyolab-isolate-ht-vanille-750-g
+    product_id: eiyolab-isolate-ht-vanille-750-g
+    brand: Eiyolab
+    name: "Isolate HT"
+    category: whey
+    url: https://eiyolab.com/products/isolate-ht-doypack
+    ean: null
+    render: js
+
   - id: eiyolab-native-whey-ht-vanille-750-g
     product_id: eiyolab-native-whey-ht-vanille-750-g
     brand: Eiyolab
     name: "Native Whey HT"
     category: whey
     url: https://www.eiyolab.com/native-whey-ht
+    ean: null
+    render: js
+
+  - id: eiyolab-whey-ht-chocolat-750-g
+    product_id: eiyolab-whey-ht-chocolat-750-g
+    brand: Eiyolab
+    name: "Whey HT"
+    category: whey
+    url: https://eiyolab.com/products/whey-ht
     ean: null
     render: js
 
@@ -5352,6 +6072,24 @@ sources:
     ean: null
     render: static
 
+  - id: greenwhey-zinc-bisglycinate-90-gelules
+    product_id: greenwhey-zinc-bisglycinate-90-gelules
+    brand: Greenwhey
+    name: "Zinc Bisglycinate"
+    category: zinc
+    url: https://greenwhey.com/products/zinc-bisglycinate
+    ean: null
+    render: js
+
+  - id: inshape-nutrition-zinc-bisglycinate-pilulier-de-90-gelules
+    product_id: inshape-nutrition-zinc-bisglycinate-pilulier-de-90-gelules
+    brand: "InShape Nutrition"
+    name: "Zinc Bisglycinate"
+    category: zinc
+    url: https://www.inshape-nutrition.com/products/bisglycinate-de-zinc
+    ean: null
+    render: js
+
   - id: nhco-zinc-bisglycinate-84-gelules
     product_id: nhco-zinc-bisglycinate-84-gelules
     brand: NHCO
@@ -5451,6 +6189,15 @@ sources:
     ean: 4260677599894
     render: js
 
+  - id: twenty-dc-bisglycinate-de-zinc-pilulier-de-90-gelules
+    product_id: twenty-dc-bisglycinate-de-zinc-pilulier-de-90-gelules
+    brand: "Twenty DC"
+    name: "Bisglycinate de zinc"
+    category: zinc
+    url: https://twentydc.com/products/zinc-bisglycinate?variant=53553708532045
+    ean: 7350057190975
+    render: js
+
   - id: bulk-gelules-zma-90-gelules
     product_id: bulk-gelules-zma-90-gelules
     brand: Bulk
@@ -5513,6 +6260,15 @@ sources:
     url: https://olimpstore.fr/olimp-zma-120-gelules-545
     ean: null
     render: js
+
+  - id: superphysique-nutrition-elite-zmb-2-magnesiums-zn-b6-180-gelules
+    product_id: superphysique-nutrition-elite-zmb-2-magnesiums-zn-b6-180-gelules
+    brand: "SuperPhysique Nutrition"
+    name: "Elite ZMB (2 magnésiums/Zn/B6)"
+    category: zma
+    url: https://www.superphysique-nutrition.fr/568-elite-zmb-2-magnesiumsznb6.html
+    ean: null
+    render: static
 
 # --- manual sources (kept across regenerations) ---
   # Amazon.fr listings (render: js — needs the headless renderer)
