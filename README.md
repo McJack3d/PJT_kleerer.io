@@ -92,14 +92,19 @@ The GitHub repository URLs retain their actual existing names; changing the publ
 - Production sitemap: <https://n3gh.com/sitemap.xml>, declared in `robots.txt`.
   Include only canonical, indexable HTML routes. Do not add filter fragments,
   design previews, data files or duplicate `/index.html` URLs.
-- Regenerate translated metadata with `python3 compare/scripts/build_pages.py`.
+- Regenerate translated metadata, the 50 category landing pages and the sitemap
+  with `python3 compare/scripts/build_pages.py` after catalogue changes.
+  Category content comes from `compare/data.js`, labels from `compare/i18n.js`,
+  and the page template from `compare/scripts/build_categories.py`.
   Titles live in that generator; descriptions in `compare/i18n.js` and the
   source `/compare/index.html`. Structured data and sharing cards are localized.
-- Search Console is **not yet verified**. Sign into the brand owner's Google
-  account, add URL-prefix property `https://n3gh.com/`, and use Google's exact
-  HTML verification file or homepage meta tag. Deploy the token, verify ownership,
-  then submit `https://n3gh.com/sitemap.xml`. Keep the verification token deployed.
-  Alternatively a domain property requires the account-specific DNS TXT record.
+- Google Search Console URL-prefix property `https://n3gh.com/` was verified on
+  2026-10-12 using the homepage HTML meta tag. Keep both search-engine verification
+  meta tags deployed; do not substitute another account's tokens.
+- The canonical domain remains `https://n3gh.com/`. IONOS forwards `.fr` and
+  `www.n3gh.fr` to `.com` with HTTP 302 and preserves paths. Its current forwarding
+  form does not expose a 301 choice. A permanent redirect remains unresolved;
+  do not point `.fr` at GitHub Pages without arranging HTTPS for that hostname.
 - Audience measurement is **not yet active**. `analytics.js` is prepared for
   Umami, with an empty `WEBSITE_ID`. Create/select the site's Umami property,
   copy its public website UUID and confirm the script URL from its installation
