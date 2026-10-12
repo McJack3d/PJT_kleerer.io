@@ -30,6 +30,7 @@ Output: compare/en/index.html, compare/fr/index.html
 """
 import os, re, json, sys
 from html import escape
+from build_categories import build_all, navigation, catalogue, labels
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 COMPARE = os.path.abspath(os.path.join(HERE, ".."))
@@ -123,10 +124,27 @@ def build(lang, strings):
     pin = (f'<script>window.N3GH_FORCE_LANG="{lang}";'
            f'window.N3GH_LANG_ROUTES={json.dumps({l: f"../{l}/" for l in LANGS})};</script>\n')
     html = html.replace('<script src="../i18n.js', pin + '<script src="../i18n.js', 1)
+    # Static links let crawlers discover every category without running the app.
+    keys = sorted({p["category"] for p in catalogue()["products"]})
+    html = re.sub(r'<!-- category-directory -->.*?<!-- /category-directory -->',
+                  lambda _: '<!-- category-directory -->' + navigation(lang, keys, labels()) + '<!-- /category-directory -->', html, flags=re.S)
+    # Translate the primary visible heading as well as the metadata.
+    if lang == "fr":
+        html = html.replace('>Compare,</span>', '>Comparez,</span>').replace('>in detail.</em>', '>en détail.</em>')
+        html = html.replace('>The independent supplement index</p>', '>L’index indépendant des compléments</p>')
     return html
 
 
 def main():
+    keys, names = build_all()
+    source = open(SRC, encoding="utf-8").read()
+    directory = '<!-- category-directory -->' + navigation('en', keys, names) + '<!-- /category-directory -->'
+    if '<!-- category-directory -->' in source:
+        source = re.sub(r'<!-- category-directory -->.*?<!-- /category-directory -->', lambda _: directory, source, flags=re.S)
+    else:
+        source = source.replace('<footer>', directory + '\n<footer>', 1)
+    with open(SRC, 'w', encoding='utf-8') as f:
+        f.write(source)
     strings = i18n_strings()
     for lang in LANGS:
         outdir = os.path.join(COMPARE, lang)
