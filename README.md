@@ -106,7 +106,10 @@ The GitHub repository URLs retain their actual existing names; changing the publ
   form does not expose a 301 choice. A permanent redirect remains unresolved;
   do not point `.fr` at GitHub Pages without arranging HTTPS for that hostname.
 - Bing Webmaster Tools was verified on 2026-10-12 using `BingSiteAuth.xml`
-  after meta-tag verification failed. Keep the XML file deployed.
+  after meta-tag verification failed. Keep the XML file deployed. Its sitemap
+  submission was accepted and is processing. URL Inspection reports the homepage
+  as discovered but not crawled, with a DNS fetch failure. Google and Cloudflare
+  public resolvers currently return all four GitHub Pages A records without error.
 - On 2026-10-12, Google URL Inspection confirmed the homepage was indexed.
   The sitemap was submitted, but Google initially reported it could not read it;
   all 57 sitemap URLs returned HTTP 200 independently. The homepage reindex
