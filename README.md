@@ -105,6 +105,13 @@ The GitHub repository URLs retain their actual existing names; changing the publ
   `www.n3gh.fr` to `.com` with HTTP 302 and preserves paths. Its current forwarding
   form does not expose a 301 choice. A permanent redirect remains unresolved;
   do not point `.fr` at GitHub Pages without arranging HTTPS for that hostname.
+- Bing Webmaster Tools was verified on 2026-10-12 using `BingSiteAuth.xml`
+  after meta-tag verification failed. Keep the XML file deployed.
+- On 2026-10-12, Google URL Inspection confirmed the homepage was indexed.
+  The sitemap was submitted, but Google initially reported it could not read it;
+  all 57 sitemap URLs returned HTTP 200 independently. The homepage reindex
+  request returned a temporary service error. Check Search Console again before
+  assuming new categories have been crawled or indexed.
 - Audience measurement is **not yet active**. `analytics.js` is prepared for
   Umami, with an empty `WEBSITE_ID`. Create/select the site's Umami property,
   copy its public website UUID and confirm the script URL from its installation
