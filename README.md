@@ -14,7 +14,7 @@ n3gh. makes supplement science available to people looking for advice or recomme
 - **`terms/`** — terms of use, including the database-right and text-and-data-mining clauses (EN/FR).
 - **`NOTICE.md`** — which licence applies to which layer, and exactly what the database right does and does not claim. Read this before reusing anything.
 - **`robots.txt` / `.well-known/tdmrep.json`** — the TDM reservation in human- and machine-readable form.
-- **`analytics.js`** — cookieless audience measurement: no cookies, no identifiers, no personal data, DNT/GPC honoured, so no consent banner and no self-selected baseline. Inert until a provider is configured.
+- **`analytics.js`** — Umami Cloud pageview measurement on selected public routes, without analytics cookies. DNT/GPC honoured; profile data, searches and URL parameters excluded. See `/terms/` for processing details.
 - **`manifest.webmanifest` / `sw.js` / `pwa.js` / `icons/`** — the installable app. The homepage is a PWA: add it to a home screen and **the whole catalogue works offline**, which is the point — the moment you most want a score is standing at the shelf, which is exactly where the signal dies. The ~390 KB catalogue is precached, so it runs with the radio off. The service worker touches our own origin only, stores nothing about the visitor, and sends nothing anywhere.
 - **`assets/molecules/`** — locally served molecular illustrations from PubChem (melatonin CID 896, glycine CID 750) and RCSB PDB (human growth hormone, 1HGU). The original images are retained; the project page at `/about/` applies a monochrome CSS treatment. Source attribution is recorded in `assets/molecules/README.md`; the project page uses the images as decorative backgrounds, and the service worker caches all three for offline viewing.
 - **`CNAME`** — GitHub Pages custom-domain config, points the repo at `n3gh.com`.
@@ -119,11 +119,11 @@ The GitHub repository URLs retain their actual existing names; changing the publ
   all 57 sitemap URLs returned HTTP 200 independently. The homepage reindex
   request returned a temporary service error. Check Search Console again before
   assuming new categories have been crawled or indexed.
-- Audience measurement is **not yet active**. `analytics.js` is prepared for
-  Umami, with an empty `WEBSITE_ID`. Create/select the site's Umami property,
-  copy its public website UUID and confirm the script URL from its installation
-  instructions. Update the privacy text in `/terms/` to match actual processing
-  before enabling it. Never put an API key or account password in this file.
+- Audience measurement is configured for **Umami Cloud** in `analytics.js`,
+  using the site's public website UUID and `https://cloud.umami.is/script.js`.
+  It takes effect once deployed on `https://n3gh.com`. The privacy text in
+  `/terms/` describes the integration. Never put an API key or account password
+  in this file.
 - This integration sends only one pageview per page load, with a fixed route and
   title. It excludes local previews, unknown routes, URL query/hash values,
   referrers, searches, profile/routine data, custom events and session replay.

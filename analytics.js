@@ -1,12 +1,11 @@
 /* SPDX-License-Identifier: AGPL-3.0-only
  * Copyright (C) 2026 n3gh.
- * Umami pageview integration. Disabled until a real website ID is supplied.
- * Before activation, update /terms/ with the selected provider and processing.
+ * Umami Cloud pageview integration. See /terms/ for processing details.
  * No profile, routine, search, URL parameters, custom events or session replay.
  */
 (function () {
   "use strict";
-  var WEBSITE_ID = ""; // Public Umami website UUID, not an API key.
+  var WEBSITE_ID = "dbf3468c-aa6d-4ca1-8e21-6f31bc7b79ab"; // Public Umami website UUID, not an API key.
   var SCRIPT_URL = "https://cloud.umami.is/script.js";
   if (!/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(WEBSITE_ID)) return;
   if (location.protocol !== "https:" || location.hostname !== "n3gh.com") return;
