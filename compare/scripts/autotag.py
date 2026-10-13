@@ -23,7 +23,7 @@ This same module is imported by the collection pipeline (pipeline/), so a scrape
 product and a hand-curated one go through EXACTLY the same normalization. That is
 the point: the rules live in one auditable place.
 """
-import re, unicodedata
+import math, re, unicodedata
 
 # ----------------------------------------------------------------------------- #
 #  v1.2 additive classification.
@@ -89,7 +89,11 @@ RULES = [
     ("anticaking",       ["stearate de magnesium", "magnesium stearate",
                           "sels de magnesium d'acides gras", "acide stearique",
                           "stearic", "dioxyde de silicium", "silicon dioxide",
-                          "silice", "silica", "talc", "carbonate de magnesium"]),
+                          "silice", "silica", "talc", "carbonate de magnesium",
+                          # Established technological function, not a new
+                          # health-harm claim: FDA FoodSubstances CALCIUMLAURATE
+                          # and WHO/JECFA Chemical/89 both list anticaking.
+                          "calcium laurate", "laurate de calcium"]),
     ("coating",          ["enrobage", "coating", "cire de carnauba", "carnauba",
                           "shellac", "e903", "e904", "carbonate de calcium",
                           "hydroxypropylcellulose", "hydroxypropylmethylcellulose"]),
@@ -169,9 +173,16 @@ def classify_additive(raw: str):
     for name, keys in BANNED:                       # red card checked first
         if any(k in n for k in keys) and not negated:
             return "banned:" + name
+    # An identified nutrient is not an unknown additive. FDA FoodSubstances
+    # LEUCINE (CAS 61-90-5) lists L-leucine as a nutrient supplement:
+    # https://www.hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=LEUCINE&set=FoodSubstances
+    # Exact strings only: do not conceal an unknown ingredient or infer a
+    # processing role, quantity, effective dose or general safety claim.
+    if n in ("leucine", "l-leucine"):
+        return None
     # capsule / shell material → neutral (but not if it also names a filler/anti-caking)
     if any(h in n for h in CAPSULE_HINTS) and not any(
-        k in n for k in ["stearate", "silice", "silica", "dioxyde", "maltodextrine"]
+        k in n for k in ["stearate", "silice", "silica", "dioxyde", "maltodextrine", "laurate"]
     ):
         return None
     # natural Tier-A sweeteners are benign — short-circuit before generic matches
@@ -223,6 +234,22 @@ def infer_form_tier(cat, form, entry=None):
     if cat == "creatine":
         return (20, "Documented-purity Creapure® monohydrate.") if "creapure" in f \
             else (16, "Monohydrate is the gold-standard form; generic source.")
+
+    if cat == "glycine":
+        # Glycine is achiral: an "L-" prefix, fermentation or crystallisation
+        # is not evidence of superior efficacy. Do not mistake TMG, mineral
+        # glycinates or the glycine bound in collagen for free glycine.
+        if any(k in f for k in ("sel de sodium", "sodium salt", "sodium glycinate")):
+            return 8, ("The label also names a sodium salt; the free-glycine fraction is not separately established. "
+                       "Amounts follow the manufacturer's glycine declaration, not an independent assay.")
+        free_declared = bool(re.search(r"\bglycine\b", f))
+        if any(k in f for k in ("trimethyl", "betaine", "glycinate", "collagen")):
+            free_declared = bool(re.search(r"\bfree glycine\b|\bglycine libre\b", f))
+        if not free_declared:
+            return 8, "Free glycine form not clearly declared; no form advantage assumed."
+        if entry.get("glycine_blend") or any(k in f for k in ("blend", "melange", "complex", "+")):
+            return 14, "Blend with individually quantified free glycine; other actives have separate evidence."
+        return 18, "Declared free glycine; powder and capsules have no established efficacy difference."
 
     if cat == "vitamin_d3":
         if "d2" in f or "ergocalciferol" in f: return 14, "D2 (ergocalciferol) — less potent than D3."
@@ -474,9 +501,45 @@ def infer_form_tier(cat, form, entry=None):
 # ----------------------------------------------------------------------------- #
 #  Dose tiers for categories that need entry-level logic (0–20). §1b.
 # ----------------------------------------------------------------------------- #
+def glycine_daily_grams(entry):
+    """Validate and read label-declared glycine, always in grams.
+
+    An undisclosed amount cannot be inferred from collagen, a chelated mineral,
+    or a total blend weight. Fail before calculating a misleading price per 3 g.
+    """
+    def positive(field):
+        value = entry.get(field)
+        if isinstance(value, bool) or not isinstance(value, (int, float)) or not math.isfinite(value) or value <= 0:
+            raise ValueError(f"Glycine requires a positive, finite {field} (active amounts in grams)")
+        return value
+
+    if "pack_g" in entry:
+        if "units_pack" in entry:
+            raise ValueError("Glycine must use either a gram-based or unit-based pack, not both")
+        positive("pack_g")
+        serving = positive("serving_g")
+        concentration = positive("active_per_100g")
+        active = positive("active_per_serving_g")
+        if concentration > 100 or active > serving:
+            raise ValueError("Free glycine cannot exceed the total powder mass")
+        if not math.isclose(active, serving * concentration / 100, rel_tol=0.02, abs_tol=0.001):
+            raise ValueError("Glycine serving and concentration disagree (use active grams, not milligrams)")
+        return active
+    positive("units_pack")
+    return positive("active_per_unit") * positive("units_per_day")
+
+
 def infer_dose_tier(cat, entry):
     def daily():
         return entry["active_per_unit"] * entry["units_per_day"]
+
+    if cat == "glycine":
+        g = glycine_daily_grams(entry)
+        # A fixed provisional tier acknowledges quantified dosing without
+        # inventing a generally effective band or rewarding larger servings.
+        return 12, (f"{g:g} g/day on the label — provisional dose score: no established general target. "
+                    "3 g is a price-comparison reference used in small sleep trials, not a recommended intake; "
+                    "no established upper limit does not mean unlimited safety.")
 
     if cat == "zinc":
         mg = daily()

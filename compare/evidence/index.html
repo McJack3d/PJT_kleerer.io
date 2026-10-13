@@ -139,11 +139,12 @@
 <body>
 <header>
   <div class="hwrap">
-    <a class="logo-s" href="../../">n3gh<span class="logo-dot">.</span></a>
+    <a class="logo-s" href="/">n3gh<span class="logo-dot">.</span></a>
     <span class="crumb" id="crumb">/ evidence</span>
     <nav class="hnav">
-      <a href="/compare/" id="navCompare">compare</a>
-      <a href="/compare/#methodology" id="navMethod">methodology</a>
+      <a href="/" id="navCompare">compare</a>
+      <a href="/about/" id="navAbout">about</a>
+      <a href="/#methodology" id="navMethod">methodology</a>
       <span class="langsw" id="langsw">
         <button onclick="setLang('en')" data-lang="en" title="Show in English">EN</button>
         <button onclick="setLang('fr')" data-lang="fr" title="Afficher en français">FR</button>
@@ -175,7 +176,7 @@
       </div>
     </details>
     <div class="row">
-      <a class="flogo" href="../../">n3gh<span class="logo-dot">.</span></a>
+      <a class="flogo" href="/">n3gh<span class="logo-dot">.</span></a>
       <span id="fmeta"></span>
     </div>
   </div>
@@ -186,7 +187,7 @@
 const LANG_KEY = "n3gh_lang";
 const UI = {
   en: {
-    crumb: "/ evidence", navCompare: "compare", navMethod: "methodology",
+    crumb: "/ evidence", navCompare: "compare", navAbout: "about", navMethod: "methodology",
     sub: `What supplements <b>actually do</b>, by need — graded on the trials behind each claim, with participants counted. The <b>EFSA authorised claim</b> is shown separately from the evidence, because a regulator approving a sentence about a nutrient's role is not the same thing as a trial showing an outcome improved. <b>Not medical advice.</b>`,
     keyNutrient: "nutrient — has a reference intake and usually an EFSA limit",
     keyBot: "botanical — a plant extract, not a nutrient; no reference intake, no EFSA limit, no authorised claim",
@@ -206,7 +207,7 @@ const UI = {
     fmeta: "evidence v1.0 · updated 2026-09-06 · grades are editorial and open to challenge",
   },
   fr: {
-    crumb: "/ preuves", navCompare: "comparer", navMethod: "méthodologie",
+    crumb: "/ preuves", navCompare: "comparer", navAbout: "à propos", navMethod: "méthodologie",
     sub: `Ce que les compléments <b>font vraiment</b>, par besoin — noté sur les essais derrière chaque promesse, participants comptés. L'<b>allégation EFSA autorisée</b> est affichée à part des preuves, parce qu'un régulateur qui approuve une phrase sur le rôle d'un nutriment n'est pas la même chose qu'un essai montrant qu'un résultat s'améliore. <b>Ne constitue pas un avis médical.</b>`,
     keyNutrient: "nutriment — a un apport de référence et généralement une limite EFSA",
     keyBot: "plante — un extrait végétal, pas un nutriment ; aucun apport de référence, aucune limite EFSA, aucune allégation autorisée",
@@ -252,7 +253,7 @@ function entry(e){
         <span class="ename">${esc(L(sup.name))}</span>
         ${bot ? `<span class="chip bot">${LANG==="fr"?"plante":"botanical"}</span>` : ""}
         ${boost ? `<span class="chip boost">${LANG==="fr"?"« booster »":"\"booster\""}</span>` : ""}
-        ${sup.cat ? `<a class="cmp" href="/compare/#cat=${sup.cat}">${esc(U.compare)}</a>` : ""}
+        ${sup.cat ? `<a class="cmp" href="/#cat=${sup.cat}">${esc(U.compare)}</a>` : ""}
       </div>
       ${safety ? `<div class="safety"><b>⚠ ${esc(L(safety.title))}</b>${esc(L(safety.body))}${safety.urls.length ? `<div style="margin-top:6px">${safety.urls.map(u=>`<a href="${esc(u.url)}" target="_blank" rel="noopener">${esc(u.label)} ↗</a>`).join("")}</div>`:""}</div>` : ""}
       <p class="effect">${esc(L(e.effect))}</p>
@@ -272,6 +273,7 @@ function render(){
   document.documentElement.lang = LANG;
   document.getElementById("crumb").textContent = U.crumb;
   document.getElementById("navCompare").textContent = U.navCompare;
+  document.getElementById("navAbout").textContent = U.navAbout;
   document.getElementById("navMethod").textContent = U.navMethod;
   document.getElementById("h1").textContent = LANG === "fr" ? "preuves." : "evidence.";
   document.getElementById("sub").innerHTML = U.sub;

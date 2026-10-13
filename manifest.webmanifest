@@ -3,7 +3,7 @@
   "short_name": "n3gh.",
   "description": "Independent, evidence-based supplement scoring for the EU/French market. Open method, true price per active, no sponsors and no affiliate links.",
   "id": "/compare/",
-  "start_url": "/compare/",
+  "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait-primary",
@@ -22,13 +22,13 @@
     {
       "name": "Compare supplements",
       "short_name": "Compare",
-      "url": "/compare/",
+      "url": "/",
       "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
     },
     {
       "name": "Methodology",
       "short_name": "Method",
-      "url": "/compare/#methodology"
+      "url": "/#methodology"
     }
   ]
 }

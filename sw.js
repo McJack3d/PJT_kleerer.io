@@ -24,7 +24,7 @@
  *   assets       stale-while-revalidate. Instant paint from cache, refreshed in
  *                the background, so data.js is never more than one visit stale.
  */
-const VERSION = "v1.17.0";
+const VERSION = "v1.18.0";
 
 // Assets are requested with a cache-busting query -- `i18n.js?v=1.5`,
 // `data.js?v=1.5` -- while the precache stores them under their bare path. A
@@ -47,7 +47,7 @@ const keyFor = (req) => {
 };
 const CACHE = `n3gh-${VERSION}`;
 
-// The app shell. Everything needed to open /compare/ and score a product with
+// The app shell. Everything needed to open the comparator at / and score a product with
 // no network at all.
 const PRECACHE = [
   "/",
@@ -73,6 +73,7 @@ const PRECACHE = [
   "/compare/en/",
   "/compare/evidence/",
   "/compare/evidence/evidence.js",
+  "/about/",
   "/terms/",
   "/bot/",
   "/manifest.webmanifest",
@@ -125,8 +126,8 @@ self.addEventListener("fetch", (e) => {
         return fresh;
       } catch (_) {
         return (await caches.match(keyFor(req), MATCH))
-            || (await caches.match("/compare/", MATCH))
             || (await caches.match("/", MATCH))
+            || (await caches.match("/compare/", MATCH))
             || Response.error();
       }
     })());

@@ -55,7 +55,7 @@ en: {
 
   cats: {all:"all", whey:"whey", creatine:"creatine", vitamin_d3:"vitamin d3", magnesium:"magnesium",
     omega3:"omega-3", multivitamin:"multivitamin", zinc:"zinc", vitamin_c:"vitamin c",
-    collagen:"collagen", probiotics:"probiotics", melatonin:"melatonin",
+    collagen:"collagen", probiotics:"probiotics", melatonin:"melatonin", glycine:"glycine",
     ashwagandha:"ashwagandha", maca:"maca", rhodiola:"rhodiola", curcumin:"curcumin",
     vitamin_d2:"vitamin D2", vitamin_b1:"vitamin B1", vitamin_b2:"vitamin B2", vitamin_b3:"vitamin B3", vitamin_b5:"vitamin B5", vitamin_b6:"vitamin B6",
     vitamin_b12:"vitamin B12", vitamin_k2:"vitamin K2", b_complex:"B complex", biotin:"biotin", folate:"folate (B9)",
@@ -64,14 +64,14 @@ en: {
 
   units: {whey:"g protein", creatine:"g creatine", vitamin_d3:"IU vitamin D3",
     magnesium:"mg elemental Mg", omega3:"mg EPA+DHA", zinc:"mg zinc", vitamin_c:"mg vitamin C",
-    collagen:"g peptides", probiotics:"billion CFU", melatonin:"mg melatonin",
+    collagen:"g peptides", probiotics:"billion CFU", melatonin:"mg melatonin", glycine:"g glycine",
     ashwagandha:"mg root extract", maca:"mg maca", rhodiola:"mg extract", curcumin:"mg curcuminoids",
     vitamin_b12:"µg B12", vitamin_k2:"µg MK-7", biotin:"µg biotin", folate:"µg folate", tribulus:"mg extract", fenugreek:"mg extract", zma:"mg zinc",
     vitamin_e:"mg vitamin E", iron:"mg iron", calcium:"mg calcium", iodine:"µg iodine", selenium:"µg selenium", chromium:"µg chromium", potassium:"mg potassium"},
   nutrientUnits: {vitamin_d2:"IU D2", vitamin_d3:"IU D3", vitamin_b1:"mg", vitamin_b2:"mg", vitamin_b3:"mg", vitamin_b5:"mg", vitamin_b6:"mg", vitamin_b12:"µg", biotin:"µg", folate:"µg"},
   stackUnits: {whey:"g protein (per serving)", creatine:"g creatine", vitamin_d3:"IU vitamin D (D2 + D3)",
     magnesium:"mg elemental Mg", omega3:"mg EPA+DHA", zinc:"mg zinc", vitamin_c:"mg vitamin C",
-    collagen:"g collagen peptides", probiotics:"billion CFU", melatonin:"mg melatonin",
+    collagen:"g collagen peptides", probiotics:"billion CFU", melatonin:"mg melatonin", glycine:"g glycine",
     ashwagandha:"mg ashwagandha extract", maca:"mg maca", rhodiola:"mg rhodiola extract", curcumin:"mg curcuminoids",
     vitamin_b12:"µg vitamin B12", vitamin_k2:"µg vitamin K2 (MK-7)", biotin:"µg biotin", folate:"µg folate", tribulus:"mg tribulus extract", fenugreek:"mg fenugreek extract", zma:"mg zinc",
     vitamin_e:"mg vitamin E (alpha-tocopherol)", iron:"mg elemental iron", calcium:"mg elemental calcium", iodine:"µg iodine", selenium:"µg selenium", chromium:"µg chromium", potassium:"mg elemental potassium"},
@@ -84,6 +84,8 @@ en: {
     omega3: p => `${(p.active_per_unit*p.units_per_day).toLocaleString("en")} mg EPA+DHA / day (${p.units_per_day} × ${p.unit_name})`,
     zinc: p => `${p.active_per_unit*p.units_per_day} mg elemental Zn / day (${p.units_per_day} × ${p.unit_name})`,
     vitamin_c: p => `${(p.active_per_unit*p.units_per_day).toLocaleString("en")} mg vitamin C / day (${p.units_per_day} × ${p.unit_name})`,
+    glycinePowder: p => `${p.active_per_serving_g} g glycine per ${p.serving_g} g label serving`,
+    glycineCaps: p => `${+(p.active_per_unit*p.units_per_day).toFixed(3)} g glycine / day (${p.units_per_day} × ${p.unit_name})`,
     collagenPowder: p => `${p.active_per_serving_g} g collagen per ${p.serving_g} g serving`,
     collagenCaps: p => `${(p.active_per_unit*p.units_per_day).toFixed(2)} g collagen / day (${p.units_per_day} × ${p.unit_name})`,
     probiotics: p => `${p.active_per_unit*p.units_per_day} billion CFU / day (${p.units_per_day} × ${p.unit_name})`,
@@ -128,6 +130,7 @@ en: {
   },
 
   notes: {
+    glycine: "3 g is a common price-comparison quantity, not a recommended daily intake. Small, short sleep trials used 3 g before bed; they do not establish a personalised effective dose. No EFSA reference intake or upper limit is established here; absence of a limit does not establish safety at any dose",
     whey: (lo,hi,w,ac,old) => `${lo}–${hi} g/kg/day for a ${w} kg ${ac} adult${old?" aged 65+ (ESPEN)":" (ISSN / Morton 2018)"} — this is your TOTAL diet target; a supplement only tops up food`,
     creatine: (hi,w) => `ISSN maintenance is a flat 3–5 g/day; heavier or heavily-training bodies sit at the top (~0.05 g/kg → ${hi} g at ${w} kg). No EU upper limit is set`,
     d3Bmi: bmi => `BMI ${bmi} — sequestration in adipose tissue raises the requirement (Endocrine Society); EFSA UL 4000 IU/day`,
@@ -158,6 +161,7 @@ en: {
   },
 
   fit: {
+    unestablished: "no established personal target",
     wheyLabel: (d,pct,lo,hi) => `1 serving = ${d} g protein ≈ ${pct}% of your ${lo} g/day minimum (your total-diet target is ${lo}–${hi} g — food does most of it)`,
     wheyChip: pct => `≈${pct}% of your daily protein`,
     overLabel: (d,unit,ul,lo,hi) => `${d} ${unit} per day — above the ${ul} regulatory limit for supplements (your effective band is ${lo}–${hi})`,
@@ -410,7 +414,7 @@ fr: {
 
   cats: {all:"tout", whey:"whey", creatine:"créatine", vitamin_d3:"vitamine d3", magnesium:"magnésium",
     omega3:"oméga-3", multivitamin:"multivitamines", zinc:"zinc", vitamin_c:"vitamine c",
-    collagen:"collagène", probiotics:"probiotiques", melatonin:"mélatonine",
+    collagen:"collagène", probiotics:"probiotiques", melatonin:"mélatonine", glycine:"glycine",
     ashwagandha:"ashwagandha", maca:"maca", rhodiola:"rhodiola", curcumin:"curcumine",
     vitamin_d2:"vitamine D2", vitamin_b1:"vitamine B1", vitamin_b2:"vitamine B2", vitamin_b3:"vitamine B3", vitamin_b5:"vitamine B5", vitamin_b6:"vitamine B6",
     vitamin_b12:"vitamine B12", vitamin_k2:"vitamine K2", b_complex:"complexe B", biotin:"biotine", folate:"folate (B9)",
@@ -419,14 +423,14 @@ fr: {
 
   units: {whey:"g de protéines", creatine:"g de créatine", vitamin_d3:"UI de vitamine D3",
     magnesium:"mg de Mg élémentaire", omega3:"mg d'EPA+DHA", zinc:"mg de zinc", vitamin_c:"mg de vitamine C",
-    collagen:"g de peptides", probiotics:"milliards d'UFC", melatonin:"mg de mélatonine",
+    collagen:"g de peptides", probiotics:"milliards d'UFC", melatonin:"mg de mélatonine", glycine:"g de glycine",
     ashwagandha:"mg d'extrait de racine", maca:"mg de maca", rhodiola:"mg d'extrait", curcumin:"mg de curcuminoïdes",
     vitamin_b12:"µg de B12", vitamin_k2:"µg de MK-7", biotin:"µg de biotine", folate:"µg de folate", tribulus:"mg d'extrait", fenugreek:"mg d'extrait", zma:"mg de zinc",
     vitamin_e:"mg de vitamine E", iron:"mg de fer", calcium:"mg de calcium", iodine:"µg d'iode", selenium:"µg de sélénium", chromium:"µg de chrome", potassium:"mg de potassium"},
   nutrientUnits: {vitamin_d2:"UI D2", vitamin_d3:"UI D3", vitamin_b1:"mg", vitamin_b2:"mg", vitamin_b3:"mg", vitamin_b5:"mg", vitamin_b6:"mg", vitamin_b12:"µg", biotin:"µg", folate:"µg"},
   stackUnits: {whey:"g de protéines (par portion)", creatine:"g de créatine", vitamin_d3:"UI de vitamine D (D2 + D3)",
     magnesium:"mg de Mg élémentaire", omega3:"mg d'EPA+DHA", zinc:"mg de zinc", vitamin_c:"mg de vitamine C",
-    collagen:"g de peptides de collagène", probiotics:"milliards d'UFC", melatonin:"mg de mélatonine",
+    collagen:"g de peptides de collagène", probiotics:"milliards d'UFC", melatonin:"mg de mélatonine", glycine:"g de glycine",
     ashwagandha:"mg d'extrait d'ashwagandha", maca:"mg de maca", rhodiola:"mg d'extrait de rhodiola", curcumin:"mg de curcuminoïdes",
     vitamin_b12:"µg de vitamine B12", vitamin_k2:"µg de vitamine K2 (MK-7)", biotin:"µg de biotine", folate:"µg de folate", tribulus:"mg d'extrait de tribulus", fenugreek:"mg d'extrait de fenugrec", zma:"mg de zinc",
     vitamin_e:"mg de vitamine E (alpha-tocophérol)", iron:"mg de fer élément", calcium:"mg de calcium élément", iodine:"µg d'iode", selenium:"µg de sélénium", chromium:"µg de chrome", potassium:"mg de potassium élément"},
@@ -439,6 +443,8 @@ fr: {
     omega3: p => `${(p.active_per_unit*p.units_per_day).toLocaleString("fr")} mg d'EPA+DHA / jour (${p.units_per_day} × ${p.unit_name})`,
     zinc: p => `${p.active_per_unit*p.units_per_day} mg de Zn élémentaire / jour (${p.units_per_day} × ${p.unit_name})`,
     vitamin_c: p => `${(p.active_per_unit*p.units_per_day).toLocaleString("fr")} mg de vitamine C / jour (${p.units_per_day} × ${p.unit_name})`,
+    glycinePowder: p => `${p.active_per_serving_g} g de glycine par portion étiquette de ${p.serving_g} g`,
+    glycineCaps: p => `${+(p.active_per_unit*p.units_per_day).toFixed(3)} g de glycine / jour (${p.units_per_day} × ${p.unit_name})`,
     collagenPowder: p => `${p.active_per_serving_g} g de collagène par portion de ${p.serving_g} g`,
     collagenCaps: p => `${(p.active_per_unit*p.units_per_day).toFixed(2)} g de collagène / jour (${p.units_per_day} × ${p.unit_name})`,
     probiotics: p => `${p.active_per_unit*p.units_per_day} milliards d'UFC / jour (${p.units_per_day} × ${p.unit_name})`,
@@ -483,6 +489,7 @@ fr: {
   },
 
   notes: {
+    glycine: "Les 3 g servent de base commune pour comparer les prix, pas de recommandation quotidienne. De petits essais courts sur le sommeil ont utilisé 3 g avant le coucher ; ils ne définissent pas de dose efficace personnalisée. Aucune référence nutritionnelle ni limite supérieure EFSA n’est établie ici ; l’absence de limite ne garantit pas la sécurité à toute dose",
     whey: (lo,hi,w,ac,old) => `${lo}–${hi} g/kg/jour pour un adulte ${ac} de ${w} kg${old?" de 65 ans et plus (ESPEN)":" (ISSN / Morton 2018)"} — c'est votre cible alimentaire TOTALE ; un complément ne fait que compléter l'alimentation`,
     creatine: (hi,w) => `l'entretien selon l'ISSN est de 3–5 g/jour, sans ajustement ; les gabarits lourds ou très entraînés se placent en haut de la fourchette (~0,05 g/kg → ${hi} g à ${w} kg). Aucune limite haute européenne n'est fixée`,
     d3Bmi: bmi => `IMC ${bmi} — la séquestration dans le tissu adipeux augmente le besoin (Endocrine Society) ; LS EFSA 4000 UI/jour`,
@@ -513,6 +520,7 @@ fr: {
   },
 
   fit: {
+    unestablished: "cible personnelle non établie",
     wheyLabel: (d,pct,lo,hi) => `1 portion = ${d} g de protéines ≈ ${pct} % de votre minimum de ${lo} g/jour (votre cible alimentaire totale est de ${lo}–${hi} g — l'alimentation en fait l'essentiel)`,
     wheyChip: pct => `≈${pct} % de vos protéines du jour`,
     overLabel: (d,unit,ul,lo,hi) => `${d} ${unit} par jour — au-dessus de la limite réglementaire de ${ul} pour les compléments (votre fourchette utile est ${lo}–${hi})`,

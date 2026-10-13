@@ -1,0 +1,1150 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-13",
+  "scope": "Preuves documentaires glycine, marques françaises ; à fusionner par identifiant produit dans label-verifications.json.",
+  "products": {
+    "nutri-co-glycine-cristallisee-neutre-300-g": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://nutriandco.com/fr/produits/glycine-cristallisee",
+        "scope": "Conditionnement, forme, ingrédients et quantité de glycine déclarés par la fiche produit. Analyses de lot et certifications non auditées.",
+        "fields": {
+          "format": "powder",
+          "form": "glycine libre cristallisée",
+          "additives": [],
+          "full_label": true,
+          "pack_g": 300,
+          "serving_g": 5,
+          "active_per_100g": 100,
+          "active_per_serving_g": 5
+        },
+        "product_identity": {
+          "brand": "Nutri&Co",
+          "name": "Glycine Cristallisée",
+          "variant": "neutre · 300 g",
+          "url": "https://nutriandco.com/fr/produits/glycine-cristallisee",
+          "pack_g": 300,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://nutriandco.com/fr/produits/glycine-cristallisee",
+        "scope": "Prix affiché le 2026-10-13 pour ce conditionnement, hors livraison, codes promotionnels et abonnement.",
+        "variant": "neutre · 300 g",
+        "price_eur": 14.9,
+        "product_identity": {
+          "brand": "Nutri&Co",
+          "name": "Glycine Cristallisée",
+          "variant": "neutre · 300 g",
+          "url": "https://nutriandco.com/fr/produits/glycine-cristallisee",
+          "pack_g": 300,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "pending_fields": [
+        "Analyses de lot et certifications indépendantes non auditées."
+      ],
+      "review_notes": [],
+      "secondary_sources": [
+        "https://www.cocooncenter.com/nutri-co-glycine-crystallisee-100-pure-gout-neutre-300-g/107643.html"
+      ]
+    },
+    "nutripure-glycine-neutre-310-g": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.nutripure.fr/fr/complement-alimentaire-mobilite-articulation/10-glycine.html",
+        "scope": "Conditionnement, forme, ingrédients et quantité de glycine déclarés par la fiche produit. Analyses de lot et certifications non auditées.",
+        "fields": {
+          "format": "powder",
+          "form": "glycine libre cristallisée",
+          "additives": [],
+          "full_label": true,
+          "pack_g": 310,
+          "serving_g": 10,
+          "active_per_100g": 100,
+          "active_per_serving_g": 10
+        },
+        "product_identity": {
+          "brand": "Nutripure",
+          "name": "Glycine",
+          "variant": "neutre · 310 g",
+          "url": "https://www.nutripure.fr/fr/complement-alimentaire-mobilite-articulation/10-29-glycine.html",
+          "pack_g": 310,
+          "units_pack": null,
+          "ean": "3770010399162"
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.nutripure.fr/fr/complement-alimentaire-mobilite-articulation/10-glycine.html",
+        "scope": "Prix affiché le 2026-10-13 pour ce conditionnement, hors livraison, codes promotionnels et abonnement.",
+        "variant": "neutre · 310 g",
+        "price_eur": 12.9,
+        "product_identity": {
+          "brand": "Nutripure",
+          "name": "Glycine",
+          "variant": "neutre · 310 g",
+          "url": "https://www.nutripure.fr/fr/complement-alimentaire-mobilite-articulation/10-29-glycine.html",
+          "pack_g": 310,
+          "units_pack": null,
+          "ean": "3770010399162"
+        }
+      },
+      "pending_fields": [
+        "Analyses de lot et certifications indépendantes non auditées."
+      ],
+      "review_notes": []
+    },
+    "nutripure-glycine-neutre-1200-g": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.nutripure.fr/fr/complement-alimentaire-mobilite-articulation/10-glycine.html",
+        "scope": "Conditionnement, forme, ingrédients et quantité de glycine déclarés par la fiche produit. Analyses de lot et certifications non auditées.",
+        "fields": {
+          "format": "powder",
+          "form": "glycine libre cristallisée",
+          "additives": [],
+          "full_label": true,
+          "pack_g": 1200,
+          "serving_g": 10,
+          "active_per_100g": 100,
+          "active_per_serving_g": 10
+        },
+        "product_identity": {
+          "brand": "Nutripure",
+          "name": "Glycine",
+          "variant": "neutre · 1200 g",
+          "url": "https://www.nutripure.fr/fr/complement-alimentaire-mobilite-articulation/10-948-glycine.html",
+          "pack_g": 1200,
+          "units_pack": null,
+          "ean": "3760322502640"
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.nutripure.fr/fr/complement-alimentaire-mobilite-articulation/10-glycine.html",
+        "scope": "Prix affiché le 2026-10-13 pour ce conditionnement, hors livraison, codes promotionnels et abonnement.",
+        "variant": "neutre · 1200 g",
+        "price_eur": 29.9,
+        "product_identity": {
+          "brand": "Nutripure",
+          "name": "Glycine",
+          "variant": "neutre · 1200 g",
+          "url": "https://www.nutripure.fr/fr/complement-alimentaire-mobilite-articulation/10-948-glycine.html",
+          "pack_g": 1200,
+          "units_pack": null,
+          "ean": "3760322502640"
+        }
+      },
+      "pending_fields": [
+        "Analyses de lot et certifications indépendantes non auditées."
+      ],
+      "review_notes": []
+    },
+    "nutrimuscle-glycine-cristallisee-en-poudre-neutre-360-g": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.nutrimuscle.com/products/glycine-cristallisee-en-poudre",
+        "scope": "Conditionnement, forme, ingrédients et quantité de glycine déclarés par la fiche produit. Analyses de lot et certifications non auditées.",
+        "fields": {
+          "format": "powder",
+          "form": "glycine cristallisée et son sel de sodium",
+          "additives": [],
+          "full_label": true,
+          "pack_g": 360,
+          "serving_g": 6,
+          "active_per_100g": 100,
+          "active_per_serving_g": 6
+        },
+        "product_identity": {
+          "brand": "Nutrimuscle",
+          "name": "Glycine Cristallisée en poudre",
+          "variant": "neutre · 360 g",
+          "url": "https://www.nutrimuscle.com/products/glycine-cristallisee-en-poudre?variant=49184756040009",
+          "pack_g": 360,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.nutrimuscle.com/products/glycine-cristallisee-en-poudre",
+        "scope": "Prix affiché le 2026-10-13 pour ce conditionnement, hors livraison, codes promotionnels et abonnement.",
+        "variant": "neutre · 360 g",
+        "price_eur": 14.95,
+        "product_identity": {
+          "brand": "Nutrimuscle",
+          "name": "Glycine Cristallisée en poudre",
+          "variant": "neutre · 360 g",
+          "url": "https://www.nutrimuscle.com/products/glycine-cristallisee-en-poudre?variant=49184756040009",
+          "pack_g": 360,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "pending_fields": [
+        "Analyses de lot et certifications indépendantes non auditées."
+      ],
+      "review_notes": []
+    },
+    "nutrimuscle-glycine-cristallisee-en-poudre-neutre-750-g": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.nutrimuscle.com/products/glycine-cristallisee-en-poudre",
+        "scope": "Conditionnement, forme, ingrédients et quantité de glycine déclarés par la fiche produit. Analyses de lot et certifications non auditées.",
+        "fields": {
+          "format": "powder",
+          "form": "glycine cristallisée et son sel de sodium",
+          "additives": [],
+          "full_label": true,
+          "pack_g": 750,
+          "serving_g": 6,
+          "active_per_100g": 100,
+          "active_per_serving_g": 6
+        },
+        "product_identity": {
+          "brand": "Nutrimuscle",
+          "name": "Glycine Cristallisée en poudre",
+          "variant": "neutre · 750 g",
+          "url": "https://www.nutrimuscle.com/products/glycine-cristallisee-en-poudre?variant=48752696328521",
+          "pack_g": 750,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.nutrimuscle.com/products/glycine-cristallisee-en-poudre",
+        "scope": "Prix affiché le 2026-10-13 pour ce conditionnement, hors livraison, codes promotionnels et abonnement.",
+        "variant": "neutre · 750 g",
+        "price_eur": 22.95,
+        "product_identity": {
+          "brand": "Nutrimuscle",
+          "name": "Glycine Cristallisée en poudre",
+          "variant": "neutre · 750 g",
+          "url": "https://www.nutrimuscle.com/products/glycine-cristallisee-en-poudre?variant=48752696328521",
+          "pack_g": 750,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "pending_fields": [
+        "Analyses de lot et certifications indépendantes non auditées."
+      ],
+      "review_notes": []
+    },
+    "nutrimuscle-glycine-cristallisee-en-poudre-neutre-3000-g": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.nutrimuscle.com/products/glycine-cristallisee-en-poudre",
+        "scope": "Conditionnement, forme, ingrédients et quantité de glycine déclarés par la fiche produit. Analyses de lot et certifications non auditées.",
+        "fields": {
+          "format": "powder",
+          "form": "glycine cristallisée et son sel de sodium",
+          "additives": [],
+          "full_label": true,
+          "pack_g": 3000,
+          "serving_g": 6,
+          "active_per_100g": 100,
+          "active_per_serving_g": 6
+        },
+        "product_identity": {
+          "brand": "Nutrimuscle",
+          "name": "Glycine Cristallisée en poudre",
+          "variant": "neutre · 3000 g",
+          "url": "https://www.nutrimuscle.com/products/glycine-cristallisee-en-poudre?variant=48752696361289",
+          "pack_g": 3000,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.nutrimuscle.com/products/glycine-cristallisee-en-poudre",
+        "scope": "Prix affiché le 2026-10-13 pour ce conditionnement, hors livraison, codes promotionnels et abonnement.",
+        "variant": "neutre · 3000 g",
+        "price_eur": 69.95,
+        "product_identity": {
+          "brand": "Nutrimuscle",
+          "name": "Glycine Cristallisée en poudre",
+          "variant": "neutre · 3000 g",
+          "url": "https://www.nutrimuscle.com/products/glycine-cristallisee-en-poudre?variant=48752696361289",
+          "pack_g": 3000,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "pending_fields": [
+        "Analyses de lot et certifications indépendantes non auditées."
+      ],
+      "review_notes": []
+    },
+    "nutrimuscle-glycine-cristallisee-en-gelules-120-gelules-850-mg": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.nutrimuscle.com/products/glycine-cristallisee-en-gelules",
+        "scope": "Conditionnement, forme, ingrédients et quantité de glycine déclarés par la fiche produit. Analyses de lot et certifications non auditées.",
+        "fields": {
+          "format": "capsule",
+          "form": "glycine cristallisée et son sel de sodium",
+          "additives": [
+            "gélule végétale : pullulan"
+          ],
+          "full_label": true,
+          "units_pack": 120,
+          "units_per_day": 6,
+          "active_per_unit": 0.85,
+          "unit_name": "gélule"
+        },
+        "product_identity": {
+          "brand": "Nutrimuscle",
+          "name": "Glycine Cristallisée en gélules",
+          "variant": "120 gélules · 850 mg",
+          "url": "https://www.nutrimuscle.com/products/glycine-cristallisee-en-gelules?variant=48752696131913",
+          "pack_g": null,
+          "units_pack": 120,
+          "ean": null
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.nutrimuscle.com/products/glycine-cristallisee-en-gelules",
+        "scope": "Prix affiché le 2026-10-13 pour ce conditionnement, hors livraison, codes promotionnels et abonnement.",
+        "variant": "120 gélules · 850 mg",
+        "price_eur": 12.95,
+        "product_identity": {
+          "brand": "Nutrimuscle",
+          "name": "Glycine Cristallisée en gélules",
+          "variant": "120 gélules · 850 mg",
+          "url": "https://www.nutrimuscle.com/products/glycine-cristallisee-en-gelules?variant=48752696131913",
+          "pack_g": null,
+          "units_pack": 120,
+          "ean": null
+        }
+      },
+      "pending_fields": [
+        "Analyses de lot et certifications indépendantes non auditées."
+      ],
+      "review_notes": []
+    },
+    "novoma-glycine-neutre-300-g": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://novoma.com/products/glycine",
+        "scope": "Conditionnement, forme, ingrédients et quantité de glycine déclarés par la fiche produit. Analyses de lot et certifications non auditées.",
+        "fields": {
+          "format": "powder",
+          "form": "glycine libre cristallisée",
+          "additives": [],
+          "full_label": true,
+          "pack_g": 300,
+          "serving_g": 5,
+          "active_per_100g": 100,
+          "active_per_serving_g": 5
+        },
+        "product_identity": {
+          "brand": "Novoma",
+          "name": "Glycine",
+          "variant": "neutre · 300 g",
+          "url": "https://novoma.com/products/glycine",
+          "pack_g": 300,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://novoma.com/products/glycine",
+        "scope": "Prix affiché le 2026-10-13 pour 1 sachet(s) de 300 g, hors livraison et abonnement.",
+        "variant": "neutre · 300 g",
+        "price_eur": 16.9,
+        "product_identity": {
+          "brand": "Novoma",
+          "name": "Glycine",
+          "variant": "neutre · 300 g",
+          "url": "https://novoma.com/products/glycine",
+          "pack_g": 300,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "pending_fields": [
+        "Analyses de lot et certifications indépendantes non auditées."
+      ],
+      "review_notes": []
+    },
+    "novoma-glycine-neutre-2-300-g": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://novoma.com/products/glycine",
+        "scope": "Conditionnement, forme, ingrédients et quantité de glycine déclarés par la fiche produit. Analyses de lot et certifications non auditées.",
+        "fields": {
+          "format": "powder",
+          "form": "glycine libre cristallisée",
+          "additives": [],
+          "full_label": true,
+          "pack_g": 600,
+          "serving_g": 5,
+          "active_per_100g": 100,
+          "active_per_serving_g": 5
+        },
+        "product_identity": {
+          "brand": "Novoma",
+          "name": "Glycine",
+          "variant": "neutre · 2 × 300 g",
+          "url": "https://novoma.com/products/glycine",
+          "pack_g": 600,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://novoma.com/products/glycine",
+        "scope": "Prix affiché le 2026-10-13 pour 2 sachet(s) de 300 g, hors livraison et abonnement.",
+        "variant": "neutre · 2 × 300 g",
+        "price_eur": 32.11,
+        "product_identity": {
+          "brand": "Novoma",
+          "name": "Glycine",
+          "variant": "neutre · 2 × 300 g",
+          "url": "https://novoma.com/products/glycine",
+          "pack_g": 600,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "pending_fields": [
+        "Analyses de lot et certifications indépendantes non auditées."
+      ],
+      "review_notes": []
+    },
+    "novoma-glycine-neutre-3-300-g": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://novoma.com/products/glycine",
+        "scope": "Conditionnement, forme, ingrédients et quantité de glycine déclarés par la fiche produit. Analyses de lot et certifications non auditées.",
+        "fields": {
+          "format": "powder",
+          "form": "glycine libre cristallisée",
+          "additives": [],
+          "full_label": true,
+          "pack_g": 900,
+          "serving_g": 5,
+          "active_per_100g": 100,
+          "active_per_serving_g": 5
+        },
+        "product_identity": {
+          "brand": "Novoma",
+          "name": "Glycine",
+          "variant": "neutre · 3 × 300 g",
+          "url": "https://novoma.com/products/glycine",
+          "pack_g": 900,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://novoma.com/products/glycine",
+        "scope": "Prix affiché le 2026-10-13 pour 3 sachet(s) de 300 g, hors livraison et abonnement.",
+        "variant": "neutre · 3 × 300 g",
+        "price_eur": 45.63,
+        "product_identity": {
+          "brand": "Novoma",
+          "name": "Glycine",
+          "variant": "neutre · 3 × 300 g",
+          "url": "https://novoma.com/products/glycine",
+          "pack_g": 900,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "pending_fields": [
+        "Analyses de lot et certifications indépendantes non auditées."
+      ],
+      "review_notes": []
+    },
+    "dynveo-glycine-cristallisee-neutre-250-g": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.dynveo.fr/products/glycine-poudre",
+        "scope": "Conditionnement, forme, ingrédients et quantité de glycine déclarés par la fiche produit. Analyses de lot et certifications non auditées.",
+        "fields": {
+          "format": "powder",
+          "form": "glycine libre cristallisée",
+          "additives": [],
+          "full_label": true,
+          "pack_g": 250,
+          "serving_g": 4.5,
+          "active_per_100g": 100,
+          "active_per_serving_g": 4.5
+        },
+        "product_identity": {
+          "brand": "Dynveo",
+          "name": "Glycine Cristallisée",
+          "variant": "neutre · 250 g",
+          "url": "https://www.dynveo.fr/products/glycine-poudre",
+          "pack_g": 250,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.dynveo.fr/products/glycine-poudre",
+        "scope": "Prix affiché le 2026-10-13 pour ce conditionnement, hors livraison, codes promotionnels et abonnement.",
+        "variant": "neutre · 250 g",
+        "price_eur": 12.9,
+        "product_identity": {
+          "brand": "Dynveo",
+          "name": "Glycine Cristallisée",
+          "variant": "neutre · 250 g",
+          "url": "https://www.dynveo.fr/products/glycine-poudre",
+          "pack_g": 250,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "pending_fields": [
+        "Analyses de lot et certifications indépendantes non auditées."
+      ],
+      "review_notes": []
+    },
+    "nutrimea-glycine-neutre-300-g": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.nutrimea.com/fr-fr/products/glycine",
+        "scope": "Conditionnement, forme, ingrédients et quantité de glycine déclarés par la fiche produit. Analyses de lot et certifications non auditées.",
+        "fields": {
+          "format": "powder",
+          "form": "glycine libre cristallisée",
+          "additives": [],
+          "full_label": true,
+          "pack_g": 300,
+          "serving_g": 10,
+          "active_per_100g": 100,
+          "active_per_serving_g": 10
+        },
+        "product_identity": {
+          "brand": "Nutrimea",
+          "name": "Glycine",
+          "variant": "neutre · 300 g",
+          "url": "https://www.nutrimea.com/fr-fr/products/glycine",
+          "pack_g": 300,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.nutrimea.com/fr-fr/products/glycine",
+        "scope": "Prix promotionnel affiché le 2026-10-13 pour 1 pot(s) de 300 g, hors livraison ; total du lot, pas prix unitaire.",
+        "variant": "neutre · 300 g",
+        "price_eur": 11.12,
+        "product_identity": {
+          "brand": "Nutrimea",
+          "name": "Glycine",
+          "variant": "neutre · 300 g",
+          "url": "https://www.nutrimea.com/fr-fr/products/glycine",
+          "pack_g": 300,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "pending_fields": [
+        "Analyses de lot et certifications indépendantes non auditées."
+      ],
+      "review_notes": []
+    },
+    "nutrimea-glycine-neutre-2-300-g": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.nutrimea.com/fr-fr/products/glycine",
+        "scope": "Conditionnement, forme, ingrédients et quantité de glycine déclarés par la fiche produit. Analyses de lot et certifications non auditées.",
+        "fields": {
+          "format": "powder",
+          "form": "glycine libre cristallisée",
+          "additives": [],
+          "full_label": true,
+          "pack_g": 600,
+          "serving_g": 10,
+          "active_per_100g": 100,
+          "active_per_serving_g": 10
+        },
+        "product_identity": {
+          "brand": "Nutrimea",
+          "name": "Glycine",
+          "variant": "neutre · 2 × 300 g",
+          "url": "https://www.nutrimea.com/fr-fr/products/glycine",
+          "pack_g": 600,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.nutrimea.com/fr-fr/products/glycine",
+        "scope": "Prix promotionnel affiché le 2026-10-13 pour 2 pot(s) de 300 g, hors livraison ; total du lot, pas prix unitaire.",
+        "variant": "neutre · 2 × 300 g",
+        "price_eur": 21.14,
+        "product_identity": {
+          "brand": "Nutrimea",
+          "name": "Glycine",
+          "variant": "neutre · 2 × 300 g",
+          "url": "https://www.nutrimea.com/fr-fr/products/glycine",
+          "pack_g": 600,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "pending_fields": [
+        "Analyses de lot et certifications indépendantes non auditées."
+      ],
+      "review_notes": []
+    },
+    "nutrimea-glycine-neutre-3-300-g": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.nutrimea.com/fr-fr/products/glycine",
+        "scope": "Conditionnement, forme, ingrédients et quantité de glycine déclarés par la fiche produit. Analyses de lot et certifications non auditées.",
+        "fields": {
+          "format": "powder",
+          "form": "glycine libre cristallisée",
+          "additives": [],
+          "full_label": true,
+          "pack_g": 900,
+          "serving_g": 10,
+          "active_per_100g": 100,
+          "active_per_serving_g": 10
+        },
+        "product_identity": {
+          "brand": "Nutrimea",
+          "name": "Glycine",
+          "variant": "neutre · 3 × 300 g",
+          "url": "https://www.nutrimea.com/fr-fr/products/glycine",
+          "pack_g": 900,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.nutrimea.com/fr-fr/products/glycine",
+        "scope": "Prix promotionnel affiché le 2026-10-13 pour 3 pot(s) de 300 g, hors livraison ; total du lot, pas prix unitaire.",
+        "variant": "neutre · 3 × 300 g",
+        "price_eur": 30.03,
+        "product_identity": {
+          "brand": "Nutrimea",
+          "name": "Glycine",
+          "variant": "neutre · 3 × 300 g",
+          "url": "https://www.nutrimea.com/fr-fr/products/glycine",
+          "pack_g": 900,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "pending_fields": [
+        "Analyses de lot et certifications indépendantes non auditées."
+      ],
+      "review_notes": []
+    },
+    "nutrixeal-glycine-en-poudre-neutre-250-g": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.nutrixeal.fr/126-glycine-100-pure-en-poudre-hydrosoluble.html",
+        "scope": "Conditionnement, forme, ingrédients et quantité de glycine déclarés par la fiche produit. Analyses de lot et certifications non auditées.",
+        "fields": {
+          "format": "powder",
+          "form": "glycine libre cristallisée",
+          "additives": [],
+          "full_label": true,
+          "pack_g": 250,
+          "serving_g": 4.5,
+          "active_per_100g": 100,
+          "active_per_serving_g": 4.5
+        },
+        "product_identity": {
+          "brand": "Nutrixeal",
+          "name": "Glycine en poudre",
+          "variant": "neutre · 250 g",
+          "url": "https://www.nutrixeal.fr/126-glycine-100-pure-en-poudre-hydrosoluble.html",
+          "pack_g": 250,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.nutrixeal.fr/126-glycine-100-pure-en-poudre-hydrosoluble.html",
+        "scope": "Prix affiché le 2026-10-13 pour ce conditionnement, hors livraison, codes promotionnels et abonnement.",
+        "variant": "neutre · 250 g",
+        "price_eur": 12.9,
+        "product_identity": {
+          "brand": "Nutrixeal",
+          "name": "Glycine en poudre",
+          "variant": "neutre · 250 g",
+          "url": "https://www.nutrixeal.fr/126-glycine-100-pure-en-poudre-hydrosoluble.html",
+          "pack_g": 250,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "pending_fields": [
+        "Analyses de lot et certifications indépendantes non auditées."
+      ],
+      "review_notes": []
+    },
+    "am-nutrition-pure-glycine-neutre-500-g": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.amnutrition.fr/products/glycine",
+        "scope": "Conditionnement, forme, ingrédients et quantité de glycine déclarés par la fiche produit. Analyses de lot et certifications non auditées.",
+        "fields": {
+          "format": "powder",
+          "form": "glycine libre cristallisée",
+          "additives": [],
+          "full_label": true,
+          "pack_g": 500,
+          "serving_g": 8,
+          "active_per_100g": 100,
+          "active_per_serving_g": 8
+        },
+        "product_identity": {
+          "brand": "AM Nutrition",
+          "name": "PURE Glycine",
+          "variant": "neutre · 500 g",
+          "url": "https://www.amnutrition.fr/products/glycine",
+          "pack_g": 500,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.amnutrition.fr/products/glycine",
+        "scope": "Prix affiché le 2026-10-13 : 9,90 € pour 500 g. Produit indiqué indisponible ; hors codes promotionnels et livraison.",
+        "variant": "neutre · 500 g",
+        "price_eur": 9.9,
+        "product_identity": {
+          "brand": "AM Nutrition",
+          "name": "PURE Glycine",
+          "variant": "neutre · 500 g",
+          "url": "https://www.amnutrition.fr/products/glycine",
+          "pack_g": 500,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "pending_fields": [
+        "Analyses de lot et certifications indépendantes non auditées."
+      ],
+      "review_notes": []
+    },
+    "greenwhey-glycine-cristallisee-neutre-300-g": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://greenwhey.com/products/glycine",
+        "scope": "Conditionnement, forme, ingrédients et quantité de glycine déclarés par la fiche produit. Analyses de lot et certifications non auditées.",
+        "fields": {
+          "format": "powder",
+          "form": "glycine libre cristallisée",
+          "additives": [],
+          "full_label": true,
+          "pack_g": 300,
+          "serving_g": 10,
+          "active_per_100g": 100,
+          "active_per_serving_g": 10
+        },
+        "product_identity": {
+          "brand": "Greenwhey",
+          "name": "Glycine cristallisée",
+          "variant": "neutre · 300 g",
+          "url": "https://greenwhey.com/products/glycine",
+          "pack_g": 300,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://greenwhey.com/products/glycine",
+        "scope": "Prix affiché le 2026-10-13 pour 1 sachet(s) de 300 g, hors livraison ; total du lot après réduction affichée.",
+        "variant": "neutre · 300 g",
+        "price_eur": 14.95,
+        "product_identity": {
+          "brand": "Greenwhey",
+          "name": "Glycine cristallisée",
+          "variant": "neutre · 300 g",
+          "url": "https://greenwhey.com/products/glycine",
+          "pack_g": 300,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "pending_fields": [
+        "Analyses de lot et certifications indépendantes non auditées."
+      ],
+      "review_notes": []
+    },
+    "greenwhey-glycine-cristallisee-neutre-2-300-g": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://greenwhey.com/products/glycine",
+        "scope": "Conditionnement, forme, ingrédients et quantité de glycine déclarés par la fiche produit. Analyses de lot et certifications non auditées.",
+        "fields": {
+          "format": "powder",
+          "form": "glycine libre cristallisée",
+          "additives": [],
+          "full_label": true,
+          "pack_g": 600,
+          "serving_g": 10,
+          "active_per_100g": 100,
+          "active_per_serving_g": 10
+        },
+        "product_identity": {
+          "brand": "Greenwhey",
+          "name": "Glycine cristallisée",
+          "variant": "neutre · 2 × 300 g",
+          "url": "https://greenwhey.com/products/glycine",
+          "pack_g": 600,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://greenwhey.com/products/glycine",
+        "scope": "Prix affiché le 2026-10-13 pour 2 sachet(s) de 300 g, hors livraison ; total du lot après réduction affichée.",
+        "variant": "neutre · 2 × 300 g",
+        "price_eur": 26.91,
+        "product_identity": {
+          "brand": "Greenwhey",
+          "name": "Glycine cristallisée",
+          "variant": "neutre · 2 × 300 g",
+          "url": "https://greenwhey.com/products/glycine",
+          "pack_g": 600,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "pending_fields": [
+        "Analyses de lot et certifications indépendantes non auditées."
+      ],
+      "review_notes": []
+    },
+    "greenwhey-glycine-cristallisee-neutre-3-300-g": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://greenwhey.com/products/glycine",
+        "scope": "Conditionnement, forme, ingrédients et quantité de glycine déclarés par la fiche produit. Analyses de lot et certifications non auditées.",
+        "fields": {
+          "format": "powder",
+          "form": "glycine libre cristallisée",
+          "additives": [],
+          "full_label": true,
+          "pack_g": 900,
+          "serving_g": 10,
+          "active_per_100g": 100,
+          "active_per_serving_g": 10
+        },
+        "product_identity": {
+          "brand": "Greenwhey",
+          "name": "Glycine cristallisée",
+          "variant": "neutre · 3 × 300 g",
+          "url": "https://greenwhey.com/products/glycine",
+          "pack_g": 900,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://greenwhey.com/products/glycine",
+        "scope": "Prix affiché le 2026-10-13 pour 3 sachet(s) de 300 g, hors livraison ; total du lot après réduction affichée.",
+        "variant": "neutre · 3 × 300 g",
+        "price_eur": 38.12,
+        "product_identity": {
+          "brand": "Greenwhey",
+          "name": "Glycine cristallisée",
+          "variant": "neutre · 3 × 300 g",
+          "url": "https://greenwhey.com/products/glycine",
+          "pack_g": 900,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "pending_fields": [
+        "Analyses de lot et certifications indépendantes non auditées."
+      ],
+      "review_notes": []
+    },
+    "nutrition-pro-glycine-cristallisee-neutre-150-g": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://nutritionpro.fr/es/products/glycine-cristallisee-pure",
+        "scope": "Conditionnement, forme, ingrédients et quantité de glycine déclarés par la fiche produit. Analyses de lot et certifications non auditées.",
+        "fields": {
+          "format": "powder",
+          "form": "glycine libre cristallisée",
+          "additives": [],
+          "full_label": true,
+          "pack_g": 150,
+          "serving_g": 5,
+          "active_per_100g": 100,
+          "active_per_serving_g": 5
+        },
+        "product_identity": {
+          "brand": "Nutrition•pro",
+          "name": "Glycine Cristallisée",
+          "variant": "neutre · 150 g",
+          "url": "https://nutritionpro.fr/products/glycine-cristallisee-pure",
+          "pack_g": 150,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://nutritionpro.fr/es/products/glycine-cristallisee-pure",
+        "scope": "Prix affiché le 2026-10-13 pour ce conditionnement, hors livraison, codes promotionnels et abonnement.",
+        "variant": "neutre · 150 g",
+        "price_eur": 14.99,
+        "product_identity": {
+          "brand": "Nutrition•pro",
+          "name": "Glycine Cristallisée",
+          "variant": "neutre · 150 g",
+          "url": "https://nutritionpro.fr/products/glycine-cristallisee-pure",
+          "pack_g": 150,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "pending_fields": [
+        "Analyses de lot et certifications indépendantes non auditées."
+      ],
+      "review_notes": []
+    },
+    "nutrizoe-glycine-en-poudre-neutre-1000-g": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://vitaminec.com/products/glycine-en-poudre",
+        "scope": "Conditionnement, forme, ingrédients et quantité de glycine déclarés par la fiche produit. Analyses de lot et certifications non auditées.",
+        "fields": {
+          "format": "powder",
+          "form": "glycine libre cristallisée",
+          "additives": [],
+          "full_label": true,
+          "pack_g": 1000,
+          "serving_g": 10,
+          "active_per_100g": 100,
+          "active_per_serving_g": 10
+        },
+        "product_identity": {
+          "brand": "NutriZoé",
+          "name": "Glycine en poudre",
+          "variant": "neutre · 1000 g",
+          "url": "https://vitaminec.com/products/glycine-en-poudre",
+          "pack_g": 1000,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://vitaminec.com/products/glycine-en-poudre",
+        "scope": "Prix affiché le 2026-10-13 pour ce conditionnement, hors livraison, codes promotionnels et abonnement.",
+        "variant": "neutre · 1000 g",
+        "price_eur": 35.9,
+        "product_identity": {
+          "brand": "NutriZoé",
+          "name": "Glycine en poudre",
+          "variant": "neutre · 1000 g",
+          "url": "https://vitaminec.com/products/glycine-en-poudre",
+          "pack_g": 1000,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "pending_fields": [
+        "Analyses de lot et certifications indépendantes non auditées."
+      ],
+      "review_notes": []
+    },
+    "nutrizoe-glycine-en-gelules-120-gelules-500-mg": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://vitaminec.com/products/glycine-en-gelules",
+        "scope": "Conditionnement, forme, ingrédients et quantité de glycine déclarés par la fiche produit. Analyses de lot et certifications non auditées.",
+        "fields": {
+          "format": "capsule",
+          "form": "glycine libre",
+          "additives": [
+            "gélule végétale : pullulan"
+          ],
+          "full_label": true,
+          "units_pack": 120,
+          "units_per_day": 4,
+          "active_per_unit": 0.5,
+          "unit_name": "gélule"
+        },
+        "product_identity": {
+          "brand": "NutriZoé",
+          "name": "Glycine en gélules",
+          "variant": "120 gélules · 500 mg",
+          "url": "https://vitaminec.com/products/glycine-en-gelules",
+          "pack_g": null,
+          "units_pack": 120,
+          "ean": null
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://vitaminec.com/products/glycine-en-gelules",
+        "scope": "Prix affiché le 2026-10-13 pour ce conditionnement, hors livraison, codes promotionnels et abonnement.",
+        "variant": "120 gélules · 500 mg",
+        "price_eur": 8.95,
+        "product_identity": {
+          "brand": "NutriZoé",
+          "name": "Glycine en gélules",
+          "variant": "120 gélules · 500 mg",
+          "url": "https://vitaminec.com/products/glycine-en-gelules",
+          "pack_g": null,
+          "units_pack": 120,
+          "ean": null
+        }
+      },
+      "pending_fields": [
+        "Analyses de lot et certifications indépendantes non auditées."
+      ],
+      "review_notes": []
+    },
+    "nutrizoe-glycine-en-poudre-neutre-300-g": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://vitaminec.com/products/glycine-en-poudre",
+        "scope": "Conditionnement, forme, ingrédients et quantité de glycine déclarés par la fiche produit. Analyses de lot et certifications non auditées.",
+        "fields": {
+          "format": "powder",
+          "form": "glycine libre cristallisée",
+          "additives": [],
+          "full_label": true,
+          "pack_g": 300,
+          "serving_g": 10,
+          "active_per_100g": 100,
+          "active_per_serving_g": 10
+        },
+        "product_identity": {
+          "brand": "NutriZoé",
+          "name": "Glycine en poudre",
+          "variant": "neutre · 300 g",
+          "url": "https://www.humasana.com/fr/glycine-en-poudre-300-grammes_p936009423",
+          "pack_g": 300,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.humasana.com/fr/glycine-en-poudre-300-grammes_p936009423",
+        "scope": "Prix distributeur Humasana observé le 2026-10-13 pour 300 g, hors livraison ; prix fabricant de cette variante non confirmé.",
+        "variant": "neutre · 300 g",
+        "price_eur": 15.9,
+        "product_identity": {
+          "brand": "NutriZoé",
+          "name": "Glycine en poudre",
+          "variant": "neutre · 300 g",
+          "url": "https://www.humasana.com/fr/glycine-en-poudre-300-grammes_p936009423",
+          "pack_g": 300,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "pending_fields": [
+        "Analyses de lot et certifications indépendantes non auditées."
+      ],
+      "review_notes": [],
+      "secondary_sources": [
+        "https://vitaminec.com/products/glycine-en-poudre",
+        "https://www.humasana.com/fr/nutrizoe_b1284705077"
+      ]
+    },
+    "nutrizoe-glycine-en-poudre-neutre-500-g": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://vitaminec.com/products/glycine-en-poudre",
+        "scope": "Conditionnement, forme, ingrédients et quantité de glycine déclarés par la fiche produit. Analyses de lot et certifications non auditées.",
+        "fields": {
+          "format": "powder",
+          "form": "glycine libre cristallisée",
+          "additives": [],
+          "full_label": true,
+          "pack_g": 500,
+          "serving_g": 10,
+          "active_per_100g": 100,
+          "active_per_serving_g": 10
+        },
+        "product_identity": {
+          "brand": "NutriZoé",
+          "name": "Glycine en poudre",
+          "variant": "neutre · 500 g",
+          "url": "https://www.humasana.com/fr/glycine-en-poudre-500-grammes_p491154886",
+          "pack_g": 500,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.humasana.com/fr/glycine-en-poudre-500-grammes_p491154886",
+        "scope": "Prix distributeur Humasana observé le 2026-10-13 pour 500 g, hors livraison ; prix fabricant de cette variante non confirmé.",
+        "variant": "neutre · 500 g",
+        "price_eur": 24,
+        "product_identity": {
+          "brand": "NutriZoé",
+          "name": "Glycine en poudre",
+          "variant": "neutre · 500 g",
+          "url": "https://www.humasana.com/fr/glycine-en-poudre-500-grammes_p491154886",
+          "pack_g": 500,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "pending_fields": [
+        "Analyses de lot et certifications indépendantes non auditées."
+      ],
+      "review_notes": [],
+      "secondary_sources": [
+        "https://vitaminec.com/products/glycine-en-poudre",
+        "https://www.humasana.com/fr/nutrizoe_b1284705077"
+      ]
+    }
+  }
+}

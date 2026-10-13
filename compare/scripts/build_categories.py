@@ -64,11 +64,12 @@ def build_all():
 <a class="cta" href="/compare/{lang}/#cat={key}">{cta} ↗</a>
 <p class="note">{'Édition du catalogue' if fr else 'Catalogue edition'} : {esc(data['meta']['generated'])}. {esc(caveat)}</p>
 <div class="table-wrap" role="region" aria-label="{'Produits' if fr else 'Products'}" tabindex="0"><table><caption>{esc((name[:1].upper()+name[1:]))} — {len(products)} {'produits' if fr else 'products'}</caption><thead><tr>{''.join('<th scope="col">'+c+'</th>' for c in cols)}</tr></thead><tbody>{''.join(rows)}</tbody></table></div>
-<section><h2>{'Comment lire cette comparaison' if fr else 'How to read this comparison'}</h2><p>{method}</p><p><a href="/compare/METHODOLOGY.md">{'Méthodologie' if fr else 'Methodology'}</a> · <a href="/compare/evidence/">{'Études, limites et précautions' if fr else 'Evidence, limitations and precautions'}</a></p></section>
+<section><h2>{'Comment lire cette comparaison' if fr else 'How to read this comparison'}</h2><p>{method}</p><p><a href="/compare/{lang}/#methodology">{'Méthodologie' if fr else 'Methodology'}</a> · <a href="/compare/evidence/">{'Études, limites et précautions' if fr else 'Evidence, limitations and precautions'}</a> · <a href="/about/">{'À propos' if fr else 'About'}</a></p></section>
 {navigation(lang,keys,names)}</main><footer>n3gh. — {'Sans sponsors ni liens affiliés.' if fr else 'No sponsors or affiliate links.'} <a href="/terms/">{'Conditions et licences' if fr else 'Terms and licences'}</a></footer></body></html>'''
             target=ROOT/path.lstrip('/')/'index.html'; target.parent.mkdir(parents=True,exist_ok=True); target.write_text(html)
             paths.append(path)
-    existing=['/','/compare/','/compare/en/','/compare/fr/','/compare/evidence/','/terms/','/bot/']
+    # /compare/ is a working alias with / as its canonical; omit the duplicate.
+    existing=['/','/about/','/compare/en/','/compare/fr/','/compare/evidence/','/terms/','/bot/']
     (ROOT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f'  <url><loc>{BASE+p}</loc></url>\n' for p in existing+paths)+'</urlset>\n')
     return keys,names
 

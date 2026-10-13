@@ -1,0 +1,483 @@
+[
+  {
+    "category": "glycine",
+    "brand": "GymBeam",
+    "name": "Glycine",
+    "variant": "nature · 250 g",
+    "price_eur": 4.5,
+    "price_note": "Prix du format indiqué relevé le 13 octobre 2026, hors livraison, code promotionnel, abonnement et achat multiple.",
+    "form": "glycine libre en poudre",
+    "additives": [],
+    "certifications": [],
+    "coa_published": true,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [
+      "Étiquette : réservé aux adultes ; déconseillé pendant la grossesse et l’allaitement."
+    ],
+    "notes": "Glycine seule. Analyses publiques sur les lots L246659 et LP260154 ; résultats limités aux échantillons testés.",
+    "url": "https://gymbeam.fr/glycine-gymbeam.html",
+    "ean": "8586022214431",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-13",
+      "source_url": "https://gymbeam.fr/glycine-gymbeam.html?review-sort=rating_asc"
+    },
+    "active_unit": "g",
+    "format": "powder",
+    "pack_g": 250,
+    "serving_g": 3,
+    "active_per_serving_g": 3,
+    "active_per_100g": 100.0,
+    "vegan": true,
+    "coa_sources": [
+      {
+        "source_url": "https://gymbeam.fr/media/lab_tests/microbiology-heavy-metals-55552-1-250g-2026.pdf",
+        "scope": "Microbiologie et métaux lourds, lot L246659, rapport du 17 avril 2026."
+      },
+      {
+        "source_url": "https://gymbeam.fr/media/lab_tests/food-fraud-test-55552-1-250g-2026.pdf",
+        "scope": "Teneur en glycine, pot de 250 g, lot LP260154, rapport du 25 juin 2026."
+      }
+    ]
+  },
+  {
+    "category": "glycine",
+    "brand": "GymBeam",
+    "name": "Glycine",
+    "variant": "nature · 1000 g",
+    "price_eur": 15.95,
+    "price_note": "Prix vendeur GymBeam sur Cdiscount du sachet 1000 g, relevé le 13 octobre 2026, hors livraison.",
+    "form": "glycine libre en poudre",
+    "additives": [],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [
+      "Étiquette : réservé aux adultes ; déconseillé pendant la grossesse et l’allaitement."
+    ],
+    "notes": "Vendu et expédié par GymBeam sur Cdiscount. Les analyses consultées du format 250 g ne sont pas attribuées au format 1 kg.",
+    "url": "https://www.cdiscount.com/le-sport/nutrition-sportive/gymbeam-glycine-en-poudre/f-12129-aadgg13919.html",
+    "ean": "8586028136058",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-13",
+      "source_url": "https://www.cdiscount.com/le-sport/nutrition-sportive/gymbeam-glycine-en-poudre/f-12129-aadgg13919.html"
+    },
+    "active_unit": "g",
+    "format": "powder",
+    "pack_g": 1000,
+    "serving_g": 3,
+    "active_per_serving_g": 3,
+    "active_per_100g": 100.0,
+    "vegan": true
+  },
+  {
+    "category": "glycine",
+    "brand": "OstroVit",
+    "name": "Glycine",
+    "variant": "nature · 200 g",
+    "price_eur": 4.85,
+    "price_note": "Prix du format indiqué relevé le 13 octobre 2026, hors livraison, code promotionnel, abonnement et achat multiple.",
+    "form": "glycine libre en poudre",
+    "additives": [],
+    "certifications": [],
+    "coa_published": true,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [
+      "Étiquette : réservé aux adultes ; déconseillé pendant la grossesse et l’allaitement.",
+      "Fabriqué dans un atelier utilisant du lait, du soja et du poisson.",
+      "La page affiche une notification de retour en stock ; disponibilité à confirmer."
+    ],
+    "notes": "Glycine seule. Référence actuelle 27461. Rapport de microbiologie du lot PR/0004202 ; aucune extrapolation aux autres lots.",
+    "url": "https://ostrovit.com/en/products/ostrovit-glycine-200-g-27461.html",
+    "ean": "5903933927220",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-13",
+      "source_url": "https://ostrovit.com/en/products/ostrovit-glycine-200-g-27461.html"
+    },
+    "active_unit": "g",
+    "format": "powder",
+    "pack_g": 200,
+    "serving_g": 3,
+    "active_per_serving_g": 3,
+    "active_per_100g": 100.0,
+    "coa_sources": [
+      {
+        "source_url": "https://ostrovit.com/data/include/cms/lab-test/27461_hmetal_27.07.2026_EN.pdf",
+        "scope": "Le PDF lié sous « Heavy metals » contient un rapport de microbiologie : produit 200 g, lot PR/0004202, 1 août 2026."
+      }
+    ]
+  },
+  {
+    "category": "glycine",
+    "brand": "OstroVit",
+    "name": "Glycine",
+    "variant": "120 gélules",
+    "price_eur": 7.03,
+    "price_note": "Prix du format indiqué relevé le 13 octobre 2026, hors livraison, code promotionnel, abonnement et achat multiple.",
+    "form": "glycine libre en gélules",
+    "additives": [
+      "agent de charge : hydroxypropylméthylcellulose",
+      "L-leucine"
+    ],
+    "certifications": [],
+    "coa_published": true,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [
+      "Étiquette : réservé aux adultes ; déconseillé pendant la grossesse et l’allaitement.",
+      "Fabriqué dans un atelier utilisant du poisson.",
+      "La page affiche à la fois ajout au panier et alerte de retour en stock ; disponibilité à confirmer."
+    ],
+    "notes": "3 g de glycine pour 4 gélules, soit 0,75 g par gélule. Analyse microbiologique du lot KAP/0001816 uniquement.",
+    "url": "https://ostrovit.com/en/products/ostrovit-glycine-120-capsules-27360.html",
+    "ean": "5903933926100",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-13",
+      "source_url": "https://ostrovit.com/en/products/ostrovit-glycine-120-capsules-27360.html"
+    },
+    "active_unit": "g",
+    "format": "capsules",
+    "units_pack": 120,
+    "units_per_day": 4,
+    "active_per_unit": 0.75,
+    "unit_name": "gélule",
+    "coa_sources": [
+      {
+        "source_url": "https://ostrovit.com/data/include/cms/lab-test/27360_micro_09.09.2026_EN.pdf",
+        "scope": "Microbiologie, produit 120 gélules, lot KAP/0001816, rapport du 17 septembre 2026."
+      }
+    ]
+  },
+  {
+    "category": "glycine",
+    "brand": "HSN",
+    "name": "Glycine en poudre",
+    "variant": "nature · 500 g",
+    "price_eur": 10.63,
+    "price_note": "Prix Naturitas France du sachet 500 g relevé le 13 octobre 2026, hors livraison et coupon ; indisponible lors du relevé.",
+    "form": "glycine libre en poudre",
+    "additives": [],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [
+      "Format en rupture de stock chez ce marchand lors du relevé."
+    ],
+    "notes": "RawSeries, glycine seule. Mesurette donnée à titre indicatif ; pesée recommandée pour une quantité précise.",
+    "url": "https://www.naturitas.fr/p/complements/acides-amines-et-proteines/glycine-en-poudre-500g-500-g-de-poudre-hsn",
+    "ean": null,
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-13",
+      "source_url": "https://www.naturitas.fr/p/complements/acides-amines-et-proteines/glycine-en-poudre-500g-500-g-de-poudre-hsn"
+    },
+    "active_unit": "g",
+    "format": "powder",
+    "pack_g": 500,
+    "serving_g": 5,
+    "active_per_serving_g": 5,
+    "active_per_100g": 100.0,
+    "vegan": true
+  },
+  {
+    "category": "glycine",
+    "brand": "HSN",
+    "name": "Glycine en poudre",
+    "variant": "nature · 1000 g",
+    "price_eur": 23.2,
+    "price_note": "Prix promotionnel Naturitas Espagne 23,20 € pour 1 kg (prix barré 29 €), relevé le 13 octobre 2026, hors livraison ; indisponible.",
+    "form": "glycine libre en poudre",
+    "additives": [],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [
+      "Format en rupture de stock chez ce marchand lors du relevé.",
+      "Offre d’un marchand espagnol ; conditions de livraison vers la France à vérifier."
+    ],
+    "notes": "RawSeries, glycine seule. Portion fabricant de 5 g une fois par jour.",
+    "url": "https://www.naturitas.es/p/suplementos/aminoacidos-y-proteinas/rawseries-glicina-en-polvo-1-kg-de-polvo-hsn",
+    "ean": null,
+    "price_context": {
+      "kind": "promo_price",
+      "checked_on": "2026-10-13",
+      "source_url": "https://www.naturitas.es/p/suplementos/aminoacidos-y-proteinas/rawseries-glicina-en-polvo-1-kg-de-polvo-hsn",
+      "normal_eur": 29,
+      "off_pct": 20
+    },
+    "active_unit": "g",
+    "format": "powder",
+    "pack_g": 1000,
+    "serving_g": 5,
+    "active_per_serving_g": 5,
+    "active_per_100g": 100.0,
+    "vegan": true
+  },
+  {
+    "category": "glycine",
+    "brand": "Applied Nutrition",
+    "name": "Sleep Support",
+    "variant": "Mixed Berries · 300 g",
+    "price_eur": 29.9,
+    "price_note": "Prix ActiveLife Sport de la saveur Mixed Berries en pot 300 g, 29,90 €, relevé le 13 octobre 2026, hors livraison.",
+    "form": "glycine libre, bisglycinates de magnésium et de zinc, vitamine B6, plantes et acides aminés",
+    "additives": [
+      "inuline",
+      "maltodextrine",
+      "acide citrique",
+      "arômes",
+      "dioxyde de silicium",
+      "rouge de betterave",
+      "sucralose"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [
+      "Formule composée : 3 g de glycine pour 10 g de poudre, avec minéraux, plantes et 5-HTP.",
+      "Étiquette : avis professionnel en cas de traitement, maladie, grossesse ou allaitement ; réservé aux adultes.",
+      "Atelier utilisant lait, soja, œufs, poisson, céleri et céréales à gluten."
+    ],
+    "notes": "Par portion : théanine 250 mg, mélisse 250 mg, reishi 100 mg, ashwagandha 100 mg, griffonia 100 mg dont 5-HTP 30 mg, tryptophane 50 mg. Teneur en cerise divergente entre vendeurs (250/500 mg), non retenue.",
+    "url": "https://activelife-sport.com/products/sleep-support-sommeil-reparateur",
+    "ean": null,
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-13",
+      "source_url": "https://activelife-sport.com/products/sleep-support-sommeil-reparateur"
+    },
+    "active_unit": "g",
+    "format": "powder",
+    "pack_g": 300,
+    "serving_g": 10,
+    "active_per_serving_g": 3,
+    "active_per_100g": 30.0,
+    "vegan": true,
+    "secondary_actives": [
+      {
+        "category": "magnesium",
+        "per_day": 400
+      },
+      {
+        "category": "zinc",
+        "per_day": 14
+      }
+    ],
+    "glycine_blend": true,
+    "nutrients": {
+      "vitamin_b6": 1.4
+    }
+  },
+  {
+    "category": "glycine",
+    "brand": "Applied Nutrition",
+    "name": "Sleep Support",
+    "variant": "Black Grape · 300 g",
+    "price_eur": 29.9,
+    "price_note": "Prix ActiveLife Sport de la saveur Black Grape en pot 300 g, 29,90 €, relevé le 13 octobre 2026, hors livraison.",
+    "form": "glycine libre, bisglycinates de magnésium et de zinc, vitamine B6, plantes et acides aminés",
+    "additives": [
+      "inuline",
+      "maltodextrine",
+      "acide citrique",
+      "arômes",
+      "dioxyde de silicium",
+      "rouge de betterave",
+      "sucralose"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [
+      "Formule composée : 3 g de glycine pour 10 g de poudre, avec minéraux, plantes et 5-HTP.",
+      "Étiquette : avis professionnel en cas de traitement, maladie, grossesse ou allaitement ; réservé aux adultes.",
+      "Atelier utilisant lait, soja, œufs, poisson, céleri et céréales à gluten."
+    ],
+    "notes": "Par portion : théanine 250 mg, mélisse 250 mg, reishi 100 mg, ashwagandha 100 mg, griffonia 100 mg dont 5-HTP 30 mg, tryptophane 50 mg. Teneur en cerise divergente entre vendeurs (250/500 mg), non retenue.",
+    "url": "https://activelife-sport.com/products/sleep-support-sommeil-reparateur",
+    "ean": null,
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-13",
+      "source_url": "https://activelife-sport.com/products/sleep-support-sommeil-reparateur"
+    },
+    "active_unit": "g",
+    "format": "powder",
+    "pack_g": 300,
+    "serving_g": 10,
+    "active_per_serving_g": 3,
+    "active_per_100g": 30.0,
+    "vegan": true,
+    "secondary_actives": [
+      {
+        "category": "magnesium",
+        "per_day": 400
+      },
+      {
+        "category": "zinc",
+        "per_day": 14
+      }
+    ],
+    "glycine_blend": true,
+    "nutrients": {
+      "vitamin_b6": 1.4
+    }
+  },
+  {
+    "category": "glycine",
+    "brand": "OstroVit",
+    "name": "Glycine",
+    "variant": "nature · 500 g",
+    "price_eur": 9.69,
+    "price_note": "Prix du format indiqué relevé le 13 octobre 2026, hors livraison, code promotionnel, abonnement et achat multiple.",
+    "form": "glycine libre en poudre",
+    "additives": [],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [
+      "Étiquette : réservé aux adultes ; déconseillé pendant la grossesse et l’allaitement.",
+      "Fabriqué dans un atelier utilisant du lait, du soja et du poisson.",
+      "La page affiche à la fois ajout au panier et alerte de retour en stock ; disponibilité à confirmer."
+    ],
+    "notes": "Glycine seule, référence 27417. Le prix de la page produit est retenu ; la catégorie affichait un autre montant.",
+    "url": "https://ostrovit.com/en/products/ostrovit-glycine-500-g-27417.html",
+    "ean": "5903933925752",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-13",
+      "source_url": "https://ostrovit.com/en/products/ostrovit-glycine-500-g-27417.html"
+    },
+    "active_unit": "g",
+    "format": "powder",
+    "pack_g": 500,
+    "serving_g": 3,
+    "active_per_serving_g": 3,
+    "active_per_100g": 100.0
+  },
+  {
+    "category": "glycine",
+    "brand": "OstroVit",
+    "name": "Keep Sleep",
+    "variant": "pomme verte · 270 g",
+    "price_eur": 10.93,
+    "price_note": "Prix du format indiqué relevé le 13 octobre 2026, hors livraison, code promotionnel, abonnement et achat multiple.",
+    "form": "mélange de glycine libre, citrate de magnésium, acides aminés, mélisse, zinc, B6 et mélatonine",
+    "additives": [
+      "acide citrique",
+      "dioxyde de silicium",
+      "arômes",
+      "sucralose"
+    ],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [
+      "Étiquette : réservé aux adultes ; déconseillé pendant la grossesse et l’allaitement.",
+      "Formule composée avec mélatonine : 1,5 g de glycine pour 9 g de poudre.",
+      "Étiquette : ne pas associer avec alcool ou médicaments ; ne pas utiliser avant de conduire.",
+      "Atelier utilisant lait, soja, arachides, fruits à coque, gluten, œufs, crustacés et poisson.",
+      "Disponibilité à confirmer : la page affiche aussi une alerte de retour en stock."
+    ],
+    "notes": "Autres actifs par portion : arginine 1000 mg, glutamine 950 mg, GABA 750 mg, ornithine-aspartate 650 mg, DAA 500 mg, lysine HCl 350 mg, tryptophane 300 mg, mélisse 200 mg. Glycine seule retenue dans le prix par actif.",
+    "url": "https://ostrovit.com/en/products/ostrovit-keep-sleep-270-g-26269.html",
+    "ean": "5903933908410",
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-13",
+      "source_url": "https://ostrovit.com/en/products/ostrovit-keep-sleep-270-g-26269.html"
+    },
+    "active_unit": "g",
+    "format": "powder",
+    "pack_g": 270,
+    "serving_g": 9,
+    "active_per_serving_g": 1.5,
+    "active_per_100g": 16.66666667,
+    "vegan": true,
+    "secondary_actives": [
+      {
+        "category": "magnesium",
+        "per_day": 195
+      },
+      {
+        "category": "zinc",
+        "per_day": 10
+      },
+      {
+        "category": "melatonin",
+        "per_day": 1
+      }
+    ],
+    "glycine_blend": true,
+    "nutrients": {
+      "vitamin_b6": 6
+    }
+  },
+  {
+    "category": "glycine",
+    "brand": "Prozis",
+    "name": "Glycine",
+    "variant": "nature · 150 g",
+    "price_eur": 7.99,
+    "price_note": "Prix Healthy-life France 7,99 € TTC pour 150 g, en stock au relevé du 13 octobre 2026, hors livraison.",
+    "form": "glycine libre en poudre",
+    "additives": [],
+    "certifications": [],
+    "coa_published": false,
+    "third_party_cert": false,
+    "branded_ingredient": null,
+    "full_label": true,
+    "confidence": "medium",
+    "flags": [
+      "Composition et portion de 7,5 g publiées par le revendeur ; étiquette fabricant non accessible lors du contrôle.",
+      "Étiquette : réservé aux adultes ; déconseillé pendant la grossesse et l’allaitement.",
+      "Atelier utilisant lait, soja, œufs, gluten et arachides."
+    ],
+    "notes": "Ingrédient unique : glycine, déclarée à 100 %. La portion du revendeur ne constitue pas une recommandation personnalisée.",
+    "url": "https://healthy-life.fr/p/glycine-pure-150g-prozis",
+    "ean": null,
+    "price_context": {
+      "kind": "observed_offer",
+      "checked_on": "2026-10-13",
+      "source_url": "https://healthy-life.fr/p/glycine-pure-150g-prozis"
+    },
+    "active_unit": "g",
+    "format": "powder",
+    "pack_g": 150,
+    "serving_g": 7.5,
+    "active_per_serving_g": 7.5,
+    "active_per_100g": 100.0
+  }
+]

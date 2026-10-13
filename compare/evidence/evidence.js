@@ -16,7 +16,7 @@
 const t = (en, fr) => ({ en, fr });
 
 const EVIDENCE = {
-  version: "1.0", updated: "2026-09-06",
+  version: "1.1", updated: "2026-10-13",
 
   grades: {
     A: { label: t("strong", "solide"),
@@ -36,6 +36,7 @@ const EVIDENCE = {
   // The supplement registry. `cat` links to a comparator category; `kind`
   // decides the colour — botanicals are not nutrients and are shown apart.
   supplements: {
+    glycine:      { name: t("glycine", "glycine"), cat: "glycine", kind: "nutrient" },
     melatonin:    { name: t("melatonin", "mélatonine"),          cat: "melatonin",    kind: "nutrient" },
     magnesium:    { name: t("magnesium", "magnésium"),           cat: "magnesium",    kind: "nutrient" },
     creatine:     { name: t("creatine", "créatine"),             cat: "creatine",     kind: "nutrient" },
@@ -76,6 +77,25 @@ const EVIDENCE = {
     blurb: t("The most-searched need and the one with the widest gap between what is sold and what is shown. Effects here are measured in minutes, not hours.",
              "Le besoin le plus recherché, et celui où l'écart est le plus grand entre ce qui se vend et ce qui se démontre. Les effets se mesurent ici en minutes, pas en heures."),
     entries: [
+      { sup: "glycine", grade: "C",
+        effect: t("A few short, small trials report better subjective sleep or next-day vigilance. They do not establish a treatment for chronic insomnia or a benefit for everyone.",
+                  "Quelques essais courts et de petite taille rapportent une amélioration du sommeil ressenti ou de la vigilance le lendemain. Ils ne démontrent ni un traitement de l’insomnie chronique ni un bénéfice pour tous."),
+        dose: t("The trials below used 3 g before bedtime. This is a studied quantity, not a personalised recommendation or an established daily requirement.",
+                "Les essais ci-dessous ont utilisé 3 g avant le coucher. C’est une quantité étudiée, pas une recommandation personnalisée ni un besoin quotidien établi."),
+        studies: [
+          { ref: "Yamadera et al., Sleep and Biological Rhythms 2007", n: 11,
+            design: t("single-blind crossover trial, dissatisfied sleepers", "essai croisé en simple aveugle, personnes insatisfaites de leur sommeil"),
+            finding: t("3 g before bed; subjective sleep quality and sleep-onset latency improved over a very short observation period", "3 g avant le coucher ; qualité subjective du sommeil et délai d’endormissement améliorés sur une très courte période"),
+            url: "https://doi.org/10.1111/j.1479-8425.2007.00262.x" },
+          { ref: "Bannai et al., Frontiers in Neurology 2012", n: 7,
+            design: t("single-blind crossover, 10 enrolled / 7 analysed, three restricted-sleep nights", "essai croisé en simple aveugle, 10 inclus / 7 analysés, trois nuits de sommeil restreint"),
+            finding: t("subjective fatigue improved on day 1, not day 3; vigilance improved; all participants were male company employees", "fatigue subjective améliorée au jour 1, pas au jour 3 ; vigilance améliorée ; tous les participants étaient des employés masculins de l’entreprise"),
+            url: "https://doi.org/10.3389/fneur.2012.00061" }
+        ],
+        efsa: null,
+        caveats: t("Very small samples, short follow-up and manufacturer-linked investigators limit certainty. A higher dose is not proven better; no personalised target or upper safe dose is inferred from these studies.",
+                   "Très petits effectifs, suivi court et liens des chercheurs avec le fabricant : la certitude reste limitée. Une dose supérieure n’est pas démontrée meilleure ; ces essais ne permettent de déduire ni cible personnelle ni dose maximale sûre.") },
+
       { sup: "melatonin", grade: "B",
         effect: t("Falls asleep about 7 minutes sooner; sleeps about 8 minutes longer. Real, consistent, and small. Best evidence is for sleep onset and jet lag; in adults with plain insomnia the newer analysis found no significant effect.",
                   "Endormissement environ 7 minutes plus tôt ; sommeil environ 8 minutes plus long. Réel, cohérent et petit. Les meilleures preuves concernent l'endormissement et le décalage horaire ; chez l'adulte souffrant d'insomnie simple, l'analyse la plus récente ne trouve pas d'effet significatif."),

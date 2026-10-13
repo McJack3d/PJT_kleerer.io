@@ -21,7 +21,7 @@ Text-and-data-mining rights reserved — Dir. (EU) 2019/790 art. 4(3); CPI art. 
 
 **What the score is not.** It is not medical advice, not a measure of whether *you* need the product, and not a lab test — we score label composition and public transparency, not actual batch content.
 
-**Scope.** 696 published products across 25 categories (18 nutrient categories, 4 botanicals, 3 testosterone boosters — see §5), EU with a French-market focus. Records retain their own price and label observation dates; the latest 9 October 2026 French-brand expansion is documented in [the audit](AUDIT-FR-2026-10-09.md). Scoring methodology v1.4; personalised dosing model v2.
+**Scope.** 753 published products across 26 categories (19 nutrient categories, 4 botanicals, 3 testosterone boosters — see §5), EU with a French-market focus. Records retain their own price and label observation dates; the 13 October glycine expansion adds 57 variants from 30 brands ([audit and remaining candidates](AUDIT-GLYCINE-2026-10-13.md)); the earlier French-brand expansion is documented in [its audit](AUDIT-FR-2026-10-09.md). Scoring methodology v1.4; personalised dosing model v2.
 
 ---
 
@@ -47,6 +47,8 @@ Text-and-data-mining rights reserved — Dir. (EU) 2019/790 art. 4(3); CPI art. 
 
 **1b. Effective dosing (0–20)** — daily dose at label serving vs published effective ranges and EFSA reference values, with penalties for exceeding EU upper limits (e.g. vitamin D > 4 000 IU, zinc > 25 mg, melatonin > 1.9 mg).
 
+Glycine is an explicit exception: its dose tier is provisional and does not assert an effective range (§5d).
+
 ## 2. Purity & Additives (0–30)
 Start at 30, subtract per additive (floor 0). Every ingredient string is classified by `autotag.classify_additive`. **The penalties are proportionate to the strength of the health evidence**, and the most evidence-backed harm here is *added sugar* — so no sweetener is penalised more than sugar.
 
@@ -67,6 +69,8 @@ Start at 30, subtract per additive (floor 0). Every ingredient string is classif
 | Unrecognised ingredient | **product withheld from the site** | not scored at all until a human rules on it (see §2c) |
 
 Neutral (0): water, glycerine, gelatine and capsule shells, carrier oils, natural tocopherol/rosemary antioxidants, natural flavours, plant-based colour concentrates, pectin, lactase, prebiotic fibres, and **Tier-A natural sweeteners (stevia, monk fruit)** — no credible harm signal.
+
+Calcium laurate is classified as an anti-caking agent (−2) by its documented technological function ([FDA Food Substances](https://www.hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=CALCIUMLAURATE&set=FoodSubstances), [WHO/JECFA](https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/89)), with no separate claim of toxicity. Exact standalone “leucine” and “L-leucine” are recognised as a nutritional amino acid ([FDA Food Substances](https://www.hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=LEUCINE&set=FoodSubstances)) and receive no additive deduction. This does not infer their quantity, technological role, efficacy or safety at any dose. They remain in the full ingredient list; an unknown ingredient accompanying leucine still goes through the review gate.
 
 ### 2a. Our position on sweeteners (evidence-based, not alarmist)
 The balance of current evidence is that regulator-approved sweeteners are safe at realistic intakes: EFSA, the FDA and WHO/JECFA continue to uphold their acceptable daily intakes, and in July 2023 JECFA reaffirmed aspartame's ADI even as IARC placed it in Group 2B — its weakest "possibly carcinogenic" hazard tier. Large observational cohorts (NutriNet-Santé, >100 000 adults) report modest associations between some sweeteners — aspartame, acesulfame-K, sucralose — and cancer or cardiovascular endpoints, and laboratory studies have flagged genotoxicity of a sucralose impurity and platelet effects of erythritol and xylitol. **These are cohort signals and in-vitro findings, not established causation**, and several are weakened by reverse causality (blood polyol levels are partly produced by the body). Notably, the evidence that *added sugar* harms health is stronger and more consistent than for any sweetener — which is why we penalise sugar more. WHO (2023) advises against using sweeteners for weight control, a conditional, low-certainty recommendation. n3gh therefore applies a **mild precaution proportional to the evidence** (Tier B < C < D), never a blanket "sweeteners cause cancer" verdict.
@@ -112,7 +116,7 @@ Published COAs (+12) · recognised third-party certification (Informed Sport, Co
 
 ## Value & price level (separate from the health score)
 Price never contaminates a health score. Alongside it we show two things:
-- **€ / standard dose**, normalised per category (€ / 25 g protein · 3 g creatine · 1000 IU D3 · 300 mg elemental Mg · 500 mg EPA+DHA · 15 mg zinc · 1000 mg vitamin C · 10 g collagen · € / day for multis, probiotics, melatonin).
+- **€ / comparison amount**, normalised per category (€ / 25 g protein · 3 g creatine · **3 g free glycine** · 1000 IU D3 · 300 mg elemental Mg · 500 mg EPA+DHA · 15 mg zinc · 1000 mg vitamin C · 10 g collagen · € / day for multis, probiotics, melatonin). Glycine's 3 g is a price-comparison convention, not a recommended daily intake.
 - **Price level 1–5** — a simple affordability band within each category (1 = cheapest per standard dose, 5 = priciest), computed from the z-score of the €/dose distribution. It is a "how expensive is this" badge, not a quality judgement.
 
 ## Provenance (separate axis — deliberately NOT in the health score)
@@ -180,6 +184,7 @@ same for everyone and the interface says so out loud instead of inventing a numb
 | Omega-3 | activity | 250 mg EFSA adequate intake → 1–2 g when very active (ISSN) |
 | Vitamin C | age, activity | ANSES PRI 110 mg (120 at 65+), ~200 mg in heavy training |
 | Creatine | weight **above ~100 kg only** | ISSN maintenance is a **flat 3–5 g/day**; heavier bodies to ~0.05 g/kg |
+| Glycine | **no personalised target** | small sleep studies used 3 g, but do not establish a general need or effective band; label amounts are displayed and summed without a dose-fit verdict |
 | Collagen | activity only | trials dose 5–15 g as **absolute** amounts — the literature does not scale by body weight |
 | Probiotics | **not personalised** | effect is strain-specific and not dose-linear; studied range ~1–50 bn CFU; no weight/sex/age scaling established |
 | Melatonin | **not personalised** | 0.5–1.9 mg regardless of body size; a note flags that endogenous melatonin declines past 55 |
@@ -263,6 +268,20 @@ B-complex products are scored like multivitamins (form quality and dose style pe
 **Potassium** (5 products). EFSA has set no upper limit. The dose band is the range of the pooled blood-pressure trials, which begin at 30 mmol (~1,170 mg) a day and whose benefit reverses at high intakes (Filippini, *J Am Heart Assoc* 2020), capped at the 3,000 mg adult maximum of the draft French update approved by ANSES in 2024. **The French maximum actually in force is 80 mg/day** (arrêté du 9 mai 2006, Annex III): a regulatory ceiling, not a toxicity threshold. As with melatonin above its 1.9 mg ceiling, a product above it keeps a capped dose tier (14 instead of 20) and says so on its card rather than being zeroed; four of the five products exceed it. Salts: chloride 20 (the form of most blood-pressure trials), citrate 18, bicarbonate and gluconate 16. Each product also carries the hyperkalaemia warning for kidney disease and for ACE inhibitors, ARBs, spironolactone and potassium-sparing diuretics.
 
 Calcium, iodine, selenium and chromium are wired into the classifier and the site but have no published products yet: each needs its form and dose ladder verified before a single product is scored.
+
+### 5d. Glycine: comparison without an invented daily requirement
+
+The category covers **individually quantified free glycine**, in powder or capsules, including blends whose free-glycine amount is declared. Collagen's constituent glycine, magnesium bisglycinate and trimethylglycine/betaine are not equivalent products and are not converted into free-glycine grams. A secondary active is counted only when the label quantifies it. Unknown ingredient strings still withhold the product under §2c.
+
+Some glycine labels also name its sodium salt. For these, the form score is 8/20 and the uncertainty is explicit: the comparator retains the manufacturer's declared glycine amount without inventing a salt conversion or claiming that the free-glycine fraction was independently established. Prices compare label declarations, not laboratory assays.
+
+**Form tier:** 18/20 for declared free glycine, 14/20 for a blend with individually quantified free glycine, 8/20 when the form is unclear. This is a label-comparability judgement, not a claim that a capsule, a blend or a manufacturing process changes absorption. Glycine is achiral; “L-glycine”, crystallisation and fermentation do not earn an efficacy premium. Certificates and public batch analyses remain subject to the usual transparency rules.
+
+**Dose tier:** a fixed provisional **12/20** for a positive, declared glycine amount. This editorial convention acknowledges that the amount can be audited while the general effective range remains unestablished; neither a 3 g serving nor a larger serving earns extra points. [Yamadera et al. (2007)](https://doi.org/10.1111/j.1479-8425.2007.00262.x) tested 3 g before bedtime in 11 people reporting poor sleep, in a short single-blind crossover study. [Bannai et al. (2012)](https://doi.org/10.3389/fneur.2012.00061) analysed seven men after partial sleep restriction, with some next-day fatigue and vigilance outcomes improved. Both involved Ajinomoto researchers. These small, short studies support **limited** sleep evidence, not a general daily requirement, an established insomnia treatment or long-term safety at high doses.
+
+**Value:** price is normalised to **€ / 3 g free glycine**, a common research amount used here solely as a comparison convention. The manufacturer's stated serving determines cost per day and days per pack. All glycine active quantities are stored in **grams**, including `active_per_unit` for capsules (500 mg = 0.5 g); powder uses `pack_g`, `serving_g`, `active_per_100g` and `active_per_serving_g`. Powder concentrations and serving amounts must agree, and nonpositive, missing or nonfinite amounts are rejected rather than estimated.
+
+**No personal dose target or safety ceiling is invented.** Glycine has no EU nutrient reference value and no established EFSA tolerable upper intake level. The [VKM amino-acid risk assessment](https://vkm.no/english/riskassessments/allpublications/riskcategorisationof30aminoacidsandaminoacidcompounds.4.72c3261615e09f2472f4723d.html) documents the absence of established amino-acid upper levels. Absence of a UL is not evidence that any dose is safe. The profile and stack show declared grams without classifying them as sufficient, excessive or safe by comparison with a fabricated target.
 
 ### 5a. The evidence page — grades are per outcome, not per supplement
 

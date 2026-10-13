@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-13",
+  "scope": "Recherche des produits principalement commercialisés comme glycine ou formule de sommeil dont la glycine libre est chiffrée. Les profils d’acides aminés des protéines, les sels minéraux glycinate et le soja Glycine max ne constituent pas une référence de glycine libre. Couverture des formats découverts, sans garantie d’exhaustivité mondiale.",
+  "brands_checked": [
+    "HSN",
+    "GymBeam",
+    "OstroVit",
+    "Prozis",
+    "BioTechUSA",
+    "Scitec Nutrition",
+    "Applied Nutrition",
+    "Olimp"
+  ],
+  "referenced_products": [
+    {
+      "brand": "GymBeam",
+      "name": "Glycine",
+      "variant": "nature · 250 g",
+      "url": "https://gymbeam.fr/glycine-gymbeam.html"
+    },
+    {
+      "brand": "GymBeam",
+      "name": "Glycine",
+      "variant": "nature · 1000 g",
+      "url": "https://www.cdiscount.com/le-sport/nutrition-sportive/gymbeam-glycine-en-poudre/f-12129-aadgg13919.html"
+    },
+    {
+      "brand": "OstroVit",
+      "name": "Glycine",
+      "variant": "nature · 200 g",
+      "url": "https://ostrovit.com/en/products/ostrovit-glycine-200-g-27461.html"
+    },
+    {
+      "brand": "OstroVit",
+      "name": "Glycine",
+      "variant": "120 gélules",
+      "url": "https://ostrovit.com/en/products/ostrovit-glycine-120-capsules-27360.html"
+    },
+    {
+      "brand": "HSN",
+      "name": "Glycine en poudre",
+      "variant": "nature · 500 g",
+      "url": "https://www.naturitas.fr/p/complements/acides-amines-et-proteines/glycine-en-poudre-500g-500-g-de-poudre-hsn"
+    },
+    {
+      "brand": "HSN",
+      "name": "Glycine en poudre",
+      "variant": "nature · 1000 g",
+      "url": "https://www.naturitas.es/p/suplementos/aminoacidos-y-proteinas/rawseries-glicina-en-polvo-1-kg-de-polvo-hsn"
+    },
+    {
+      "brand": "Applied Nutrition",
+      "name": "Sleep Support",
+      "variant": "Mixed Berries · 300 g",
+      "url": "https://activelife-sport.com/products/sleep-support-sommeil-reparateur"
+    },
+    {
+      "brand": "Applied Nutrition",
+      "name": "Sleep Support",
+      "variant": "Black Grape · 300 g",
+      "url": "https://activelife-sport.com/products/sleep-support-sommeil-reparateur"
+    },
+    {
+      "brand": "OstroVit",
+      "name": "Glycine",
+      "variant": "nature · 500 g",
+      "url": "https://ostrovit.com/en/products/ostrovit-glycine-500-g-27417.html"
+    },
+    {
+      "brand": "OstroVit",
+      "name": "Keep Sleep",
+      "variant": "pomme verte · 270 g",
+      "url": "https://ostrovit.com/en/products/ostrovit-keep-sleep-270-g-26269.html"
+    },
+    {
+      "brand": "Prozis",
+      "name": "Glycine",
+      "variant": "nature · 150 g",
+      "url": "https://healthy-life.fr/p/glycine-pure-150g-prozis"
+    }
+  ],
+  "candidates": [
+    {
+      "brand": "OstroVit",
+      "name": "Glycine Supreme Pure 200 g — ancienne référence 19418",
+      "url": "https://ostrovit.com/de/products/ostrovit-glycin-200-g-19418.html",
+      "status": "legacy_not_duplicated",
+      "reason": "Ancienne page indexée à 1 g par portion ; référence actuelle 27461 contrôlée séparément à 3 g. Pas de duplication avec une offre ancienne non confirmée."
+    },
+    {
+      "brand": "HSN",
+      "name": "Autres formats de Glycine en poudre",
+      "url": "https://www.hsnstore.fr/marques/raw-series/glicyne-en-poudre",
+      "status": "variants_unresolved",
+      "reason": "Le sélecteur fabricant ne rend pas tous les formats/prix. Les sachets 500 g et 1 kg ont été vérifiés auprès de Naturitas ; aucun autre format n’est inventé."
+    },
+    {
+      "brand": "HSN",
+      "name": "Sleep Care / Chocolat Chaud Sommeil Profond",
+      "url": "https://www.hsnstore.fr/marques/essential-series/glycine-1000mg",
+      "status": "additional_blends_not_verified",
+      "reason": "Le fabricant cite ces mélanges comme sources de glycine. Formats, glycine libre chiffrée et prix de chaque saveur restent à relever."
+    },
+    {
+      "brand": "Scitec Nutrition",
+      "name": "All Aminos 340 g",
+      "url": "https://scitec.fr/amino-powders/scitec-nutrition-all-aminos-340-gr-p15856",
+      "status": "secondary_glycine_blend_not_verified",
+      "reason": "Mélange de nombreux acides aminés et protéines ; glycine annoncée à 0,3 % dans certaines saveurs. Prix et composition de chaque saveur non vérifiés conjointement."
+    },
+    {
+      "brand": "HSN",
+      "name": "Glycine 1000 mg — 120 gélules",
+      "url": "https://www.hsnstore.com/marcas/essential-series/glicina-1000mg-120-veg-caps",
+      "status": "price_variant_conflict",
+      "reason": "Le format fabricant 120 gélules est documenté. L’offre DocMorris affiche simultanément « 120 veg caps » et « 40 St » ; aucune preuve consultable ne permet d’expliquer cette contradiction ni de rattacher avec certitude le prix précédemment relevé de 18,38 € au conditionnement 120 gélules. Le dernier contrôle affiche indisponible sans prix. Les photos vendeur ne se chargent pas. Le nombre 40 ne peut donc pas être présenté comme un nombre de portions vérifié.",
+      "conflicting_offer_url": "https://www.docmorris.de/glycin-1000-mg-120-veg-caps/9M5FGPCH",
+      "ean": "5056329525682",
+      "checked_on": "2026-10-13"
+    }
+  ],
+  "search_notes": [
+    {
+      "brand": "BioTechUSA",
+      "result": "Recherche sans référence principalement vendue comme glycine libre ; résultats trouvés : profils d’acides aminés de whey."
+    },
+    {
+      "brand": "Olimp",
+      "result": "Recherche sans référence principalement vendue comme glycine libre ; résultats trouvés : whey/gainers et soja Glycine max, non assimilés à de la glycine isolée."
+    },
+    {
+      "brand": "Prozis",
+      "result": "Fiche fabricant consultée mais composition non rendue ; référence 150 g recoupée auprès des revendeurs Healthy-life France et Ama Benessere. Portion retenue explicitement attribuée au revendeur."
+    }
+  ]
+}

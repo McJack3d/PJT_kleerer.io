@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://n3gh.com/</loc></url>
-  <url><loc>https://n3gh.com/compare/</loc></url>
+  <url><loc>https://n3gh.com/about/</loc></url>
   <url><loc>https://n3gh.com/compare/en/</loc></url>
   <url><loc>https://n3gh.com/compare/fr/</loc></url>
   <url><loc>https://n3gh.com/compare/evidence/</loc></url>
@@ -15,6 +15,7 @@
   <url><loc>https://n3gh.com/compare/en/curcumin/</loc></url>
   <url><loc>https://n3gh.com/compare/en/fenugreek/</loc></url>
   <url><loc>https://n3gh.com/compare/en/folate/</loc></url>
+  <url><loc>https://n3gh.com/compare/en/glycine/</loc></url>
   <url><loc>https://n3gh.com/compare/en/iron/</loc></url>
   <url><loc>https://n3gh.com/compare/en/maca/</loc></url>
   <url><loc>https://n3gh.com/compare/en/magnesium/</loc></url>
@@ -40,6 +41,7 @@
   <url><loc>https://n3gh.com/compare/fr/curcumin/</loc></url>
   <url><loc>https://n3gh.com/compare/fr/fenugreek/</loc></url>
   <url><loc>https://n3gh.com/compare/fr/folate/</loc></url>
+  <url><loc>https://n3gh.com/compare/fr/glycine/</loc></url>
   <url><loc>https://n3gh.com/compare/fr/iron/</loc></url>
   <url><loc>https://n3gh.com/compare/fr/maca/</loc></url>
   <url><loc>https://n3gh.com/compare/fr/magnesium/</loc></url>

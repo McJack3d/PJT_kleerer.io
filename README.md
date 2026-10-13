@@ -1,26 +1,27 @@
 # n3gh
 
-Source for **[n3gh.com](https://n3gh.com)** — an independent, evidence-based health-data project. The site is static (no build step, no backend, no runtime dependencies) and is published via GitHub Pages directly from this repository.
+Source for **[n3gh.com](https://n3gh.com)** — an independent, evidence-based health-data project. The site is static (generated HTML committed to the repository, no backend or runtime dependencies) and is published via GitHub Pages directly from this repository.
 
 ## What this is
 
 n3gh. makes supplement science available to people looking for advice or recommendations, without sponsors, affiliate links, or paid placement. It's built in numbered "p" steps (products); the first one is live.
 
-- **`index.html` / `style.css` / `script.js`** — the root landing page: the project's mission statement, bilingual (EN/FR, detected from the browser's language, never from IP), linking through to each product.
-- **`compare/`** — **p1 · compare**, the first product: an independent supplement comparator. Open `compare/index.html` in a browser or visit [n3gh.com/compare](https://n3gh.com/compare/). See [compare/README.md](compare/README.md) for how it works and [compare/METHODOLOGY.md](compare/METHODOLOGY.md) for the full scoring rules.
+- **`index.html`** — the supplement comparator homepage at [n3gh.com](https://n3gh.com/), generated from `compare/index.html`. Edit that source and run `python3 compare/scripts/build_pages.py` to refresh the homepage and translated routes.
+- **`about/` / `style.css` / `molecules.js`** — the project presentation, searchable category index and molecular illustrations, bilingual (EN/FR, detected from the browser's language, never from IP).
+- **`compare/`** — the comparator source, translations and catalogue. The former `/compare/` entry point remains a working alias, including existing filter and modal links, with `/` as its canonical URL. `/compare/en/`, `/compare/fr/` and category URLs are preserved. See [compare/README.md](compare/README.md) and [compare/METHODOLOGY.md](compare/METHODOLOGY.md).
 - **`bot/`** — a transparency page describing `n3gh-bot`, the crawler used to collect price/label data (identifies itself honestly, respects `robots.txt`, rate-limited, no login walls bypassed). Site owners can request exclusion via `hello@n3gh.com`.
 - **`compare/evidence/`** — **what supplements actually do, by need.** Sleep, stress, muscle, bone, heart, immunity, memory, joints, skin, gut, energy, libido — each supplement graded A–D on the trials behind that specific pairing, participants counted, every figure cited. The EFSA authorised claim is shown separately from the trial evidence, because a regulator approving a sentence about a nutrient's role is not a trial showing an outcome improved. The dataset is one readable file (`evidence.js`) so any grade can be challenged with a better study.
 - **`terms/`** — terms of use, including the database-right and text-and-data-mining clauses (EN/FR).
 - **`NOTICE.md`** — which licence applies to which layer, and exactly what the database right does and does not claim. Read this before reusing anything.
 - **`robots.txt` / `.well-known/tdmrep.json`** — the TDM reservation in human- and machine-readable form.
 - **`analytics.js`** — cookieless audience measurement: no cookies, no identifiers, no personal data, DNT/GPC honoured, so no consent banner and no self-selected baseline. Inert until a provider is configured.
-- **`manifest.webmanifest` / `sw.js` / `pwa.js` / `icons/`** — the installable app. `compare/` is a PWA: add it to a home screen and **the whole catalogue works offline**, which is the point — the moment you most want a score is standing at the shelf, which is exactly where the signal dies. The ~390 KB catalogue is precached, so it runs with the radio off. The service worker touches our own origin only, stores nothing about the visitor, and sends nothing anywhere.
-- **`assets/molecules/`** — locally served molecular illustrations from PubChem (melatonin CID 896, glycine CID 750) and RCSB PDB (human growth hormone, 1HGU). The original images are retained; the homepage applies a monochrome CSS treatment. Source attribution is recorded in `assets/molecules/README.md`; the homepage uses the images as decorative backgrounds, and the service worker caches all three for offline viewing.
+- **`manifest.webmanifest` / `sw.js` / `pwa.js` / `icons/`** — the installable app. The homepage is a PWA: add it to a home screen and **the whole catalogue works offline**, which is the point — the moment you most want a score is standing at the shelf, which is exactly where the signal dies. The ~390 KB catalogue is precached, so it runs with the radio off. The service worker touches our own origin only, stores nothing about the visitor, and sends nothing anywhere.
+- **`assets/molecules/`** — locally served molecular illustrations from PubChem (melatonin CID 896, glycine CID 750) and RCSB PDB (human growth hormone, 1HGU). The original images are retained; the project page at `/about/` applies a monochrome CSS treatment. Source attribution is recorded in `assets/molecules/README.md`; the project page uses the images as decorative backgrounds, and the service worker caches all three for offline viewing.
 - **`CNAME`** — GitHub Pages custom-domain config, points the repo at `n3gh.com`.
 
 ## What it's used for
 
-`compare/` scores dietary supplements (whey, creatine, vitamin D3, magnesium, omega-3, multivitamins, zinc, vitamin C, collagen, probiotics, melatonin, vitamin B12, vitamin K2, B-complex, biotin, folate, iron, potassium — and, shown apart, the botanicals ashwagandha, maca, rhodiola and curcumin, and in teal the testosterone boosters tribulus, fenugreek and ZMA) on a transparent, reproducible **0–100 Health & Compo Score (grades A–E)**, computed only from what's on the label and what a brand publicly proves — never from marketing claims:
+`compare/` scores dietary supplements (whey, creatine, vitamin D3, magnesium, omega-3, multivitamins, zinc, vitamin C, collagen, probiotics, melatonin, glycine, vitamin B12, vitamin K2, B-complex, biotin, folate, iron, potassium — and, shown apart, the botanicals ashwagandha, maca, rhodiola and curcumin, and in teal the testosterone boosters tribulus, fenugreek and ZMA) on a transparent, reproducible **0–100 Health & Compo Score (grades A–E)**, computed only from what's on the label and what a brand publicly proves — never from marketing claims:
 
 - **Health & Compo Score** = Composition & Efficacy (0–40) + Purity & Additives (0–30) + Transparency & Testing (0–30). A banned/restricted/withdrawn substance (per EU-EFSA, US-FDA, or WHO — strictest of the three wins) is an automatic 0 / grade E, regardless of anything else.
 - **Price per gram of active ingredient**, separated from the health score — price never affects the score, only the value comparison.
@@ -32,7 +33,7 @@ n3gh. makes supplement science available to people looking for advice or recomme
 
 - **Botanicals are scored apart.** Ashwagandha, maca, rhodiola and curcumin are plant extracts, not nutrients — no reference intake, no EFSA limit, no authorised claim — so they appear in light purple, go through the same score and review gate as everything else, and carry their safety advisories where the dose would otherwise be. See [METHODOLOGY §5](compare/METHODOLOGY.md).
 - **Testosterone boosters are scored apart too, in teal.** Tribulus, fenugreek and ZMA go through the same score, which is exactly why they land low: no tribulus dose has raised testosterone in men in a controlled trial, and the evidence page grades most of the wider group (D-aspartic acid, turkesterone, boron, DHEA) D. The colour exists so a reader sees that verdict before the price. See [METHODOLOGY §5b](compare/METHODOLOGY.md).
-- **Scope**: 696 published products across 25 categories, EU market with a French-market focus. The latest 9 October 2026 French-brand pass adds 84 products with variant-bound price and label checks, corrects two InShape records, and retains 40 new structured records for ingredient review. Other older records retain their own check dates. See [the French-brand audit](compare/AUDIT-FR-2026-10-09.md), [the earlier expansion](compare/AUDIT-2026-10-09.md), and `compare/data.js` metadata.
+- **Scope**: 753 published products across 26 categories, EU market with a French-market focus. The [13 October glycine audit](compare/AUDIT-GLYCINE-2026-10-13.md) adds 57 variants from 30 brands and records unresolved offers separately. The 9 October 2026 French-brand pass adds 84 products with variant-bound price and label checks, corrects two InShape records, and retains 40 new structured records for ingredient review. Other older records retain their own check dates. See [the French-brand audit](compare/AUDIT-FR-2026-10-09.md), [the earlier expansion](compare/AUDIT-2026-10-09.md), and `compare/data.js` metadata.
 - **`compare/data/products_raw.json`**: 37 curated EU products in a coded schema (id, category, brand, price, form, dosing, additives, certifications, transparency flags, source URL, confidence level).
 - **`compare/data/fr/*.json`**: French-market labels, including the dated expansion batches. `compare/scripts/autotag.py` normalizes these into the shared schema; unknown ingredients remain behind the existing review gate.
 - **`compare/data.js`**: the generated, scored dataset the app actually reads — built from the two sources above by `compare/scripts/build_scores.py`. Generated; not edited by hand.
@@ -92,10 +93,13 @@ The GitHub repository URLs retain their actual existing names; changing the publ
 - Production sitemap: <https://n3gh.com/sitemap.xml>, declared in `robots.txt`.
   Include only canonical, indexable HTML routes. Do not add filter fragments,
   design previews, data files or duplicate `/index.html` URLs.
-- Regenerate translated metadata, the 50 category landing pages and the sitemap
+- Regenerate the comparator homepage, translated metadata, category pages, the
+  project page category index and the sitemap
   with `python3 compare/scripts/build_pages.py` after catalogue changes.
   Category content comes from `compare/data.js`, labels from `compare/i18n.js`,
-  and the page template from `compare/scripts/build_categories.py`.
+  and the category page template from `compare/scripts/build_categories.py`.
+  The root `index.html` is generated; keep comparator changes in
+  `compare/index.html`. `/about/` holds the former presentation homepage.
   Titles live in that generator; descriptions in `compare/i18n.js` and the
   source `/compare/index.html`. Structured data and sharing cards are localized.
 - Google Search Console URL-prefix property `https://n3gh.com/` was verified on

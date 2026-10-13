@@ -10,7 +10,7 @@
 # all rights reserved. See NOTICE.md.
 
 """
-Prerender per-language routes: /compare/en/ and /compare/fr/.
+Build the comparator homepage and per-language routes.
 
 Why this exists. The app switches language client-side, which is right for a
 returning visitor but invisible to a crawler: Googlebot indexes whatever is in
@@ -26,16 +26,18 @@ the crawler-visible head differs, and a visitor who switches language is sent to
 the sibling route so the URL keeps matching the content.
 
 Usage:  python3 scripts/build_pages.py      (run after build_scores.py)
-Output: compare/en/index.html, compare/fr/index.html
+Output: index.html, compare/en/index.html, compare/fr/index.html, category pages
 """
 import os, re, json, sys
 from html import escape
-from build_categories import build_all, navigation, catalogue, labels
+from build_categories import build_all, navigation, catalogue, labels, route
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 COMPARE = os.path.abspath(os.path.join(HERE, ".."))
 SRC = os.path.join(COMPARE, "index.html")
 I18N = os.path.join(COMPARE, "i18n.js")
+ROOT = os.path.dirname(COMPARE)
+HOME_URL = "https://n3gh.com/"
 BASE_URL = "https://n3gh.com/compare/"
 
 LANGS = ("en", "fr")
@@ -72,6 +74,37 @@ OG_TITLES = {
 }
 
 
+def build_home():
+    """Publish the same app at /; /compare/ remains a working legacy alias."""
+    html = open(SRC, encoding="utf-8").read()
+    html = html.replace('src="i18n.js', 'src="/compare/i18n.js')
+    html = html.replace('src="data.js', 'src="/compare/data.js')
+    return html.replace('<!DOCTYPE html>', '<!DOCTYPE html>\n<!-- Generated from compare/index.html by compare/scripts/build_pages.py. -->', 1)
+
+
+def update_about_index(keys, names):
+    """Keep the moved presentation page's searchable directory in sync."""
+    path = os.path.join(ROOT, 'about', 'index.html')
+    html = open(path, encoding='utf-8').read()
+    # Derive the directory from published categories, so withheld products do
+    # not create dead links. Keep vitamin letters capitalised in display names.
+    display = {lang: {key: re.sub(r'\b([bcdk]\d*)\b', lambda m: m[1].upper(),
+                                 names[lang][key][:1].upper() + names[lang][key][1:])
+                      for key in keys} for lang in LANGS}
+    links = []
+    for index, key in enumerate(sorted(keys, key=lambda k: display['en'][k]), 1):
+        links.append(f'        <a class="category-link" href="{route("en", key)}" data-category="{key}"><span class="category-number" aria-hidden="true">{index:02d}</span><span class="category-name">{escape(display["en"][key])}</span><span class="link-arrow" aria-hidden="true">↗</span></a>')
+    html = re.sub(r'(<nav class="category-grid" id="category-index"[^>]*>).*?(\n      </nav>)',
+                  lambda m: m[1] + '\n' + '\n'.join(links) + m[2], html, count=1, flags=re.S)
+    html = re.sub(r'(<span class="index-count" id="index-count">).*?(</span>)',
+                  lambda m: m[1] + f'{len(keys)} categories' + m[2], html, count=1)
+    translations = iter(display[lang] for lang in LANGS)
+    html = re.sub(r'categories:\s*\{[^}]*\}',
+                  lambda _: 'categories:' + json.dumps(next(translations), ensure_ascii=False), html)
+    with open(path, 'w', encoding='utf-8') as f:
+        f.write(html)
+
+
 def build(lang, strings):
     html = open(SRC, encoding="utf-8").read()
     s = strings[lang]
@@ -80,7 +113,6 @@ def build(lang, strings):
     # assets live one directory up from /compare/<lang>/
     html = html.replace('src="i18n.js', 'src="../i18n.js')
     html = html.replace('src="data.js', 'src="../data.js')
-    html = html.replace('href="../"', 'href="../../"')          # logo -> site root
 
     html = html.replace('<html lang="en">', f'<html lang="{s["htmlLang"]}">')
     html = re.sub(r'<title>.*?</title>', f'<title>{escape(TITLES[lang])}</title>', html, count=1, flags=re.S)
@@ -92,9 +124,9 @@ def build(lang, strings):
     html = re.sub(r'(<meta property="og:description" content=")[^"]*(">)',
                   lambda m: m.group(1) + escape(s["metaDesc"], quote=True) + m.group(2),
                   html, count=1)
-    html = html.replace(f'<link rel="canonical" href="{BASE_URL}">',
+    html = html.replace(f'<link rel="canonical" href="{HOME_URL}">',
                         f'<link rel="canonical" href="{BASE_URL}{lang}/">')
-    html = html.replace(f'<meta property="og:url" content="{BASE_URL}">',
+    html = html.replace(f'<meta property="og:url" content="{HOME_URL}">',
                         f'<meta property="og:url" content="{BASE_URL}{lang}/">')
 
     # the source page carries its own hreflang set (it is the x-default) — drop it
@@ -103,7 +135,7 @@ def build(lang, strings):
                   html, flags=re.M)
     hreflang = (f'<link rel="alternate" hreflang="{lang}" href="{BASE_URL}{lang}/">\n'
                 f'<link rel="alternate" hreflang="{alt}" href="{BASE_URL}{alt}/">\n'
-                f'<link rel="alternate" hreflang="x-default" href="{BASE_URL}">\n')
+                f'<link rel="alternate" hreflang="x-default" href="{HOME_URL}">\n')
     html = html.replace('<link rel="canonical"', hreflang + '<link rel="canonical"', 1)
 
     # Keep sharing cards and structured data in the route's own language.
@@ -145,6 +177,11 @@ def main():
         source = source.replace('<footer>', directory + '\n<footer>', 1)
     with open(SRC, 'w', encoding='utf-8') as f:
         f.write(source)
+    update_about_index(keys, names)
+    home = build_home()
+    with open(os.path.join(ROOT, 'index.html'), 'w', encoding='utf-8') as f:
+        f.write(home)
+    print(f"  /index.html  ({len(home):,} bytes, comparator homepage)")
     strings = i18n_strings()
     for lang in LANGS:
         outdir = os.path.join(COMPARE, lang)
@@ -153,7 +190,7 @@ def main():
         with open(os.path.join(outdir, "index.html"), "w", encoding="utf-8") as f:
             f.write(page)
         print(f"  /compare/{lang}/index.html  ({len(page):,} bytes, lang={strings[lang]['htmlLang']})")
-    print("prerendered routes written — crawlers now see a translated head per language")
+    print("homepage, project index and prerendered routes written")
 
 
 if __name__ == "__main__":

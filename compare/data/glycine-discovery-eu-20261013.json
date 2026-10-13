@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-13",
+  "scope": "Recherche documentaire EU/internationale vendue en français ; la liste des références découvertes n’est pas une garantie d’exhaustivité du marché. Les formats non vérifiés sont conservés pour suivi sans prix estimé ni score.",
+  "verified_product_ids": [
+    "sunday-natural-glycine-en-poudre-500-g",
+    "sunday-natural-glycine-en-poudre-2-500-g",
+    "sunday-natural-glycine-500-mg-120-gelules",
+    "sunday-natural-glycine-500-mg-2-120-gelules",
+    "myprotein-gelules-de-glycine-90-gelules",
+    "life-extension-glycine-1000-mg-100-gelules",
+    "solgar-glycine-500-mg-100-gelules",
+    "now-foods-glycine-en-poudre-454-g",
+    "now-foods-glycine-1000-mg-100-gelules",
+    "now-foods-glycine-1000-mg-250-gelules",
+    "nutricost-glycine-en-poudre-454-g",
+    "nutricost-l-glycine-1000-mg-120-gelules",
+    "carlson-glycine-en-poudre-100-g",
+    "swanson-glycine-ajipure-500-mg-60-gelules",
+    "thorne-glycine-500-mg-250-gelules",
+    "warnke-glycine-en-poudre-500-g",
+    "warnke-glycine-500-mg-90-gelules",
+    "vit-all-l-glycine-en-poudre-150-g",
+    "nature-s-life-glycine-en-poudre-400-g",
+    "swanson-glycine-en-poudre-227-g",
+    "force-factor-glycine-1000-mg-100-gelules",
+    "bulk-glycine-en-poudre-500-g"
+  ],
+  "candidates": [
+    {
+      "brand": "Bulk",
+      "name": "Glycine en poudre",
+      "variant": "500 g — offre fabricant",
+      "source_url": "https://www.bulk.com/fr/products/glycine-acide-aminoacetique/bpb-lgly-0000",
+      "status": "pending_price",
+      "reason": "Le prix de 5,99 € affiché ne peut pas être rattaché au choix 500 g plutôt que 1 kg. Une offre import exacte de 500 g est référencée séparément ; aucune estimation du prix fabricant.",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "brand": "Bulk",
+      "name": "Glycine en poudre",
+      "variant": "1 kg",
+      "source_url": "https://www.bulk.com/fr/products/glycine-acide-aminoacetique/bpb-lgly-0000",
+      "status": "pending_price",
+      "reason": "Sélecteur 500 g / 1 kg ; prix de 5,99 € sans lien documentaire au format. Composition pure et portion de 2 g contrôlées.",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "brand": "Myprotein",
+      "name": "Glycine en poudre",
+      "variant": "250 g",
+      "source_url": "https://fr.myprotein.com/nutrition-sportive/glycine/10530386.html",
+      "status": "pending_price",
+      "reason": "Référence de poudre pure retrouvée ; aucune offre actuelle en EUR rattachée avec certitude au format français. Ne pas reprendre le prix des gélules.",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "brand": "Vit4ever",
+      "name": "Glycine en poudre",
+      "variant": "1 kg / 1100 g à clarifier",
+      "source_url": "https://vitaminvirsand24.com/products/vit4_glycin_pure?variant=53434774651144",
+      "status": "conflicting_pack",
+      "reason": "Titre, texte et prix au kilo indiquent 1 kg ; champ contenu indique 1100 g. Prix 19,99 € observé mais masse contradictoire.",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "brand": "Vit4ever",
+      "name": "Glycine 1000 mg",
+      "variant": "360 / 365 gélules à clarifier",
+      "source_url": "https://vitaminvirsand24.com/products/vit4_glycin_kapseln?variant=53434774323464",
+      "status": "conflicting_pack",
+      "reason": "Résumé : 360 gélules ; champ contenu : 365. Prix 19,99 € et dosage connus, conditionnement non résolu.",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "brand": "ZeinPharma",
+      "name": "Glycine 500 mg",
+      "variant": "120 gélules",
+      "source_url": "https://www.zeinpharma.com/Glycine-Capsules-500-mg/20386",
+      "status": "conflicting_label",
+      "reason": "Page présentée comme glycine 500 mg mais liste d’ingrédients mentionne L-glutathione 80,6 %. Ne pas corriger implicitement cette discordance. Prix 29,95 € observé.",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "brand": "Zenement",
+      "name": "Glycine pure en poudre",
+      "variant": "500 g",
+      "source_url": "https://zenement.com/fr-be/products/glycine-100-pure-500-g?variant=56734950490498",
+      "status": "pending_market_offer",
+      "reason": "Étiquette pure, portion 3 g et prix belge 9,97 € connus. Pages France inaccessibles, autre extrait français à 11,97 € ; disponibilité contradictoire. Offre française à contrôler.",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "brand": "Pure Encapsulations",
+      "name": "Glycine",
+      "variant": "Référence internationale",
+      "source_url": "https://www.pureencapsulationspro.com/",
+      "status": "pending_market_offer",
+      "reason": "Produit international repéré, mais référence, conditionnement et offre française en EUR non recoupés.",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "brand": "Source Naturals",
+      "name": "Glycine en poudre",
+      "variant": "227 g",
+      "source_url": "https://fr.iherb.com/pr/source-naturals-glycine-powder-8-oz-227-g/155196",
+      "status": "conflicting_pack",
+      "reason": "Titre et 227 portions de 1 g indiquent 227 g ; métadonnées de la fiche indiquent 226 g. Prix et disponibilité diffèrent entre ancienne fiche et catalogue actuel ; clarifier avant notation.",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "brand": "Micro Ingredients",
+      "name": "Glycine en poudre",
+      "variant": "1 kg",
+      "source_url": "https://fr.iherb.com/c/glycine",
+      "status": "pending_label",
+      "reason": "Référence découverte dans le catalogue iHerb France ; composition complète, glycine libre individuellement quantifiée et offre exacte restent à contrôler. Les mélanges demandent une vérification particulière des coactifs.",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "brand": "Micro Ingredients",
+      "name": "Glycine en poudre",
+      "variant": "500 g",
+      "source_url": "https://fr.iherb.com/c/glycine",
+      "status": "pending_label",
+      "reason": "Référence découverte dans le catalogue iHerb France ; composition complète, glycine libre individuellement quantifiée et offre exacte restent à contrôler. Les mélanges demandent une vérification particulière des coactifs.",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "brand": "Micro Ingredients",
+      "name": "Glycine 500 mg",
+      "variant": "240 gélules",
+      "source_url": "https://fr.iherb.com/c/glycine",
+      "status": "pending_label",
+      "reason": "Référence découverte dans le catalogue iHerb France ; composition complète, glycine libre individuellement quantifiée et offre exacte restent à contrôler. Les mélanges demandent une vérification particulière des coactifs.",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "brand": "Nutri",
+      "name": "Glynac-ET",
+      "variant": "60 gélules",
+      "source_url": "https://fr.iherb.com/c/glycine",
+      "status": "pending_label",
+      "reason": "Référence découverte dans le catalogue iHerb France ; composition complète, glycine libre individuellement quantifiée et offre exacte restent à contrôler. Les mélanges demandent une vérification particulière des coactifs.",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "brand": "ProHealth Longevity",
+      "name": "Pure Glycine 1000 mg",
+      "variant": "120 gélules",
+      "source_url": "https://fr.iherb.com/c/glycine",
+      "status": "pending_label",
+      "reason": "Référence découverte dans le catalogue iHerb France ; composition complète, glycine libre individuellement quantifiée et offre exacte restent à contrôler. Les mélanges demandent une vérification particulière des coactifs.",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "brand": "Source Naturals",
+      "name": "Glycine 500 mg",
+      "variant": "200 gélules",
+      "source_url": "https://fr.iherb.com/c/glycine",
+      "status": "pending_label",
+      "reason": "Référence découverte dans le catalogue iHerb France ; composition complète, glycine libre individuellement quantifiée et offre exacte restent à contrôler. Les mélanges demandent une vérification particulière des coactifs.",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "brand": "Source Naturals",
+      "name": "Glycine 500 mg",
+      "variant": "100 gélules",
+      "source_url": "https://fr.iherb.com/c/glycine",
+      "status": "pending_label",
+      "reason": "Référence découverte dans le catalogue iHerb France ; composition complète, glycine libre individuellement quantifiée et offre exacte restent à contrôler. Les mélanges demandent une vérification particulière des coactifs.",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "brand": "Metabolic Maintenance",
+      "name": "Glycine en poudre",
+      "variant": "200 g",
+      "source_url": "https://fr.iherb.com/c/glycine",
+      "status": "pending_label",
+      "reason": "Référence découverte dans le catalogue iHerb France ; composition complète, glycine libre individuellement quantifiée et offre exacte restent à contrôler. Les mélanges demandent une vérification particulière des coactifs.",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "brand": "Metabolic Maintenance",
+      "name": "Glycine 500 mg",
+      "variant": "240 gélules",
+      "source_url": "https://fr.iherb.com/c/glycine",
+      "status": "pending_label",
+      "reason": "Référence découverte dans le catalogue iHerb France ; composition complète, glycine libre individuellement quantifiée et offre exacte restent à contrôler. Les mélanges demandent une vérification particulière des coactifs.",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "brand": "Metabolic Maintenance",
+      "name": "Glycine en sticks",
+      "variant": "30 × 3 g",
+      "source_url": "https://fr.iherb.com/c/glycine",
+      "status": "pending_label",
+      "reason": "Référence découverte dans le catalogue iHerb France ; composition complète, glycine libre individuellement quantifiée et offre exacte restent à contrôler. Les mélanges demandent une vérification particulière des coactifs.",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "brand": "Best Naturals",
+      "name": "Glycine en poudre",
+      "variant": "454 g",
+      "source_url": "https://fr.iherb.com/c/glycine",
+      "status": "pending_label",
+      "reason": "Référence découverte dans le catalogue iHerb France ; composition complète, glycine libre individuellement quantifiée et offre exacte restent à contrôler. Les mélanges demandent une vérification particulière des coactifs.",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "brand": "Vitamatic",
+      "name": "Glycine 666 mg",
+      "variant": "300 gélules",
+      "source_url": "https://fr.iherb.com/c/glycine",
+      "status": "pending_label",
+      "reason": "Référence découverte dans le catalogue iHerb France ; composition complète, glycine libre individuellement quantifiée et offre exacte restent à contrôler. Les mélanges demandent une vérification particulière des coactifs.",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "brand": "Codeage",
+      "name": "Liposomal Glycine+ 500 mg",
+      "variant": "180 gélules",
+      "source_url": "https://fr.iherb.com/c/glycine",
+      "status": "pending_label",
+      "reason": "Référence découverte dans le catalogue iHerb France ; composition complète, glycine libre individuellement quantifiée et offre exacte restent à contrôler. Les mélanges demandent une vérification particulière des coactifs.",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "brand": "Double Wood",
+      "name": "Glycine 500 mg",
+      "variant": "300 gélules",
+      "source_url": "https://fr.iherb.com/c/glycine",
+      "status": "pending_label",
+      "reason": "Référence découverte dans le catalogue iHerb France ; composition complète, glycine libre individuellement quantifiée et offre exacte restent à contrôler. Les mélanges demandent une vérification particulière des coactifs.",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "brand": "Toniiq",
+      "name": "Glycine 650 mg",
+      "variant": "240 gélules",
+      "source_url": "https://fr.iherb.com/c/glycine",
+      "status": "pending_label",
+      "reason": "Référence découverte dans le catalogue iHerb France ; composition complète, glycine libre individuellement quantifiée et offre exacte restent à contrôler. Les mélanges demandent une vérification particulière des coactifs.",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "brand": "Solaray",
+      "name": "Glycine 1000 mg",
+      "variant": "60 gélules",
+      "source_url": "https://fr.iherb.com/c/glycine",
+      "status": "pending_label",
+      "reason": "Référence découverte dans le catalogue iHerb France ; composition complète, glycine libre individuellement quantifiée et offre exacte restent à contrôler. Les mélanges demandent une vérification particulière des coactifs.",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "brand": "Natural Stacks",
+      "name": "MagTech Sleep",
+      "variant": "14 × 7,8 g",
+      "source_url": "https://fr.iherb.com/c/glycine",
+      "status": "pending_label",
+      "reason": "Référence découverte dans le catalogue iHerb France ; composition complète, glycine libre individuellement quantifiée et offre exacte restent à contrôler. Les mélanges demandent une vérification particulière des coactifs.",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "brand": "Solaray",
+      "name": "Glycine en poudre",
+      "variant": "400 g",
+      "source_url": "https://www.naturitas.fr/p/complements/acides-amines-et-proteines/glycine-1000mg-400-g-de-poudre-solaray",
+      "status": "pending_identity",
+      "reason": "Référence revendeur découverte ; possible confusion de marque avec Nature’s Life 400 g. Identité, composition et prix à recouper avant doublon.",
+      "checked_on": "2026-10-13"
+    }
+  ],
+  "searched_without_matching_product": [
+    {
+      "brand": "WeightWorld",
+      "source_url": "https://www.weightworld.fr/",
+      "checked_on": "2026-10-13",
+      "status": "no_matching_product_found",
+      "reason": "Recherche glycine : résultats portant surtout sur bisglycinates, collagène ou glutathion, sans référence de glycine libre identifiée."
+    },
+    {
+      "brand": "Be-Life",
+      "source_url": "https://www.be-life.eu/",
+      "checked_on": "2026-10-13",
+      "status": "no_matching_product_found",
+      "reason": "Recherche ciblée glycine : aucun produit de glycine libre identifié dans les résultats consultés."
+    },
+    {
+      "brand": "SFB",
+      "source_url": "https://www.sfb.fr/",
+      "checked_on": "2026-10-13",
+      "status": "no_matching_product_found",
+      "reason": "Résultats fer bisglycinate, collagène et glutathion : glycine liée, pas de supplément de glycine libre identifié."
+    },
+    {
+      "brand": "Anastore",
+      "source_url": "https://www.anastore.com/fr/articles/index.php",
+      "checked_on": "2026-10-13",
+      "status": "no_matching_product_found",
+      "reason": "Catalogue et recherche ciblée consultés ; pas de référence de glycine libre identifiée."
+    }
+  ],
+  "excluded": [
+    {
+      "brand": "Zahler",
+      "name": "Inositol en poudre",
+      "variant": "330 g",
+      "source_url": "https://fr.iherb.com/c/glycine",
+      "reason": "Résultat de catégorie sans glycine libre individuellement déclarée ; produit centré sur l’inositol."
+    },
+    {
+      "brand": "Solaray",
+      "name": "Extended Release Melatonin With Glycine",
+      "variant": "100 gélules",
+      "source_url": "https://fr.iherb.com/c/glycine",
+      "reason": "Produit centré sur la mélatonine ; quantité de glycine et étiquette complète non contrôlées, indisponible dans le catalogue consulté."
+    }
+  ],
+  "delegated_brands": [
+    "GymBeam",
+    "HSN",
+    "OstroVit",
+    "Prozis",
+    "BioTechUSA",
+    "Scitec",
+    "Applied Nutrition",
+    "Olimp"
+  ]
+}

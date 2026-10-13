@@ -1,0 +1,1087 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-13",
+  "scope": "Preuves complémentaires glycine, à fusionner dans label-verifications.json.",
+  "products": {
+    "sunday-natural-glycine-en-poudre-500-g": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.sunday.fr/glycine-poudre.html",
+        "scope": "Conditionnement, quantité de glycine libre, portion déclarée et composition complète affichés sur la fiche ; certifications et analyses de lot non revérifiées.",
+        "fields": {
+          "form": "glycine libre",
+          "full_label": true,
+          "additives": [],
+          "vegan": true,
+          "pack_g": 500,
+          "serving_g": 1,
+          "active_per_serving_g": 1,
+          "active_per_100g": 100
+        },
+        "product_identity": {
+          "brand": "Sunday Natural",
+          "name": "Glycine en poudre",
+          "variant": "500 g",
+          "url": "https://www.sunday.fr/glycine-poudre.html",
+          "pack_g": 500,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.sunday.fr/glycine-poudre.html",
+        "scope": "Prix TTC en EUR du conditionnement indiqué, hors livraison, abonnement et code promotionnel.",
+        "price_eur": 9.9,
+        "variant": "500 g",
+        "product_identity": {
+          "brand": "Sunday Natural",
+          "name": "Glycine en poudre",
+          "variant": "500 g",
+          "url": "https://www.sunday.fr/glycine-poudre.html",
+          "pack_g": 500,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "pending_fields": [],
+      "review_notes": [
+        "Portion fabricant : 1 g par jour. Un seul ingrédient ; déclaration nutritionnelle de 1000 mg de glycine par gramme. Les analyses de lot liées sur la fiche ne sont pas revérifiées ici."
+      ]
+    },
+    "sunday-natural-glycine-en-poudre-2-500-g": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.sunday.fr/glycine-acide-amine-poudre-extrapure-vegan-coffret.html",
+        "scope": "Conditionnement, quantité de glycine libre, portion déclarée et composition complète affichés sur la fiche ; certifications et analyses de lot non revérifiées.",
+        "fields": {
+          "form": "glycine libre",
+          "full_label": true,
+          "additives": [],
+          "vegan": true,
+          "pack_g": 1000,
+          "serving_g": 1,
+          "active_per_serving_g": 1,
+          "active_per_100g": 100
+        },
+        "product_identity": {
+          "brand": "Sunday Natural",
+          "name": "Glycine en poudre",
+          "variant": "2 × 500 g",
+          "url": "https://www.sunday.fr/glycine-acide-amine-poudre-extrapure-vegan-coffret.html",
+          "pack_g": 1000,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.sunday.fr/glycine-acide-amine-poudre-extrapure-vegan-coffret.html",
+        "scope": "Prix TTC en EUR du conditionnement indiqué, hors livraison, abonnement et code promotionnel.",
+        "price_eur": 18.81,
+        "variant": "2 × 500 g",
+        "product_identity": {
+          "brand": "Sunday Natural",
+          "name": "Glycine en poudre",
+          "variant": "2 × 500 g",
+          "url": "https://www.sunday.fr/glycine-acide-amine-poudre-extrapure-vegan-coffret.html",
+          "pack_g": 1000,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "pending_fields": [],
+      "review_notes": [
+        "Coffret de deux sachets de 500 g, soit 1000 g au total. Portion fabricant : 1 g par jour. Quantité active issue de la déclaration nutritionnelle, et non d’une analyse de lot indépendante."
+      ]
+    },
+    "sunday-natural-glycine-500-mg-120-gelules": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.sunday.fr/glycine-acide-amine-gelules-500-extrapure-vegan.html",
+        "scope": "Conditionnement, quantité de glycine libre, portion déclarée et composition complète affichés sur la fiche ; certifications et analyses de lot non revérifiées.",
+        "fields": {
+          "form": "glycine libre",
+          "full_label": true,
+          "additives": [
+            "gélule végétale HPMC"
+          ],
+          "vegan": true,
+          "units_pack": 120,
+          "units_per_day": 2,
+          "active_per_unit": 0.5,
+          "active_unit": "g"
+        },
+        "product_identity": {
+          "brand": "Sunday Natural",
+          "name": "Glycine 500 mg",
+          "variant": "120 gélules",
+          "url": "https://www.sunday.fr/glycine-acide-amine-gelules-500-extrapure-vegan.html",
+          "pack_g": null,
+          "units_pack": 120,
+          "ean": null
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.sunday.fr/glycine-acide-amine-gelules-500-extrapure-vegan.html",
+        "scope": "Prix TTC en EUR du conditionnement indiqué, hors livraison, abonnement et code promotionnel.",
+        "price_eur": 9.9,
+        "variant": "120 gélules",
+        "product_identity": {
+          "brand": "Sunday Natural",
+          "name": "Glycine 500 mg",
+          "variant": "120 gélules",
+          "url": "https://www.sunday.fr/glycine-acide-amine-gelules-500-extrapure-vegan.html",
+          "pack_g": null,
+          "units_pack": 120,
+          "ean": null
+        }
+      },
+      "pending_fields": [],
+      "review_notes": [
+        "500 mg de glycine par gélule ; 2 gélules par jour selon la fiche fabricant."
+      ]
+    },
+    "sunday-natural-glycine-500-mg-2-120-gelules": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.sunday.fr/glycine-acide-amine-gelules-500-extrapure-vegan-coffret.html",
+        "scope": "Conditionnement, quantité de glycine libre, portion déclarée et composition complète affichés sur la fiche ; certifications et analyses de lot non revérifiées.",
+        "fields": {
+          "form": "glycine libre",
+          "full_label": true,
+          "additives": [
+            "gélule végétale HPMC"
+          ],
+          "vegan": true,
+          "units_pack": 240,
+          "units_per_day": 2,
+          "active_per_unit": 0.5,
+          "active_unit": "g"
+        },
+        "product_identity": {
+          "brand": "Sunday Natural",
+          "name": "Glycine 500 mg",
+          "variant": "2 × 120 gélules",
+          "url": "https://www.sunday.fr/glycine-acide-amine-gelules-500-extrapure-vegan-coffret.html",
+          "pack_g": null,
+          "units_pack": 240,
+          "ean": null
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.sunday.fr/glycine-acide-amine-gelules-500-extrapure-vegan-coffret.html",
+        "scope": "Prix TTC en EUR du conditionnement indiqué, hors livraison, abonnement et code promotionnel.",
+        "price_eur": 18.81,
+        "variant": "2 × 120 gélules",
+        "product_identity": {
+          "brand": "Sunday Natural",
+          "name": "Glycine 500 mg",
+          "variant": "2 × 120 gélules",
+          "url": "https://www.sunday.fr/glycine-acide-amine-gelules-500-extrapure-vegan-coffret.html",
+          "pack_g": null,
+          "units_pack": 240,
+          "ean": null
+        }
+      },
+      "pending_fields": [],
+      "review_notes": [
+        "Coffret de deux flacons de 120 gélules, soit 240 gélules au total. 500 mg de glycine par gélule ; 2 par jour."
+      ]
+    },
+    "myprotein-gelules-de-glycine-90-gelules": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://fr.myprotein.com/p/nutrition-sportive/gelules-de-glycine/17605255/",
+        "scope": "Conditionnement, quantité de glycine libre, portion déclarée et composition complète affichés sur la fiche ; certifications et analyses de lot non revérifiées.",
+        "fields": {
+          "form": "glycine libre",
+          "full_label": true,
+          "additives": [
+            "gélule végétale HPMC",
+            "eau",
+            "stéarate de magnésium"
+          ],
+          "vegan": true,
+          "units_pack": 90,
+          "units_per_day": 3,
+          "active_per_unit": 1,
+          "active_unit": "g"
+        },
+        "product_identity": {
+          "brand": "Myprotein",
+          "name": "Gélules de glycine",
+          "variant": "90 gélules",
+          "url": "https://fr.myprotein.com/p/nutrition-sportive/gelules-de-glycine/17605255/",
+          "pack_g": null,
+          "units_pack": 90,
+          "ean": null
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://fr.myprotein.com/p/nutrition-sportive/gelules-de-glycine/17605255/",
+        "scope": "Prix TTC en EUR du conditionnement indiqué, hors livraison, abonnement et code promotionnel.",
+        "price_eur": 6.59,
+        "variant": "90 gélules",
+        "product_identity": {
+          "brand": "Myprotein",
+          "name": "Gélules de glycine",
+          "variant": "90 gélules",
+          "url": "https://fr.myprotein.com/p/nutrition-sportive/gelules-de-glycine/17605255/",
+          "pack_g": null,
+          "units_pack": 90,
+          "ean": null
+        }
+      },
+      "pending_fields": [],
+      "review_notes": [
+        "3 g de glycine par portion de 3 gélules ; 30 portions par flacon."
+      ]
+    },
+    "life-extension-glycine-1000-mg-100-gelules": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.lifeextensioneurope.fr/glycine",
+        "scope": "Conditionnement, quantité de glycine libre, portion déclarée et composition complète affichés sur la fiche ; certifications et analyses de lot non revérifiées.",
+        "fields": {
+          "form": "glycine libre",
+          "full_label": true,
+          "additives": [
+            "gélule de cellulose végétale",
+            "palmitate d’ascorbyl"
+          ],
+          "units_pack": 100,
+          "units_per_day": 1,
+          "active_per_unit": 1,
+          "active_unit": "g"
+        },
+        "product_identity": {
+          "brand": "Life Extension",
+          "name": "Glycine 1000 mg",
+          "variant": "100 gélules",
+          "url": "https://www.lifeextensioneurope.fr/glycine",
+          "pack_g": null,
+          "units_pack": 100,
+          "ean": null
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.lifeextensioneurope.fr/glycine",
+        "scope": "Prix TTC en EUR du conditionnement indiqué, hors livraison, abonnement et code promotionnel.",
+        "price_eur": 19.5,
+        "variant": "100 gélules",
+        "product_identity": {
+          "brand": "Life Extension",
+          "name": "Glycine 1000 mg",
+          "variant": "100 gélules",
+          "url": "https://www.lifeextensioneurope.fr/glycine",
+          "pack_g": null,
+          "units_pack": 100,
+          "ean": null
+        }
+      },
+      "pending_fields": [],
+      "review_notes": [
+        "Étiquette : 1000 mg par gélule, 1 gélule par jour. Produit annoncé végétarien ; statut vegan non confirmé."
+      ]
+    },
+    "solgar-glycine-500-mg-100-gelules": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://fr.iherb.com/pr/solgar-glycine-500-mg-100-vegetable-capsules/15193",
+        "scope": "Conditionnement, quantité de glycine libre, portion déclarée et composition complète affichés sur la fiche ; certifications et analyses de lot non revérifiées.",
+        "fields": {
+          "form": "glycine libre",
+          "full_label": true,
+          "additives": [
+            "gélule de cellulose végétale",
+            "cellulose microcristalline",
+            "stéarate de magnésium végétal",
+            "acide stéarique végétal"
+          ],
+          "vegan": true,
+          "units_pack": 100,
+          "units_per_day": 2,
+          "active_per_unit": 0.5,
+          "active_unit": "g"
+        },
+        "product_identity": {
+          "brand": "Solgar",
+          "name": "Glycine 500 mg",
+          "variant": "100 gélules",
+          "url": "https://fr.iherb.com/pr/solgar-glycine-500-mg-100-vegetable-capsules/15193",
+          "pack_g": null,
+          "units_pack": 100,
+          "ean": "033984013704"
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://fr.iherb.com/pr/solgar-glycine-500-mg-100-vegetable-capsules/15193",
+        "scope": "Prix TTC en EUR du conditionnement indiqué, hors livraison, abonnement et code promotionnel.",
+        "price_eur": 11.81,
+        "variant": "100 gélules",
+        "product_identity": {
+          "brand": "Solgar",
+          "name": "Glycine 500 mg",
+          "variant": "100 gélules",
+          "url": "https://fr.iherb.com/pr/solgar-glycine-500-mg-100-vegetable-capsules/15193",
+          "pack_g": null,
+          "units_pack": 100,
+          "ean": "033984013704"
+        }
+      },
+      "pending_fields": [],
+      "review_notes": [
+        "500 mg de glycine libre par gélule. Référence identifiée par UPC ; offre iHerb France en EUR."
+      ]
+    },
+    "now-foods-glycine-en-poudre-454-g": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://fr.iherb.com/pr/now-foods-glycine-pure-powder-1-lb-454-g/615",
+        "scope": "Conditionnement, quantité de glycine libre, portion déclarée et composition complète affichés sur la fiche ; certifications et analyses de lot non revérifiées.",
+        "fields": {
+          "form": "glycine libre",
+          "full_label": true,
+          "additives": [],
+          "vegan": true,
+          "pack_g": 454,
+          "serving_g": 3,
+          "active_per_serving_g": 3,
+          "active_per_100g": 100
+        },
+        "product_identity": {
+          "brand": "NOW Foods",
+          "name": "Glycine en poudre",
+          "variant": "454 g",
+          "url": "https://fr.iherb.com/pr/now-foods-glycine-pure-powder-1-lb-454-g/615",
+          "pack_g": 454,
+          "units_pack": null,
+          "ean": "733739002259"
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://fr.iherb.com/pr/now-foods-glycine-pure-powder-1-lb-454-g/615",
+        "scope": "Prix TTC en EUR du conditionnement indiqué, hors livraison, abonnement et code promotionnel.",
+        "price_eur": 22.82,
+        "variant": "454 g",
+        "product_identity": {
+          "brand": "NOW Foods",
+          "name": "Glycine en poudre",
+          "variant": "454 g",
+          "url": "https://fr.iherb.com/pr/now-foods-glycine-pure-powder-1-lb-454-g/615",
+          "pack_g": 454,
+          "units_pack": null,
+          "ean": "733739002259"
+        }
+      },
+      "pending_fields": [],
+      "review_notes": [
+        "Poudre de glycine pure, sans autre ingrédient. Portion d’étiquette : 3 g ; conseils fabricant : environ 1 à 3 g par jour. Offre iHerb France en EUR ; UPC renseigné."
+      ]
+    },
+    "now-foods-glycine-1000-mg-100-gelules": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://fr.iherb.com/pr/now-foods-glycine-100-veg-capsules-1-000-mg-per-capsule/18106",
+        "scope": "Conditionnement, quantité de glycine libre, portion déclarée et composition complète affichés sur la fiche ; certifications et analyses de lot non revérifiées.",
+        "fields": {
+          "form": "glycine libre",
+          "full_label": true,
+          "additives": [
+            "gélule végétale HPMC",
+            "hydroxypropylcellulose",
+            "acide stéarique végétal",
+            "dioxyde de silicium"
+          ],
+          "vegan": true,
+          "units_pack": 100,
+          "units_per_day": 3,
+          "active_per_unit": 1,
+          "active_unit": "g"
+        },
+        "product_identity": {
+          "brand": "NOW Foods",
+          "name": "Glycine 1000 mg",
+          "variant": "100 gélules",
+          "url": "https://fr.iherb.com/pr/now-foods-glycine-100-veg-capsules-1-000-mg-per-capsule/18106",
+          "pack_g": null,
+          "units_pack": 100,
+          "ean": "733739001078"
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://fr.iherb.com/pr/now-foods-glycine-100-veg-capsules-1-000-mg-per-capsule/18106",
+        "scope": "Prix TTC en EUR du conditionnement indiqué, hors livraison, abonnement et code promotionnel.",
+        "price_eur": 12.89,
+        "variant": "100 gélules",
+        "product_identity": {
+          "brand": "NOW Foods",
+          "name": "Glycine 1000 mg",
+          "variant": "100 gélules",
+          "url": "https://fr.iherb.com/pr/now-foods-glycine-100-veg-capsules-1-000-mg-per-capsule/18106",
+          "pack_g": null,
+          "units_pack": 100,
+          "ean": "733739001078"
+        }
+      },
+      "pending_fields": [],
+      "review_notes": [
+        "1000 mg par gélule ; portion d’étiquette : 3 gélules. Le fabricant indique 1 à 3 gélules par jour ; calcul fondé sur la portion déclarée de 3 gélules. UPC renseigné."
+      ]
+    },
+    "now-foods-glycine-1000-mg-250-gelules": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://fr.iherb.com/pr/now-foods-glycine-1-000-mg-250-veg-capsules/149310",
+        "scope": "Conditionnement, quantité de glycine libre, portion déclarée et composition complète affichés sur la fiche ; certifications et analyses de lot non revérifiées.",
+        "fields": {
+          "form": "glycine libre",
+          "full_label": true,
+          "additives": [
+            "gélule végétale HPMC",
+            "hydroxypropylcellulose",
+            "acide stéarique végétal",
+            "dioxyde de silicium"
+          ],
+          "vegan": true,
+          "units_pack": 250,
+          "units_per_day": 3,
+          "active_per_unit": 1,
+          "active_unit": "g"
+        },
+        "product_identity": {
+          "brand": "NOW Foods",
+          "name": "Glycine 1000 mg",
+          "variant": "250 gélules",
+          "url": "https://fr.iherb.com/pr/now-foods-glycine-1-000-mg-250-veg-capsules/149310",
+          "pack_g": null,
+          "units_pack": 250,
+          "ean": "733739001313"
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://fr.iherb.com/pr/now-foods-glycine-1-000-mg-250-veg-capsules/149310",
+        "scope": "Prix TTC en EUR du conditionnement indiqué, hors livraison, abonnement et code promotionnel.",
+        "price_eur": 30.94,
+        "variant": "250 gélules",
+        "product_identity": {
+          "brand": "NOW Foods",
+          "name": "Glycine 1000 mg",
+          "variant": "250 gélules",
+          "url": "https://fr.iherb.com/pr/now-foods-glycine-1-000-mg-250-veg-capsules/149310",
+          "pack_g": null,
+          "units_pack": 250,
+          "ean": "733739001313"
+        }
+      },
+      "pending_fields": [],
+      "review_notes": [
+        "1000 mg par gélule ; portion d’étiquette : 3 gélules. Le fabricant indique 1 à 3 gélules par jour ; calcul fondé sur la portion déclarée de 3 gélules. UPC renseigné."
+      ]
+    },
+    "nutricost-glycine-en-poudre-454-g": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://fr.iherb.com/pr/nutricost-glycine-unflavored-16-2-oz-454-g/128939",
+        "scope": "Conditionnement, quantité de glycine libre, portion déclarée et composition complète affichés sur la fiche ; certifications et analyses de lot non revérifiées.",
+        "fields": {
+          "form": "glycine libre",
+          "full_label": true,
+          "additives": [],
+          "vegan": true,
+          "pack_g": 454,
+          "serving_g": 3,
+          "active_per_serving_g": 3,
+          "active_per_100g": 100
+        },
+        "product_identity": {
+          "brand": "Nutricost",
+          "name": "Glycine en poudre",
+          "variant": "454 g",
+          "url": "https://fr.iherb.com/pr/nutricost-glycine-unflavored-16-2-oz-454-g/128939",
+          "pack_g": 454,
+          "units_pack": null,
+          "ean": "810014672823"
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://fr.iherb.com/pr/nutricost-glycine-unflavored-16-2-oz-454-g/128939",
+        "scope": "Prix TTC en EUR du conditionnement indiqué, hors livraison, abonnement et code promotionnel.",
+        "price_eur": 37.06,
+        "variant": "454 g",
+        "product_identity": {
+          "brand": "Nutricost",
+          "name": "Glycine en poudre",
+          "variant": "454 g",
+          "url": "https://fr.iherb.com/pr/nutricost-glycine-unflavored-16-2-oz-454-g/128939",
+          "pack_g": 454,
+          "units_pack": null,
+          "ean": "810014672823"
+        }
+      },
+      "pending_fields": [],
+      "review_notes": [
+        "Poudre sans arôme ; 3 g de glycine par dose de 3 g, une dose par jour. Aucun autre ingrédient. L’allégation de tests tiers ne vaut pas certificat de lot revérifié ; UPC renseigné."
+      ]
+    },
+    "nutricost-l-glycine-1000-mg-120-gelules": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://fr.iherb.com/pr/nutricost-l-glycine-1-000-mg-120-capsules/136832",
+        "scope": "Conditionnement, quantité de glycine libre, portion déclarée et composition complète affichés sur la fiche ; certifications et analyses de lot non revérifiées.",
+        "fields": {
+          "form": "glycine libre",
+          "full_label": true,
+          "additives": [
+            "gélule végétale HPMC",
+            "acide stéarique végétal",
+            "extrait de riz",
+            "enveloppes de riz",
+            "gomme arabique",
+            "huile de tournesol",
+            "stéarate de magnésium végétal"
+          ],
+          "units_pack": 120,
+          "units_per_day": 1,
+          "active_per_unit": 1,
+          "active_unit": "g"
+        },
+        "product_identity": {
+          "brand": "Nutricost",
+          "name": "L-Glycine 1000 mg",
+          "variant": "120 gélules",
+          "url": "https://fr.iherb.com/pr/nutricost-l-glycine-1-000-mg-120-capsules/136832",
+          "pack_g": null,
+          "units_pack": 120,
+          "ean": "810014674889"
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://fr.iherb.com/pr/nutricost-l-glycine-1-000-mg-120-capsules/136832",
+        "scope": "Prix TTC en EUR du conditionnement indiqué, hors livraison, abonnement et code promotionnel.",
+        "price_eur": 16.26,
+        "variant": "120 gélules",
+        "product_identity": {
+          "brand": "Nutricost",
+          "name": "L-Glycine 1000 mg",
+          "variant": "120 gélules",
+          "url": "https://fr.iherb.com/pr/nutricost-l-glycine-1-000-mg-120-capsules/136832",
+          "pack_g": null,
+          "units_pack": 120,
+          "ean": "810014674889"
+        }
+      },
+      "pending_fields": [],
+      "review_notes": [
+        "1000 mg de glycine par gélule, une gélule par jour. Mélange d’extraits de riz détaillé en ses constituants sur l’étiquette. Produit annoncé végétarien ; statut vegan non confirmé. UPC renseigné."
+      ]
+    },
+    "carlson-glycine-en-poudre-100-g": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://fr.iherb.com/pr/carlson-glycine-powder-free-form-amino-acid-3-53-oz-100-g/14817",
+        "scope": "Conditionnement, quantité de glycine libre, portion déclarée et composition complète affichés sur la fiche ; certifications et analyses de lot non revérifiées.",
+        "fields": {
+          "form": "glycine libre",
+          "full_label": true,
+          "additives": [],
+          "pack_g": 100,
+          "serving_g": 2,
+          "active_per_serving_g": 2,
+          "active_per_100g": 100
+        },
+        "product_identity": {
+          "brand": "Carlson",
+          "name": "Glycine en poudre",
+          "variant": "100 g",
+          "url": "https://fr.iherb.com/pr/carlson-glycine-powder-free-form-amino-acid-3-53-oz-100-g/14817",
+          "pack_g": 100,
+          "units_pack": null,
+          "ean": "088395068355"
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://fr.iherb.com/pr/carlson-glycine-powder-free-form-amino-acid-3-53-oz-100-g/14817",
+        "scope": "Prix TTC en EUR du conditionnement indiqué, hors livraison, abonnement et code promotionnel.",
+        "price_eur": 9.47,
+        "variant": "100 g",
+        "product_identity": {
+          "brand": "Carlson",
+          "name": "Glycine en poudre",
+          "variant": "100 g",
+          "url": "https://fr.iherb.com/pr/carlson-glycine-powder-free-form-amino-acid-3-53-oz-100-g/14817",
+          "pack_g": 100,
+          "units_pack": null,
+          "ean": "088395068355"
+        }
+      },
+      "pending_fields": [],
+      "review_notes": [
+        "Glycine libre en poudre ; 2 g de glycine par portion de 2 g, 50 portions. Aucun autre ingrédient n’est déclaré sur la composition présentée. UPC renseigné."
+      ]
+    },
+    "swanson-glycine-ajipure-500-mg-60-gelules": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://fr.iherb.com/pr/swanson-vitamins-glycine-500-mg-60-veggie-caps/119518",
+        "scope": "Conditionnement, quantité de glycine libre, portion déclarée et composition complète affichés sur la fiche ; certifications et analyses de lot non revérifiées.",
+        "fields": {
+          "form": "glycine libre",
+          "full_label": true,
+          "additives": [
+            "gélule végétale HPMC",
+            "farine de riz",
+            "stéarate de magnésium",
+            "silice"
+          ],
+          "vegan": true,
+          "units_pack": 60,
+          "units_per_day": 2,
+          "active_per_unit": 0.5,
+          "active_unit": "g"
+        },
+        "product_identity": {
+          "brand": "Swanson",
+          "name": "Glycine AjiPure 500 mg",
+          "variant": "60 gélules",
+          "url": "https://fr.iherb.com/pr/swanson-vitamins-glycine-500-mg-60-veggie-caps/119518",
+          "pack_g": null,
+          "units_pack": 60,
+          "ean": "087614025094"
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://fr.iherb.com/pr/swanson-vitamins-glycine-500-mg-60-veggie-caps/119518",
+        "scope": "Prix TTC en EUR du conditionnement indiqué, hors livraison, abonnement et code promotionnel.",
+        "price_eur": 5.74,
+        "variant": "60 gélules",
+        "product_identity": {
+          "brand": "Swanson",
+          "name": "Glycine AjiPure 500 mg",
+          "variant": "60 gélules",
+          "url": "https://fr.iherb.com/pr/swanson-vitamins-glycine-500-mg-60-veggie-caps/119518",
+          "pack_g": null,
+          "units_pack": 60,
+          "ean": "087614025094"
+        }
+      },
+      "pending_fields": [],
+      "review_notes": [
+        "500 mg de glycine AjiPure par gélule ; 2 gélules par jour. UPC renseigné."
+      ]
+    },
+    "thorne-glycine-500-mg-250-gelules": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://fr.iherb.com/pr/thorne-glycine-250-capsules-500-mg-per-capsule/18505",
+        "scope": "Conditionnement, quantité de glycine libre, portion déclarée et composition complète affichés sur la fiche ; certifications et analyses de lot non revérifiées.",
+        "fields": {
+          "form": "glycine libre",
+          "full_label": true,
+          "additives": [
+            "gélule végétale HPMC",
+            "cellulose en poudre",
+            "laurate de calcium"
+          ],
+          "units_pack": 250,
+          "units_per_day": 2,
+          "active_per_unit": 0.5,
+          "active_unit": "g"
+        },
+        "product_identity": {
+          "brand": "Thorne",
+          "name": "Glycine 500 mg",
+          "variant": "250 gélules",
+          "url": "https://fr.iherb.com/pr/thorne-glycine-250-capsules-500-mg-per-capsule/18505",
+          "pack_g": null,
+          "units_pack": 250,
+          "ean": "693749512028"
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://fr.iherb.com/pr/thorne-glycine-250-capsules-500-mg-per-capsule/18505",
+        "scope": "Prix TTC en EUR du conditionnement indiqué, hors livraison, abonnement et code promotionnel.",
+        "price_eur": 27.95,
+        "variant": "250 gélules",
+        "product_identity": {
+          "brand": "Thorne",
+          "name": "Glycine 500 mg",
+          "variant": "250 gélules",
+          "url": "https://fr.iherb.com/pr/thorne-glycine-250-capsules-500-mg-per-capsule/18505",
+          "pack_g": null,
+          "units_pack": 250,
+          "ean": "693749512028"
+        }
+      },
+      "pending_fields": [],
+      "review_notes": [
+        "500 mg par gélule ; le fabricant indique 2 gélules, 1 à 3 fois par jour. Calcul fondé sur la prise basse de 2 gélules. Le laurate de calcium reste soumis à la revue des excipients. UPC renseigné."
+      ]
+    },
+    "warnke-glycine-en-poudre-500-g": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.warnke.de/fr/Glycine-en-Poudre-500-g-Acide-amine-proteinogene-Vegan-Warnke-Vitalstoffe/30350",
+        "scope": "Conditionnement, quantité de glycine libre, portion déclarée et composition complète affichés sur la fiche ; certifications et analyses de lot non revérifiées.",
+        "fields": {
+          "form": "glycine libre",
+          "full_label": true,
+          "additives": [],
+          "vegan": true,
+          "pack_g": 500,
+          "serving_g": 3,
+          "active_per_serving_g": 3,
+          "active_per_100g": 100
+        },
+        "product_identity": {
+          "brand": "Warnke",
+          "name": "Glycine en poudre",
+          "variant": "500 g",
+          "url": "https://www.warnke.de/fr/Glycine-en-Poudre-500-g-Acide-amine-proteinogene-Vegan-Warnke-Vitalstoffe/30350",
+          "pack_g": 500,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.warnke.de/fr/Glycine-en-Poudre-500-g-Acide-amine-proteinogene-Vegan-Warnke-Vitalstoffe/30350",
+        "scope": "Prix TTC en EUR du conditionnement indiqué, hors livraison, abonnement et code promotionnel.",
+        "price_eur": 15.45,
+        "variant": "500 g",
+        "product_identity": {
+          "brand": "Warnke",
+          "name": "Glycine en poudre",
+          "variant": "500 g",
+          "url": "https://www.warnke.de/fr/Glycine-en-Poudre-500-g-Acide-amine-proteinogene-Vegan-Warnke-Vitalstoffe/30350",
+          "pack_g": 500,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "pending_fields": [],
+      "review_notes": [
+        "Poudre de glycine pure ; portion fabricant de 3 g par jour."
+      ]
+    },
+    "warnke-glycine-500-mg-90-gelules": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.warnke.de/en/Glycine-500-mg-90-Capsules-Easy-to-Swallow-Amino-Acid-High-Dose-Vegan-Warnke-Vitalstoffe/24909",
+        "scope": "Conditionnement, quantité de glycine libre, portion déclarée et composition complète affichés sur la fiche ; certifications et analyses de lot non revérifiées.",
+        "fields": {
+          "form": "glycine libre avec L-leucine",
+          "full_label": true,
+          "additives": [
+            "cellulose microcristalline",
+            "gélule végétale HPMC",
+            "mélange d’extraits de riz"
+          ],
+          "vegan": true,
+          "units_pack": 90,
+          "units_per_day": 4,
+          "active_per_unit": 0.5,
+          "active_unit": "g",
+          "glycine_blend": true,
+          "ingredients_text": "Glycine, agent de charge : cellulose microcristalline, enveloppe : hydroxypropylméthylcellulose, L-leucine, antiagglomérant : mélange d’extraits de riz."
+        },
+        "product_identity": {
+          "brand": "Warnke",
+          "name": "Glycine 500 mg",
+          "variant": "90 gélules",
+          "url": "https://www.warnke.de/en/Glycine-500-mg-90-Capsules-Easy-to-Swallow-Amino-Acid-High-Dose-Vegan-Warnke-Vitalstoffe/24909",
+          "pack_g": null,
+          "units_pack": 90,
+          "ean": null
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.warnke.de/en/Glycine-500-mg-90-Capsules-Easy-to-Swallow-Amino-Acid-High-Dose-Vegan-Warnke-Vitalstoffe/24909",
+        "scope": "Prix TTC en EUR du conditionnement indiqué, hors livraison, abonnement et code promotionnel.",
+        "price_eur": 12.95,
+        "variant": "90 gélules",
+        "product_identity": {
+          "brand": "Warnke",
+          "name": "Glycine 500 mg",
+          "variant": "90 gélules",
+          "url": "https://www.warnke.de/en/Glycine-500-mg-90-Capsules-Easy-to-Swallow-Amino-Acid-High-Dose-Vegan-Warnke-Vitalstoffe/24909",
+          "pack_g": null,
+          "units_pack": 90,
+          "ean": null
+        }
+      },
+      "pending_fields": [],
+      "review_notes": [
+        "4 gélules apportent 2 g de glycine et 80 mg de L-leucine, selon le tableau nutritionnel actuel du fabricant. La L-leucine est un nutriment déclaré séparément et n’est pas ajoutée à la quantité de glycine. Composition complète conservée dans ingredients_text."
+      ]
+    },
+    "vit-all-l-glycine-en-poudre-150-g": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.herboristerieduvalmont.com/acides-amines/4586-l-glycine-en-poudre-150-gr-vitall-3700195677526.html",
+        "scope": "Conditionnement, quantité de glycine libre, portion déclarée et composition complète affichés sur la fiche ; certifications et analyses de lot non revérifiées.",
+        "fields": {
+          "form": "glycine libre",
+          "full_label": true,
+          "additives": [],
+          "pack_g": 150,
+          "serving_g": 5,
+          "active_per_serving_g": 5,
+          "active_per_100g": 100
+        },
+        "product_identity": {
+          "brand": "Vit’all+",
+          "name": "L-Glycine en poudre",
+          "variant": "150 g",
+          "url": "https://www.herboristerieduvalmont.com/acides-amines/4586-l-glycine-en-poudre-150-gr-vitall-3700195677526.html",
+          "pack_g": 150,
+          "units_pack": null,
+          "ean": "3700195677526"
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.herboristerieduvalmont.com/acides-amines/4586-l-glycine-en-poudre-150-gr-vitall-3700195677526.html",
+        "scope": "Prix TTC en EUR du conditionnement indiqué, hors livraison, abonnement et code promotionnel.",
+        "price_eur": 19.34,
+        "variant": "150 g",
+        "product_identity": {
+          "brand": "Vit’all+",
+          "name": "L-Glycine en poudre",
+          "variant": "150 g",
+          "url": "https://www.herboristerieduvalmont.com/acides-amines/4586-l-glycine-en-poudre-150-gr-vitall-3700195677526.html",
+          "pack_g": 150,
+          "units_pack": null,
+          "ean": "3700195677526"
+        }
+      },
+      "pending_fields": [],
+      "review_notes": [
+        "Composition affichée : 5 g de glycine pour une cuillère doseuse graduée à 6, une cuillère par jour. La graduation correspond à la cuillère, et non à un poids de 6 g."
+      ]
+    },
+    "nature-s-life-glycine-en-poudre-400-g": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://fr.iherb.com/pr/nature-s-life-glycine-powder-14-oz-400-g/130815",
+        "scope": "Composition complète et glycine libre par portion. Conditionnement contrôlé sur la fiche de vente, même référence fabricant. Certifications et analyses de lot non revérifiées.",
+        "fields": {
+          "form": "glycine libre",
+          "full_label": true,
+          "additives": [],
+          "pack_g": 400,
+          "serving_g": 1,
+          "active_per_serving_g": 1,
+          "active_per_100g": 100
+        },
+        "product_identity": {
+          "brand": "Nature's Life",
+          "name": "Glycine en poudre",
+          "variant": "400 g",
+          "url": "https://fr.iherb.com/pr/nature-s-life-glycine-powder-14-oz-400-g/130815",
+          "pack_g": 400,
+          "units_pack": null,
+          "ean": "040647282605"
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://fr.iherb.com/pr/nature-s-life-glycine-powder-14-oz-400-g/130815",
+        "scope": "Prix TTC du conditionnement indiqué, consulté le 13 octobre 2026, hors livraison, abonnement et code promotionnel.",
+        "price_eur": 19.26,
+        "variant": "400 g",
+        "product_identity": {
+          "brand": "Nature's Life",
+          "name": "Glycine en poudre",
+          "variant": "400 g",
+          "url": "https://fr.iherb.com/pr/nature-s-life-glycine-powder-14-oz-400-g/130815",
+          "pack_g": 400,
+          "units_pack": null,
+          "ean": "040647282605"
+        }
+      },
+      "pending_fields": [],
+      "review_notes": [
+        "Une portion de 1/4 de cuillère à café apporte 1 g de glycine libre ; 400 portions par pot. Aucun autre ingrédient. Une portion par jour selon le fabricant. UPC renseigné."
+      ]
+    },
+    "swanson-glycine-en-poudre-227-g": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://fr.iherb.com/pr/swanson-vitamins-glycine-powder-8-oz-227-g/118150",
+        "scope": "Composition complète et glycine libre par portion. Conditionnement contrôlé sur la fiche de vente, même référence fabricant. Certifications et analyses de lot non revérifiées.",
+        "fields": {
+          "form": "glycine libre",
+          "full_label": true,
+          "additives": [],
+          "vegan": true,
+          "pack_g": 227,
+          "serving_g": 1,
+          "active_per_serving_g": 1,
+          "active_per_100g": 100
+        },
+        "product_identity": {
+          "brand": "Swanson",
+          "name": "Glycine en poudre",
+          "variant": "227 g",
+          "url": "https://fr.iherb.com/pr/swanson-vitamins-glycine-powder-8-oz-227-g/118150",
+          "pack_g": 227,
+          "units_pack": null,
+          "ean": "087614025155"
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://fr.iherb.com/pr/swanson-vitamins-glycine-powder-8-oz-227-g/118150",
+        "scope": "Prix TTC du conditionnement indiqué, consulté le 13 octobre 2026, hors livraison, abonnement et code promotionnel.",
+        "price_eur": 21.21,
+        "variant": "227 g",
+        "product_identity": {
+          "brand": "Swanson",
+          "name": "Glycine en poudre",
+          "variant": "227 g",
+          "url": "https://fr.iherb.com/pr/swanson-vitamins-glycine-powder-8-oz-227-g/118150",
+          "pack_g": 227,
+          "units_pack": null,
+          "ean": "087614025155"
+        }
+      },
+      "pending_fields": [],
+      "review_notes": [
+        "Poudre de glycine pure ; une mesure de 1 g apporte 1 g de glycine. 227 portions par pot. La formule actuelle ne déclare pas AjiPure sur le tableau nutritionnel présenté. UPC renseigné."
+      ]
+    },
+    "force-factor-glycine-1000-mg-100-gelules": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://fr.iherb.com/pr/force-factor-glycine-100-vegetable-capsules-1-000-mg-per-capsule/144899",
+        "scope": "Composition complète et glycine libre par portion. Conditionnement contrôlé sur la fiche de vente, même référence fabricant. Certifications et analyses de lot non revérifiées.",
+        "fields": {
+          "form": "glycine libre",
+          "full_label": true,
+          "additives": [
+            "gélule végétale HPMC",
+            "stéarate de magnésium végétal"
+          ],
+          "vegan": true,
+          "units_pack": 100,
+          "units_per_day": 3,
+          "active_per_unit": 1,
+          "active_unit": "g"
+        },
+        "product_identity": {
+          "brand": "Force Factor",
+          "name": "Glycine 1000 mg",
+          "variant": "100 gélules",
+          "url": "https://fr.iherb.com/pr/force-factor-glycine-100-vegetable-capsules-1-000-mg-per-capsule/144899",
+          "pack_g": null,
+          "units_pack": 100,
+          "ean": "810126661838"
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://fr.iherb.com/pr/force-factor-glycine-100-vegetable-capsules-1-000-mg-per-capsule/144899",
+        "scope": "Prix TTC du conditionnement indiqué, consulté le 13 octobre 2026, hors livraison, abonnement et code promotionnel.",
+        "price_eur": 11.26,
+        "variant": "100 gélules",
+        "product_identity": {
+          "brand": "Force Factor",
+          "name": "Glycine 1000 mg",
+          "variant": "100 gélules",
+          "url": "https://fr.iherb.com/pr/force-factor-glycine-100-vegetable-capsules-1-000-mg-per-capsule/144899",
+          "pack_g": null,
+          "units_pack": 100,
+          "ean": "810126661838"
+        }
+      },
+      "pending_fields": [],
+      "review_notes": [
+        "Portion déclarée de 3 gélules : 3 g de glycine. Le fabricant conseille 1 à 3 gélules par jour ; calcul fondé sur la portion déclarée. UPC renseigné."
+      ]
+    },
+    "bulk-glycine-en-poudre-500-g": {
+      "checked_on": "2026-10-13",
+      "label": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.bulk.com/fr/products/glycine-acide-aminoacetique/bpb-lgly-0000",
+        "scope": "Composition complète et glycine libre par portion. Conditionnement contrôlé sur la fiche de vente, même référence fabricant. Certifications et analyses de lot non revérifiées.",
+        "fields": {
+          "form": "glycine libre",
+          "full_label": true,
+          "additives": [],
+          "vegan": true,
+          "pack_g": 500,
+          "serving_g": 2,
+          "active_per_serving_g": 2,
+          "active_per_100g": 100
+        },
+        "product_identity": {
+          "brand": "Bulk",
+          "name": "Glycine en poudre",
+          "variant": "500 g",
+          "url": "https://www.u-buy.be/en/productuk/1A5EZEZA2-bulk-glycine-powder-500-g",
+          "pack_g": 500,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "price": {
+        "checked_on": "2026-10-13",
+        "source_url": "https://www.u-buy.be/en/productuk/1A5EZEZA2-bulk-glycine-powder-500-g",
+        "scope": "Prix affiché en EUR consulté le 13 octobre 2026 pour le sachet de 500 g sur Ubuy Belgique. Import Royaume-Uni, hors livraison, frais de douane et éventuelles taxes ; ce prix ne représente pas le coût livré en France.",
+        "price_eur": 11.0,
+        "variant": "500 g",
+        "product_identity": {
+          "brand": "Bulk",
+          "name": "Glycine en poudre",
+          "variant": "500 g",
+          "url": "https://www.u-buy.be/en/productuk/1A5EZEZA2-bulk-glycine-powder-500-g",
+          "pack_g": 500,
+          "units_pack": null,
+          "ean": null
+        }
+      },
+      "pending_fields": [],
+      "review_notes": [
+        "Référence fabricant BPB-LGLY-0000-0500, sachet de 500 g. Composition fabricant : glycine uniquement ; 2 g par portion, 1 à 2 portions par jour. Offre import Royaume-Uni sur Ubuy Belgique ; disponibilité et coût final vers la France à confirmer au panier."
+      ]
+    }
+  }
+}

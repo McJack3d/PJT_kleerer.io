@@ -2,16 +2,18 @@
 
 **The independent supplement comparator — score the label, price the active.**
 
-First product of the n3gh. roadmap. Every supplement gets a transparent **Health & Compo Score** (0–100, grades A–E) computed from its label and public proofs, a price per gram of *actual* active, a **personalised dosage check** against your own targets, and a **stack builder** (p2, beta) that sums whatever you combine — built-in secondary actives included — and warns when the total quietly crosses an EU upper limit. **696 real products across 25 categories** — whey, creatine, vitamin D3, magnesium, omega-3, multivitamin, zinc, vitamin C, collagen, probiotics, melatonin, vitamin B12, vitamin K2, B-complex, biotin, folate, iron, potassium, plus four botanicals shown apart in purple (ashwagandha, maca, rhodiola, curcumin) and three testosterone boosters shown in teal (tribulus, fenugreek, ZMA) — EU with a French-market focus, each record retains its own observation dates; the latest 9 October 2026 French-brand expansion is documented in [the audit](AUDIT-FR-2026-10-09.md). What each one is actually good for, graded on the trials, is on [`evidence/`](evidence/). No sponsors, no affiliate links, no paid placements.
+First product of the n3gh. roadmap. Every supplement gets a transparent **Health & Compo Score** (0–100, grades A–E) computed from its label and public proofs, a price per gram of *actual* active, a **personalised dosage check** against your own targets, and a **stack builder** (p2, beta) that sums whatever you combine — built-in secondary actives included — and warns when the total quietly crosses an EU upper limit. **753 real products across 26 categories** — whey, creatine, vitamin D3, magnesium, omega-3, multivitamin, zinc, vitamin C, collagen, probiotics, melatonin, glycine, vitamin B12, vitamin K2, B-complex, biotin, folate, iron, potassium, plus four botanicals shown apart in purple (ashwagandha, maca, rhodiola, curcumin) and three testosterone boosters shown in teal (tribulus, fenugreek, ZMA) — EU with a French-market focus, each record retains its own observation dates; the 13 October glycine expansion adds 57 variants from 30 brands ([audit and remaining candidates](AUDIT-GLYCINE-2026-10-13.md)); the earlier French-brand expansion is documented in [its audit](AUDIT-FR-2026-10-09.md). What each one is actually good for, graded on the trials, is on [`evidence/`](evidence/). No sponsors, no affiliate links, no paid placements.
 
 ## Run it
 
-No build step, no server needed — open `compare/index.html` in any browser, or visit `/compare/` on the hosted site (GitHub Pages serves it automatically from this folder).
+No runtime dependencies — visit `/` on the hosted site, or serve the repository locally with `python3 -m http.server 8000` and open `http://localhost:8000/`. The root `index.html` is generated from `compare/index.html`; `/compare/` remains a working alias so existing filter and methodology links continue to work. The project presentation is at `/about/`.
 
 ## What's inside
 
 ```
-index.html                the app (single file, vanilla JS, zero runtime deps)
+index.html                app source and legacy /compare/ alias (vanilla JS)
+../index.html             generated comparator homepage — do not edit
+../about/index.html       project presentation; category index refreshed by generator
 i18n.js                   UI translations (en/fr) + browser-language detection
 en/, fr/                  prerendered per-language routes (generated — do not edit)
 data.js                   generated dataset with scores — do not edit by hand
@@ -19,7 +21,7 @@ data/products_raw.json    curated source (v1, coded): 37 EU products, each with 
 data/fr/*.json            French-market source (dated batches, free-text labels)
 scripts/autotag.py        auto-tagger: free-text label → coded tags + form tiers
 scripts/build_scores.py   scoring engine — normalizes + scores → data.js
-scripts/build_pages.py    prerenders /compare/en/ and /compare/fr/ for crawlers
+scripts/build_pages.py    builds /, /compare/en/, /compare/fr/ and category pages
 METHODOLOGY.md            full Health & Compo Score methodology (v1.1)
 pipeline/                 the data collection pipeline (the moat) — see pipeline/README.md
 ```
@@ -28,8 +30,8 @@ pipeline/                 the data collection pipeline (the moat) — see pipeli
 
 1. Add/fix a product: edit `data/products_raw.json` (coded schema) **or** drop a line in `data/fr/*.json` (plain label — the auto-tagger codes it for you).
 2. Rebuild: `python3 scripts/build_scores.py` (stdlib only, Python ≥ 3.8).
-3. Refresh the prerendered routes: `python3 scripts/build_pages.py`.
-4. Reload `index.html`.
+3. Refresh the homepage, project index and prerendered routes: `python3 scripts/build_pages.py`.
+4. Reload `/` on your local server.
 
 The script validates every score range, rejects duplicate ids, and prints the full ranking so regressions are visible at a glance.
 
@@ -47,17 +49,19 @@ The app and the score can be cloned quickly. The [`pipeline/`](pipeline/) can't 
 
 The interface is bilingual (English / French). The language comes from the browser's own
 `navigator.language`, with a manual toggle in the header that wins and is remembered in
-`localStorage` (shared with the root page). **We never geolocate the visitor's IP**: that
+`localStorage` (shared with the project and evidence pages). **We never geolocate the visitor's IP**: that
 would mean sending their address to a third-party service — breaking the zero-dependency,
 no-external-request design — and it answers the wrong question anyway, since a French
 speaker in London wants French.
 
-`scripts/build_pages.py` prerenders **`/compare/en/` and `/compare/fr/`** so crawlers see a
+`scripts/build_pages.py` generates the **`/` homepage** and prerenders **`/compare/en/`
+and `/compare/fr/`** so crawlers see a
 translated `<title>`, meta description, Open Graph tags and `<html lang>` without running
-any JavaScript. All three URLs carry a reciprocal `hreflang` set; `/compare/` is the
+any JavaScript. All three canonical URLs carry a reciprocal `hreflang` set; `/` is the
 `x-default` that negotiates client-side, and each language route is canonical to itself.
+The `/compare/` alias points its canonical to `/` and is omitted from the sitemap.
 On a prerendered route the URL wins over the stored preference, and the toggle navigates
-to the sibling route so the page never contradicts its own canonical tag.
+to the sibling route, preserving query strings and filter/modal fragments.
 
 One honest limit: translation covers the **interface**. Product-level editorial fields in
 the dataset (`notes`, `flags`, `form_note`, `price_note`) stay in the language they were

@@ -122,11 +122,14 @@ def dose_score(p):
     raise ValueError(f"No dose rule for {c}")
 
 # --------------------------------------------------------------------------- #
-#  Value metrics — normalised to a standard daily dose per category. §Value.
+#  Value metrics — normalised to a comparison amount per category. §Value.
 # --------------------------------------------------------------------------- #
 STD = {
     "whey":        {"amount": 25,   "label": "€ / 25 g protein"},
     "creatine":    {"amount": 3,    "label": "€ / 3 g creatine"},
+    # The 3 g sleep-trial amount is a comparison convention, not an NRV or
+    # a generally recommended daily intake. Active amounts are always grams.
+    "glycine":     {"amount": 3,    "label": "€ / 3 g glycine"},
     "vitamin_d3":  {"amount": 1000, "label": "€ / 1000 IU"},
     "magnesium":   {"amount": 300,  "label": "€ / 300 mg Mg"},
     "omega3":      {"amount": 500,  "label": "€ / 500 mg EPA+DHA"},
@@ -287,7 +290,7 @@ def normalize(entry):
         else:
             p["collagen_g_day"] = entry.get("active_per_unit",0) * entry.get("units_per_day",1)
     # dose tier for override categories
-    if c in ("zinc","vitamin_c","collagen","probiotics","melatonin",
+    if c in ("glycine","zinc","vitamin_c","collagen","probiotics","melatonin",
              "ashwagandha","maca","rhodiola","curcumin",
              "vitamin_b12","vitamin_k2","biotin","folate","tribulus","fenugreek","zma",
              "iron","calcium","iodine","selenium","chromium","potassium"):

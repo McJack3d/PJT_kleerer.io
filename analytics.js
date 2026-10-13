@@ -15,7 +15,7 @@
 
   // Only published pages, never arbitrary paths or user-entered URL content.
   var pages = {
-    "/": "Home", "/compare/": "Compare", "/compare/en/": "Compare EN",
+    "/": "Compare", "/about/": "About", "/compare/": "Compare", "/compare/en/": "Compare EN",
     "/compare/fr/": "Compare FR", "/compare/evidence/": "Evidence",
     "/terms/": "Terms", "/bot/": "Bot"
   };

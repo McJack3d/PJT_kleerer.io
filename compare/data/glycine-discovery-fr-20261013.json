@@ -1,0 +1,44 @@
+{
+  "checked_on": "2026-10-13",
+  "scope": "Recherche marques françaises : glycine libre dédiée, poudres et gélules ; aucun collagène ou chélate minéral compté comme glycine.",
+  "published_variant_count": 24,
+  "candidates": [
+    {
+      "brand": "Nutrixeal",
+      "name": "Glycine en poudre",
+      "variant": "neutre · 1000 g",
+      "url": "https://www.nutrixeal.fr/126-glycine-100-pure-en-poudre-hydrosoluble.html",
+      "reason": "Format 1 kg et composition vérifiés ; prix fabricant 12,90 € lié à GLYP250. Recherche ciblée fabricant, boutique professionnelle, Solutions Naturelles et pharmacies sans prix propre au 1 kg. Aucun prix du 250 g transféré au 1 kg.",
+      "checked_sources": [
+        "https://www.nutrixeal.fr/126-glycine-100-pure-en-poudre-hydrosoluble.html",
+        "https://nutrixeal-pro.fr/articulations/126-glycine-100-pure-en-poudre-hydrosoluble.html",
+        "https://www.solutions-naturelles.fr/articulations/126-glycine-100-pure-en-poudre-hydrosoluble.html",
+        "https://www.vidal.fr/parapharmacie/nutrixeal-glycine-pdre-220309.html",
+        "https://www.mesoigner.fr/medicament-produit-parapharmacie/113256-nutrixeal-glycine-poudre-ydrosoluble"
+      ]
+    },
+    {
+      "brand": "AM Nutrition",
+      "name": "PURE Glycine",
+      "variant": "neutre · 3 × 500 g",
+      "url": "https://www.amnutrition.fr/products/glycine",
+      "reason": "Lot proposé et remise annoncée ; prix total non observé. Ne pas calculer un prix présenté comme une offre vérifiée."
+    },
+    {
+      "brand": "Nutrielement",
+      "name": "Glycine Cristallisée",
+      "variant": "400 gélules",
+      "url": "https://www.optigura.fr/product/glycine-cristallisee-nutrimuscle",
+      "reason": "Ancienne référence citée chez des distributeurs sous Nutrielement et Nutrimuscle ; identité actuelle et disponibilité de ce format non établies. Ne pas dupliquer avec Nutrimuscle actuel."
+    }
+  ],
+  "brands_searched_without_dedicated_product": [
+    "Nutrivie",
+    "Nutriprix"
+  ],
+  "limitations": [
+    "Catalogue observé à cette date, sans garantie d’exhaustivité du marché.",
+    "Les références candidates ne sont pas publiées avec un prix supposé.",
+    "Les certifications et analyses de lots ne sont pas validées par cette collecte."
+  ]
+}
